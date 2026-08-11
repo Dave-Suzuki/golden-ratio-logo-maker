@@ -167,6 +167,7 @@ function serialize(visible: Map<string, paperTypes.Item[]>, plan: ConstructionPl
   const paths: MarkPath[] = [];
   let nodeCount = 0;
   const weight = plan.style.strokeStep !== null ? strokeWeight(plan.style.strokeStep) : undefined;
+  let bx1 = Infinity, by1 = Infinity, bx2 = -Infinity, by2 = -Infinity;
 
   for (const [, group] of visible) {
     for (const item of group) {
@@ -182,9 +183,22 @@ function serialize(visible: Map<string, paperTypes.Item[]>, plan: ConstructionPl
       if (role === 'stroke') path.strokeWidth = weight ?? strokeWeight(-3);
       paths.push(path);
       nodeCount += countNodes(pathItem);
+      const b = item.bounds;
+      const pad = role === 'stroke' ? (path.strokeWidth ?? 0) / 2 : 0;
+      bx1 = Math.min(bx1, b.x - pad);
+      by1 = Math.min(by1, b.y - pad);
+      bx2 = Math.max(bx2, b.x + b.width + pad);
+      by2 = Math.max(by2, b.y + b.height + pad);
     }
   }
-  return { paths, nodeCount };
+  const bounds = Number.isFinite(bx1)
+    ? { x: round3(bx1), y: round3(by1), w: round3(bx2 - bx1), h: round3(by2 - by1) }
+    : { x: 0, y: 0, w: 1000, h: 1000 };
+  return { paths, nodeCount, bounds };
+}
+
+function round3(n: number): number {
+  return Number(n.toFixed(3));
 }
 
 function isOpen(item: paperTypes.PathItem): boolean {

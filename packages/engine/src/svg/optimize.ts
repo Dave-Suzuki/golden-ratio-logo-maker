@@ -16,7 +16,7 @@ export function optimizeMark(mark: MarkPaths): MarkPaths {
       merged.push({ ...p });
     }
   }
-  return { paths: merged, nodeCount: mark.nodeCount };
+  return { paths: merged, nodeCount: mark.nodeCount, bounds: mark.bounds };
 }
 
 export function roundPathData(d: string): string {

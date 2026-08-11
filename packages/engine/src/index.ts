@@ -5,7 +5,7 @@ export * from './lattice';
 export * from './validate';
 export * from './render/types';
 export { renderPlan, strokeWeight, stepLabel } from './render/renderPlan';
-export { emitSvg, emitVariant, type EmitOptions, type Variant } from './svg/emit';
+export { emitSvg, emitVariant, fitViewBox, type EmitOptions, type Variant } from './svg/emit';
 export { optimizeMark, roundPathData } from './svg/optimize';
 export { mulberry32, hashString, makeRng, type Rng } from './generate/prng';
 export { buildSlots, preferredFamily, type GenerationSlot, type AbstractionBand } from './generate/slots';

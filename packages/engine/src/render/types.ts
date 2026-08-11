@@ -10,6 +10,8 @@ export interface MarkPath {
 export interface MarkPaths {
   paths: MarkPath[];
   nodeCount: number;
+  /** union bounding box of all paths (stroke extents included), canvas units */
+  bounds: { x: number; y: number; w: number; h: number };
 }
 
 export interface GuideCircle {
