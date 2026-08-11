@@ -1,0 +1,16 @@
+{
+  "name": "kiwari",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kiwari — a logo & icon tool where every mark is constructed, not generated",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/web",
+    "build": "npm run build -w apps/web",
+    "test": "npm test -w packages/engine",
+    "typecheck": "npm run typecheck -w packages/engine && npm run typecheck -w apps/web"
+  }
+}
