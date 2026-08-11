@@ -94,6 +94,17 @@ export function ExportDialog() {
         >
           {busy === 'pdf' ? '…' : 'PDF'}
         </button>
+        <button
+          className={rowBtn}
+          disabled={!paid}
+          title="opens a print-styled page — save as PDF from the browser"
+          onClick={() => {
+            window.sessionStorage.setItem('kiwari-sheet', JSON.stringify({ plan: workingPlan, brief, seed }));
+            window.open('/sheet', '_blank');
+          }}
+        >
+          Construction sheet
+        </button>
       </div>
       {!paid && (
         <p className="mt-2 text-xs opacity-60">
