@@ -18,6 +18,8 @@ export {
   NEAR_DUPLICATE_THRESHOLD,
   type PlanDescriptor,
 } from './generate/diversity';
+export { applyDelta, centerAnchor, nearestAnchor, type DeltaResult } from './refine/applyDelta';
+export { fallbackNlEdit } from './refine/nlEdit';
 export { rationaleFor } from './rationale';
 export { analyzeLegibility, CHECK_SIZES, type LegibilityFlag } from './analyze';
 export {
