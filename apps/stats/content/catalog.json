@@ -1,0 +1,370 @@
+[
+ {
+  "number": 1,
+  "title": "Sampling and Data",
+  "sections": [
+   {
+    "id": "1.1",
+    "title": "Definitions of Statistics, Probability, and Key Terms",
+    "module": "m46909"
+   },
+   {
+    "id": "1.2",
+    "title": "Data, Sampling, and Variation in Data and Sampling",
+    "module": "m46885"
+   },
+   {
+    "id": "1.3",
+    "title": "Frequency, Frequency Tables, and Levels of Measurement",
+    "module": "m46882"
+   },
+   {
+    "id": "1.4",
+    "title": "Experimental Design and Ethics",
+    "module": "m46919"
+   }
+  ]
+ },
+ {
+  "number": 2,
+  "title": "Descriptive Statistics",
+  "sections": [
+   {
+    "id": "2.1",
+    "title": "Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs",
+    "module": "m46934"
+   },
+   {
+    "id": "2.2",
+    "title": "Histograms, Frequency Polygons, and Time Series Graphs",
+    "module": "m46924"
+   },
+   {
+    "id": "2.3",
+    "title": "Measures of the Location of the Data",
+    "module": "m46930"
+   },
+   {
+    "id": "2.4",
+    "title": "Box Plots",
+    "module": "m46920"
+   },
+   {
+    "id": "2.5",
+    "title": "Measures of the Center of the Data",
+    "module": "m46928"
+   },
+   {
+    "id": "2.6",
+    "title": "Skewness and the Mean, Median, and Mode",
+    "module": "m46931"
+   },
+   {
+    "id": "2.7",
+    "title": "Measures of the Spread of the Data",
+    "module": "m46922"
+   }
+  ]
+ },
+ {
+  "number": 3,
+  "title": "Probability Topics",
+  "sections": [
+   {
+    "id": "3.1",
+    "title": "Terminology",
+    "module": "m46942"
+   },
+   {
+    "id": "3.2",
+    "title": "Independent and Mutually Exclusive Events",
+    "module": "m46948"
+   },
+   {
+    "id": "3.3",
+    "title": "Two Basic Rules of Probability",
+    "module": "m46947"
+   },
+   {
+    "id": "3.4",
+    "title": "Contingency Tables",
+    "module": "m46935"
+   },
+   {
+    "id": "3.5",
+    "title": "Tree and Venn Diagrams",
+    "module": "m46944"
+   }
+  ]
+ },
+ {
+  "number": 4,
+  "title": "Discrete Random Variables",
+  "sections": [
+   {
+    "id": "4.1",
+    "title": "Probability Distribution Function (PDF) for a Discrete Random Variable",
+    "module": "m46963"
+   },
+   {
+    "id": "4.2",
+    "title": "Mean or Expected Value and Standard Deviation",
+    "module": "m46959"
+   },
+   {
+    "id": "4.3",
+    "title": "Binomial Distribution",
+    "module": "m46950"
+   },
+   {
+    "id": "4.4",
+    "title": "Geometric Distribution",
+    "module": "m46953"
+   },
+   {
+    "id": "4.5",
+    "title": "Hypergeometric Distribution",
+    "module": "m46964"
+   },
+   {
+    "id": "4.6",
+    "title": "Poisson Distribution",
+    "module": "m46961"
+   }
+  ]
+ },
+ {
+  "number": 5,
+  "title": "Continuous Random Variables",
+  "sections": [
+   {
+    "id": "5.1",
+    "title": "Continuous Probability Functions",
+    "module": "m46965"
+   },
+   {
+    "id": "5.2",
+    "title": "The Uniform Distribution",
+    "module": "m46972"
+   },
+   {
+    "id": "5.3",
+    "title": "The Exponential Distribution",
+    "module": "m46969"
+   }
+  ]
+ },
+ {
+  "number": 6,
+  "title": "The Normal Distribution",
+  "sections": [
+   {
+    "id": "6.1",
+    "title": "The Standard Normal Distribution",
+    "module": "m46980"
+   },
+   {
+    "id": "6.2",
+    "title": "Using the Normal Distribution",
+    "module": "m46973"
+   }
+  ]
+ },
+ {
+  "number": 7,
+  "title": "The Central Limit Theorem",
+  "sections": [
+   {
+    "id": "7.1",
+    "title": "The Central Limit Theorem for Sample Means (Averages)",
+    "module": "m46994"
+   },
+   {
+    "id": "7.2",
+    "title": "The Central Limit Theorem for Sums",
+    "module": "m46997"
+   },
+   {
+    "id": "7.3",
+    "title": "Using the Central Limit Theorem",
+    "module": "m46992"
+   }
+  ]
+ },
+ {
+  "number": 8,
+  "title": "Confidence Intervals",
+  "sections": [
+   {
+    "id": "8.1",
+    "title": "A Single Population Mean using the Normal Distribution",
+    "module": "m47002"
+   },
+   {
+    "id": "8.2",
+    "title": "A Single Population Mean using the Student t Distribution",
+    "module": "m47001"
+   },
+   {
+    "id": "8.3",
+    "title": "A Population Proportion",
+    "module": "m46999"
+   }
+  ]
+ },
+ {
+  "number": 9,
+  "title": "Hypothesis Testing with One Sample",
+  "sections": [
+   {
+    "id": "9.1",
+    "title": "Null and Alternative Hypotheses",
+    "module": "m47033"
+   },
+   {
+    "id": "9.2",
+    "title": "Outcomes and the Type I and Type II Errors",
+    "module": "m47029"
+   },
+   {
+    "id": "9.3",
+    "title": "Probability Distribution Needed for Hypothesis Testing",
+    "module": "m47036"
+   },
+   {
+    "id": "9.4",
+    "title": "Rare Events, the Sample, Decision and Conclusion",
+    "module": "m47044"
+   },
+   {
+    "id": "9.5",
+    "title": "Additional Information and Full Hypothesis Test Examples",
+    "module": "m47019"
+   }
+  ]
+ },
+ {
+  "number": 10,
+  "title": "Hypothesis Testing with Two Samples",
+  "sections": [
+   {
+    "id": "10.1",
+    "title": "Two Population Means with Unknown Standard Deviations",
+    "module": "m47050"
+   },
+   {
+    "id": "10.2",
+    "title": "Two Population Means with Known Standard Deviations",
+    "module": "m47061"
+   },
+   {
+    "id": "10.3",
+    "title": "Comparing Two Independent Population Proportions",
+    "module": "m47060"
+   },
+   {
+    "id": "10.4",
+    "title": "Matched or Paired Samples",
+    "module": "m47045"
+   }
+  ]
+ },
+ {
+  "number": 11,
+  "title": "The Chi-Square Distribution",
+  "sections": [
+   {
+    "id": "11.1",
+    "title": "Facts About the Chi-Square Distribution",
+    "module": "m47062"
+   },
+   {
+    "id": "11.2",
+    "title": "Goodness-of-Fit Test",
+    "module": "m47064"
+   },
+   {
+    "id": "11.3",
+    "title": "Test of Independence",
+    "module": "m47077"
+   },
+   {
+    "id": "11.4",
+    "title": "Test for Homogeneity",
+    "module": "m47091"
+   },
+   {
+    "id": "11.5",
+    "title": "Comparison of the Chi-Square Tests",
+    "module": "m47082"
+   },
+   {
+    "id": "11.6",
+    "title": "Test of a Single Variance",
+    "module": "m47085"
+   }
+  ]
+ },
+ {
+  "number": 12,
+  "title": "Linear Regression and Correlation",
+  "sections": [
+   {
+    "id": "12.1",
+    "title": "Linear Equations",
+    "module": "m47100"
+   },
+   {
+    "id": "12.2",
+    "title": "Scatter Plots",
+    "module": "m47109"
+   },
+   {
+    "id": "12.3",
+    "title": "The Regression Equation",
+    "module": "m47117"
+   },
+   {
+    "id": "12.4",
+    "title": "Testing the Significance of the Correlation Coefficient",
+    "module": "m47111"
+   },
+   {
+    "id": "12.5",
+    "title": "Prediction",
+    "module": "m47105"
+   },
+   {
+    "id": "12.6",
+    "title": "Outliers",
+    "module": "m47107"
+   }
+  ]
+ },
+ {
+  "number": 13,
+  "title": "F Distribution and One-Way ANOVA",
+  "sections": [
+   {
+    "id": "13.1",
+    "title": "One-Way ANOVA",
+    "module": "m47124"
+   },
+   {
+    "id": "13.2",
+    "title": "The F Distribution and the F-Ratio",
+    "module": "m47128"
+   },
+   {
+    "id": "13.3",
+    "title": "Facts About the F Distribution",
+    "module": "m47119"
+   },
+   {
+    "id": "13.4",
+    "title": "Test of Two Variances",
+    "module": "m47125"
+   }
+  ]
+ }
+]

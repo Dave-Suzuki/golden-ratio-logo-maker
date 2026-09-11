@@ -1,0 +1,2098 @@
+[
+ {
+  "id": "tryit-m47033-0",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "A medical trial is conducted to test whether or not a new medicine reduces cholesterol by 25%. State the null and alternative hypotheses.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "eip-665",
+   "ref": "Try It 9.1"
+  },
+  "modelSolution": "H0 : The drug reduces cholesterol by 25%.  = 0.25\nHa : The drug does not reduce cholesterol by 25%.  ≠ 0.25",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47033-1",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "fs-idm576512",
+   "ref": "Try It 9.2"
+  },
+  "modelSolution": "H0 : μ = 66\nHa : μ ≠ 66",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47033-2",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "fs-idm2856320",
+   "ref": "Try It 9.3"
+  },
+  "modelSolution": "H0: μ ≥ 45\nHa: μ < 45",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47033-3",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "On a state driver’s test, about 40% pass the test on the first try. We want to test if more than 40% pass on the first try. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "fs-idm126344352",
+   "ref": "Try It 9.4"
+  },
+  "modelSolution": "H0: p = 0.40\nHa: p > 0.40",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-eip-350",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "You are testing that the mean speed of your cable Internet connection is more than three Megabits per second. What is the random variable? Describe in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "eip-350"
+  },
+  "modelSolution": "The random variable is the mean Internet speed in Megabits per second.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-eip-629",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "The American family has an average of two children. What is the random variable? Describe in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "eip-629"
+  },
+  "modelSolution": "The random variable is the mean number of children an American family has.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-eip-334",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "A sociologist claims the probability that a person picked at random in Times Square in New York City is visiting the area is 0.83. You want to test to see if the proportion is actually less. What is the random variable? Describe in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "eip-334"
+  },
+  "modelSolution": "The random variable is the proportion of people picked at random in Times Square visiting the city.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-eip-75",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "In a population of fish, approximately 42% are female. A test is conducted to see if, in fact, the proportion is less. State the null and alternative hypotheses.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "eip-75"
+  },
+  "modelSolution": "a. H0: p = 0.42\nb. Ha: p < 0.42",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-element-422",
+  "sectionId": "9.1",
+  "kind": "fill",
+  "conceptTag": "9.1",
+  "stem": "A random survey of 75 student loan recipients revealed that the mean length of time in repayment is 17.4 years with a standard deviation of 6.3 years. If you were conducting a hypothesis test to determine if the population mean time in repayment could likely be 15 years, what would the null and alternative hypotheses be?\n\na. H0: __________\nb. Ha: __________",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "element-422"
+  },
+  "blanks": [
+   {
+    "label": "H0",
+    "answer": "="
+   },
+   {
+    "label": "Ha",
+    "answer": "≠"
+   }
+  ],
+  "symbolSet": "hypothesis",
+  "needsFigure": false,
+  "explanation": [
+   "a. H0: μ = 15\nb. Ha: μ ≠ 15"
+  ]
+ },
+ {
+  "id": "os-m47033-element-919",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "Some of the following statements refer to the null hypothesis, some to the alternate hypothesis.\n\nState the null hypothesis, H0, and the alternative hypothesis. Ha, in terms of the appropriate parameter (μ or p).\n\na. The mean number of years Americans work before retiring is 34.\nb. At most 60% of Americans vote in presidential elections.\nc. The mean starting salary for San Jose State University graduates is at least $100,000 per year.\nd. Twenty-nine percent of high school seniors get drunk each month.\ne. Fewer than 5% of adults ride the bus to work in Los Angeles.\nf. The mean number of cars a person owns in her lifetime is not more than ten.\ng. About half of Americans prefer to live away from cities, given the choice.\nh. Europeans have a mean paid vacation each year of six weeks.\ni. The chance of developing breast cancer is under 11% for females.\nj. Private universities' mean tuition cost is more than $20,000 per year.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "element-919"
+  },
+  "modelSolution": "a. H0: μ = 34; Ha: μ ≠ 34\nb. H0: p ≤ 0.60; Ha: p > 0.60\nc. H0: μ ≥ 100,000; Ha: μ < 100,000\nd. H0: p = 0.29; Ha: p ≠ 0.29\ne. H0: p = 0.05; Ha: p < 0.05\nf. H0: μ ≤ 10; Ha: μ > 10\ng. H0: p = 0.50; Ha: p ≠ 0.50\nh. H0: μ = 6; Ha: μ ≠ 6\ni. H0: p ≥ 0.11; Ha: p < 0.11\nj. H0: μ ≤ 20,000; Ha: μ > 20,000",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47033-exer13",
+  "sectionId": "9.1",
+  "kind": "mc",
+  "conceptTag": "9.1",
+  "stem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is:",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47033",
+   "exerciseId": "exer13"
+  },
+  "options": [
+   "p = 0.20",
+   "p > 0.20",
+   "p < 0.20",
+   "p ≤ 0.20"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "tryit-m47029-0",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Suppose the null hypothesis, H0, is: the blood cultures contain no traces of pathogen X. State the Type I and Type II errors.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-808",
+   "ref": "Try It 9.5"
+  },
+  "modelSolution": "Type I error: The researcher thinks the blood cultures do contain traces of pathogen X, when in fact, they do not.\nType II error: The researcher thinks the blood cultures do not contain traces of pathogen X, when in fact, they do.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47029-1",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Suppose the null hypothesis, H0, is: a patient is not sick. Which type of error has the greater consequence, Type I or Type II?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-200",
+   "ref": "Try It 9.6"
+  },
+  "modelSolution": "The error with the greater consequence is the Type II error: the patient will be thought well when, in fact, he is sick, so he will not get treatment.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47029-2",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "“Red tide” is a bloom of poison-producing algae–a few different species of a class of plankton called dinoflagellates. When the weather and water conditions cause these blooms, shellfish such as clams living in the area develop dangerous levels of a paralysis-inducing toxin. In Massachusetts, the Division of Marine Fisheries (DMF) monitors levels of the toxin in shellfish by regular sampling of shellfish along the coastline. If the mean level of toxin in clams exceeds 800 μg (micrograms) of toxin per kg of clam meat in any area, clam harvesting is banned there until the bloom is over and levels of toxin in clams subside. Describe both a Type I and a Type II error in this context, and state which error has the greater consequence.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-idp106437392",
+   "ref": "Try It 9.7"
+  },
+  "modelSolution": "In this scenario, an appropriate null hypothesis would beH0: the mean level of toxins is at most 800 μg, H0 : μ0 ≤ 800 μg.\nType I error: The DMF believes that toxin levels are still too high when, in fact, toxin levels are at most 800 μg. The DMF continues the harvesting ban.\nType II error: The DMF believes that toxin levels are within acceptable levels (are at least 800 μg) when, in fact, toxin levels are still too high (more than 800 μg). The DMF lifts the harvesting ban. This error could be the most serious. If the ban is lifted and clams are still toxic, consumers could possibly eat tainted food.\nIn summary, the more dangerous error would be to commit a Type II error, because this error involves the availability of tainted clams for consumption.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47029-eip-308",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "The mean price of mid-sized cars in a region is $32,000. A test is conducted to see if the claim is true. State the Type I and Type II errors in complete sentences.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-308"
+  },
+  "modelSolution": "Type I: The mean price of mid-sized cars is $32,000, but we conclude that it is not $32,000.\n\nType II: The mean price of mid-sized cars is not $32,000, but we conclude that it is $32,000.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47029-eip-655",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "For Exercise 9.12, what are α and β in words?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-655"
+  },
+  "modelSolution": "α = the probability that you think the bag cannot withstand -15 degrees F, when in fact it can\n\nβ = the probability that you think the bag can withstand -15 degrees F, when in fact it cannot",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47029-eip-861",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, H0, is: the surgical procedure will go well. State the Type I and Type II errors in complete sentences.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-861"
+  },
+  "modelSolution": "Type I: The procedure will go well, but the doctors think it will not.\n\nType II: The procedure will not go well, but the doctors think it will.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47029-eip-404",
+  "sectionId": "9.2",
+  "kind": "numeric",
+  "conceptTag": "9.2",
+  "stem": "The power of a test is 0.981. What is the probability of a Type II error?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-404"
+  },
+  "answer": 0.019,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.019"
+  ]
+ },
+ {
+  "id": "os-m47029-eip-967",
+  "sectionId": "9.2",
+  "kind": "numeric",
+  "conceptTag": "9.2",
+  "stem": "A microbiologist is testing a water sample for E-coli. Suppose the null hypothesis, H0, is: the sample does not contain E-coli. The probability that the sample does not contain E-coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E-coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-967"
+  },
+  "answer": 0.998,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.998"
+  ]
+ },
+ {
+  "id": "os-m47029-element-612",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "State the Type I and Type II errors in complete sentences given the following statements.\n\na. The mean number of years Americans work before retiring is 34.\nb. At most 60% of Americans vote in presidential elections.\nc. The mean starting salary for San Jose State University graduates is at least $100,000 per year.\nd. Twenty-nine percent of high school seniors get drunk each month.\ne. Fewer than 5% of adults ride the bus to work in Los Angeles.\nf. The mean number of cars a person owns in their lifetime is not more than ten.\ng. About half of Americans prefer to live away from cities, given the choice.\nh. Europeans have a mean paid vacation each year of six weeks.\ni. The chance of developing breast cancer is under 11% for females.\nj. Private universities mean tuition cost is more than $20,000 per year.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "element-612"
+  },
+  "modelSolution": "a. Type I error: We conclude that the mean is not 34 years, when it really is 34 years. Type II error: We conclude that the mean is 34 years, when in fact it really is not 34 years.\nb. Type I error: We conclude that more than 60% of Americans vote in presidential elections, when the actual percentage is at most 60%.Type II error: We conclude that at most 60% of Americans vote in presidential elections when, in fact, more than 60% do.\nc. Type I error: We conclude that the mean starting salary is less than $100,000, when it really is at least $100,000. Type II error: We conclude that the mean starting salary is at least $100,000 when, in fact, it is less than $100,000.\nd. Type I error: We conclude that the proportion of high school seniors who get drunk each month is not 29%, when it really is 29%. Type II error: We conclude that the proportion of high school seniors who get drunk each month is 29% when, in fact, it is not 29%.\ne. Type I error: We conclude that fewer than 5% of adults ride the bus to work in Los Angeles, when the percentage that do is really 5% or more. Type II error: We conclude that 5% or more adults ride the bus to work in Los Angeles when, in fact, fewer that 5% do.\nf. Type I error: We conclude that the mean number of cars a person owns in their lifetime is more than 10, when in reality it is not more than 10. Type II error: We conclude that the mean number of cars a person owns in their lifetime is not more than 10 when, in fact, it is more than 10.\ng. Type I error: We conclude that the proportion of Americans who prefer to live away from cities is not about half, though the actual proportion is about half. Type II error: We conclude that the proportion of Americans who prefer to live away from cities is half when, in fact, it is not half.\nh. Type I error: We conclude that the duration of paid vacations each year for Europeans is not six weeks, when in fact it is six weeks. Type II error: We conclude that the duration of paid vacations each year for Europeans is six weeks when, in fact, it is not.\ni. Type I error: We conclude that the proportion is less than 11%, when it is really at least 11%. Type II error: We conclude that the proportion of females who develop breast cancer is at least 11%, when in fact it is less than 11%.\nj. Type I error: We conclude that the average tuition cost at private universities is more than $20,000, though in reality it is at most $20,000. Type II error: We conclude that the average tuition cost at private universities is at most $20,000 when, in fact, it is more than $20,000.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47029-exer10",
+  "sectionId": "9.2",
+  "kind": "mc",
+  "conceptTag": "9.2",
+  "stem": "When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is “the drug is unsafe.” What is the Type II Error?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "exer10"
+  },
+  "options": [
+   "To conclude the drug is safe when in, fact, it is unsafe.",
+   "Not to conclude the drug is safe when, in fact, it is safe.",
+   "To conclude the drug is safe when, in fact, it is safe.",
+   "Not to conclude the drug is unsafe when, in fact, it is unsafe."
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "os-m47029-exer17",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average?\n\nThe Type II error is not to reject that the mean number of hours of sleep LTCC students get per night is at least seven when, in fact, the mean number of hours\n\na. is more than seven hours.\nb. is at most seven hours.\nc. is at least seven hours.\nd. is less than seven hours.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "exer17"
+  },
+  "modelSolution": "d",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-eip-176",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "Which two distributions can you use for hypothesis testing for this chapter?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "eip-176"
+  },
+  "modelSolution": "A normal distribution or a Student’s t-distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-eip-579",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "Which distribution do you use when the standard deviation is not known and you are testing one population mean? Assume sample size is large.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "eip-579"
+  },
+  "modelSolution": "Use a Student’s t-distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-eip-917",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "eip-917"
+  },
+  "modelSolution": "a normal distribution for a single population mean",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-eip-637",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "You are performing a hypothesis test of a single population mean using a Student’s t-distribution. What must you assume about the distribution of the data?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "eip-637"
+  },
+  "modelSolution": "It must be approximately normally distributed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-eip-254",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "You are performing a hypothesis test of a single population proportion. What must be true about the quantities of np and nq?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "eip-254"
+  },
+  "modelSolution": "They must both be greater than five.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-fs-idp17688688",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "You are performing a hypothesis test of a single population proportion. The data come from which distribution?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "fs-idp17688688"
+  },
+  "modelSolution": "binomial distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47036-fs-idm140519760",
+  "sectionId": "9.3",
+  "kind": "mc",
+  "conceptTag": "9.3",
+  "stem": "It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average? The distribution to be used for this test is X̄ ~ ________________",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47036",
+   "exerciseId": "fs-idm140519760"
+  },
+  "options": [
+   "N(7.24,1.93/(√(22)))",
+   "N(7.24,1.93)",
+   "t22",
+   "t21"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d"
+  ]
+ },
+ {
+  "id": "tryit-m47044-0",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.\n\nH0: μ ≤ 12\n\nHa: μ > 12\n\nThe p-value is 0.0013\n\nDraw a graph that shows the p-value.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "eip-440",
+   "ref": "Try It 9.9"
+  },
+  "modelSolution": "p-value = 0.0013\nFigure 18",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47044-1",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "It’s a Boy Genetics Labs claim their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:\n\nH0: p = 0.50, Ha: p > 0.50\n\nα = 0.01\n\np-value = 0.025\n\nInterpret the results and state a conclusion in simple, non-technical terms.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "eip-437",
+   "ref": "Try It 9.10"
+  },
+  "modelSolution": "Since the p-value is greater than the established alpha value (the p-value is high), we do not reject the null hypothesis. There is not enough evidence to support It’s a Boy Genetics Labs' stated claim that their procedures improve the chances of a boy being born.\nSection 5. Additional Information and Full Hypothesis Test Examples",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-fs-idp139727506576944",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "The probability of winning the grand prize at a particular carnival game is 0.005. Is the outcome of winning very likely or very unlikely?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "fs-idp139727506576944"
+  },
+  "modelSolution": "The outcome of winning is very unlikely.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-fs-idp139727500456320",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 inches. Do the data support the claim that the mean height is less than 73 inches? The p-value is almost zero. State the null and alternative hypotheses and interpret the p-value.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "fs-idp139727500456320"
+  },
+  "modelSolution": "H0: μ > = 73\n\nHa: μ < 73\n\nThe p-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5% level. The data do support the claim.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-fs-idp139727497492608",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Does the shaded region represent a low or a high p-value compared to a level of significance of 1%?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "fs-idp139727497492608"
+  },
+  "modelSolution": "The shaded region shows a low p-value.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-fs-idp139727500288288",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "What should you do if α = p-value?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "fs-idp139727500288288"
+  },
+  "modelSolution": "Do not reject H0.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-eip-714",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Is this a test of means or proportions?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "eip-714"
+  },
+  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "modelSolution": "means",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-element-126",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "In words, define the random variable for this test.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "element-126"
+  },
+  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "modelSolution": "the mean time spent in jail for 26 first time convicted burglars",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-element-877",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Calculate the following:\n\na. x̄ _______\nb. σ _______\nc. sx _______\nd. n _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "element-877"
+  },
+  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "modelSolution": "a. 3\nb. 1.5\nc. 1.8\nd. 26",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47044-element-121",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "State the distribution to use for the hypothesis test.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47044",
+   "exerciseId": "element-121"
+  },
+  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "modelSolution": "X̄~N(2.5,1.5/(√(26)))",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-0",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "H0: μ = 10, Ha: μ < 10\n\nAssume the p-value is 0.0935. What type of test is this? Draw the picture of the p-value.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "fs-idp67352928",
+   "ref": "Try It 9.11"
+  },
+  "modelSolution": "left-tailed test\nFigure 19",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-1",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "H0: μ ≤ 1, Ha: μ > 1\n\nAssume the p-value is 0.1243. What type of test is this? Draw the picture of the p-value.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-417",
+   "ref": "Try It 9.12"
+  },
+  "modelSolution": "right-tailed test\nFigure 20",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-2",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "H0: p = 0.5, Ha: p ≠ 0.5\n\nAssume the p-value is 0.2564. What type of test is this? Draw the picture of the p-value.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-335",
+   "ref": "Try It 9.13"
+  },
+  "modelSolution": "two-tailed test\nFigure 21",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-3",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The mean throwing distance of a football for Marco, a high school quarterback, is 40 yards, with a standard deviation of two yards. The team coach tells Marco to adjust his grip to get more distance. The coach records the distances for 20 throws. For the 20 throws, Marco’s mean distance was 45 yards. The coach thought the different grip helped Marco throw farther than 40 yards. Conduct a hypothesis test using a preset α = 0.05. Assume the throw distances for footballs are normal.\n\nFirst, determine what type of test this is, set up the hypothesis test, find the p-value, sketch the graph, and state your conclusion.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "fs-idp78508304",
+   "ref": "Try It 9.14"
+  },
+  "modelSolution": "Since the problem is about a mean, this is a test of a single population mean.\nH0 : μ = 40\nHa : μ > 40\np = 2.6115 × 10–29\nFigure 22\nBecause p < α, we reject the null hypothesis. There is sufficient evidence to suggest that the change in grip improved Marco’s throwing distance.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-4",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A company records the mean time of employees working in a day. The mean comes out to be 475 minutes, with a standard deviation of 45 minutes. A manager recorded times of 20 employees. The times of working were (frequencies are in parentheses) 460(3); 465(2); 470(3); 475(1); 480(6); 485(3); 490(2).\n\nConduct a hypothesis test using a 2.5% level of significance to determine if the mean time is more than 475.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer-00001",
+   "ref": "Try It 9.15"
+  },
+  "modelSolution": "Set up the Hypothesis Test:\n\nH_0:μ=475\n\nH_0:μ>475\n\nThis is a right-tailed test. The random variable X is the mean time of employees working in a day.\n\nDistribution for the test: σ is known.\n\nX~N(475,45/(√(20)))\n\nx̄=475.5 minutes (from the data).\n\nσ=45 minutes. We assume μ=475 minutes unless our data shows otherwise.\n\nThe p-value is calculated:\np-value = P(x̄>475.5)=0.5044\n\nInterpretation of p-value: If H_0 is true, then there is a 0.5044, or 50.44%, chance that the mean time of employees working is 475.5 minutes or more. Since a 50.44% chance is large enough, the mean time of 475.5 is not a rare event.\n\nCompare α and p values:\n\nα=0.025 and p=0.5044\n\nMake a decision: Since α<p value, do not reject H_0.\n\nConclusion: At the 2.5% level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean time of employees is more than 475 minutes.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-5",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "It is believed that a stock price for a particular company will grow at a rate of $5 per week with a standard deviation of $1. An investor believes the stock won’t grow as quickly. The changes in stock price is recorded for ten weeks and are as follows: $4, $3, $2, $3, $1, $7, $2, $1, $1, $2. Perform a hypothesis test using a 5% level of significance. State the null and alternative hypotheses, find the p-value, state your conclusion, and identify the Type I and Type II errors.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-454",
+   "ref": "Try It 9.16"
+  },
+  "modelSolution": "H0: μ = 5\nHa: μ < 5\np = 0.0082\nBecause p < α, we reject the null hypothesis. There is sufficient evidence to suggest that the stock price of the company grows at a rate less than $5 a week.\nType I Error: To conclude that the stock price is growing slower than $5 a week when, in fact, the stock price is growing at $5 a week (reject the null hypothesis when the null hypothesis is true).\nType II Error: To conclude that the stock price is growing at a rate of $5 a week when, in fact, the stock price is growing slower than $5 a week (do not reject the null hypothesis when the null hypothesis is false).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-6",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A teacher believes that 85% of students in the class will want to go on a field trip to the local zoo. The teacher performs a hypothesis test to determine if the percentage is the same or different from 85%. The teacher samples 50 students and 39 reply that they would want to go to the zoo. For the hypothesis test, use a 1% level of significance.\n\nFirst, determine what type of test this is, set up the hypothesis test, find the p-value, sketch the graph, and state your conclusion.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-466",
+   "ref": "Try It 9.17"
+  },
+  "modelSolution": "Since the problem is about percentages, this is a test of single population proportions.\nH0 : p = 0.85\nHa: p ≠ 0.85\np = 0.1657\nFigure 23\nBecause p > α, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85%.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-7",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Marketers believe that 92% of adults in the United States own a cell phone. A cell phone manufacturer believes that number is actually lower. 200 American adults are surveyed, of which, 174 report having cell phones. Use a 5% level of significance. State the null and alternative hypothesis, find the p-value, state your conclusion, and identify the Type I and Type II errors.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-341",
+   "ref": "Try It 9.18"
+  },
+  "modelSolution": "H0: p = 0.92\nHa: p < 0.92\np-value = 0.0046\nBecause p < 0.05, we reject the null hypothesis. There is sufficient evidence to conclude that fewer than 92% of American adults own cell phones.\nType I Error: To conclude that fewer than 92% of American adults own cell phones when, in fact, 92% of American adults do own cell phones (reject the null hypothesis when the null hypothesis is true).\nType II Error: To conclude that 92% of American adults own cell phones when, in fact, fewer than 92% of American adults own cell phones (do not reject the null hypothesis when the null hypothesis is false).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-8",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A car soap gets rid of 30% of stains on the car. After adding a new compound to the soap, the soap is used on a car and found to wash 20 stains out of the 50 stains on the car. With the level of significance being 0.01, find out if adding the new compound to soap is beneficial.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer-00002",
+   "ref": "Try It 9.19"
+  },
+  "modelSolution": "Set up hypothesis test:\n\nH_0:p≤0.3 H_0:p>0.3\n\nThe distribution to use for the test is:\n\nNormal: N(0.3,√(((0.3)(1-0.3))/50))\n\nThe test statistic is obtained to be z = 1.543.\n\nThe p-value is obtained to be p = 0.0614.\n\nIf the null hypothesis is true, then there is a 0.0614 probability that the sample proportion is 0.4 (20/50) or more.\n\nAt 1% level of significance, the value of α is less than the p-value. So, the data does not show sufficient evidence that the percentage of stains removed is more than 30%.\n\nThe confidence interval is obtained as (0.273, 0.527).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-9",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The boiling point of a specific liquid is measured for 15 samples, and the boiling points are obtained as follows:\n\n205; 206; 206; 202; 199; 194; 197; 198; 198; 201; 201; 202; 207; 211; 205\n\nIs there convincing evidence that the average boiling point is greater than 200? Use a significance level of 0.1. Assume the population is normal.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer-00003",
+   "ref": "Try It 9.20"
+  },
+  "modelSolution": "The hypotheses, at a significance level of 0.1, will be as follows:\n\na. H_0:μ≤200\nb. H_0:μ>200\n\nSince the standard deviation is not known, Student’s t-distribution is to be used.\n\nThe data is input into the TI-83 as follows:\n\n[FIGURE]\n[FIGURE]\n[FIGURE]\n[FIGURE]\n\nSince the p-value is less than alpha value, we will reject the null hypothesis. It is reasonable to state that the data supports the claim that the average boiling point is greater than 200.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-10",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "In a study of 390,000 moisturizer users, 138 of the subjects developed skin diseases. Test the claim that moisturizer users developed skin diseases at a greater rate than that for non-moisturizer users (the rate of skin diseases for non-moisturizer users is 0.041%). Since this is a critical issue, use a 0.005 significance level. Explain why the significance level should be so low in terms of a Type I error.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer-00004",
+   "ref": "Try It 9.21"
+  },
+  "modelSolution": "The test hypotheses are as follows:\n\na. H_0:p≤0.00041\nb. H_0:p>0.00041\n\nIf we commit a Type I error, we are essentially accepting a false claim. Since the claim describes disease-causing environments, we want to minimize the chances of incorrectly identifying causes of diseases.\nThe testing will be done with x = 138 and n = 390,000. The sample is sufficiently large because we have np = 390,000(0.00041) = 159.9, nq = 390,000(0.99959) = 389,840.1, two independent outcomes, and a fixed probability of success p = 0.00041. Thus, we will be able to generalize our results to the population.\n\nThe associated TI results are:\n\n[FIGURE]\n[FIGURE]\n\nSince the p-value = 0.0832 is greater than alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher skin diseases rates for moisturizer users.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47019-11",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "According to the U.S. Census, there are approximately 201,456,463 residents 20 and older. Statistics from the Criminal National Network indicate that, on average, 104,354 murders occur each year for people aged 20 and older. This translates into a percentage of murder of 0.052%. In Ohio, there were reported 127 murders for a population of 427,648. Conduct an appropriate hypothesis test to determine if there is a statistically significant difference between the local murder percentage and the national murder percentage. Use a significance level of 0.01.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer-00005",
+   "ref": "Try It 9.22"
+  },
+  "modelSolution": "The hypotheses for the one-proportion z-test are as follow:\n\na. H_0:p≤0.00052\nb. H_0:p>0.00052\n\nThe following screenshots display the summary statistics from the hypothesis test:\n\n[FIGURE]\n[FIGURE]\n\nSince the p-value = 0 is less than alpha value of 0.01, the sample data includes that we should reject the null hypothesis. In conclusion, the sample data support the claim that the proportion of murders in Ohio is different from the national average population.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-750",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Assume H0: μ = 9 and Ha: μ < 9. Is this a left-tailed, right-tailed, or two-tailed test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-750"
+  },
+  "modelSolution": "This is a left-tailed test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-fs-idp45725152",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Assume H0: p = 0.25 and Ha: p ≠ 0.25. Is this a left-tailed, right-tailed, or two-tailed test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "fs-idp45725152"
+  },
+  "modelSolution": "This is a two-tailed test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-18",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Draw the graph of a two-tailed test.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-18"
+  },
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-34",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Your friend claims that his mean golf score is 63. You want to show that it is higher than that. What type of test would you use?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-34"
+  },
+  "modelSolution": "a right-tailed test",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-71",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "You flip a coin and record whether it shows heads or tails. You know the probability of getting heads is 50%, but you think it is less for this particular coin. What type of test would you use?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-71"
+  },
+  "modelSolution": "a left-tailed test",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-504",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Assume the null hypothesis states that the mean is at least 18. Is this a left-tailed, right-tailed, or two-tailed test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-504"
+  },
+  "modelSolution": "This is a left-tailed test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-115",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Assume the null hypothesis states that the mean is equal to 88. The alternative hypothesis states that the mean is not equal to 88. Is this a left-tailed, right-tailed, or two-tailed test?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-115"
+  },
+  "modelSolution": "This is a two-tailed test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-816",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A particular brand of tires claims that its deluxe tire averages at least 50,000 miles before it needs to be replaced. From past studies of this tire, the standard deviation is known to be 8,000. A survey of owners of that tire design is conducted. From the 28 tires surveyed, the mean lifespan was 46,500 miles with a standard deviation of 9,800 miles. Using alpha = 0.05, is the data highly inconsistent with the claim?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-816"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ ≥ 50,000\nb. Ha: μ < 50,000\nc. Let X̄ = the average lifespan of a brand of tires.\nd. normal distribution\ne. z = -2.315\nf. p-value = 0.0103\ng. Answers may vary.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.\n\ni. (43,537, 49,463)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-635",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The cost of a daily newspaper varies from city to city. However, the variation among prices remains steady with a standard deviation of 20¢. A study was done to test the claim that the mean cost of a daily newspaper is $1.00. Twelve costs yield a mean cost of 95¢ with a standard deviation of 18¢. Do the data support the claim at the 1% level?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-635"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ = $1.00\nb. Ha: μ ≠ $1.00\nc. Let X̄ = the average cost of a daily newspaper.\nd. normal distribution\ne. z = –0.866\nf. p-value = 0.3865\ng. Answers may vary.\nh.\n\ni. Alpha: 0.01\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.01.\niv. Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.\n\ni. ($0.84, $1.06)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-932a",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The mean number of sick days an employee takes per year is believed to be about ten. Members of a personnel department do not believe this figure. They randomly survey eight employees. The number of sick days they took for the past year are as follows: 12; 4; 15; 3; 11; 8; 6; 8. Let x = the number of sick days they took for the past year. Should the personnel team believe that the mean number is ten?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-932a"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ = 10\nb. Ha: μ ≠ 10\nc. Let X̄ the mean number of sick days an employee takes per year.\nd. Student’s t-distribution\ne. t = –1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean number of sick days is not ten.\n\ni. (4.9443, 11.806)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-321",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Your statistics instructor claims that 60% of the students who take their Elementary Statistics class go through life feeling more enriched. For some reason that the instructor can't quite figure out, most people don't believe her. You decide to check this out on your own. You randomly survey 64 of their past Elementary Statistics students and find that 34 feel more enriched as a result of taking the class. Now, what do you think?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-321"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p ≥ 0.6\nb. Ha: p < 0.6\nc. Let P′ = the proportion of students who feel more enriched as a result of taking Elementary Statistics.\nd. normal for a single proportion\ne. 1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that less than 60 percent of the students feel more enriched.\n\ni. Confidence Interval: (0.409, 0.654)\nThe “plus-4s” confidence interval is (0.411, 0.648)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-814",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Refer to Exercise 9.81. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-814"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ = 4\nb. Ha: μ ≠ 4\nc. Let X̄ the average I.Q. of a set of brown trout.\nd. two-tailed Student's t-test\ne. t = 1.95\nf. p-value = 0.076\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.\n\ni. (3.8865,5.9468)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-658",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A poll done for Newsweek found that 13% of Americans have seen or sensed the presence of an angel. A contingent doubts that the percent is really that high. It conducts its own survey. Out of 76 Americans surveyed, only two had seen or sensed the presence of an angel. As a result of the contingent’s survey, would you agree with the Newsweek poll? In complete sentences, also give three reasons why the two polls might give different results.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-658"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p ≥ 0.13\nb. Ha: p < 0.13\nc. Let P′ = the proportion of Americans who have seen or sensed angels\nd. normal for a single proportion\ne. –2.688\nf. p-value = 0.0036\ng. Check student’s solution.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have seen or sensed an angel is less than 13%.\n\ni. (0, 0.0623).\n\nThe“plus-4s” confidence interval is (0.0022, 0.0978)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-761",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Use the “Lap time” data for Lap 4 (see ) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all twenty races given.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-761"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ ≥ 129\nb. Ha: μ < 129\nc. Let X̄ = the average time in seconds that Terri finishes Lap 4.\nd. Student's t-distribution\ne. t = 1.209\nf. 0.8792\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.\n\ni. (128.63, 130.37)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-ex1",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "\"Asian Family Reunion,\" by Chau Nguyen\n\nEvery two years it comes around.\n\nWe all get together from different towns.\n\nIn my honest opinion,\n\nIt's not a typical family reunion.\n\nNot forty, or fifty, or sixty,\n\nBut how about seventy companions!\n\nThe kids would play, scream, and shout\n\nOne minute they're happy, another they'll pout.\n\nThe teenagers would look, stare, and compare\n\nFrom how they look to what they wear.\n\nThe men would chat about their business\n\nThat they make more, but never less.\n\nMoney is always their subject\n\nAnd there's always talk of more new projects.\n\nThe women get tired from all of the chats\n\nThey head to the kitchen to set out the mats.\n\nSome would sit and some would stand\n\nEating and talking with plates in their hands.\n\nThen come the games and the songs\n\nAnd suddenly, everyone gets along!\n\nWith all that laughter, it's sad to say\n\nThat it always ends in the same old way.\n\nThey hug and kiss and say \"good-bye\"\n\nAnd then they all begin to cry!\n\nI say that 60 percent shed their tears\n\nBut my mom counted 35 people this year.\n\nShe said that boys and men will always have their pride,\n\nSo we won't ever see them cry.\n\nI myself don't think she's correct,\n\nSo could you please try this problem to see if you object?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "ex1"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.60\nb. Ha: p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done.\n\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exer4",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "\"Blowing Bubbles,\" by Sondra Prull\n\nStudying stats just made me tense,\n\nI had to find some sane defense.\n\nSome light and lifting simple play\n\nTo float my math anxiety away.\n\nBlowing bubbles lifts me high\n\nTakes my troubles to the sky.\n\nPOIK! They're gone, with all my stress\n\nBubble therapy is the best.\n\nThe label said each time I blew\n\nThe average number of bubbles would be at least 22.\n\nI blew and blew and this I found\n\nFrom 64 blows, they all are round!\n\nBut the number of bubbles in 64 blows\n\nVaried widely, this I know.\n\n20 per blow became the mean\n\nThey deviated by 6, and not 16.\n\nFrom counting bubbles, I sure did relax\n\nBut now I give to you your task.\n\nWas 22 a reasonable guess?\n\nFind the answer and pass this test!",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer4"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ ≥ 22\nb. Ha: μ < 22\nc. Let X̄ = the mean number of bubbles per blow.\nd. Student's t-distribution\ne. –2.667\nf. p-value = 0.00486\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.\n\ni. (18.501, 21.499)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exer5",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "\"Macaroni and Cheese, please!!\" by Nedda Misherghi and Rachelle Hall\n\nAs a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.\n\nOne day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:\n\n• 5 stores @ $2.02\n• 15 stores @ $0.25\n• 3 stores @ $1.29\n• 6 stores @ $0.35\n• 4 stores @ $2.27\n• 7 stores @ $1.50\n• 5 stores @ $1.89\n• 8 stores @ 0.75.\n\nI could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. (After all, as a poor starving student I can't be expected to feed our class of animals!)",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer5"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: μ ≤ 1\nb. Ha: μ > 1\nc. Let X̄ = the mean cost in dollars of macaroni and cheese in a certain town.\nd. Student's t-distribution\ne. t = 0.340\nf. p-value = 0.36756\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: The mean cost could be $1, or less. At the 5% significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.\n\ni. (0.8291, 1.241)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exer7",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "\"Untitled,\" by Stephen Chen\n\nI've often wondered how software is released and sold to the public. Ironically, I work for a company that sells products with known problems. Unfortunately, most of the problems are difficult to create, which makes them difficult to fix. I usually use the test program X, which tests the product, to try to create a specific problem. When the test program is run to make an error occur, the likelihood of generating an error is 1%.\n\nSo, armed with this knowledge, I wrote a new test program Y that will generate the same error that test program X creates, but more often. To find out if my test program is better than the original, so that I can convince the management that I'm right, I ran my test program to find out how often I can generate the same error. When I ran my test program 50 times, I generated the error twice. While this may not seem much better, I think that I can convince the management to use my test program instead of the original test program. Am I right?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer7"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.01\nb. Ha: p > 0.01\nc. Let P′ = the proportion of errors generated\nd. Normal for a single proportion\ne. 2.13\nf. 0.0165\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.\n\ni. Confidence interval: (0, 0.094).\nThe“plus-4s” confidence interval is (0.004, 0.144).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exerrr",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "\"Phillip’s Wish,\" by Suzanne Osorio\n\nMy nephew likes to play\n\nChasing the girls makes his day.\n\nHe asked his mother\n\nIf it is okay\n\nTo get his ear pierced.\n\nShe said, “No way!”\n\nTo poke a hole through your ear,\n\nIs not what I want for you, dear.\n\nHe argued his point quite well,\n\nSays even my macho pal, Mel,\n\nHas gotten this done.\n\nIt’s all just for fun.\n\nC’mon please, mom, please, what the hell.\n\nAgain Phillip complained to his mother,\n\nSaying half his friends (including their brothers)\n\nAre piercing their ears\n\nAnd they have no fears\n\nHe wants to be like the others.\n\nShe said, “I think it’s much less.\n\nWe must do a hypothesis test.\n\nAnd if you are right,\n\nI won’t put up a fight.\n\nBut, if not, then my case will rest.”\n\nWe proceeded to call fifty guys\n\nTo see whose prediction would fly.\n\nNineteen of the fifty\n\nSaid piercing was nifty\n\nAnd earrings they’d occasionally buy.\n\nThen there’s the other thirty-one,\n\nWho said they’d never have this done.\n\nSo now this poem’s finished.\n\nWill his hopes be diminished,\n\nOr will my nephew have his fun?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exerrr"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.50\nb. Ha: p < 0.50\nc. Let P′ = the proportion of friends that has a pierced ear.\nd. normal for a single proportion\ne. –1.70\nf. p-value = 0.0448\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05. (However, they are very close.)\niv. Conclusion: There is sufficient evidence to support the claim that less than 50% of his friends have pierced ears.\n\ni. Confidence Interval: (0.245, 0.515): The “plus-4s” confidence interval is (0.259, 0.519).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-378",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Toastmasters International cites a report by Gallup Poll that 40% of Americans fear public speaking. A student believes that less than 40% of students at their school fear public speaking. The student randomly surveys 361 schoolmates and finds that 135 report they fear public speaking. Conduct a hypothesis test to determine if the percent at their school is less than 40%.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-378"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.40\nb. Ha: p < 0.40\nc. Let P′ = the proportion of schoolmates who fear public speaking.\nd. normal for a single proportion\ne. –1.01\nf. p-value = 0.1563\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to support the claim that less than 40% of students at the school fear public speaking.\n\ni. Confidence Interval: (0.3241, 0.4240): The “plus-4s” confidence interval is (0.3257, 0.4250).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-874",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "According to New York City's Community Health Survey, the most recent adult smoking rate is 12%. Suppose that a survey is conducted to determine this year’s rate. Nine out of 70 randomly chosen N.Y. City residents reply that they smoke. Conduct a hypothesis test to determine if the rate is still 12% or if it has decreased.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-874"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.12\nb. Ha: p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh.\n\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: The p-value is greater than 0.05.\niv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14.\n\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-element-408",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Registered nurses earned an average annual salary of $69,110. For that same year, a survey was conducted of 41 California registered nurses to determine if the annual salary is higher than $69,110 for California nurses. The sample average was $71,121 with a sample standard deviation of $7,489. Conduct a hypothesis test.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "element-408"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "a. H0: p = 0.12\nb. Ha: p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh.\n\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.\n\ni. ($68,757, $73,485)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exer12",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "Over the past few decades, public health officials have examined the link between weight concerns and teen girls' smoking. Researchers surveyed a group of 273 randomly selected teen girls living in Massachusetts (between 12 and 15 years old). After four years the girls were surveyed again. Sixty-three said they smoked to stay thin. Is there good evidence that more than 30% of the teen girls smoke to stay thin?\nAfter conducting the test, your decision and conclusion are\n\na. Reject H0: There is sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.\nb. Do not reject H0: There is not sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.\nc. Do not reject H0: There is not sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.\nd. Reject H0: There is sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer12"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "modelSolution": "c",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-exer19",
+  "sectionId": "9.5",
+  "kind": "mc",
+  "conceptTag": "9.5",
+  "stem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.\n\nAt a significance level of\na = 0.05, what is the correct conclusion?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "exer19"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
+  "options": [
+   "There is enough evidence to conclude that the mean number of hours is more than 4.75",
+   "There is enough evidence to conclude that the mean number of hours is more than 4.5",
+   "There is not enough evidence to conclude that the mean number of hours is more than 4.5",
+   "There is not enough evidence to conclude that the mean number of hours is more than 4.75"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m47019-eip-40",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A recent survey in the N.Y. Times Almanac indicated that 48.8% of families own stock. A broker wanted to determine if this survey could be valid. They surveyed a random sample of 250 families and found that 142 owned some type of stock. At the 0.05 significance level, can the survey be considered to be accurate?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-40"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem.",
+  "modelSolution": "a. H0: p = 0.488 Ha: p ≠ 0.488\nb. p-value = 0.0114\nc. alpha = 0.05\nd. Reject the null hypothesis.\ne. There is enough evidence to conclude that the percent of families owning stocks is not 48.8%.\nf. The survey does not appear to be accurate.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-601",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The US Department of Energy reported that 51.7% of homes were heated by natural gas. A random sample of 221 homes in Kentucky found that 115 were heated by natural gas. Does the evidence support the claim for Kentucky at the α = 0.05 level in Kentucky? Are the results applicable across the country? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-601"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem.",
+  "modelSolution": "a. H0: p = 0.517 Ha: p ≠ 0.517\nb. p-value = 0.9203.\nc. alpha = 0.05.\nd. Do not reject the null hypothesis.\ne. At the 5% significance level, there is not enough evidence to conclude that the proportion of homes in Kentucky that are heated by natural gas is different from the proportion of homes heated by natural gas across the country.\nf. However, we cannot generalize this result to the entire nation. First, the sample’s population is only the state of Kentucky. Second, it is reasonable to assume that homes in the extreme north and south will have extreme high usage and low usage, respectively. We would need to expand our sample base to include these possibilities if we wanted to generalize this claim to the entire nation.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-715",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The Weather Underground reported that the mean amount of summer rainfall for the northeastern US is at least 11.52 inches. Ten cities in the northeast are randomly selected and the mean rainfall amount is calculated to be 7.42 inches with a standard deviation of 1.3 inches. At the α = 0.05 level, can it be concluded that the mean rainfall was below the reported average? What if α = 0.01? Assume the amount of summer rainfall follows a normal distribution.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-715"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem.",
+  "modelSolution": "a. H0: µ ≥ 11.52 Ha: µ < 11.52\nb. p-value = 0.000002 which is almost 0.\nc. alpha = 0.05.\nd. Reject the null hypothesis.\ne. At the 5% significance level, there is enough evidence to conclude that the mean amount of summer rain in the northeaster US is less than 11.52 inches, on average.\nf. We would make the same conclusion if alpha was 1% because the p-value is almost 0.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-192",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals\n\n• 3\n• 2\n• 1\n• 3\n• 7\n• 2\n• 9\n• 4\n• 6\n• 6\n• 8\n• 0\n• 5\n• 6\n• 4\n• 2\n• 1\n• 3\n• 4\n• 1\n\nAt the α = 0.05 level can it be concluded that the sample mean is higher than 5.8 visits per year?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-192"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem.",
+  "modelSolution": "a. H0: µ ≤ 5.8 Ha: µ > 5.8\nb. p-value = 0.9987\nc. alpha = 0.05\nd. Do not reject the null hypothesis.\ne. At the 5% level of significance, there is not enough evidence to conclude that a woman visits her doctor, on average, more than 5.8 times a year.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47019-eip-551",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "The student academic group on a college campus claims that first-year students study at least 2.5 hours per day, on average. One Introduction to Statistics class was skeptical. The class took a random sample of 30 first-year students and found a mean study time of 137 minutes with a standard deviation of 45 minutes. At α = 0.01 level, is the student academic group’s claim correct?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47019",
+   "exerciseId": "eip-551"
+  },
+  "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem.",
+  "modelSolution": "a. H0: µ ≥ 150 Ha: µ < 150\nb. p-value = 0.0622\nc. alpha = 0.01\nd. Do not reject the null hypothesis.\ne. At the 1% significance level, there is not enough evidence to conclude that first-year students study less than 2.5 hours per day, on average.\nf. The student academic group’s claim appears to be correct.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-23",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "In your state, 58 percent of registered voters in a community are registered as Republicans. You want to conduct a study to see if this also holds up in your community. State the null and alternative hypotheses to test this.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 23
+  },
+  "modelSolution": "H0: p = 0.58\nHa: p ≠ 0.58",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-24",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "You believe that at least 58 percent of registered voters in a community are registered as Republicans. State the null and alternative hypotheses to test this.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 24
+  },
+  "modelSolution": "H0: p ≥ 0.58\nHa: p < 0.58",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-25",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "The mean household value in a city is $268,000. You believe that the mean household value in a particular neighborhood is lower than the city average. Write the null and alternative hypotheses to test this.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 25
+  },
+  "modelSolution": "H0: μ ≥ $268,000\nHa: μ < $268,000",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-26",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "State the appropriate alternative hypothesis to this null hypothesis: H0: μ = 107",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 26
+  },
+  "modelSolution": "Ha: μ ≠ 107",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-27",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "State the appropriate alternative hypothesis to this null hypothesis: H0: p < 0.25",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 27
+  },
+  "modelSolution": "Ha: p ≥ 0.25",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-28",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "If you reject H0 when H0 is correct, what type of error is this?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 28
+  },
+  "modelSolution": "a Type I error",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-29",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "If you fail to reject H0 when H0 is false, what type of error is this?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 29
+  },
+  "modelSolution": "a Type II error",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-30",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "What is the relationship between the Type II error and the power of a test?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 30
+  },
+  "modelSolution": "Power = 1 – β = 1 – P(Type II error).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-31",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "A new blood test is being developed to screen patients for cancer. Positive results are followed up by a more accurate (and expensive) test. It is assumed that the patient does not have cancer. Describe the null hypothesis, the Type I and Type II errors for this situation, and explain which type of error is more serious.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 31
+  },
+  "modelSolution": "The null hypothesis is that the patient does not have cancer. A Type I error would be detecting cancer when it is not present. A Type II error would be not detecting cancer when it is present. A Type II error is more serious, because failure to detect cancer could keep a patient from receiving appropriate treatment.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-32",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Explain in words what it means that a screening test for TB has an α level of 0.10. The null hypothesis is that the patient does not have TB.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 32
+  },
+  "modelSolution": "The screening test has a ten percent probability of a Type I error, meaning that ten percent of the time, it will detect TB when it is not present.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-33",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Explain in words what it means that a screening test for TB has a β level of 0.20. The null hypothesis is that the patient does not have TB.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 33
+  },
+  "modelSolution": "The screening test has a 20 percent probability of a Type II error, meaning that 20 percent of the time, it will fail to detect TB when it is in fact present.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-34",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Explain in words what it means that a screening test for TB has a power of 0.80.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 34
+  },
+  "modelSolution": "Eighty percent of the time, the screening test will detect TB when it is actually present.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-35",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "If you are conducting a hypothesis test of a single population mean, and you do not know the population variance, what test will you use if the sample size is 10 and the population is normal?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 35
+  },
+  "modelSolution": "The Student’s t-test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-36",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "If you are conducting a hypothesis test of a single population mean, and you know the population variance, what test will you use?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 36
+  },
+  "modelSolution": "The normal distribution or z-test.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-37",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "If you are conducting a hypothesis test of a single population proportion, with np and nq greater than or equal to five, what test will you use, and with what parameters?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 37
+  },
+  "modelSolution": "The normal distribution with μ = p and σ = √(pq/n)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-38",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "Published information indicates that, on average, college students spend less than 20 hours studying per week. You draw a sample of 25 students from your college, and find the sample mean to be 18.5 hours, with a standard deviation of 1.5 hours. What distribution will you use to test whether study habits at your college are the same as the national average, and why?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 38
+  },
+  "modelSolution": "t24. You use the t-distribution because you don’t know the population standard deviation, and the degrees of freedom are 24 because df = n – 1.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-39",
+  "sectionId": "9.3",
+  "kind": "open",
+  "conceptTag": "9.3",
+  "stem": "A published study says that 95 percent of American children are vaccinated against measles, with a standard deviation of 1.5 percent. You draw a sample of 100 children from your community and check their vaccination records, to see if the vaccination rate in your community is the same as the national average. What distribution will you use for this test, and why?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 39
+  },
+  "modelSolution": "X̄~N(0.95,0.051/(√(100)))\n\nBecause you know the population standard deviation, and have a large sample, you can use the normal distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-40",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "You are conducting a study with an α level of 0.05. If you get a result with a p-value of 0.07, what will be your decision?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 40
+  },
+  "modelSolution": "Fail to reject the null hypothesis, because α ≤ p",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-41",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "You are conducting a study with α = 0.01. If you get a result with a p-value of 0.006, what will be your decision?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 41
+  },
+  "modelSolution": "Reject the null hypothesis, because α ≥ p.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-42",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "What are the null and alternative hypotheses for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 42
+  },
+  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "modelSolution": "H0: μ ≥ 29.0”\nHa: μ < 29.0”",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-43",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "What distribution will you use to test your hypothesis, and why?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 43
+  },
+  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "modelSolution": "t19. Because you do not know the population standard deviation, use the t-distribution. The degrees of freedom are 19, because df = n – 1.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-44",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "What is the test statistic and the p-value?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 44
+  },
+  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "modelSolution": "The test statistic is –4.4721 and the p-value is 0.00013 using the calculator function TTEST.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-45",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Based on your sample results, what is your decision?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 45
+  },
+  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "modelSolution": "With α = 0.05, reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-46",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Suppose the mean for your sample was 25.0. Redo the calculations and describe what your decision would be.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 46
+  },
+  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "modelSolution": "With α = 0.05, the p-value is almost zero using the calculator function TTEST so reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-47",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "You conduct a study using α = 0.05. What is the level of significance for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 47
+  },
+  "modelSolution": "The level of significance is five percent.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-48",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "You conduct a study, based on a sample drawn from a normally distributed population with a known variance, with the following hypotheses:\nH0: μ = 35.5\nHa: μ ≠ 35.5\nWill you conduct a one-tailed or two-tailed test?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 48
+  },
+  "modelSolution": "two-tailed",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-49",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "You conduct a study, based on a sample drawn from a normally distributed population with a known variance, with the following hypotheses:\nH0: μ ≥ 35.5\nHa: μ < 35.5\nWill you conduct a one-tailed or two-tailed test?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 49
+  },
+  "modelSolution": "one-tailed",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-50",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "What are the null and alternative hypotheses for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 50
+  },
+  "context": "Use the following information to answer the next three exercises. Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
+  "modelSolution": "H0: p = 0.8\nHa: p ≠ 0.8",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-51",
+  "sectionId": "9.5",
+  "kind": "open",
+  "conceptTag": "9.5",
+  "stem": "What test will you use, and why?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 51
+  },
+  "context": "Use the following information to answer the next three exercises. Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
+  "modelSolution": "You will use the normal test for a single population proportion because np and nq are both greater than five.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-12",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "The Type I error is to:\na. conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, the pass rates are different.\nb. conclude that the pass rate for Math 1A is different than the pass rate for Math 1B when, in fact, the pass rates are the same.\nc. conclude that the pass rate for Math 1A is greater than the pass rate for Math 1B when, in fact, the pass rate for Math 1A is less than the pass rate for Math 1B.\nd. conclude that the pass rate for Math 1A is the same as the pass rate for Math 1B when, in fact, they are the same.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 12
+  },
+  "context": "Use the following information to answer the next three exercises: De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
+  "modelSolution": "b. conclude that the pass rate for Math 1A is different than the pass rate for Math 1B when, in fact, the pass rates are the same.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-13",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "The correct decision is to:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 13
+  },
+  "context": "Use the following information to answer the next three exercises: De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
+  "options": [
+   "reject H0",
+   "not reject H0",
+   "There is not enough information given to conduct the hypothesis test"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. not reject H0"
+  ]
+ },
+ {
+  "id": "fe1-15",
+  "sectionId": "9.1",
+  "kind": "mc",
+  "conceptTag": "9.1",
+  "stem": "The correct distribution to use for the hypothesis test is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 15
+  },
+  "context": "Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "options": [
+   "Normal",
+   "Binomial",
+   "Student's t",
+   "Exponential"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. Student's t"
+  ]
+ },
+ {
+  "id": "fe1-16",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "The hypothesis test:\na. is two-tailed.\nb. is left-tailed.\nc. is right-tailed.\nd. has no tails.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 16
+  },
+  "context": "Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "modelSolution": "b. is left-tailed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-17",
+  "sectionId": "9.1",
+  "kind": "mc",
+  "conceptTag": "9.1",
+  "stem": "Sara, a statistics student, wanted to determine the mean number of books that college professors have in their office. She randomly selected two buildings on campus and asked each professor in the selected buildings how many books are in their office. Sara surveyed 25 professors. The type of sampling selected is",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 17
+  },
+  "context": "Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "options": [
+   "simple random sampling.",
+   "systematic sampling.",
+   "cluster sampling.",
+   "stratified sampling."
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. cluster sampling"
+  ]
+ },
+ {
+  "id": "fe1-18",
+  "sectionId": "9.1",
+  "kind": "mc",
+  "conceptTag": "9.1",
+  "stem": "A clothing store would use which measure of the center of data when placing orders for the typical \"middle\" customer?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 18
+  },
+  "context": "Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "options": [
+   "mean",
+   "median",
+   "mode",
+   "IQR"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. median"
+  ]
+ },
+ {
+  "id": "fe1-19",
+  "sectionId": "9.1",
+  "kind": "mc",
+  "conceptTag": "9.1",
+  "stem": "In a hypothesis test, the p-value is",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 19
+  },
+  "context": "Assume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "options": [
+   "the probability that an outcome of the data will happen purely by chance when the null hypothesis is true.",
+   "called the preconceived alpha.",
+   "compared to beta to decide whether to reject or not reject the null hypothesis.",
+   "Answer choices A and B are both true."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. the probability that an outcome of the data will happen purely by chance when the null hypothesis is true."
+  ]
+ },
+ {
+  "id": "fe1-36",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "The p-value is 0.0127 and the level of significance is 0.05. The conclusion to the test is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 36
+  },
+  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.",
+  "options": [
+   "there is insufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.",
+   "there is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.",
+   "there is sufficient evidence to conclude that students find economics very hard.",
+   "there is in sufficient evidence to conclude that more females prefer administration than males."
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. There is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other."
+  ]
+ },
+ {
+  "id": "fe2-7",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "Suppose H0 is: Favorite pie and gender are independent. The p-value is ______.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next two exercises: Suppose that a survey yielded the following data:\n[TABLE]\ngender | apple | pumpkin | pecan\nfemale | 40 | 10 | 30\nmale | 20 | 30 | 10\n[/TABLE]",
+  "options": [
+   "≈ 0",
+   "1",
+   "0.05",
+   "cannot be determined"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. ≈ 0"
+  ]
+ },
+ {
+  "id": "fe2-25",
+  "sectionId": "9.4",
+  "kind": "open",
+  "conceptTag": "9.4",
+  "stem": "Which of the following correctly describes the results of a hypothesis test of the claim, “There is a difference between the mean scores obtained by third grade girls and boys at the 5% level of significance”?\na. Do not reject H0. There is insufficient evidence to conclude that there is a difference in the mean scores.\nb. Do not reject H0. There is sufficient evidence to conclude that there is a difference in the mean scores.\nc. Reject H0. There is insufficient evidence to conclude that there is no difference in the mean scores.\nd. Reject H0. There is sufficient evidence to conclude that there is a difference in the mean scores.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 25
+  },
+  "context": "A math exam was given to all the third grade children attending ABC School. Two random samples of scores were taken.",
+  "modelSolution": "d. Reject H0. There is sufficient evidence to conclude that there is a difference in the mean scores.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe2-27",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "From past experience, a statistics teacher has found that the average score on a midterm is 81 with a standard deviation of 5.2. This term, a class of 49 students had a standard deviation of 5 on the midterm. Do the data indicate that we should reject the teacher’s claim that the standard deviation is 5.2? Use α = 0.05.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 27
+  },
+  "context": "A math exam was given to all the third grade children attending ABC School. Two random samples of scores were taken.",
+  "options": [
+   "Yes",
+   "No",
+   "Not enough information given to solve the problem"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. no"
+  ]
+ },
+ {
+  "id": "fe2-28",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "Three loading machines are being compared. Ten samples were taken for each machine. Machine I took an average of 31 minutes to load packages with a standard deviation of two minutes. Machine II took an average of 28 minutes to load packages with a standard deviation of 1.5 minutes. Machine III took an average of 29 minutes to load packages with a standard deviation of one minute. Find the p-value when testing that the average loading times are the same.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 28
+  },
+  "context": "A math exam was given to all the third grade children attending ABC School. Two random samples of scores were taken.",
+  "options": [
+   "p-value is close to zero",
+   "p-value is close to one",
+   "not enough information given to solve the problem"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. p-value is close to 1."
+  ]
+ },
+ {
+  "id": "fe2-33",
+  "sectionId": "9.4",
+  "kind": "mc",
+  "conceptTag": "9.4",
+  "stem": "Conduct an appropriate test to determine if the distribution is uniform.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 33
+  },
+  "context": "Sixty-four backpackers were asked the number of days since their latest backpacking trip. The number of days is given in :",
+  "options": [
+   "The p-value is > 0.10. There is insufficient information to conclude that the distribution is not uniform.",
+   "The p-value is < 0.01. There is sufficient information to conclude the distribution is not uniform.",
+   "The p-value is between 0.01 and 0.10, but without alpha (α) there is not enough information",
+   "There is no such test that can be conducted."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. The p-value is > 0.10. There is insufficient information to conclude that the distribution is not uniform."
+  ]
+ },
+ {
+  "id": "rv11-118",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Based upon research at De Anza College, it is believed that about 19% of the student population speaks a language other than English at home. Suppose that a study was done this year to see if that percent has decreased. Ninety-eight students were randomly surveyed with the following results. Fourteen said that they speak a language other than English at home.\na. State an appropriate null hypothesis.\nb. State an appropriate alternative hypothesis.\nc. Define the random variable, P′.\nd. Calculate the test statistic.\ne. Calculate the p-value.\nf. At the 5% level of decision, what is your decision about the null hypothesis?\ng. What is the Type I error?\nh. What is the Type II error?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 118
+  },
+  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:",
+  "modelSolution": "d. z = –1.19\n\ne. 0.1171\n\nf. Do not reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-119",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Assume that you are an emergency paramedic called in to rescue victims of an accident. You need to help a patient who is bleeding profusely. The patient is also considered to be a high risk for contracting hepatitis. Assume that the null hypothesis is that the patient does not have hepatitis. What is a Type I error?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 119
+  },
+  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:",
+  "modelSolution": "We conclude that the patient does have the HIV virus when, in fact, the patient does not.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-120",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "It is often said that Californians are more casual than the rest of Americans. Suppose that a survey was done to see if the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals. Fifty of each was surveyed with the following results. Fifteen Californians wear jeans to work and six non-Californians wear jeans to work.\n\nLet C = Californian professional; NC = non-Californian professional\na. State appropriate null and alternate hypotheses.\nb. Define the random variable.\nc. Calculate the test statistic and p-value.\nd. At the 5% significance level, what is your decision?\ne. What is the Type I error?\nf. What is the Type II error?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 120
+  },
+  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:",
+  "modelSolution": "c. z = 2.21; p = 0.0136\n\nd. Reject the null hypothesis.\n\ne. We conclude that the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals when, in fact, it is not greater.\n\nf. We cannot conclude that the proportion of Californian professionals that wear jeans to work is greater than the proportion of non-Californian professionals when, in fact, it is greater.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv13-138",
+  "sectionId": "9.1",
+  "kind": "open",
+  "conceptTag": "9.1",
+  "stem": "A math exam was given to all the fifth grade children attending Country School. Two random samples of scores were taken. The null hypothesis is that the mean math scores for boys and girls in fifth grade are the same. Conduct a hypothesis test.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 13",
+   "n": 138
+  },
+  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
+  "modelSolution": "p-value = 0.0006; reject the null hypothesis; conclude that the averages are not equal",
+  "needsFigure": false,
+  "explanation": []
+ }
+]

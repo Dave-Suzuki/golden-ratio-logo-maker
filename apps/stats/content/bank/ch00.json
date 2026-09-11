@@ -1,0 +1,168 @@
+[
+ {
+  "id": "fe1-7",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "Find the expected number of times a teenager is reminded to do their chores.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. shows the results of the survey.",
+  "options": [
+   "15",
+   "2.78",
+   "1.0",
+   "3.13"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. 2.78"
+  ]
+ },
+ {
+  "id": "fe1-8",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "For every 22 cars, how many would you expect to be parked crookedly, on average?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 8
+  },
+  "context": "Use the following information to answer the next two exercises: On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
+  "options": [
+   "8.25",
+   "11",
+   "18",
+   "7.5"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 8.25"
+  ]
+ },
+ {
+  "id": "rv4-20",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "State the distribution of X.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 4",
+   "n": 20
+  },
+  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "B(25, 0.04)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv4-22",
+  "sectionId": null,
+  "kind": "numeric",
+  "conceptTag": "unassigned",
+  "stem": "On average, for every 25 patients calling in, how many do you expect to have the flu?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 4",
+   "n": 22
+  },
+  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "answer": 1.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "1"
+  ]
+ },
+ {
+  "id": "rv5-36",
+  "sectionId": null,
+  "kind": "numeric",
+  "conceptTag": "unassigned",
+  "stem": "Find the approximate number of responses that were three.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 36
+  },
+  "context": "Using the following information to answer the next two exercises: 64 faculty members were asked the number of cars they owned (including spouse and children’s cars). The results are given in the following graph:",
+  "answer": 16.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "16"
+  ]
+ },
+ {
+  "id": "rv6-46",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "On average, five students from each high school class get full scholarships to four-year colleges. Assume that most high school classes have about 500 students. X = the number of students from a high school class that get full scholarships to four-year schools. Which of the following is the distribution of X?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 6",
+   "n": 46
+  },
+  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "options": [
+   "P(5)",
+   "B(500, 5)",
+   "Exp(1/5)",
+   "N(5,((0.01)(0.99))/500)"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. P(5)"
+  ]
+ },
+ {
+  "id": "rv9-78",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "The middle 50% of the data are between _____ and _____.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 78
+  },
+  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.",
+  "modelSolution": "1 and 4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv12-125",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "Given: X ~ Exp(1/3). Sketch the graph that depicts: P(x > 1).",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 12",
+   "n": 125
+  },
+  "context": "Use the following information to answer the next two exercises: A recent survey of U.S. teenage pregnancy was answered by 720 girls, age 12–19. Six percent of the girls surveyed said they have been pregnant. We are interested in the true proportion of U.S. girls, age 12–19, who have been pregnant.",
+  "modelSolution": "Check student's solution.",
+  "needsFigure": false,
+  "explanation": []
+ }
+]

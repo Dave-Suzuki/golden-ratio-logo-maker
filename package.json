@@ -11,6 +11,10 @@
     "dev": "npm run dev -w @kiwari/web",
     "build": "npm run build -w @kiwari/web",
     "test": "npm test -w @kiwari/engine",
-    "typecheck": "npm run typecheck -w @kiwari/engine && npm run typecheck -w @kiwari/web"
+    "typecheck": "npm run typecheck -w @kiwari/engine && npm run typecheck -w @kiwari/web && npm run typecheck -w @kiwari/stats",
+    "dev:stats": "npm run dev -w @kiwari/stats",
+    "build:stats": "npm run build -w @kiwari/stats",
+    "test:stats": "npm test -w @kiwari/stats",
+    "ingest:stats": "npm run ingest -w @kiwari/stats"
   }
 }

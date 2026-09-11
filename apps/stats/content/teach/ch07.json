@@ -1,0 +1,63 @@
+[
+ {
+  "sectionId": "7.1",
+  "title": "The Central Limit Theorem for Sample Means (Averages)",
+  "notesTitle": "The Central Limit Theorem For Means",
+  "notesText": "1.1. CL T Setup. Suppose we know that in 2005, the average number of points scored in an NFL game (combined score of both teams) was 42 with a standard deviation of 8 points. We wonder if the scoring has changed over the last decade, so we take a random sample of thirty games in the 2015 season and calculate a sample mean of 46.8 points per game. Of course this makes us suspect that the average number of points per game has increased, but we only have partial 2015 data, so it is not enough simply to compare the means. We rephrase the question: “Is there statistical evidence that there are more points scored per game now than there were in 2005?” To answer this question, we have to decide if the sample mean of 46.8 is very different from what we would expect if the (population) mean number of points is still 42, like in 2005. In other words, we need to see if P (x ≥ 45) is very small, assuming the population mean number of points per game is still 42. But to calculate this probability, we need the distribution ofX, rather than the distribution of X! This is where the Central Limit Theorem comes in. In this example, we have the random variables X and X: X = the number of points scored in an NFL game in 2015, X = the mean (average) number of points scored in a random sample of n = 30 NFL games in 2015. The Central Limit Theorem says that if X has mean µ = 42 points (our assumed average) and standard deviation σ = 8 points (our assumed standard deviation), then X ∼N ( 42, 8√ ) . 1.2. CL T Statement. Under certain conditions, the Central Limit Theorem provides the distribution of the random variable defined to be the means of samples of a certain size from a distribution whose mean and standard deviation are known. The Central Limit Theorem says that if X = a random variable (any distribution) with mean µX and standard deviation σX, and X = the mean of a random sample of n data values from X,\n\nthen the distribution ofX approaches the distributionN ( µX, σX√n ) asn gets large. Let’s take a closer look at the requirements for the Central Limit Theorem. The following are true: • Regardless of n, it is always true that µX =µX and σX = σX√n. • Regardless n, if X is normally distributed, then X is also normally distributed. • IfX is not normally distributed, the distribution ofX approaches a normal distribution as n gets large. • How big is “large”? Many textbooks recommend that if X is normally distributed OR n ≥ 30, then we can assume X is normally distributed . 1.3. CL T Intuition. The Central Limit Theorem is actually quite intuitive. For larger and larger sample sizes, we would expect (by the Law of Large Numbers) for the sample meanx to get closer and closer to the population mean µX. So it makes sense that the mean of X is the same as the mean of X, and the bigger the sample size, the smaller the standard deviation (or standard error) of X. In other words, the sample mean is a better and better approximator of the population mean as the sample size increases.",
+  "summary": "In a population whose distribution may be known or unknown, if the size (n) of samples is sufficiently large, the distribution of the sample means will be approximately normal. The mean of the sample means will equal the population mean. The standard deviation of the distribution of the sample means, called the standard error of the mean, is equal to the population standard deviation divided by the square root of the sample size (n).",
+  "formulaReview": "The Central Limit Theorem for Sample Means: x̄ ~ N(μ_x, σx/(√(n)))\n\nThe Mean X̄: μx\n\nCentral Limit Theorem for Sample Means z-score and standard error of the mean: z=(x̄−μ_x)/((σ_x/(√(n))))\n\nStandard Error of the Mean (Standard Deviation (X̄)): σ_x/(√(n))",
+  "glossary": [
+   {
+    "term": "Average",
+    "meaning": "a number that describes the central tendency of the data; there are a number of specialized averages, including the arithmetic mean, weighted mean, median, mode, and geometric mean."
+   },
+   {
+    "term": "Central Limit Theorem",
+    "meaning": "Given a random variable (RV) with known mean μ and known standard deviation, σ, we are sampling with size n, and we are interested in two new RVs: the sample mean, X̄, and the sample sum, ΣΧ. If the size (n) of the sample is sufficiently large, then X̄ ~ N(μ, σ/(√(n))) and ΣΧ ~ N(nμ, (√(n))(σ)). If the size (n) of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distributions regardless of the shape of the population. The mean of the sample means will equal the population mean, and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, σ/(√(n)), is called the standard error of the mean."
+   },
+   {
+    "term": "Normal Distribution",
+    "meaning": "a continuous random variable (RV) with pdf f(x) = 1/(σ√(2π)) e^((–(x – μ)^2)/(2σ^2)), where μ is the mean of the distribution and σ is the standard deviation; notation: Χ ~ N(μ, σ). If μ = 0 and σ = 1, the RV is called a standard normal distribution."
+   },
+   {
+    "term": "Standard Error of the Mean",
+    "meaning": "the standard deviation of the distribution of the sample means, or σ/(√(n))."
+   }
+  ]
+ },
+ {
+  "sectionId": "7.2",
+  "title": "The Central Limit Theorem for Sums",
+  "notesTitle": "The Central Limit Theorem For Sums",
+  "notesText": "We aren’t doing this section.",
+  "summary": "The central limit theorem tells us that for a population with any distribution, the distribution of the sums for the sample means approaches a normal distribution as the sample size increases. In other words, if the sample size is large enough, the distribution of the sums can be approximated by a normal distribution even if the original population is not normally distributed. Additionally, if the original population has a mean of μX and a standard deviation of σx, the mean of the sums is nμx and the standard deviation is (√(n))(σx) where n is the sample size.",
+  "formulaReview": "The Central Limit Theorem for Sums: ∑X ~ N[(n)(μx),(√(n))(σx)]\n\nMean for Sums (∑X): (n)(μx)\n\nThe Central Limit Theorem for Sums z-score and standard deviation for sums: z for the sample mean = (Σx–(n)(μ_X))/((√(n))(σ_X))\n\nStandard deviation for Sums (∑X): (√(n))(σx)",
+  "glossary": []
+ },
+ {
+  "sectionId": "7.3",
+  "title": "Using the Central Limit Theorem",
+  "notesTitle": "Applying the Central Limit Theorem (For Means)",
+  "notesText": "In this section we apply the Central Limit Theorem the find probabilities and percentiles involving X. Example 1. Finding probabilities involving X and X. The length of time taken on the SAT for a group of students is normally distributed with a mean of 2.5 hours and a standard deviation of 0.25 hours. A sample size of n = 60 is drawn randomly from the population. (1) X = (2) X ∼ (3) X = (4) X ∼ (5) Find the probability that a single student takes between 2 and 3 hours. (6) Find the probability that the sample mean of 60 students is between 2 and 3 hours. TryIt 7.2. Example 2. Probabilities and Percentiles involving x. In a study reported Oct. 29, 2012 on the Flurry Blog, the mean age of tablet users was 34 years. Suppose the standard deviation is 15 years. Take a sample of size n = 100. (1) What are the mean and standard deviation for the sample mean ages of tablet users? (2) What does the distribution look like? (3) Find the probability that the sample mean age is 30 or older.\n\n(4) Find the 10th percentile for the sample mean age. (5) Find the 95th percentile for the sample mean age. Example 7.3. Let’s return to the example from the beginning of the notes for this chapter... Example 3. Statistically significant result? Suppose we know that in 2005 the average number of points scored in an NFL game (combined score of both teams) was 42 with a standard deviation of 8 points. We wonder if the scoring has changed over the last decade, so we take a random sample of 30 games in the 2015 season and calculate a sample mean of 46.8 points per game. Let X = the number of points scored in a 2015 NFL game. (1) We will assume that X has a mean and standard deviation equal to those from the 2005 NFL season. (Why are we making this assumption about X?) (2) Based on our assumption about X, X ∼ (3) Based on our assumption about X, P (X ≥ 46.8) = (4) Describe the significance of the probability from part (2). (5) Is there statistical evidence that there are more points scored now than in 2005? Explain.",
+  "summary": "The central limit theorem can be used to illustrate the law of large numbers. The law of large numbers states that the larger the sample size you take from a population, the closer the sample mean x̄ gets to μ.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Exponential Distribution",
+    "meaning": "a continuous random variable (RV) that appears when we are interested in the intervals of time between some random events, for example, the length of time between emergency arrivals at a hospital, notation: X ~ Exp(m). The mean is μ = 1/m and the standard deviation is σ = 1/m. The probability density function is f(x) = me–mx, x ≥ 0 and the cumulative distribution function is P(X ≤ x) = 1 – e–mx."
+   },
+   {
+    "term": "Mean",
+    "meaning": "a number that measures the central tendency; a common name for mean is \"average.\" The term \"mean\" is a shortened form of \"arithmetic mean.\" By definition, the mean for a sample (denoted by x̄) is x̄ = (Sum of all values in the sample)/(Number of values in the sample), and the mean for a population (denoted by μ) is μ = (Sum of all values in the population)/(Number of values in the population)."
+   },
+   {
+    "term": "Normal Distribution",
+    "meaning": "a continuous random variable (RV) with pdf f(x) = 1/(σ√(2π)) e^((–(x – μ)^2)/(2σ^2)), where μ is the mean of the distribution and σ is the standard deviation.; notation: X ~ N(μ, σ). If μ = 0 and σ = 1, the RV is called the standard normal distribution."
+   },
+   {
+    "term": "Uniform Distribution",
+    "meaning": "a continuous random variable (RV) that has equally likely outcomes over the domain, a < x < b; often referred as the Rectangular Distribution because the graph of the pdf has the form of a rectangle. Notation: X ~ U(a, b). The mean is μ = (a + b)/2 and the standard deviation is σ = √(((b–a)^2)/12). The probability density function is f(x) = 1/b–a for a < x < b or a ≤ x ≤ b. The cumulative distribution is P(X ≤ x) = x–a/b–a."
+   }
+  ]
+ }
+]

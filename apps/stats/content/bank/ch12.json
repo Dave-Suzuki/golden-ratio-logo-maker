@@ -1,0 +1,1454 @@
+[
+ {
+  "id": "tryit-m47100-0",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Is the following an example of a linear equation?\n\ny = –0.125 – 3.5x",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-279",
+   "ref": "Try It 12.1"
+  },
+  "modelSolution": "Yes",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47100-1",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Is the following an example of a linear equation? Why or why not?\n\n[FIGURE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-46",
+   "ref": "Try It 12.2"
+  },
+  "modelSolution": "No, the graph is not a straight line; therefore, it is not a linear equation.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47100-2",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Emma’s Extreme Sports hires hang-gliding instructors and pays them a fee of $50 per class as well as $20 per student in the class. The total cost Emma pays depends on the number of students in a class. Find the equation that expresses the total cost in terms of the number of students in a class.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-977",
+   "ref": "Try It 12.3"
+  },
+  "modelSolution": "y = 50 + 20x",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47100-3",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Ethan repairs household appliances like dishwashers and refrigerators. For each visit, he charges $25 plus $20 per hour of work. A linear equation that expresses the total amount of money Ethan earns per visit is y = 25 + 20x.\n\nWhat are the independent and dependent variables? What is the y-intercept and what is the slope? Interpret them using complete sentences.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-972",
+   "ref": "Try It 12.4"
+  },
+  "modelSolution": "The independent variable (x) is the number of hours Ethan works each visit. The dependent variable (y) is the amount, in dollars, Ethan earns for each visit.\nThe y-intercept is 25 (a = 25). At the start of a visit, Ethan charges a one-time fee of $25 (this is when x = 0). The slope is 20 (b = 20). For each visit, Ethan earns $20 for each hour he works.\nSection 2. Scatter Plots",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-510",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "What are the dependent and independent variables?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-510"
+  },
+  "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
+  "modelSolution": "dependent variable: fee amount; independent variable: time",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-325",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Graph the equation from .",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-325"
+  },
+  "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-22",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Graph the equation from .",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-22"
+  },
+  "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-740",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Which of the following equations are linear?\n\na. y = 6x + 8\n\nb. y + 7 = 3x\n\nc. y – x = 8x2\n\nd. 4y = 8",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-740"
+  },
+  "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid.",
+  "modelSolution": "y = 6x + 8, 4y = 8, and y + 7 = 3x are all linear equations.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-element-352",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "Use the columns \"year\" and \"# flu cases diagnosed. Why is “year” the independent variable and “# flu cases diagnosed.” the dependent variable (instead of the reverse)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "element-352"
+  },
+  "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid.\ncontains real data for the first two decades of flu reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "The number of flu cases depends on the year. Therefore, year becomes the independent variable and the number of flu cases is the dependent variable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-188",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "What is the y-intercept and what is the slope? Interpret them using complete sentences.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-188"
+  },
+  "context": "Use the following information to answer the next two exercises. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x.",
+  "modelSolution": "The y-intercept is 50 (a = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when x = 0). The slope is 100 (b = 100). For each session, the company charges $100 for each hour they clean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-160",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "How many pounds of soil does the shoreline lose in a year?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-160"
+  },
+  "context": "Use the following information to answer the next three questions. Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x.",
+  "modelSolution": "12,000 pounds of soil",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-eip-761",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "What are the slope and y-intercept? Interpret their meaning.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "eip-761"
+  },
+  "context": "Use the following information to answer the next two exercises. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading.",
+  "modelSolution": "The slope is –1.5 (b = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The y-intercept is $15 (a = 15). This means the price of stock before the trading day was $15.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47100-element-367",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "For each of the following situations, state the independent variable and the dependent variable.\n\na. A study is done to determine if elderly drivers are involved in more motor vehicle fatalities than other drivers. The number of fatalities per 100,000 drivers is compared to the age of drivers.\nb. A study is done to determine if the weekly grocery bill changes based on the number of family members.\nc. Insurance companies base life insurance premiums partially on the age of the applicant.\nd. Utility bills vary according to power consumption.\ne. A study is done to determine if a higher education reduces the crime rate in a population.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47100",
+   "exerciseId": "element-367"
+  },
+  "modelSolution": "a. independent variable: age; dependent variable: fatalities\nb. independent variable: # of family members; dependent variable: grocery bill\nc. independent variable: age of applicant; dependent variable: insurance premium\nd. independent variable: power consumption; dependent variable: utility\ne. independent variable: higher education (years); dependent variable: crime rates",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47109-0",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Amelia plays basketball for her high school. She wants to improve to play at the college level. She notices that the number of points she scores in a game goes up in response to the number of hours she practices her jump shot each week. She records the following data:\n\n[TABLE]\nX (hours practicing jump shot) | Y (points scored in a game)\n5 | 15\n7 | 22\n9 | 28\n10 | 31\n11 | 33\n12 | 36\n[/TABLE]\n\nConstruct a scatter plot and state if what Amelia thinks appears to be true.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "eip-339",
+   "ref": "Try It 12.5"
+  },
+  "modelSolution": "Yes, Amelia’s assumption appears to be correct. The number of points Amelia scores per game goes up when she practices her jump shot more.\nSection 3. The Regression Equation",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47109-eip-379",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Does the scatter plot appear linear? Strong or weak? Positive or negative?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "eip-379"
+  },
+  "modelSolution": "The data appear to be linear with a strong, positive correlation.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47109-eip-781",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Does the scatter plot appear linear? Strong or weak? Positive or negative?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "eip-781"
+  },
+  "modelSolution": "The data appear to have no correlation.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47109-fs-idp128138576",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "The Gross Domestic Product Purchasing Power Parity is an indication of a country’s currency value compared to another country. shows the GDP PPP of Cuba as compared to US dollars. Construct a scatter plot of the data.\n\n[TABLE]\nYear | Cuba’s PPP | Year | Cuba’s PPP\n1 | 1,700 | 8 | 4,000\n2 | 1,700 | 9 | 11,000\n4 | 2,300 | 10 | 9,500\n5 | 2,900 | 11 | 9,700\n6 | 3,000 | 12 | 9,900\n7 | 3,500 | |\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "fs-idp128138576"
+  },
+  "modelSolution": "Answers may vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47109-fs-idp83642048",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Does the higher cost of tuition translate into higher-paying jobs? The table lists the top ten colleges based on mid-career salary and the associated yearly tuition costs. Construct a scatter plot of the data.\n\n[TABLE]\nSchool | Mid-Career Salary (in thousands) | Yearly Tuition\nPrinceton | 137 | 57,410\nHarvey Mudd | 135 | 62,817\nCalTech | 127 | 60,864\nUS Naval Academy | 122 | 0\nWest Point | 120 | 0\nMIT | 118 | 57,986\nLehigh University | 118 | 59,930\nNYU-Poly | 117 | 58,168\nBabson College | 117 | 56,576\nStanford | 114 | 56,169\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "fs-idp83642048"
+  },
+  "modelSolution": "For graph: Answers may vary. Note that tuition is the independent variable and salary is the dependent variable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47109-eip-951",
+  "sectionId": "12.2",
+  "kind": "numeric",
+  "conceptTag": "12.2",
+  "stem": "If there are 15 data points in a set of data, what is the number of degree of freedom?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47109",
+   "exerciseId": "eip-951"
+  },
+  "answer": 13.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "13"
+  ]
+ },
+ {
+  "id": "tryit-m47117-0",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "SCUBA divers have maximum dive times they cannot exceed when going to different depths. The data in show different depths with the maximum dive times in minutes. Use your calculator to find the least squares regression line and predict the maximum dive time for 110 feet.\n\n[TABLE]\nX (depth in feet) | Y (maximum dive time)\n50 | 80\n60 | 55\n70 | 45\n80 | 35\n90 | 25\n100 | 22\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-397",
+   "ref": "Try It 12.6"
+  },
+  "modelSolution": "ŷ = 127.24 – 1.11x\nAt 110 feet, a diver could dive for only five minutes.\nSection 4. Testing the Significance of the Correlation Coefficent",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47117-eip-141",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "Use regression to find the equation for the line of best fit.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-141"
+  },
+  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "modelSolution": "ŷ = 2.23 + 1.99x",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47117-eip-247",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "What is the slope of the line of best fit? What does it represent?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-247"
+  },
+  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "modelSolution": "The slope is 1.99 (b = 1.99). It means that for every endorsement deal a professional player gets, he gets an average of another $1.99 million in pay each year.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47117-eip-976",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "What does an r value of zero mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-976"
+  },
+  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "modelSolution": "It means that there is no correlation between the data sets.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47117-eip-270",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "When n = 100 and r = -0.89, is there a significant correlation? Explain.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-270"
+  },
+  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "modelSolution": "Yes, there are enough data points and the value of r is strong enough to show that there is a strong negative correlation between the data sets.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47117-eip-71",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "Explain what it means when a correlation has an r2 of 0.72.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47117",
+   "exerciseId": "eip-71"
+  },
+  "modelSolution": "It means that 72% of the variation in the dependent variable (y) can be explained by the variation in the independent variable (x).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47111-0",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "For a given line of best fit, you computed that r = 0.6501 using n = 12 data points and the critical value is 0.576. Can the line be used for prediction? Why or why not?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47111",
+   "exerciseId": "eip-97",
+   "ref": "Try It 12.7"
+  },
+  "modelSolution": "If the scatter plot looks linear then, yes, the line can be used for prediction, because r > the positive critical value.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47111-1",
+  "sectionId": "12.4",
+  "kind": "tf",
+  "conceptTag": "12.4",
+  "stem": "For a given line of best fit, you compute that r = 0.5204 using n = 9 data points, and the critical value is 0.666. Can the line be used for prediction? Why or why not?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47111",
+   "exerciseId": "eip-847",
+   "ref": "Try It 12.8"
+  },
+  "answer": false,
+  "needsFigure": false,
+  "explanation": [
+   "No, the line cannot be used for prediction, because r < the positive critical value."
+  ]
+ },
+ {
+  "id": "tryit-m47111-2",
+  "sectionId": "12.4",
+  "kind": "tf",
+  "conceptTag": "12.4",
+  "stem": "For a given line of best fit, you compute that r = –0.7204 using n = 8 data points, and the critical value is = 0.707. Can the line be used for prediction? Why or why not?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47111",
+   "exerciseId": "eip-610",
+   "ref": "Try It 12.9"
+  },
+  "answer": true,
+  "needsFigure": false,
+  "explanation": [
+   "Yes, the line can be used for prediction, because r < the negative critical value."
+  ]
+ },
+ {
+  "id": "tryit-m47111-3",
+  "sectionId": "12.4",
+  "kind": "tf",
+  "conceptTag": "12.4",
+  "stem": "For a given line of best fit, you compute that r = 0 using n = 100 data points. Can the line be used for prediction? Why or why not?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47111",
+   "exerciseId": "eip-316",
+   "ref": "Try It 12.10"
+  },
+  "answer": false,
+  "needsFigure": false,
+  "explanation": [
+   "No, the line cannot be used for prediction no matter what the sample size is.\nSection 5. Prediction"
+  ]
+ },
+ {
+  "id": "os-m47111-eip-592",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "When testing the significance of the correlation coefficient, what is the alternative hypothesis?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47111",
+   "exerciseId": "eip-592"
+  },
+  "modelSolution": "Ha: ρ ≠ 0",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47105-0",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Data are collected on the relationship between the number of hours per week practicing a musical instrument and scores on a math test. The line of best fit is as follows:\n\nŷ = 72.5 + 2.8x\n\nWhat would you predict the score on a math test would be for a student who practices a musical instrument for five hours a week?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "eip-375",
+   "ref": "Try It 12.11"
+  },
+  "modelSolution": "86.5\nSection 6. Outliers",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-eip-673",
+  "sectionId": "12.5",
+  "kind": "numeric",
+  "conceptTag": "12.5",
+  "stem": "What would you predict the sales to be on day 60?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "eip-673"
+  },
+  "context": "Use the following information to answer the next two exercises. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars.",
+  "answer": 250120.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "$250,120"
+  ]
+ },
+ {
+  "id": "os-m47105-eip-584",
+  "sectionId": "12.5",
+  "kind": "numeric",
+  "conceptTag": "12.5",
+  "stem": "How many acres will be left to mow after 20 hours of work?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "eip-584"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
+  "answer": 1326.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "1,326 acres"
+  ]
+ },
+ {
+  "id": "os-m47105-eip-159",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "How many hours will it take to mow all of the lawns? (When is ŷ = 0?)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "eip-159"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
+  "modelSolution": "1,125 hours, or when x = 1,125",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-fs-idp60770720",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Perform linear regression. What is the linear equation? Round to the nearest whole number.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "fs-idp60770720"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "Answers may vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-578",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Solve.\n\na. When x = 1985, ŷ = _____\nb. When x = 1990, ŷ =_____\nc. When x = 1970, ŷ =______ Why doesn’t this answer make sense?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-578"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "a. When x = 1985, ŷ = 25,52\nb. When x = 1990, ŷ = 34,275\nc. When x = 1970, ŷ = –725 Why doesn’t this answer make sense? The range of x values was 1981 to 2002; the year 1970 is not in this range. The regression equation does not apply, because predicting for the year 1970 is extrapolation, which requires a different process. Also, a negative number does not make sense in this context, where we are predicting flu cases diagnosed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-fs-idp46020944",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the U.S.?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "fs-idp46020944"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "Also, the correlation r = 0.4526. If r is compared to the value in the 95% Critical Values of the Sample Correlation Coefficient Table, because r > 0.423, r is significant, and you would think that the line could be used for prediction. But the scatter plot indicates otherwise.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-537",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Write the equation: ŷ= ____________",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-537"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "ŷ = –3,448,225 + 1750x",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-508",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Does the line seem to fit the data? Why or why not?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-508"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "There was an increase in flu cases diagnosed until 1993. From 1993 through 2002, the number of flu cases diagnosed declined each year. It is not appropriate to use a linear regression line to fit to the data.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-658",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "What does the correlation imply about the relationship between time (years) and the number of diagnosed flu cases reported in the U.S.?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-658"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "Since there is no linear association between year and # of flu cases diagnosed, it is not appropriate to calculate a linear correlation coefficient. When there is a linear association and it is appropriate to calculate a correlation, we cannot say that one variable “causes” the other variable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-54",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Enter your data into your calculator or computer. The pre-1981 data should not be included. Why is that so?\n\nWrite the linear equation, rounding to four decimal places:",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-54"
+  },
+  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.\ncontains real data for the first two decades of flu cases reporting.\n[TABLE]\nYear | # flu cases diagnosed | # flu deaths\nPre-1981 | 91 | 29\n1981 | 319 | 121\n1982 | 1,170 | 453\n1983 | 3,076 | 1,482\n1984 | 6,240 | 3,466\n1985 | 11,776 | 6,878\n1986 | 19,032 | 11,987\n1987 | 28,564 | 16,162\n1988 | 35,447 | 20,868\n1989 | 42,674 | 27,591\n1990 | 48,634 | 31,335\n1991 | 59,660 | 36,560\n1992 | 78,530 | 41,055\n1993 | 78,834 | 44,730\n1994 | 71,874 | 49,095\n1995 | 68,505 | 49,456\n1996 | 59,347 | 38,510\n1997 | 47,149 | 20,736\n1998 | 38,393 | 19,005\n1999 | 25,174 | 18,454\n2000 | 25,522 | 17,347\n2001 | 25,643 | 17,402\n2002 | 26,464 | 16,371\nTotal | 802,118 | 489,093\n[/TABLE]",
+  "modelSolution": "We don’t know if the pre-1981 data was collected from a single year. So we don’t have an accurate x value for this figure.\n\nRegression equation: ŷ (#Flu Cases) = –3,448,225 + 1749.777 (year)\n\n[TABLE]\n| Coefficients\nIntercept | –3,448,225\nX Variable 1 | 1,749.777\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-401",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Recently, the annual number of driver deaths per 100,000 for the selected age groups was as follows:\n\n[TABLE]\nAge | Number of Driver Deaths per 100,000\n16–19 | 38\n20–24 | 36\n25–34 | 24\n35–54 | 20\n55–74 | 18\n75+ | 28\n[/TABLE]\n\na. For each age group, pick the midpoint of the interval for the x value. (For the 75+ group, use 80.)\nb. Using “ages” as the independent variable and “Number of driver deaths per 100,000” as the dependent variable, make a scatter plot of the data.\nc. Calculate the least squares (best–fit) line. Put the equation in the form of: ŷ = a + bx\nd. Find the correlation coefficient. Is it significant?\ne. Predict the number of deaths for ages 40 and 60.\nf. Based on the given data, is there a linear relationship between age of a driver and driver fatality rate?\ng. What is the slope of the least squares (best-fit) line? Interpret the slope.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-401"
+  },
+  "modelSolution": "a.\n[TABLE]\nAge | Number of Driver Deaths per 100,000\n16–19 | 38\n20–24 | 36\n25–34 | 24\n35–54 | 20\n55–74 | 18\n75+ | 28\n[/TABLE]\n\nb. Check student’s solution.\nc. ŷ = 35.5818045 – 0.19182491x\nd. r = –0.57874\nFor four df and alpha = 0.05, the LinRegTTest gives p-value = 0.2288 so we do not reject the null hypothesis; there is not a significant linear relationship between deaths and age.\nUsing the table of critical values for the correlation coefficient, with four df, the critical value is 0.811. The correlation coefficient r = –0.57874 is not less than –0.811, so we do not reject the null hypothesis.\ne. There is not a linear relationship between the two variables, as evidenced by a p-value greater than 0.05.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-682",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "The maximum discount value of the Entertainment® card for the “Fine Dining” section, Edition ten, for various pages is given in\n\n[TABLE]\nPage number | Maximum value ($)\n4 | 16\n14 | 19\n25 | 15\n32 | 17\n43 | 19\n57 | 15\n72 | 16\n85 | 15\n90 | 17\n[/TABLE]\n\na. Decide which variable should be the independent variable and which should be the dependent variable.\nb. Draw a scatter plot of the ordered pairs.\nc. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx\nd. Find the correlation coefficient. Is it significant?\ne. Find the estimated maximum values for the restaurants on page ten and on page 70.\nf. Does it appear that the restaurants giving the maximum value are placed in the beginning of the “Fine Dining” section? How did you arrive at your answer?\ng. Suppose that there were 200 pages of restaurants. What do you estimate to be the maximum value for a restaurant listed on page 200?\nh. Is the least squares line valid for page 200? Why or why not?\ni. What is the slope of the least-squares (best-fit) line? Interpret the slope.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-682"
+  },
+  "modelSolution": "a. We wonder if the better discounts appear earlier in the book so we select page as X and discount as Y.\nb. Check student’s solution.\nc. ŷ = 17.21757 – 0.01412x\nd. r = – 0.2752\nFor seven df and alpha = 0.05, using LinRegTTest p-value = 0.4736 so we do not reject; there is a not a significant linear relationship between page and discount.\nUsing the table of critical values for the correlation coefficient, with seven df, the critical value is 0.666. The correlation coefficient xi = –0.2752 is not less than 0.666 so we do not reject.\ne. There is not a significant linear correlation so it appears there is no relationship between the page and the amount of the discount.\n\nAs the page number increases by one page, the discount decreases by $0.01412",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47105-element-512",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "[TABLE]\nState | # letters in name | Year entered the Union | Rank for entering the Union | Area (square miles)\nAlabama | 7 | 1819 | 22 | 52,423\nColorado | 8 | 1876 | 38 | 104,100\nHawaii | 6 | 1959 | 50 | 10,932\nIowa | 4 | 1846 | 29 | 56,276\nMaryland | 8 | 1788 | 7 | 12,407\nMissouri | 8 | 1821 | 24 | 69,709\nNew Jersey | 9 | 1787 | 3 | 8,722\nOhio | 4 | 1803 | 17 | 44,828\nSouth Carolina | 13 | 1788 | 8 | 32,008\nUtah | 4 | 1896 | 45 | 84,904\nWisconsin | 9 | 1848 | 30 | 65,499\n[/TABLE]\n\nWe are interested in whether or not the number of letters in a state name depends upon the year the state entered the Union.\n\na. Decide which variable should be the independent variable and which should be the dependent variable.\nb. Draw a scatter plot of the data.\nc. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nd. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx.\ne. Find the correlation coefficient. What does it imply about the significance of the relationship?\nf. Find the estimated number of letters (to the nearest integer) a state would have if it entered the Union in 1900. Find the estimated number of letters a state would have if it entered the Union in 1940.\ng. Does it appear that a line is the best way to fit the data? Why or why not?\nh. Use the least-squares line to estimate the number of letters a new state that enters the Union this year would have. Can the least squares line be used to predict it? Why or why not?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47105",
+   "exerciseId": "element-512"
+  },
+  "modelSolution": "a. Year is the independent or x variable; the number of letters is the dependent or y variable.\nb. Check student’s solution.\nc. no\nd. ŷ = 47.03 – 0.0216x\ne. –0.4280 The r-value indicates that there is not a significant correlation between the year the state entered the union and the number of letters in the name.\nf. No, the relationship does not appear to be linear; the correlation is not significant.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47107-0",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "Identify the potential outlier in the scatter plot. The standard deviation of the residuals or errors is approximately 8.6.\n\n[FIGURE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-365",
+   "ref": "Try It 12.12"
+  },
+  "modelSolution": "The outlier appears to be at (6, 58). The expected y value on the line for the point (6, 58) is approximately 82. Fifty-eight is 24 units from 82. Twenty-four is more than two standard deviations (2s = (2)(8.6) = 17.2 ). So 82 is more than two standard deviations from 58, which makes (6, 58) a potential outlier.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47107-1",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The data points for the graph from the third exam/final exam example are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of ŷ when x = 10.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-846",
+   "ref": "Try It 12.13"
+  },
+  "modelSolution": "ŷ = 1.04 + 2.96x; 30.64",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47107-2",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The following table shows economic development measured in per capita income PCINC.\n\n[TABLE]\nYear | PCINC | Year | PCINC\n1870 | 340 | 1920 | 1050\n1880 | 499 | 1930 | 1170\n1890 | 592 | 1940 | 1364\n1900 | 757 | 1950 | 1836\n1910 | 927 | 1960 | 2132\n[/TABLE]\n\na. What are the independent and dependent variables?\nb. Draw a scatter plot.\nc. Use regression to find the line of best fit and the correlation coefficient.\nd. Interpret the significance of the correlation coefficient.\ne. Is there a linear relationship between the variables?\nf. Find the coefficient of determination and interpret it.\ng. What is the slope of the regression equation? What does it mean?\nh. Use the line of best fit to estimate PCINC for 1900, for 2000.\ni. Determine if there are any outliers.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-298",
+   "ref": "Try It 12.14"
+  },
+  "modelSolution": "a. The independent variable (x) is the year and the dependent variable (y) is the per capita income.\nb.\nFigure 27\nc. ŷ = 18.61x – 34574; r = 0.9732\nd. At df = 8, the critical value is 0.632. The r value is significant because it is greater than the critical value.\ne. There does appear to be a linear relationship between the variables.\nf. The coefficient of determination is 0.947, which means that 94.7% of the variation in PCINC is explained by the variation in the years.\ng. and h. The slope of the regression equation is 18.61, and it means that per capita income increases by $18.61 for each passing year. ŷ = 785 when the year is 1900, and ŷ = 2,646 when the year is 2000.\ni. There do not appear to be any outliers.\nChapter 13. F Distribution and One-Way ANOVA\nSection 2. The F Distribution and the F-Ratio",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-eip-984",
+  "sectionId": "12.6",
+  "kind": "tf",
+  "conceptTag": "12.6",
+  "stem": "Do there appear to be any outliers?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-984"
+  },
+  "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n[FIGURE]",
+  "answer": true,
+  "needsFigure": true,
+  "explanation": [
+   "Yes, there appears to be an outlier at (6, 58)."
+  ]
+ },
+ {
+  "id": "os-m47107-eip-430",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "What effect did the potential outlier have on the line of best fit?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-430"
+  },
+  "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n[FIGURE]",
+  "modelSolution": "The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate as a predictor for the data.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-eip-930",
+  "sectionId": "12.6",
+  "kind": "numeric",
+  "conceptTag": "12.6",
+  "stem": "The Sum of Squared Errors for a data set of 18 numbers is 49. What is the standard deviation?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "eip-930"
+  },
+  "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n[FIGURE]",
+  "answer": 1.75,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": true,
+  "explanation": [
+   "s = 1.75"
+  ]
+ },
+ {
+  "id": "os-m47107-fs-idp218993792",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "Ornithologists, scientists who study birds, tag sparrow hawks in 13 different colonies to study their population. They gather data for the percent of new sparrow hawks in each colony and the percent of those that have returned from migration.\n\nPercent return:74; 66; 81; 52; 73; 62; 52; 45; 62; 46; 60; 46; 38\n\nPercent new:5; 6; 8; 11; 12; 15; 16; 17; 18; 18; 19; 20; 20\n\na. Enter the data into your calculator and make a scatter plot.\nb. Use your calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from part a.\nc. Explain in words what the slope and y-intercept of the regression line tell us.\nd. How well does the regression line fit the data? Explain your response.\ne. Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.\nf. An ecologist wants to predict how many birds will join another colony of sparrow hawks to which 70% of the adults from the previous year have returned. What is the prediction?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "fs-idp218993792"
+  },
+  "modelSolution": "a. and b. Check student’s solution.\n\nc. The slope of the regression line is -0.3031 with a y-intercept of 31.93. In context, the y-intercept indicates that when there are no returning sparrow hawks, there will be almost 32% new sparrow hawks, which doesn’t make sense since if there are no returning birds, then the new percentage would have to be 100% (this is an example of why we do not extrapolate). The slope tells us that for each percentage increase in returning birds, the percentage of new birds in the colony decreases by 30.3%.\n\nd. If we examine r2, we see that only 57.52% of the variation in the percent of new birds is explained by the model and the correlation coefficient, r = –.7584 only indicates a somewhat strong correlation between returning and new percentages.\n\ne. The ordered pair (66, 6) generates the largest residual of 6.0. This means that when the observed return percentage is 66%, our observed new percentage, 6%, is almost 6% less than the predicted new value of 11.98%. If we remove this data pair, we see only an adjusted slope of -.2789 and an adjusted intercept of 30.9816. In other words, even though this data generates the largest residual, it is not an outlier, nor is the data pair an influential point.\n\nf. If there are 70% returning birds, we would expect to see y = –.2789(70) + 30.9816 = 0.114 or 11.4% new birds in the colony.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-fs-idp2751904",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The following table consists of one student athlete’s time (in minutes) to swim 2000 yards and the student’s heart rate (beats per minute) after swimming on a random sample of 10 days:\n\n[TABLE]\nSwim Time | Heart Rate\n34.12 | 144\n35.72 | 152\n34.72 | 124\n34.05 | 140\n34.13 | 152\n35.73 | 146\n36.17 | 128\n35.57 | 136\n35.37 | 144\n35.57 | 148\n[/TABLE]\n\na. Enter the data into your calculator and make a scatter plot.\nb. Use your calculator’s regression function to find the equation of the least-squares regression line. Add this to your scatter plot from part a.\nc. Explain in words what the slope and y-intercept of the regression line tell us.\nd. How well does the regression line fit the data? Explain your response.\ne. Which point has the largest residual? Explain what the residual means in context. Is this point an outlier? An influential point? Explain.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "fs-idp2751904"
+  },
+  "modelSolution": "a. Check student’s solution.\nb. Check student’s solution.\nc. We have a slope of –1.4946 with a y-intercept of 193.88. The slope, in context, indicates that for each additional minute added to the swim time, the heart rate will decrease by 1.5 beats per minute. If the student is not swimming at all, the y-intercept indicates that his heart rate will be 193.88 beats per minute. While the slope has meaning (the longer it takes to swim 2,000 meters, the less effort the heart puts out), the y-intercept does not make sense. If the athlete is not swimming (resting), then his heart rate should be very low.\nd. Since only 1.5% of the heart rate variation is explained by this regression equation, we must conclude that this association is not explained with a linear relationship.\ne. The point (34.72, 124) generates the largest residual of –11.82. This means that our observed heart rate is almost 12 beats less than our predicted rate of 136 beats per minute. When this point is removed, the slope becomes –2.953 with the y-intercept changing to 247.1616. While the linear association is still very weak, we see that the removed data pair can be considered an influential point in the sense that the y-intercept becomes more meaningful.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-fs-idm81379472",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "[TABLE]\nSchool | Mid-Career Salary (in thousands) | Yearly Tuition\nPrinceton | 137 | 57,410\nHarvey Mudd | 135 | 62,817\nCalTech | 127 | 60,864\nUS Naval Academy | 122 | 0\nWest Point | 120 | 0\nMIT | 118 | 57,986\nLehigh University | 118 | 59,930\nNYU-Poly | 117 | 58,168\nBabson College | 117 | 56,576\nStanford | 114 | 56,169\n[/TABLE]\n\nUsing the data to determine the linear-regression line equation with the outliers removed. Is there a linear correlation for the data set with outliers removed? Justify your answer.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "fs-idm81379472"
+  },
+  "modelSolution": "If we remove the two service academies (the tuition is $0.00), we construct a new regression equation of y = 0.002x + 0.309 with a correlation coefficient of 0.533 and a coefficient of determination of 0.284. There is not enough evidence to state that there is a strong linear correlation between tuition costs and future salaries, even when the service academies are removed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-element-402",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The percent of women who are wage and salary workers who are paid hourly rates is given in for a 14-year period.\n\n[TABLE]\nYear | Percent of workers paid hourly rates\n1 | 61.2\n2 | 60.7\n3 | 61.3\n4 | 61.3\n5 | 61.8\n6 | 61.7\n7 | 61.8\n8 | 62.0\n9 | 62.7\n12 | 62.8\n14 | 62.9\n[/TABLE]\n\na. Using “year” as the independent variable and “percent” as the dependent variable, draw a scatter plot of the data.\nb. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nc. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx\nd. Find the correlation coefficient. Is it significant?\ne. Find the estimated percents for year 13 and year 10.\nf. Based on the data, is there a linear relationship between the year and the percent of female wage and salary earners who are paid hourly rates?\ng. Are there any outliers in the data?\nh. What is the estimated percent for the year 72? Does the least-squares line give an accurate estimate for that year? Explain why or why not.\ni. What is the slope of the least-squares (best-fit) line? Interpret the slope.",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "element-402"
+  },
+  "modelSolution": "a. Check student's solution.\nb. yes\nc. ŷ = −266.8863+0.1656x\nd. 0.9448; Yes\ne. 62.8233; 62.3265\nf. yes\ng. no; (Year 9, 62.7)\nh. 72.5937; no\ni. slope = 0.1656.\nAs the year increases by one, the percent of workers paid hourly rates tends to increase by 0.1656.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-element-952",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "a. Complete for the cost per ounce of the different sizes.\nb. Using “size” as the independent variable and “cost per ounce” as the dependent variable, draw a scatter plot of the data.\nc. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nd. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx\ne. Find the correlation coefficient. Is it significant?\nf. If the laundry detergent were sold in a 40-ounce size, find the estimated cost per ounce.\ng. If the laundry detergent were sold in a 90-ounce size, find the estimated cost per ounce.\nh. Does it appear that a line is the best way to fit the data? Why or why not?\ni. Are there any outliers in the the data?\nj. Is the least-squares line valid for predicting what a 300-ounce size of the laundry detergent would cost per ounce? Why or why not?\nk. What is the slope of the least-squares (best-fit) line? Interpret the slope.",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "element-952"
+  },
+  "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in .\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]",
+  "modelSolution": "a.\n\n[TABLE]\nSize (ounces) | Cost ($) | cents/oz\n16 | 3.99 | 24.94\n32 | 4.99 | 15.59\n64 | 5.99 | 9.36\n200 | 10.99 | 5.50\n[/TABLE]\n\nb. Check student’s solution.\nc. There is a linear relationship for the sizes 16 through 64, but that linear trend does not continue to the 200-oz size.\nd. ŷ = 20.2368 – 0.0819x\ne. r = –0.8086\nf. 40-oz: 16.96 cents/oz\ng. 90-oz: 12.87 cents/oz\nh. The relationship is not linear; the least squares line is not appropriate.\ni. no outliers\nj. No, you would be extrapolating. The 300-oz size is outside the range of x.\nk. slope = –0.08194; for each additional ounce in size, the cost per ounce decreases by 0.082 cents.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-element-911",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The following are advertised sale prices of hard disk drives on Amazon’s website for various capacity hard drives.\n\n[TABLE]\nHard Disk Drive Capacity (in terabytes) | Sale Price ($)\n9 | 147\n20 | 197\n27 | 297\n31 | 447\n35 | 1177\n40 | 2177\n60 | 2497\n[/TABLE]\n\na. Decide which variable should be the independent variable and which should be the dependent variable.\nb. Draw a scatter plot of the data.\nc. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nd. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx\ne. Find the correlation coefficient. Is it significant?\nf. Find the estimated sale price for a 32 terabyte hard drive. Find the cost for a 50 terabyte hard drive.\ng. Does it appear that a line is the best way to fit the data? Why or why not?\nh. Are there any outliers in the data?\ni. What is the slope of the least-squares (best-fit) line? Interpret the slope.",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "element-911"
+  },
+  "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in .\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]",
+  "modelSolution": "a. Size is x, the independent variable, price is y, the dependent variable.\nb. Answers may vary.\nc. The relationship does not appear to be linear.\nd. ŷ = –745.252 + 54.75569x\ne. r = 0.8944, yes it is significant\nf. 32-terabyte: $1006.93, 50-terabyte: $1992.53\ng. No, the relationship does not appear to be linear. However, r is significant.\nh. no, the 60-terabyte hard drive\ni. For each additional terabyte, the price increases by $54.76",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47107-element-133",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "[TABLE]\nState | # letters in name | Year entered the Union | Ranks for entering the Union | Area (square miles)\nAlabama | 7 | 1819 | 22 | 52,423\nColorado | 8 | 1876 | 38 | 104,100\nHawaii | 6 | 1959 | 50 | 10,932\nIowa | 4 | 1846 | 29 | 56,276\nMaryland | 8 | 1788 | 7 | 12,407\nMissouri | 8 | 1821 | 24 | 69,709\nNew Jersey | 9 | 1787 | 3 | 8,722\nOhio | 4 | 1803 | 17 | 44,828\nSouth Carolina | 13 | 1788 | 8 | 32,008\nUtah | 4 | 1896 | 45 | 84,904\nWisconsin | 9 | 1848 | 30 | 65,499\n[/TABLE]\n\nWe are interested in whether there is a relationship between the ranking of a state and the area of the state.\n\na. What are the independent and dependent variables?\nb. What do you think the scatter plot will look like? Make a scatter plot of the data.\nc. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nd. Calculate the least-squares line. Put the equation in the form of: ŷ = a + bx\ne. Find the correlation coefficient. What does it imply about the significance of the relationship?\nf. Find the estimated areas for Alabama and for Colorado. Are they close to the actual areas?\ng. Use the two points in part f to plot the least-squares line on your graph from part b.\nh. Does it appear that a line is the best way to fit the data? Why or why not?\ni. Are there any outliers?\nj. Use the least squares line to estimate the area of a new state that enters the Union. Can the least-squares line be used to predict it? Why or why not?\nk. Delete “Hawaii” and substitute “Alaska” for it. Alaska is the forty-ninth, state with an area of 656,424 square miles.\nl. Calculate the new least-squares line.\nm. Find the estimated area for Alabama. Is it closer to the actual area with this new least-squares line or with the previous one that included Hawaii? Why do you think that’s the case?\nn. Do you think that, in general, newer states are larger than the original states?",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m47107",
+   "exerciseId": "element-133"
+  },
+  "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in .\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]",
+  "modelSolution": "a. Let rank be the independent variable and area be the dependent variable.\nb. Answers may vary.\nc. There appears to be a linear relationship, with one outlier.\nd. ŷ (area) = 24177.06 + 1010.478x\ne. r = 0.50047, r is not significant so there is no relationship between the variables.\nf. Alabama: 46407.576 Colorado: 62575.224\ng. Alabama estimate is closer than Colorado estimate.\nh. If the outlier is removed, there is a linear relationship.\ni. There is one outlier (Hawaii).\nj. rank 51: 75711.4; no\nk.\n[TABLE]\nAlabama | 7 | 1819 | 22 | 52,423\nColorado | 8 | 1876 | 38 | 104,100\nHawaii | 6 | 1959 | 50 | 10,932\nIowa | 4 | 1846 | 29 | 56,276\nMaryland | 8 | 1788 | 7 | 12,407\nMissouri | 8 | 1821 | 24 | 69,709\nNew Jersey | 9 | 1787 | 3 | 8,722\nOhio | 4 | 1803 | 17 | 44,828\nSouth Carolina | 13 | 1788 | 8 | 32,008\nUtah | 4 | 1896 | 45 | 84,904\nWisconsin | 9 | 1848 | 30 | 65,499\n[/TABLE]\n\nl. ŷ = –87065.3 + 7828.532x\nm. Alabama: 85,162.404; the prior estimate was closer. Alaska is an outlier.\nn. yes, with the exception of Hawaii",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-1",
+  "sectionId": "12.1",
+  "kind": "mc",
+  "conceptTag": "12.1",
+  "stem": "Which of the following equations is/are linear?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 1
+  },
+  "options": [
+   "y = –3x",
+   "y = 0.2 + 0.74x",
+   "y = –9.4 – 2x",
+   "A and B",
+   "A, B, and C"
+  ],
+  "correctIndex": 4,
+  "needsFigure": false,
+  "explanation": [
+   "e. A, B, and C.\nAll three are linear equations of the form y = mx + b."
+  ]
+ },
+ {
+  "id": "pt4-2",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "To complete a painting job requires four hours setup time plus one hour per 1,000 square feet. How would you express this information in a linear equation?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 2
+  },
+  "modelSolution": "Let y = the total number of hours required, and x the square footage, measured in units of 1,000. The equation is: y = x + 4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-3",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "A statistics instructor is paid a per-class fee of $2,000 plus $100 for each student in the class. How would you express this information in a linear equation?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 3
+  },
+  "modelSolution": "Let y = the total payment, and x the number of students in a class. The equation is: y = 100(x) + 2,000",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-4",
+  "sectionId": "12.1",
+  "kind": "open",
+  "conceptTag": "12.1",
+  "stem": "A tutoring school requires students to pay a one-time enrollment fee of $500 plus tuition of $3,000 per year. Express this information in an equation.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 4
+  },
+  "modelSolution": "Let y = the total cost of attendance, and x the number of years enrolled. The equation is: y = 3,000(x) + 500",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-5",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "What are the independent and dependent variables for this situation?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 5
+  },
+  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "modelSolution": "The independent variable is the hours worked on a car. The dependent variable is the total labor charges to fix a car.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-6",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Write the equation and identify the slope and intercept.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 6
+  },
+  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "modelSolution": "Let y = the total charge, and x the number of hours required. The equation is: y = 55x + 75\nThe slope is 55 and the intercept is 75.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-7",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "What is the labor charge for a job that takes 3.5 hours to complete?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "modelSolution": "y = 55(3.5) + 75 = 267.50",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-8",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "One job takes 2.4 hours to complete, while another takes 6.3 hours. What is the difference in labor costs for these two jobs?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 8
+  },
+  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "modelSolution": "Because the intercept is included in both equations, while you are only interested in the difference in costs, you do not need to include the intercept in the solution. The difference in number of hours required is: 6.3 – 2.4 = 3.9.\nMultiply this difference by the cost per hour: 55(3.9) = 214.5.\nThe difference in cost between the two jobs is $214.50.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-9",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Describe the pattern in this scatter plot, and decide whether the X and Y variables would be good candidates for linear regression.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 9
+  },
+  "modelSolution": "The X and Y variables have a strong linear relationship. These variables would be good candidates for analysis with linear regression.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-10",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Describe the pattern in this scatter plot, and decide whether the X and Y variables would be good candidates for linear regression.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 10
+  },
+  "modelSolution": "The X and Y variables have a strong negative linear relationship. These variables would be good candidates for analysis with linear regression.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-11",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Describe the pattern in this scatter plot, and decide whether the X and Y variables would be good candidates for linear regression.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 11
+  },
+  "modelSolution": "There is no clear linear relationship between the X and Y variables, so they are not good candidates for linear regression.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-12",
+  "sectionId": "12.2",
+  "kind": "open",
+  "conceptTag": "12.2",
+  "stem": "Describe the pattern in this scatter plot, and decide whether the X and Y variables would be good candidates for linear regression.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 12
+  },
+  "modelSolution": "The X and Y variables have a strong positive relationship, but it is curvilinear rather than linear. These variables are not good candidates for linear regression.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-13",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "What is the value of the slope?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 13
+  },
+  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "modelSolution": "r(s_y/s_x)=0.73(9.6/4.0)=1.752≈1.75",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-14",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "What is the value of the y intercept?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 14
+  },
+  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "modelSolution": "a=ȳ−bx̄=141.6−1.752(68.4)=21.7632≈21.76",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-15",
+  "sectionId": "12.3",
+  "kind": "open",
+  "conceptTag": "12.3",
+  "stem": "Write the regression equation predicting weight from height in this data set, and calculate the predicted weight for someone 68 inches tall.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 15
+  },
+  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "modelSolution": "ŷ=21.76+1.75(68)=140.76",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-16",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "The correlation between body weight and fuel efficiency (measured as miles per gallon) for a sample of 2,012 model cars is –0.56. Calculate the coefficient of determination for this data and explain what it means.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 16
+  },
+  "modelSolution": "The coefficient of determination is the square of the correlation, or r2.\nFor this data, r2 = (–0.56)2 = 0.3136 ≈ 0.31 or 31%. This means that 31 percent of the variation in fuel efficiency can be explained by the bodyweight of the automobile.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-17",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "The correlation between high school GPA and first-year college GPA for a sample of 200 university students is 0.32. How much variation in first-year college GPA is not explained by high school GPA?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 17
+  },
+  "modelSolution": "The coefficient of determination = 0.322 = 0.1024. This is the amount of variation in first-year college GPA that can be explained by high school GPA. The amount that cannot be explained is 1 – 0.1024 = 0.8976 ≈ 0.90. So about 90 percent of variance in first-year college GPA in this data is not explained by high school GPA.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-18",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "Rounded to two decimal places what correlation between two variables is necessary to have a coefficient of determination of at least 0.50?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 18
+  },
+  "modelSolution": "r=√(r^2)\n\n√(0.5)=0.707106781≈0.71\n\nYou need a correlation of 0.71 or higher to have a coefficient of determination of at least 0.5.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-19",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "Write the null and alternative hypotheses for a study to determine if two variables are significantly correlated.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 19
+  },
+  "modelSolution": "H0: ρ = 0\nHa: ρ ≠ 0",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-20",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "In a sample of 30 cases, two variables have a correlation of 0.33. Do a t-test to see if this result is significant at the α = 0.05 level. Use the formula:\nt=(r√(n−2))/(√(1−r^2))",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 20
+  },
+  "modelSolution": "t=(r√(n−2))/(√(1−r^2))=(0.33√(30−2))/(√(1−0.33^2))=1.85\n\nThe critical value for α = 0.05 for a two-tailed test using the t29 distribution is 2.045. Your value is less than this, so you fail to reject the null hypothesis and conclude that the study produced no evidence that the variables are significantly correlated.\nUsing the calculator function tcdf, the p-value is 2tcdf(1.85, 10^99, 29) = 0.0373. Do not reject the null hypothesis and conclude that the study produced no evidence that the variables are significantly correlated.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-21",
+  "sectionId": "12.4",
+  "kind": "open",
+  "conceptTag": "12.4",
+  "stem": "In a sample of 25 cases, two variables have a correlation of 0.45. Do a t-test to see if this result is significant at the α = 0.05 level. Use the formula:\nt=(r√(n−2))/(√(1−r^2))",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 21
+  },
+  "modelSolution": "t=(r√(n−2))/(√(1−r^2))=(0.45√(25−2))/(√(1−0.45^2))=2.417\n\nThe critical value for α = 0.05 for a two-tailed test using the t24 distribution is 2.064. Your value is greater than this, so you reject the null hypothesis and conclude that the study produced evidence that the variables are significantly correlated.\nUsing the calculator function tcdf, the p-value is 2tcdf(2.417, 10^99, 24) = 0.0118. Reject the null hypothesis and conclude that the study produced evidence that the variables are significantly correlated.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-22",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "For a product with five grams of fiber per serving, what are the expected grams of potassium per serving?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 22
+  },
+  "context": "Use the following information to answer the next two exercises. A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
+  "modelSolution": "ŷ=25+16(5)=105",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-23",
+  "sectionId": "12.5",
+  "kind": "open",
+  "conceptTag": "12.5",
+  "stem": "Comparing two products, one with three grams of fiber per serving and one with six grams of fiber per serving, what is the expected difference in grams of potassium per serving?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 23
+  },
+  "context": "Use the following information to answer the next two exercises. A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
+  "modelSolution": "Because the intercept appears in both predicted values, you can ignore it in calculating a predicted difference score. The difference in grams of fiber per serving is 6 – 3 = 3 and the predicted difference in grams of potassium per serving is (16)(3) = 48.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-24",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "In the context of regression analysis, what is the definition of an outlier, and what is a rule of thumb to evaluate if a given value in a data set is an outlier?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 24
+  },
+  "modelSolution": "An outlier is an observed value that is far from the least squares regression line. A rule of thumb is that a point more than two standard deviations of the residuals from its predicted value on the least squares regression line is an outlier.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-25",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "In the context of regression analysis, what is the definition of an influential point, and how does an influential point differ from an outlier?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 25
+  },
+  "modelSolution": "An influential point is an observed value in a data set that is far from other points in the data set, in a horizontal direction. Unlike an outlier, an influential point is determined by its relationship with other values in the data set, not by its relationship to the regression line.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-26",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The least squares regression line for a data set is ŷ=5+0.3x and the standard deviation of the residuals is 0.4. Does a case with the values x = 2, y = 6.2 qualify as an outlier?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 26
+  },
+  "modelSolution": "The predicted value for y is: ŷ=5+0.3x=5.6. The value of 6.2 is less than two standard deviations from the predicted value, so it does not qualify as an outlier.\nResidual for (2, 6.2): 6.2 – 5.6 = 0.6 (0.6 < 2(0.4))",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-27",
+  "sectionId": "12.6",
+  "kind": "open",
+  "conceptTag": "12.6",
+  "stem": "The least squares regression line for a data set is ŷ=2.3−0.1x and the standard deviation of the residuals is 0.13. Does a case with the values x = 4.1, y = 2.34 qualify as an outlier?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 27
+  },
+  "modelSolution": "The predicted value for y is: ŷ = 2.3 – 0.1(4.1) = 1.89. The value of 2.32 is more than two standard deviations from the predicted value, so it qualifies as an outlier.\nResidual for (4.1, 2.34): 2.32 – 1.89 = 0.43 (0.43 > 2(0.13))",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-31",
+  "sectionId": "12.3",
+  "kind": "mc",
+  "conceptTag": "12.3",
+  "stem": "The linear regression equation is ŷ = 1166.93 – 0.5868x. What was the expected farm population (in millions of persons) for 1980?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 31
+  },
+  "context": "The number of people living on American farms has declined steadily during the 20th century. Here are data on the farm population (in millions of persons) from 1935 to 1980.",
+  "options": [
+   "7.2",
+   "5.1",
+   "6.0",
+   "8.0"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. 5.1"
+  ]
+ },
+ {
+  "id": "fe1-32",
+  "sectionId": "12.3",
+  "kind": "mc",
+  "conceptTag": "12.3",
+  "stem": "In linear regression, which is the best possible SSE?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 32
+  },
+  "context": "The number of people living on American farms has declined steadily during the 20th century. Here are data on the farm population (in millions of persons) from 1935 to 1980.",
+  "options": [
+   "13.46",
+   "18.22",
+   "24.05",
+   "16.33"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 13.46"
+  ]
+ },
+ {
+  "id": "fe1-33",
+  "sectionId": "12.4",
+  "kind": "mc",
+  "conceptTag": "12.4",
+  "stem": "In regression analysis, if the correlation coefficient is close to one what can be said about the best fit line?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 33
+  },
+  "context": "The number of people living on American farms has declined steadily during the 20th century. Here are data on the farm population (in millions of persons) from 1935 to 1980.",
+  "options": [
+   "It is a horizontal line. Therefore, we can not use it.",
+   "There is a strong linear pattern. Therefore, it is most likely a good model to be used.",
+   "The coefficient correlation is close to the limit. Therefore, it is hard to make a decision.",
+   "We do not have the equation. Therefore, we cannot say anything about it."
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. There is a strong linear pattern. Therefore, it is most likely a good model to be used."
+  ]
+ },
+ {
+  "id": "fe2-30",
+  "sectionId": "12.3",
+  "kind": "mc",
+  "conceptTag": "12.3",
+  "stem": "The linear regression equation is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 30
+  },
+  "context": "Use the following information to answer the next three exercises: A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
+  "options": [
+   "ŷ = 0.0094 − 79.96x",
+   "ŷ = 79.96 + 0.0094x",
+   "ŷ = 79.96 − 0.0094x",
+   "ŷ = − 0.0094 + 79.96x"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. ŷ = 79.96x – 0.0094"
+  ]
+ }
+]

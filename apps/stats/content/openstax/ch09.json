@@ -1,0 +1,1064 @@
+{
+ "number": 9,
+ "title": "Hypothesis Testing with One Sample",
+ "sections": [
+  {
+   "id": "m47041",
+   "title": "Introduction",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [
+    {
+     "term": "Confidence Interval (CI)",
+     "meaning": "an interval estimate for an unknown population parameter. This depends on:\n\n• The desired confidence level.\n• Information that is known about the distribution (for example, known standard deviation).\n• The sample and its size."
+    },
+    {
+     "term": "Hypothesis Testing",
+     "meaning": "Based on sample evidence, a procedure for determining whether the hypothesis stated is a reasonable statement and should not be rejected, or is unreasonable and should be rejected."
+    }
+   ],
+   "kind": "intro"
+  },
+  {
+   "id": "m47033",
+   "title": "Null and Alternative Hypotheses",
+   "tryits": [
+    {
+     "id": "eip-665",
+     "problem": "A medical trial is conducted to test whether or not a new medicine reduces cholesterol by 25%. State the null and alternative hypotheses.",
+     "solution": null,
+     "guideSolution": "H0 : The drug reduces cholesterol by 25%.  = 0.25\nHa : The drug does not reduce cholesterol by 25%.  ≠ 0.25",
+     "guideRef": "Try It 9.1"
+    },
+    {
+     "id": "fs-idm576512",
+     "problem": "We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.\n\na. H0: μ __ 66\nb. Ha: μ __ 66",
+     "stem": "We want to test whether the mean height of eighth graders is 66 inches. State the null and alternative hypotheses. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+     "options": [
+      "H0: μ __ 66",
+      "Ha: μ __ 66"
+     ],
+     "solution": null,
+     "guideSolution": "H0 : μ = 66\nHa : μ ≠ 66",
+     "guideRef": "Try It 9.2"
+    },
+    {
+     "id": "fs-idm2856320",
+     "problem": "We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.\n\na. H0: μ __ 45\nb. Ha: μ __ 45",
+     "stem": "We want to test if it takes fewer than 45 minutes to teach a lesson plan. State the null and alternative hypotheses. Fill in the correct symbol ( =, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+     "options": [
+      "H0: μ __ 45",
+      "Ha: μ __ 45"
+     ],
+     "solution": null,
+     "guideSolution": "H0: μ ≥ 45\nHa: μ < 45",
+     "guideRef": "Try It 9.3"
+    },
+    {
+     "id": "fs-idm126344352",
+     "problem": "On a state driver’s test, about 40% pass the test on the first try. We want to test if more than 40% pass on the first try. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.\n\na. H0: p __ 0.40\nb. Ha: p __ 0.40",
+     "stem": "On a state driver’s test, about 40% pass the test on the first try. We want to test if more than 40% pass on the first try. Fill in the correct symbol (=, ≠, ≥, <, ≤, >) for the null and alternative hypotheses.",
+     "options": [
+      "H0: p __ 0.40",
+      "Ha: p __ 0.40"
+     ],
+     "solution": null,
+     "guideSolution": "H0: p = 0.40\nHa: p > 0.40",
+     "guideRef": "Try It 9.4"
+    }
+   ],
+   "examples": [
+    "H0: No more than 30% of the registered voters in Santa Clara County voted in the primary election. p ≤ .30\n\nHa: More than 30% of the registered voters in Santa Clara County voted in the primary election. p > 30",
+    "We want to test whether the mean GPA of students in American colleges is different from 2.0 (out of 4.0). The null and alternative hypotheses are:\n\nH0: μ = 2.0\n\nHa: μ ≠ 2.0",
+    "We want to test if college students take less than five years to graduate from college, on the average. The null and alternative hypotheses are:\n\nH0: μ ≥ 5\n\nHa: μ < 5",
+    "In an issue of U. S. News and World Report, an article on school standards stated that about half of all students in France, Germany, and Israel take advanced placement exams and a third pass. The same article stated that 6.6% of U.S. students take advanced placement exams and 4.4% pass. Test if the percentage of U.S. students who take advanced placement exams is more than 6.6%. State the null and alternative hypotheses.\n\nH0: p ≤ 0.066\n\nHa: p > 0.066"
+   ],
+   "practice": [
+    {
+     "id": "eip-350",
+     "problem": "You are testing that the mean speed of your cable Internet connection is more than three Megabits per second. What is the random variable? Describe in words.",
+     "solution": "The random variable is the mean Internet speed in Megabits per second."
+    },
+    {
+     "id": "eip-411",
+     "problem": "You are testing that the mean speed of your cable Internet connection is more than three Megabits per second. State the null and alternative hypotheses.",
+     "solution": null
+    },
+    {
+     "id": "eip-629",
+     "problem": "The American family has an average of two children. What is the random variable? Describe in words.",
+     "solution": "The random variable is the mean number of children an American family has."
+    },
+    {
+     "id": "eip-692",
+     "problem": "The mean entry level salary of an employee at a company is $58,000. You believe it is higher for IT professionals in the company. State the null and alternative hypotheses.",
+     "solution": null
+    },
+    {
+     "id": "eip-334",
+     "problem": "A sociologist claims the probability that a person picked at random in Times Square in New York City is visiting the area is 0.83. You want to test to see if the proportion is actually less. What is the random variable? Describe in words.",
+     "solution": "The random variable is the proportion of people picked at random in Times Square visiting the city."
+    },
+    {
+     "id": "eip-235",
+     "problem": "A sociologist claims the probability that a person picked at random in Times Square in New York City is visiting the area is 0.83. You want to test to see if the claim is correct. State the null and alternative hypotheses.",
+     "solution": null
+    },
+    {
+     "id": "eip-75",
+     "problem": "In a population of fish, approximately 42% are female. A test is conducted to see if, in fact, the proportion is less. State the null and alternative hypotheses.",
+     "solution": "a. H0: p = 0.42\nb. Ha: p < 0.42"
+    },
+    {
+     "id": "element-242",
+     "problem": "Suppose that a recent article stated that the mean time spent in jail by a first–time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was 3 years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. If you were conducting a hypothesis test to determine if the mean length of jail time has increased, what would the null and alternative hypotheses be? The distribution of the population is normal.\n\na. H0: ________\nb. Ha: ________",
+     "solution": null
+    },
+    {
+     "id": "element-422",
+     "problem": "A random survey of 75 student loan recipients revealed that the mean length of time in repayment is 17.4 years with a standard deviation of 6.3 years. If you were conducting a hypothesis test to determine if the population mean time in repayment could likely be 15 years, what would the null and alternative hypotheses be?\n\na. H0: __________\nb. Ha: __________",
+     "solution": "a. H0: μ = 15\nb. Ha: μ ≠ 15"
+    },
+    {
+     "id": "element-818",
+     "problem": "The National Institute of Mental Health published an article stating that in any one-year period, approximately 9.5% of American adults suffer from depression or a depressive illness. Suppose that in a survey of 100 people in a certain town, seven of them suffered from depression or a depressive illness. If you were conducting a hypothesis test to determine if the true proportion of people in that town suffering from depression or a depressive illness is lower than the percent in the general adult American population, what would the null and alternative hypotheses be?\n\na. H0: ________\nb. Ha: ________",
+     "solution": null
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-919",
+     "problem": "Some of the following statements refer to the null hypothesis, some to the alternate hypothesis.\n\nState the null hypothesis, H0, and the alternative hypothesis. Ha, in terms of the appropriate parameter (μ or p).\n\na. The mean number of years Americans work before retiring is 34.\nb. At most 60% of Americans vote in presidential elections.\nc. The mean starting salary for San Jose State University graduates is at least $100,000 per year.\nd. Twenty-nine percent of high school seniors get drunk each month.\ne. Fewer than 5% of adults ride the bus to work in Los Angeles.\nf. The mean number of cars a person owns in her lifetime is not more than ten.\ng. About half of Americans prefer to live away from cities, given the choice.\nh. Europeans have a mean paid vacation each year of six weeks.\ni. The chance of developing breast cancer is under 11% for females.\nj. Private universities' mean tuition cost is more than $20,000 per year.",
+     "solution": "a. H0: μ = 34; Ha: μ ≠ 34\nb. H0: p ≤ 0.60; Ha: p > 0.60\nc. H0: μ ≥ 100,000; Ha: μ < 100,000\nd. H0: p = 0.29; Ha: p ≠ 0.29\ne. H0: p = 0.05; Ha: p < 0.05\nf. H0: μ ≤ 10; Ha: μ > 10\ng. H0: p = 0.50; Ha: p ≠ 0.50\nh. H0: μ = 6; Ha: μ ≠ 6\ni. H0: p ≥ 0.11; Ha: p < 0.11\nj. H0: μ ≤ 20,000; Ha: μ > 20,000"
+    },
+    {
+     "id": "exer11",
+     "problem": "Over the past few decades, public health officials have examined the link between weight concerns and teen girls' smoking. Researchers surveyed a group of 273 randomly selected teen girls living in Massachusetts (between 12 and 15 years old). After four years the girls were surveyed again. Sixty-three said they smoked to stay thin. Is there good evidence that more than 30% of the teen girls smoke to stay thin? The alternative hypothesis is:\n\na. p < 0.30\nb. p ≤ 0.30\nc. p ≥ 0.30\nd. p > 0.30",
+     "stem": "Over the past few decades, public health officials have examined the link between weight concerns and teen girls' smoking. Researchers surveyed a group of 273 randomly selected teen girls living in Massachusetts (between 12 and 15 years old). After four years the girls were surveyed again. Sixty-three said they smoked to stay thin. Is there good evidence that more than 30% of the teen girls smoke to stay thin? The alternative hypothesis is:",
+     "options": [
+      "p < 0.30",
+      "p ≤ 0.30",
+      "p ≥ 0.30",
+      "p > 0.30"
+     ],
+     "solution": null
+    },
+    {
+     "id": "exer13",
+     "problem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is:\n\na. p = 0.20\nb. p > 0.20\nc. p < 0.20\nd. p ≤ 0.20",
+     "stem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 attended the midnight showing. An appropriate alternative hypothesis is:",
+     "options": [
+      "p = 0.20",
+      "p > 0.20",
+      "p < 0.20",
+      "p ≤ 0.20"
+     ],
+     "solution": "c"
+    },
+    {
+     "id": "exer18",
+     "problem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The null and alternative hypotheses are:\n\na. Ho: x̄ = 4.5, Ha : x̄ > 4.5\nb. Ho: μ ≥ 4.5, Ha: μ < 4.5\nc. Ho: μ = 4.75, Ha: μ > 4.75\nd. Ho: μ = 4.5, Ha: μ > 4.5",
+     "stem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test. The null and alternative hypotheses are:",
+     "options": [
+      "Ho: x̄ = 4.5, Ha : x̄ > 4.5",
+      "Ho: μ ≥ 4.5, Ha: μ < 4.5",
+      "Ho: μ = 4.75, Ha: μ > 4.75",
+      "Ho: μ = 4.5, Ha: μ > 4.5"
+     ],
+     "solution": null
+    }
+   ],
+   "bring_together": [],
+   "summary": "In a hypothesis test, sample data is evaluated in order to arrive at a decision about some type of claim. If certain conditions about the sample are satisfied, then the claim can be evaluated for a population. In a hypothesis test, we:\n\n1. Evaluate the null hypothesis, typically denoted with H0. The null is not rejected unless the hypothesis test shows otherwise. The null statement must always contain some form of equality (=, ≤ or ≥)\n2. Always write the alternative hypothesis, typically denoted with Ha or H1, using less than, greater than, or not equals symbols, i.e., (≠, >, or <).\n3. If we reject the null hypothesis, then we can assume there is enough evidence to support the alternative hypothesis.\n4. Never state that a claim is proven true or false. Keep in mind the underlying fact that hypothesis testing is based on probability laws; therefore, we can talk only in terms of non-absolute certainties.",
+   "formula_review": "H0 and Ha are contradictory.\n\n[TABLE]\nIf Ho has: | equal (=) | greater than or equal to (≥) | less than or equal to (≤)\nthen Ha has: | not equal (≠) or greater than (>) or less than (<) | less than (<) | greater than (>)\n[/TABLE]\n\nIf α ≤ p-value, then do not reject H0.\n\nIf α > p-value, then reject H0.\n\nα is preconceived. Its value is set before the hypothesis test starts. The p-value is calculated from the data.",
+   "glossary": [
+    {
+     "term": "Hypothesis",
+     "meaning": "a statement about the value of a population parameter, in case of two hypotheses, the statement assumed to be true is called the null hypothesis (notation H0) and the contradictory statement is called the alternative hypothesis (notation Ha)."
+    }
+   ],
+   "kind": "section",
+   "section": "9.1"
+  },
+  {
+   "id": "m47029",
+   "title": "Outcomes and the Type I and Type II Errors",
+   "tryits": [
+    {
+     "id": "eip-808",
+     "problem": "Suppose the null hypothesis, H0, is: the blood cultures contain no traces of pathogen X. State the Type I and Type II errors.",
+     "solution": null,
+     "guideSolution": "Type I error: The researcher thinks the blood cultures do contain traces of pathogen X, when in fact, they do not.\nType II error: The researcher thinks the blood cultures do not contain traces of pathogen X, when in fact, they do.",
+     "guideRef": "Try It 9.5"
+    },
+    {
+     "id": "eip-200",
+     "problem": "Suppose the null hypothesis, H0, is: a patient is not sick. Which type of error has the greater consequence, Type I or Type II?",
+     "solution": null,
+     "guideSolution": "The error with the greater consequence is the Type II error: the patient will be thought well when, in fact, he is sick, so he will not get treatment.",
+     "guideRef": "Try It 9.6"
+    },
+    {
+     "id": "eip-idp106437392",
+     "problem": "“Red tide” is a bloom of poison-producing algae–a few different species of a class of plankton called dinoflagellates. When the weather and water conditions cause these blooms, shellfish such as clams living in the area develop dangerous levels of a paralysis-inducing toxin. In Massachusetts, the Division of Marine Fisheries (DMF) monitors levels of the toxin in shellfish by regular sampling of shellfish along the coastline. If the mean level of toxin in clams exceeds 800 μg (micrograms) of toxin per kg of clam meat in any area, clam harvesting is banned there until the bloom is over and levels of toxin in clams subside. Describe both a Type I and a Type II error in this context, and state which error has the greater consequence.",
+     "solution": null,
+     "guideSolution": "In this scenario, an appropriate null hypothesis would beH0: the mean level of toxins is at most 800 μg, H0 : μ0 ≤ 800 μg.\nType I error: The DMF believes that toxin levels are still too high when, in fact, toxin levels are at most 800 μg. The DMF continues the harvesting ban.\nType II error: The DMF believes that toxin levels are within acceptable levels (are at least 800 μg) when, in fact, toxin levels are still too high (more than 800 μg). The DMF lifts the harvesting ban. This error could be the most serious. If the ban is lifted and clams are still toxic, consumers could possibly eat tainted food.\nIn summary, the more dangerous error would be to commit a Type II error, because this error involves the availability of tainted clams for consumption.",
+     "guideRef": "Try It 9.7"
+    },
+    {
+     "id": "eip-856",
+     "problem": "Identify the Type I and Type II errors from these four statements.\n\na. Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88% when that percentage is actually less than 88%\nb. Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88% when the percentage is actually at least 88%.\nc. Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when the percentage is actually at least 88%.\nd. Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when that percentage is actually less than 88%.",
+     "stem": "Identify the Type I and Type II errors from these four statements.",
+     "options": [
+      "Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88% when that percentage is actually less than 88%",
+      "Not to reject the null hypothesis that the percentage of adults who have jobs is at least 88% when the percentage is actually at least 88%.",
+      "Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when the percentage is actually at least 88%.",
+      "Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when that percentage is actually less than 88%."
+     ],
+     "solution": null
+    }
+   ],
+   "examples": [
+    "Suppose the null hypothesis, H0, is: Navah's rock climbing equipment is safe.\n\nType I error: Navah thinks that her rock climbing equipment may not be safe when, in fact, it really is safe. Type II error: Navah thinks that her rock climbing equipment may be safe when, in fact, it is not safe.\n\nα = probability that Navah thinks her rock climbing equipment may not be safe when, in fact, it really is safe. β = probability that Navah thinks her rock climbing equipment may be safe when, in fact, it is not safe.\n\nNotice that, in this case, the error with the greater consequence is the Type II error. (If Navah thinks her rock climbing equipment is safe, she will go ahead and use it.)",
+    "Suppose the null hypothesis, H0, is: The victim of an automobile accident is alive when they arrive at the emergency room of a hospital.\n\nType I error: The emergency crew thinks that the victim is dead when, in fact, the victim is alive. Type II error: The emergency crew does not know if the victim is alive when, in fact, the victim is dead.\n\nα = probability that the emergency crew thinks the victim is dead when, in fact, the victim is really alive = P(Type I error).\nβ = probability that the emergency crew does not know if the victim is alive when, in fact, the victim is dead = P(Type II error).\n\nThe error with the greater consequence is the Type I error. (If the emergency crew thinks the victim is dead, they will not treat them.)",
+    "A company called Genetic Labs claims to be able to increase the likelihood that a pregnancy will result in a male being born. Statisticians want to test the claim. Suppose that the null hypothesis, H0, is: Genetic Labs has no effect on sex outcome.\n\nType I error: This results when a true null hypothesis is rejected. In the context of this scenario, we would state that we believe that Genetic Labs influences the sex outcome, when in fact it has no effect. The probability of this error occurring is denoted by the Greek letter alpha, α.\n\nType II error: This results when we fail to reject a false null hypothesis. In context, we would state that Genetic Labs does not influence the sex outcome of a pregnancy when, in fact, it does. The probability of this error occurring is denoted by the Greek letter beta, β.\n\nThe error of greater consequence would be the Type I error since people would use the Genetic Labs product in hopes of increasing the chances of having a male.",
+    "A certain experimental drug claims a cure rate of at least 75% for males with prostate cancer. Describe both the Type I and Type II errors in context. Which error is the more serious?\n\nType I: A cancer patient believes the cure rate for the drug is less than 75% when it actually is at least 75%.\n\nType II: A cancer patient believes the experimental drug has at least a 75% cure rate when it has a cure rate that is less than 75%.\n\nIn this scenario, the Type II error contains the more severe consequence. If a patient believes the drug works at least 75% of the time, this most likely will influence the patient’s (and doctor’s) choice about whether to use the drug as a treatment option."
+   ],
+   "practice": [
+    {
+     "id": "eip-308",
+     "problem": "The mean price of mid-sized cars in a region is $32,000. A test is conducted to see if the claim is true. State the Type I and Type II errors in complete sentences.",
+     "solution": "Type I: The mean price of mid-sized cars is $32,000, but we conclude that it is not $32,000.\n\nType II: The mean price of mid-sized cars is not $32,000, but we conclude that it is $32,000."
+    },
+    {
+     "id": "eip-611",
+     "problem": "A sleeping bag is tested to withstand temperatures of –15 °F. You think the bag cannot stand temperatures that low. State the Type I and Type II errors in complete sentences.",
+     "solution": null
+    },
+    {
+     "id": "eip-655",
+     "problem": "For Exercise 9.12, what are α and β in words?",
+     "solution": "α = the probability that you think the bag cannot withstand -15 degrees F, when in fact it can\n\nβ = the probability that you think the bag can withstand -15 degrees F, when in fact it cannot"
+    },
+    {
+     "id": "eip-106",
+     "problem": "In words, describe 1 – β For Exercise 9.12.",
+     "solution": null
+    },
+    {
+     "id": "eip-861",
+     "problem": "A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, H0, is: the surgical procedure will go well. State the Type I and Type II errors in complete sentences.",
+     "solution": "Type I: The procedure will go well, but the doctors think it will not.\n\nType II: The procedure will not go well, but the doctors think it will."
+    },
+    {
+     "id": "eip-496",
+     "problem": "A group of doctors is deciding whether or not to perform an operation. Suppose the null hypothesis, H0, is: the surgical procedure will go well. Which is the error with the greater consequence?",
+     "solution": null
+    },
+    {
+     "id": "eip-404",
+     "problem": "The power of a test is 0.981. What is the probability of a Type II error?",
+     "solution": "0.019"
+    },
+    {
+     "id": "eip-331",
+     "problem": "A group of divers is exploring an old sunken ship. Suppose the null hypothesis, H0, is: the sunken ship does not contain buried treasure. State the Type I and Type II errors in complete sentences.",
+     "solution": null
+    },
+    {
+     "id": "eip-967",
+     "problem": "A microbiologist is testing a water sample for E-coli. Suppose the null hypothesis, H0, is: the sample does not contain E-coli. The probability that the sample does not contain E-coli, but the microbiologist thinks it does is 0.012. The probability that the sample does contain E-coli, but the microbiologist thinks it does not is 0.002. What is the power of this test?",
+     "solution": "0.998"
+    },
+    {
+     "id": "eip-424",
+     "problem": "A microbiologist is testing a water sample for E-coli. Suppose the null hypothesis, H0, is: the sample contains E-coli. Which is the error with the greater consequence?",
+     "solution": null
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-612",
+     "problem": "State the Type I and Type II errors in complete sentences given the following statements.\n\na. The mean number of years Americans work before retiring is 34.\nb. At most 60% of Americans vote in presidential elections.\nc. The mean starting salary for San Jose State University graduates is at least $100,000 per year.\nd. Twenty-nine percent of high school seniors get drunk each month.\ne. Fewer than 5% of adults ride the bus to work in Los Angeles.\nf. The mean number of cars a person owns in their lifetime is not more than ten.\ng. About half of Americans prefer to live away from cities, given the choice.\nh. Europeans have a mean paid vacation each year of six weeks.\ni. The chance of developing breast cancer is under 11% for females.\nj. Private universities mean tuition cost is more than $20,000 per year.",
+     "solution": "a. Type I error: We conclude that the mean is not 34 years, when it really is 34 years. Type II error: We conclude that the mean is 34 years, when in fact it really is not 34 years.\nb. Type I error: We conclude that more than 60% of Americans vote in presidential elections, when the actual percentage is at most 60%.Type II error: We conclude that at most 60% of Americans vote in presidential elections when, in fact, more than 60% do.\nc. Type I error: We conclude that the mean starting salary is less than $100,000, when it really is at least $100,000. Type II error: We conclude that the mean starting salary is at least $100,000 when, in fact, it is less than $100,000.\nd. Type I error: We conclude that the proportion of high school seniors who get drunk each month is not 29%, when it really is 29%. Type II error: We conclude that the proportion of high school seniors who get drunk each month is 29% when, in fact, it is not 29%.\ne. Type I error: We conclude that fewer than 5% of adults ride the bus to work in Los Angeles, when the percentage that do is really 5% or more. Type II error: We conclude that 5% or more adults ride the bus to work in Los Angeles when, in fact, fewer that 5% do.\nf. Type I error: We conclude that the mean number of cars a person owns in their lifetime is more than 10, when in reality it is not more than 10. Type II error: We conclude that the mean number of cars a person owns in their lifetime is not more than 10 when, in fact, it is more than 10.\ng. Type I error: We conclude that the proportion of Americans who prefer to live away from cities is not about half, though the actual proportion is about half. Type II error: We conclude that the proportion of Americans who prefer to live away from cities is half when, in fact, it is not half.\nh. Type I error: We conclude that the duration of paid vacations each year for Europeans is not six weeks, when in fact it is six weeks. Type II error: We conclude that the duration of paid vacations each year for Europeans is six weeks when, in fact, it is not.\ni. Type I error: We conclude that the proportion is less than 11%, when it is really at least 11%. Type II error: We conclude that the proportion of females who develop breast cancer is at least 11%, when in fact it is less than 11%.\nj. Type I error: We conclude that the average tuition cost at private universities is more than $20,000, though in reality it is at most $20,000. Type II error: We conclude that the average tuition cost at private universities is at most $20,000 when, in fact, it is more than $20,000."
+    },
+    {
+     "id": "element-231",
+     "problem": "For statements a-j in Exercise 9.66, answer the following in complete sentences.\n\na. State a consequence of committing a Type I error.\nb. State a consequence of committing a Type II error.",
+     "solution": null
+    },
+    {
+     "id": "exer10",
+     "problem": "When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is “the drug is unsafe.” What is the Type II Error?\n\na. To conclude the drug is safe when in, fact, it is unsafe.\nb. Not to conclude the drug is safe when, in fact, it is safe.\nc. To conclude the drug is safe when, in fact, it is safe.\nd. Not to conclude the drug is unsafe when, in fact, it is unsafe.",
+     "stem": "When a new drug is created, the pharmaceutical company must subject it to testing before receiving the necessary permission from the Food and Drug Administration (FDA) to market the drug. Suppose the null hypothesis is “the drug is unsafe.” What is the Type II Error?",
+     "options": [
+      "To conclude the drug is safe when in, fact, it is unsafe.",
+      "Not to conclude the drug is safe when, in fact, it is safe.",
+      "To conclude the drug is safe when, in fact, it is safe.",
+      "Not to conclude the drug is unsafe when, in fact, it is unsafe."
+     ],
+     "solution": "b"
+    },
+    {
+     "id": "exer15",
+     "problem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 of them attended the midnight showing. The Type I error is to conclude that the percent of EVC students who attended is ________.\n\na. at least 20%, when in fact, it is less than 20%.\nb. 20%, when in fact, it is 20%.\nc. less than 20%, when in fact, it is at least 20%.\nd. less than 20%, when in fact, it is less than 20%.",
+     "stem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 of them attended the midnight showing. The Type I error is to conclude that the percent of EVC students who attended is ________.",
+     "options": [
+      "at least 20%, when in fact, it is less than 20%.",
+      "20%, when in fact, it is 20%.",
+      "less than 20%, when in fact, it is at least 20%.",
+      "less than 20%, when in fact, it is less than 20%."
+     ],
+     "solution": null
+    },
+    {
+     "id": "exer17",
+     "problem": "It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average?\n\nThe Type II error is not to reject that the mean number of hours of sleep LTCC students get per night is at least seven when, in fact, the mean number of hours\n\na. is more than seven hours.\nb. is at most seven hours.\nc. is at least seven hours.\nd. is less than seven hours.",
+     "solution": "d"
+    },
+    {
+     "id": "exer20",
+     "problem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test, the Type I error is:\n\na. to conclude that the current mean hours per week is higher than 4.5, when in fact, it is higher\nb. to conclude that the current mean hours per week is higher than 4.5, when in fact, it is the same\nc. to conclude that the mean hours per week currently is 4.5, when in fact, it is higher\nd. to conclude that the mean hours per week currently is no higher than 4.5, when in fact, it is not higher",
+     "stem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test, the Type I error is:",
+     "options": [
+      "to conclude that the current mean hours per week is higher than 4.5, when in fact, it is higher",
+      "to conclude that the current mean hours per week is higher than 4.5, when in fact, it is the same",
+      "to conclude that the mean hours per week currently is 4.5, when in fact, it is higher",
+      "to conclude that the mean hours per week currently is no higher than 4.5, when in fact, it is not higher"
+     ],
+     "solution": null
+    }
+   ],
+   "bring_together": [],
+   "summary": "In every hypothesis test, the outcomes are dependent on a correct interpretation of the data. Incorrect calculations or misunderstood summary statistics can yield errors that affect the results. A Type I error occurs when a true null hypothesis is rejected. A Type II error occurs when a false null hypothesis is not rejected.\n\nThe probabilities of these errors are denoted by the Greek letters α and β, for a Type I and a Type II error respectively. The power of the test, 1 – β, quantifies the likelihood that a test will yield the correct result of a true alternative hypothesis being accepted. A high power is desirable.",
+   "formula_review": "α = probability of a Type I error = P(Type I error) = probability of rejecting the null hypothesis when the null hypothesis is true.\n\nβ = probability of a Type II error = P(Type II error) = probability of not rejecting the null hypothesis when the null hypothesis is false.",
+   "glossary": [
+    {
+     "term": "Type I Error",
+     "meaning": "The decision is to reject the null hypothesis when, in fact, the null hypothesis is true."
+    },
+    {
+     "term": "Type II Error",
+     "meaning": "The decision is not to reject the null hypothesis when, in fact, the null hypothesis is false."
+    }
+   ],
+   "kind": "section",
+   "section": "9.2"
+  },
+  {
+   "id": "m47036",
+   "title": "Probability Distribution Needed for Hypothesis Testing",
+   "tryits": [],
+   "examples": [],
+   "practice": [
+    {
+     "id": "eip-176",
+     "problem": "Which two distributions can you use for hypothesis testing for this chapter?",
+     "solution": "A normal distribution or a Student’s t-distribution"
+    },
+    {
+     "id": "eip-492",
+     "problem": "Which distribution do you use when you are testing a population mean and the population standard deviation is known? Assume a normal distribution, with n ≥ 30.",
+     "solution": null
+    },
+    {
+     "id": "eip-579",
+     "problem": "Which distribution do you use when the standard deviation is not known and you are testing one population mean? Assume sample size is large.",
+     "solution": "Use a Student’s t-distribution"
+    },
+    {
+     "id": "eip-692",
+     "problem": "A population mean is 13. The sample mean is 12.8, and the sample standard deviation is two. The sample size is 20. What distribution should you use to perform a hypothesis test? Assume the underlying population is normal.",
+     "solution": null
+    },
+    {
+     "id": "eip-917",
+     "problem": "A population has a mean of 25 and a standard deviation of five. The sample mean is 24, and the sample size is 108. What distribution should you use to perform a hypothesis test?",
+     "solution": "a normal distribution for a single population mean"
+    },
+    {
+     "id": "eip-138",
+     "problem": "It is thought that 42% of respondents in a taste test would prefer Brand A. In a particular test of 100 people, 39% preferred Brand A. What distribution should you use to perform a hypothesis test?",
+     "solution": null
+    },
+    {
+     "id": "eip-637",
+     "problem": "You are performing a hypothesis test of a single population mean using a Student’s t-distribution. What must you assume about the distribution of the data?",
+     "solution": "It must be approximately normally distributed."
+    },
+    {
+     "id": "eip-315",
+     "problem": "You are performing a hypothesis test of a single population mean using a Student’s t-distribution. The data are not from a simple random sample. Can you accurately perform the hypothesis test?",
+     "solution": null
+    },
+    {
+     "id": "eip-254",
+     "problem": "You are performing a hypothesis test of a single population proportion. What must be true about the quantities of np and nq?",
+     "solution": "They must both be greater than five."
+    },
+    {
+     "id": "eip-354",
+     "problem": "You are performing a hypothesis test of a single population proportion. You find out that np is less than five. What must you do to be able to perform a valid hypothesis test?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp17688688",
+     "problem": "You are performing a hypothesis test of a single population proportion. The data come from which distribution?",
+     "solution": "binomial distribution"
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idm140519760",
+     "problem": "It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average? The distribution to be used for this test is X̄ ~ ________________\n\na. N(7.24,1.93/(√(22)))\nb. N(7.24,1.93)\nc. t22\nd. t21",
+     "stem": "It is believed that Lake Tahoe Community College (LTCC) Intermediate Algebra students get less than seven hours of sleep per night, on average. A survey of 22 LTCC Intermediate Algebra students generated a mean of 7.24 hours with a standard deviation of 1.93 hours. At a level of significance of 5%, do LTCC Intermediate Algebra students get less than seven hours of sleep per night, on average? The distribution to be used for this test is X̄ ~ ________________",
+     "options": [
+      "N(7.24,1.93/(√(22)))",
+      "N(7.24,1.93)",
+      "t22",
+      "t21"
+     ],
+     "solution": "d"
+    }
+   ],
+   "bring_together": [],
+   "summary": "In order for a hypothesis test’s results to be generalized to a population, certain requirements must be satisfied.\n\nWhen testing for a single population mean:\n\n1. A Student's t-test should be used if the data come from a simple, random sample and the population is approximately normally distributed, or the sample size is large, with an unknown standard deviation.\n2. The normal test will work if the data come from a simple, random sample and the population\nis approximately normally distributed, or the sample size is large, with a known standard\ndeviation.\n\nWhen testing a single population proportion use a normal test for a single population proportion if the data comes from a simple, random sample, fill the requirements for a binomial distribution, and the mean number of successes and the mean number of failures satisfy the conditions: np > 5 and nq > 5 where n is the sample size, p is the probability of a success, and q is the probability of a failure.",
+   "formula_review": "If there is no given preconceived α, then use α = 0.05.\n\n• Single population mean, known population variance (or standard deviation): Normal\ntest.\n• Single population mean, unknown population variance (or standard deviation): Student's t-test.\n• Single population proportion: Normal test.\n• For a single population mean, we may use a normal distribution with the following mean and standard deviation. Means: μ=μ_x̄ and σ_x̄=σ_x/(√(n))\n• A single population proportion, we may use a normal distribution with the following mean and standard deviation. Proportions: µ = p and σ=√(pq/n).",
+   "glossary": [
+    {
+     "term": "Binomial Distribution",
+     "meaning": "a discrete random variable (RV) that arises from Bernoulli trials. There are a fixed number, n, of independent trials. “Independent” means that the result of any trial (for example, trial 1) does not affect the results of the following trials, and all trials are conducted under the same conditions. Under these circumstances the binomial RV Χ is defined as the number of successes in n trials. The notation is: X ~ B(n, p) μ = np and the standard deviation is σ= √(npq). The probability of exactly x successes in n trials is P(X=x)=(n ; x)p^xq^(n−x)."
+    },
+    {
+     "term": "Normal Distribution",
+     "meaning": "a continuous random variable (RV) with pdf f(x)= 1/(σ√(2π))e^((−(x−μ)^2)/(2σ^2)), where μ is the mean of the distribution, and σ is the standard deviation, notation: X ~ N(μ, σ). If μ = 0 and σ = 1, the RV is called the standard normal distribution."
+    },
+    {
+     "term": "Standard Deviation",
+     "meaning": "a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: s for sample standard deviation and σ for population standard deviation."
+    },
+    {
+     "term": "Student's t-Distribution",
+     "meaning": "investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student. The major characteristics of the random variable (RV) are:\n\n• It is continuous and assumes any real values.\n• The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.\n• It approaches the standard normal distribution as n gets larger.\n• There is a \"family\" of t distributions: every representative of the family is completely defined by the number of degrees of freedom which is one less than the number of data items."
+    }
+   ],
+   "kind": "section",
+   "section": "9.3"
+  },
+  {
+   "id": "m47044",
+   "title": "Rare Events, the Sample, Decision and Conclusion",
+   "tryits": [
+    {
+     "id": "eip-440",
+     "problem": "A normal distribution has a standard deviation of 1. We want to verify a claim that the mean is greater than 12. A sample of 36 is taken with a sample mean of 12.5.\n\nH0: μ ≤ 12\n\nHa: μ > 12\n\nThe p-value is 0.0013\n\nDraw a graph that shows the p-value.",
+     "solution": null,
+     "guideSolution": "p-value = 0.0013\nFigure 18",
+     "guideRef": "Try It 9.9"
+    },
+    {
+     "id": "eip-437",
+     "problem": "It’s a Boy Genetics Labs claim their procedures improve the chances of a boy being born. The results for a test of a single population proportion are as follows:\n\nH0: p = 0.50, Ha: p > 0.50\n\nα = 0.01\n\np-value = 0.025\n\nInterpret the results and state a conclusion in simple, non-technical terms.",
+     "solution": null,
+     "guideSolution": "Since the p-value is greater than the established alpha value (the p-value is high), we do not reject the null hypothesis. There is not enough evidence to support It’s a Boy Genetics Labs' stated claim that their procedures improve the chances of a boy being born.\nSection 5. Additional Information and Full Hypothesis Test Examples",
+     "guideRef": "Try It 9.10"
+    }
+   ],
+   "examples": [
+    "Suppose a baker claims that his bread height is more than 15 cm, on average. Several of his customers do not believe him. To persuade his customers that he is right, the baker decides to do a hypothesis test. He bakes 10 loaves of bread. The mean height of the sample loaves is 17 cm. The baker knows from baking hundreds of loaves of bread that the standard deviation for the height is 0.5 cm. and the distribution of heights is normal.\n\nThe null hypothesis could be H0: μ ≤ 15 The alternate hypothesis is Ha: μ > 15\n\nThe words \"is more than\" translates as a \">\" so \"μ > 15\" goes into the alternate hypothesis. The null hypothesis must contradict the alternate hypothesis.\n\nBy the Central Limit Theorem, the distribution of sample means, for samples of 10 loaves, will be normal with mean μ = 15 and standard deviation σ/(√(n))=0.5/(√(10))=0.16.\n\nSuppose the null hypothesis is true (the mean height of the loaves is no more than 15 cm). Then is the mean height (17 cm) calculated from the sample unexpectedly large? The hypothesis test works by asking the question how unlikely the sample mean would be if the null hypothesis were true. The graph shows how far out the sample mean is on the normal curve. The p-value is the probability that, if we were to take other samples, any other sample mean would fall at least as far out as 17 cm.\n\nThe p-value, then, is the probability that a sample mean is the same or greater than 17 cm. when the population mean is, in fact, 15 cm. We can calculate this probability using the normal distribution for means.\n[FIGURE]\np-value= P(x̄ > 17) which is approximately zero.\n\nA p-value of approximately zero tells us that it is highly unlikely that a loaf of bread rises no more than 15 cm, on average. That is, almost 0% of all loaves of bread would be at least as high as 17 cm. purely by CHANCE had the population mean height really been 15 cm. Because the outcome of 17 cm. is so unlikely (meaning it is happening NOT by chance alone), we conclude that the evidence is strongly against the null hypothesis (the mean height is at most 15 cm.). There is sufficient evidence that the true mean height for the population of the baker's loaves of bread is greater than 15 cm.",
+    "When using the p-value to evaluate a hypothesis test, it is sometimes useful to use the following memory device\n\nIf the p-value is low, the null must go.\n\nIf the p-value is high, the null must fly.\n\nThis memory aid relates a p-value less than the established alpha (the p is low) as rejecting the null hypothesis and, likewise, relates a p-value higher than the established alpha (the p is high) as not rejecting the null hypothesis.\n\nFill in the blanks.\n\nReject the null hypothesis when ______________________________________.\n\nThe results of the sample data _____________________________________.\n\nDo not reject the null when hypothesis when __________________________________________.\n\nThe results of the sample data ____________________________________________.\n\nReject the null hypothesis when the p-value is less than the established alpha value. The results of the sample data support the alternative hypothesis.\n\nDo not reject the null hypothesis when the p-value is greater than the established alpha value. The results of the sample data do not support the alternative hypothesis."
+   ],
+   "practice": [
+    {
+     "id": "fs-idp139727497512736",
+     "problem": "When do you reject the null hypothesis?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp139727506576944",
+     "problem": "The probability of winning the grand prize at a particular carnival game is 0.005. Is the outcome of winning very likely or very unlikely?",
+     "solution": "The outcome of winning is very unlikely."
+    },
+    {
+     "id": "fs-idp139727500342720",
+     "problem": "The probability of winning the grand prize at a particular carnival game is 0.005. Michele wins the grand prize. Is this considered a rare or common event? Why?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp139727500456320",
+     "problem": "It is believed that the mean height of high school students who play basketball on the school team is 73 inches with a standard deviation of 1.8 inches. A random sample of 40 players is chosen. The sample mean was 71 inches, and the sample standard deviation was 1.5 inches. Do the data support the claim that the mean height is less than 73 inches? The p-value is almost zero. State the null and alternative hypotheses and interpret the p-value.",
+     "solution": "H0: μ > = 73\n\nHa: μ < 73\n\nThe p-value is almost zero, which means there is sufficient data to conclude that the mean height of high school students who play basketball on the school team is less than 73 inches at the 5% level. The data do support the claim."
+    },
+    {
+     "id": "fs-idp139727497515136",
+     "problem": "The mean age of graduate students at a University is at most 31 y ears with a standard deviation of two years. A random sample of 15 graduate students is taken. The sample mean is 32 years and the sample standard deviation is three years. Are the data significant at the 1% level? The p-value is 0.0264. State the null and alternative hypotheses and interpret the p-value.",
+     "solution": null
+    },
+    {
+     "id": "fs-idp139727497492608",
+     "problem": "Does the shaded region represent a low or a high p-value compared to a level of significance of 1%?\n\n[FIGURE]",
+     "solution": "The shaded region shows a low p-value."
+    },
+    {
+     "id": "fs-idp139727500213504",
+     "problem": "What should you do when α > p-value?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp139727500288288",
+     "problem": "What should you do if α = p-value?",
+     "solution": "Do not reject H0."
+    },
+    {
+     "id": "fs-idp139727500315024",
+     "problem": "If you do not reject the null hypothesis, then it must be true. Is this statement correct? State why or why not in complete sentences.",
+     "solution": null
+    },
+    {
+     "id": "eip-714",
+     "problem": "Is this a test of means or proportions?",
+     "solution": "means",
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-173",
+     "problem": "What symbol represents the random variable for this test?",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-126",
+     "problem": "In words, define the random variable for this test.",
+     "solution": "the mean time spent in jail for 26 first time convicted burglars",
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-797",
+     "problem": "Is σ known and, if so, what is it?",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-877",
+     "problem": "Calculate the following:\n\na. x̄ _______\nb. σ _______\nc. sx _______\nd. n _______",
+     "solution": "a. 3\nb. 1.5\nc. 1.8\nd. 26",
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-95",
+     "problem": "Since both σ and s_x are given, which should be used? In one to two complete sentences, explain why.",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "element-121",
+     "problem": "State the distribution to use for the hypothesis test.",
+     "solution": "X̄~N(2.5,1.5/(√(26)))",
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    },
+    {
+     "id": "fs-idm67684880",
+     "problem": "A random survey of 75 student loan recipients revealed that the mean length of time in repayment is 17.4 years with a standard deviation of 6.3 years. Conduct a hypothesis test to determine if the population mean time in repayment could likely be 15 years.\n\na. Is this a test of one mean or proportion?\nb. State the null and alternative hypotheses.\n\nH0: ____________________ Ha : ____________________\nc. Is this a right-tailed, left-tailed, or two-tailed test?\nd. What symbol represents the random variable for this test?\ne. In words, define the random variable for this test.\nf. Is the population standard deviation known and, if so, what is it?\ng. Calculate the following:\n\ni. x̄ = _____________\nii. s = ____________\niii. n = ____________\n\nh. Which test should be used?\ni. State the distribution to use for the hypothesis test.\nj. Find the p-value.\nk. At a pre-conceived α = 0.05, what is your:\n\ni. Decision:\nii. Reason for the decision:\niii. Conclusion (write out in a complete sentence):",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal."
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp20135424",
+     "problem": "The National Institute of Mental Health published an article stating that in any one-year period, approximately 9.5% of American adults suffer from depression or a depressive illness. Suppose that in a survey of 100 people in a certain town, seven of them suffered from depression or a depressive illness. Conduct a hypothesis test to determine if the true proportion of people in that town suffering from depression or a depressive illness is lower than the percent in the general adult American population.\n\na. Is this a test of one mean or proportion?\nb. State the null and alternative hypotheses.\n\nH0: ____________________ Ha: ____________________\nc. Is this a right-tailed, left-tailed, or two-tailed test?\nd. What symbol represents the random variable for this test?\ne. In words, define the random variable for this test.\nf. Calculate the following:\n\ni. x = ________________\nii. n = ________________\niii. p^′ = _____________\n\ng. Calculate σx = __________. Show the formula set-up.\nh. State the distribution to use for the hypothesis test.\ni. Find the p-value.\nj. At a pre-conceived α = 0.05, what is your:\n\ni. Decision:\nii. Reason for the decision:\niii. Conclusion (write out in a complete sentence):",
+     "solution": null
+    }
+   ],
+   "bring_together": [],
+   "summary": "When the probability of an event occurring is low, and it happens, it is called a rare event. Rare events are important to consider in hypothesis testing because they can inform your willingness not to reject or to reject a null hypothesis. To test a null hypothesis, find the p-value for the sample data and graph the results. When deciding whether or not to reject the null the hypothesis, keep these two parameters in mind:\n\n1. α > p-value, reject the null hypothesis\n2. α ≤ p-value, do not reject the null hypothesis",
+   "formula_review": null,
+   "glossary": [
+    {
+     "term": "Level of Significance of the Test",
+     "meaning": "probability of a Type I error (reject the null hypothesis when it is true). Notation: α. In hypothesis testing, the Level of Significance is called the preconceived α or the preset α."
+    },
+    {
+     "term": "p-value",
+     "meaning": "the probability that an event will happen purely by chance assuming the null hypothesis is true. The smaller the p-value, the stronger the evidence is against the null hypothesis."
+    }
+   ],
+   "kind": "section",
+   "section": "9.4"
+  },
+  {
+   "id": "m47019",
+   "title": "Additional Information and Full Hypothesis Test Examples",
+   "tryits": [
+    {
+     "id": "fs-idp67352928",
+     "problem": "H0: μ = 10, Ha: μ < 10\n\nAssume the p-value is 0.0935. What type of test is this? Draw the picture of the p-value.",
+     "solution": null,
+     "guideSolution": "left-tailed test\nFigure 19",
+     "guideRef": "Try It 9.11"
+    },
+    {
+     "id": "eip-417",
+     "problem": "H0: μ ≤ 1, Ha: μ > 1\n\nAssume the p-value is 0.1243. What type of test is this? Draw the picture of the p-value.",
+     "solution": null,
+     "guideSolution": "right-tailed test\nFigure 20",
+     "guideRef": "Try It 9.12"
+    },
+    {
+     "id": "eip-335",
+     "problem": "H0: p = 0.5, Ha: p ≠ 0.5\n\nAssume the p-value is 0.2564. What type of test is this? Draw the picture of the p-value.",
+     "solution": null,
+     "guideSolution": "two-tailed test\nFigure 21",
+     "guideRef": "Try It 9.13"
+    },
+    {
+     "id": "fs-idp78508304",
+     "problem": "The mean throwing distance of a football for Marco, a high school quarterback, is 40 yards, with a standard deviation of two yards. The team coach tells Marco to adjust his grip to get more distance. The coach records the distances for 20 throws. For the 20 throws, Marco’s mean distance was 45 yards. The coach thought the different grip helped Marco throw farther than 40 yards. Conduct a hypothesis test using a preset α = 0.05. Assume the throw distances for footballs are normal.\n\nFirst, determine what type of test this is, set up the hypothesis test, find the p-value, sketch the graph, and state your conclusion.",
+     "solution": null,
+     "guideSolution": "Since the problem is about a mean, this is a test of a single population mean.\nH0 : μ = 40\nHa : μ > 40\np = 2.6115 × 10–29\nFigure 22\nBecause p < α, we reject the null hypothesis. There is sufficient evidence to suggest that the change in grip improved Marco’s throwing distance.",
+     "guideRef": "Try It 9.14"
+    },
+    {
+     "id": "exer-00001",
+     "problem": "A company records the mean time of employees working in a day. The mean comes out to be 475 minutes, with a standard deviation of 45 minutes. A manager recorded times of 20 employees. The times of working were (frequencies are in parentheses) 460(3); 465(2); 470(3); 475(1); 480(6); 485(3); 490(2).\n\nConduct a hypothesis test using a 2.5% level of significance to determine if the mean time is more than 475.",
+     "solution": "Set up the Hypothesis Test:\n\nH_0:μ=475\n\nH_0:μ>475\n\nThis is a right-tailed test. The random variable X is the mean time of employees working in a day.\n\nDistribution for the test: σ is known.\n\nX~N(475,45/(√(20)))\n\nx̄=475.5 minutes (from the data).\n\nσ=45 minutes. We assume μ=475 minutes unless our data shows otherwise.\n\nThe p-value is calculated:\np-value = P(x̄>475.5)=0.5044\n\nInterpretation of p-value: If H_0 is true, then there is a 0.5044, or 50.44%, chance that the mean time of employees working is 475.5 minutes or more. Since a 50.44% chance is large enough, the mean time of 475.5 is not a rare event.\n\nCompare α and p values:\n\nα=0.025 and p=0.5044\n\nMake a decision: Since α<p value, do not reject H_0.\n\nConclusion: At the 2.5% level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean time of employees is more than 475 minutes.",
+     "guideSolution": "Set up the Hypothesis Test:\nThis is a right-tailed test. The random variable is the mean time of employees working in a day.\nDistribution for the test: is known.\nminutes (from the data).\nminutes. We assume minutes unless our data shows otherwise.\nThe p-value is calculated:\np-value =\nInterpretation of p-value: If is true, then there is a 0.5044, or 50.44%, chance that the mean time of employees working is 475.5 minutes or more. Since a 50.44% chance is large enough, the mean time of 475.5 is not a rare event.\nCompare and p values:\nand\nMake a decision: Since value, do not reject .\nConclusion: At the 2.5% level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean time of employees is more than 475 minutes.",
+     "guideRef": "Try It 9.15"
+    },
+    {
+     "id": "eip-454",
+     "problem": "It is believed that a stock price for a particular company will grow at a rate of $5 per week with a standard deviation of $1. An investor believes the stock won’t grow as quickly. The changes in stock price is recorded for ten weeks and are as follows: $4, $3, $2, $3, $1, $7, $2, $1, $1, $2. Perform a hypothesis test using a 5% level of significance. State the null and alternative hypotheses, find the p-value, state your conclusion, and identify the Type I and Type II errors.",
+     "solution": null,
+     "guideSolution": "H0: μ = 5\nHa: μ < 5\np = 0.0082\nBecause p < α, we reject the null hypothesis. There is sufficient evidence to suggest that the stock price of the company grows at a rate less than $5 a week.\nType I Error: To conclude that the stock price is growing slower than $5 a week when, in fact, the stock price is growing at $5 a week (reject the null hypothesis when the null hypothesis is true).\nType II Error: To conclude that the stock price is growing at a rate of $5 a week when, in fact, the stock price is growing slower than $5 a week (do not reject the null hypothesis when the null hypothesis is false).",
+     "guideRef": "Try It 9.16"
+    },
+    {
+     "id": "eip-466",
+     "problem": "A teacher believes that 85% of students in the class will want to go on a field trip to the local zoo. The teacher performs a hypothesis test to determine if the percentage is the same or different from 85%. The teacher samples 50 students and 39 reply that they would want to go to the zoo. For the hypothesis test, use a 1% level of significance.\n\nFirst, determine what type of test this is, set up the hypothesis test, find the p-value, sketch the graph, and state your conclusion.",
+     "solution": null,
+     "guideSolution": "Since the problem is about percentages, this is a test of single population proportions.\nH0 : p = 0.85\nHa: p ≠ 0.85\np = 0.1657\nFigure 23\nBecause p > α, we fail to reject the null hypothesis. There is not sufficient evidence to suggest that the proportion of students that want to go to the zoo is not 85%.",
+     "guideRef": "Try It 9.17"
+    },
+    {
+     "id": "eip-341",
+     "problem": "Marketers believe that 92% of adults in the United States own a cell phone. A cell phone manufacturer believes that number is actually lower. 200 American adults are surveyed, of which, 174 report having cell phones. Use a 5% level of significance. State the null and alternative hypothesis, find the p-value, state your conclusion, and identify the Type I and Type II errors.",
+     "solution": null,
+     "guideSolution": "H0: p = 0.92\nHa: p < 0.92\np-value = 0.0046\nBecause p < 0.05, we reject the null hypothesis. There is sufficient evidence to conclude that fewer than 92% of American adults own cell phones.\nType I Error: To conclude that fewer than 92% of American adults own cell phones when, in fact, 92% of American adults do own cell phones (reject the null hypothesis when the null hypothesis is true).\nType II Error: To conclude that 92% of American adults own cell phones when, in fact, fewer than 92% of American adults own cell phones (do not reject the null hypothesis when the null hypothesis is false).",
+     "guideRef": "Try It 9.18"
+    },
+    {
+     "id": "exer-00002",
+     "problem": "A car soap gets rid of 30% of stains on the car. After adding a new compound to the soap, the soap is used on a car and found to wash 20 stains out of the 50 stains on the car. With the level of significance being 0.01, find out if adding the new compound to soap is beneficial.",
+     "solution": "Set up hypothesis test:\n\nH_0:p≤0.3 H_0:p>0.3\n\nThe distribution to use for the test is:\n\nNormal: N(0.3,√(((0.3)(1-0.3))/50))\n\nThe test statistic is obtained to be z = 1.543.\n\nThe p-value is obtained to be p = 0.0614.\n\nIf the null hypothesis is true, then there is a 0.0614 probability that the sample proportion is 0.4 (20/50) or more.\n\nAt 1% level of significance, the value of α is less than the p-value. So, the data does not show sufficient evidence that the percentage of stains removed is more than 30%.\n\nThe confidence interval is obtained as (0.273, 0.527).",
+     "guideSolution": "Set up hypothesis test:\nThe distribution to use for the test is: Normal:\nThe test statistic is obtained to be z = 1.543.\nThe p-value is obtained to be p = 0.0614.\nIf the null hypothesis is true, then there is a 0.0614 probability that the sample proportion is 0.4 or more.\nAt 1% level of significance, the value of is less than the p-value. So, the data does not show sufficient evidence that the percentage of stains removed is more than 30%.\nThe confidence interval is obtained as (0.273, 0.527).",
+     "guideRef": "Try It 9.19"
+    },
+    {
+     "id": "exer-00003",
+     "problem": "The boiling point of a specific liquid is measured for 15 samples, and the boiling points are obtained as follows:\n\n205; 206; 206; 202; 199; 194; 197; 198; 198; 201; 201; 202; 207; 211; 205\n\nIs there convincing evidence that the average boiling point is greater than 200? Use a significance level of 0.1. Assume the population is normal.",
+     "solution": "The hypotheses, at a significance level of 0.1, will be as follows:\n\na. H_0:μ≤200\nb. H_0:μ>200\n\nSince the standard deviation is not known, Student’s t-distribution is to be used.\n\nThe data is input into the TI-83 as follows:\n\n[FIGURE]\n[FIGURE]\n[FIGURE]\n[FIGURE]\n\nSince the p-value is less than alpha value, we will reject the null hypothesis. It is reasonable to state that the data supports the claim that the average boiling point is greater than 200.",
+     "guideSolution": "The hypotheses, at a significance level of 0.1, will be as follows:\nSince the standard deviation is not known, Student’s t-distribution is to be used.\nThe data is input into the TI-83 as follows:\nSince the p-value is less than alpha value, we will reject the null hypothesis. It is reasonable to state that the data supports the claim that the average boiling point is greater than 200.",
+     "guideRef": "Try It 9.20"
+    },
+    {
+     "id": "exer-00004",
+     "problem": "In a study of 390,000 moisturizer users, 138 of the subjects developed skin diseases. Test the claim that moisturizer users developed skin diseases at a greater rate than that for non-moisturizer users (the rate of skin diseases for non-moisturizer users is 0.041%). Since this is a critical issue, use a 0.005 significance level. Explain why the significance level should be so low in terms of a Type I error.",
+     "solution": "The test hypotheses are as follows:\n\na. H_0:p≤0.00041\nb. H_0:p>0.00041\n\nIf we commit a Type I error, we are essentially accepting a false claim. Since the claim describes disease-causing environments, we want to minimize the chances of incorrectly identifying causes of diseases.\nThe testing will be done with x = 138 and n = 390,000. The sample is sufficiently large because we have np = 390,000(0.00041) = 159.9, nq = 390,000(0.99959) = 389,840.1, two independent outcomes, and a fixed probability of success p = 0.00041. Thus, we will be able to generalize our results to the population.\n\nThe associated TI results are:\n\n[FIGURE]\n[FIGURE]\n\nSince the p-value = 0.0832 is greater than alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher skin diseases rates for moisturizer users.",
+     "guideSolution": "The test hypotheses are as follows:\nIf we commit a Type I error, we are essentially accepting a false claim. Since the claim describes disease-causing environments, we want to minimize the chances of incorrectly identifying causes of diseases.\nThe testing will be done with x = 138 and n = 390,000. The sample is sufficiently large because we have np = 390,000(0.00041) = 159.9, nq = 390,000(0.99959) = 389,840.1, two independent outcomes, and a fixed probability of success p = 0.00041. Thus, we will be able to generalize our results to the population.\nThe associated TI results are:\nSince the p-value = 0.0832 is greater than alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher skin diseases rates for moisturizer users.",
+     "guideRef": "Try It 9.21"
+    },
+    {
+     "id": "exer-00005",
+     "problem": "According to the U.S. Census, there are approximately 201,456,463 residents 20 and older. Statistics from the Criminal National Network indicate that, on average, 104,354 murders occur each year for people aged 20 and older. This translates into a percentage of murder of 0.052%. In Ohio, there were reported 127 murders for a population of 427,648. Conduct an appropriate hypothesis test to determine if there is a statistically significant difference between the local murder percentage and the national murder percentage. Use a significance level of 0.01.",
+     "solution": "The hypotheses for the one-proportion z-test are as follow:\n\na. H_0:p≤0.00052\nb. H_0:p>0.00052\n\nThe following screenshots display the summary statistics from the hypothesis test:\n\n[FIGURE]\n[FIGURE]\n\nSince the p-value = 0 is less than alpha value of 0.01, the sample data includes that we should reject the null hypothesis. In conclusion, the sample data support the claim that the proportion of murders in Ohio is different from the national average population.",
+     "guideSolution": "The hypotheses for the one-proportion z-test are as follow:\nThe following screenshots display the summary statistics from the hypothesis test:\nSince the p-value = 0 is less than alpha value of 0.01, the sample data includes that we should reject the null hypothesis. In conclusion, the sample data support the claim that the proportion of murders in Ohio is different from the national average population.\nChapter 10. Hypothesis Testing with Two Samples\nSection 1. Two Population Means with Unknown Standard Deviations",
+     "guideRef": "Try It 9.22"
+    }
+   ],
+   "examples": [
+    "Ho: μ = 5, Ha: μ < 5\n\nTest of a single population mean. Ha tells you the test is left-tailed. The picture of the p-value is as follows:\n\n[FIGURE]",
+    "H0: p ≤ 0.2  Ha: p > 0.2\n\nThis is a test of a single population proportion. Ha tells you the test is right-tailed. The picture of the p-value is as follows:\n\n[FIGURE]",
+    "H0: p = 50  Ha: p ≠ 50\n\nThis is a test of a single population mean. Ha tells you the test is two-tailed. The picture of the p-value is as follows.\n\n[FIGURE]",
+    "Jeffrey, as an eight-year old, established a mean time of 16.43 seconds for swimming the 25-yard freestyle, with a standard deviation of 0.8 seconds. His dad, Frank, thought that Jeffrey could swim the 25-yard freestyle faster using goggles. Frank bought Jeffrey a new pair of expensive goggles and timed Jeffrey for 15 25-yard freestyle swims. For the 15 swims, Jeffrey's mean time was 16 seconds. Frank thought that the goggles helped Jeffrey to swim faster than the 16.43 seconds. Conduct a hypothesis test using a preset α = 0.05. Assume that the swim times for the 25-yard freestyle are normal.\n\nSet up the Hypothesis Test:\n\nSince the problem is about a mean, this is a test of a single population mean.\n\nH0: μ = 16.43  Ha: μ < 16.43\n\nFor Jeffrey to swim faster, his time will be less than 16.43 seconds. The \"<\" tells you this is left-tailed.\n\nDetermine the distribution needed:\n\nRandom variable: X̄ = the mean time to swim the 25-yard freestyle.\n\nDistribution for the test: X̄ is normal (population standard deviation is known: σ = 0.8)\n\nX̄~N(μ,σ_X/(√(n)))\n\nTherefore, X̄~N(16.43,0.8/(√(15)))\n\nμ = 16.43 comes from H0 and not the data. σ = 0.8, and n = 15.\n\nCalculate the p-value using the normal distribution for a mean:\n\np-value = P(x̄ < 16) = 0.0187 where the sample mean in the problem is given as 16.\n\np-value = 0.0187 (This is called the actual level of significance.) The p-value is the area to the left of the sample mean is given as 16.\n\nGraph:\n\n[FIGURE]\nμ = 16.43 comes from H0. Our assumption is μ = 16.43.\n\nInterpretation of the p-value: If H0 is true, there is a 0.0187 probability (1.87%)that Jeffrey's mean time to swim the 25-yard freestyle is 16 seconds or less. Because a 1.87% chance is small, the mean time of 16 seconds or less is unlikely to have happened randomly. It is a rare event.\n\nCompare α and the p-value:\n\nα = 0.05 p-value = 0.0187 α > p-value\n\nMake a decision: Since α>p-value, reject H0.\n\nThis indicates that you reject the null hypothesis that the mean time to swim the 25-yard freestyle is at least 16.43 seconds.\n\nConclusion: At the 5% significance level, there is sufficient evidence that Jeffrey's mean time to swim the 25-yard freestyle is less than 16.43 seconds. Thus, based on the sample data, we conclude that Jeffrey swims faster using the new goggles.\n\nThe Type I and Type II errors for this problem are as follows:\nThe Type I error is to conclude that Jeffrey swims the 25-yard freestyle, on average, in less than 16.43 seconds when, in fact, he actually swims the 25-yard freestyle, on average, in at least 16.43 seconds. (Reject the null hypothesis when the null hypothesis is true.)\n\nThe Type II error is that there is not evidence to conclude that Jeffrey swims the 25-yard freestyle, on average, in less than 16.43 seconds when, in fact, he actually does swim the 25-yard free-style, on average, in less than 16.43 seconds. (Do not reject the null hypothesis when the null hypothesis is false.)\n\nPress STAT and arrow over to TESTS. Press 1:Z-Test. Arrow over to Stats and press ENTER. Arrow down and enter 16.43 for μ0 (null hypothesis), .8 for σ, 16 for the sample mean, and 15 for n. Arrow down to μ : (alternate hypothesis) and arrow over to < μ0. Press ENTER. Arrow down to Calculate and press ENTER. The calculator not only calculates the p-value (p = 0.0187) but it also calculates the test statistic (z-score) for the sample mean. μ < 16.43 is the alternative hypothesis. Do this set of instructions again except arrow to Draw(instead of Calculate). Press ENTER. A shaded graph appears with z = -2.08 (test statistic) and p = 0.0187 (p-value). Make sure when you use Draw that no other equations are highlighted in Y = and the plots are turned off.",
+    "A college football coach records the mean weight that the players can bench press as 275 pounds, with a standard deviation of 55 pounds. Three of the players thought that the mean weight was more than that amount.\nThey asked 30 of their teammates for their estimated maximum lift on the bench\npress exercise. The data ranged from 205 pounds to 385 pounds. The actual\ndifferent weights were (frequencies are in parentheses)\n\n• 205(3)\n• 215(3)\n• 225(1)\n• 241(2)\n• 252(2)\n• 265(2)\n• 275(2)\n• 313(2)\n• 316(5)\n• 338(2)\n• 341(1)\n• 345(2)\n• 368(2)\n• 385(1)\n.\n\nConduct a hypothesis test using a 2.5% level of significance to determine if the bench press mean is more than 275 pounds.\n\nSet up the Hypothesis Test:\n\nSince the problem is about a mean weight, this is a test of a single population mean.\n\nH0: μ = 275\nHa: μ > 275\nThis is a right-tailed test.\n\nCalculating the distribution needed:\n\nRandom variable: X̄ = the mean weight, in pounds, lifted by the football players.\n\nDistribution for the test: It is normal because σ is known.\n\nX̄~N(275,55/(√(30)))\n\nx̄=286.2 pounds (from the data).\n\nσ = 55 pounds (Always use σ if you know it.) We assume μ = 275 pounds unless our data shows us otherwise.\n\nCalculate the p-value using the normal distribution for a mean and using the sample mean as input (see for using the data as input):\n\np-value=P(x̄>286.2)=0.1323.\n\nInterpretation of the p-value: If H0 is true, then there is a 0.1331 probability (13.23%) that the football players can lift a mean weight of 286.2 pounds or more. Because a 13.23% chance is large enough, a mean weight lift of 286.2 pounds or more is not a rare event.\n\n[FIGURE]\nCompare α and the p-value:\n\nα = 0.025 p-value = 0.1323\n\nMake a decision: Since α <p-value, do not reject H0.\n\nConclusion: At the 2.5% level of significance, from the sample data, there is not sufficient evidence to conclude that the true mean weight lifted is more than 275 pounds.\n\nPut the data and frequencies into lists. Press STAT and arrow over to TESTS. Press 1:Z-Test. Arrow over to Data and press ENTER. Arrow down and enter 275 for μ0, 55 for σ, the name of the list where you put the data, and the name of the list where you put the frequencies. Arrow down to μ: and arrow over to > μ0. Press ENTER. Arrow down to Calculate and press ENTER. The calculator not only calculates the p-value (p = 0.1331, a little different from the previous calculation - in it we used the sample mean rounded to one decimal place instead of the data) but it also calculates the test statistic (z-score) for the sample mean, the sample mean, and the sample standard deviation. μ > 275 is the alternative hypothesis. Do this set of instructions again except arrow to Draw (instead of Calculate). Press ENTER. A shaded graph appears with z = 1.112 (test statistic) and p = 0.1331 (p-value). Make sure when you use Draw that no other equations are highlighted in Y = and the plots are turned off.",
+    "Statistics students believe that the mean score on the first statistics test is 65. A statistics instructor thinks the mean score is higher than 65. He samples ten statistics students and obtains the scores\n• 65\n• 65\n• 70\n• 67\n• 66\n• 63\n• 63\n• 68\n• 72\n• 71\n. He performs a hypothesis test using a 5% level of significance. The data are assumed to be from a normal distribution.\n\nSet up the hypothesis test:\n\nA 5% level of significance means that α = 0.05. This is a test of a single population mean.\n\nH0: μ = 65  Ha: μ > 65\n\nSince the instructor thinks the average score is higher, use a \">\". The \">\" means the test is right-tailed.\n\nDetermine the distribution needed:\n\nRandom variable: X̄ = average score on the first statistics test.\n\nDistribution for the test: If you read the problem carefully, you will notice that there is\nno population standard deviation given. You are only given n = 10 sample data values. Notice also that the data come from a normal distribution. This means that the distribution for the test is a student's t.\n\nUse tdf. Therefore, the distribution for the test is t9 where n = 10 and df = 10 - 1 = 9.\n\nCalculate the p-value using the Student's t-distribution:\n\np-value = P(x̄ > 67) = 0.0396 where the sample mean and sample standard deviation are calculated as 67 and 3.1972 from the data.\n\nInterpretation of the p-value: If the null hypothesis is true, then there is a 0.0396\nprobability (3.96%) that the sample mean is 67 or more.\n[FIGURE]\nCompare α and the p-value:\n\nSince α = 0.05 and p-value = 0.0396. α > p-value.\n\nMake a decision: Since α > p-value, reject H0.\n\nThis means you reject μ = 65. In other words, you believe the average test score is greater than 65.\n\nConclusion: At a 5% level of significance, the sample data show sufficient evidence that the mean (average) test score is greater than 65, just as the math instructor thinks.\n\nPut the data into a list. Press STAT and arrow over to TESTS. Press 2:T-Test. Arrow over to Data and press ENTER. Arrow down and enter 65 for μ0, the name of the list where you put the data, and 1 for Freq:. Arrow down to μ: and arrow over to > μ0. Press ENTER. Arrow down to Calculate and press ENTER. The calculator not only calculates the p-value (p = 0.0396) but it also calculates the test statistic (t-score) for the sample mean, the sample mean, and the sample standard deviation. μ > 65 is the alternative hypothesis. Do this set of instructions again except arrow to Draw (instead of Calculate). Press ENTER. A shaded graph appears with t = 1.9781 (test statistic) and p = 0.0396 (p-value). Make sure when you use Draw that no other equations are highlighted in Y = and the plots are turned off.",
+    "Joon believes that 50% of first-time brides in the United States are younger than their grooms. She performs a hypothesis test to determine if the percentage is the same or different from 50%. Joon samples 100 first-time brides and 53 reply that they are younger than their grooms. For the hypothesis test, she uses a 1% level of\nsignificance.\n\nSet up the hypothesis test:\n\nThe 1% level of significance means that α = 0.01. This is a test of a single population proportion.\n\nH0: p = 0.50  Ha: p ≠ 0.50\n\nThe words \"is the same or different from\" tell you this is a two-tailed test.\n\nCalculate the distribution needed:\n\nRandom variable: P′ = the percent of of first-time brides who are younger than their grooms.\n\nDistribution for the test: The problem contains no mention of a mean. The\ninformation is given in terms of percentages. Use the distribution for P′, the estimated proportion.\n\nP^′~N(p,√((p⋅q)/n)) Therefore, P^′~N(0.5,√((0.5⋅0.5)/100))\n\nwhere p = 0.50, q = 1−p = 0.50, and n = 100\n\nCalculate the p-value using the normal distribution for proportions:\n\np-value = P (p′ < 0.47 or p′ > 0.53) = 0.5485\n\nwhere x = 53, p′ = x/n = 53/100 = 0.53.\n\nInterpretation of the p-value: If the null hypothesis is true, there is 0.5485 probability\n(54.85%) that the sample (estimated) proportion p' is 0.53 or more OR 0.47 or less (see\nthe graph in ).\n[FIGURE]\nμ = p = 0.50 comes from H0, the null hypothesis.\n\np′ = 0.53. Since the curve is symmetrical and the test is two-tailed, the p′ for the left tail is equal to 0.50 – 0.03 = 0.47 where μ = p = 0.50. (0.03 is the difference between 0.53 and 0.50.)\n\nCompare α and the p-value:\n\nSince α = 0.01 and p-value = 0.5485. α < p-value.\n\nMake a decision: Since α < p-value, you cannot reject H0.\n\nConclusion: At the 1% level of significance, the sample data do not show sufficient evidence that the percentage of first-time brides who are younger than their grooms is different from 50%.\n\nPress STAT and arrow over to TESTS. Press 5:1-PropZTest. Enter .5 for p0, 53 for x and 100 for n. Arrow down to Prop and arrow to not equals p0. Press ENTER. Arrow down to Calculate and press ENTER. The calculator calculates the p-value (p = 0.5485) and the test statistic (z-score). Prop not equals .5 is the alternate hypothesis. Do this set of instructions again except arrow to Draw (instead of Calculate). Press ENTER. A shaded graph appears with z = 0.6 (test statistic) and p = 0.5485 (p-value). Make sure when you use Draw that no other equations are highlighted in Y = and the plots are turned off.\n\nThe Type I and Type II errors are as follows:\n\nThe Type I error is to conclude that the proportion of first-time brides who are younger than their grooms is different from 50% when, in fact, the proportion is actually 50%. (Reject the null hypothesis when the null hypothesis is true).\n\nThe Type II error is there is not enough evidence to conclude that the proportion of first time brides who are younger than their grooms differs from 50% when, in fact, the proportion does differ from 50%. (Do not reject the null hypothesis when the null hypothesis is false.)",
+    "Suppose a consumer group suspects that the proportion of households that have three cell phones is 30%. A cell phone company has reason to believe that the proportion is not 30%. Before they start a big advertising campaign, they conduct a hypothesis test. Their marketing people survey 150 households with the result that 43 of the households have three cell phones.\n\na. The value that helps determine the p-value is p′. Calculate p′.\n\nb. What is a success for this problem?\n\nc. What is the level of significance?\n\nd. Draw the graph for this problem. Draw the horizontal axis. Label and shade appropriately.\nCalculate the p-value.\n\ne. Make a decision. _____________(Reject/Do not reject) H0 because____________.\n\nSet up the Hypothesis Test:\n\nH0: p = 0.30 Ha: p ≠ 0.30\n\nDetermine the distribution needed:\n\nThe random variable is P′ = proportion of households that have three cell phones.\n\nThe distribution for the hypothesis test is P'~N(0.30,√(((0.30)⋅(0.70))/150))\n\na. p′ = x/n where x is the number of successes and n is the total number in the sample.\n\nx = 43, n = 150\n\np′ = 43/150\n\nb. A success is having three cell phones in a household.\n\nc. The level of significance is the preset α. Since α is not given, assume that α = 0.05.\n\nd. p-value = 0.7216\n\ne. Assuming that α = 0.05, α < p-value. The decision is do not reject H0 because there is not sufficient evidence to conclude that the proportion of households that have three cell phones is not 30%.",
+    "My dog has so many fleas,\n\nThey do not come off with ease.\n\nAs for shampoo, I have tried many types\n\nEven one called Bubble Hype,\n\nWhich only killed 25% of the fleas,\n\nUnfortunately I was not pleased.\n\nI've used all kinds of soap,\n\nUntil I had given up hope\n\nUntil one day I saw\n\nAn ad that put me in awe.\n\nA shampoo used for dogs\n\nCalled GOOD ENOUGH to Clean a Hog\n\nGuaranteed to kill more fleas.\n\nI gave Fido a bath\n\nAnd after doing the math\n\nHis number of fleas\n\nStarted dropping by 3's!\n\nBefore his shampoo\n\nI counted 42.\n\nAt the end of his bath,\n\nI redid the math\n\nAnd the new shampoo had killed 17 fleas.\n\nSo now I was pleased.\n\nNow it is time for you to have some fun\n\nWith the level of significance being .01,\n\nYou must help me figure out\n\nUse the new shampoo or go without?\n\nSet up the hypothesis test:\n\nH0: p ≤ 0.25   Ha: p > 0.25\n\nDetermine the distribution needed:\n\nIn words, CLEARLY state what your random variable X̄ or P′ represents.\n\nP′ = The proportion of fleas that are killed by the new shampoo\n\nState the distribution to use for the test.\n\nNormal: N(0.25,√(((0.25)(1−0.25))/42))\n\nTest Statistic: z = 2.3163\n\nCalculate the p-value using the normal distribution for proportions:\n\np-value = 0.0103\n\nIn one to two complete sentences, explain what the p-value means for this problem.\n\nIf the null hypothesis is true (the proportion is 0.25), then there is a 0.0103 probability that the sample (estimated) proportion is 0.4048 (17/42) or more.\n\nUse the previous information to sketch a picture of this situation. CLEARLY, label and scale the horizontal axis and\nshade the region(s) corresponding to the p-value.\n\n[FIGURE]\n\nCompare α and the p-value:\n\nIndicate the correct decision (“reject” or “do not reject” the null hypothesis), the reason for it, and write an appropriate conclusion, using complete sentences.\n\n[TABLE]\nalpha | decision | reason for decision\n0.01 | Do not reject H_0 | α < p-value\n[/TABLE]\n\nConclusion: At the 1% level of significance, the sample data do not show sufficient evidence that the percentage of fleas that are killed by the new shampoo is more than 25%.\n\nConstruct a 95% confidence interval for the true mean or proportion. Include a sketch of the graph of the situation.\nLabel the point estimate and the lower and upper bounds of the confidence interval.\n\n[FIGURE]\n\nConfidence Interval: (0.26,0.55) We are 95% confident that the true population proportion p of fleas that are killed by the new shampoo is between 26% and 55%.\n\nNOTE\n\nThis test result is not very definitive since the p-value is very close to alpha. In reality, one would probably do more tests by giving the dog another bath after the fleas have had a chance to return.",
+    "The National Institute of Standards and Technology provides exact data on conductivity properties of materials. Following are conductivity measurements for 11 randomly selected pieces of a particular type of glass.\n\n1.11; 1.07; 1.11; 1.07; 1.12; 1.08; .98; .98; 1.02; .95; .95\n\nIs there convincing evidence that the average conductivity of this type of glass is greater than one? Use a significance level of 0.05. Assume the population is normal.\n\nLet’s follow a four-step process to answer this statistical question.\n\n1. State the Question: We need to determine if, at a 0.05 significance level, the average conductivity of the selected glass is greater than one. Our hypotheses will be\n\na. H0: μ ≤ 1\nb. Ha: μ > 1\n\n2. Plan: We are testing a sample mean without a known population standard deviation. Therefore, we need to use a Student's t-distribution. Assume the underlying population is normal.\n3. Based on the sample of 11 data values shown above, sample mean, sample standard deviation, and test statistic are calculated as follows:\n\nx̄ = 1.04 ; s = 0.0659 ; t = 2.014\n\nTo calculate the p-value, note that this is a right-tailed test. Then, find the area under the t-distribution to the right of the test statistic 2.014 (using 10 degrees of freedom). This area in the right tail is 0.036, and thus the p-value = 0.036.\n\n4. State the Conclusions: Since the p-value (p = 0.036) is less than our alpha value, we will reject the null hypothesis. It is reasonable to state that the data supports the claim that the average conductivity level is greater than one.",
+    "In a study of 420,019 cell phone users, 172 of the subjects developed brain cancer. Test the claim that cell phone users developed brain cancer at a greater rate than that for non-cell phone users (the rate of brain cancer for non-cell phone users is 0.0340%). Since this is a critical issue, use a 0.005 significance level. Explain why the significance level should be so low in terms of a Type I error.\n\nWe will follow the four-step process.\n\n1. We need to conduct a hypothesis test on the claimed cancer rate. Our hypotheses will be\n\na. H0: p ≤ 0.00034\nb. Ha: p > 0.00034\n\nIf we commit a Type I error, we are essentially accepting a false claim. Since the claim describes cancer-causing environments, we want to minimize the chances of incorrectly identifying causes of cancer.\n\n2. We will be testing a sample proportion with x = 172 and n = 420,019. The sample is sufficiently large because we have np = 420,019(0.00034) = 142.8, nq = 420,019(0.99966) = 419,876.2, two independent outcomes, and a fixed probability of success p = 0.00034. Thus we will be able to generalize our results to the population.\n3. The associated TI results are\n\n[FIGURE]\n[FIGURE]\n\n4. Since the p-value = 0.0073 is greater than our alpha value = 0.005, we cannot reject the null. Therefore, we conclude that there is not enough evidence to support the claim of higher brain cancer rates for the cell phone users.",
+    "Statistical data indicates that in a certain country there are approximately 268,608,618 residents aged 12 and older. For a certain period of time, statistical data also indicates that the percentage of residents with blood type AB negative (AB-) is 207,754 individuals. This translates into a percentage of 0.078% with this rather rare blood type. In a certain province of the country, there were 11 people with blood type AB- out of the population of 37,937. Conduct an appropriate hypothesis test to determine if there is a statistically significant difference between the percentage of residents in the entire country with blood type AB- versus the percentage in the local province. Use a significance level of 0.01.\n\nWe will follow the four-step plan.\n\n1. We need to test whether the proportion of residents with AB- blood type in the local province is statistically different as compared to the proportion in the entire country.\n2. Since we are presented with proportions, we will use a one-proportion z-test. The hypotheses for the test will be:\n\nH_0∶p = 0.00078 ; H_a∶p ≠ 0.00078\n\n3. Note the sample proportion is p^' = 11/(37,937)=0.00029\nThe test statistic is calculated as z = -3.4189. To calculate the p-value, note that this is a two-tailed test. Find the area under the normal distribution to the left of the test statistic and then double this area. The area to the left of the test statistic is 0.000314, and this area doubled results in the p-value of 0.00063.\n\n4. Since the p-value, p = 0.00063, is less than the alpha level of 0.01, the sample data indicates that we should reject the null hypothesis. In conclusion, the sample data support the claim that the proportion of individuals with blood type AB- in the local province is different from the proportion of individuals in the entire country."
+   ],
+   "practice": [
+    {
+     "id": "eip-750",
+     "problem": "Assume H0: μ = 9 and Ha: μ < 9. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": "This is a left-tailed test."
+    },
+    {
+     "id": "eip-815",
+     "problem": "Assume H0: μ ≤ 6 and Ha: μ > 6. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp45725152",
+     "problem": "Assume H0: p = 0.25 and Ha: p ≠ 0.25. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": "This is a two-tailed test."
+    },
+    {
+     "id": "eip-155",
+     "problem": "Draw the general graph of a left-tailed test.",
+     "solution": null
+    },
+    {
+     "id": "eip-18",
+     "problem": "Draw the graph of a two-tailed test.",
+     "solution": "[FIGURE]"
+    },
+    {
+     "id": "eip-709",
+     "problem": "A bottle of water is labeled as containing 16 fluid ounces of water. You believe it is less than that. What type of test would you use?",
+     "solution": null
+    },
+    {
+     "id": "eip-34",
+     "problem": "Your friend claims that his mean golf score is 63. You want to show that it is higher than that. What type of test would you use?",
+     "solution": "a right-tailed test"
+    },
+    {
+     "id": "eip-729",
+     "problem": "A bathroom scale claims to be able to identify correctly any weight within a pound. You think that it cannot be that accurate. What type of test would you use?",
+     "solution": null
+    },
+    {
+     "id": "eip-71",
+     "problem": "You flip a coin and record whether it shows heads or tails. You know the probability of getting heads is 50%, but you think it is less for this particular coin. What type of test would you use?",
+     "solution": "a left-tailed test"
+    },
+    {
+     "id": "eip-384",
+     "problem": "If the alternative hypothesis has a not equals ( ≠ ) symbol, you know to use which type of test?",
+     "solution": null
+    },
+    {
+     "id": "eip-504",
+     "problem": "Assume the null hypothesis states that the mean is at least 18. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": "This is a left-tailed test."
+    },
+    {
+     "id": "eip-320",
+     "problem": "Assume the null hypothesis states that the mean is at most 12. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": null
+    },
+    {
+     "id": "eip-115",
+     "problem": "Assume the null hypothesis states that the mean is equal to 88. The alternative hypothesis states that the mean is not equal to 88. Is this a left-tailed, right-tailed, or two-tailed test?",
+     "solution": "This is a two-tailed test."
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-816",
+     "problem": "A particular brand of tires claims that its deluxe tire averages at least 50,000 miles before it needs to be replaced. From past studies of this tire, the standard deviation is known to be 8,000. A survey of owners of that tire design is conducted. From the 28 tires surveyed, the mean lifespan was 46,500 miles with a standard deviation of 9,800 miles. Using alpha = 0.05, is the data highly inconsistent with the claim?",
+     "solution": "a. H0: μ ≥ 50,000\nb. Ha: μ < 50,000\nc. Let X̄ = the average lifespan of a brand of tires.\nd. normal distribution\ne. z = -2.315\nf. p-value = 0.0103\ng. Answers may vary.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.\n\ni. (43,537, 49,463)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-809",
+     "problem": "From generation to generation, the mean age when smokers first start to smoke varies. However, the standard deviation of that age remains constant of around 2.1 years. A survey of 40 smokers of this generation was done to see if the mean starting age is at least 19. The sample mean was 18.1 with a sample standard deviation of 1.3. Do the data support the claim at the 5% level?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-635",
+     "problem": "The cost of a daily newspaper varies from city to city. However, the variation among prices remains steady with a standard deviation of 20¢. A study was done to test the claim that the mean cost of a daily newspaper is $1.00. Twelve costs yield a mean cost of 95¢ with a standard deviation of 18¢. Do the data support the claim at the 1% level?",
+     "solution": "a. H0: μ = $1.00\nb. Ha: μ ≠ $1.00\nc. Let X̄ = the average cost of a daily newspaper.\nd. normal distribution\ne. z = –0.866\nf. p-value = 0.3865\ng. Answers may vary.\nh.\n\ni. Alpha: 0.01\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.01.\niv. Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.\n\ni. ($0.84, $1.06)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-94",
+     "problem": "An article in the San Jose Mercury News stated that students in the California state university system take 4.5 years, on average, to finish their undergraduate degrees. Suppose you believe that the mean time is longer. You conduct a survey of 49 students and obtain a sample mean of 5.1 with a sample standard deviation of 1.2. Do the data support your claim at the 1% level?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-932a",
+     "problem": "The mean number of sick days an employee takes per year is believed to be about ten. Members of a personnel department do not believe this figure. They randomly survey eight employees. The number of sick days they took for the past year are as follows: 12; 4; 15; 3; 11; 8; 6; 8. Let x = the number of sick days they took for the past year. Should the personnel team believe that the mean number is ten?",
+     "solution": "a. H0: μ = 10\nb. Ha: μ ≠ 10\nc. Let X̄ the mean number of sick days an employee takes per year.\nd. Student’s t-distribution\ne. t = –1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean number of sick days is not ten.\n\ni. (4.9443, 11.806)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-950",
+     "problem": "In 1955, Life Magazine reported that the 25 year-old mother of three worked, on average, an 80 hour week. Recently, many groups have been studying whether or not the women's movement has, in fact, resulted in an increase in the average work week for women (combining employment and at-home work). Suppose a study was done to determine if the mean work week has increased. 81 women were surveyed with the following results. The sample mean was 83; the sample standard deviation was ten. Does it appear that the mean work week has increased for women at the 5% level?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-321",
+     "problem": "Your statistics instructor claims that 60% of the students who take their Elementary Statistics class go through life feeling more enriched. For some reason that the instructor can't quite figure out, most people don't believe her. You decide to check this out on your own. You randomly survey 64 of their past Elementary Statistics students and find that 34 feel more enriched as a result of taking the class. Now, what do you think?",
+     "solution": "a. H0: p ≥ 0.6\nb. Ha: p < 0.6\nc. Let P′ = the proportion of students who feel more enriched as a result of taking Elementary Statistics.\nd. normal for a single proportion\ne. 1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that less than 60 percent of the students feel more enriched.\n\ni. Confidence Interval: (0.409, 0.654)\nThe “plus-4s” confidence interval is (0.411, 0.648)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-410",
+     "problem": "A Nissan Motor Corporation advertisement read, “The average man’s I.Q. is 107. The average brown trout’s I.Q. is 4. So why can’t man catch brown trout?” Suppose you believe that the brown trout’s mean I.Q. is greater than four. You catch 12 brown trout. A fish psychologist determines the I.Q.s as follows: 5; 4; 7; 3; 6; 4; 5; 3; 6; 3; 8; 5. Conduct a hypothesis test of your belief.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-814",
+     "problem": "Refer to Exercise 9.81. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
+     "solution": "a. H0: μ = 4\nb. Ha: μ ≠ 4\nc. Let X̄ the average I.Q. of a set of brown trout.\nd. two-tailed Student's t-test\ne. t = 1.95\nf. p-value = 0.076\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.\n\ni. (3.8865,5.9468)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-191",
+     "problem": "According to an article in Newsweek, the birth ratio of females to males is 100:105. In China, the birth ratio is 100: 114 (46.7% females). Suppose you want to explore the reported figures of the percent of females born in China. You conduct a study. In this study, you count the number of females and males born in 150 randomly chosen recent births. There are 60 females and 90 males born of the 150. Based on your study, do you believe that the percent of females born in China is 46.7?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-658",
+     "problem": "A poll done for Newsweek found that 13% of Americans have seen or sensed the presence of an angel. A contingent doubts that the percent is really that high. It conducts its own survey. Out of 76 Americans surveyed, only two had seen or sensed the presence of an angel. As a result of the contingent’s survey, would you agree with the Newsweek poll? In complete sentences, also give three reasons why the two polls might give different results.",
+     "solution": "a. H0: p ≥ 0.13\nb. Ha: p < 0.13\nc. Let P′ = the proportion of Americans who have seen or sensed angels\nd. normal for a single proportion\ne. –2.688\nf. p-value = 0.0036\ng. Check student’s solution.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have seen or sensed an angel is less than 13%.\n\ni. (0, 0.0623).\n\nThe“plus-4s” confidence interval is (0.0022, 0.0978)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-53",
+     "problem": "The mean work week for engineers in a start-up company is believed to be about 60 hours. A newly hired engineer hopes that it’s shorter. They ask ten engineering friends in start-ups for the lengths of their mean work weeks. Based on the results that follow, should the engineer count on the mean work week to be shorter than 60 hours?\n\nData (length of mean work week): 70; 45; 55; 60; 65; 55; 55; 60; 50; 55.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-761",
+     "problem": "Use the “Lap time” data for Lap 4 (see ) to test the claim that Terri finishes Lap 4, on average, in less than 129 seconds. Use all twenty races given.",
+     "solution": "a. H0: μ ≥ 129\nb. Ha: μ < 129\nc. Let X̄ = the average time in seconds that Terri finishes Lap 4.\nd. Student's t-distribution\ne. t = 1.209\nf. 0.8792\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.\n\ni. (128.63, 130.37)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "fs-idp191961952",
+     "problem": "Use the “Initial Public Offering” data (see ) to test the claim that the mean offer price was $18 per share. Do not use all the data. Use your random number generator to randomly survey 15 prices.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "ex1",
+     "problem": "\"Asian Family Reunion,\" by Chau Nguyen\n\nEvery two years it comes around.\n\nWe all get together from different towns.\n\nIn my honest opinion,\n\nIt's not a typical family reunion.\n\nNot forty, or fifty, or sixty,\n\nBut how about seventy companions!\n\nThe kids would play, scream, and shout\n\nOne minute they're happy, another they'll pout.\n\nThe teenagers would look, stare, and compare\n\nFrom how they look to what they wear.\n\nThe men would chat about their business\n\nThat they make more, but never less.\n\nMoney is always their subject\n\nAnd there's always talk of more new projects.\n\nThe women get tired from all of the chats\n\nThey head to the kitchen to set out the mats.\n\nSome would sit and some would stand\n\nEating and talking with plates in their hands.\n\nThen come the games and the songs\n\nAnd suddenly, everyone gets along!\n\nWith all that laughter, it's sad to say\n\nThat it always ends in the same old way.\n\nThey hug and kiss and say \"good-bye\"\n\nAnd then they all begin to cry!\n\nI say that 60 percent shed their tears\n\nBut my mom counted 35 people this year.\n\nShe said that boys and men will always have their pride,\n\nSo we won't ever see them cry.\n\nI myself don't think she's correct,\n\nSo could you please try this problem to see if you object?",
+     "solution": "a. H0: p = 0.60\nb. Ha: p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh.\n\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done.\n\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "ex2",
+     "problem": "\"The Problem with Angels,\" by Cyndy Dowling\n\nAlthough this problem is wholly mine,\n\nThe catalyst came from the magazine, Time.\n\nOn the magazine cover I did find\n\nThe realm of angels tickling my mind.\n\nInside, 69% I found to be\n\nIn angels, Americans do believe.\n\nThen, it was time to rise to the task,\n\nNinety-five high school and college students I did ask.\n\nViewing all as one group,\n\nRandom sampling to get the scoop.\n\nSo, I asked each to be true,\n\n\"Do you believe in angels?\" Tell me, do!\n\nHypothesizing at the start,\n\nTotally believing in my heart\n\nThat the proportion who said yes\n\nWould be equal on this test.\n\nLo and behold, seventy-three did arrive,\n\nOut of the sample of ninety-five.\n\nNow your job has just begun,\n\nSolve this problem and have some fun.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer4",
+     "problem": "\"Blowing Bubbles,\" by Sondra Prull\n\nStudying stats just made me tense,\n\nI had to find some sane defense.\n\nSome light and lifting simple play\n\nTo float my math anxiety away.\n\nBlowing bubbles lifts me high\n\nTakes my troubles to the sky.\n\nPOIK! They're gone, with all my stress\n\nBubble therapy is the best.\n\nThe label said each time I blew\n\nThe average number of bubbles would be at least 22.\n\nI blew and blew and this I found\n\nFrom 64 blows, they all are round!\n\nBut the number of bubbles in 64 blows\n\nVaried widely, this I know.\n\n20 per blow became the mean\n\nThey deviated by 6, and not 16.\n\nFrom counting bubbles, I sure did relax\n\nBut now I give to you your task.\n\nWas 22 a reasonable guess?\n\nFind the answer and pass this test!",
+     "solution": "a. H0: μ ≥ 22\nb. Ha: μ < 22\nc. Let X̄ = the mean number of bubbles per blow.\nd. Student's t-distribution\ne. –2.667\nf. p-value = 0.00486\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.\n\ni. (18.501, 21.499)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "ex3",
+     "problem": "\"Dalmatian Darnation,\" by Kathy Sparling\n\nA greedy dog breeder named Spreckles\n\nBred puppies with numerous freckles\n\nThe Dalmatians he sought\n\nPossessed spot upon spot\n\nThe more spots, he thought, the more shekels.\n\nHis competitors did not agree\n\nThat freckles would increase the fee.\n\nThey said, “Spots are quite nice\n\nBut they don't affect price;\n\nOne should breed for improved pedigree.”\n\nThe breeders decided to prove\n\nThis strategy was a wrong move.\n\nBreeding only for spots\n\nWould wreak havoc, they thought.\n\nHis theory they want to disprove.\n\nThey proposed a contest to Spreckles\n\nComparing dog prices to freckles.\n\nIn records they looked up\n\nOne hundred one pups:\n\nDalmatians that fetched the most shekels.\n\nThey asked Mr. Spreckles to name\n\nAn average spot count he'd claim\n\nTo bring in big bucks.\n\nSaid Spreckles, “Well, shucks,\n\nIt's for one hundred one that I aim.”\n\nSaid an amateur statistician\n\nWho wanted to help with this mission.\n\n“Twenty-one for the sample\n\nStandard deviation's ample:\n\nThey examined one hundred and one\n\nDalmatians that fetched a good sum.\n\nThey counted each spot,\n\nMark, freckle and dot\n\nAnd tallied up every one.\n\nInstead of one hundred one spots\n\nThey averaged ninety six dots\n\nCan they muzzle Spreckles’\n\nObsession with freckles\n\nBased on all the dog data they've got?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer5",
+     "problem": "\"Macaroni and Cheese, please!!\" by Nedda Misherghi and Rachelle Hall\n\nAs a poor starving student I don't have much money to spend for even the bare necessities. So my favorite and main staple food is macaroni and cheese. It's high in taste and low in cost and nutritional value.\n\nOne day, as I sat down to determine the meaning of life, I got a serious craving for this, oh, so important, food of my life. So I went down the street to Greatway to get a box of macaroni and cheese, but it was SO expensive! $2.02 !!! Can you believe it? It made me stop and think. The world is changing fast. I had thought that the mean cost of a box (the normal size, not some super-gigantic-family-value-pack) was at most $1, but now I wasn't so sure. However, I was determined to find out. I went to 53 of the closest grocery stores and surveyed the prices of macaroni and cheese. Here are the data I wrote in my notebook:\n\n• 5 stores @ $2.02\n• 15 stores @ $0.25\n• 3 stores @ $1.29\n• 6 stores @ $0.35\n• 4 stores @ $2.27\n• 7 stores @ $1.50\n• 5 stores @ $1.89\n• 8 stores @ 0.75.\n\nI could see that the cost varied but I had to sit down to figure out whether or not I was right. If it does turn out that this mouth-watering dish is at most $1, then I'll throw a big cheesy party in our next statistics lab, with enough macaroni and cheese for just me. (After all, as a poor starving student I can't be expected to feed our class of animals!)",
+     "solution": "a. H0: μ ≤ 1\nb. Ha: μ > 1\nc. Let X̄ = the mean cost in dollars of macaroni and cheese in a certain town.\nd. Student's t-distribution\ne. t = 0.340\nf. p-value = 0.36756\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: The mean cost could be $1, or less. At the 5% significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.\n\ni. (0.8291, 1.241)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer8",
+     "problem": "\"William Shakespeare: The Tragedy of Hamlet, Prince of Denmark,\" by Jacqueline Ghodsi\n\n• HAMLET, Prince of Denmark and student of Statistics\n• POLONIUS, Hamlet’s tutor\n• HOROTIO, friend to Hamlet and fellow student\n\nScene: The great library of the castle, in which Hamlet does his lessons\n\nAct I\n\n(The day is fair, but the face of Hamlet is clouded. He paces the large room. His tutor, Polonius, is reprimanding Hamlet regarding the latter’s recent experience. Horatio is seated at the large table at right stage.)\n\nPOLONIUS: My Lord, how cans’t thou admit that thou hast seen a ghost! It is but a figment of your imagination!\n\nHAMLET: I beg to differ; I know of a certainty that five-and-seventy in one hundred of us, condemned to the whips and scorns of time as we are, have gazed upon a spirit of health, or goblin damn’d, be their intents wicked or charitable.\n\nPOLONIUS If thou doest insist upon thy wretched vision then let me invest your time; be true to thy work and speak to me through the reason of the null and alternate hypotheses. (He turns to Horatio.) Did not Hamlet himself say, “What piece of work is man, how noble in reason, how infinite in faculties? Then let not this foolishness persist. Go, Horatio, make a survey of three-and-sixty and discover what the true proportion be. For my part, I will never succumb to this fantasy, but deem man to be devoid of all reason should thy proposal of at least five-and-seventy in one hundred hold true.\n\nHORATIO (to Hamlet): What should we do, my Lord?\n\nHAMLET: Go to thy purpose, Horatio.\n\nHORATIO: To what end, my Lord?\n\nHAMLET: That you must teach me. But let me conjure you by the rights of our fellowship, by the consonance of our youth, but the obligation of our ever-preserved love, be even and direct with me, whether I am right or no.\n\n(Horatio exits, followed by Polonius, leaving Hamlet to ponder alone.)\n\nAct II\n\n(The next day, Hamlet awaits anxiously the presence of his friend, Horatio. Polonius enters and places some books upon the table just a moment before Horatio enters.)\n\nPOLONIUS: So, Horatio, what is it thou didst reveal through thy deliberations?\n\nHORATIO: In a random survey, for which purpose thou thyself sent me forth, I did discover that one-and-forty believe fervently that the spirits of the dead walk with us. Before my God, I might not this believe, without the sensible and true avouch of mine own eyes.\n\nPOLONIUS: Give thine own thoughts no tongue, Horatio. (Polonius turns to Hamlet.) But look to’t I charge you, my Lord. Come Horatio, let us go together, for this is not our test. (Horatio and Polonius leave together.)\n\nHAMLET: To reject, or not reject, that is the question: whether ‘tis nobler in the mind to suffer the slings and arrows of outrageous statistics, or to take arms against a sea of data, and, by opposing, end them. (Hamlet resignedly attends to his task.)\n\n(Curtain falls)",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer7",
+     "problem": "\"Untitled,\" by Stephen Chen\n\nI've often wondered how software is released and sold to the public. Ironically, I work for a company that sells products with known problems. Unfortunately, most of the problems are difficult to create, which makes them difficult to fix. I usually use the test program X, which tests the product, to try to create a specific problem. When the test program is run to make an error occur, the likelihood of generating an error is 1%.\n\nSo, armed with this knowledge, I wrote a new test program Y that will generate the same error that test program X creates, but more often. To find out if my test program is better than the original, so that I can convince the management that I'm right, I ran my test program to find out how often I can generate the same error. When I ran my test program 50 times, I generated the error twice. While this may not seem much better, I think that I can convince the management to use my test program instead of the original test program. Am I right?",
+     "solution": "a. H0: p = 0.01\nb. Ha: p > 0.01\nc. Let P′ = the proportion of errors generated\nd. Normal for a single proportion\ne. 2.13\nf. 0.0165\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.\n\ni. Confidence interval: (0, 0.094).\nThe“plus-4s” confidence interval is (0.004, 0.144).",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer6",
+     "problem": "\"Japanese Girls’ Names\"\n\nby Kumi Furuichi\n\nIt used to be very typical for Japanese girls’ names to end with “ko.” (The trend might have started around my grandmothers’ generation and its peak might have been around my mother’s generation.) “Ko” means “child” in Chinese characters. Parents would name their daughters with “ko” attaching to other Chinese characters which have meanings that they want their daughters to become, such as Sachiko—happy child, Yoshiko—a good child, Yasuko—a healthy child, and so on.\n\nHowever, I noticed recently that only two out of nine of my Japanese girlfriends at this school have names which end with “ko.” More and more, parents seem to have become creative, modernized, and, sometimes, westernized in naming their children.\n\nI have a feeling that, while 70 percent or more of my mother’s generation would have names with “ko” at the end, the proportion has dropped among my peers. I wrote down all my Japanese friends’, ex-classmates’, co-workers, and acquaintances’ names that I could remember. Following are the names. (Some are repeats.) Test to see if the proportion has dropped for this generation.\n\nAi, Akemi, Akiko, Ayumi, Chiaki, Chie, Eiko, Eri, Eriko, Fumiko, Harumi, Hitomi, Hiroko, Hiroko, Hidemi, Hisako, Hinako, Izumi, Izumi, Junko, Junko, Kana, Kanako, Kanayo, Kayo, Kayoko, Kazumi, Keiko, Keiko, Kei, Kumi, Kumiko, Kyoko, Kyoko, Madoka, Maho, Mai, Maiko, Maki, Miki, Miki, Mikiko, Mina, Minako, Miyako, Momoko, Nana, Naoko, Naoko, Naoko, Noriko, Rieko, Rika, Rika, Rumiko, Rei, Reiko, Reiko, Sachiko, Sachiko, Sachiyo, Saki, Sayaka, Sayoko, Sayuri, Seiko, Shiho, Shizuka, Sumiko, Takako, Takako, Tomoe, Tomoe, Tomoko, Touko, Yasuko, Yasuko, Yasuyo, Yoko, Yoko, Yoko, Yoshiko, Yoshiko, Yoshiko, Yuka, Yuki, Yuki, Yukiko, Yuko, Yuko.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exerrr",
+     "problem": "\"Phillip’s Wish,\" by Suzanne Osorio\n\nMy nephew likes to play\n\nChasing the girls makes his day.\n\nHe asked his mother\n\nIf it is okay\n\nTo get his ear pierced.\n\nShe said, “No way!”\n\nTo poke a hole through your ear,\n\nIs not what I want for you, dear.\n\nHe argued his point quite well,\n\nSays even my macho pal, Mel,\n\nHas gotten this done.\n\nIt’s all just for fun.\n\nC’mon please, mom, please, what the hell.\n\nAgain Phillip complained to his mother,\n\nSaying half his friends (including their brothers)\n\nAre piercing their ears\n\nAnd they have no fears\n\nHe wants to be like the others.\n\nShe said, “I think it’s much less.\n\nWe must do a hypothesis test.\n\nAnd if you are right,\n\nI won’t put up a fight.\n\nBut, if not, then my case will rest.”\n\nWe proceeded to call fifty guys\n\nTo see whose prediction would fly.\n\nNineteen of the fifty\n\nSaid piercing was nifty\n\nAnd earrings they’d occasionally buy.\n\nThen there’s the other thirty-one,\n\nWho said they’d never have this done.\n\nSo now this poem’s finished.\n\nWill his hopes be diminished,\n\nOr will my nephew have his fun?",
+     "solution": "a. H0: p = 0.50\nb. Ha: p < 0.50\nc. Let P′ = the proportion of friends that has a pierced ear.\nd. normal for a single proportion\ne. –1.70\nf. p-value = 0.0448\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05. (However, they are very close.)\niv. Conclusion: There is sufficient evidence to support the claim that less than 50% of his friends have pierced ears.\n\ni. Confidence Interval: (0.245, 0.515): The “plus-4s” confidence interval is (0.259, 0.519).",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exercise",
+     "problem": "\"The Craven,\" by Mark Salangsang\n\nOnce upon a morning dreary\n\nIn stats class I was weak and weary.\n\nPondering over last night’s homework\n\nWhose answers were now on the board\n\nThis I did and nothing more.\n\nWhile I nodded nearly napping\n\nSuddenly, there came a tapping.\n\nAs someone gently rapping,\n\nRapping my head as I snore.\n\nQuoth the teacher, “Sleep no more.”\n\n“In every class you fall asleep,”\n\nThe teacher said, his voice was deep.\n\n“So a tally I’ve begun to keep\n\nOf every class you nap and snore.\n\nThe percentage being forty-four.”\n\n“My dear teacher I must confess,\n\nWhile sleeping is what I do best.\n\nThe percentage, I think, must be less,\n\nA percentage less than forty-four.”\n\nThis I said and nothing more.\n\n“We’ll see,” he said and walked away,\n\nAnd fifty classes from that day\n\nHe counted till the month of May\n\nThe classes in which I napped and snored.\n\nThe number he found was twenty-four.\n\nAt a significance level of 0.05,\n\nPlease tell me am I still alive?\n\nOr did my grade just take a dive\n\nPlunging down beneath the floor?\n\nUpon thee I hereby implore.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-378",
+     "problem": "Toastmasters International cites a report by Gallup Poll that 40% of Americans fear public speaking. A student believes that less than 40% of students at their school fear public speaking. The student randomly surveys 361 schoolmates and finds that 135 report they fear public speaking. Conduct a hypothesis test to determine if the percent at their school is less than 40%.",
+     "solution": "a. H0: p = 0.40\nb. Ha: p < 0.40\nc. Let P′ = the proportion of schoolmates who fear public speaking.\nd. normal for a single proportion\ne. –1.01\nf. p-value = 0.1563\ng. Check student’s solution.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to support the claim that less than 40% of students at the school fear public speaking.\n\ni. Confidence Interval: (0.3241, 0.4240): The “plus-4s” confidence interval is (0.3257, 0.4250).",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-48",
+     "problem": "Sixty-eight percent of online courses taught at community colleges nationwide were taught by full-time faculty. To test if 68% also represents California’s percent for full-time faculty teaching the online classes, Long Beach City College (LBCC) in California, was randomly selected for comparison. In the same year, 34 of the 44 online courses LBCC offered were taught by full-time faculty. Conduct a hypothesis test to determine if 68% represents California. NOTE: For more accurate results, use more California community colleges and this past year's data.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-874",
+     "problem": "According to New York City's Community Health Survey, the most recent adult smoking rate is 12%. Suppose that a survey is conducted to determine this year’s rate. Nine out of 70 randomly chosen N.Y. City residents reply that they smoke. Conduct a hypothesis test to determine if the rate is still 12% or if it has decreased.",
+     "solution": "a. H0: p = 0.12\nb. Ha: p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh.\n\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: The p-value is greater than 0.05.\niv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14.\n\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-767",
+     "problem": "The mean age of De Anza College students in a previous term was 26.6 years old. An instructor thinks the mean age for online students is older than 26.6. They randomly survey 56 online students and find that the sample mean is 29.4 with a standard deviation of 2.1. Conduct a hypothesis test.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-408",
+     "problem": "Registered nurses earned an average annual salary of $69,110. For that same year, a survey was conducted of 41 California registered nurses to determine if the annual salary is higher than $69,110 for California nurses. The sample average was $71,121 with a sample standard deviation of $7,489. Conduct a hypothesis test.",
+     "solution": "a. H0: p = 0.12\nb. Ha: p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh.\n\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.\n\ni. ($68,757, $73,485)",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "element-50",
+     "problem": "La Leche League International reports that the mean age of weaning a child from breastfeeding is age four to five worldwide. In America, most nursing mothers wean their children much earlier. Suppose a random survey is conducted of 21 U.S. mothers who recently weaned their children. The mean weaning age was nine months (3/4 year) with a standard deviation of 4 months. Conduct a hypothesis test to determine if the mean weaning age in the U.S. is less than four years old.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer12",
+     "problem": "Over the past few decades, public health officials have examined the link between weight concerns and teen girls' smoking. Researchers surveyed a group of 273 randomly selected teen girls living in Massachusetts (between 12 and 15 years old). After four years the girls were surveyed again. Sixty-three said they smoked to stay thin. Is there good evidence that more than 30% of the teen girls smoke to stay thin?\nAfter conducting the test, your decision and conclusion are\n\na. Reject H0: There is sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.\nb. Do not reject H0: There is not sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.\nc. Do not reject H0: There is not sufficient evidence to conclude that more than 30% of teen girls smoke to stay thin.\nd. Reject H0: There is sufficient evidence to conclude that less than 30% of teen girls smoke to stay thin.",
+     "solution": "c",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer14",
+     "problem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 of them attended the midnight showing.\n\nAt a 1% level of significance, an appropriate conclusion is:\n\na. There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is less than 20%.\nb. There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is more than 20%.\nc. There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is less than 20%.\nd. There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is at least 20%.",
+     "stem": "A statistics instructor believes that fewer than 20% of Evergreen Valley College (EVC) students attended the opening night midnight showing of the latest Marvel Universe movie. The instructor surveys 84 students and finds that 11 of them attended the midnight showing.\n\nAt a 1% level of significance, an appropriate conclusion is:",
+     "options": [
+      "There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is less than 20%.",
+      "There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is more than 20%.",
+      "There is sufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is less than 20%.",
+      "There is insufficient evidence to conclude that the percent of EVC students who attended the midnight showing of Marvel Universe is at least 20%."
+     ],
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "exer19",
+     "problem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.\n\nAt a significance level of\na = 0.05, what is the correct conclusion?\n\na. There is enough evidence to conclude that the mean number of hours is more than 4.75\nb. There is enough evidence to conclude that the mean number of hours is more than 4.5\nc. There is not enough evidence to conclude that the mean number of hours is more than 4.5\nd. There is not enough evidence to conclude that the mean number of hours is more than 4.75",
+     "stem": "Previously, an organization reported that teenagers spent 4.5 hours per week, on average, on the phone. The organization thinks that, currently, the mean is higher. Fifteen randomly chosen teenagers were asked how many hours per week they spend on the phone. The sample mean was 4.75 hours with a sample standard deviation of 2.0. Conduct a hypothesis test.\n\nAt a significance level of\na = 0.05, what is the correct conclusion?",
+     "options": [
+      "There is enough evidence to conclude that the mean number of hours is more than 4.75",
+      "There is enough evidence to conclude that the mean number of hours is more than 4.5",
+      "There is not enough evidence to conclude that the mean number of hours is more than 4.5",
+      "There is not enough evidence to conclude that the mean number of hours is more than 4.75"
+     ],
+     "solution": "c",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files."
+    },
+    {
+     "id": "eip-69",
+     "problem": "According to the Center for Disease Control website, in 2022 at least 2% of high school students reported they had smoked a cigarette. An Introduction to Statistics class conducted a hypothesis test at the local high school (a medium sized–approximately 1,200 students–small city demographic) to determine if the local high school’s percentage was lower. One hundred fifty students were chosen at random and surveyed. Of the 150 students surveyed, 82 have smoked. Use a significance level of 0.05 and using appropriate statistical evidence, conduct a hypothesis test and state the conclusions.",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-40",
+     "problem": "A recent survey in the N.Y. Times Almanac indicated that 48.8% of families own stock. A broker wanted to determine if this survey could be valid. They surveyed a random sample of 250 families and found that 142 owned some type of stock. At the 0.05 significance level, can the survey be considered to be accurate?",
+     "solution": "a. H0: p = 0.488 Ha: p ≠ 0.488\nb. p-value = 0.0114\nc. alpha = 0.05\nd. Reject the null hypothesis.\ne. There is enough evidence to conclude that the percent of families owning stocks is not 48.8%.\nf. The survey does not appear to be accurate.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-59",
+     "problem": "Driver error can be listed as the cause of approximately 54% of all fatal auto accidents, according to the American Automobile Association. Thirty randomly selected fatal accidents are examined, and it is determined that 14 were caused by driver error. Using α = 0.05, is the AAA proportion accurate?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-601",
+     "problem": "The US Department of Energy reported that 51.7% of homes were heated by natural gas. A random sample of 221 homes in Kentucky found that 115 were heated by natural gas. Does the evidence support the claim for Kentucky at the α = 0.05 level in Kentucky? Are the results applicable across the country? Why?",
+     "solution": "a. H0: p = 0.517 Ha: p ≠ 0.517\nb. p-value = 0.9203.\nc. alpha = 0.05.\nd. Do not reject the null hypothesis.\ne. At the 5% significance level, there is not enough evidence to conclude that the proportion of homes in Kentucky that are heated by natural gas is different from the proportion of homes heated by natural gas across the country.\nf. However, we cannot generalize this result to the entire nation. First, the sample’s population is only the state of Kentucky. Second, it is reasonable to assume that homes in the extreme north and south will have extreme high usage and low usage, respectively. We would need to expand our sample base to include these possibilities if we wanted to generalize this claim to the entire nation.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-835",
+     "problem": "For Americans using library services, the American Library Association claims that at most 67% of patrons borrow books. The library director in Owensboro, Kentucky feels this is not true, so they asked a local college statistic class to conduct a survey. The class randomly selected 100 patrons and found that 82 borrowed books. Did the class demonstrate that the percentage was higher in Owensboro, KY? Use α = 0.01 level of significance. What is the possible proportion of patrons that do borrow books from the Owensboro Library?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-715",
+     "problem": "The Weather Underground reported that the mean amount of summer rainfall for the northeastern US is at least 11.52 inches. Ten cities in the northeast are randomly selected and the mean rainfall amount is calculated to be 7.42 inches with a standard deviation of 1.3 inches. At the α = 0.05 level, can it be concluded that the mean rainfall was below the reported average? What if α = 0.01? Assume the amount of summer rainfall follows a normal distribution.",
+     "solution": "a. H0: µ ≥ 11.52 Ha: µ < 11.52\nb. p-value = 0.000002 which is almost 0.\nc. alpha = 0.05.\nd. Reject the null hypothesis.\ne. At the 5% significance level, there is enough evidence to conclude that the mean amount of summer rain in the northeaster US is less than 11.52 inches, on average.\nf. We would make the same conclusion if alpha was 1% because the p-value is almost 0.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-717",
+     "problem": "A survey in the N.Y. Times Almanac finds the mean commute time (one way) is 25.4 minutes for the 15 largest US cities. The Austin, TX chamber of commerce feels that Austin’s commute time is less and wants to publicize this fact. The mean for 25 randomly selected commuters is 22.1 minutes with a standard deviation of 5.3 minutes. At the α = 0.10 level, is the Austin, TX commute significantly less than the mean commute time for the 15 largest US cities?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-192",
+     "problem": "A report by the Gallup Poll found that a woman visits her doctor, on average, at most 5.8 times each year. A random sample of 20 women results in these yearly visit totals\n\n• 3\n• 2\n• 1\n• 3\n• 7\n• 2\n• 9\n• 4\n• 6\n• 6\n• 8\n• 0\n• 5\n• 6\n• 4\n• 2\n• 1\n• 3\n• 4\n• 1\n\nAt the α = 0.05 level can it be concluded that the sample mean is higher than 5.8 visits per year?",
+     "solution": "a. H0: µ ≤ 5.8 Ha: µ > 5.8\nb. p-value = 0.9987\nc. alpha = 0.05\nd. Do not reject the null hypothesis.\ne. At the 5% level of significance, there is not enough evidence to conclude that a woman visits her doctor, on average, more than 5.8 times a year.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-677",
+     "problem": "According to the U.S. Census Bureau, the mean family size in the U.S. is 3.13. A sample of a college math class resulted in the following family sizes:\n\n• 5\n• 4\n• 5\n• 4\n• 4\n• 3\n• 6\n• 4\n• 3\n• 3\n• 5\n• 5\n• 6\n• 3\n• 3\n• 2\n• 7\n• 4\n• 5\n• 2\n• 2\n• 2\n• 3\n• 2\n\nAt α = 0.05 level, is the class’ mean family size greater than the national average? Does the census result remain valid? Why?",
+     "solution": null,
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    },
+    {
+     "id": "eip-551",
+     "problem": "The student academic group on a college campus claims that first-year students study at least 2.5 hours per day, on average. One Introduction to Statistics class was skeptical. The class took a random sample of 30 first-year students and found a mean study time of 137 minutes with a standard deviation of 45 minutes. At α = 0.01 level, is the student academic group’s claim correct?",
+     "solution": "a. H0: µ ≥ 150 Ha: µ < 150\nb. p-value = 0.0622\nc. alpha = 0.01\nd. Do not reject the null hypothesis.\ne. At the 1% significance level, there is not enough evidence to conclude that first-year students study less than 2.5 hours per day, on average.\nf. The student academic group’s claim appears to be correct.",
+     "context": "For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nInstructions: For the following ten exercises,\n\nHypothesis testing: For the following ten exercises, answer each question.\na. State the null and alternate hypothesis.\nb. State the p-value.\nc. State alpha.\nd. What is your decision?\ne. Write a conclusion.\nf. Answer any other questions asked in the problem."
+    }
+   ],
+   "bring_together": [],
+   "summary": "The hypothesis test itself has an established process. This can be summarized as follows:\n\n1. Determine H0 and Ha. Remember, they are contradictory.\n2. Determine the random variable.\n3. Determine the distribution for the test.\n4. Draw a graph, calculate the test statistic, and use the test statistic to calculate the\np-value. (A z-score and a t-score are examples of test statistics.)\n5. Compare the preconceived α with the p-value, make a decision (reject or do not reject H0), and write a clear conclusion using English sentences.\n\nNotice that in performing the hypothesis test, you use α and not β. β is needed to help determine the sample size of the data that is used in calculating the p-value. Remember that the quantity 1 – β is called the Power of the Test. A high power is desirable. If the power is too low, statisticians typically increase the sample size while keeping α the same. If the power is low, the null hypothesis might not be rejected when it should be.",
+   "formula_review": null,
+   "glossary": [
+    {
+     "term": "Central Limit Theorem",
+     "meaning": "Given a random variable (RV) with known mean μ and known standard deviation σ. We are sampling with size n and we are interested in two new RVs - the sample mean, X̄, and the sample sum, ΣX.\nIf the size n of the sample is sufficiently large, then X̄~N(μ,σ/(√(n))) and ΣX~N(nμ,√(n)σ). If the size n of the sample is sufficiently large, then the distribution of the sample means and the distribution of the sample sums will approximate a normal distribution regardless of the shape of the population. The mean of the sample means will equal the population mean and the mean of the sample sums will equal n times the population mean. The standard deviation of the distribution of the sample means, σ/(√(n)), is called the standard error of the mean."
+    }
+   ],
+   "kind": "section",
+   "section": "9.5"
+  },
+  {
+   "id": "m50277",
+   "title": "Hypothesis Testing of a Single Mean and Single Proportion",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  }
+ ]
+}

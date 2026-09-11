@@ -1,0 +1,3300 @@
+[
+ {
+  "id": "tryit-m46963-0",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. Let X = the number of times a patient rings the nurse during a 12-hour shift. For this exercise, x = 0, 1, 2, 3, 4, 5. P(x) = the probability that X takes on value x. Why is this a discrete probability distribution function (two reasons)?\n\n[TABLE]\nx | P(x)\n0 | P(x = 0) = 4/50\n1 | P(x = 1) = 8/50\n2 | P(x = 2) = 16/50\n3 | P(x = 3) = 14/50\n4 | P(x = 4) = 6/50\n5 | P(x = 5) = 2/50\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp42457440",
+   "ref": "Try It 4.1"
+  },
+  "modelSolution": "Each P(x) is between 0 and 1, inclusive, and the sum of the probabilities is 1, that is:",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46963-1",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Jeremiah has basketball practice two days a week. Ninety percent of the time, he attends both practices. Eight percent of the time, he attends one practice. Two percent of the time, he does not attend either practice. What is X and what values does it take on?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp17767152",
+   "ref": "Try It 4.2"
+  },
+  "modelSolution": "X is the number of days Jeremiah attends basketball practice per week. X takes on the values 0, 1, and 2.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm11913472",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Complete using the data provided.\n\n[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 |\n5 | 0.10\n6 | 0.05\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm11913472"
+  },
+  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\nLet X = the number of years a new hire will stay with the company.\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 | 0.10\n5 | 0.10\n6 | 0.05\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm3556768",
+  "sectionId": "4.1",
+  "kind": "numeric",
+  "conceptTag": "4.1",
+  "stem": "P(x = 4) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm3556768"
+  },
+  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\nLet X = the number of years a new hire will stay with the company.\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "answer": 0.1,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.10"
+  ]
+ },
+ {
+  "id": "os-m46963-fs-idp21614176",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "P(x ≥ 5) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp21614176"
+  },
+  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\nLet X = the number of years a new hire will stay with the company.\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "modelSolution": "0.10 + 0.05 = 0.15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp88464496",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "On average, how long would you expect a new hire to stay with the company?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp88464496"
+  },
+  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\nLet X = the number of years a new hire will stay with the company.\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "modelSolution": "0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp18018320",
+  "sectionId": "4.1",
+  "kind": "numeric",
+  "conceptTag": "4.1",
+  "stem": "What does the column “P(x)” sum to?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp18018320"
+  },
+  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\nLet X = the number of years a new hire will stay with the company.\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "answer": 1.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "1"
+  ]
+ },
+ {
+  "id": "os-m46963-fs-idm2415264",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm2415264"
+  },
+  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "modelSolution": "Let X = the number of batches that the baker will sell.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm14204160",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What is the probability the baker will sell more than one batch? P(x > 1) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm14204160"
+  },
+  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "modelSolution": "0.35 + 0.40 + 0.10 = 0.85",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp60250832",
+  "sectionId": "4.1",
+  "kind": "numeric",
+  "conceptTag": "4.1",
+  "stem": "What is the probability the baker will sell exactly one\nbatch? P(x = 1) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp60250832"
+  },
+  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "answer": 0.15,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.15"
+  ]
+ },
+ {
+  "id": "os-m46963-fs-idp100680048",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "On average, how many batches should the baker make?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp100680048"
+  },
+  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "modelSolution": "1(0.15) + 2(0.35) + 3(0.40) + 4(0.10) = 0.15 + 0.70 + 1.20 + 0.40 = 2.45",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp80631856",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp80631856"
+  },
+  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "modelSolution": "Let X = the number of days Ellen attends practice per week.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp105752304",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Construct a probability distribution table for the data.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp105752304"
+  },
+  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.04\n2 | 0.08\n3 | 0.85\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm12290976",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "We know that for a probability distribution function to be discrete, it must have two characteristics. One is that the sum of the probabilities is one. What is the other characteristic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm12290976"
+  },
+  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "modelSolution": "Each probability is between zero and one, inclusive.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp45989040",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp45989040"
+  },
+  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "modelSolution": "Let X = the number of events Javier volunteers for each month.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idp99208272",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What values does x take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idp99208272"
+  },
+  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "modelSolution": "0, 1, 2, 3, 4, 5",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm44182368",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Construct a PDF table.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm44182368"
+  },
+  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.05\n1 | 0.05\n2 | 0.10\n3 | 0.20\n4 | 0.25\n5 | 0.35\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm51474800",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Find the probability that Javier volunteers for less than three events each month. P(x < 3) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm51474800"
+  },
+  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "modelSolution": "0.05 + 0.05 + 0.10 = 0.20",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46963-fs-idm38193104",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Find the probability that Javier volunteers for at least one event each month. P(x > 0) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46963",
+   "exerciseId": "fs-idm38193104"
+  },
+  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "modelSolution": "1 – 0.05 = 0.95",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-0",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "A customer orders 1, 2, or 3 bottles of water. The probability of ordering 1 bottle is 0.6, the probability of ordering 2 bottles is 0.3, and the probability of ordering 3 bottles is 0.1. Find the long-term average or expected value, μ, of the number of bottles a customer will order.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exer-00001",
+   "ref": "Try It 4.3"
+  },
+  "modelSolution": "Let random variable X = the number of bottles of water a customer orders. X can take values 1, 2, 3. Construct a PDF table.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.6 | (1)(0.6)=0.6\n2 | 0.3 | (2)(0.3)=0.6\n3 | 0.1 | (3)(0.1)=0.3\n[/TABLE]\n\nThe total of x*P(x) is obtained as 0.6 + 0.6 + 0.3 = 1.5. So, the long-term average or expected value is obtained as μ = 1.5.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-1",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "A hospital researcher is interested in the number of times the average post-op patient will ring the nurse during a 12-hour shift. For a random sample of 50 patients, the following information was obtained. What is the expected value?\n\n[TABLE]\nx | P(x)\n0 | P(x = 0) = 4/50\n1 | P(x = 1) = 8/50\n2 | P(x = 2) = 16/50\n3 | P(x = 3) = 14/50\n4 | P(x = 4) = 6/50\n5 | P(x = 5) = 2/50\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm131173600",
+   "ref": "Try It 4.4"
+  },
+  "modelSolution": "(0) + (1)+ (2)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-2",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "You are playing a game of chance in which four cards are drawn from a standard deck of 52 cards. You guess the suit of each card before it is drawn. The cards are replaced in the deck on each draw. You pay $1 to play. If you guess the right suit every time, you get your money back and $256. What is your expected profit of playing the game over the long term?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm58858880",
+   "ref": "Try It 4.5"
+  },
+  "modelSolution": "Let X = the amount of money you profit. The x-values are –$1 and $256.\nThe probability of guessing the right suit each time is () () () () =  ()= 0.0039\nThe probability of losing is 1 – () = () =  0.9961\n(0.0039)256 + (0.9961)(–1) = 0.9984 + (–0.9961) = 0.0023 or 0.23 cents.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-3",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Suppose you play a game with a spinner. You play each game by spinning the spinner once. P(red) = 2/5, P(blue) = 2/5, and P(green) = 1/5. If you land on red, you pay $10. If you land on blue, you don't pay or win anything. If you land on green, you win $10. Complete the following expected value table.\n\n[TABLE]\n| x | P(x) |\nRed | | | –20/5\nBlue | | 2/5 |\nGreen | 10 | |\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm123810544",
+   "ref": "Try It 4.6"
+  },
+  "modelSolution": "x\nP(x)\nx*P(x)\nRed\n–10\nBlue\n0\nGreen\n10",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-4",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Two stacks of cards are placed on a table. Each stack has cards number 1 to 8. One card from each stack is picked up. Let X = number of cards showing an odd number. Construct a table like Table 4.11 and calculate the mean µ and standard deviation σ of X.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exer-00002",
+   "ref": "Try It 4.7"
+  },
+  "modelSolution": "The sample space has 64 outcomes:\n\n[TABLE]\n(1,1) | (1,2) | (1,3) | (1,4) | (1,5) | (1,6) | (1,7) | (1,8)\n(2,1) | (2,2) | (2,3) | (2,4) | (2,5) | (2,6) | (2,7) | (2,8)\n(3,1) | (3,2) | (3,3) | (3,4) | (3,5) | (3,6) | (3,7) | (3,8)\n(4,1) | (4,2) | (4,3) | (4,4) | (4,5) | (4,6) | (4,7) | (4,8)\n(5,1) | (5,2) | (5,3) | (5,4) | (5,5) | (5,6) | (5,7) | (5,8)\n(6,1) | (6,2) | (6,3) | (6,4) | (6,5) | (6,6) | (6,7) | (6,8)\n(7,1) | (7,2) | (7,3) | (7,4) | (7,5) | (7,6) | (7,7) | (7,8)\n(8,1) | (8,2) | (8,3) | (8,4) | (8,5) | (8,6) | (8,7) | (8,8)\n[/TABLE]\n\nThe sample space is used to complete the following table:\n\n[TABLE]\nx | P(x) | x*P(x) | (x-μ)^2·P(x)\n0 | 16/64 | 0 | (0-1)^2·16/64=16/64\n1 | 32/64 | 32/64 | (1-1)^2·32/64=0\n2 | 16/64 | 32/64 | (2-1)^2·16/64=16/64\n[/TABLE]\n\nThe mean is calculated by adding the values in the third column of P(x), so 64/64=1.\n\nThe square root of the sum of values obtained in the fourth column will give the standard deviation, σ=√(32/64)=0.7071.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46959-5",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "On May 11, 2013 at 9:30 PM, the probability that moderate seismic activity (one moderate earthquake) would occur in the next 48 hours in Japan was about 1.08%. As in , you bet that a moderate earthquake will occur in Japan during this period. If you win the bet, you win $100. If you lose the bet, you pay $10. Let X = the amount of profit from a bet. Find the mean and standard deviation of X.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm88593344",
+   "ref": "Try It 4.8"
+  },
+  "modelSolution": "Mean = Expected Value = μ = 1.08 + (–9.892) = –8.812\nIf you make this bet many times under the same conditions, your long term outcome will be an average loss of $8.81 per bet.\nStandard Deviation =\ntRY IT 4.9\nThe state health board is concerned about the amount of fruit available in school lunches. Forty-eight percent of schools in the state offer fruit in their lunches every day. This implies that 52% do not. What would a \"success\" be in this case?\nSolution:\na school that offers fruit in their lunch every day",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm139526544",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Complete the expected value table.\n\n[TABLE]\nx | P(x) | x*P(x)\n0 | 0.2 |\n1 | 0.2 |\n2 | 0.4 |\n3 | 0.2 |\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm139526544"
+  },
+  "modelSolution": "[TABLE]\nx | P(x) | xP(x)\n0 | 0.2 | 0(0.2) = 0\n1 | 0.2 | 1(0.2) = 0.2\n2 | 0.4 | 2(0.4) = 0.8\n3 | 0.2 | 3(0.2) = 0.6\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm146513696",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Find the expected value from the expected value table.\n\n[TABLE]\nx | P(x) | x*P(x)\n2 | 0.1 | 2(0.1) = 0.2\n4 | 0.3 | 4(0.3) = 1.2\n6 | 0.4 | 6(0.4) = 2.4\n8 | 0.2 | 8(0.2) = 1.6\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm146513696"
+  },
+  "modelSolution": "0.2 + 1.2 + 2.4 + 1.6 = 5.4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp39629888",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Find the standard deviation.\n\n[TABLE]\nx | P(x) | x*P(x) | (x – μ)2P(x)\n2 | 0.1 | 2(0.1) = 0.2 | (2–5.4)2(0.1) = 1.156\n4 | 0.3 | 4(0.3) = 1.2 | (4–5.4)2(0.3) = 0.588\n6 | 0.4 | 6(0.4) = 2.4 | (6–5.4)2(0.4) = 0.144\n8 | 0.2 | 8(0.2) = 1.6 | (8–5.4)2(0.2) = 1.352\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp39629888"
+  },
+  "modelSolution": "σ=√(1.156+0.588+0.144+1.352)=√(3.24)=1.8",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm1819872",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Identify the mistake in the probability distribution table.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.15 | 0.15\n2 | 0.25 | 0.50\n3 | 0.30 | 0.90\n4 | 0.20 | 0.80\n5 | 0.15 | 0.75\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm1819872"
+  },
+  "modelSolution": "The values of P(x) do not sum to one.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp10316752",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Identify the mistake in the probability distribution table.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.15 | 0.15\n2 | 0.25 | 0.40\n3 | 0.25 | 0.65\n4 | 0.20 | 0.85\n5 | 0.15 | 1\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp10316752"
+  },
+  "modelSolution": "The values of xP(x) are not correct.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp57624976",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp57624976"
+  },
+  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "modelSolution": "Let X = the number of years a physics major will spend doing post-graduate research.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp12372960",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Define P(x), or the probability of x.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp12372960"
+  },
+  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "modelSolution": "Let P(x) = the probability that a physics major will do post-graduate research for x years.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp33661936",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Find the probability that a physics major will do post-graduate research for four years. P(x = 4) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp33661936"
+  },
+  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "modelSolution": "1 – 0.35 – 0.20 – 0.15 – 0.10 – 0.05 = 0.15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm517184",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "FInd the probability that a physics major will do post-graduate research for at most three years. P(x ≤ 3) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm517184"
+  },
+  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "modelSolution": "0.35 + 0.20 + 0.15 = 0.70",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp96964736",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "On average, how many years would you expect a physics major to spend doing post-graduate research?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp96964736"
+  },
+  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "modelSolution": "1(0.35) + 2(0.20) + 3(0.15) + 4(0.15) + 5(0.10) + 6(0.05) = 0.35 + 0.40 + 0.45 + 0.60 + 0.50 + 0.30 = 2.6 years",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exerciseone",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "In words, define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exerciseone"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "X is the number of years a student studies ballet with the teacher.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exercisetwo",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "P(x = 4) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exercisetwo"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "1 – 0.10 – 0.05 – 0.10 – 0.30 – 0.20 – 0.10 = 0.15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exercisethree",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "P(x < 4) = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exercisethree"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "0.10 + 0.05 + 0.10 = 0.25",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exercisefour",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "On average, how many years would you expect a child to study ballet with this teacher?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exercisefour"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "1(0.10) + 2(0.05) + 3(0.10) + 4(0.15) + 5(0.30) + 6(0.20) + 7(0.10) = 4.5 years",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exercisefive",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "What does the column \"P(x)\" sum to and why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exercisefive"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "The sum of the probabilities sum to one because it is a probability distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-exercisesix",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "What does the column \"x*P(x)\" sum to and why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "exercisesix"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "The sum of xP(x) = 4.5; it is the mean of the distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm7617472",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. What is the expected value of playing the game?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm7617472"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "modelSolution": "−2(40/52)+30(12/52)=−1.54+6.92=5.38",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm132715600",
+  "sectionId": "4.2",
+  "kind": "tf",
+  "conceptTag": "4.2",
+  "stem": "You are playing a game by drawing a card from a standard deck and replacing it. If the card is a face card, you win $30. If it is not a face card, you pay $2. There are 12 face cards in a deck of 52 cards. Should you play the game?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm132715600"
+  },
+  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n• Let X = the number of years a student will study ballet with the teacher.\n• Let P(x) = the probability that a student will study ballet x years.",
+  "answer": true,
+  "needsFigure": false,
+  "explanation": [
+   "Yes, because there is a positive expected value, and the more you play, the more likely you are to get closer to the expected value."
+  ]
+ },
+ {
+  "id": "os-m46959-fs-idp10277168",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "A theater group holds a fund-raiser. It sells 100 raffle tickets for $5 apiece. Suppose you purchase four tickets. The prize is two passes to a Broadway show, worth a total of $150.\n\na. What are you interested in here?\nb. In words, define the random variable X.\nc. List the values that X may take on.\nd. Construct a PDF.\ne. If this fund-raiser is repeated often and you always purchase four tickets, what would be your expected average winnings per raffle?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp10277168"
+  },
+  "modelSolution": "a. I am interested in the average profit or loss.\nb. Let X = the return from the raffle\nc. Win($150) or Lose ($0)\nd.\n\n[TABLE]\nx | P(x)\n150 | 1/100\n0 | 99/100\n[/TABLE]\n\ne. 150(1/100)+0(99/100)−20=−$18.50",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-eip-254",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "A game involves selecting a card from a regular 52-card deck and tossing a coin. The coin is a fair coin and is equally likely to land on heads or tails.\n\n• If the card is a face card, and the coin lands on Heads, you win $6\n• If the card is a face card, and the coin lands on Tails, you win $2\n• If the card is not a face card, you lose $2, no matter what the coin shows.\n\na. Find the expected value for this game (expected net gain or loss).\nb. Explain what your calculations indicate about your long-term average profits and losses on this game.\nc. Should you play this game to win money?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "eip-254"
+  },
+  "modelSolution": "The variable of interest is X, or the gain or loss, in dollars.\n\nThe face cards jack, queen, and king. There are (3)(4) = 12 face cards and 52 – 12 = 40 cards that are not face cards.\n\nWe first need to construct the probability distribution for X. We use the card and coin events to determine the probability for each outcome, but we use the monetary value of X to determine the expected value.\n\n[TABLE]\nCard Event | X net gain/loss | P(X)\nFace Card and Heads | 6 | (12/52)(1/2)=(6/52)\nFace Card and Tails | 2 | (12/52)(1/2)=(6/52)\n(Not Face Card) and (H or T) | –2 | (40/52)(1)=(40/52)\n[/TABLE]\n\n• Expected value=(6)(6/52)+(2)(6/52)+(−2)(40/52)=–32/52\n• Expected value = –$0.62, rounded to the nearest cent\n• If you play this game repeatedly, over a long string of games, you would expect to lose 62 cents per game, on average.\n• You should not play this game to win money because the expected value indicates an expected average loss.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-eip-945",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "You buy a lottery ticket to a lottery that costs $10 per ticket. There are only 100 tickets available to be sold in this lottery. In this lottery there are one $500 prize, two $100 prizes, and four $25 prizes. Find your expected gain or loss.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "eip-945"
+  },
+  "modelSolution": "Start by writing the probability distribution. X is net gain or loss = prize (if any) less $10 cost of ticket\n\n[TABLE]\nX = $ net gain or loss | P(x)\n$500 – $10 = $490 | 1/100\n$100 – $10 = $90 | 2/100\n$25 – $10 = $15 | 4/100\n$0 – $10 = -$10 | 93/100\n[/TABLE]\n\nExpected Value =(490)(1/100)+(90)(2/100)+(15)(4/100)+(−10)(93/100)=−$2. There is an expected loss of $2 per ticket, on average.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm153056144",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Complete the PDF and answer the questions.\n\n[TABLE]\nx | P(x) | xP(x)\n0 | 0.3 |\n1 | 0.2 |\n2 | |\n3 | 0.4 |\n[/TABLE]\n\na. Find the probability that x = 2.\nb. Find the expected value.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm153056144"
+  },
+  "modelSolution": "a. 0.1\nb. 1.6",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-element-360",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Suppose that you are offered the following “deal.” You roll a die. If you roll a six, you win $10. If you roll a four or five, you win $5. If you roll a one, two, or three, you pay $6.\n\na. What are you ultimately interested in here (the value of the roll or the money you win)?\nb. In words, define the Random Variable X.\nc. List the values that X may take on.\nd. Construct a PDF.\ne. Over the long run of playing this game, what are your expected average winnings per game?\nf. Based on numerical values, should you take the deal? Explain your decision in complete sentences.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "element-360"
+  },
+  "modelSolution": "a. the money won\nb. X = the amount of money won or lost\nc. $5, –$6, $10\nd.\n\n[TABLE]\nRoll | x | P(x)\n6 | 10 | 1/6\n4 or 5 | 5 | 2/6\n1, 2, or 3 | –6 | 3/6\n[/TABLE]\n\ne. Expected Value = (10)1/6 + (5)2/6 – (6)3/6 = 0.33\nf. Yes, the expected value is 33 cents",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-element-725",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "A venture capitalist, willing to invest $1,000,000, has three investments to choose from. The first investment, a software company, has a 10% chance of returning $5,000,000 profit, a 30% chance of returning $1,000,000 profit, and a 60% chance of losing the million dollars. The second company, a hardware company, has a 20% chance of returning $3,000,000 profit, a 40% chance of returning $1,000,000 profit, and a 40% chance of losing the million dollars. The third company, a biotech firm, has a 10% chance of returning $6,000,000 profit, a 70% of no profit or loss, and a 20% chance of losing the million dollars.\n\na. Construct a PDF for each investment.\nb. Find the expected value for each investment.\nc. Which is the safest investment? Why do you think so?\nd. Which is the riskiest investment? Why do you think so?\ne. Which investment has the highest expected return, on average?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "element-725"
+  },
+  "modelSolution": "a.\n[TABLE]\nSoftware Company\nx | P(x)\n5,000,000 | 0.10\n1,000,000 | 0.30\n–1,000,000 | 0.60\n[/TABLE]\n\n[TABLE]\nHardware Company\nx | P(x)\n3,000,000 | 0.20\n1,000,000 | 0.40\n–1,000,00 | 0.40\n[/TABLE]\n\n[TABLE]\nBiotech Firm\nx | P(x)\n6,00,000 | 0.10\n0 | 0.70\n–1,000,000 | 0.20\n[/TABLE]\n\nb. $200,000; $600,000; $400,000\nc. third investment because it has the lowest probability of loss\nd. first investment because it has the highest probability of loss\ne. second investment",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idm21991696",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Suppose that 20,000 married adults in the United States were randomly surveyed as to the number of children they have. The results are compiled and are used as theoretical probabilities. Let X = the number of children married people have.\n\n[TABLE]\nx | P(x) | xP(x)\n0 | 0.10 |\n1 | 0.20 |\n2 | 0.30 |\n3 | |\n4 | 0.10 |\n5 | 0.05 |\n6 (or more) | 0.05 |\n[/TABLE]\n\na. Find the probability that a married adult has three children.\nb. In words, what does the expected value in this example represent?\nc. Find the expected value.\nd. Is it more likely that a married adult will have two to three children or four to six children? How do you know?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm21991696"
+  },
+  "modelSolution": "a. 0.2\nb. The average number of children married adults have.\nc. 2.35\nd. two of three children",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp33692128",
+  "sectionId": "4.2",
+  "kind": "numeric",
+  "conceptTag": "4.2",
+  "stem": "Suppose that the PDF for the number of years it takes to earn a Bachelor of Science (B.S.) degree is given as in .\n\n[TABLE]\nx | P(x)\n3 | 0.05\n4 | 0.40\n5 | 0.30\n6 | 0.15\n7 | 0.10\n[/TABLE]\n\nOn average, how many years do you expect it to take for an individual to earn a B.S.?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp33692128"
+  },
+  "answer": 4.85,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "4.85 years"
+  ]
+ },
+ {
+  "id": "os-m46959-fs-idp126182336",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "People visiting video game rental stores often rent more than one game at a time. The probability distribution for game rentals per customer at Game Stop is given in the following table. There is a five-game limit per customer at this store, so nobody ever rents more than five video games.\n\n[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.50\n2 | 0.24\n3 |\n4 | 0.07\n5 | 0.04\n[/TABLE]\n\na. Describe the random variable X in words.\nb. Find the probability that a customer rents three video games.\nc. Find the probability that a customer rents at least four video games.\nd. Find the probability that a customer rents at most two video games.\nAnother shop, Games Galore, also rents video games. The probability distribution for video game rentals per customer at this shop is given as follows. Games Galore also has a five-game limit per customer.\n\n[TABLE]\nx | P(x)\n0 | 0.35\n1 | 0.25\n2 | 0.20\n3 | 0.10\n4 | 0.05\n5 | 0.05\n[/TABLE]\n\ne. At which store is the expected number of video games rented per customer higher?\nf. If Game Stop estimates that they will have 300 customers next week, how many video games do they expect to rent next week? Answer in sentence form.\ng. If Game Stop expects 300 customers next week, and Games Galore projects that they will have 420 customers, for which store is the expected number of video game rentals for next week higher? Explain.\nh. Which of the two stores experiences more variation in the number of video game per customer? How do you know that?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp126182336"
+  },
+  "modelSolution": "a. X = the number of video rentals per costumer\nb. 0.12\nc. 0.11\nd. 0.77\ne. Video To Go (1.82 expected value vs. 1.4 for Entertainment Headquarters)\nf. The expected number of videos rented to 300 Video To Go customers is 546.\ng. The expected number of videos rented to 420 Entertainment Headquarters customers is 588. Entertainment Headquarters will rent more videos.\nh. The standard deviation for the number of videos rented at Video To Go is 1.1609. The standard deviation for the number of videos rented at Entertainment Headquarters is 1.4293. Entertainment Headquarters has more variation.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-element-134",
+  "sectionId": "4.2",
+  "kind": "mc",
+  "conceptTag": "4.2",
+  "stem": "A “friend” offers you the following “deal.” For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.\n\n• Ten of the coupons are for a free gift worth $6.\n• Eighty of the coupons are for a free gift worth $8.\n• Six of the coupons are for a free gift worth $12.\n• Four of the coupons are for a free gift worth $40.\n\nBased upon the financial gain or loss over the long run, should you play the game?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "element-134"
+  },
+  "options": [
+   "Yes, I expect to come out ahead in money.",
+   "No, I expect to come out behind in money.",
+   "It doesn’t matter. I expect to break even."
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "os-m46959-fs-idm63057856",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Florida State University has 14 statistics classes scheduled for its summer term. One class has space available for 30 students, eight classes have space for 60 students, one class has space for 70 students, and four classes have space for 100 students.\n\na. What is the average class size assuming each class is filled to capacity?\nb. Space is available for 980 students. Suppose that each class is filled to capacity and select a statistics student at random. Let the random variable X equal the size of the student’s class. Define the PDF for X.\nc. Find the mean of X.\nd. Find the standard deviation of X.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idm63057856"
+  },
+  "modelSolution": "a. The average class size is: (30+8(60)+70+4(100))/14=70\nb. P(x=30)=1/14 ; P(x=60)=8/14 ; P(x=70)=1/14 ; P(x=100)=4/14\n\nComplete the following table to find the mean and standard deviation of X.\n\n[TABLE]\nx | P(x) | x(Px) | (x – μ)2P(x)\n30 | 1/14 | 30/14 | (30−70)^2(1/14)=114.2857\n60 | 8/14 | 480/14 | (60−70)^2(8/14)=57.1429\n70 | 1/14 | 70/14 | (70−70)^2(1/14)=0\n100 | 4/14 | 400/14 | (100−70)^2(400/14)=257.1429\n[/TABLE]\n\n• Mean of X=30/14+480/14+70/14+400/14=980/14=70\n• Standard Deviation of X=√(114.2857+57.1429+0+257.1429)=20.702",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46959-fs-idp29002528",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "In a lottery, there are 250 prizes of $5, 50 prizes of $25, and ten prizes of $100. Assuming that 10,000 tickets are to be issued and sold, what is a fair price to charge to break even?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46959",
+   "exerciseId": "fs-idp29002528"
+  },
+  "modelSolution": "Let X = the amount of money to be won on a ticket. The following table shows the PDF for X.\n\n[TABLE]\nx | P(x)\n0 | 0.969\n5 | 250/(10,000) = 0.025\n25 | 50/(10,000) = 0.005\n100 | 10/(10,000) = 0.001\n[/TABLE]\n\nCalculate the expected value of X.\n\n0(0.969) + 5(0.025) + 25(0.005) + 100(0.001) = 0.35\n\nA fair price for a ticket is $0.35. Any price over $0.35 will enable the lottery to raise money.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-1",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A trainer is teaching a rescued dolphin to catch live fish before returning it to the wild. The probability that the dolphin successfully catches a fish is 35%, and the probability that the dolphin does not successfully catch the fish is 65%. Out of 20 attempts, you want to find the probability that the dolphin succeeds 12 times. State the probability question mathematically.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm35562192",
+   "ref": "Try It 4.10"
+  },
+  "modelSolution": "P(x = 12)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-2",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A fair, six-sided die is rolled ten times. Each roll is independent. You want to find the probability of rolling a one more than three times. State the probability question mathematically.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm77060880",
+   "ref": "Try It 4.11"
+  },
+  "modelSolution": "P(x > 3)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-3",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Sixty-five percent of people pass the state driver’s exam on the first try. A group of 50 individuals who have taken the driver’s exam is randomly selected. Give two reasons why this is a binomial problem.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idp231440",
+   "ref": "Try It 4.12"
+  },
+  "modelSolution": "This is a binomial problem because there is only a success or a failure, and there are a definite number of trials. The probability of a success stays the same for each trial.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-4",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "About 32% of students participate in a community volunteer program outside of school. If 30 students are selected at random, find the probability that at most 14 of them participate in a community volunteer program outside of school. Use the TI-83+ or TI-84 calculator to find the answer.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm41424160",
+   "ref": "Try It 4.13"
+  },
+  "modelSolution": "P(x ≤ 14) = 0.9695",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-5",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "According to a Gallup poll, 60% of American adults prefer saving over spending. Let X = the number of American adults out of a random sample of 50 who prefer saving to spending.\n\na. What is the probability distribution for X?\nb. Use your calculator to find the following probabilities:\n\ni. the probability that 25 adults in the sample prefer saving over spending\nii. the probability that at most 20 adults prefer saving\niii. the probability that more than 30 adults prefer saving\n\nc. Using the formulas, calculate the (i) mean and (ii) standard deviation of X.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-771",
+   "ref": "Try It 4.14"
+  },
+  "modelSolution": "X ∼ B(50, 0.6)\nUsing the TI-83, 83+, 84 calculator with instructions as provided in Example:\nP(x = 25) = binompdf(50, 0.6, 25) = 0.0405\nP(x ≤ 20) = binomcdf(50, 0.6, 20) = 0.0034\nP(x > 30) = 1 - binomcdf(50, 0.6, 30) = 1 – 0.5535 = 0.4465\nMean = np = 50(0.6) = 30\nStandard Deviation =  ≈ 3.4641",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-6",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "During a certain NBA season, a player for the Los Angeles Clippers had the highest field goal completion rate in the league. This player scored with 61.3% of his shots. Suppose you choose a random sample of 80 shots made by this player during the season. Let X = the number of shots that scored points.\n\na. What is the probability distribution for X?\nb. Using the formulas, calculate the (i) mean and (ii) standard deviation of X.\nc. Use your calculator to find the probability that this player scored with 60 of these shots.\nd. Find the probability that this player scored with more than 50 of these shots.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idp4381328",
+   "ref": "Try It 4.15"
+  },
+  "modelSolution": "X ~ B(80, 0.613)\nMean = np = 80(0.613) = 49.04\nStandard Deviation =  4.3564\nUsing the TI-83, 83+, 84 calculator with instructions as provided in Example: P(x = 60) = binompdf(80, 0.613, 60) = 0.0036\nP(x > 50) = 1 – P(x ≤ 50) = 1 – binomcdf(80, 0.613, 50) = 1 – 0.6282 = 0.3718",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46950-7",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A lacrosse team is selecting a captain. The names of all the seniors are put into a hat, and the first three that are drawn will be the captains. The names are not replaced once they are drawn (one person cannot be two captains). You want to see if the captains all play the same position. State whether this is binomial or not and state why.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm74755088",
+   "ref": "Try It 4.16"
+  },
+  "modelSolution": "This is not binomial because the names are not replaced, which means the probability changes for each time a name is drawn. This violates the condition of independence.\nSection 4. Geometric Distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-exerciseone",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "In words, define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exerciseone"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "modelSolution": "X = the number that reply “yes”",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-exercisetwo",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "X ~ _____(_____,_____)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisetwo"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "modelSolution": "B(8,0.713)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-exercisethree",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "What values does the random variable X take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisethree"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "modelSolution": "0, 1, 2, 3, 4, 5, 6, 7, 8",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-exercisefour",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Construct the probability distribution function (PDF).\n\n[TABLE]\nx | P(x)\n|\n|\n|\n|\n|\n|\n|\n|\n|\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisefour"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.00005\n1 | 0.0009\n2 | 0.0080\n3 | 0.0395\n4 | 0.1227\n5 | 0.2439\n6 | 0.3030\n7 | 0.2151\n8 | 0.0668\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-exercisefive",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "On average (μ), how many would you expect to answer yes?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisefive"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "answer": 5.7,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "5.7"
+  ]
+ },
+ {
+  "id": "os-m46950-exercisesix",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "What is the standard deviation (σ)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisesix"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "answer": 1.2795,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "1.2795"
+  ]
+ },
+ {
+  "id": "os-m46950-exerciseseven",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "What is the probability that at most five of the first-year students reply “yes”?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exerciseseven"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "answer": 0.4151,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.4151"
+  ]
+ },
+ {
+  "id": "os-m46950-exercisenine",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "What is the probability that at least two of the first-year students reply “yes”?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "exercisenine"
+  },
+  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "answer": 0.999,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.9990"
+  ]
+ },
+ {
+  "id": "os-m46950-eip-idm67916816",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "According to a recent article the average number of babies born with significant hearing loss (deafness) is approximately two per 1,000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1,000 babies in an intensive care nursery.\n\nSuppose that 1,000 babies from healthy baby nurseries were randomly surveyed. Find the probability that exactly two babies were born deaf.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-idm67916816"
+  },
+  "answer": 0.2709,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.2709"
+  ]
+ },
+ {
+  "id": "os-m46950-eip-idm71407792",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Define the random variable and list its possible values.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-idm71407792"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "X = the number of patients calling in claiming to have the flu, who actually have the flu.\n\nX = 0, 1, 2, ...25",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-eip-idm5233360",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "State the distribution of X.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-idm5233360"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "B(25,0.04)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-eip-idm142417552",
+  "sectionId": "4.3",
+  "kind": "numeric",
+  "conceptTag": "4.3",
+  "stem": "Find the probability that at least four of the 25 patients actually have the flu.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-idm142417552"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "answer": 0.0165,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0165"
+  ]
+ },
+ {
+  "id": "os-m46950-eip-idm188197216",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "On average, for every 25 patients calling in, how many do you expect to have the flu?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-idm188197216"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "one",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-fs-idp24682912",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "People visiting a hot dog stand often purchase more than one hot dog. The probability distribution for purchases of number of hot dogs per customer at a hot dog stand is given .\n\n[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.50\n2 | 0.24\n3 |\n4 | 0.07\n5 | 0.04\n[/TABLE]\n\na. Describe the random variable X in words.\nb. Find the probability that a customer purchases three hot dogs.\nc. Find the probability that a customer purchases at least four hot dogs.\nd. Find the probability that a customer purchases at most two hot dogs.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idp24682912"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "a. X = the number of hot dogs a person at a hot dog stand eats\nb. 0.12\nc. 0.11\nd. 0.77",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-885",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A school newspaper reporter decides to randomly survey 12 students to see if they will attend Tet (Vietnamese New Year) festivities this year. Based on past years, she knows that 18% of students attend Tet festivities. We are interested in the number of students who will attend the festivities.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many of the 12 students do we expect to attend the festivities?\ne. Find the probability that at most four students will attend.\nf. Find the probability that more than two students will attend.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-885"
+  },
+  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "modelSolution": "a. X = the number of students who will attend Tet.\nb. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\nc. X ~ B(12,0.18)\nd. 2.16\ne. 0.9511\nf. 0.3702",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-eip-514",
+  "sectionId": "4.3",
+  "kind": "mc",
+  "conceptTag": "4.3",
+  "stem": "The expected number of wins for that upcoming month is:",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-514"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.",
+  "options": [
+   "1.67",
+   "12",
+   "382/1043",
+   "4.43"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d. 4.43"
+  ]
+ },
+ {
+  "id": "os-m46950-element-861",
+  "sectionId": "4.3",
+  "kind": "mc",
+  "conceptTag": "4.3",
+  "stem": "What is the probability that the San Jose Sharks win six games in that upcoming month?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-861"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "options": [
+   "0.1476",
+   "0.2336",
+   "0.7664",
+   "0.8903"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "os-m46950-element-408",
+  "sectionId": "4.3",
+  "kind": "mc",
+  "conceptTag": "4.3",
+  "stem": "What is the probability that the San Jose Sharks win at least five games in that upcoming month",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-408"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "options": [
+   "0.3694",
+   "0.5266",
+   "0.4734",
+   "0.2305"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46950-eip-122",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A student takes a ten-question true-false quiz, but did not study and randomly guesses each answer. Find the probability that the student passes the quiz with a grade of at least 70% of the questions correct.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-122"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "• X = number of questions answered correctly\n• X ~ B(10, 0.5)\n• We are interested in AT LEAST 70% of ten questions correct. 70% of ten is seven. We want to find the probability that X is greater than or equal to seven. The event \"at least seven\" is the complement of \"less than or equal to six\".\n• Using your calculator's distribution menu: 1 – binomcdf(10, .5, 6) gives 0.171875\n• The probability of getting at least 70% of the ten questions correct when randomly guessing is approximately 0.172.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-eip-421",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "A student takes a 32-question multiple-choice exam, but did not study and randomly guesses each answer. Each question has three possible choices for the answer. Find the probability that the student guesses more than 75% of the questions correctly.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "eip-421"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "• X = number of questions answered correctly\n• X ~ B(32, 1/3)\n• We are interested in MORE THAN 75% of 32 questions correct. 75% of 32 is 24. We want to find P(x > 24). The event \"more than 24\" is the complement of \"less than or equal to 24.\"\n• Using your calculator's distribution menu: 1 – binomcdf(32, 1/3, 24)\n• P(x > 24) = 0\n• The probability of getting more than 75% of the 32 questions correct when randomly guessing is very small and practically zero.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-300",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Six different colored dice are rolled. Of interest is the number of dice that show a one.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. On average, how many dice would you expect to show a one?\ne. Find the probability that all six dice show a one.\nf. Is it more likely that three or that four dice will show a one? Use numbers to justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-300"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of dice that show a one\nb. 0, 1, 2, 3, 4, 5, 6\nc. X ~ B(6,1/6)\nd. 1\ne. 0.00002\nf. three dice",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-120",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "More than 96 percent of the very largest colleges and universities (more than 15,000 total enrollments) have some online offerings. Suppose you randomly pick 13 such institutions. We are interested in the number that offer distance learning courses.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. On average, how many schools would you expect to offer such courses?\ne. Find the probability that at most ten offer such courses.\nf. Is it more likely that 12 or that 13 will offer such courses? Use numbers to justify your answer numerically and answer in a complete sentence.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-120"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of college and universities that offer online offerings.\nb. 0, 1, 2, …, 13\nc. X ~ B(13, 0.96)\nd. 12.48\ne. 0.0135\nf. P(x = 12) = 0.3186 P(x = 13) = 0.5882 More likely to get 13.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-387",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Suppose that about 85% of graduating students attend their graduation. A group of 22 graduating students is randomly chosen.\n\na. In words, define the random variable X.\n\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many are expected to attend their graduation?\ne. Find the probability that 17 or 18 attend.\nf. Based on numerical values, would you be surprised if all 22 attended graduation? Justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-387"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of students who attend their graduation\nb. 0, 1, 2, …, 22\nc. X ~ B(22, 0.85)\nd. 18.7\ne. 0.3249\nf. P(x = 22) = 0.0280 (less than 3%) which is unusual",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-742",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "At The Fencing Center, 60% of the fencers use the foil as their main weapon. We randomly survey 25 fencers at The Fencing Center. We are interested in the number of fencers who do not use the foil as their main weapon.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many are expected to not to use the foil as their main weapon?\ne. Find the probability that six do not use the foil as their main weapon.\nf. Based on numerical values, would you be surprised if all 25 did not use foil as their main weapon? Justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-742"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of fencers who do not use the foil as their main weapon\nb. 0, 1, 2, 3,... 25\nc. X ~ B(25,0.40)\nd. 10\ne. 0.0442\nf. The probability that all 25 not use the foil is almost zero. Therefore, it would be very surprising.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-816",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Approximately 8% of students at a local high school participate in after-school sports all four years of high school. A group of 60 seniors is randomly chosen. Of interest is the number who participated in after-school sports all four years of high school.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many seniors are expected to have participated in after-school sports all four years of high school?\ne. Based on numerical values, would you be surprised if none of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.\nf. Based upon numerical values, is it more likely that four or that five of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-816"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of high school students who participate in after school sports all four years of high school.\nb. 0, 1, 2, …, 60\nc. X ~ B(60, 0.08)\nd. 4.8\ne. Yes, P(x = 0) = 0.0067, which is a small probability\nf. P(x = 4) = 0.1873, P(x = 5) = 0.1824. More likely to get four.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-1",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "The chance of an IRS audit for a tax return with over $25,000 in income is about 2% per year. We are interested in the expected number of audits a person with that income has in a 20-year period. Assume each year is independent.\n\na. In words, define the random variable X.\n\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many audits are expected in a 20-year period?\ne. Find the probability that a person is not audited at all.\nf. Find the probability that a person is audited more than twice.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-1"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of audits in a 20-year period\nb. 0, 1, 2, …, 20\nc. X ~ B(20, 0.02)\nd. 0.4\ne. 0.6676\nf. 0.0071",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-962",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "It has been estimated that only about 30% of California residents have adequate earthquake supplies. Suppose you randomly survey 11 California residents. We are interested in the number who have adequate earthquake supplies.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. What is the probability that at least eight have adequate earthquake supplies?\ne. Is it more likely that none or that all of the residents surveyed will have adequate earthquake supplies? Why?\nf. How many residents do you expect will have adequate earthquake supplies?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-962"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X = the number of California residents who do have adequate earthquake supplies.\nb. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11\nc. B(11, 0.30)\nd. 0.0043\ne. P(x = 0) = 0.0198. P(x = 11) = 0 or none\nf. 3.3",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-element-650",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "There are two similar games played for Chinese New Year and Vietnamese New Year. In the Chinese version, fair dice with numbers 1, 2, 3, 4, 5, and 6 are used, along with a board with those numbers. In the Vietnamese version, fair dice with pictures of a gourd, fish, rooster, crab, crayfish, and deer are used. The board has those six objects on it, also. We will play with bets being $1. The player places a bet on a number or object. The “house” rolls three dice. If none of the dice show the number or object that was bet, the house keeps the $1 bet. If one of the dice shows the number or object bet (and the other two do not show it), the player gets back their $1 bet, plus $1 profit. If two of the dice show the number or object bet (and the third die does not show it), the player gets back their $1 bet, plus $2 profit. If all three dice show the number or object bet, the player gets back their $1 bet, plus $3 profit. Let X = number of matches and Y = profit per game.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. List the values that Y may take on. Then, construct one PDF table that includes both X and Y and their probabilities.\ne. Calculate the average expected matches over the long run of playing this game for the player.\nf. Calculate the average expected earnings over the long run of playing this game for the player.\ng. Determine who has the advantage, the player or the house.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "element-650"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "1. X = the number of matches\n2. 0, 1, 2, 3\n3. X ~ B(3,1/6)\n4. In dollars: −1, 1, 2, 3\n5. 1/2\n6. Multiply each Y value by the corresponding X probability from the PDF table. The answer is −0.0787. You lose about eight cents, on average, per game.\n7. The house has the advantage.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-fs-idm40828128",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Only 9% of the population of Niger has access to the internet. Suppose we randomly sample 150 people in Niger. Let X = the number of people who have access to the internet.\n\na. What is the probability distribution for X?\nb. Using the formulas, calculate the mean and standard deviation of X.\nc. Use your calculator to find the probability that 15 people in the sample have access to the internet.\nd. Find the probability that at most ten people in the sample have access to the internet.\ne. Find the probability that more than 25 people in the sample have access to the internet.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm40828128"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X ~ B(150,0.09)\nb.\n\ni. Mean = np = 150(0.09) = 13.5\nii. Standard Deviation = √(npq) = √(150(0.09)(0.91)) ≈ 3.5050\n\nc. P(x = 15) = binompdf(150, 0.09, 15) = 0.0988\nd. P(x ≤ 10) = binomcdf(150, 0.09, 10) = 0.1987\ne. P(x > 25) = 1 – P(x ≤ 25) = 1 – binomcdf(150, 0.09, 25) = 1 – 0.9991 = 0.0009",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46950-fs-idm104093808",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "The literacy rate for a nation measures the proportion of people age 15 and over that can read and write. The literacy rate in a certain country is 28.1%. Suppose you choose 15 people in that country at random. Let X = the number of people who are literate.\n\na. Sketch a graph of the probability distribution of X.\nb. Using the formulas, calculate the (i) mean and (ii) standard deviation of X.\nc. Find the probability that more than five people in the sample are literate. Is it is more likely that three people or four people are literate.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46950",
+   "exerciseId": "fs-idm104093808"
+  },
+  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\nLet X = the number of games won in that upcoming month.",
+  "modelSolution": "a. X ~ B(15, 0.281)\n[FIGURE]\nb.\n\ni. Mean = μ = np = 15(0.281) = 4.215\nii. Standard Deviation = σ = √(npq) = √(15(0.281)(0.719)) = 1.7409\n\nc. P(x > 5) = 1 – P(x ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246\n\nP(x = 3) = binompdf(15, 0.281, 3) = 0.1927\n\nP(x = 4) = binompdf(15, 0.281, 4) = 0.2259\n\nIt is more likely that four people are literate that three people are.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46953-0",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "You throw darts at a board until you hit the center area. Your probability of hitting the center area is p = 0.17. You want to find the probability that it takes eight throws until you hit the center. What values does X take on?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm107886512",
+   "ref": "Try It 4.17"
+  },
+  "modelSolution": "1, 2, 3, 4, … n. It can go on indefinitely.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46953-1",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "An instructor feels that 15% of students get below a C on their final exam. They decide to look at final exams (selected randomly and replaced in the pile after reading) until they find one that shows a grade below a C. We want to know the probability that the instructor will have to examine at least ten exams until they find one with a grade below a C. What is the probability question stated mathematically?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm110743488",
+   "ref": "Try It 4.18"
+  },
+  "modelSolution": "P(x ≥ 10)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46953-2",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "You need to find a store that carries a special printer ink. You know that of the stores that carry printer ink, 10% of them carry the special ink. You randomly call each store until one has the ink you need. What are p and q?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm110058608",
+   "ref": "Try It 4.19"
+  },
+  "modelSolution": "p = 0.1\nq = 0.9",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46953-3",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "The probability of a defective steel rod is 0.01. Steel rods are selected at random. Find the probability that the first defect occurs on the ninth steel rod. Use the TI-83+ or TI-84 calculator to find the answer.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm153734704",
+   "ref": "Try It 4.20"
+  },
+  "modelSolution": "P(x = 9) = 0.0092",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46953-4",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "The literacy rate for a nation measures the proportion of people age 15 and over who can read and write. The literacy rate for women in Afghanistan is 12%. Let X = the number of Afghani women you ask until one says that she is literate.\n\na. What is the probability distribution of X?\nb. What is the probability that you ask five women before one says she is literate?\nc. What is the probability that you must ask ten women?\nd. Find the (i) mean and (ii) standard deviation of X.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "eip-271",
+   "ref": "Try It 4.21"
+  },
+  "modelSolution": "X ~ G(0.12)\nP(x = 5) = geometpdf(0.12, 5) = 0.0720\nP(x = 10) = geometpdf(0.12, 10) = 0.0380\nMean = μ =  =   ≈ 8.333\nStandard Deviation = σ = ≈ 7.8174",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-exerciseone",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "In words, define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exerciseone"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "modelSolution": "X = the number of first-year students selected from the study until one replied \"yes\" that same-sex couples should have the right to legal marital status.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-exercisetwo",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "X ~ _____(_____,_____)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exercisetwo"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "modelSolution": "G(0.713)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-exercisethree",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "What values does the random variable X take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exercisethree"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "modelSolution": "1,2,…",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-exercisefour",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "Construct the probability distribution function (PDF). Stop at x = 6.\n\n[TABLE]\nx | P(x)\n1 |\n2 |\n3 |\n4 |\n5 |\n6 |\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exercisefour"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "modelSolution": "[TABLE]\nx | P(x)\n1 | 0.7130\n2 | 0.2046\n3 | 0.0587\n4 | 0.0169\n5 | 0.0048\n6 | 0.0014\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-exercisefive",
+  "sectionId": "4.4",
+  "kind": "numeric",
+  "conceptTag": "4.4",
+  "stem": "On average (μ), how many first-year students would you expect to have to ask until you found one who replies \"yes?\"",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exercisefive"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "answer": 1.4,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "1.4"
+  ]
+ },
+ {
+  "id": "os-m46953-exercisesix",
+  "sectionId": "4.4",
+  "kind": "numeric",
+  "conceptTag": "4.4",
+  "stem": "What is the probability that you will need to ask fewer than three first-year students?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "exercisesix"
+  },
+  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "answer": 0.9176,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.9176"
+  ]
+ },
+ {
+  "id": "os-m46953-element-589",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "A consumer looking to buy a used red Miata car will call dealerships until she finds a dealership that carries the car. She estimates the probability that any independent dealership will have the car will be 28%. We are interested in the number of dealerships she must call.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. On average, how many dealerships would we expect her to have to call until she finds one that has the car?\ne. Find the probability that she must call at most four dealerships.\nf. Find the probability that she must call three or four dealerships.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "element-589"
+  },
+  "modelSolution": "a. X = the number of dealers she calls until she finds one with a used red Miata.\nb. 1, 2, 3,...\nc. X ~ G(0.28)\nd. 3.57\ne. 0.7313\nf. 0.2497",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-element-888",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "Suppose that the probability that an adult in America will watch the Super Bowl is 40%. Each person is considered independent. We are interested in the number of adults in America we must survey until we find one who will watch the Super Bowl.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many adults in America do you expect to survey until you find one who will watch the Super Bowl?\ne. Find the probability that you must ask seven people.\nf. Find the probability that you must ask three or four people.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "element-888"
+  },
+  "modelSolution": "a. X = the number of adults in America who are surveyed until one says they will watch the Super Bowl.\nb. X ~ G(0.40)\nc. 2.5\nd. 0.0187\ne. 0.2304",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-eip-20",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "In one of its Spring catalogs, L.L. Bean® advertised footwear on 29 of its 192 catalog pages. Suppose we randomly survey 20 pages. We are interested in the number of pages that advertise footwear. Each page may be picked more than once.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many pages do you expect to advertise footwear on them?\ne. Is it probable that all twenty will advertise footwear on them? Why or why not?\nf. What is the probability that fewer than ten will advertise footwear on them?\ng. Reminder: A page may be picked more than once. We are interested in the number of pages that we must randomly survey until we find one that has footwear advertised on it. Define the random variable X and give its distribution.\nh. What is the probability that you only need to survey at most three pages in order to find one that advertises footwear on it?\ni. How many pages do you expect to need to survey in order to find one that advertises footwear?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "eip-20"
+  },
+  "modelSolution": "a. X = the number of pages that advertise footwear\nb. X takes on the values 0, 1, 2, ..., 20\nc. X ~ B(20, 29/192)\nd. 3.02\ne. No\nf. 0.9997\ng. X = the number of pages we must survey until we find one that advertises footwear. X ~ G(29/192)\nh. 0.3881\ni. 6.6207 pages",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-eip-161",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "Suppose that you are performing the probability experiment of rolling one fair six-sided die. Let F be the event of rolling a four or a five. You are interested in how many times you need to roll the die in order to obtain the first four or five as the outcome.\n\n• p = probability of success (event F occurs)\n• q = probability of failure (event F does not occur)\n\na. Write the description of the random variable X.\nb. What are the values that X can take on?\nc. Find the values of p and q.\nd. Find the probability that the first occurrence of event F (rolling a four or five) is on the second trial.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "eip-161"
+  },
+  "modelSolution": "a. X = the number of times you need to roll the die in order to get the face four or five.\nb. X can take on the values 1, 2, 3, and so on.\nc. p = 2/6 and q = 4/6\nd. 0.2222",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-fs-idp102337072",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "Emery has music practice three days a week. They practice for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random. What values does X take on?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idp102337072"
+  },
+  "modelSolution": "0, 1, 2, and 3",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-fs-idm51281904",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "Medical researchers in a certain country have documented that the percentage of people ages 15 to 49 who are infected with a certain respiratory virus is 17.3%. Let X = the number of people you test until you find a person infected with the virus.\n\na. Sketch a graph of the distribution of the discrete random variable X.\nb. What is the probability that you must test 30 people to find one with the virus?\nc. What is the probability that you must ask ten people?\nd. Find the (i) mean and (ii) standard deviation of the distribution of X.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm51281904"
+  },
+  "modelSolution": "a. X ~ G(0.173)\n[FIGURE]\nb. P(x = 30) = geometpdf(0.173, 30) = 0.0007\nc. P(x = 10) = geometpdf(0.173, 10) = 0.0313\nd.\n\ni. Mean = μ = 1/p = 1/0.173 ≈ 5.7804\nii. Standard Deviation = σ = √(1−p/(p^2)) = √(1−0.173/(0.173^2)) = 5.2566",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46953-fs-idm43916688",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "According to a recent Pew Research poll, 75% of millenials (people born between 1981 and 1995) have a profile on a social networking site. Let X = the number of millenials you ask until you find a person without a profile on a social networking site.\n\na. Describe the distribution of X.\nb. Find the (i) mean and (ii) standard deviation of X.\nc. What is the probability that you must ask ten people to find one person without a social networking site?\nd. What is the probability that you must ask 20 people to find one person without a social networking site?\ne. What is the probability that you must ask at most five people?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46953",
+   "exerciseId": "fs-idm43916688"
+  },
+  "modelSolution": "a. X ~ G(0.25)\nb.\n\ni. Mean = μ = 1/p = 1/0.25 = 4\nii. Standard Deviation = σ = √(1−p/(p^2)) = √(1−0.25/(0.25^2)) ≈ 3.4641\n\nc. P(x = 10) = geometpdf(0.25, 10) = 0.0188\nd. P(x = 20) = geometpdf(0.25, 20) = 0.0011\ne. P(x ≤ 5) = geometcdf(0.25, 5) = 0.7627",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46964-0",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "A bag contains letter tiles. Forty-four of the tiles are vowels, and 56 are consonants. Seven tiles are picked at random. You want to know the probability that four of the seven tiles are vowels. What is the group of interest, the size of the group of interest, and the size of the sample?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idm3161264",
+   "ref": "Try It 4.22"
+  },
+  "modelSolution": "The group of interest is the vowel letter tiles. The size of the group of interest is 44. The size of the sample is seven.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46964-1",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "A gross of eggs contains 144 eggs. A particular gross is known to have 12 cracked eggs. An inspector randomly chooses 15 for inspection. She wants to know the probability that, among the 15, at most three are cracked. What is X, and what values does it take on?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idp7372528",
+   "ref": "Try It 4.23"
+  },
+  "modelSolution": "Let X = the number of cracked eggs in the sample of 15. X takes on the values 0, 1, 2, …, 12.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46964-2",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "A palette has 200 milk cartons. Of the 200 cartons, it is known that ten of them have leaked and cannot be sold. A stock clerk randomly chooses 18 for inspection. He wants to know the probability that among the 18, no more than two are leaking. Give five reasons why this is a hypergeometric problem.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idm40312064",
+   "ref": "Try It 4.24"
+  },
+  "modelSolution": "There are two groups.\nYou are concerned with a group of interest.\nYou sample without replacement.\nEach pick is not independent.\nYou are not dealing with Bernoulli Trials.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46964-3",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "An intramural basketball team is to be chosen randomly from 15 boys and 12 girls. The team has ten slots. You want to know the probability that eight of the players will be boys. What is the group of interest and the sample?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idm10553104",
+   "ref": "Try It 4.25"
+  },
+  "modelSolution": "The group of interest is the 15 boys. The sample consists of the ten slots on the intramural basketball team.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-exerciseone",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "In words, define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "exerciseone"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "modelSolution": "X = the number of business majors in the sample.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-exercisetwo",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "X ~ _____(_____,_____)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "exercisetwo"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "modelSolution": "H(16, 7, 9)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-exercisethree",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "What values does X take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "exercisethree"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "modelSolution": "2, 3, 4, 5, 6, 7, 8, 9",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-exercisefour",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "Find the standard deviation.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "exercisefour"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "modelSolution": "[TABLE]\nx | P(x)\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-fs-idp74125840",
+  "sectionId": "4.5",
+  "kind": "numeric",
+  "conceptTag": "4.5",
+  "stem": "On average (μ), how many would you expect to be business majors?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idp74125840"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "answer": 6.26,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "6.26"
+  ]
+ },
+ {
+  "id": "os-m46964-element-194",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "A group of Martial Arts students is planning on participating in an upcoming demonstration. Six are students of Tae Kwon Do; seven are students of Shotokan Karate. Suppose that eight students are randomly picked to be in the first demonstration. We are interested in the number of Shotokan Karate students in that first demonstration.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many Shotokan Karate students do we expect to be in that first demonstration?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "element-194"
+  },
+  "modelSolution": "a. X = the number of Shotokan Karate students in the first demonstration\nb. 0, 1, 2, 3, 4, 5, 6, 7\nc. X ~ H(7, 6, 8)\nd. 4.31",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-fs-idm49012784",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "In one of its Spring catalogs, L.L. Bean® advertised footwear on 29 of its 192 catalog pages. Suppose we randomly survey 20 pages. We are interested in the number of pages that advertise footwear. Each page may be picked at most once.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many pages do you expect to advertise footwear on them?\ne. Calculate the standard deviation.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idm49012784"
+  },
+  "modelSolution": "a. X = the number of pages that advertise footwear\nb. 0, 1, 2, 3, ..., 20\nc. X ~ H(29, 163, 20); r = 29, b = 163, n = 20\nd. 3.03\ne. 1.5197",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-fs-idp106306576",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "Suppose that a technology task force is being formed to study technology awareness among instructors. Assume that ten people will be randomly chosen to be on the committee from a group of 28 volunteers, 20 who are technically proficient and eight who are not. We are interested in the number on the committee who are not technically proficient.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many instructors do you expect on the committee who are not technically proficient?\ne. Find the probability that at least five on the committee are not technically proficient.\nf. Find the probability that at most three on the committee are not technically proficient.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idp106306576"
+  },
+  "modelSolution": "a. X = the number of people on the committee who are not technically proficient\nb. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nc. X ~ B(10, 8/28)\nd. 2.8571\ne. 0.1269\nf. 0.6873",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-element-755",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "Suppose that nine Massachusetts athletes are scheduled to appear at a charity benefit. The nine are randomly chosen from eight volunteers from the Boston Celtics and four volunteers from the New England Patriots. We are interested in the number of Patriots picked.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. Are you choosing the nine athletes with or without replacement?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "element-755"
+  },
+  "modelSolution": "a. X = the number of Patriots picked\nb. 0, 1, 2, 3, 4\nc. X ~ H(4, 8, 9)\nd. Without replacement",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46964-fs-idm55206656",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "A bridge hand is defined as 13 cards selected at random and without replacement from a deck of 52 cards. In a standard deck of cards, there are 13 cards from each suit: hearts, spades, clubs, and diamonds. What is the probability of being dealt a hand that does not contain a heart?\n\na. What is the group of interest?\nb. How many are in the group of interest?\nc. How many are in the other group?\nd. Let X = _________. What values does X take on?\ne. The probability question is P(_______).\nf. Find the probability in question.\ng. Find the (i) mean and (ii) standard deviation of X.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46964",
+   "exerciseId": "fs-idm55206656"
+  },
+  "modelSolution": "a. Cards that are not hearts\nb. 52 − 13 = 39\nc. Other group = hearts; there are 13 hearts in a deck.\nd. X = the number of cards that are not hearts; x = 0, 1, 2, 3, … , 13\ne. P(x = 13)\nf. (39/52)(38/51)(37/50)(36/49)(35/48)(34/47)(33/46)(32/45)(31/44)(30/43)(29/42)(28/41)(27/40) ≈ 0.0128\ng.\n\ni. Mean = μ = nr/(r + b) = ((13)(39))/(39 + 13) = 9.75\nii. Standard Deviation = σ = √((rbn(r + b−n))/((r + b)^2(r + b−1))) = √((39(13)13(39 + 13–13))/((39 + 13)^2(39 + 13–1))) ≈ 1.3653\n\nAlternate Solution Set Up\n\na. Cards that are hearts\nb. 13\nc. Other group = non-hearts; b = 39\nd. X = the number of cards that are hearts; x = 0, 1, 2, 3, … , 13\ne. P(x = 0)\n\nNOTE\n\nIf you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-0",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The average number of fish caught in an hour is eight. Of interest is the number of fish caught in 15 minutes. The time interval of interest is 15 minutes. What is the average number of fish caught in 15 minutes?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm102800576",
+   "ref": "Try It 4.26"
+  },
+  "modelSolution": "(15/60)(8) = 2 fish",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-1",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "An electronics store expects to have ten returns per day on average. The manager wants to know the probability of the store getting fewer than eight returns on any given day. State the probability question mathematically.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm122013280",
+   "ref": "Try It 4.27"
+  },
+  "modelSolution": "P(x < 8)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-2",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "An emergency room at a particular hospital gets an average of five patients per hour. A doctor wants to know the probability that the ER gets more than five patients per hour. Give the reason why this would be a Poisson distribution.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm138494832",
+   "ref": "Try It 4.28"
+  },
+  "modelSolution": "This problem wants to find the probability of events occurring in a fixed interval of time with a known average rate. The events are independent.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-3",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "A customer service center receives about ten emails every half-hour. What is the probability that the customer service center receives more than four emails in the next six minutes?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm114328016",
+   "ref": "Try It 4.29"
+  },
+  "modelSolution": "P(x > 4) = 0.0527",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-4",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "According to a recent poll by the Pew Internet Project, people between the ages of 14 and 17 send an average of 187 text messages each day. Let X = the number of texts that a girl aged 14 to 17 sends per day. The discrete random variable X takes on the values x = 0, 1, 2 …. The random variable X has a Poisson distribution: X ~ P(187). The mean is 187 text messages.\n\na. What is the probability that a person sends exactly 175 texts per day?\nb. What is the probability that a person sends at most 150 texts per day?\nc. What is the standard deviation?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm128601120",
+   "ref": "Try It 4.30"
+  },
+  "modelSolution": "P(x = 175) = poissonpdf(187, 175) ≈ 0.0203\nP(x ≤ 150) = poissoncdf(187, 150) ≈ 0.0030\nStandard Deviation = σ= ≈13.6748",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-5",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Atlanta’s Hartsfield-Jackson International Airport is the busiest airport in the world. On average there are 2,700 arrivals and departures each day.\n\na. How many airplanes arrive and depart the airport per hour?\nb. What is the probability that there are exactly 100 arrivals and departures in one hour?\nc. What is the probability that there are at most 100 arrivals and departures in one hour?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "eip-693",
+   "ref": "Try It 4.31"
+  },
+  "modelSolution": "Let X = the number of airplanes arriving and departing from Hartsfield-Jackson in one hour. The average number of arrivals and departures per hour is 2,700/24 ≈ 112.5.\nX ~ P(112.5), so P(x = 100) = poissonpdf(112.5, 100) ≈ 0.0194.\nP(x ≤ 100) = poissoncdf(112.5, 100) ≈ 0.1279.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46961-6",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "On a certain day in May starting at 4:30 PM, the probability of moderate seismic activity for the next 48 hours in the Kuril Islands off the coast of Japan was reported at about 1.43%. Use this information for the next 100 days to find the probability that there will be low seismic activity in five of the next 100 days. Use both the binomial and Poisson distributions to calculate the probabilities. Are they close?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "eip-idp124175712",
+   "ref": "Try It 4.32"
+  },
+  "modelSolution": "Let X = the number of days with moderate seismic activity.\nUsing the binomial distribution: P(x = 5) = binompdf(100, 0.0143, 5) ≈ 0.0115\nUsing the Poisson distribution:\nCalculate μ = np = 100(0.0143) = 1.43\nP(x = 5) = poissonpdf(1.43, 5) = 0.0119\nWe expect the approximation to be good because n is large (greater than 20) and p is small (less than 0.05). The results are close—the difference between the values is 0.0004.\nChapter 5. Continuous Random Variables\nSection 1. Continuous Probability Functions",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm137455952",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Assume the event occurs independently in any given day. Define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm137455952"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "modelSolution": "X ~ P(120)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm144498128",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "What values does X take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm144498128"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "modelSolution": "0, 1, 2, 3, 4, …",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm120323120",
+  "sectionId": "4.6",
+  "kind": "numeric",
+  "conceptTag": "4.6",
+  "stem": "What is the probability of getting 150 customers in one day?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm120323120"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "answer": 0.001,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0010"
+  ]
+ },
+ {
+  "id": "os-m46961-fs-idp38717104",
+  "sectionId": "4.6",
+  "kind": "numeric",
+  "conceptTag": "4.6",
+  "stem": "What is the probability of getting 35 customers in the first four hours? Assume the store is open 12 hours each day.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idp38717104"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "answer": 0.0485,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0485"
+  ]
+ },
+ {
+  "id": "os-m46961-fs-idp22578880",
+  "sectionId": "4.6",
+  "kind": "numeric",
+  "conceptTag": "4.6",
+  "stem": "What is the probability that the store will have more than 12 customers in the first hour?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idp22578880"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "answer": 0.2084,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.2084"
+  ]
+ },
+ {
+  "id": "os-m46961-fs-idm69114848",
+  "sectionId": "4.6",
+  "kind": "numeric",
+  "conceptTag": "4.6",
+  "stem": "What is the probability that the store will have fewer than 12 customers in the first two hours?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm69114848"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "answer": 0.0214,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0214"
+  ]
+ },
+ {
+  "id": "os-m46961-fs-idm48809408",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Which type of distribution can the Poisson model be used to approximate? When would you do this?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm48809408"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "modelSolution": "The Poisson distribution can approximate a binomial distribution, which you would do if the probability of success is small and the number of trials is large.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exerciseone",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Assume the event occurs independently in any given day. In words, define the random variable X.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exerciseone"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "X = the number of U.S. teens who die from motor vehicle injuries per day.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exercisetwo",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "X ~ _____(_____,_____)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exercisetwo"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "P(8)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exercisethree",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "What values does X take on?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exercisethree"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "0, 1, 2, 3, 4, ...",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exercisefour",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "For the given values of the random variable X, fill in the corresponding probabilities.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exercisefour"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.0003\n4 | 0.0573\n8 | 0.1396\n10 | 0.993\n11 | 0.0722\n15 | 0.0090\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exercisefive",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Is it likely that there will be no teens killed from motor vehicle injuries on any given day in the U.S? Justify your answer numerically.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exercisefive"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "No",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-exercisesix",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Is it likely that there will be more than 20 teens killed from motor vehicle injuries on any given day in the U.S.? Justify your answer numerically.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "exercisesix"
+  },
+  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "modelSolution": "No",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm121525168",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The switchboard in a Minneapolis law office gets an average of 5.5 incoming phone calls during the noon hour on Mondays. Experience shows that the existing staff can handle up to six calls in an hour. Let X = the number of calls received at noon.\n\na. Find the mean and standard deviation of X.\nb. What is the probability that the office receives at most six calls at noon on Monday?\nc. Find the probability that the law office receives six calls at noon. What does this mean to the law office staff who get, on average, 5.5 incoming phone calls at noon?\nd. What is the probability that the office receives more than eight calls at noon?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm121525168"
+  },
+  "modelSolution": "a. X ~ P(5.5); μ = 5.5; σ = √(5.5) ≈ 2.3452\nb. P(x ≤ 6) = poissoncdf(5.5, 6) ≈ 0.6860\nc. There is a 15.7% probability that the law staff will receive more calls than they can handle.\nd. P(x > 8) = 1 – P(x ≤ 8) = 1 – poissoncdf(5.5, 8) ≈ 1 – 0.8944 = 0.1056",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm13950096",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The maternity ward at Dr. Jose Fabella Memorial Hospital in Manila in the Philippines is one of the busiest in the world with an average of 60 births per day. Let X = the number of births in an hour.\n\na. Find the mean and standard deviation of X.\nb. Sketch a graph of the probability distribution of X.\nc. What is the probability that the maternity ward will deliver three babies in one hour?\nd. What is the probability that the maternity ward will deliver at most three babies in one hour?\ne. What is the probability that the maternity ward will deliver more than five babies in one hour?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm13950096"
+  },
+  "modelSolution": "a. X ~ P(2.5); μ = 2.5; σ = √(2.5) ≈ 1.5811\nb.\n\n[FIGURE]\nc. P(x = 3) = poissonpdf(2.5, 3) ≈ 0.2138\nd. P(x ≤ 3) = poissoncdf(2.5, 3) ≈ 0.7576\ne. P(x > 5) = 1 – P(x ≤ 5) = 1 – poissoncdf(2.5, 5) ≈ 0.0420",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-fs-idm138910624",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "A manufacturer of Christmas tree light bulbs knows that 3% of its bulbs are defective. Find the probability that a string of 100 lights contains at most four defective bulbs using both the binomial and Poisson distributions.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idm138910624"
+  },
+  "modelSolution": "Let X = the number of defective bulbs in a string.\n\nUsing the Poisson distribution:\n\n• μ = np = 100(0.03) = 3\n• X ~ P(3)\n• P(x ≤ 4) = poissoncdf(3, 4) ≈ 0.8153\n\nUsing the binomial distribution:\n\n• X ~ B(100, 0.03)\n• P(x ≤ 4) = binomcdf(100, 0.03, 4) ≈ 0.8179\n\nThe Poisson approximation is very good—the difference between the probabilities is only 0.0026.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-625",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The average number of children a Spanish woman has in her lifetime is 1.47. Suppose that one Spanish woman is randomly chosen.\n\na. In words, define the Random Variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. Find the probability that she has no children.\ne. Find the probability that she has fewer children than the Spanish average.\nf. Find the probability that she has more children than the Spanish average .",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-625"
+  },
+  "modelSolution": "a. X = the number of children for a Spanish woman\nb. 0, 1, 2, 3,...\nc. X ~ P(1.47)\nd. 0.2299\ne. 0.5679\nf. 0.4321",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-eip-241",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Fertile, female cats produce an average of three litters per year. Suppose that one fertile, female cat is randomly chosen. In one year, find the probability she produces:\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _______\nd. Find the probability that she has no litters in one year.\ne. Find the probability that she has at least two litters in one year.\nf. Find the probability that she has exactly three litters in one year.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "eip-241"
+  },
+  "modelSolution": "a. X = the number of litters a fertile, female cat produces per year\nb. 0, 1, 2, 3, ...\nc. X ~ P(3)\nd. 0.0498\ne. 0.8009\nf. 0.2240",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-476",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The chance of having an extra fortune in a fortune cookie is about 3%. Given a bag of 144 fortune cookies, we are interested in the number of cookies with an extra fortune. Two distributions may be used to solve this problem, but only use one distribution to solve the problem.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many cookies do we expect to have an extra fortune?\ne. Find the probability that none of the cookies have an extra fortune.\nf. Find the probability that more than three have an extra fortune.\ng. As n increases, what happens involving the probabilities using the two distributions? Explain in complete sentences.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-476"
+  },
+  "modelSolution": "a. X = the number of fortune cookies that have an extra fortune\nb. 0, 1, 2, 3,... 144\nc. X ~ B(144, 0.03) or P(4.32)\nd. 4.32\ne. 0.0124 or 0.0133\nf. 0.6300 or 0.6264\ng. As n gets larger, the probabilities get closer together.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-255",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "For every 200 U.S. kids and teens, the average number who suffer from obsessive compulsive disorder is one. Out of a randomly chosen group of 600 U.S. kids and teens determine the following.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution ofX. X ~ _____(_____,_____)\nd. How many are expected to suffer from obsessive compulsive disorder?\ne. Find the probability that no one suffers from obsessive compulsive disorder.\nf. Find the probability that more than four suffer from obsessive compulsive disorder.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-255"
+  },
+  "modelSolution": "a. X = the number of women that suffer from anorexia\nb. 0, 1, 2, 3, ..., 600\nc. X ~ P(3)\nd. 3\ne. 0.0498\nf. 0.1847",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-557",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "The chance of an IRS audit for a tax return with over $25,000 in income is about 2% per year. Suppose that 100 people with tax returns over $25,000 are randomly picked. We are interested in the number of people audited in one year. Use a Poisson distribution to anwer the following questions.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many are expected to be audited?\ne. Find the probability that no one was audited.\nf. Find the probability that at least three were audited.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-557"
+  },
+  "modelSolution": "a. X = the number of people audited in one year\nb. 0, 1, 2, ..., 100\nc. X ~ P(2)\nd. 2\ne. 0.1353\nf. 0.3233",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-427",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "Approximately 8% of students at a local high school participate in after-school sports all four years of high school. A group of 60 seniors is randomly chosen. Of interest is the number that participated in after-school sports all four years of high school.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. How many seniors are expected to have participated in after-school sports all four years of high school?\ne. Based on numerical values, would you be surprised if none of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.\nf. Based on numerical values, is it more likely that four or that five of the seniors participated in after-school sports all four years of high school? Justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-427"
+  },
+  "modelSolution": "a. X = the number of seniors who participated in after-school sports all four years of high school\nb. 0, 1, 2, 3, ... 60\nc. X ~ P(4.8)\nd. 4.8\ne. Yes\nf. 4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-221",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "On average, Pierre, an amateur chef, drops three pieces of egg shell into every two cake batters he makes. Suppose that you buy one of his cakes.\n\na. In words, define the random variable X.\nb. List the values that X may take on.\nc. Give the distribution of X. X ~ _____(_____,_____)\nd. On average, how many pieces of egg shell do you expect to be in the cake?\ne. What is the probability that there will not be any pieces of egg shell in the cake?\nf. Let’s say that you buy one of Pierre’s cakes each week for six weeks. What is the probability that there will not be any egg shell in any of the cakes?\ng. Based upon the average given for Pierre, is it possible for there to be seven pieces of shell in the cake? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-221"
+  },
+  "modelSolution": "a. X = the number of shell pieces in one cake\nb. 0, 1, 2, 3,...\nc. X ~ P(1.5)\nd. 1.5\ne. 0.2231\nf. 0.0001\ng. Yes",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46961-element-528",
+  "sectionId": "4.6",
+  "kind": "mc",
+  "conceptTag": "4.6",
+  "stem": "In words, the random variable X = _________________",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "element-528"
+  },
+  "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
+  "options": [
+   "the number of times Mrs. Plum’s cats wake her up each week.",
+   "the number of times Mrs. Plum’s cats wake her up each hour.",
+   "the number of times Mrs. Plum’s cats wake her up each night.",
+   "the number of times Mrs. Plum’s cats wake her up."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "os-m46961-fs-idp14208992",
+  "sectionId": "4.6",
+  "kind": "mc",
+  "conceptTag": "4.6",
+  "stem": "Find the probability that her cats will wake her up no more than five times next week.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46961",
+   "exerciseId": "fs-idp14208992"
+  },
+  "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
+  "options": [
+   "0.5000",
+   "0.9329",
+   "0.0378",
+   "0.0671"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d"
+  ]
+ },
+ {
+  "id": "pt2-1",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "If X = student’s major, then what is the domain of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 1
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "modelSolution": "The domain of X = {English, Mathematics,….], i.e., a list of all the majors offered at the university, plus “undeclared.”",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-2",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "If Y = the number of classes taken in the previous semester, what is the domain of Y?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 2
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "modelSolution": "The domain of Y = {0, 1, 2, …}, i.e., the integers from 0 to the upper limit of classes allowed by the university.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-3",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "If Z = the amount of money spent on books in the previous semester, what is the domain of Z?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 3
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "modelSolution": "The domain of Z = any amount of money from 0 upwards.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-4",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Why are X, Y, and Z in the previous example random variables?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 4
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "modelSolution": "Because they can take any value within their domain, and their value for any particular case is not known until the survey is completed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-5",
+  "sectionId": "4.1",
+  "kind": "tf",
+  "conceptTag": "4.1",
+  "stem": "After collecting data, you find that for one case, z = –7. Is this a possible value for Z?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 5
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "answer": false,
+  "needsFigure": false,
+  "explanation": [
+   "No, because the domain of Z includes only positive numbers (you can’t spend a negative amount of money). Possibly the value –7 is a data entry error, or a special code to indicated that the student did not answer the question."
+  ]
+ },
+ {
+  "id": "pt2-6",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What are the two essential characteristics of a discrete probability distribution?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 6
+  },
+  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "modelSolution": "The probabilities must sum to 1.0, and the probabilities of each event must be between 0 and 1, inclusive.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-7",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Define the random variable X for this example.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 7
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "Let X = the number of books checked out by a patron.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-8",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What is P(x > 2)?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 8
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "P(x > 2) = 0.10 + 0.05 = 0.15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-9",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What is the probability that a patron will check out at least one book?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 9
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "P(x ≥ 0) = 1 – 0.20 = 0.80",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-10",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What is the probability a patron will take out no more than three books?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 10
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "P(x ≤ 3) = 1 – 0.05 = 0.95",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-11",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "If the table listed P(4) as 0.15, how would you know that there was a mistake?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 11
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "The probabilities would sum to 1.10, and the total probability in a distribution must always equal 1.0.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-12",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "What is the average number of books taken out by a patron?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 12
+  },
+  "context": "Use this discrete probability distribution represented in this table to answer the following six questions. The university library records the number of books checked out by each patron over the course of one day, with the following result:\n[TABLE]\nx | P(x)\n0 | 0.20\n1 | 0.45\n2 | 0.20\n3 | 0.10\n4 | 0.05\n[/TABLE]",
+  "modelSolution": "x̄ = 0(0.20) + 1(0.45) + 2(0.20) + 3(0.10) + 4(0.05) = 1.35",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-13",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "If X = the number of applications for a job, use this information to fill in .",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 13
+  },
+  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.",
+  "modelSolution": "[TABLE]\nx | P(x) | xP(x)\n30 | 30/130 | 6.92\n40 | 40/130 | 12.31\n60 | 60/130 | 27.69\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-14",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "What is the mean number of applicants per department?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 14
+  },
+  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.",
+  "modelSolution": "x̄ = 6.92 + 12.31 + 27.69 = 46.92",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-15",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "What is the PDF for X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 15
+  },
+  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.",
+  "modelSolution": "P(x = 30) = 0.23\nP(x = 40) = 0.31\nP(x = 60) = 0.46",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-16",
+  "sectionId": "4.2",
+  "kind": "open",
+  "conceptTag": "4.2",
+  "stem": "Add a fourth column to the table, for (x – μ)2P(x).",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 16
+  },
+  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.",
+  "modelSolution": "[TABLE]\nx | P(x) | xP(x) | (x – μ)2P(x)\n30 | 0.23 | 6.92 | (30 – 46.92)2(0.23) = 66.09\n40 | 0.31 | 12.31 | (40 – 46.92)2(0.31) = 14.75\n60 | 0.46 | 46.92 | (60 – 46.92)2(0.46) = 78.93\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-18",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "In a binomial experiment, if p = 0.65, what does q equal?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 18
+  },
+  "modelSolution": "q = 1 – 0.65 = 0.35",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-19",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "What are the required characteristics of a binomial experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 19
+  },
+  "modelSolution": "1. There are a fixed number of trials.\n2. There are only two possible outcomes, and they add up to 1.\n3. The trials are independent and conducted under identical conditions.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-20",
+  "sectionId": "4.3",
+  "kind": "tf",
+  "conceptTag": "4.3",
+  "stem": "Joe conducts an experiment to see how many times he has to flip a coin before he gets four heads in a row. Does this qualify as a binomial experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 20
+  },
+  "answer": false,
+  "needsFigure": false,
+  "explanation": [
+   "No, because there are not a fixed number of trials"
+  ]
+ },
+ {
+  "id": "pt2-21",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Describe the probability distribution of X.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 21
+  },
+  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "modelSolution": "X ~ B(100, 0.65)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-22",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "What is the mean of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 22
+  },
+  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "modelSolution": "μ = np = 100(0.65) = 65",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-23",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "What is the standard deviation of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 23
+  },
+  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "modelSolution": "σ_x=√(npq)=√(100(0.65)(0.35))=4.77",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-24",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Define the random variable X in this experiment.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 24
+  },
+  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "modelSolution": "X = Joe gets a hit in one at-bat (in one occasion of his coming to bat)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-25",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Assuming Joe’s probability of getting a hit is independent and identical across all 20 at-bats, describe the distribution of X.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 25
+  },
+  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "modelSolution": "X ~ B(20, 0.4)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-26",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "Given this information, what number of hits do you predict Joe will get?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 26
+  },
+  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "modelSolution": "μ = np = 20(0.4) = 8",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-27",
+  "sectionId": "4.3",
+  "kind": "open",
+  "conceptTag": "4.3",
+  "stem": "What is the standard deviation of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 27
+  },
+  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "modelSolution": "σ_x=√(npq)=√(20(0.40)(0.60))=2.19",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-28",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "What are the three major characteristics of a geometric experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 28
+  },
+  "modelSolution": "1. A series of Bernoulli trials are conducted until one is a success, and then the experiment stops.\n2. At least one trial is conducted, but there is no upper limit to the number of trials.\n3. The probability of success or failure is the same for each trial.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-29",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "You decide to conduct a geometric experiment by flipping a coin until it comes up heads. This takes five trials. Represent the outcomes of this trial, using H for heads and T for tails.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 29
+  },
+  "modelSolution": "T T T T H",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-30",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "You are conducting a geometric experiment by drawing cards from a normal 52-card pack, with replacement, until you draw the Queen of Hearts. What is the domain of X for this experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 30
+  },
+  "modelSolution": "The domain of X = {1, 2, 3, 4, 5, ….n}. Because you are drawing with replacement, there is no upper bound to the number of draws that may be necessary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-31",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "You are conducting a geometric experiment by drawing cards from a normal 52-card deck, without replacement, until you draw a red card. What is the domain of X for this experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 31
+  },
+  "modelSolution": "The domain of X = {1, 2, 3, 4, 5, 6, 7, 8., 9, 10, 11, 12…27}. Because you are drawing without replacement, and 26 of the 52 cards are red, you have to draw a red card within the first 27 draws.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-32",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "What is the probability distribution of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 32
+  },
+  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "modelSolution": "X ~ G(0.24)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-33",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "What is the mean of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 33
+  },
+  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "modelSolution": "μ= 1/p= 1/0.27=3.70",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-34",
+  "sectionId": "4.4",
+  "kind": "open",
+  "conceptTag": "4.4",
+  "stem": "What is the standard deviation of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 34
+  },
+  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "modelSolution": "σ= √(1−p/(p^2))= √(1−0.27/(0.27^2))=3.16",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-35",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "You draw a random sample of ten students to participate in a survey, from a group of 30, consisting of 16 boys and 14 girls. You are interested in the probability that seven of the students chosen will be boys. Does this qualify as a hypergeometric experiment? List the conditions and whether or not they are met.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 35
+  },
+  "modelSolution": "Yes, because you are sampling from a population composed of two groups (boys and girls), have a group of interest (boys), and are sampling without replacement (hence, the probabilities change with each pick, and you are not performing Bernoulli trials).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-36",
+  "sectionId": "4.5",
+  "kind": "open",
+  "conceptTag": "4.5",
+  "stem": "You draw five cards, without replacement, from a normal 52-card deck of playing cards, and are interested in the probability that two of the cards are spades. What are the group of interest, size of the group of interest, and sample size for this example?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 36
+  },
+  "modelSolution": "The group of interest is the cards that are spades, the size of the group of interest is 13, and the sample size is five.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-37",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "What are the key characteristics of the Poisson distribution?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 37
+  },
+  "modelSolution": "A Poisson distribution models the number of events occurring in a fixed interval of time or space, when the events are independent and the average rate of the events is known.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-38",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "If X = the number of drivers, and the average numbers of drivers per hour is four, how would you express this distribution?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 38
+  },
+  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "modelSolution": "X ~ P(4)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-39",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "What is the domain of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 39
+  },
+  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "modelSolution": "The domain of X = {0, 1, 2, 3, …..) i.e., any integer from 0 upwards.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-40",
+  "sectionId": "4.6",
+  "kind": "open",
+  "conceptTag": "4.6",
+  "stem": "What are the mean and standard deviation of X?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 40
+  },
+  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "modelSolution": "μ=4\n\nσ=√(4)=2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv5-32",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "We expect the statistics discussion board to have, on average, 14 questions posted to it per week. We are interested in the number of questions posted to it per day.\n\na. Define X.\nb. What are the values that the random variable may take on?\nc. State the distribution for X.\nd. Find the probability that from ten to 14 (inclusive) questions are posted to the listserv on a randomly picked day.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 32
+  },
+  "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "modelSolution": "a. X = the number of questions posted to the statistics listserv per day.\nb. X = 0, 1, 2,…\nc. X ~ P(2)\nd. 0",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv8-56",
+  "sectionId": "4.1",
+  "kind": "mc",
+  "conceptTag": "4.1",
+  "stem": "To find the probability that the mean amount of weight lost by 15 people is no more than 14 pounds, the random variable should be:",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 8",
+   "n": 56
+  },
+  "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
+  "options": [
+   "number of people who lost weight on the special weight loss diet.",
+   "the number of people who were on the diet.",
+   "the mean amount of weight lost by 15 people on the special weight loss diet.",
+   "the total amount of weight lost by 15 people on the special weight loss diet."
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. the mean amount of weight lost by 15 people on the special weight loss diet."
+  ]
+ },
+ {
+  "id": "rv9-85",
+  "sectionId": "4.1",
+  "kind": "open",
+  "conceptTag": "4.1",
+  "stem": "Lee bakes pies for a small restaurant in Felton, CA. She generally bakes 20 pies in a day, on average. Of interest is the number of pies she bakes each day.\na. Define the random variable X.\nb. State the distribution for X.\nc. Find the probability that Lee bakes more than 25 pies in any given day.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 85
+  },
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
+  "modelSolution": "a. X = the number of pies Lee bakes every day.\nb. P(20)\nc. 0.1122",
+  "needsFigure": false,
+  "explanation": []
+ }
+]

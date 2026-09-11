@@ -1,0 +1,124 @@
+[
+ {
+  "sectionId": "3.1",
+  "title": "Terminology",
+  "notesTitle": "Terminology",
+  "notesText": "In this chapter, we are interested in the probability of a particular event occurring when we conduct an “ experiment”. The sample space of an experiment is the set of all possible outcomes of the experiment. An event is one or more outcomes of the experiment. A single outcome is called a simple event. Notation: S = sample space A, B, C, ... = event P (A) = probability of event A Example 1. Terminology. Rolling a fair die is an experiment. • The sample space of this experiment is S ={1, 2, 3, 4, 5, 6}. (Use set notation to list the outcomes of an event.) • A = “rolling an even number” is an example of an event consisting of three outcomes from the sample space: A ={2, 4, 6}. • B = “rolling a 3” is an example of a simple event: B ={3}. Probabilities are numbers between zero and one. P (A) = 1 if event A is certain to occur. P (B) = 0 if event B can never happen. If all of the simple events in a sample space are equally likely to occur, P (A) = number of outcomes in A number of outcomes in S . The following are various ways of combining events: A OR B = A∪ B (union): Every outcome in A along with every outcome in B, including outcomes that are in both events. A AND B = A∩ B (intersection): Only outcomes that are in both A and B. A′ (complement): Every outcome in S that is NOT in A. A given B = A|B (conditional event): The event that A happens assuming that B has happened. This has the effect of reducing the sample space from S to B. So, P (A|B) = P (A AND B) P (B) = number of outcomes in A AND B number of outcomes in B .\n\nExample 2. Probability notation. The students at an elementary school have various characteristics that may be of interest to the school administration. Consider the following events: S = a student eats school lunch, L = a student brings a lunch box, B = a student rides the bus, W = a student walks to school. Write the symbols for the following probabilities. You may use OR and AND or∪ and∩. (1) the probability that a student does not bring a lunch box (2) the probability that a student rides the bus or eats school lunch (3) the probability that a student brings a lunch box and walks to school (4) the probablity that a student who rides the bus brings a lunch box Example 3. Simple probabilities. A bowl contains 22 jelly beans: 6 red, 8 white, 3 yellow, and 5 green. Randomly select a single jelly bean from the bowl. Consider the following defined events: R = the selected jelly bean is red, W = the selected jelly bean is white, Y = the selected jelly bean is yellow, G = the selected jelly bean is green. Calculate the following probabilities (1) P (R) (2) P (R′) (3) P (Y OR G) (4) P (W AND Y ) (5) P (R|G)",
+  "summary": "In this module we learned the basic terminology of probability. The set of all possible outcomes of an experiment is called the sample space. Events are subsets of the sample space, and they are assigned a probability that is a number between zero and one, inclusive.",
+  "formulaReview": "A and B are events\n\nP(S) = 1 where S is the sample space\n\n0 ≤ P(A) ≤ 1\n\nP(A|B) = (P(A AND B))/(P(B))",
+  "glossary": [
+   {
+    "term": "Conditional Probability",
+    "meaning": "the likelihood that an event will occur given that another event has already occurred"
+   },
+   {
+    "term": "Equally Likely",
+    "meaning": "Each outcome of an experiment has the same probability."
+   },
+   {
+    "term": "Event",
+    "meaning": "a subset of the set of all outcomes of an experiment; the set of all outcomes of an experiment is called a sample space and is usually denoted by S. An event is an arbitrary subset in S. It can contain one outcome, two outcomes, no outcomes (empty subset), the entire sample space, and the like. Standard notations for events are capital letters such as A, B, C, and so on."
+   },
+   {
+    "term": "Experiment",
+    "meaning": "a planned activity carried out under controlled conditions"
+   },
+   {
+    "term": "Outcome",
+    "meaning": "a particular result of an experiment"
+   },
+   {
+    "term": "Probability",
+    "meaning": "a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by the following 3 axioms (by A.N. Kolmogorov, 1930’s): Let S denote the sample space and A and B are two events in S. Then:\n\n• 0 ≤ P(A) ≤ 1\n• If A and B are any two mutually exclusive events, then P(A OR B) = P(A) + P(B).\n• P(S) = 1"
+   },
+   {
+    "term": "Sample Space",
+    "meaning": "the set of all possible outcomes of an experiment"
+   },
+   {
+    "term": "AND Event",
+    "meaning": "An outcome is in the event A AND B if the outcome is in both A AND B at the same time."
+   },
+   {
+    "term": "Complement Event",
+    "meaning": "The complement of event A consists of all outcomes that are NOT in A."
+   },
+   {
+    "term": "Conditional Probability of A GIVEN B",
+    "meaning": "P(A|B) is the probability that event A will occur given that the event B has already occurred."
+   },
+   {
+    "term": "Or Event",
+    "meaning": "An outcome is in the event A OR B if the outcome is in A or is in B or is in both A and B."
+   }
+  ]
+ },
+ {
+  "sectionId": "3.2",
+  "title": "Independent and Mutually Exclusive Events",
+  "notesTitle": "Independent and Mutually Exclusive Events",
+  "notesText": "Two events A and B are independent if the knowledge that one occurs does not affect the probability that the other occurs. Events A and B are independent if any of the following are true (we must check only one ): P (A|B) = P (A), P (B|A) = P (B), P (A AND B) = P (A)P (B). Example 4. Identify independent events intuitively. Identify each pair of events as independent or dependent. • the outcomes of two consecutive rolls of a fair die • the gender of the first child born to each of two couples • taking swim lessons and learning to swim\n\n• from a deck of cards, randomly drawing two cards with replacement, and both are aces • from a deck of cards, randomly drawing two cards without replacement, and both are aces Example 5. Identify independent events by verifying equation. Let event A = learning Spanish. Let event B = learning German. Then A AND B = learning Spanish and German. Suppose P (A) = 0.4 and P (B) = 0.2. P (A AND B) = 0.08. Are A and B independent? We must only check one equation in general, but this time check all three. TryIt 3.8. Events A and B are mutually exclusive if they can not both happen at the same time. If one happens, then the other cannot happen. Events A and B are mutually exclusive if and only if P (A AND B) = 0. Example 6. Tree diagram; identify mutually exclusive and independent events. Consider the experiment of flipping a fair coin two times. Record heads (H) or tails (T) for each flip. (1) Draw a tree diagram of the experiment. (2) Use the tree diagram to list the sample space of the experiment. (3) For each event, list the outcomes and find the probability. (a) A = at least one head (b) B = only tails (c) C = only heads (4) Find P (A AND B), P (A AND C), and P (B AND C). (5) Which pairs of events are mutually exclusive? (6) Find P (C|A). (7) Are events C and A independent? Variation on Example 3.9. Example 7. Identify independent and mutually exclusive events. A student goes to the library. Let events B = “the student checks out a book” and D = “the student checks out a DVD.” Suppose that P (B) = 0 .40, P (D) = 0 .30, and P (B AND D) = 0.20. (1) Find P (B|D). (2) Find P (D|B). (3) Are B and D independent? (4) Are B and D mutually exclusive? TryIt 3.10.",
+  "summary": "Two events A and B are independent if the knowledge that one occurred does not affect the chance the other occurs. If two events are not independent, then we say that they are dependent.\n\nIn sampling with replacement, each member of a population is replaced after it is picked, so that member has the possibility of being chosen more than once, and the events are considered to be independent. In sampling without replacement, each member of a population may be chosen only once, and the events are considered not to be independent. When events do not share outcomes, they are mutually exclusive of each other.",
+  "formulaReview": "If A and B are independent, P(A AND B) = P(A)P(B), P(A|B) = P(A) and P(B|A) = P(B).\n\nIf A and B are mutually exclusive, P(A OR B) = P(A) + P(B) and P(A AND B) = 0.",
+  "glossary": [
+   {
+    "term": "Dependent Events",
+    "meaning": "If two events are NOT independent, then we say that they are dependent."
+   },
+   {
+    "term": "Conditional Probability of One Event Given Another Event",
+    "meaning": "P(A|B) is the probability that event A will occur given that the event B has already occurred."
+   }
+  ]
+ },
+ {
+  "sectionId": "3.3",
+  "title": "Two Basic Rules of Probability",
+  "notesTitle": "Two Basic Rules of Probability",
+  "notesText": "The multiplication rule states that for events A and B defined on a sample space, P (A AND B) = P (A)P (B|A). If A and B are independent events, then P (B|A) = P (B) and the rule simpifies to P (A AND B) = P (A)P (B).\n\nNotice that the multiplication rule is a rearrangement of the formula for the conditional probability P (B|A). Example 8. Helen plays basketball. For free throws, she makes the shot 75% of the time. Helen must now attempt two free throws. Let C = the event that she makes the first shot (P(C) = 0.75), and D = the event that Helen makes the second shot (P(D) = 0.75). However, Helen is more likely to make the second shot if she has made the first: the probability that Helen makes the second free throw given that she made the first is 0.85. What is the probability that Helen makes both free throws? TryIt 3.15. The addition rule states that for events A and B defined on a sample space, P (A OR B) = P (A) + P (B)− P (A AND B). If A and B are mutually exclusive events , then P (A AND B) = 0 and the rule simplifies to P (A OR B) = P (A) + P (B). Example 9. Continuing Example 8, find the probability that Helen makes the first or the second free throw (or both). Example 10. A school has 200 seniors of whom 140 will be going to college (C) next year. Forty will be going directly to work (W). The remainder are taking a gap (G) year. Fifty of the seniors going to college play sports (S). Thirty of the seniors going to directly to work play sports. Five of the seniors taking a gap year play sports. (1) What is the probability that a senior is going to college or directly to work? (Classify these events: independent? mutually exclusive?) (2) What is the probability that a senior plays sports? (3) What is the probability that a senior is going to college and plays sports? (Classify these events: independent? mutually exclusive?) (4) What is the probability that a senior is going to college or plays sports? Adapted from TryIt 3.16 and TryIt 3.18. Example 11. A student goes to the library. Let events B = the student checks out a book, and D = the student checks out a DVD. Suppose that P (B) = 0 .40, P (D) = 0 .30, P (D|B) = 0 .5 Describe and find the following probabilities: (1) P (B′) (2) P (D AND B) (3) P (D OR B) (4) P (B|D) TryIt 3.19.",
+  "summary": "The multiplication rule and the addition rule are used for computing the probability of A and B, as well as the probability of A or B for two given events A, B defined on the sample space. In sampling with replacement each member of a population is replaced after it is picked, so that member has the possibility of being chosen more than once, and the events are considered to be independent. In sampling without replacement, each member of a population may be chosen only once, and the events are considered to be not independent. The events A and B are mutually exclusive events when they do not have any outcomes in common.",
+  "formulaReview": "The multiplication rule: P(A AND B) = P(A|B)P(B)\n\nThe addition rule: P(A OR B) = P(A) + P(B) - P(A AND B)",
+  "glossary": [
+   {
+    "term": "Independent Events",
+    "meaning": "The occurrence of one event has no effect on the probability of the occurrence of another event. Events A and B are independent if one of the following is true:\n\n1. P(A|B) = P(A)\n2. P(B|A) = P(B)\n3. P(A AND B) = P(A)P(B)"
+   },
+   {
+    "term": "Mutually Exclusive",
+    "meaning": "Two events are mutually exclusive if the probability that they both happen at the same time is zero. If events A and B are mutually exclusive, then P(A AND B) = 0."
+   }
+  ]
+ },
+ {
+  "sectionId": "3.4",
+  "title": "Contingency Tables",
+  "notesTitle": "Contingency Tables",
+  "notesText": "A contingency table displays frequencies of data relative to two different variables. We will see contingency tables again in Chapter 11. Example 12. Contingency table. Make a two-way contingency table for the information in Example 10. List row and column totals. A school has 200 seniors of whom 140 will be going to college (C) next year. Forty will be going directly to work (W). The remainder are taking a gap (G) year. Fifty of the seniors going to college play sports (S). Thirty of the seniors going to directly to work play sports. Five of the seniors taking a gap year play sports. Use your frequency table to find the following probabilities. (1) What is the probability that a senior plays sports? (2) What is the probability that a senior is going to college or directly to work? (Classify these events: independent? mutually exclusive?) (3) What is the probability that a senior is going to college and plays sports? (Classify these events: independent? mutually exclusive?) (4) What is the probability that a senior is going to college or plays sports? (5) Express the probability in words and find the probability: (a) P (S|W ) (b) P (W|S) Adapted from TryIt 3.16.",
+  "summary": "There are several tools you can use to help organize and sort data when calculating probabilities. Contingency tables help display data and are particularly useful when calculating probabilites that have multiple dependent variables.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "contingency table",
+    "meaning": "the method of displaying a frequency distribution as a table with rows and columns to show how two variables may be dependent (contingent) upon each other; the table provides an easy way to calculate conditional probabilities."
+   }
+  ]
+ },
+ {
+  "sectionId": "3.5",
+  "title": "Tree and Venn Diagrams",
+  "notesTitle": "Tree and Venn Diagrams",
+  "notesText": "A tree diagram is a special type of graph that helps to determine the outcomes of experiments and to visualize and calculate probabilities. Example 13. Tree diagram; independent events. Roll a die and flip a coin. Draw a tree diagram to show all the possible outcomes in the sample space. Label the edges with probabilites. Let the numbers 1, 2, 3, 4, 5, and 6, represent the event of landing on that number. Let E be the event of rolling an even number. Let H and T represent landing on heads and tails, respectively. Use the tree diagram to find the following probabilites. (1) P (5 AND H) (2) P (E) (3) P (E AND T ) (4) P (H|E) (5) P (5′) Probabilities on the edges of a tree diagram are particularly useful when the events are dependent. Note that when the events are dependent, every level after the first level has conditional probabilities on the edges. Example 14. Tree diagram; dependent events. Suppose there are four green balls and 9 yellow balls in a box. Three balls are drawn from the box without replacement. Draw a tree diagram representing the experiment using probabilities on the edges. Use the tree diagram to find the probabilities of the following events. (1) all three balls are green (2) at least one ball is yellow (3) one ball of each color is selected Similar to Example 3.25\n\nA V enn diagram is another way to organize the outcomes of an experiment graphically. Example 15. Venn diagram. In a certain game, a fair 12-sided die is rolled. A player earns 2 points by landing on an even number (E) and 3 points by landing on a multiple of three (T). (1) Draw a Venn diagram representing the sample space of the die roll. (2) Express each of the following events in terms of E and T , then use the Venn diagram to find the probability of each. (a) winning 5 points on a single roll (b) winning at least 2 points on a single roll (c) going scoreless on a single roll Example 16. Venn diagram; probabilities. In a bookstore, the probability that a customer buys a novel is 0.5, and the probability that the customer buys a non-fiction book is 0.3. Suppose that the probability that the customer buys both is 0.2. (1) Draw a Venn diagram representing the situation. Use probabilities instead of outcome in each space. (2) Find the probability of each event. (a) a customer buys either a novel or a non-fiction book (b) a customer does not buy a novel (3) Customers who buy novels are entered into a drawing to win tickets to a book signing by a famous author. Add a circle to the Venn diagram representing the winners of the tickets. Variation on TryIt 3.30.",
+  "summary": "A tree diagram use branches to show the different outcomes of experiments and makes complex probability questions easy to visualize.\n\nA Venn diagram is a picture that represents the outcomes of an experiment. It generally consists of a box that represents the sample space S together with circles or ovals. The circles or ovals represent events. A Venn diagram is especially helpful for visualizing the OR event, the AND event, and the complement of an event and for understanding conditional probabilities.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Tree Diagram",
+    "meaning": "the useful visual representation of a sample space and events in the form of a “tree” with branches marked by possible outcomes together with associated probabilities (frequencies, relative frequencies)"
+   },
+   {
+    "term": "Venn Diagram",
+    "meaning": "the visual representation of a sample space and events in the form of circles or ovals showing their intersections"
+   }
+  ]
+ }
+]

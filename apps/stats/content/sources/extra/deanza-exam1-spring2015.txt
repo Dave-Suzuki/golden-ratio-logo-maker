@@ -1,0 +1,624 @@
+Spring 2015 FORM A     Name   Last:_________________ First: _______________ 
+Exam 1:  Chapters 1, 2, 3                   Class Time:________________________ 
+Directions: 
+ Print your NAME and CLASS TIME on THIS EXAM 
+ Print your NAME and CLASS TIME on your SCANTRON. 
+ Write FORM A on your SCANTRON. 
+ Turn your cell phone OFF.  Any noise from a cell phone will signal that your exam is over. 
+ Each question has exactly one BEST answer.  There are 21 questions. 
+ You may write on this exam.  There is no scratch paper allowed. 
+ Each question is worth 5 points for a total of 105 points. 
+ If you have no note page, you must write NO NOTES on your SCANTRON. 
+ Put your SCANTRON and PAGE of NOTES inside your EXAM.  Before you start packing 
+up your things, turn in your EXAM and SCANTRON. Then go back to your desk to pack up 
+your materials.  When your exam is returned, you will get back all your materials. 
+ FAILURE TO FOLLOW ALL INSTRUCTIONS WILL COST YOU 5 POINTS! 
+ 
+ 
+Questions 1 -2 refer to the following: 
+Two student reporters for a college newspaper are conducting a survey for an article about 
+whether instructors require students to use online homework software.  
+ 
+1.   Ada lists all the buildings on campus that contain professors' offices and then randomly selects 
+5 buildings. She interviews every professor with an office in each of the selected buildings.  
+Name the sampling method used. 
+ 
+A.   Simple Random      B.  Cluster  C.  Systematic  D.  Stratified 
+ 
+2.   Binh lists all the departments in the school and then randomly selects 20% of the professors 
+from each department.  Name the sampling method used. 
+ 
+A.   Simple Random      B.  Cluster  C.  Systematic  D.  Stratified 
+ 
+ 
+ 
+3. A realtor is interested in the average monthly rent of all two-bedroom apartments in Cupertino.    
+Which sample is most likely to be representative of the population? 
+ 
+A.  He collects data for the first 25 two-bedroom apartments he finds that are listed for rent in 
+Cupertino on the internet.  
+ 
+B.  He collects data from all two-bedroom apartments in Cupertino whose landlords contact his 
+rental agency to help rent out their apartments. 
+ 
+C.  He collects data by randomly selecting two-bedroom apartments in Cupertino from each of 
+several different types of sources for apartment rental information. 
+ 
+D.  He drives around the neighborhood near his home in Cupertino, randomly stopping into 
+buildings with "Apartment for Rent Available" signs. 
+ 
+
+=====PAGE=====
+
+Questions 4 -6 refer to the following: 
+Data based on information from “Table 28. (2014) Unemployed persons by reason for unemployment, race, and Hispanic or Latino 
+ethnicity”; Bureau of Labor Statistics Labor Force Statistics Current Population Survey http://www.bls.gov/cps/c psaat28.htm                                                                                                                  
+ 
+The contingency table displays data for unemployed people currently seeking a job,   
+categorized according to the reason for being unemployed and by ethnicity. 
+ 
+                       Ethnicity 
+Reason 
+White 
+(W) 
+Black 
+(B) 
+Asian 
+(A) 
+Hispanic 
+(H) 
+ 
+TOTAL  
+Lost Previous Job (L) 343 101 20 94 558 
+Voluntarily Left Previous Job (V) 59 15 4 14 92 
+Re-entering Job Market  (R) 184 71 13 56 324 
+New Job Seeker (N) 66 29 7 24 126 
+TOTAL  652 216 44 188 1,100 
+ 
+Suppose a person was randomly selected from among those included in the survey:  
+ 
+4.  Find the probability that the person is Hispanic, GIVEN THAT he/she Voluntarily left his/her job  
+ 
+A. 
+ଵ଼଼
+ଵଵ଴଴           B.  
+ଵସ
+ଵ଼଼   C.  
+ଵସ
+ଽଶ   D.  
+ଵସ
+ଵଵ଴଴ 
+ 
+5.  Find the probability that the person is Asian OR a New job seeker 
+ 
+A. 
+଻
+ଵଵ଴଴           B.   
+ଵ଺ଷ
+ଵଵ଴଴  C. 
+ଵ଻଴
+ଵଵ଴଴  D.  
+଻
+ଵ଻଴  
+ 
+6.  Which of the following is true about the events "Hispanic" and "Voluntarily Left Previous Job"?  
+A.  H and V are independent events 
+B.  H and V are mutually exclusive events 
+C.  H and V are independent and mutually exclusive 
+D.  H and V are not independent and not mutually exclusive  
+ 
+ 
+Questions 7 -  8 refer to the following: 
+Shoe & Luggage Outlet (SLO, Inc.)sells shoes and luggage both in their stores and on their website. 
+45% of customers make their purchases on the website 
+Overall, 23% of customers purchase luggage 
+Of customers who purchase on the website, 32% purchase luggage. 
+ 
+Events:       W = shopper purchases on the website          L= shoppers purchases luggage    
+ 
+7. Find the probability that a shopper buys luggage and makes her purchase on the website.     
+  
+A. 0.144  B.  0.1035          C  0.0736  D 0.36 
+ 
+ 
+8.  Find the probability that a shopper purchases on the website given that she buys luggage.     
+   
+A. 0.32           B.  0.45  C  0.1636  D 0.6261 
+
+=====PAGE=====
+
+Questions 9 - 11 refer to the following: 
+A charity held a 5K family race as a fundraiser.   
+Racers are divided into 3 categories:   Male adult, Female adult, and Non-Adult (under age 18).  
+The boxplots below represent the finish times, in minutes, for participants in the race.   
+ 
+                     
+ 
+               Male Adult  
+                                                                          Female Adult 
+                                                                          Non-Adult 
+                                                          18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 Minutes 
+  
+  
+9.  Which data set is skewed to the left? 
+ 
+A.   Male Adult B.  Female Adult      C. Non-Adult       D.  None 
+ 
+                                              10.  Use the top boxplot of Male Adult finish times: Which interval contains the most data?  
+ 
+ A.   18 to 20 minutes          B.  23-25 minutes  C.  25-30minutes         
+ D.    The graph does not give enough information to determine this. 
+ 
+11. What type of data is represented by the finish times for the race? 
+ 
+ 
+A.  Qualitative  B.  Quantitative Discrete C.Quantitative Continuous      D.  Nominal 
+ 
+ 
+ 
+ 
+12.  Assad, Gerardo and Tran compared how many hours they spent on campus each week,  
+for a sample of eight weeks.  Using the most appropriate measure of variation of data,  
+who had the most variation in the hours per week spent on campus? 
+ 
+ 
+ 
+ 
+A.  Assad        B.  Gerardo C.  Tran  
+D.  Can not determine because we are not given all the data values  
+ xത s min max 
+Assad 26 2.5 20 32 
+Gerardo 25 2.8 20 30 
+Tran 30 2.3 26 34 
+
+=====PAGE=====
+
+13.  Bart, Cal and Dave commute to work every day.  Each commutes by a different method.  
+This morning they all encountered faster than usual conditions (faster commutes have shorter times).   
+The table shows their commute times today and their mean commute time and the standard deviation. 
+Name Commute 
+Method 
+Today's Commute 
+Time (minutes) 
+Mean Commute 
+Time (minutes) 
+Standard 
+Deviation 
+Bart BART 24 30 4 
+Cal CalTrain 34 40 3 
+Dave Drive 15 20 5 
+ 
+Whose commute time today is relatively fastest in comparison to his usual commute time? 
+ 
+A.   Both Bart and Cal   B.  Bart      C.  Cal  D.  Dave   
+ 
+ 
+Questions 14 - 17 refer to the following: 
+A random sample of 50 students enrolled in a distance learning classes at a community college 
+were asked the total number of distance learning credit units they had ever taken at the school. 
+ 
+Number of Distance 
+Learning credit units 
+Frequency 
+ 
+Relative 
+Frequency 
+Cumulative 
+Relative Frequency 
+4 6 0.12 0.12 
+5 9 0.18 0.30 
+8 6 0.12 0.42 
+9 110 0.20 0?.62 
+10 7? ?8 0?.76 
+12 4 0.0?8 0.84 
+16 6 0.1?2 0.96 
+20 2 0.04 1.00 
+ 
+14. The cumulative relative frequency for 10 distance learning credit units is: 
+ 
+A.  0.76   B.  0.75  C.  0.62  D.  0.14 
+ 
+15.  What data value represents the 20th percentile for the number of distance learning credit 
+units taken by the students in this sample? 
+ 
+A.   5   B.  8   C.  9   D.  20  
+ 
+16.  The third (upper) quartile is 10.  The most appropriate interpretation of the third quartile is 
+  
+ A.  75% of students surveyed have taken 10 credit units of distance learning classes 
+ B.  25% of students surveyed have taken 10 or fewer credit units of distance learning classes 
+ C.  75% of students surveyed have taken 10 or fewer credit units of distance learning classes 
+ D.  One third of all students have taken (3/4)(10) = 7.5 credit units of distance learning classes.  
+ 
+17.  The average number of distance learning credit units for all students at this college is a  
+ 
+A.  Variable  B.  Statistic  C.  Data  D.    Parameter 
+
+=====PAGE=====
+
+Questions 18 -  19 refer to the following: 
+A researcher was studying the number of puppies in a 
+litter for one particular breed of dog.   
+ 
+(A litter is the group of puppies born at the same time to 
+one mother.)      
+ 
+The table shows the data for number of puppies born in a 
+litter for a random sample of 22 litters 
+ Number of Puppies  
+in the Litter 
+Frequency 
+ 
+ 2 1 
+ 3 3 
+ 4 6 
+ 5 7 
+ 6 3 
+ 9 2 
+18.  Find the mean and appropriate standard deviation: 
+A. mean = 4.82,  , standard deviation =1.67     B.  mean = 4.82, standard deviation =1.71  
+C.  mean = 4.83, standard deviation =2.48     D.  mean = 3.67, standard deviation =2.34  
+ 
+19. Are any of the litter sizes potential outliers?   
+ 
+A.  Litter sizes of 2, 3, 9 are potential outliers 
+B.  Litter sizes of 2, 9 are potential outliers 
+C.  Litter size of  2 is the only potential outlier  
+D.  Litter size of  9 is the only potential outlier  
+ 
+ 
+Questions 20 -  21 refer to the following:Based on Women in STEM: A Gender Gap to Innovation: 2011 
+http://www.esa.doc.gov/sites/default/files/womeninstemagaptoinnovation8311.pdf  
+ 
+A study examined people with jobs in STEM fields (science, technology, engineering, &mathematics) 
+It compared males and females and it compared people with science jobs (physical & biological sciences) 
+and with tech jobs (computer science, mathematics, engineering) 
+ 
+For people with STEM jobs included in the study: 
+27 % of jobs are held by females. 
+Of the females: 60% have jobs in science and 40% have jobs in tech          
+Of the males: 30% have jobs in science, while the rest of the males have jobs in tech. 
+ 
+20.  0.30 in the information above represents which probability? 
+ 
+A.  P(Science Job or Male) B.  P(Science Job and Male)   
+C.  P(Male | Science Job)  D.  P(Science Job | Male) 
+ 
+21.  Find the probability that a person in this study is employed in a science job.  
+ 
+A. 0.381  B.  0.90 C.  0.18 D.    0.462        
+ 
+Hint: use a tree diagram 
+Male Female 
+Tech Tech Science Science 
+
+=====PAGE=====
+
+Spring 2015 FORM B     Name   Last:_________________ First: _______________ 
+Exam 1:  Chapters 1, 2, 3                   Class Time:________________________ 
+Directions: 
+ Print your NAME and CLASS TIME on THIS EXAM 
+ Print your NAME and CLASS TIME on your SCANTRON. 
+ Write FORM B on your SCANTRON. 
+ Turn your cell phone OFF.  Any noise from a cell phone will signal that your exam is over. 
+ Each question has exactly one BEST answer.  There are 21 questions. 
+ You may write on this exam.  There is no scratch paper allowed. 
+ Each question is worth 5 points for a total of 105 points. 
+ If you have no note page, you must write NO NOTES on your SCANTRON. 
+ Put your SCANTRON and PAGE of NOTES inside your EXAM.  Before you start packing 
+up your things, turn in your EXAM and SCANTRON. Then go back to your desk to pack up 
+your materials.  When your exam is returned, you will get back all your materials. 
+ FAILURE TO FOLLOW ALL INSTRUCTIONS WILL COST YOU 5 POINTS! 
+ 
+Questions 1 -3 refer to the following: 
+Data based on information from “Table 28. (2014) Unemployed persons by reason for unemployment, race, and Hispanic or Latino 
+ethnicity”; Bureau of Labor Statistics Labor Force Statistics Current Population Survey http://www.bls.gov/cps/cpsaat28.htm                                                                                                                                
+ 
+The contingency table displays data for unemployed people currently seeking a job,   
+categorized according to the reason for being unemployed and by ethnicity. 
+ 
+                       Ethnicity 
+Reason 
+White 
+(W) 
+Black 
+(B) 
+Asian 
+(A) 
+Hispanic 
+(H) 
+ 
+TOTAL  
+Lost Previous Job (L) 343 101 20 94 558 
+Voluntarily Left Previous Job (V) 59 15 4 14 92 
+Re-entering Job Market  (R) 184 71 13 56 324 
+New Job Seeker (N) 66 29 7 24 126 
+TOTAL  652 216 44 188 1,100 
+ 
+Suppose a person was randomly selected from among those included in the survey:  
+ 
+1.  Find the probability that the person is Hispanic, GIVEN THAT he/she Voluntarily left his/her job  
+ 
+A. 
+ଵ଼଼
+ଵଵ଴଴           B.  
+ଵସ
+ଵ଼଼   C.  
+ଵସ
+ଽଶ   D.  
+ଵସ
+ଵଵ଴଴ 
+ 
+2.  Find the probability that the person is Asian OR a New job seeker 
+ 
+A. 
+଻
+ଵଵ଴଴           B.   
+ଵ଺ଷ
+ଵଵ଴଴  C. 
+ଵ଻଴
+ଵଵ଴଴  D.  
+଻
+ଵ଻଴  
+ 
+3.  Which of the following is true about the events "Hispanic" and "Voluntarily Left Previous Job"?  
+A.  H and V are independent events 
+B.  H and V are mutually exclusive events 
+C.  H and V are independent and mutually exclusive 
+D.  H and V are not independent and not mutually exclusive  
+
+=====PAGE=====
+
+Questions 4 - 7 refer to the following: 
+A random sample of 50 students enrolled in a distance learning classes at a community college 
+were asked the total number of distance learning credit units they had ever taken at the school. 
+ 
+Number of Distance 
+Learning credit units 
+Frequency 
+ 
+Relative 
+Frequency 
+Cumulative 
+Relative Frequency 
+4 6 0.12 0.12 
+5 9 0.18 0.30 
+8 6 0.12 0.42 
+9 110 0.20 0?.62 
+10 7? ?8 0?.76 
+12 4 0.0?8 0.84 
+16 6 0.1?2 0.96 
+20 2 0.04 1.00 
+ 
+4.  What data value represents the 20th percentile for the number of distance learning credit units 
+taken by the students in this sample? 
+ 
+A.   5   B.  8   C.  9   D.  20  
+ 
+5.  The third (upper) quartile is 10.  The most appropriate interpretation of the third quartile is 
+  
+ A.  75% of students surveyed have taken 10 credit units of distance learning classes 
+ B.  25% of students surveyed have taken 10 or fewer credit units of distance learning classes 
+ C.  75% of students surveyed have taken 10 or fewer credit units of distance learning classes 
+ D.  One third of all students have taken (3/4)(10) = 7.5 credit units of distance learning classes.  
+ 
+6. The cumulative relative frequency for 10 distance learning credit units is: 
+ 
+A.  0.76   B.  0.75  C.  0.62  D.  0.14 
+ 
+7.  The average number of distance learning credit units for all students at this college is a  
+ 
+A.  Variable  B.  Statistic  C.  Data  D.    Parameter 
+ 
+Questions 8 -9 refer to the following: 
+Two student reporters for a college newspaper are conducting a survey for an article about 
+whether instructors require students to use online homework software.  
+ 
+8.   Ada lists all the buildings on campus that contain professors' offices and then randomly selects 
+5 buildings. She interviews every professor with an office in each of the selected buildings. .  
+Name the sampling method used. 
+ 
+A.   Simple Random      B.  Cluster  C.  Systematic  D.  Stratified 
+ 
+9.   Binh lists all the departments in the school and then randomly selects 20% of the professors 
+from each department.  Name the sampling method used. 
+ 
+A.   Simple Random      B.  Cluster  C.  Systematic  D.  Stratified 
+
+=====PAGE=====
+
+Questions 10-  11 refer to the following:Based on Women in STEM: A Gender Gap to Innovation: 2011 
+http://www.esa.doc.gov/sites/default/files/womeninstemagaptoinnovation8311.pdf  
+ 
+A study examined people with jobs in STEM fields (science, technology, engineering, &mathematics) 
+It compared males and females and compared people with science jobs (physical & biological sciences) 
+and with tech jobs (computer science, mathematics, engineering) 
+ 
+For people with STEM jobs included in the study: 
+27 % of jobs are held by females. 
+Of the females: 60% have jobs in science and 40% have jobs in tech          
+Of the males: 30% have jobs in science, while the rest of the males have jobs in tech. 
+ 
+ 
+10.  0.30 in the information above represents which probability? 
+ 
+A.  P(Science Job or Male) B.  P(Science Job and Male)   
+C.  P(Male | Science Job)  D.  P(Science Job | Male) 
+ 
+11.  Find the probability that a person in this study is employed in a science job.  
+ 
+A. 0.381   B.  0.90  C.  0.18  D.    0.462        
+ 
+Hint: use a tree diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12. A realtor is interested in the average monthly rent of all two-bedroom apartments in Cupertino.    
+Which sample is most likely to be representative of the population? 
+ 
+A.  He collects data for the first 25 two-bedroom apartments he finds that are listed for rent in 
+Cupertino on the internet.  
+ 
+B.  He collects data from all two-bedroom apartments in Cupertino whose landlords contact his 
+rental agency to help rent out their apartments. 
+ 
+C.  He collects data by randomly selecting two-bedroom apartments in Cupertino from each of 
+several different types of sources for apartment rental information. 
+ 
+D.  He drives around the neighborhood near his home in Cupertino, randomly stopping into 
+buildings with "Apartment for Rent Available" signs. 
+ 
+ 
+  
+Male Female 
+Tech Tech Science Science 
+
+=====PAGE=====
+
+13.  Bart, Cal and Dave commute to work every day.  Each commutes by a different method.  
+This morning they all encountered faster than usual conditions (faster commutes have shorter times).   
+The table shows their commute times today and their mean commute time and the standard deviation. 
+Name Commute 
+Method 
+Today's Commute 
+Time (minutes) 
+Mean Commute 
+Time (minutes) 
+Standard 
+Deviation 
+Bart BART 24 30 4 
+Cal CalTrain 34 40 3 
+Dave Drive 15 20 5 
+ 
+Whose commute time today is relatively fastest in comparison to his usual commute time? 
+ 
+A.   Both Bart and Cal   B.  Bart      C.  Cal  D.  Dave   
+ 
+Questions 14 -  15 refer to the following: 
+Shoe & Luggage Outlet (SLO, Inc.)sells shoes and luggage both in their stores and on their website. 
+45% of customers make their purchases on the website 
+Overall, 23% of customers purchase luggage 
+Of customers who purchase on the website, 32% purchase luggage. 
+ 
+Events:W = shopper purchases on the website   L= shoppers purchases luggage    
+ 
+14. Find the probability that a shopper buys luggage and makes her purchase on the website.     
+  
+A. 0.144  B.  0.1035          C  0.0736  D 0.36 
+ 
+ 
+15.  Find the probability that a shopper purchases on the website given that she buys luggage.     
+   
+A. 0.32           B.  0.45  C  0.1636  D 0.6261 
+ 
+ 
+Questions 16-  17refer to the following: 
+A researcher was studying the number of puppies in a 
+litter for one particular breed of dog.   
+ 
+(A litter is the group of puppies born at the same time to 
+one mother.)      
+ 
+The table shows the data for number of puppies born in a 
+litter for a random sample of 22 litters 
+ Number of Puppies  
+in the Litter 
+Frequency 
+ 
+ 2 1 
+ 3 3 
+ 4 6 
+ 5 7 
+ 6 3 
+ 9 2 
+ 
+16. Are any of the litter sizes potential outliers?   
+ 
+A.  Litter sizes of 2, 3, 9 are potential outliers 
+B.  Litter sizes of 2, 9 are potential outliers 
+C.  Litter size of  2 is the only  potential outlier  
+D.  Litter size of  9 is the only  potential outlier  
+ 
+17.  Find the mean and appropriate standard deviation: 
+A. mean = 4.82,  , standard deviation =1.67     B.  mean = 4.82, standard deviation =1.71  
+C.  mean = 4.83, standard deviation =2.48     D.  mean = 3.67, standard deviation =2.34  
+
+=====PAGE=====
+
+18.  Assad, Gerardo and Tran compared how many hours they spent on campus each week,  
+for a sample of eight weeks.  Using the most appropriate measure of variation of data,  
+who had the most variation in the hours per week spent on campus? 
+ 
+ ܠത s min max 
+Assad 26 2.5 20 32 
+Gerardo 25 2.8 20 30 
+Tran 30 2.3 26 34 
+ 
+ 
+A.  Assad        B.  Gerardo C.  Tran  
+D.  Can not determine because we are not given all the data values  
+ 
+Questions 19 - 21 refer to the following: 
+A charity held a 5K family race as a fundraiser.   
+Racers are divided into 3 categories:   Male adult, Female adult, and Non-Adult (under age 18). 
+The boxplots below represent the finish times, in minutes, for participants in the race.   
+ 
+                     
+ 
+               Male Adult  
+                                                                          Female Adult 
+                                                                          Non-Adult 
+                                                          18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 Minutes 
+  
+  
+19.  Use the top boxplot of Male Adult finish times: Which interval contains the most data? 
+ 
+ A.   18 to 20 minutes          B.  23-25 minutes  C.  25-30minutes         
+ D.    The graph does not give enough information to determine this. 
+ 
+20.  Which data set is skewed to the left? 
+ 
+A.   Male Adult B.  Female Adult      C. Non-Adult       D.  None 
+ 
+                                              21. What type of data is represented by the finish times for the race? 
+ 
+A.  Qualitative  B.  Quantitative Discrete C.Quantitative Continuous      D.  Nominal 
+ 
+  
+
+=====PAGE=====
+
+ 
+ 
+ 
+ Form A Form B 
+1 B C 
+2 D B 
+3 C D 
+4 C A 
+5 B C 
+6 D A 
+7 A D 
+8 D B 
+9 C D 
+10 A D 
+11 C A 
+12 B C 
+13 C C 
+14 A A 
+15 A D 
+16 C B 
+17 D B 
+18 B B 
+19 B A 
+20 D C 
+21 A C 
+ 

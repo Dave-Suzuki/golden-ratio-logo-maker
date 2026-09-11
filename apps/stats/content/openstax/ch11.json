@@ -1,0 +1,1006 @@
+{
+ "number": 11,
+ "title": "The Chi-Square Distribution",
+ "sections": [
+  {
+   "id": "m47088",
+   "title": "Introduction",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "intro"
+  },
+  {
+   "id": "m47062",
+   "title": "Facts About the Chi-Square Distribution",
+   "tryits": [],
+   "examples": [],
+   "practice": [
+    {
+     "id": "eip-600",
+     "problem": "If the number of degrees of freedom for a chi-square distribution is 25, what is the population mean and standard deviation?",
+     "solution": "mean = 25 and standard deviation = 7.0711"
+    },
+    {
+     "id": "eip-313",
+     "problem": "If df > 90, the distribution is _____________. If df = 15, the distribution is ________________.",
+     "solution": null
+    },
+    {
+     "id": "eip-836",
+     "problem": "When does the chi-square curve approximate a normal distribution?",
+     "solution": "when the number of degrees of freedom is greater than 90"
+    },
+    {
+     "id": "eip-957",
+     "problem": "Where is μ located on a chi-square curve?",
+     "solution": null
+    },
+    {
+     "id": "eip-121",
+     "problem": "Is it more likely the df is 90, 20, or two in the graph?\n\n[FIGURE]",
+     "solution": "df = 2"
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-612",
+     "problem": "As the number of degrees of freedom increases, the graph of the chi-square distribution looks more and more symmetrical.",
+     "solution": "true",
+     "context": "Decide whether the following statements are true or false."
+    },
+    {
+     "id": "element-859",
+     "problem": "The standard deviation of the chi-square distribution is twice the mean.",
+     "solution": null,
+     "context": "Decide whether the following statements are true or false."
+    },
+    {
+     "id": "element-389",
+     "problem": "The mean and the median of the chi-square distribution are the same if df = 24.",
+     "solution": "false",
+     "context": "Decide whether the following statements are true or false."
+    }
+   ],
+   "bring_together": [],
+   "summary": "The chi-square distribution is a useful tool for assessment in a series of problem categories. These problem categories include primarily (i) whether a data set fits a particular distribution, (ii) whether the distributions of two populations are the same, (iii) whether two events might be independent, and (iv) whether there is a different variability than expected within a population.\n\nAn important parameter in a chi-square distribution is the degrees of freedom df in a given problem. The random variable in the chi-square distribution is the sum of squares of df standard normal variables, which must be independent. The key characteristics of the chi-square distribution also depend directly on the degrees of freedom.\n\nThe chi-square distribution curve is skewed to the right, and its shape depends on the degrees of freedom df. For df > 90, the curve approximates the normal distribution. Test statistics based on the chi-square distribution are always greater than or equal to zero. Such application tests are almost always right-tailed tests.",
+   "formula_review": "χ2 = (Z1)2 + (Z2)2 + … (Zdf)2\nchi-square distribution random variable\n\nμχ2 = df chi-square distribution population mean\n\nσ_(χ^2)=√(2(df)) Chi-Square distribution population standard deviation",
+   "glossary": [],
+   "kind": "section",
+   "section": "11.1"
+  },
+  {
+   "id": "m47064",
+   "title": "Goodness-of-Fit Test",
+   "tryits": [
+    {
+     "id": "eip-31",
+     "problem": "A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 6\n201–300 | 7\n301–400 | 8\n401–500 | 10\n[/TABLE]\n\nA random sample was taken to determine the actual number of defects. shows the results of the survey.\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 7\n201–300 | 8\n301–400 | 9\n401–500 | 11\n[/TABLE]\n\nState the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.",
+     "solution": null,
+     "guideSolution": "H0:The number of defaults fits expectations.\nHa:The number of defaults does not fit expectations.df = 4",
+     "guideRef": "Try It 11.1"
+    },
+    {
+     "id": "eip-723",
+     "problem": "Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .\n\n[TABLE]\n| Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday\nNumber of Students | 11 | 8 | 10 | 7 | 10 | 5 | 5\n[/TABLE]\n\nFrom the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?",
+     "solution": null,
+     "guideSolution": "df = 6\np-value = 0.6093 We decline to reject the null hypothesis. There is not enough evidence to support that students do not do the majority of their homework equally throughout the week.",
+     "guideRef": "Try It 11.2"
+    },
+    {
+     "id": "eip-521",
+     "problem": "The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .\n\n[TABLE]\nNumber of Pets | Percent\n0 | 18\n1 | 25\n2 | 30\n3 | 18\n4+ | 9\n[/TABLE]\n\nA random sample of 1,000 students from the Eastern United States resulted in the data in .\n\n[TABLE]\nNumber of Pets | Frequency\n0 | 210\n1 | 240\n2 | 320\n3 | 140\n4+ | 90\n[/TABLE]\n\nAt the 1% significance level, does it appear that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole? What is the p-value?",
+     "solution": null,
+     "guideSolution": "p-value = 0.0036\nWe reject the null hypothesis that the distributions are the same. There is sufficient evidence to conclude that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole.",
+     "guideRef": "Try It 11.3"
+    },
+    {
+     "id": "eip-860",
+     "problem": "Students in a social studies class hypothesize that the literacy rates across the world for every region are 82%. shows the actual literacy rates across the world broken down by region. What are the test statistic and the degrees of freedom?\n\n[TABLE]\nMDG Region | Adult Literacy Rate (%)\nDeveloped Regions | 99.0\nCommonwealth of Independent States | 99.5\nNorthern Africa | 67.3\nSub-Saharan Africa | 62.5\nLatin America and the Caribbean | 91.0\nEastern Asia | 93.8\nSouthern Asia | 61.9\nSouth-Eastern Asia | 91.9\nWestern Asia | 84.5\nOceania | 66.4\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "degrees of freedom = 9\nchi2 test statistic = 26.38\nFigure 25\nPress STAT and ENTER. Make sure you clear lists L1, L2, and L3 if they have data in them. Into L1, put the observed frequencies 99, 99.5, 67.3, 62.5, 91, 93.8, 61.9, 91.9, 84.5, 66.4. Into L2, put the expected frequencies 82, 82, 82, 82, 82, 82, 82, 82, 82, 82. Arrow over to list L3 and up to the name area \"L3\". Enter (L1-L2)^2/L2and ENTER. Press 2nd QUIT. Press 2nd LIST and arrow over to MATH. Press 5. You should see \"sum\". Enter L3. Rounded to two decimal places, you should see 26.38. Press 2nd DISTR. Arrow down to 7:χ2cdf (or press 7). Press ENTER. Enter 26.38,1E99,9). Rounded to four places, you should see .0018, which is the p-value.\nThe newer TI-84 calculators have in STAT TESTS the test Chi2 GOF. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press STAT TESTS and Chi2 GOF. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press calculate or draw. Make sure you clear any lists before you start.\nSection 3. Test of Independence",
+     "guideRef": "Try It 11.4"
+    }
+   ],
+   "examples": [
+    "Absenteeism of college students from math classes is a major concern to math instructors because missing class appears to increase the drop rate. Suppose that a study was done to determine if the actual student absenteeism rate follows faculty perception. The faculty expected that a group of 100 students would miss class according to .\n\n[TABLE]\nNumber of absences per term | Expected number of students\n0–2 | 50\n3–5 | 30\n6–8 | 12\n9–11 | 6\n12+ | 2\n[/TABLE]\n\nA random survey across all mathematics courses was then done to determine the actual number (observed) of absences in a course. The chart in displays the results of that survey.\n\n[TABLE]\nNumber of absences per term | Actual number of students\n0–2 | 35\n3–5 | 40\n6–8 | 20\n9–11 | 1\n12+ | 4\n[/TABLE]\n\nDetermine the null and alternative hypotheses needed to conduct a goodness-of-fit test.\n\nH0: Student absenteeism fits faculty perception.\n\nThe alternative hypothesis is the opposite of the null hypothesis.\n\nHa: Student absenteeism does not fit faculty perception.\n\na. Can you use the information as it appears in the charts to conduct the goodness-of-fit test?\n\na. No. Notice that the expected number of absences for the \"12+\" entry is less than five (it is two). Combine that group with the \"9–11\" group to create new tables where the number of students for each entry are at least five. The new results are in and .\n\n[TABLE]\nNumber of absences per term | Expected number of students\n0–2 | 50\n3–5 | 30\n6–8 | 12\n9+ | 8\n[/TABLE]\n\n[TABLE]\nNumber of absences per term | Actual number of students\n0–2 | 35\n3–5 | 40\n6–8 | 20\n9+ | 5\n[/TABLE]\n\nb. What is the number of degrees of freedom (df)?\n\nb. There are four \"cells\" or categories in each of the new tables.\n\ndf = number of cells – 1 = 4 – 1 = 3",
+    "Employers want to know which days of the week employees are absent in a five-day work week. Most employers would like to believe that employees are absent equally during the week. Suppose a random sample of 60 managers were asked on which day of the week they had the highest number of employee absences. The results were distributed as in . For the population of employees, do the days for the highest number of absences occur with equal frequencies during a five-day work week? Test at a 5% significance level.\n\n[TABLE]\n| Monday | Tuesday | Wednesday | Thursday | Friday\nNumber of Absences | 15 | 12 | 9 | 9 | 15\n[/TABLE]\n\nThe null and alternative hypotheses are:\n\n• H0: The absent days occur with equal frequencies, that is, they fit a uniform distribution.\n• Ha: The absent days occur with unequal frequencies, that is, they do not fit a uniform distribution.\n\nIf the absent days occur with equal frequencies, then, out of 60 absent days (the total in the sample: 15 + 12 + 9 + 9 + 15 = 60), there would be 12 absences on Monday, 12 on Tuesday, 12 on Wednesday, 12 on Thursday, and 12 on Friday. These numbers are the expected (E) values. The values in the table are the observed (O) values or data.\n\nThis time, calculate the χ2 test statistic by hand. Make a chart with the following headings and fill in the columns:\n\n• Expected (E) values (12, 12, 12, 12, 12)\n• Observed (O) values (15, 12, 9, 9, 15)\n• (O – E)\n• (O – E)2\n\n• ((O – E)^2)/E\n\nNow add (sum) the last column. The sum is three. This is the χ2 test statistic.\n\nTo find the p-value, calculate P(χ2 > 3). This test is right-tailed. (Use a computer or calculator to find the p-value. You should get p-value = 0.5578.)\n\nThe dfs are the number of cells – 1 = 5 – 1 = 4\n\nPress 2nd DISTR. Arrow down to χ2cdf. Press ENTER. Enter (3,10^99,4). Rounded to four decimal places, you should see 0.5578, which is the p-value.\n\nNext, complete a graph like the following one with the proper labeling and shading. (You should shade the right tail.)\n\n[FIGURE]\n\nThe decision is not to reject the null hypothesis.\n\nConclusion: At a 5% level of significance, from the sample data, there is not sufficient evidence to conclude that the absent days do not occur with equal frequencies.\n\nTI-83+ and some TI-84 calculators do not have a special program for the test statistic for the goodness-of-fit test. The next example has the calculator instructions. The newer TI-84 calculators have in STAT TESTS the test Chi2 GOF. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press STAT TESTS and Chi2 GOF. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press calculate or draw. Make sure you clear any lists before you start. To Clear Lists in the calculators: Go into STAT EDIT and arrow up to the list name area of the particular list. Press CLEAR and then arrow down. The list will be cleared. Alternatively, you can press STAT and press 4 (for ClrList). Enter the list name and press ENTER.",
+    "One study indicates that the number of streaming services that American families have is distributed (this is the given distribution for the American population) as in .\n\n[TABLE]\nNumber of Streaming Services | Percent\n0 | 10\n1 | 16\n2 | 55\n3 | 11\n4+ | 8\n[/TABLE]\n\nThe table contains expected (E) percents.\n\nA random sample of 600 families in the far western United States resulted in the data in .\n\n[TABLE]\nNumber of Streaming Services | Frequency\n0 | 66\n1 | 119\n2 | 340\n3 | 60\n4+ | 15\n| Total = 600\n[/TABLE]\n\nThe table contains observed (O) frequency values.\n\nAt the 1% significance level, does it appear that the distribution \"number of streaming services\" of far western United States families is different from the distribution for the American population as a whole?\n\nThis problem asks you to test whether the far western United States families distribution fits the distribution of the American families. This test is always right-tailed.\n\nThe first table contains expected percentages. To get expected (E) frequencies, multiply the percentage by 600. The expected frequencies are shown in .\n\n[TABLE]\nNumber of Streaming Services | Percent | Expected Frequency\n0 | 10 | (0.10)(600) = 60\n1 | 16 | (0.16)(600) = 96\n2 | 55 | (0.55)(600) = 330\n3 | 11 | (0.11)(600) = 66\nover 3 | 8 | (0.08)(600) = 48\n[/TABLE]\n\nTherefore, the expected frequencies are 60, 96, 330, 66, and 48. In the TI calculators, you can let the calculator do the math. For example, instead of 60, enter 0.10*600.\n\nH0: The \"number of streaming services\" distribution of far western United States families is the same as the \"number of streaming services\" distribution of the American population.\n\nHa: The \"number of streaming services\" distribution of far western United States families is different from the \"number of streaming services\" distribution of the American population.\n\nDistribution for the test: χ_4^2 where df = (the number of cells) – 1 = 5 – 1 = 4.\n\nNOTE\n\ndf ≠ 600 – 1\n\nCalculate the test statistic: χ2 = 29.65\n\nGraph:\n\n[FIGURE]\nProbability statement: p-value = P(χ2 > 29.65) = 0.000006\n\nCompare α and the p-value:\n\n• α = 0.01\n• p-value = 0.000006\n\nSo, α > p-value.\n\nMake a decision: Since α > p-value, reject Ho.\n\nThis means you reject the belief that the distribution for the far western states is the same as that of the American population as a whole.\n\nConclusion: At the 1% significance level, from the data, there is sufficient evidence to conclude that the \"number of streaming services\" distribution for the far western United States is different from the \"number of streaming services\" distribution for the American population as a whole.\n\nPress STAT and ENTER. Make sure to clear lists L1, L2, and L3 if they have data in them (see the note at the end of ). Into L1, put the observed frequencies 66, 119, 340, 60, 15. Into L2, put the expected frequencies .10*600, .16*600, .55*600, .11*600, .08*600. Arrow over to list L3 and up to the name area \"L3\". Enter (L1-L2)^2/L2 and ENTER. Press 2nd QUIT. Press 2nd LIST and arrow over to MATH. Press 5. You should see \"sum\" (Enter L3). Rounded to 2 decimal places, you should see 29.65. Press 2nd DISTR. Press 7 or Arrow down to 7:χ2cdf and press ENTER. Enter (29.65,1E99,4). Rounded to four places, you should see 5.77E-6 = .000006 (rounded to six decimal places), which is the p-value.\n\nThe newer TI-84 calculators have in STAT TESTS the test Chi2 GOF. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press STAT TESTS and Chi2 GOF. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press calculate or draw. Make sure you clear any lists before you start.",
+    "Suppose you flip two coins 100 times. The results are 20 HH, 27 HT, 30 TH, and 23 TT. Are the coins fair? Test at a 5% significance level.\n\nThis problem can be set up as a goodness-of-fit problem. The sample space for flipping two fair coins is {HH, HT, TH, TT}. Out of 100 flips, you would expect 25 HH, 25 HT, 25 TH, and 25 TT. This is the expected distribution. The question, \"Are the coins fair?\" is the same as saying, \"Does the distribution of the coins (20 HH, 27 HT, 30 TH, 23 TT) fit the expected distribution?\"\n\nRandom Variable: Let X = the number of heads in one flip of the two coins. X takes on the values 0, 1, 2. (There are 0, 1, or 2 heads in the flip of two coins.) Therefore, the number of cells is three. Since X = the number of heads, the observed frequencies are 20 (for two heads), 57 (for one head), and 23 (for zero heads or both tails). The expected frequencies are 25 (for two heads), 50 (for one head), and 25 (for zero heads or both tails). This test is right-tailed.\n\nH0: The coins are fair.\n\nHa: The coins are not fair.\n\nDistribution for the test:\nχ_2^2\nwhere\ndf = 3 – 1 = 2.\n\nCalculate the test statistic: χ2 = 2.14\n\nGraph:\n\n[FIGURE]\nProbability statement: p-value = P(χ2 > 2.14) = 0.3430\n\nCompare α and the p-value:\n\n• α = 0.05\n• p-value = 0.3430\nα < p-value.\n\nMake a decision: Since α < p-value, do not reject H0.\n\nConclusion: There is insufficient evidence to conclude that the coins are not fair.\n\nPress STAT and ENTER. Make sure you\nclear lists L1, L2, and L3 if they have data in them. Into L1, put the observed\nfrequencies 20, 57, 23. Into L2, put the expected frequencies 25, 50, 25. Arrow\nover to list L3 and up to the name area \"L3\". Enter (L1-L2)^2/L2 and\nENTER. Press 2nd QUIT. Press 2nd LIST and arrow over to MATH. Press\n5. You should see \"sum\".Enter L3. Rounded to two decimal places, you\nshould see 2.14. Press 2nd DISTR. Arrow down to 7:χ2cdf (or press 7). Press\nENTER. Enter 2.14,1E99,2). Rounded to four places, you should see .3430, which\nis the p-value.\n\nThe newer TI-84 calculators have in STAT TESTS the test Chi2 GOF. To run the test, put the observed values (the data) into a first list and the expected values (the values you expect if the null hypothesis is true) into a second list. Press STAT TESTS and Chi2 GOF. Enter the list names for the Observed list and the Expected list. Enter the degrees of freedom and press calculate or draw. Make\nsure you clear any lists before you start."
+   ],
+   "practice": [
+    {
+     "id": "eip-594",
+     "problem": "An archeologist is calculating the distribution of the frequency of the number of artifacts they find in a dig site. Based on previous digs, the archeologist creates an expected distribution broken down by grid sections in the dig site. Once the site has been fully excavated, they compare the actual number of artifacts found in each grid section to see if their expectation was accurate.",
+     "solution": null,
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-906",
+     "problem": "An economist is deriving a model to predict outcomes on the stock market. They create a list of expected points on the stock market index for the next two weeks. At the close of each day’s trading, The economist records the actual points on the index. They want to see how well the model matched what actually happened.",
+     "solution": "a goodness-of-fit test",
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-89",
+     "problem": "A personal trainer is putting together a weight-lifting program for their clients. For a 90-day program, they expect each client to lift a specific maximum weight each week. As the program goes along, the trainer records the actual maximum weights their clients lifted. They want to know how well their expectations met with what was observed.",
+     "solution": null,
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-760",
+     "problem": "df= ______",
+     "solution": "3",
+     "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]"
+    },
+    {
+     "id": "eip-503",
+     "problem": "State the null and alternative hypotheses.",
+     "solution": null,
+     "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]"
+    },
+    {
+     "id": "eip-462",
+     "problem": "χ2 test statistic = ______",
+     "solution": "2.04",
+     "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]"
+    },
+    {
+     "id": "eip-823",
+     "problem": "p-value = ______",
+     "solution": null,
+     "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]"
+    },
+    {
+     "id": "eip-873",
+     "problem": "At the 5% significance level, what can you conclude?",
+     "solution": "We decline to reject the null hypothesis. There is not enough evidence to suggest that the observed test scores are significantly different from the expected test scores.",
+     "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]"
+    },
+    {
+     "id": "fs-idm118784352",
+     "problem": "If the ethnicities of COVID-19 cases victims followed the ethnicities of the total county population, fill in the expected number of cases per ethnic group.\n\nPerform a goodness-of-fit test to determine whether the occurrence of COVID-19 cases follows the ethnicities of the general population of Santa Clara County.",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-806",
+     "problem": "H0: _______",
+     "solution": "H0: the distribution of COVID-19 cases follows the ethnicities of the general population of Santa Clara County.",
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-694",
+     "problem": "Ha: _______",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-502",
+     "problem": "Is this a right-tailed, left-tailed, or two-tailed test?",
+     "solution": "right-tailed",
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-619",
+     "problem": "degrees of freedom = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-575",
+     "problem": "χ2 test statistic = _______",
+     "solution": "2016.136",
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "element-64",
+     "problem": "p-value = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "fs-idp52863376",
+     "problem": "Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the p-value.\n\n[FIGURE]\n\nLet α = 0.05\n\nDecision: ________________\n\nReason for the Decision: ________________\n\nConclusion (write out in complete sentences): ________________",
+     "solution": "Graph: Answers may vary.\n\nDecision: Reject the null hypothesis.\n\nReason for the Decision: p-value < alpha\n\nConclusion (write out in complete sentences): The make-up of COVID-19 cases does not fit the ethnicities of the general population of Santa Clara County.",
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    },
+    {
+     "id": "exerciseoneserd",
+     "problem": "Does it appear that the pattern of COVID-19 cases in Santa Clara County corresponds to the distribution of ethnic groups in this county? Why or why not?",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]"
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp12253472",
+     "problem": "A six-sided die is rolled 120 times. Fill in the expected frequency column. Then, conduct a hypothesis test to determine if the die is fair. The data in are the result of the 120 rolls.\n\n[TABLE]\nFace Value | Frequency | Expected Frequency\n1 | 15 |\n2 | 29 |\n3 | 16 |\n4 | 15 |\n5 | 30 |\n6 | 15 |\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-340",
+     "problem": "The marital status distribution of the population of U.S. men, ages 15 and older, is as shown in .\n\n[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 |\nmarried | 56.1 |\nwidowed | 2.5 |\ndivorced/separated | 10.1 |\n[/TABLE]\n\nSuppose that a random sample of 400 U.S. young adults, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in , rounding to two decimal places.\n\n[TABLE]\nMarital Status | Frequency\nnever married | 140\nmarried | 238\nwidowed | 2\ndivorced/separated | 20\n[/TABLE]",
+     "solution": "[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 | 125.2\nmarried | 56.1 | 224.4\nwidowed | 2.5 | 10\ndivorced/separated | 10.1 | 40.4\n[/TABLE]\n\na. The data fits the distribution.\nb. The data does not fit the distribution.\nc. 3\nd. chi-square distribution with df = 3\ne. 19.27\nf. 0.0002\ng. Check student’s solution.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject null\niii. Reason for decision: p-value < alpha\niv. Conclusion: Data does not fit the distribution.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-683",
+     "problem": "Perform a goodness-of-fit test to determine whether the local results follow the distribution of the U.S. overall student population based on ethnicity.",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: The columns in contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]"
+    },
+    {
+     "id": "element-849",
+     "problem": "Perform a goodness-of-fit test to determine whether the local results follow the distribution of those that use mass transit, based on ethnicity.",
+     "solution": "a. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject null when a = 0.05\niii. Reason for Decision: p-value < alpha\niv. Conclusion: Local data do not fit the mass transit Distribution.\nv. Decision: Do not reject null when a = 0.01\nvi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit.",
+     "context": "Use the following information to answer the next two exercises: The columns in contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]"
+    },
+    {
+     "id": "element-371",
+     "problem": "The City of South Lake Tahoe, CA, has an Asian population of 1,419 people, out of a total population of 23,609. Suppose that a survey of 1,419 self-reported Asians in the Manhattan, NY, area yielded the data in . Conduct a goodness-of-fit test to determine if the self-reported sub-groups of Asians in the Manhattan area fit that of the Lake Tahoe area.\n\n[TABLE]\nRace | Lake Tahoe Frequency | Manhattan Frequency\nAsian Indian | 131 | 174\nChinese | 118 | 557\nFilipino | 1,045 | 518\nJapanese | 80 | 54\nKorean | 12 | 29\nVietnamese | 9 | 21\nOther | 24 | 66\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: The columns in contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]"
+    },
+    {
+     "id": "element-465",
+     "problem": "Conduct a goodness-of-fit test to determine if the actual college majors of graduating women fit the distribution of their expected majors.\n\n[TABLE]\nMajor | Women - Expected Major | Women - Actual Major\nArts & Humanities | 14.0% | 670\nBiological Sciences | 8.4% | 410\nBusiness | 13.1% | 685\nEducation | 13.0% | 650\nEngineering | 2.6% | 145\nPhysical Sciences | 2.6% | 125\nProfessional | 18.9% | 975\nSocial Sciences | 13.0% | 605\nTechnical | 0.4% | 15\nOther | 5.8% | 300\nUndecided | 8.0% | 420\n[/TABLE]",
+     "solution": "a. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Do not reject null when a = 0.05 and a = 0.01\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors.",
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding."
+    },
+    {
+     "id": "element-100",
+     "problem": "Conduct a goodness-of-fit test to determine if the actual college majors of graduating men fit the distribution of their expected majors.\n\n[TABLE]\nMajor | Men - Expected Major | Men - Actual Major\nArts & Humanities | 11.0% | 600\nBiological Sciences | 6.7% | 330\nBusiness | 22.7% | 1130\nEducation | 5.8% | 305\nEngineering | 15.6% | 800\nPhysical Sciences | 3.6% | 175\nProfessional | 9.3% | 460\nSocial Sciences | 7.6% | 370\nTechnical | 1.8% | 90\nOther | 8.2% | 400\nUndecided | 6.6% | 340\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding."
+    },
+    {
+     "id": "element-169",
+     "problem": "In a goodness-of-fit test, the expected values are the values we would expect if the null hypothesis were true.",
+     "solution": "true",
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-134",
+     "problem": "In general, if the observed values and expected values of a goodness-of-fit test are not close together, then the test statistic can get very large and on a graph will be way out in the right tail.",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-473",
+     "problem": "Use a goodness-of-fit test to determine if high school principals believe that students are absent equally during the week or not.",
+     "solution": "true",
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-266",
+     "problem": "The test to use to determine if a six-sided die is fair is a goodness-of-fit test.",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-516",
+     "problem": "In a goodness-of fit test, if the p-value is 0.0113, in general, do not reject the null hypothesis.",
+     "solution": "false",
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "eip-173",
+     "problem": "A sample of 212 commercial businesses was surveyed for recycling one commodity; a commodity here means any one type of recyclable material such as plastic or aluminum. shows the business categories in the survey, the sample size of each category, and the number of businesses in each category that recycle one commodity. Based on the study, on average half of the businesses were expected to be recycling one commodity. As a result, the last column shows the expected number of businesses in each category that recycle one commodity. At the 5% significance level, perform a hypothesis test to determine if the observed number of businesses that recycle one commodity follows the uniform distribution of the expected values.\n\n[TABLE]\nBusiness Type | Number in class | Observed Number that recycle one commodity | Expected number that recycle one commodity\nOffice | 35 | 19 | 17.5\nRetail/Wholesale | 48 | 27 | 24\nFood/Restaurants | 53 | 35 | 26.5\nManufacturing/Medical | 52 | 21 | 26\nHotel/Mixed | 24 | 9 | 12\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "eip-152",
+     "problem": "contains information from a survey among 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the USA. Perform a hypothesis test at the 5% significance level to determine whether the survey participants are a representative sample of the USA obese population.\n\n[TABLE]\nAge class (years) | Obese (percentage) | Expected USA average (percentage)\n20–30 | 15.0 | 32.6\n31–40 | 26.5 | 32.6\n41–50 | 13.6 | 36.6\n51–60 | 21.9 | 36.6\n61–70 | 21.0 | 39.7\n[/TABLE]",
+     "solution": "The hypotheses for the goodness-of-fit test are:\n\na. H0: Surveyed obese fit the distribution of expected obese\nb. Ha: Surveyed obese do not fit the distribution of expected obese\n\nUse a chi-square distribution with df = 4 to evaluate the data.\n\nThe test statistic is X2 = 9.85\n\nThe P-value = 0.0431\n\nAt 5% significance level, α = 0.05. For this data, P < α. Reject the null hypothesis.\n\nAt the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.",
+     "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false."
+    }
+   ],
+   "bring_together": [],
+   "summary": "To assess whether a data set fits a specific distribution, you can apply the goodness-of-fit hypothesis test that uses the chi-square distribution. The null hypothesis for this test states that the data come from the assumed distribution. The test compares observed values against the values you would expect to have if your data followed the assumed distribution. The test is almost always right-tailed. Each observation or cell category must have an expected value of at least five.",
+   "formula_review": "∑_{k}((O−E)^2)/E\ngoodness-of-fit test statistic where:\n\nO: observed values\n\nE: expected values\n\nk: number of different data cells or categories\n\ndf = k − 1 degrees of freedom",
+   "glossary": [],
+   "kind": "section",
+   "section": "11.2"
+  },
+  {
+   "id": "m47077",
+   "title": "Test of Independence",
+   "tryits": [
+    {
+     "id": "eip-298",
+     "problem": "A sample of 300 students is taken. Of the students surveyed, 50 were music students, while 250 were not. Ninety-seven were on the honor roll, while 203 were not. If we assume being a music student and being on the honor roll are independent events, what is the expected number of music students who are also on the honor roll?",
+     "solution": null,
+     "guideSolution": "About 16 students are expected to be music students and on the honor roll.",
+     "guideRef": "Try It 11.5"
+    },
+    {
+     "id": "eip-685",
+     "problem": "The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. shows the results:\n\n[TABLE]\nIndustry Sector | 2000 | 2010 | 2020 | Total\nNonagriculture wage and salary | 13,243 | 13,044 | 15,018 | 41,305\nGoods-producing, excluding agriculture | 2,457 | 1,771 | 1,950 | 6,178\nServices-providing | 10,786 | 11,273 | 13,068 | 35,127\nAgriculture, forestry, fishing, and hunting | 240 | 214 | 201 | 655\nNonagriculture self-employed and unpaid family worker | 931 | 894 | 972 | 2,797\nSecondary wage and salary jobs in agriculture and private household industries | 14 | 11 | 11 | 36\nSecondary jobs as a self-employed or unpaid family worker | 196 | 144 | 152 | 492\nTotal | 27,867 | 27,351 | 31,372 | 86,590\n[/TABLE]\n\nWe want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.",
+     "solution": null,
+     "guideSolution": "H0 : The number of jobs is independent of the year.\nHa : The number of jobs is dependent on the year.df = 12\nPress the MATRX key and arrow over to EDIT. Press 1:[A]. Press 3 ENTER 3 ENTER. Enter the table values by row. Press ENTER after each. Press 2nd QUIT. Press STATand arrow over to TESTS. Arrow down to C:χ2-TEST. Press ENTER. You should see Observed:[A] and Expected:[B]. Arrow down to Calculate. Press ENTER. The test statistic is 227.73 and the p−value = 5.90E - 42 = 0. Do the procedure a second time but arrow down to Draw instead of calculate.",
+     "guideRef": "Try It 11.6"
+    },
+    {
+     "id": "eip-358",
+     "problem": "Refer back to the information in . How many service providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?",
+     "solution": null,
+     "guideSolution": "12,727, 14,965",
+     "guideRef": "Try It 11.7"
+    }
+   ],
+   "examples": [
+    "Suppose A = a speeding violation in the last year and B = a cell phone user while driving. If A and B are independent then P(A AND B) = P(A)P(B). A AND B is the event that a driver received a speeding violation last year and also used a cell phone while driving. Suppose, in a study of drivers who received speeding violations in the last year, and who used cell phone while driving, that 755 people were surveyed. Out of the 755, 70 had a speeding violation and 685 did not; 305 used cell phones while driving and 450 did not.\n\nLet y = expected number of drivers who used a cell phone while driving and received speeding violations.\n\nIf A and B are independent, then P(A AND B) = P(A)P(B). By substitution,\n\ny/755=(70/755)(305/755)\n\nSolve for y: y = ((70)(305))/755=28.3\n\nAbout 28 people from the sample are expected to use cell phones while driving and to receive speeding violations.\n\nIn a test of independence, we state the null and alternative hypotheses in words. Since the contingency table consists of two factors, the null hypothesis states that the factors are independent and the alternative hypothesis states that they are not independent (dependent). If we do a test of independence using the example, then the null hypothesis is:\n\nH0: Being a cell phone user while driving and receiving a speeding violation are independent events.\n\nIf the null hypothesis were true, we would expect about 28 people to use cell phones while driving and to receive a speeding violation.\n\nThe test of independence is always right-tailed because of the calculation of the test statistic. If the expected and observed values are not close together, then the test statistic is very large and way out in the right tail of the chi-square curve, as it is in a goodness-of-fit.\n\nThe number of degrees of freedom for the test of independence is:\n\ndf = (number of columns - 1)(number of rows - 1)\n\nThe following formula calculates the expected number (E):\n\nE=((row total)(column total))/(total number surveyed)",
+    "In a volunteer group, adults 21 and older volunteer from one to nine hours each week to spend time with a disabled senior citizen. The program recruits among community college students, four-year college students, and nonstudents. In is a sample of the adult volunteers and the number of hours they volunteer per week.\n\n[TABLE]\nType of Volunteer | 1–3 Hours | 4–6 Hours | 7–9 Hours | Row Total\nCommunity College Students | 111 | 96 | 48 | 255\nFour-Year College Students | 96 | 133 | 61 | 290\nNonstudents | 91 | 150 | 53 | 294\nColumn Total | 298 | 379 | 162 | 839\n[/TABLE]\n\nIs the number of hours volunteered independent of the type of volunteer?\n\nThe observed table and the question at the end of the problem, \"Is the number of hours volunteered independent of the type of volunteer?\" tell you this is a test of independence. The two factors are number of hours volunteered and type of volunteer. This test is always right-tailed.\n\nH0: The number of hours volunteered is independent of the type of volunteer.\n\nHa: The number of hours volunteered is dependent on the type of volunteer.\n\nThe expected results are in .\n\n[TABLE]\nType of Volunteer | 1-3 Hours | 4-6 Hours | 7-9 Hours\nCommunity College Students | 90.57 | 115.19 | 49.24\nFour-Year College Students | 103.00 | 131.00 | 56.00\nNonstudents | 104.42 | 132.81 | 56.77\n[/TABLE]\n\nFor example, the calculation for the expected frequency for the top left cell is\n\nE=((row total)(column total))/(total number surveyed)=((255)(298))/839=90.57\n\nCalculate the test statistic: χ2 = 12.99 (calculator or computer)\n\nDistribution for the test:χ_4^2\n\ndf = (3 columns – 1)(3 rows – 1) = (2)(2) = 4\n\nGraph:\n\n[FIGURE]\nProbability statement: p-value=P(χ2 > 12.99) = 0.0113\n\nCompare α and the p-value: Since no α is given, assume α = 0.05. p-value = 0.0113. α > p-value.\n\nMake a decision: Since α > p-value, reject H0. This means that the factors are not independent.\n\nConclusion: At a 5% level of significance, from the data, there is sufficient evidence to conclude that the number of hours volunteered and the type of volunteer are dependent on one another.\n\nFor the example in , if there had been another type of volunteer, teenagers, what would the degrees of freedom be?\n\nPress the MATRX key and arrow over to EDIT. Press 1:[A]. Press 3 ENTER 3 ENTER. Enter the table values by row from . Press ENTER after each. Press 2nd QUIT. Press STAT and arrow over to TESTS. Arrow down to C:χ2-TEST. Press ENTER. You should see Observed:[A] and Expected:[B]. If necessary, use the arrow keys to move the cursor after Observed: and press 2nd MATRX. Press 1:[A] to select matrix A. It is not necessary to enter expected values. The matrix listed after Expected: can be blank. Arrow down to Calculate. Press ENTER. The test statistic is 12.9909 and the p-value = 0.0113. Do the procedure a second time, but arrow down to Draw instead of calculate.",
+    "De Anza College is interested in the relationship between anxiety level\nand the need to succeed in school. A random sample of 400 students took a test that measured\nanxiety level and need to succeed in school. shows the\nresults. De Anza College wants to know if anxiety level and need to succeed in school are\nindependent events.\n\n[TABLE]\nNeed to Succeed in School | High\nAnxiety | Med-high\nAnxiety | Medium\nAnxiety | Med-low\nAnxiety | Low\nAnxiety | Row Total\nHigh Need | 35 | 42 | 53 | 15 | 10 | 155\nMedium Need | 18 | 48 | 63 | 33 | 31 | 193\nLow Need | 4 | 5 | 11 | 15 | 17 | 52\nColumn Total | 57 | 95 | 127 | 63 | 58 | 400\n[/TABLE]\n\na. How many high anxiety level students are expected to have a high\nneed to succeed in school?\n\na. The column total for a high anxiety level is 57. The row total\nfor high need to succeed in school is 155. The sample size or total surveyed is 400.\n\nE=((row total)(column total))/(total surveyed)=(155⋅57)/400=22.09\n\nThe expected number of students who have a high anxiety level and a\nhigh need to succeed in school is about 22.\n\nb. If the two variables are independent, how many students do you\nexpect to have a low need to succeed in school and a med-low level of anxiety?\n\nb. The column total for a med-low anxiety level is 63. The row\ntotal for a low need to succeed in school is 52. The sample size or total surveyed is\n400.\n\nE=((row total)(column total))/(total surveyed) = 8.19\n\nThe expected number of students who have a low need to succeed in school and a\nmed-low level of anxiety is 8."
+   ],
+   "practice": [
+    {
+     "id": "eip-643",
+     "problem": "A pharmaceutical company is interested in the relationship between age and presentation of symptoms for a common viral infection. A random sample is taken of 500 people with the infection across different age groups.",
+     "solution": "a test of independence",
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-703",
+     "problem": "The owner of a baseball team is interested in the relationship between player salaries and team winning percentage. They take a random sample of 100 players from different organizations.",
+     "solution": null,
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-46",
+     "problem": "A marathon runner is interested in the relationship between the brand of shoes runners wear and their run times. They take a random sample of 50 runners and records their run times as well as the brand of shoes they were wearing.",
+     "solution": "a test of independence",
+     "context": "Determine the appropriate test to be used in the next three exercises."
+    },
+    {
+     "id": "eip-919",
+     "problem": "State the hypotheses.\n\nH0: _______\n\nHa: _______",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-304",
+     "problem": "df = _______",
+     "solution": "8",
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-276",
+     "problem": "How many passengers are expected to travel between 201 and 300 miles and purchase second-class tickets?",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-870",
+     "problem": "How many passengers are expected to travel between 401 and 500 miles and purchase first-class tickets?",
+     "solution": "6.6",
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-364",
+     "problem": "What is the test statistic?",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-811",
+     "problem": "What is the p-value?",
+     "solution": "0.0435",
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "eip-629",
+     "problem": "What can you conclude at the 5% level of significance?",
+     "solution": null,
+     "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]"
+    },
+    {
+     "id": "fs-idm12518016",
+     "problem": "Complete the table.\n[TABLE]\nSmoking Level Per Day | Black | Native Hawaiian | Hispanic/Latino | Japanese American | White | TOTALS\n1-10 | | | | | |\n11-20 | | | | | |\n21-30 | | | | | |\n31+ | | | | | |\nTOTALS | | | | | |\n[/TABLE]",
+     "solution": "[TABLE]\nSmoking Level Per Day | Black | Native Hawaiian | Hispanic/Latino | Japanese | White | Totals\n1-10 | 9,886 | 2,745 | 12,831 | 8,378 | 7,650 | 41,490\n11-20 | 6,514 | 3,062 | 4,932 | 10,680 | 9,877 | 35,065\n21-30 | 1,671 | 1,419 | 1,406 | 4,715 | 6,062 | 15,273\n31+ | 759 | 788 | 800 | 2,305 | 3,970 | 8,622\nTotals | 18,830 | 8,014 | 19,969 | 26,078 | 27,559 | 10,0450\n[/TABLE]",
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "fs-idp51845072",
+     "problem": "State the hypotheses.\n\nH0: _______\n\nHa: _______",
+     "solution": null,
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "fs-idp153986240",
+     "problem": "Enter expected values in . Round to two decimal places.\n\nCalculate the following values:",
+     "solution": "[TABLE]\nSmoking Level Per Day | Black | Native Hawaiian | Hispanic/Latino | Japanese | White\n1-10 | 7777.57 | 3310.11 | 8248.02 | 10771.29 | 11383.01\n11-20 | 6573.16 | 2797.52 | 6970.76 | 9103.29 | 9620.27\n21-30 | 2863.02 | 1218.49 | 3036.20 | 3965.05 | 4190.23\n31+ | 1616.25 | 687.87 | 1714.01 | 2238.37 | 2365.49\n[/TABLE]",
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-180",
+     "problem": "df = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-607",
+     "problem": "χ^2 test statistic = ______",
+     "solution": "10,301.8",
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-151",
+     "problem": "p-value = ______",
+     "solution": null,
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-526",
+     "problem": "Is this a right-tailed, left-tailed, or two-tailed test? Explain why.",
+     "solution": "right",
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-651",
+     "problem": "Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade in the region corresponding to the p-value.\n\n[FIGURE]",
+     "solution": null,
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people."
+    },
+    {
+     "id": "element-90",
+     "problem": "α = 0.05\n\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________",
+     "solution": "a. Reject the null hypothesis.\nb. p-value < alpha\nc. There is sufficient evidence to conclude that smoking level is dependent on ethnic group.",
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.\nState the decision and conclusion (in a complete sentence) for the following preconceived levels of α."
+    },
+    {
+     "id": "element-56",
+     "problem": "α = 0.01\n\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________",
+     "solution": null,
+     "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.\nState the decision and conclusion (in a complete sentence) for the following preconceived levels of α."
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-241",
+     "problem": "A recent debate about where in the United States skiers believe the skiing is best prompted the following survey. Test to see if the best ski area is independent of the level of the skier.\n\n[TABLE]\nU.S. Ski Area | Beginner | Intermediate | Advanced\nTahoe | 20 | 30 | 40\nUtah | 10 | 30 | 60\nColorado | 10 | 40 | 50\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "fs-idm133556096",
+     "problem": "Car manufacturers are interested in whether there is a relationship between the size of car an individual drives and the number of people in the driver’s family (that is, whether car size and family size are independent). To test this, suppose that 800 car owners were randomly surveyed with the results in . Conduct a test of independence.\n\n[TABLE]\nFamily Size | Sub & Compact | Mid-size | Full-size | Van & Truck\n1 | 20 | 35 | 40 | 35\n2 | 20 | 50 | 70 | 80\n3–4 | 20 | 50 | 100 | 90\n5+ | 20 | 30 | 70 | 70\n[/TABLE]",
+     "solution": "a. H0: Car size is independent of family size.\nb. Ha: Car size is dependent on family size.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.8284\nf. p-value = 0.0706\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-650",
+     "problem": "College students may be interested in whether or not their majors have any effect on starting salaries after graduation. Suppose that 300 recent graduates were surveyed as to their majors in college and their starting salaries after graduation. shows the data. Conduct a test of independence.\n\n[TABLE]\nMajor | < $50,000 | $50,000 – $68,999 | $69,000 +\nEnglish | 5 | 20 | 5\nEngineering | 10 | 30 | 60\nNursing | 10 | 15 | 15\nBusiness | 10 | 20 | 30\nPsychology | 20 | 30 | 20\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-8d1",
+     "problem": "Some travel agents claim that honeymoon hot spots vary according to age of the bride. Suppose that 280 recent brides were interviewed as to where they spent their honeymoons. The information is given in . Conduct a test of independence.\n\n[TABLE]\nLocation | 20–29 | 30–39 | 40–49 | 50 and over\nNiagara Falls | 15 | 25 | 25 | 20\nPoconos | 15 | 25 | 25 | 10\nEurope | 10 | 25 | 15 | 5\nVirgin Islands | 20 | 25 | 15 | 5\n[/TABLE]",
+     "solution": "a. H0: Honeymoon locations are independent of bride’s age.\nb. Ha: Honeymoon locations are dependent on bride’s age.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.7027\nf. p-value = 0.0734\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-656",
+     "problem": "A manager of a sports club keeps information concerning the main sport in which members participate and their ages. To test whether there is a relationship between the age of a member and their choice of sport, 643 members of the sports club are randomly selected. Conduct a test of independence.\n\n[TABLE]\nSport | 18 - 25 | 26 - 30 | 31 - 40 | 41 and over\nracquetball | 42 | 58 | 30 | 46\ntennis | 58 | 76 | 38 | 65\nswimming | 72 | 60 | 65 | 33\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "fs-idm153473104",
+     "problem": "A major food manufacturer is concerned that the sales for its skinny french fries have been decreasing. As a part of a feasibility study, the company conducts research into the types of fries sold across the country to determine if the type of fries sold is independent of the area of the country. The results of the study are shown in . Conduct a test of independence.\n\n[TABLE]\nType of Fries | Northeast | South | Central | West\nskinny fries | 70 | 50 | 20 | 25\ncurly fries | 100 | 60 | 15 | 30\nsteak fries | 20 | 40 | 10 | 10\n[/TABLE]",
+     "solution": "a. H0: The types of fries sold are independent of the location.\nb. Ha: The types of fries sold are dependent on the location.\nc. df = 6\nd. chi-square distribution with df = 6\ne. test statistic =18.8369\nf. p-value = 0.0044\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-598",
+     "problem": "According to Dan Lenard, an independent insurance agent in the Buffalo, N.Y. area, the following is a breakdown of the amount of life insurance purchased by men in the following age groups. He is interested in whether the age of the man and the amount of life insurance purchased are independent events. Conduct a test for independence.\n\n[TABLE]\nAge of Men | None | < $200,000 | $200,000–$400,000 | $401,001–$1,000,000 | $1,000,001+\n20–29 | 40 | 15 | 40 | 0 | 5\n30–39 | 35 | 5 | 20 | 20 | 10\n40–49 | 20 | 0 | 30 | 0 | 30\n50+ | 40 | 30 | 15 | 15 | 10\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-619",
+     "problem": "Suppose that 600 thirty-year-olds were surveyed to determine whether or not there is a relationship between the level of education an individual has and salary. Conduct a test of independence.\n\n[TABLE]\nAnnual Salary | Not a high school graduate | High school graduate | College graduate | Masters or doctorate\n< $30,000 | 15 | 25 | 10 | 5\n$30,000–$40,000 | 20 | 40 | 70 | 30\n$40,000–$50,000 | 10 | 20 | 40 | 55\n$50,000–$60,000 | 5 | 10 | 20 | 60\n$60,000+ | 0 | 5 | 10 | 150\n[/TABLE]",
+     "solution": "a. H0: Salary is independent of level of education.\nb. Ha: Salary is dependent on level of education.\nc. df = 12\nd. chi-square distribution with df = 12\ne. test statistic = 255.7704\nf. p-value = 0\ng. Answers may vary.\nh.\n\nAlpha: 0.05\n\nDecision: Reject the null hypothesis.\n\nReason for decision: p-value < alpha\n\nConclusion: At the 5% significance level, there is sufficient evidence to conclude that salary and level of education are dependent.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-926",
+     "problem": "The number of degrees of freedom for a test of independence is equal to the sample size minus one.",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-688",
+     "problem": "The test for independence uses tables of observed and expected data values.",
+     "solution": "true",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-786",
+     "problem": "The test to use when determining if the college or university a student chooses to attend is related to their socioeconomic status is a test for independence.",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "element-266",
+     "problem": "In a test of independence, the expected number is equal to the row total multiplied by the column total divided by the total surveyed.",
+     "solution": "true",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "eip-573",
+     "problem": "An ice cream maker performs a nationwide survey about favorite flavors of ice cream in different geographic areas of the U.S. Based on , do the numbers suggest that geographic location is independent of favorite ice cream flavors? Test at the 5% significance level.\n\n[TABLE]\nU.S. region/Flavor | Strawberry | Chocolate | Vanilla | Rocky Road | Mint Chocolate Chip | Pistachio | Row total\nWest | 12 | 21 | 22 | 19 | 15 | 8 | 97\nMidwest | 10 | 32 | 22 | 11 | 15 | 6 | 96\nEast | 8 | 31 | 27 | 8 | 15 | 7 | 96\nSouth | 15 | 28 | 30 | 8 | 15 | 6 | 102\nColumn Total | 45 | 112 | 101 | 46 | 60 | 27 | 391\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "eip-640",
+     "problem": "provides a recent survey of the youngest online entrepreneurs whose net worth is estimated at one million dollars or more. Their ages range from 17 to 30. Each cell in the table illustrates the number of entrepreneurs who correspond to the specific age group and their net worth. Are the ages and net worth independent? Perform a test of independence at the 5% significance level.\n\n[TABLE]\nAge Group\\ Net Worth Value (in millions of US dollars) | 1–5 | 6–24 | ≥25 | Row Total\n17–25 | 8 | 7 | 5 | 20\n26–30 | 6 | 5 | 9 | 20\nColumn Total | 14 | 12 | 14 | 40\n[/TABLE]",
+     "solution": "a. H0: Age is independent of the youngest online entrepreneurs’ net worth.\nb. Ha: Age is dependent on the net worth of the youngest online entrepreneurs.\nc. df = 2\nd. chi-square distribution with df = 2\ne. test statistic = 1.76\nf. p-value 0.4144\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent.",
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    },
+    {
+     "id": "eip-433",
+     "problem": "A 2013 poll in California surveyed people about taxing sugar-sweetened beverages. The results are presented in , and are classified by ethnic group and response type. Are the poll responses independent of the participants’ ethnic group? Conduct a test of independence at the 5% significance level.\n\n[TABLE]\nOpinion/Ethnicity | Asian-American | White/Non-Hispanic | Black | Hispanic/Latino | Row Total\nAgainst tax | 48 | 433 | 41 | 160 | 682\nIn Favor of tax | 54 | 234 | 24 | 147 | 459\nNo opinion | 16 | 43 | 16 | 19 | 94\nColumn Total | 118 | 710 | 81 | 326 | 1235\n[/TABLE]",
+     "solution": null,
+     "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    }
+   ],
+   "bring_together": [],
+   "summary": "To assess whether two factors are independent or not, you can apply the test of independence that uses the chi-square distribution. The null hypothesis for this test states that the two factors are independent. The test compares observed values to expected values. The test is right-tailed. Each observation or cell category must have an expected value of at least 5.",
+   "formula_review": "• The number of degrees of freedom is equal to (number of columns - 1)(number of rows - 1).\n• The test statistic is\nΣ_{(i⋅j)}((O–E)^2)/E where\nO = observed values,\nE = expected values,\ni = the number of rows in the\ntable, and\nj = the number of columns in\nthe table.\n\n• If the null hypothesis is true, the expected number\nE=((row total)(column total))/(total surveyed).",
+   "glossary": [
+    {
+     "term": "Contingency Table",
+     "meaning": "a table that displays sample values for two different factors that may be dependent or contingent on one another; it facilitates determining conditional probabilities."
+    }
+   ],
+   "kind": "section",
+   "section": "11.3"
+  },
+  {
+   "id": "m47091",
+   "title": "Test for Homogeneity",
+   "tryits": [
+    {
+     "id": "eip-976",
+     "problem": "Do families and singles have the same distribution of cars? Use a level of significance of 0.05. Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.\n\n[TABLE]\n| Sport | Sedan | Hatchback | Truck | Van/SUV\nFamily | 5 | 15 | 35 | 17 | 28\nSingle | 45 | 65 | 37 | 46 | 7\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "With a p-value of almost zero, we reject the null hypothesis. The data show that the distribution of cars is not the same for families and singles.",
+     "guideRef": "Try It 11.8"
+    },
+    {
+     "id": "eip-680",
+     "problem": "Ivy League schools receive many applications, but only some can be accepted. At the schools listed in , two types of applications are accepted: regular and early decision.\n\n[TABLE]\nApplication Type Accepted | Brown | Columbia | Cornell | Dartmouth | Penn | Yale\nRegular | 2,115 | 1,792 | 5,306 | 1,734 | 2,685 | 1,245\nEarly Decision | 577 | 627 | 1,228 | 444 | 1,195 | 761\n[/TABLE]\n\nWe want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the p-value, and draw a conclusion about the test of homogeneity.",
+     "solution": null,
+     "guideSolution": "H0 : The distribution of regular applications accepted is the same as the distribution of early applications accepted.\nHa : The distribution of regular applications accepted is not the same as the distribution of early applications accepted. df = 5 χ2 test statistic = 430.06\nFigure 26\nPress the MATRX key and arrow over to EDIT. Press 1:[A]. Press 3 ENTER 3 ENTER. Enter the table values by row. Press ENTER after each. Press 2nd QUIT. Press STAT and arrow over to TESTS. Arrow down toC:χ2-TEST. Press ENTER. You should see Observed:[A] and Expected:[B]. Arrow down to Calculate. Press ENTER. The test statistic is 430.06 and the p-value = 9.80E-91. Do the procedure a second time but arrow down to Draw instead of calculate.\nSection 6. Test of a Single Variance",
+     "guideRef": "Try It 11.9"
+    }
+   ],
+   "examples": [
+    "Do men and women college students have the same distribution of living arrangements? Use a level of significance of 0.05. Suppose that 250 randomly selected men college students and 300 randomly selected women college students were asked about their living arrangements: dormitory, apartment, with parents, other. The results are shown in . Do male and female college students have the same distribution of living arrangements?\n\n[TABLE]\n| Dormitory | Apartment | With Parents | Other\nMen | 72 | 84 | 49 | 45\nWomen | 91 | 86 | 88 | 35\n[/TABLE]\n\nH0: The distribution of living arrangements for men college students is the same as the distribution of living arrangements for women college students.\n\nHa: The distribution of living arrangements for men college students is not the same as the distribution of living arrangements for women college students.\n\nDegrees of Freedom (df):\ndf = number of columns – 1 = 4 – 1 = 3\n\nDistribution for the test:χ_3^2\n\nCalculate the test statistic: χ2 = 10.1287 (calculator or computer)\n\nProbability statement: p-value = P(χ2 >10.1287) = 0.0175\n\nPress the MATRX key and arrow over to EDIT. Press 1:[A]. Press 2 ENTER 4 ENTER. Enter the table values by row. Press ENTER after each. Press 2nd QUIT. Press STAT and arrow over to TESTS. Arrow down to C:χ2-TEST. Press ENTER. You should see Observed:[A] and Expected:[B]. Arrow down to Calculate. Press ENTER. The test statistic is 10.1287 and the p-value = 0.0175. Do the procedure a second time but arrow down to Draw instead of calculate.\n\nCompare α and the p-value: Since no α is given, assume α = 0.05. p-value = 0.0175. α > p-value.\n\nMake a decision: Since α > p-value, reject H0. This means that the distributions are not the same.\n\nConclusion: At a 5% level of significance, from the data, there is sufficient evidence to conclude that the distributions of living arrangements for men and women college students are not the same.\n\nNotice that the conclusion is only that the distributions are not the same. We cannot use the test for homogeneity to draw any conclusions about how they differ.",
+    "Both before and after a recent earthquake, surveys were conducted asking voters which of the three candidates they planned on voting for in the upcoming city council election. Has there been a change since the earthquake? Use a level of significance of 0.05. shows the results of the survey. Has there been a change in the distribution of voter preferences since the earthquake?\n\n[TABLE]\n| Perez | Chung | Stevens\nBefore | 167 | 128 | 135\nAfter | 214 | 197 | 225\n[/TABLE]\n\nH0: The distribution of voter preferences was the same before and after the earthquake.\n\nHa: The distribution of voter preferences was not the same before and after the earthquake.\n\nDegrees of Freedom (df):\ndf = number of columns – 1 = 3 – 1 = 2\n\nDistribution for the test: χ_2^2\n\nCalculate the test statistic: χ2 = 3.2603 (calculator or computer)\n\nProbability statement: p-value=P(χ2 > 3.2603) = 0.1959\n\nPress the MATRX key and arrow over to EDIT. Press 1:[A]. Press 2 ENTER 3 ENTER. Enter the table values by row. Press ENTER after each. Press 2nd QUIT. Press STAT and arrow over to TESTS. Arrow down to C:χ2-TEST. Press ENTER. You should see Observed:[A] and Expected:[B]. Arrow down to Calculate. Press ENTER. The test statistic is 3.2603 and the p-value = 0.1959. Do the procedure a second time but arrow down to Draw instead of calculate.\n\nCompare α and the p-value: α = 0.05 and the p-value = 0.1959. α < p-value.\n\nMake a decision: Since α < p-value, do not reject Ho.\n\nConclusion: At a 5% level of significance, from the data, there is insufficient evidence to conclude that the distribution of voter preferences was not the same before and after the earthquake."
+   ],
+   "practice": [
+    {
+     "id": "eip-134",
+     "problem": "A math teacher wants to see if two of their classes have the same distribution of test scores. What test should they use?",
+     "solution": "test for homogeneity"
+    },
+    {
+     "id": "eip-861",
+     "problem": "What are the null and alternative hypotheses for ?",
+     "solution": null
+    },
+    {
+     "id": "eip-854",
+     "problem": "A market researcher wants to see if two different stores have the same distribution of sales throughout the year. What type of test should they use?",
+     "solution": "test for homogeneity"
+    },
+    {
+     "id": "eip-670",
+     "problem": "A meteorologist wants to know if East and West Australia have the same distribution of storms. What type of test should they use?",
+     "solution": null
+    },
+    {
+     "id": "eip-168",
+     "problem": "What condition must be met to use the test for homogeneity?",
+     "solution": "All values in the table must be greater than or equal to five."
+    },
+    {
+     "id": "eip-347",
+     "problem": "State the null and alternative hypotheses.",
+     "solution": null,
+     "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]"
+    },
+    {
+     "id": "eip-735",
+     "problem": "df = _______",
+     "solution": "3",
+     "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]"
+    },
+    {
+     "id": "eip-906",
+     "problem": "What is the test statistic?",
+     "solution": null,
+     "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]"
+    },
+    {
+     "id": "eip-696",
+     "problem": "What is the p-value?",
+     "solution": "0.00005",
+     "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]"
+    },
+    {
+     "id": "eip-393",
+     "problem": "What can you conclude at the 5% significance level?",
+     "solution": null,
+     "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]"
+    }
+   ],
+   "homework": [
+    {
+     "id": "eip-533",
+     "problem": "A psychologist is interested in testing whether there is a difference in the distribution of personality types for business majors and social science majors. The results of the study are shown in . Conduct a test of homogeneity. Test at a 5% level of significance.\n\n[TABLE]\n| Open | Conscientious | Extrovert | Agreeable | Neurotic\nBusiness | 41 | 52 | 46 | 61 | 58\nSocial Science | 72 | 75 | 63 | 80 | 65\n[/TABLE]",
+     "solution": "a. H0: The distribution for personality types is the same for both majors\nb. Ha: The distribution for personality types is not the same for both majors\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 3.01\nf. p-value = 0.5568\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors.",
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-302",
+     "problem": "Do men and women select different breakfasts? The breakfasts ordered by randomly selected men and women at a popular breakfast place is shown in . Conduct a test for homogeneity at a 5% level of significance.\n\n[TABLE]\n| French Toast | Pancakes | Waffles | Omelettes\nMen | 47 | 35 | 28 | 53\nWomen | 65 | 59 | 55 | 60\n[/TABLE]",
+     "solution": null,
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-561",
+     "problem": "A fish and wildlife technician is interested in whether the distribution of fish caught in Green Valley Lake is the same as the distribution of fish caught in Echo Lake. Of the 191 randomly selected fish caught in Green Valley Lake, 105 were rainbow trout, 27 were other trout, 35 were bass, and 24 were catfish. Of the 293 randomly selected fish caught in Echo Lake, 115 were rainbow trout, 58 were other trout, 67 were bass, and 53 were catfish. Perform a test for homogeneity at a 5% level of significance.",
+     "solution": "a. H0: The distribution for fish caught is the same in Green Valley Lake and in Echo Lake.\nb. Ha: The distribution for fish caught is not the same in Green Valley Lake and in Echo Lake.\nc. 3\nd. chi-square with df = 3\ne. 11.75\nf. p-value = 0.0083\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo Lake",
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-495",
+     "problem": "In a recent year, the United States had 1.5 million homeschooled students, according to the U.S. National Center for Education Statistics. In you can see that parents decide to homeschool their children for different reasons, and some reasons are ranked by parents as more important than others. According to the survey results shown in the table, is the distribution of applicable reasons the same as the distribution of the most important reason? Provide your assessment at the 5% significance level. Did you expect the result you obtained?\n\n[TABLE]\nReasons for Homeschooling | Applicable Reason (in thousands of respondents) | Most Important Reason (in thousands of respondents) | Row Total\nConcern about the environment of other schools | 1,321 | 309 | 1,630\nDissatisfaction with academic instruction at other schools | 1,096 | 258 | 1,354\nTo provide religious or moral instruction | 1,257 | 540 | 1,797\nChild has special needs, other than physical or mental | 315 | 55 | 370\nNontraditional approach to child’s education | 984 | 99 | 1,083\nOther reasons (e.g., finances, travel, family time, etc.) | 485 | 216 | 701\nColumn Total | 5,458 | 1,477 | 6,935\n[/TABLE]",
+     "solution": null,
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-316",
+     "problem": "When looking at energy consumption, we are often interested in detecting trends over time and how they correlate among different countries. The information in shows the average energy use (in units of kg of oil equivalent per capita) in the USA and the joint European Union countries (EU) for a specific six-year period. Do the energy use values in these two areas come from the same distribution? Perform the analysis at the 5% significance level.\n\n[TABLE]\nYear | European Union | United States | Row Total\n6 | 3,413 | 7,164 | 10,557\n5 | 3,302 | 7,057 | 10,359\n4 | 3,505 | 7,488 | 10,993\n3 | 3,537 | 7,758 | 11,295\n2 | 3,595 | 7,697 | 11,292\n1 | 3,613 | 7,847 | 11,460\nColumn Total | 20,965 | 45,011 | 65,976\n[/TABLE]",
+     "solution": "a. H0: The distribution of average energy use in the USA is the same as in Europe between Year 1 and Year 6.\nb. Ha: The distribution of average energy use in the USA is not the same as in Europe between Year 1 and Year 6.\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 2.7434\nf. p-value = 0.7395\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6.",
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-653",
+     "problem": "The Insurance Institute for Highway Safety collects safety information about all types of cars every year, and publishes a report of Top Safety Picks among all cars, makes, and models. presents the number of Top Safety Picks in six car categories for two specific years. Analyze the table data to conclude Year 1 and Year 2. Derive your results at the 5% significance level.\n\n[TABLE]\nYear \\ Car Type | Small | Mid-Size | Large | Small SUV | Mid-Size SUV | Large SUV | Row Total\nYear 1 | 12 | 22 | 10 | 10 | 27 | 6 | 87\nYear 2 | 31 | 30 | 19 | 11 | 29 | 4 | 124\nColumn Total | 43 | 52 | 29 | 21 | 56 | 10 | 211\n[/TABLE]",
+     "solution": null,
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    }
+   ],
+   "bring_together": [],
+   "summary": "To assess whether two data sets are derived from the same distribution—which need not be known, you can apply the test for homogeneity that uses the chi-square distribution. The null hypothesis for this test states that the populations of the two data sets come from the same distribution. The test compares the observed values against the expected values if the two populations followed the same distribution. The test is right-tailed. Each observation or cell category must have an expected value of at least five.",
+   "formula_review": "∑_{i⋅j}((O−E)^2)/E Homogeneity test statistic where: O = observed values\nE = expected values\ni = number of rows in data contingency table\nj = number of columns in data contingency table\n\ndf = (i −1)(j −1) Degrees of freedom",
+   "glossary": [],
+   "kind": "section",
+   "section": "11.4"
+  },
+  {
+   "id": "m47082",
+   "title": "Comparison of the Chi-Square Tests",
+   "tryits": [],
+   "examples": [],
+   "practice": [
+    {
+     "id": "eip-117",
+     "problem": "Which test do you use to decide whether an observed distribution is the same as an expected distribution?",
+     "solution": "a goodness-of-fit test"
+    },
+    {
+     "id": "eip-610",
+     "problem": "What is the null hypothesis for the type of test from ?",
+     "solution": null
+    },
+    {
+     "id": "eip-541",
+     "problem": "Which test would you use to decide whether two factors have a relationship?",
+     "solution": "a test for independence"
+    },
+    {
+     "id": "eip-795",
+     "problem": "Which test would you use to decide if two populations have the same distribution?",
+     "solution": null
+    },
+    {
+     "id": "eip-506",
+     "problem": "How are tests of independence similar to tests for homogeneity?",
+     "solution": "Answers will vary. Sample answer: Tests of independence and tests for homogeneity both calculate the test statistic the same way ∑_{(ij)}((O-E)^2)/E. In addition, all values must be greater than or equal to five."
+    },
+    {
+     "id": "eip-206",
+     "problem": "How are tests of independence different from tests for homogeneity?",
+     "solution": null
+    }
+   ],
+   "homework": [
+    {
+     "id": "eip-519",
+     "problem": "Is there a difference between the distribution of community college statistics students and the distribution of university statistics students in what technology they use on their homework? Of some randomly selected community college students, 43 used a computer, 102 used a calculator with built in statistics functions, and 65 used a table from the textbook. Of some randomly selected university students, 28 used a computer, 33 used a calculator with built in statistics functions, and 40 used a table from the textbook. Conduct an appropriate hypothesis test using a 0.05 level of significance.",
+     "solution": "a. H0: The distribution for technology use is the same for community college students and university students.\nb. Ha: The distribution for technology use is not the same for community college students and university students.\nc. 2\nd. chi-square with df = 2\ne. 7.05\nf. p-value = 0.0294\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities.",
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-963",
+     "problem": "If df = 2, the chi-square distribution has a shape that reminds us of the exponential.",
+     "solution": null,
+     "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false."
+    }
+   ],
+   "bring_together": [
+    {
+     "id": "element-728",
+     "problem": "a. Explain why a goodness-of-fit test and a test of independence are generally right-tailed tests.\nb. If you did a left-tailed test, what would you be testing?",
+     "solution": "a. The test statistic is always positive and if the expected and observed values are not close together, the test statistic is large and the null hypothesis will be rejected.\nb. Testing to see if the data fits the distribution “too well” or is too perfect."
+    }
+   ],
+   "summary": "The goodness-of-fit test is typically used to determine if data fits a particular distribution. The test of independence makes use of a contingency table to determine the independence of two factors. The test for homogeneity determines whether two populations come from the same distribution, even if this distribution is unknown.",
+   "formula_review": null,
+   "glossary": [],
+   "kind": "section",
+   "section": "11.5"
+  },
+  {
+   "id": "m47085",
+   "title": "Test of a Single Variance",
+   "tryits": [
+    {
+     "id": "eip-420",
+     "problem": "A SCUBA instructor wants to record the collective depths each of his students dives during their checkout. He is interested in how the depths vary, even though everyone should have been at the same depth. He believes the standard deviation is three feet. His assistant thinks the standard deviation is less than three feet. If the instructor were to conduct a test, what would the null and alternative hypotheses be?",
+     "solution": null,
+     "guideSolution": "H0: σ2 = 32\nHa: σ2 < 32",
+     "guideRef": "Try It 11.10"
+    },
+    {
+     "id": "eip-209",
+     "problem": "The FCC conducts broadband speed tests to measure how much data per second passes between a consumer’s computer and the internet. At a certain point in time, the standard deviation of Internet speeds across Internet Service Providers (ISPs) was 12.2 percent. Suppose a sample of 15 ISPs is taken, and the standard deviation is 13.2. An analyst claims that the standard deviation of speeds is more than what was reported. State the null and alternative hypotheses, compute the degrees of freedom, the test statistic, sketch the graph of the p-value, and draw a conclusion. Test at the 1% significance level.",
+     "solution": null,
+     "guideSolution": "H0: σ2 = 12.22\nHa: σ2 > 12.22 df = 14 chi2 test statistic = 16.39\nThe p-value is 0.2902, so we decline to reject the null hypothesis. There is not enough evidence to suggest that the variance is greater than 12.22.\nIn 2nd DISTR, use7:χ2cdf. The syntax is (lower, upper, df) for the parameter list. χ2cdf(16.39,10^99,14). The p-value = 0.2902.\nChapter 12. Linear Regression and Correlation\nSection 1. Linear Equations",
+     "guideRef": "Try It 11.11"
+    }
+   ],
+   "examples": [
+    "Math instructors are not only interested in how their students do on exams, on average, but how the exam scores vary. To many instructors, the variance (or standard deviation) may be more important than the average.\n\nSuppose a math instructor believes that the standard deviation for his final exam is five points. One of his\nbest students thinks otherwise. The student claims that the standard deviation is more than five points. If the student were to conduct a hypothesis test, what would the null and alternative hypotheses be?\n\nEven though we are given the population standard deviation, we can set up the test using the population variance as follows.\n\n• H0: σ2 = 52\n\n• Ha: σ2 > 52",
+    "With individual lines at its various windows, a post office finds that the standard deviation for normally distributed waiting times for customers on Friday afternoon is 7.2 minutes. The post office experiments with a single, main waiting line and finds that for a random sample of 25 customers, the waiting times for customers have a standard deviation of 3.5 minutes.\n\nWith a significance level of 5%, test the claim that a single line causes lower variation\namong waiting times (shorter waiting times) for customers.\n\nSince the claim is that a single line causes less variation, this is a test of a single variance.\nThe parameter is the population variance, σ2, or the population standard deviation, σ.\n\nRandom Variable: The sample standard deviation, s, is the random variable.\nLet s = standard deviation for the waiting times.\n\n• H0: σ2 = 7.22\n• Ha: σ2 < 7.22\n\nThe word \"less\" tells you this is a left-tailed test.\n\nDistribution for the test: χ_24^2, where:\n\n• n = the number of customers sampled\n• df = n – 1 = 25 – 1 = 24\n\nCalculate the test statistic:\n\nχ^2=((n − 1)s^2)/(σ^2)=((25 − 1)(3.5)^2)/(7.2^2)=5.67\n\nwhere n = 25, s = 3.5, and σ = 7.2.\n\nGraph:\n\n[FIGURE]\nProbability statement: p-value = P ( χ2 < 5.67) = 0.000042\n\nCompare α and the p-value:\n\n• α = 0.05\n• p-value = 0.000042\n• α > p-value\n\nMake a decision: Since α > p-value, reject H0. This means that you reject σ2 = 7.22. In other words, you do not think the variation in waiting times is 7.2 minutes; you think the variation in waiting times is less.\n\nConclusion: At a 5% level of significance, from the data, there is sufficient evidence to\nconclude that a single line causes a lower variation among the waiting times or with a single\nline, the customer waiting times vary less than 7.2 minutes.\n\nIn 2nd DISTR, use 7:χ2cdf. The syntax is\n(lower, upper, df) for the parameter list.\nFor , χ2cdf(-1E99,5.67,24). The p-value = 0.000042."
+   ],
+   "practice": [
+    {
+     "id": "eip-432",
+     "problem": "What type of test should be used?",
+     "solution": "a test of a single variance",
+     "context": "Use the following information to answer the next three exercises: An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less."
+    },
+    {
+     "id": "eip-95",
+     "problem": "State the null and alternative hypotheses.",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less."
+    },
+    {
+     "id": "eip-356",
+     "problem": "Is this a right-tailed, left-tailed, or two-tailed test?",
+     "solution": "a left-tailed test",
+     "context": "Use the following information to answer the next three exercises: An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less."
+    },
+    {
+     "id": "eip-412",
+     "problem": "What type of test should be used?",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: The standard deviation of heights for students in a school is 0.81. A random sample of 50 students is taken, and the standard deviation of heights of the sample is 0.96. A researcher in charge of the study believes the standard deviation of heights for the school is greater than 0.81."
+    },
+    {
+     "id": "eip-631",
+     "problem": "State the null and alternative hypotheses.",
+     "solution": "H0: σ2 = 0.812;\n\nHa: σ2 > 0.812",
+     "context": "Use the following information to answer the next three exercises: The standard deviation of heights for students in a school is 0.81. A random sample of 50 students is taken, and the standard deviation of heights of the sample is 0.96. A researcher in charge of the study believes the standard deviation of heights for the school is greater than 0.81."
+    },
+    {
+     "id": "eip-179",
+     "problem": "df = ________",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: The standard deviation of heights for students in a school is 0.81. A random sample of 50 students is taken, and the standard deviation of heights of the sample is 0.96. A researcher in charge of the study believes the standard deviation of heights for the school is greater than 0.81."
+    },
+    {
+     "id": "eip-608",
+     "problem": "What type of test should be used?",
+     "solution": "a test of a single variance",
+     "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought."
+    },
+    {
+     "id": "eip-224",
+     "problem": "What is the test statistic?",
+     "solution": null,
+     "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought."
+    },
+    {
+     "id": "eip-462",
+     "problem": "What is the p-value?",
+     "solution": "0.0542",
+     "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought."
+    },
+    {
+     "id": "eip-761",
+     "problem": "What can you conclude at the 5% significance level?",
+     "solution": null,
+     "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought."
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-377",
+     "problem": "Is the traveler disputing the claim about the average or about the variance?",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm21799472",
+     "problem": "A sample standard deviation of 15 minutes is the same as a sample variance of __________ minutes.",
+     "solution": "225",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm20076720",
+     "problem": "Is this a right-tailed, left-tailed, or two-tailed test?",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm22555680",
+     "problem": "H0: __________",
+     "solution": "H0: σ2 ≤ 150",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm2265776",
+     "problem": "df = ________",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm22718256",
+     "problem": "chi-square test statistic = ________",
+     "solution": "36",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm70553440",
+     "problem": "p-value = ________",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idp82699488",
+     "problem": "Graph the situation. Label and scale the horizontal axis. Mark the mean and test statistic. Shade the p-value.",
+     "solution": "Answers may vary.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idm73610688",
+     "problem": "Let α = 0.05\n\nDecision: ________\n\nConclusion (write out in a complete sentence.): ________",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "eip-572",
+     "problem": "How did you know to test the variance instead of the mean?",
+     "solution": "The claim is that the variance is no more than 150 minutes.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "eip-978",
+     "problem": "If an additional test were done on the claim of the average delay, which distribution would you use?",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "eip-512",
+     "problem": "If an additional test were done on the claim of the average delay, but 45 flights were surveyed, which distribution would you use?",
+     "solution": "a Student's t- or normal distribution",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes."
+    },
+    {
+     "id": "fs-idp51794048",
+     "problem": "A plant manager is concerned their equipment may need recalibrating. It seems that the actual weight of the 15 oz. cereal boxes it fills has been fluctuating. The standard deviation should be at most 0.5 oz. In order to determine if the machine needs to be recalibrated, 84 randomly selected boxes of cereal from the next day’s production were weighed. The standard deviation of the 84 boxes was 0.54. Does the machine need to be recalibrated?",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-377ab",
+     "problem": "Consumers may be interested in whether the cost of a particular calculator varies from store to store. Based on surveying 43 stores, which yielded a sample mean of $84 and a sample standard deviation of $12, test the claim that the standard deviation is greater than $15.",
+     "solution": "a. H0: σ = 15\nb. Ha: σ > 15\nc. df = 42\nd. chi-square with df = 42\ne. test statistic = 26.88\nf. p-value = 0.9663\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Do not reject null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "fs-idm4701360",
+     "problem": "Isabella, an accomplished Bay to Breakers runner, claims that the standard deviation for her time to run the 7.5 mile race is at most three minutes. To test her claim, Rupinder looks up five of her race times. They are 55 minutes, 61 minutes, 58 minutes, 63 minutes, and 57 minutes.",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-691",
+     "problem": "Airline companies are interested in the consistency of the number of babies on each flight, so that they have adequate safety equipment. They are also interested in the variation of the number of babies. Suppose that an airline executive believes the average number of babies on flights is six with a variance of nine at most. The airline conducts a survey. The results of the 18 flights surveyed give a sample average of 6.4 with a sample standard deviation of 3.9. Conduct a hypothesis test of the airline executive’s belief.",
+     "solution": "a. H0: σ ≤ 3\nb. Ha: σ > 3\nc. df = 17\nd. chi-square distribution with df = 17\ne. test statistic = 28.73\nf. p-value = 0.0371\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-559",
+     "problem": "The number of births per woman in China is 1.6 down from 5.91 in 1966. This fertility rate has been attributed to the law passed in 1979 restricting births to one per woman. Suppose that a group of students studied whether or not the standard deviation of births per woman was greater than 0.75. They asked 50 women across China the number of births they had had. The results are shown in . Does the students’ survey indicate that the standard deviation is greater than 0.75?\n\n[TABLE]\n# of births | Frequency\n0 | 5\n1 | 30\n2 | 10\n3 | 5\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-503",
+     "problem": "According to an avid aquarist, the average number of fish in a 20-gallon tank is 10, with a standard deviation of two. His friend, also an aquarist, does not believe that the standard deviation is two. They count the number of fish in 15 other 20-gallon tanks. Based on the results that follow, do you think that the standard deviation is different from two? Data: 11; 10; 9; 10; 10; 11; 11; 10; 12; 9; 7; 9; 11; 10; 11",
+     "solution": "a. H0: σ = 2\nb. Ha: σ ≠ 2\nc. df = 14\nd. chi-square distiribution with df = 14\ne. chi-square test statistic = 5.2094\nf. p-value = 0.0346\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "element-399",
+     "problem": "The manager of \"Frenchies\" is concerned that patrons are not consistently receiving the same amount of French fries with each order. The chef claims that the standard deviation for a ten-ounce order of fries is at most 1.5 oz., but the manager thinks that it may be higher. He randomly weighs 49 orders of fries, which yields a mean of 11 oz. and a standard deviation of two oz.",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-340",
+     "problem": "You want to buy a specific computer. A sales representative of the manufacturer claims that retail stores sell this computer at an average price of $1,249 with a very narrow standard deviation of $25. You find a website that has a price comparison for the same computer at a series of stores as follows: $1,299; $1,229.99; $1,193.08; $1,279; $1,224.95; $1,229.99; $1,269.95; $1,249. Can you argue that pricing has a larger standard deviation than claimed by the manufacturer? Use the 5% significance level. As a potential buyer, what would be the practical conclusion from your analysis?",
+     "solution": "The sample standard deviation is $34.29.\n\nH0 : σ2 = 252\n\nHa : σ2 > 252\n\ndf = n – 1 = 7.\n\ntest statistic: x^2= x_7^2= ((n–1)s^2)/(25^2)= ((8–1)(34.29)^2)/(25^2)=13.169;\n\np-value: P(x_7^2>13.169)=1–P(x_7^2 ≤13.169)=0.0681\n\nAlpha: 0.05\n\nDecision: Do not reject the null hypothesis.\n\nReason for decision: p-value > alpha\n\nConclusion: At the 5% level, there is insufficient evidence to conclude that the variance is more than 625.",
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    },
+    {
+     "id": "eip-idp39276048",
+     "problem": "A company packages apples by weight. One of the weight grades is Class A apples. Class A apples have a mean weight of 150 g, and there is a maximum allowed weight tolerance of 5% above or below the mean for apples in the same consumer package. A batch of apples is selected to be included in a Class A apple package. Given the following apple weights of the batch, does the fruit comply with the Class A grade weight tolerance requirements. Conduct an appropriate hypothesis test.\n\n(a) at the 5% significance level\n\n(b) at the 1% significance level\n\nWeights in selected apple batch (in grams): 158; 167; 149; 169; 164; 139; 154; 150; 157; 171; 152; 161; 141; 166; 172;",
+     "solution": null,
+     "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places."
+    }
+   ],
+   "bring_together": [],
+   "summary": "To test variability, use the chi-square test of a single variance. The test may be left-, right-, or two-tailed, and its hypotheses are always expressed in terms of the variance (or standard deviation).",
+   "formula_review": "χ^2=\n((n−1)⋅s^2)/(σ^2) Test of a single variance statistic where:\n\nn: sample size\n\ns: sample standard deviation\n\nσ: population standard deviation\n\ndf = n – 1 Degrees of freedom\n\n• Use the test to determine variation.\n• The degrees of freedom is the number of samples – 1.\n• The test statistic is ((n–1)⋅s^2)/(σ^2), where n = the total number of data, s2 = sample variance, and σ2 = population variance.\n\n• The test may be left-, right-, or two-tailed.",
+   "glossary": [],
+   "kind": "section",
+   "section": "11.6"
+  },
+  {
+   "id": "m50279",
+   "title": "Lab 1: Chi-Square Goodness-of-Fit",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  },
+  {
+   "id": "m50280",
+   "title": "Lab 2: Chi-Square Test of Independence",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  }
+ ]
+}

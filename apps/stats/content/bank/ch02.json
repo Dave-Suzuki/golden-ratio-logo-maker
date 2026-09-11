@@ -1,0 +1,2410 @@
+[
+ {
+  "id": "tryit-m46934-0",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "For the Park City basketball team, scores for the last 30 games were as follows (smallest to largest):\n\n32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61\n\nConstruct a stem plot for the data.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp3142256",
+   "ref": "Try It 2.1"
+  },
+  "modelSolution": "Stem\nLeaf\n3\n2 2 3 4 8\n4\n0 2 2 3 4 6 7 7 8 8 8 9\n5\n0 0 1 2 2 2 3 4 6 7 7\n6\n0 1",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46934-1",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "The following data show the distances (in miles) from the homes of off-campus statistics students to the college. Create a stem plot using the data and identify any outliers:\n\n0.5; 0.7; 1.1; 1.2; 1.2; 1.3; 1.3; 1.5; 1.5; 1.7; 1.7; 1.8; 1.9; 2.0; 2.2; 2.5; 2.6; 2.8; 2.8; 2.8; 3.5; 3.8; 4.4; 4.8; 4.9; 5.2; 5.5; 5.7; 5.8; 8.0",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idm40603312",
+   "ref": "Try It 2.2"
+  },
+  "modelSolution": "Stem\nLeaf\n0\n5 7\n1\n1 2 2 3 3 5 5 7 7 8 9\n2\n0 2 5 6 8 8 8\n3\n5 8\n4\n4 8 9\n5\n2 5 7 8\n6\n7\n8\n0\nThe value 8.0 may be an outlier. Values appear to concentrate at one and two miles.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46934-2",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "The table shows the number of wins and losses the Atlanta Hawks have had in 42 seasons. Create a side-by-side stemand-leaf plot of these wins and losses.\n\n[TABLE]\nLosses | Wins | Season | Losses | Wins | Season\n34 | 48 | 1 | 41 | 41 | 22\n34 | 48 | 2 | 39 | 43 | 23\n46 | 36 | 3 | 44 | 38 | 24\n46 | 36 | 4 | 39 | 43 | 25\n36 | 46 | 5 | 25 | 57 | 26\n47 | 35 | 6 | 40 | 42 | 27\n51 | 31 | 7 | 36 | 46 | 28\n53 | 29 | 8 | 26 | 56 | 29\n51 | 31 | 9 | 32 | 50 | 30\n41 | 41 | 10 | 19 | 31 | 31\n36 | 46 | 11 | 54 | 28 | 32\n32 | 50 | 12 | 57 | 25 | 33\n51 | 31 | 13 | 49 | 33 | 34\n40 | 42 | 14 | 47 | 35 | 35\n39 | 43 | 15 | 54 | 28 | 36\n42 | 40 | 16 | 69 | 13 | 37\n48 | 34 | 17 | 56 | 26 | 38\n32 | 50 | 18 | 52 | 30 | 39\n25 | 57 | 19 | 45 | 37 | 40\n32 | 50 | 20 | 35 | 47 | 41\n30 | 52 | 21 | 29 | 53 | 42\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp35107968",
+   "ref": "Try It 2.3"
+  },
+  "modelSolution": "Atlanta Hawks Wins and Losses\nNumber of Wins\nNumber of Losses\n3\n1\n9\n9 8 8 6 5\n2\n5 5 9\n8 7 6 6 5 5 4 3 1 1 1 1 0\n3\n0 2 2 2 2 4 4 5 6 6 6 9 9 9\n8 8 7 6 6 6 3 3 3 2 2 1 1 0\n4\n0 0 1 1 2 4 5 6 6 7 7 8 9\n7 7 6 3 2 0 0 0 0\n5\n1 1 1 2 3 4 4 6 7\n6\n9",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46934-3",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "In a survey, 40 people were asked how many times per year they had their car in the shop for repairs. The results are shown in . Construct a line graph.\n\n[TABLE]\nNumber of times in shop | Frequency\n0 | 7\n1 | 10\n2 | 14\n3 | 9\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idm95574864",
+   "ref": "Try It 2.4"
+  },
+  "modelSolution": "Figure 2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46934-4",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "The population in Park City is made up of children, working-age adults, and retirees. shows the three age groups, the number of people in the town from each age group, and the proportion (%) of people in each age group. Construct a bar graph showing the proportions.\n\n[TABLE]\nAge groups | Number of people | Proportion of population\nChildren | 67,059 | 19%\nWorking-age adults | 152,198 | 43%\nRetirees | 131,662 | 38%\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idm47906688",
+   "ref": "Try It 2.5"
+  },
+  "modelSolution": "Figure 3",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46934-5",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Park city is broken down into six voting districts. The table shows the percent of the total registered voter population that lives in each district as well as the percent total of the entire population that lives in each district. Construct a bar graph that shows the registered voter population by district.\n\n[TABLE]\nDistrict | Registered voter population | Overall city population\n1 | 15.5% | 19.4%\n2 | 12.2% | 15.6%\n3 | 9.8% | 9.0%\n4 | 17.4% | 18.5%\n5 | 22.8% | 20.7%\n6 | 22.3% | 16.8%\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idm43065520",
+   "ref": "Try It 2.6"
+  },
+  "modelSolution": "Figure 4\nSection 2. Histograms, Frequency Polygons, and Time Series Graphs",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-fs-idp77965776",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "The miles per gallon rating for 30 cars are shown below (lowest to highest).\n\n19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp77965776"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.",
+  "modelSolution": "[TABLE]\nStem | Leaf\n1 | 9 9 9\n2 | 0 1 1 5 5 5 6 6 8 9\n3 | 1 1 2 2 3 4 5 6 7 7 8 8 8 8\n4 | 1 3 3\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-exercise8",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "The data are the prices of different laptops at an electronics store. Round each value to the nearest ten.\n\n249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "exercise8"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.",
+  "modelSolution": "[TABLE]\nStem | Leaf\n2 | 5 5 6 7 7 8\n3 | 0 0 1 2 3 3 5 5 5 7 7 9\n4 | 1 6 9\n5 | 6 7 7\n6 | 1\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-fs-idp113295424",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in .\n\n[TABLE]\nNumber of times in store | Frequency\n1 | 4\n2 | 10\n3 | 16\n4 | 6\n5 | 4\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp113295424"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-fs-idp113509472",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Several children were asked how many TV shows they watch each day. The results of the survey are shown in .\n\n[TABLE]\nNumber of TV Shows | Frequency\n0 | 12\n1 | 18\n2 | 36\n3 | 7\n4 | 2\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp113509472"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-fs-idp114173136",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Using the data from Ms. Ramirez’s math class supplied in , construct a bar graph showing the percentages.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp114173136"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-fs-idp107146752",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Use the data from the David County science competition supplied in . Construct a bar graph that shows the county-wide population percentage of students at each school.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "fs-idp107146752"
+  },
+  "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph.",
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46934-eip-440",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "contains the percentages of adults who were never married in the 50 U.S. states and Washington, DC.\n\n[TABLE]\nState | Percent (%) | State | Percent (%) | State | Percent (%)\nAlabama | 32.2 | Kentucky | 31.3 | North Dakota | 27.2\nAlaska | 24.5 | Louisiana | 31.0 | Ohio | 29.2\nArizona | 24.3 | Maine | 26.8 | Oklahoma | 30.4\nArkansas | 30.1 | Maryland | 27.1 | Oregon | 26.8\nCalifornia | 24.0 | Massachusetts | 23.0 | Pennsylvania | 28.6\nColorado | 21.0 | Michigan | 30.9 | Rhode Island | 25.5\nConnecticut | 22.5 | Minnesota | 24.8 | South Carolina | 31.5\nDelaware | 28.0 | Mississippi | 34.0 | South Dakota | 27.3\nWashington, DC | 22.2 | Missouri | 30.5 | Tennessee | 30.8\nFlorida | 26.6 | Montana | 23.0 | Texas | 31.0\nGeorgia | 29.6 | Nebraska | 26.9 | Utah | 22.5\nHawaii | 22.7 | Nevada | 22.4 | Vermont | 23.2\nIdaho | 26.5 | New Hampshire | 25.0 | Virginia | 26.0\nIllinois | 28.2 | New Jersey | 23.8 | Washington | 25.5\nIndiana | 29.6 | New Mexico | 25.1 | West Virginia | 32.5\nIowa | 28.4 | New York | 23.9 | Wisconsin | 26.3\nKansas | 29.4 | North Carolina | 27.8 | Wyoming | 25.1\n[/TABLE]\n\na. Use a random number generator to randomly pick eight states. Construct a bar graph of the rates of those eight states.\nb. Construct a bar graph for all the states beginning with the letter \"A.\"\nc. Construct a bar graph for all the states beginning with the letter \"M.\"",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46934",
+   "exerciseId": "eip-440"
+  },
+  "modelSolution": "a. Example solution for using the random number generator for the TI-84+ to generate a simple random sample of 8 states. Instructions are as follows.\n\n• Number the entries in the table 1–51 (Includes Washington, DC; Numbered vertically)\n• Press MATH\n• Arrow over to PRB\n• Press 5:randInt(\n• Enter 51,1,8)\n\nEight numbers are generated (use the right arrow key to scroll through the numbers). The numbers correspond to the numbered states (for this example: {47 21 9 23 51 13 25 4}. If any numbers are repeated, generate a different number by using 5:randInt(51,1)). Here, the states (and Washington DC) are {Arkansas, Washington DC, Idaho, Maryland, Michigan, Mississippi, Virginia, Wyoming}.\n\nCorresponding percents are {30.1, 22.2, 26.5, 27.1, 30.9, 34.0, 26.0, 25.1}.\n\n[FIGURE]\n\nb.\n\n[FIGURE]\nc. [FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-0",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "The following data are the shoe sizes of 50 students. The sizes are discrete data since shoe size is measured in whole and half units only. Construct a histogram and calculate the width of each bar or class interval. Suppose you choose six bars.\n\n9; 9; 9.5; 9.5; 10; 10; 10; 10; 10; 10; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5\n\n11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11.5; 11.5; 11.5; 11.5; 11.5; 11.5; 11.5\n\n12; 12; 12; 12; 12; 12; 12; 12.5; 12.5; 12.5; 12.5; 14",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idm28791888",
+   "ref": "Try It 2.7"
+  },
+  "modelSolution": "The smallest value is 9 and the sizes are measured to the nearest 0.5, so the starting point for the histogram is 8.95.\nThe largest value is 14, so the ending value is 14.05.\nCalculate the width of the 6 bars:\nRound 0.85 to 1; the width of each bar is 1.\nInterval\nFrequency\nRelative Frequency\n8.95–9.95\n4\n0.08\n9.95–10.95\n14\n0.28\n10.95–11.95\n20\n0.4\n11.95–12.95\n11\n0.22\n12.95–13.95\n0\n0\n13.95–14.95\n1\n0.02",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-1",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "The following data are the number of sports played by 50 student athletes. The number of sports is discrete data since sports are counted.\n\n1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1\n\n2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2\n\n3; 3; 3; 3; 3; 3; 3; 3\n\n20 student athletes play one sport. 22 student athletes play two sports. Eight student athletes play three sports.\n\nFill in the blanks for the following sentence. Since the data consist of the numbers 1, 2, 3, and the starting point is 0.5, a width of one places the 1 in the middle of the interval 0.5 to _____, the 2 in the middle of the interval from _____ to _____, and the 3 in the middle of the interval from _____ to _____.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idp68031136",
+   "ref": "Try It 2.8"
+  },
+  "modelSolution": "1.5 1.5 to 2.5 2.5 to 3.5",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-2",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "The following data represent the number of employees at various restaurants in New York City. Using this data, create a histogram.\n\n• 22\n• 35\n• 15\n• 26\n• 40\n• 28\n• 18\n• 20\n• 25\n• 34\n• 39\n• 42\n• 24\n• 22\n• 19\n• 27\n• 22\n• 34\n• 40\n• 20\n• 38\n• and 28\n\nUse 10–19 as the first interval.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idm32934816",
+   "ref": "Try It 2.9"
+  },
+  "modelSolution": "Figure 5",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-3",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Construct a frequency polygon of U.S. Presidents’ ages at inauguration shown in .\n\n[TABLE]\nAge at Inauguration | Frequency\n41.5–46.5 | 4\n46.5–51.5 | 11\n51.5–56.5 | 14\n56.5–61.5 | 9\n61.5–66.5 | 4\n66.5–71.5 | 2\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "eip-idp12732512",
+   "ref": "Try It 2.10"
+  },
+  "modelSolution": "The first label on the x-axis is 39. This represents an interval extending from 36.5 to 41.5. Since there are no ages less than 41.5, this interval is used only to allow the graph to touch the x-axis. The point labeled 44 represents the next interval, or the first “real” interval from the table, and contains four scores. This reasoning is followed for each of the remaining intervals with the point 74 representing the interval from 71.5 to 76.5. Again, this interval contains no data and is only used so that the graph will touch the x-axis. Looking at the graph, we say that this distribution is skewed because one side of the graph does not mirror the other side.\nFigure 6",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-4",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "We will construct an overlay frequency polygon comparing the scores from with the students’ final test scores in algebra.\n\n[TABLE]\nFrequency Distribution for Algebra Final Test Scores\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 10 | 10\n59.5 | 69.5 | 5 | 15\n69.5 | 79.5 | 40 | 55\n79.5 | 89.5 | 35 | 90\n89.5 | 99.5 | 10 | 100\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "exer-00001",
+   "ref": null
+  },
+  "modelSolution": "Calculus Test Scores v Algebra Test Scores\n\nImage Insert",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46924-5",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "The following table is a portion of a data set from www.worldbank.org. Use the table to construct a time series graph for CO2 emissions for the United States.\n\n[TABLE]\nCO2 Emissions\nYear | Ukraine | United Kingdom | United States\n1 | 352,259 | 540,640 | 5,681,664\n2 | 343,121 | 540,409 | 5,790,761\n3 | 339,029 | 541,990 | 5,826,394\n4 | 327,797 | 542,045 | 5,737,615\n5 | 328,357 | 528,631 | 5,828,697\n6 | 323,657 | 522,247 | 5,656,839\n7 | 272,176 | 474,579 | 5,299,563\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idm10087584",
+   "ref": "Try It 2.12"
+  },
+  "modelSolution": "Figure 8\nSection 3. Measures of the Location of the Data",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-element-625",
+  "sectionId": "2.2",
+  "kind": "numeric",
+  "conceptTag": "2.2",
+  "stem": "What does the frequency column in sum to? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "element-625"
+  },
+  "answer": 65.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "65"
+  ]
+ },
+ {
+  "id": "os-m46924-exercisetwo",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "What is the difference between relative frequency and frequency for each data value in ?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "exercisetwo"
+  },
+  "modelSolution": "The relative frequency shows the proportion of data points that have each value. The frequency tells the number of data points that have each value.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-fs-idp48667136",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "To construct the histogram for the data in , determine appropriate minimum and maximum x and y values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idp48667136"
+  },
+  "modelSolution": "Answers will vary. One possible histogram is shown:\n\n[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-fs-idp36783568",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Construct a frequency polygon from the frequency distribution for the 50 highest ranked countries for depth of hunger.\n\n[TABLE]\nDepth of Hunger | Frequency\n230–259 | 21\n260–289 | 13\n290–319 | 5\n320–349 | 7\n350–379 | 1\n380–409 | 1\n410–439 | 1\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idp36783568"
+  },
+  "modelSolution": "Find the midpoint for each class. These will be graphed on the x-axis. The frequency values will be graphed on the y-axis values.\n\n[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-eip-583",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Construct a times series graph for (a) the number of male births, (b) the number of female births, and (c) the total number of births.\n\n[TABLE]\nSex/Year | 1855 | 1856 | 1857 | 1858 | 1859 | 1860 | 1861\nFemale | 45,545 | 49,582 | 50,257 | 50,324 | 51,915 | 51,220 | 52,403\nMale | 47,804 | 52,239 | 53,158 | 53,694 | 54,628 | 54,409 | 54,606\nTotal | 93,349 | 101,821 | 103,415 | 104,018 | 106,543 | 105,629 | 107,009\n[/TABLE]\n\n[TABLE]\nSex/Year | 1862 | 1863 | 1864 | 1865 | 1866 | 1867 | 1868 | 1869\nFemale | 51,812 | 53,115 | 54,959 | 54,850 | 55,307 | 55,527 | 56,292 | 55,033\nMale | 55,257 | 56,226 | 57,374 | 58,220 | 58,360 | 58,517 | 59,222 | 58,321\nTotal | 107,069 | 109,341 | 112,333 | 113,070 | 113,667 | 114,044 | 115,514 | 113,354\n[/TABLE]\n\n[TABLE]\nSex/Year | 1870 | 1871 | 1872 | 1873 | 1874 | 1875\nFemale | 56,431 | 56,099 | 57,472 | 58,233 | 60,109 | 60,146\nMale | 58,959 | 60,029 | 61,293 | 61,467 | 63,602 | 63,432\nTotal | 115,390 | 116,128 | 118,765 | 119,700 | 123,711 | 123,578\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "eip-583"
+  },
+  "modelSolution": "[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-eip-457",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Often, cruise ships conduct all on-board transactions, with the exception of gambling, on a cashless basis. At the end of the cruise, guests pay one bill that covers all onboard transactions. Suppose that 60 single travelers and 70 couples were surveyed as to their on-board bills for a seven-day cruise from Los Angeles to the Mexican Riviera. Following is a summary of the bills for each group.\n\n[TABLE]\nAmount($) | Frequency | Rel. Frequency\n51–100 | 5 |\n101–150 | 10 |\n151–200 | 15 |\n201–250 | 15 |\n251–300 | 10 |\n301–350 | 5 |\n[/TABLE]\n\n[TABLE]\nAmount($) | Frequency | Rel. Frequency\n100–150 | 5 |\n201–250 | 5 |\n251–300 | 5 |\n301–350 | 5 |\n351–400 | 10 |\n401–450 | 10 |\n451–500 | 10 |\n501–550 | 10 |\n551–600 | 5 |\n601–650 | 5 |\n[/TABLE]\n\na. Fill in the relative frequency for each group.\nb. Construct a histogram for the singles group. Scale the x-axis by $50 widths. Use relative frequency on the y-axis.\nc. Construct a histogram for the couples group. Scale the x-axis by $50 widths. Use relative frequency on the y-axis.\nd. Compare the two graphs:\n\ni. List two similarities between the graphs.\nii. List two differences between the graphs.\niii. Overall, are the graphs more similar or different?\n\ne. Construct a new graph for the couples by hand. Since each couple is paying for two individuals, instead of scaling the x-axis by $50, scale it by $100. Use relative frequency on the y-axis.\nf. Compare the graph for the singles with the new graph for the couples:\ni. List two similarities between the graphs.\nii. Overall, are the graphs more similar or different?\n\ng. How did scaling the couples graph differently change the way you compared it to the singles graph?\nh. Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they do person by person as a couple? Explain why in one or two complete sentences.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "eip-457"
+  },
+  "modelSolution": "[TABLE]\nAmount($) | Frequency | Relative Frequency\n51–100 | 5 | 0.08\n101–150 | 10 | 0.17\n151–200 | 15 | 0.25\n201–250 | 15 | 0.25\n251–300 | 10 | 0.17\n301–350 | 5 | 0.08\n[/TABLE]\n\n[TABLE]\nAmount($) | Frequency | Relative Frequency\n100–150 | 5 | 0.07\n201–250 | 5 | 0.07\n251–300 | 5 | 0.07\n301–350 | 5 | 0.07\n351–400 | 10 | 0.14\n401–450 | 10 | 0.14\n451–500 | 10 | 0.14\n501–550 | 10 | 0.14\n551–600 | 5 | 0.07\n601–650 | 5 | 0.07\n[/TABLE]\n\na. See and .\nb. In the following histogram data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where both boundary values are included).\n[FIGURE]\n\nc. In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where values on both boundaries are included).\n[FIGURE]\n\nd. Compare the two graphs:\n\ni. Answers may vary. Possible answers include:\n\n• Both graphs have a single peak.\n• Both graphs use class intervals with width equal to $50.\n\nii. Answers may vary. Possible answers include:\n\n• The couples graph has a class interval with no values.\n• It takes almost twice as many class intervals to display the data for couples.\n\niii. Answers may vary. Possible answers include: The graphs are more similar than different because the overall patterns for the graphs are the same.\n\ne. Answers may vary.\nf. Compare the graph for the Singles with the new graph for the Couples:\n\ni.\n• Both graphs have a single peak.\n• Both graphs display 6 class intervals.\n• Both graphs show the same general pattern.\n\nii. Answers may vary. Possible answers include: Although the width of the class intervals for couples is double that of the class intervals for singles, the graphs are more similar than they are different.\n\ng. Answers may vary. Possible answers include: You are able to compare the graphs interval by interval. It is easier to compare the overall patterns with the new scale on the Couples graph. Because a couple represents two individuals, the new scale leads to a more accurate comparison.\nh. Answers may vary. Possible answers include: Based on the histograms, it seems that spending does not vary much from singles to individuals who are part of a couple. The overall patterns are the same. The range of spending for couples is approximately double the range for individuals.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46924-fs-idm24292288",
+  "sectionId": "2.2",
+  "kind": "mc",
+  "conceptTag": "2.2",
+  "stem": "The percentage of people who own at most three T-shirts costing more than $19 each is approximately:",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idm24292288"
+  },
+  "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n[FIGURE]",
+  "options": [
+   "21",
+   "59",
+   "41",
+   "Cannot be determined"
+  ],
+  "correctIndex": 2,
+  "needsFigure": true,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46924-fs-idp13768528",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Following are the rates of unmarried adults for the 50 U.S. states and Washington, DC.\n\n[TABLE]\nState | Percent (%) | State | Percent (%) | State | Percent (%)\nAlabama | 32.2 | Kentucky | 31.3 | North Dakota | 27.2\nAlaska | 24.5 | Louisiana | 31.0 | Ohio | 29.2\nArizona | 24.3 | Maine | 26.8 | Oklahoma | 30.4\nArkansas | 30.1 | Maryland | 27.1 | Oregon | 26.8\nCalifornia | 24.0 | Massachusetts | 23.0 | Pennsylvania | 28.6\nColorado | 21.0 | Michigan | 30.9 | Rhode Island | 25.5\nConnecticut | 22.5 | Minnesota | 24.8 | South Carolina | 31.5\nDelaware | 28.0 | Mississippi | 34.0 | South Dakota | 27.3\nWashington, DC | 22.2 | Missouri | 30.5 | Tennessee | 30.8\nFlorida | 26.6 | Montana | 23.0 | Texas | 31.0\nGeorgia | 29.6 | Nebraska | 26.9 | Utah | 22.5\nHawaii | 22.7 | Nevada | 22.4 | Vermont | 23.2\nIdaho | 26.5 | New Hampshire | 25.0 | Virginia | 26.0\nIllinois | 28.2 | New Jersey | 23.8 | Washington | 25.5\nIndiana | 29.6 | New Mexico | 25.1 | West Virginia | 32.5\nIowa | 28.4 | New York | 23.9 | Wisconsin | 26.3\nKansas | 29.4 | North Carolina | 27.8 | Wyoming | 25.1\n[/TABLE]\n\nConstruct a bar graph of the unmarried adult rates of your state and the four states closest to your state. Hint: Label the x-axis with the states.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46924",
+   "exerciseId": "fs-idp13768528"
+  },
+  "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n[FIGURE]",
+  "modelSolution": "Answers will vary.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-0",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "For the following 11 salaries, calculate the IQR and determine if any salaries are outliers. The salaries are in dollars.\n\n• $33,000\n• $64,500\n• $28,000\n• $54,000\n• $72,000\n• $68,500\n• $69,000\n• $42,000\n• $54,000\n• $120,000\n• $40,500",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp63302352",
+   "ref": "Try It 2.13"
+  },
+  "modelSolution": "Order the data from smallest to largest.\n$28,000 $33,000 $40,500 $42,000 $54,000 $54,000 $64,500 $68,500$69,000 $72,000 $120,000\nMedian = $54,000\nQ1 = $40,500\nQ3 = $69,000\nIQR = $69,000 – $40,500 = $28,500\n(1.5)(IQR) = (1.5)($28,500) = $42,750\nQ1 – (1.5)(IQR) = $40,500 – $42,750 = –$2,250\nQ3 + (1.5)(IQR) = $69,000 + $42,750 = $111,750\nNo salary is less than –$2,250. However, $120,000 is more than $11,750, so $120,000 is a potential outlier.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-1",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Find the interquartile range for the following two data sets and compare them.\n\nTest Scores for Class A\n\n69; 96; 81; 79; 65; 76; 83; 99; 89; 67; 90; 77; 85; 98; 66; 91; 77; 69; 80; 94\n\nTest Scores for Class B\n\n90; 72; 80; 92; 90; 97; 92; 75; 79; 68; 70; 80; 99; 95; 78; 73; 71; 68; 95; 100",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp23368176",
+   "ref": "Try It 2.14"
+  },
+  "modelSolution": "Class A\nOrder the data from smallest to largest.\n65 66 67 69 69 76 77 77 79 80 81 83 85 89 90 91 94 96 98 99\nMedian==80.5\nQ1= =72.5\nQ3==90.5\nIQR = 90.5 – 72.5 = 18\nClass B\nOrder the data from smallest to largest.\n68 68 70 71 72 73 75 78 79 80 80 90 90 92 92 95 95 97 99 100\nMedian==80\nQ1==72.5\nQ3==93.5\nIQR = 93.5 – 72.5 = 21\nThe data for Class B has a larger IQR, so the scores between Q3 and Q1(middle 50%) for the data for Class B are more spread out and not clustered about the median.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-2",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Forty bus drivers were asked how many hours they spend each day running their routes (rounded to the nearest hour). Find the 65th percentile.\n\n[TABLE]\nAmount of time spent on route (hours) | Frequency | Relative Frequency | Cumulative Relative Frequency\n2 | 12 | 0.30 | 0.30\n3 | 14 | 0.35 | 0.65\n4 | 10 | 0.25 | 0.90\n5 | 4 | 0.10 | 1.00\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idm18606176",
+   "ref": "Try It 2.15"
+  },
+  "modelSolution": "The 65th percentile is between the last three and the first four.\nThe 65th percentile is 3.5.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-3",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\nCalculate the 20th percentile and the 55th percentile.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idm3894192",
+   "ref": "Try It 2.16"
+  },
+  "modelSolution": "k = 20. Index = i = (k/100)*(n+1=(20/100)*(29 + 1) = 6. The age in the sixth position is 27. The 20th percentile is 27 years.\nk = 55. Index = i = (k/100)*(n+1)= (55/100)*(29 + 1) = 16.5. Round down to 16 and up to 17. The age in the 16th position is 52 and the age in the 17thposition is 55. The average of 52 and 55 is 53.5. The 55th percentile is 53.5 years.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-4",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Refer to the . Find the third quartile. What is another name for the third quartile?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp38065168",
+   "ref": "Try It 2.17"
+  },
+  "modelSolution": "The third quartile is the 75th percentile, which is four. The 65th percentile is between three and four, and the 90th percentile is between four and 5.75. The third quartile is between 65 and 90, so it must be four",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-5",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Listed are 30 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31, 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\nFind the percentiles for 47 and 31.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idm170942864",
+   "ref": "Try It 2.18"
+  },
+  "modelSolution": "Percentile for 47: Counting from the bottom of the list, there are 15 data values less than 47. There is one value of 47.\nx = 15 and y = 1. .  47 is the 52nd percentile.\nPercentile for 31: Counting from the bottom of the list, there are eight data values less than 31. There are two values of 31.\nx = 9 and y = 2. .   31 is the 33rdpercentile.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-6",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "For the 100-meter dash, the third quartile for times for finishing the race was 11.5 seconds. Interpret the third quartile in the context of the situation.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp33388848",
+   "ref": "Try It 2.19"
+  },
+  "modelSolution": "Twenty-five percent of runners finished the race in 11.5 seconds or more. Seventy-five percent of runners finished the race in 11.5 seconds or less. A lower percentile is good because finishing a race more quickly is desirable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-7",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "On a 60 point written assignment, the 80th percentile for the number of points earned was 49. Interpret the 80th percentile in the context of this situation.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp34034288",
+   "ref": "Try It 2.20"
+  },
+  "modelSolution": "Eighty percent of students earned 49 points or fewer. Twenty percent of students earned 49 or more points. A higher percentile is good because getting more points on an assignment is desirable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-8",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "During a season, the 40th percentile for points scored per player in a game is eight. Interpret the 40th percentile in the context of this situation.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp73731328",
+   "ref": "Try It 2.21"
+  },
+  "modelSolution": "Forty percent of players scored eight points or fewer. Sixty percent of players scored eight points or more. A higher percentile is good because getting more points in a basketball game is desirable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46930-9",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "A college statistics instructor is investigating the amount of time students spend working on a final project in the course. The instructor would like students to spend approximately 3 to 4 hours as the typical amount of time to be spent on the project. The instructor collects data from a random sample of 10 students for the number of hours spent working on the final project. The results obtained are as follows:\n\n2 hours; 3 hours; 5 hours; 3 hours; 4 hours;\n\n4 hours; 3 hours; 11 hours; 3 hours; 2 hours.\n\na. Determine the following five values: Min, Q1, Med, Q3, Max.\nb. Should the instructor modify the final project or leave as is?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "exer-00001",
+   "ref": "Try It 2.22"
+  },
+  "modelSolution": "a. The five values are obtained as follows:\n\nMin = 2\n\nQ1 = 3\n\nMed = 3\n\nQ3 = 4\n\nMax = 11\n\nb. Given that the 3rd quartile is 4 hours, this indicates that 75% of the students spend 4 hours or less on the project. Also for the interquartile range: IQR = 4 – 3 = 1, we know that half the students spent between 3 and 4 hours on the project. This seems like a reasonable amount of time for students to spend on the final project.\n\nHowever, the value 11 hours appears to be a potential outlier.\n\nQ_3+1.5(IQR)=4+1.5(1)=5.5\n\nThe value 11 is greater than 5.5, so it is an outlier. If we delete it and recalculate the five values, we get the following values:\n\nMin = 2\n\nQ1 = 2.5\n\nQ3 = 4\n\nMax = 5\n\nWe still have 75% of students spending 4 hours or less on the project. Half of the students spend between 2.5 hours and 4 hours on the project.\n\nHowever, 10 students may be a relatively small sample size. The instructor might consider a larger sample size.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-fs-idm1110784",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\na. Find the 40th percentile.\nb. Find the 78th percentile.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idm1110784"
+  },
+  "modelSolution": "a. The 40th percentile is 37 years.\nb. The 78th percentile is 70 years.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-fs-idp30887728",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Jesse was ranked 37th in his graduating class of 180 students. At what percentile is Jesse’s ranking?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "fs-idp30887728"
+  },
+  "modelSolution": "Jesse graduated 37th out of a class of 180 students. There are 180 – 37 = 143 students ranked below Jesse. There is one rank of 37.\n\nx = 143 and y = 1. (x+0.5y)/n(100) = (143+0.5(1))/180(100) = 79.72. Jesse’s rank of 37 puts him at the 80th percentile.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-eip-id1168182273864",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "a. For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?\nb. The 40th percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40th percentile in the context of the situation.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "eip-id1168182273864"
+  },
+  "modelSolution": "a. For runners in a race it is more desirable to have a high percentile for speed. A high percentile means a higher speed which is faster.\nb. 40% of runners ran at speeds of 7.5 miles per hour or less (slower). 60% of runners ran at speeds of 7.5 miles per hour or more (faster).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-eip-id1168183173702",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Mina is waiting in line at the Department of Motor Vehicles (DMV). Her wait time of 32 minutes is the 85th percentile of wait times. Is that good or bad? Write a sentence interpreting the 85th percentile in the context of this situation.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "eip-id1168183173702"
+  },
+  "modelSolution": "When waiting in line at the DMV, the 85th percentile would be a long wait time compared to the other people waiting. 85% of people had shorter wait times than Mina. In this context, Mina would prefer a wait time corresponding to a lower percentile. 85% of people at the DMV waited 32 minutes or less. 15% of people at the DMV waited 32 minutes or longer.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-eip-id1168214876383",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1,700 in damage and was in the 90th percentile. Should the manufacturer and the consumer be pleased or upset by this result? Explain and write a sentence that interprets the 90th percentile in the context of this problem.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "eip-id1168214876383"
+  },
+  "modelSolution": "The manufacturer and the consumer would be upset. This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90% of the crash tested cars had damage repair costs of $1700 or less; only 10% had damage repair costs of $1700 or more.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-eip-id1168223160542",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Suppose that you are buying a house. You and your realtor have determined that the most expensive house you can afford is the 34th percentile. The 34th percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34% of the houses or 66% of the houses?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "eip-id1168223160542"
+  },
+  "modelSolution": "You can afford 34% of houses. 66% of the houses are too expensive for your budget. INTERPRETATION: 34% of houses cost $240,000 or less. 66% of houses cost $240,000 or more.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-exerciseten",
+  "sectionId": "2.3",
+  "kind": "numeric",
+  "conceptTag": "2.3",
+  "stem": "Second quartile = median = 50th percentile = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "exerciseten"
+  },
+  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "answer": 4.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "4"
+  ]
+ },
+ {
+  "id": "os-m46930-exercisetwelve",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Interquartile range (IQR) = _____ – _____ = _____",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "exercisetwelve"
+  },
+  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "modelSolution": "6 – 4 = 2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-exercisefourteen",
+  "sectionId": "2.3",
+  "kind": "numeric",
+  "conceptTag": "2.3",
+  "stem": "70th percentile = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "exercisefourteen"
+  },
+  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "answer": 6.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "6"
+  ]
+ },
+ {
+  "id": "os-m46930-element-927",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Six hundred adult Americans were asked by telephone poll, \"What do you think constitutes a middle-class income?\" The results are in . Also, include left endpoint, but not the right endpoint.\n\n[TABLE]\nSalary ($) | Relative Frequency\n< 20,000 | 0.02\n20,000–25,000 | 0.09\n25,000–30,000 | 0.19\n30,000–40,000 | 0.26\n40,000–50,000 | 0.18\n50,000–75,000 | 0.17\n75,000–99,999 | 0.02\n100,000+ | 0.01\n[/TABLE]\n\na. What percentage of the survey answered \"not sure\"?\nb. What percentage think that middle-class is from $25,000 to $50,000?\nc. Construct a histogram of the data.\n\ni. Should all bars have the same width, based on the data? Why or why not?\nii. How should the <20,000 and the 100,000+ intervals be handled? Why?\n\nd. Find the 40th and 80th percentiles\ne. Construct a bar graph of the data",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "element-927"
+  },
+  "modelSolution": "a. 1 – (0.02+0.09+0.19+0.26+0.18+0.17+0.02+0.01) = 0.06\nb. 0.19+0.26+0.18 = 0.63\nc. Answers may vary.\nd.\n40th percentile will fall between 30,000 and 40,000\n\n80th percentile will fall between 50,000 and 75,000\n\ne. Answers may vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46930-element-284",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "The following box plot shows the U.S. population for a certain year.\n\n[FIGURE]\n\na. Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)? How do you know?\nb. 12.6% are age 65 and over. Approximately what percentage of the population are working age adults (above age 17 to age 65)?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46930",
+   "exerciseId": "element-284"
+  },
+  "modelSolution": "a. more children; the left whisker shows that 25% of the population are children 17 and younger. The right whisker shows that 25% of the population are adults 50 and older, so adults 65 and over represent less than 25%.\nb. 62.4%",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46920-0",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "The following data are the number of pages in 40 books on a shelf. Construct a box plot using a graphing calculator, and state the interquartile range.\n\n• 136\n• 140\n• 178\n• 190\n• 205\n• 215\n• 217\n• 218\n• 232\n• 234\n• 240\n• 255\n• 270\n• 275\n• 290\n• 301\n• 303\n• 315\n• 317\n• 318\n• 326\n• 333\n• 343\n• 349\n• 360\n• 369\n• 377\n• 388\n• 391\n• 392\n• 398\n• 400\n• 402\n• 405\n• 408\n• 422\n• 429\n• 450\n• 475\n• 512",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "fs-idp52595328",
+   "ref": "Try It 2.23"
+  },
+  "modelSolution": "Figure 9\nIQR = 158",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46920-1",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "The following data set shows the heights in inches for the boys in a class of 40 students.\n\n66; 66; 67; 67; 68; 68; 68; 68; 68; 69; 69; 69; 70; 71; 72; 72; 72; 73; 73; 74\n\nThe following data set shows the heights in inches for the girls in a class of 40 students.\n\n61; 61; 62; 62; 63; 63; 63; 65; 65; 65; 66; 66; 66; 67; 68; 68; 68; 69; 69; 69\n\nConstruct a box plot using a graphing calculator for each data set, and state which box plot has the wider spread for the middle 50% of the data.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "fs-idm19314304",
+   "ref": "Try It 2.24"
+  },
+  "modelSolution": "Figure 10\nIQR for the boys = 4\nIQR for the girls = 5\nThe box plot for the heights of the girls has the wider spread for the middle 50% of the data.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46920-2",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Follow the steps you used to graph a box-and-whisker plot for the data values shown.\n\n• 0\n• 5\n• 5\n• 15\n• 30\n• 30\n• 45\n• 50\n• 50\n• 60\n• 75\n• 110\n• 140\n• 240\n• 330",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "eip-idp22858976",
+   "ref": "Try It 2.25"
+  },
+  "modelSolution": "The data are in order from least to greatest. There are 15 values, so the eighth number in order is the median: 50. There are seven data values written to the left of the median and 7 values to the right. The five values that are used to create the boxplot are:\nMin: 0\nQ1: 15\nMed: 50\nQ3: 110\nMax: 330\nFigure 11\nSection 5. Measures of the Center of the Data",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46920-fs-idm39140224",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas, but not in others? How can you tell?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "fs-idm39140224"
+  },
+  "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "modelSolution": "More than 25% of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25% and the bottom 25% are spread out evenly; the whiskers have the same length.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46920-element-606",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Given the following box plot, answer the questions.\n[FIGURE]\n\na. Think of an example (in words) where the data might fit into the above box plot. In 2–5 sentences, write down the example.\nb. What does it mean to have the first and second quartiles so close together, while the second to third quartiles are far apart?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "element-606"
+  },
+  "modelSolution": "a. Answers will vary. Possible answer: State University conducted a survey to see how involved its students are in community service. The box plot shows the number of community service hours logged by participants over the past year.\nb. Because the first and second quartiles are close, the data in this quarter is very similar. There is not much variation in the values. The data in the third quarter is much more variable, or spread out. This is clear because the second quartile is so far away from the third quartile.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46920-fs-idp23710160",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "A survey was conducted of 130 purchasers of new BMW 3 series cars, 130 purchasers of new BMW 5 series cars, and 130 purchasers of new BMW 7 series cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results.\n\n[FIGURE]\n\na. In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.\nb. Which group is most likely to have an outlier? Explain how you determined that.\nc. Compare the three box plots. What do they imply about the age of purchasing a BMW from the series when compared to each other?\nd. Look at the BMW 5 series. Which quarter has the smallest spread of data? What is the spread?\ne. Look at the BMW 5 series. Which quarter has the largest spread of data? What is the spread?\nf. Look at the BMW 5 series. Estimate the interquartile range (IQR).\ng. Look at the BMW 5 series. Are there more data in the interval 31 to 38 or in the interval 45 to 55? How do you know this?\nh. Look at the BMW 5 series. Which interval has the fewest data in it? How do you know this?\n\ni. 31–35\nii. 38–41\niii. 41–64",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "fs-idp23710160"
+  },
+  "modelSolution": "a. Each box plot is spread out more in the greater values. Each plot is skewed to the right, so the ages of the top 50% of buyers are more variable than the ages of the lower 50%.\nb. The BMW 3 series is most likely to have an outlier. It has the longest whisker.\nc. Comparing the median ages, younger people tend to buy the BMW 3 series, while older people tend to buy the BMW 7 series. However, this is not a rule, because there is so much variability in each data set.\nd. The second quarter has the smallest spread. There seems to be only a three-year difference between the first quartile and the median.\ne. The third quarter has the largest spread. There seems to be approximately a 14-year difference between the median and the third quartile.\nf. IQR ~ 17 years\ng. There is not enough information to tell. Each interval lies within a quarter, so we cannot tell exactly where the data in that quarter is concentrated.\nh. The interval from 31 to 35 years has the fewest data values. Twenty-five percent of the values fall in the interval 38 to 41, and 25% fall between 41 and 64. Since 25% of values fall between 31 and 38, we know that fewer than 25% fall between 31 and 35.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46920-fs-idp67679120",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "A certain small town in the United states has a population of 27,873 people. Their ages are as follows:\n\n[TABLE]\nAge Group | Percent of Community\n0–17 | 18.9\n18–24 | 8.0\n25–34 | 22.8\n35–44 | 15.0\n45–54 | 13.1\n55–64 | 11.9\n65+ | 10.3\n[/TABLE]\n\na. Construct a histogram of the age distribution for this small town. The bars will not be the same width for this example. Why not? What impact does this have on the reliability of the graph?\nb. What percentage of the community is under age 35?\nc. Which box plot most resembles the information above?\n[FIGURE]",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46920",
+   "exerciseId": "fs-idp67679120"
+  },
+  "modelSolution": "a. For graph, answers may vary.\nb. 49.7% of the community is under the age of 35.\nc. Based on the information in the table, graph (a) most closely represents the data.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46928-0",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "The following data show the number of months patients typically wait on a transplant list before getting surgery. The data are ordered from smallest to largest. Calculate the mean and median.\n\n• 3\n• 4\n• 5\n• 7\n• 7\n• 7\n• 7\n• 8\n• 8\n• 9\n• 9\n• 10\n• 10\n• 10\n• 10\n• 10\n• 11\n• 12\n• 12\n• 13\n• 14\n• 14\n• 15\n• 15\n• 17\n• 17\n• 18\n• 19\n• 19\n• 19\n• 21\n• 21\n• 22\n• 22\n• 23\n• 24\n• 24\n• 24\n• 24",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idm28353888",
+   "ref": "Try It 2.26"
+  },
+  "modelSolution": "Mean: 3 + 4 + 5 + 7 + 7 + 7 + 7 + 8 + 8 + 9 + 9 + 10 + 10 + 10 + 10 + 10 + 11 + 12 + 12 + 13 + 14 + 14 + 15 + 15 + 17 + 17 + 18 + 19 + 19 + 19 + 21 + 21 + 22 + 22 + 23 + 24 + 24 + 24 = 544  = 13.95 Median: Starting at the smallest value, the median is the 20th term, which is 13.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46928-1",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "In a sample of 60 households, one house is worth $2,500,000. Twenty-nine houses are worth $280,000, and all the others are worth $315,000. Which is the better measure of the “center”: the mean or the median?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idm79009152",
+   "ref": "Try It 2.27"
+  },
+  "modelSolution": "The median is the better measure of the “center” than the mean because 59 of the values are less than $315,000 and one is $2,500,000. The $2,500,000 is an outlier. The median, $315,000, gives us a better sense of the middle of the data than the mean, $334,500.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46928-2",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "The number of books checked out from the library from 25 students are as follows:\n\n• 0\n• 0\n• 0\n• 1\n• 2\n• 3\n• 3\n• 4\n• 4\n• 5\n• 5\n• 7\n• 7\n• 7\n• 7\n• 8\n• 8\n• 8\n• 9\n• 10\n• 10\n• 11\n• 11\n• 12\n• 12\n\nFind the mode.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idm24402032",
+   "ref": "Try It 2.28"
+  },
+  "modelSolution": "The most frequent number of books is 7, which occurs four times. Mode = 7.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46928-3",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Five credit scores are 680, 680, 700, 720, 720. The data set is bimodal because the scores 680 and 720 each occur twice. Consider the annual earnings of workers at a factory. The mode is $25,000 and occurs 150 times out of 301. The median is $50,000 and the mean is $47,500. What would be the best measure of the “center”?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idm2098096",
+   "ref": "Try It 2.29"
+  },
+  "modelSolution": "Because $25,000 occurs nearly half the time, the mode would be the best measure of the center because the median and mean don’t represent what most people make at the factory.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46928-4",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "A researcher conducted a study on the effect that playing video games has on memory recall. As part of the study, they compiled the following data:\n\n[TABLE]\nHours Teenagers Spend on Video Games | Number of Teenagers\n0–3.5 | 3\n3.5–7.5 | 7\n7.5–11.5 | 12\n11.5–15.5 | 7\n15.5–19.5 | 9\n[/TABLE]\n\nWhat is the best estimate for the mean number of hours spent playing video games?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idp22476928",
+   "ref": "Try It 2.30"
+  },
+  "modelSolution": "Find the midpoint of each interval, multiply by the corresponding number of teenagers, add the results and then divide by the total number of teenagers The midpoints are 1.75, 5.5, 9.5, 13.5,17.5. Mean =   ==10.78\nSection 6. Skewness and the Mean, Median and Mode",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46928-fs-idp3713376",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Calculate the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idp3713376"
+  },
+  "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n• 16\n• 17\n• 19\n• 20\n• 20\n• 21\n• 23\n• 24\n• 25\n• 25\n• 25\n• 26\n• 26\n• 27\n• 27\n• 27\n• 28\n• 29\n• 30\n• 32\n• 33\n• 33\n• 34\n• 35\n• 37\n• 39\n• 40",
+  "modelSolution": "Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;\n\n738/27 = 27.33",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46928-fs-idm35941040",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Identify the mode.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "fs-idm35941040"
+  },
+  "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n• 16\n• 17\n• 19\n• 20\n• 20\n• 21\n• 23\n• 24\n• 25\n• 25\n• 25\n• 26\n• 26\n• 27\n• 27\n• 27\n• 28\n• 29\n• 30\n• 32\n• 33\n• 33\n• 34\n• 35\n• 37\n• 39\n• 40",
+  "modelSolution": "The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46928-eip-83",
+  "sectionId": "2.5",
+  "kind": "numeric",
+  "conceptTag": "2.5",
+  "stem": "median = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "eip-83"
+  },
+  "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:",
+  "answer": 4.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "4"
+  ]
+ },
+ {
+  "id": "os-m46928-eip-17",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "gives the percent of children under five considered to be underweight. What is the best estimate for the mean percentage of underweight children?\n\n[TABLE]\nPercent of Underweight Children | Number of Countries\n16–21.45 | 23\n21.45–26.9 | 4\n26.9–32.35 | 9\n32.35–37.8 | 7\n37.8–43.25 | 6\n43.25–48.7 | 1\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "eip-17"
+  },
+  "modelSolution": "The mean percentage, x̄=1328.65/50=26.57",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46928-element-84",
+  "sectionId": "2.5",
+  "kind": "mc",
+  "conceptTag": "2.5",
+  "stem": "What is the IQR?",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "element-84"
+  },
+  "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
+  "options": [
+   "8",
+   "11",
+   "15",
+   "35"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "os-m46928-element-346",
+  "sectionId": "2.5",
+  "kind": "mc",
+  "conceptTag": "2.5",
+  "stem": "Is this a sample or the entire population?",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46928",
+   "exerciseId": "element-346"
+  },
+  "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
+  "options": [
+   "sample",
+   "entire population",
+   "neither"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "tryit-m46931-0",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Discuss the mean, median, and mode for each of the following problems. Is there a pattern between the shape and measure of the center?\n\na. [FIGURE]\n\nb.\n\n[TABLE]\nThe Ages Former U.S Presidents Died\n4 | 6 9\n5 | 3 6 7 7 7 8\n6 | 0 0 3 3 4 4 5 6 7 7 7 8\n7 | 0 1 1 2 3 4 7 8 8 9\n8 | 0 1 3 5 8\n9 | 0 0 3 3\nKey: 8|0 means 80.\n[/TABLE]\n\nc.\n[FIGURE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm4859600",
+   "ref": "Try It 2.31"
+  },
+  "modelSolution": "mean = 4.25, median = 3.5, mode = 1; The mean > median > mode which indicates skewness to the right. (data are 0, 1, 2, 3, 4, 5, 6, 9, 10, 14 and respective frequencies are 2, 4, 3, 1, 2, 2, 2, 2, 1, 1)\nmean = 70.1 , median = 68, mode = 57, 67 bimodal; the mean and median are close but there is a little skewness to the right which is influenced by the data being bimodal. (data are 46, 49, 53, 56, 57, 57, 57, 58, 60, 60, 63, 63, 64, 64, 65, 66, 67, 67, 67, 68, 70, 71, 71, 72, 73, 74, 77, 78, 78, 79, 80, 81, 83, 85, 88, 90, 90 93, 93).\nThese are estimates: mean =16.095, median = 17.495, mode = 22.495 (there may be no mode); The mean < median < mode which indicates skewness to the left. (data are the midpoints of the intervals: 2.495, 7.495, 12.495, 17.495, 22.495 and respective frequencies are 2, 3, 4, 7, 9).\nSection 7. Measure of the Spread of the Data",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm89697712",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "• 1\n• 1\n• 1\n• 2\n• 2\n• 2\n• 2\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 4\n• 4\n• 4\n• 5\n• 5",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm89697712"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The data are symmetrical. The median is 3 and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm65822528",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "• 87\n• 87\n• 87\n• 87\n• 87\n• 88\n• 89\n• 89\n• 90\n• 91",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm65822528"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The data are skewed right. The median is 87.5 and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm8813456",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "When the data are symmetrical, what is the typical relationship between the mean and median?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm8813456"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "When the data are symmetrical, the mean and median are close or the same.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idp18513440",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Describe the shape of this distribution.\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idp18513440"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The distribution is skewed right because it looks pulled out to the right.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm17924688",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Describe the relationship between the mean and the median of this distribution.\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm17924688"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The mean is 4.1 and is slightly greater than the median, which is four.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idp21637424",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Describe the relationship between the mode and the median of this distribution.\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idp21637424"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The mode and the median are the same. In this case, they are both five.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm44509184",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Describe the shape of this distribution.\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm44509184"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The distribution is skewed left because it looks pulled out to the left.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm56587152",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Describe the relationship between the mean and the median of this distribution.\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm56587152"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The mean and the median are both six.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm106262320",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Which is the greatest, the mean, the mode, or the median of the data set?\n\n• 11\n• 11\n• 12\n• 12\n• 12\n• 12\n• 13\n• 15\n• 17\n• 22\n• 22\n• 22",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm106262320"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The mode is 12, the median is 12.5, and the mean is 15.1. The mean is the largest.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46931-fs-idm1767264",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "Of the three measures, which tends to reflect skewing the most, the mean, the mode, or the median? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46931",
+   "exerciseId": "fs-idm1767264"
+  },
+  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "modelSolution": "The mean tends to reflect skewing the most because it is affected the most by outliers.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46922-0",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "On a baseball team, the ages of each of the players are as follows:\n\n21; 21; 22; 23; 24; 24; 25; 25; 28; 29; 29; 31; 32; 33; 33; 34; 35; 36; 36; 36; 36; 38; 38; 38; 40\n\nUse your calculator or computer to find the mean and standard deviation. Then find the value that is two standard deviations above the mean.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm106330688",
+   "ref": "Try It 2.32"
+  },
+  "modelSolution": "μ = 30.68\ns = 6.09 (X̄ + 2s) = 30.68 + (2)(6.09) = 42.86.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46922-1",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "The following data show the different types of pet food stores in the area carry.\n\n6; 6; 6; 6; 7; 7; 7; 7; 7; 8; 9; 9; 9; 9; 10; 10; 10; 10; 10; 11; 11; 11; 11; 12; 12; 12; 12; 12; 12;\n\nCalculate the sample mean and the sample standard deviation to one decimal place using a TI-83+ or TI-84 calculator.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm22220656",
+   "ref": "Try It 2.33"
+  },
+  "modelSolution": "μ = 9.3\ns = 2.2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46922-2",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Two swimmers, Angie and Beth, from different teams, wanted to find out who had the fastest time for the 50 meter freestyle when compared to her team. Which swimmer had the fastest time when compared to her team?\n\n[TABLE]\nSwimmer | Time (seconds) | Team Mean Time | Team Standard Deviation\nAngie | 26.2 | 27.2 | 0.8\nBeth | 27.3 | 30.1 | 1.4\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm30975248",
+   "ref": "Try It 2.35"
+  },
+  "modelSolution": "For Angie: z = = –1.25\nFor Beth: z = = –2\nChapter 3. Probability Topics\nSection 1. Terminology",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-fs-idm25484256",
+  "sectionId": "2.7",
+  "kind": "numeric",
+  "conceptTag": "2.7",
+  "stem": "Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm25484256"
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150",
+  "answer": 34.5,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "s = 34.5"
+  ]
+ },
+ {
+  "id": "os-m46922-fs-idm9402560",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?\n\n[TABLE]\nBaseball Player | Batting Average | Team Batting Average | Team Standard Deviation\nFredo | 0.158 | 0.166 | 0.012\nKarl | 0.177 | 0.189 | 0.015\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm9402560"
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150",
+  "modelSolution": "For Fredo: z = (0.158 – 0.166)/0.012\n= –0.67\n\nFor Karl: z = (0.177 – 0.189)/0.015\n= –0.8\n\nFredo’s z-score of –0.67 is higher than Karl’s z-score of –0.8. For batting average, higher values are better, so Fredo has a better batting average compared to his team.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-fs-idm109676912",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.\n\na.\n[TABLE]\nGrade | Frequency\n49.5–59.5 | 2\n59.5–69.5 | 3\n69.5–79.5 | 8\n79.5–89.5 | 12\n89.5–99.5 | 5\n[/TABLE]\n\nb.\n[TABLE]\nDaily Low Temperature | Frequency\n49.5–59.5 | 53\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 1\n89.5–99.5 | 0\n[/TABLE]\n\nc.\n[TABLE]\nPoints per Game | Frequency\n49.5–59.5 | 14\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 23\n89.5–99.5 | 2\n[/TABLE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm109676912"
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150\nFind the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.",
+  "modelSolution": "a. s_x=√((∑fm^2)/n−x̄^2)=√(193157.45/30−79.5^2)=10.88\nb. s_x=√((∑fm^2)/n−x̄^2)=√(380945.3/101−60.94^2)=7.62\nc. s_x=√((∑fm^2)/n−x̄^2)=√(440051.5/86−70.66^2)=11.14",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-exercisetwenty",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "A sample of 11 years is taken. About how many are expected to have a FTES of 1014 or above? Explain how you determined your answer.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "exercisetwenty"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "modelSolution": "The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the 6th number in order. Six years will have totals at or above the median.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-exercisetwentytwo",
+  "sectionId": "2.7",
+  "kind": "numeric",
+  "conceptTag": "2.7",
+  "stem": "The population standard deviation = _____",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "exercisetwentytwo"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "answer": 474.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "474 FTES"
+  ]
+ },
+ {
+  "id": "os-m46922-exercisetwentyfour",
+  "sectionId": "2.7",
+  "kind": "numeric",
+  "conceptTag": "2.7",
+  "stem": "What is the IQR? What does the IQR represent?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "exercisetwentyfour"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "answer": 919.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "919"
+  ]
+ },
+ {
+  "id": "os-m46922-eip-746",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Calculate the mean, median, standard deviation, the first quartile, the third quartile and the IQR. Round to one decimal place.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "eip-746"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "modelSolution": "• mean = 1,809.3\n• median = 1,812.5\n• standard deviation = 151.2\n• first quartile = 1,690\n• third quartile = 1,935\n• IQR = 245",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-eip-975",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Compare the IQR for the previous 29-year period with the IQR for the six-year period shown in . Why do you suppose the IQRs are so different?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "eip-975"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "modelSolution": "Hint: Think about the number of years covered by each time period and what happened to higher education during those periods.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-eip-207",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "A music school has budgeted to purchase three musical instruments. They plan to purchase a piano costing $3,000, a guitar costing $550, and a drum set costing $600. The mean cost for a piano is $4,000 with a standard deviation of $2,500. The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest, when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type. Justify your answer.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "eip-207"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "modelSolution": "For pianos, the cost of the piano is 0.4 standard deviations BELOW the mean. For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean. For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar costs the most in comparison to the cost of other instruments of the same type.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-fs-idm6474736",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "A selection of countries has poverty rates that range from 11.4% to 74.6%. This data is summarized in Table 2.76.\n\n[TABLE]\nPercent of Population | Number of Countries\n11.4–20.45 | 29\n20.45–29.45 | 13\n29.45–38.45 | 4\n38.45–47.45 | 0\n47.45–56.45 | 2\n56.45–65.45 | 1\n65.45–74.45 | 0\n74.45–83.45 | 1\n[/TABLE]\n\nWhat is the best estimate of the average poverty percentage for these countries? What is the standard deviation for the listed poverty rates? The United States has an average poverty rate of 33.9%. Is this rate above average or below? How “unusual” is the United States’ rate compared to the average rate? Explain.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "fs-idm6474736"
+  },
+  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years",
+  "modelSolution": "• x̄=23.32\n• Using the TI 83/84, we obtain a standard deviation of: s_x=12.95.\n• The poverty rate of the United States is 10.58% higher than the average rate.\n• Since the standard deviation is 12.95, we see that 23.32 + 12.95 = 36.27 is the poverty percentage that is one standard deviation from the mean. The United States rate is slightly less than one standard deviation from the mean. Therefore, we can assume that the United States does not have an unusually high percentage of people experiencing poverty.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-element-833",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:\n\n[TABLE]\n# of movies | Frequency\n0 | 5\n1 | 9\n2 | 6\n3 | 4\n4 | 1\n[/TABLE]\n\na. Find the sample mean x̄.\nb. Find the approximate sample standard deviation, s.",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "element-833"
+  },
+  "modelSolution": "a. 1.48\nb. 1.12",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-element-324s",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Following are the published weights (in pounds) of all of the team members of the San Francisco 49ers from a previous year.\n\n177; 205; 210; 210; 232; 205; 185; 185; 178; 210; 206; 212; 184; 174; 185; 242; 188; 212; 215; 247; 241; 223; 220; 260; 245; 259; 278; 270; 280; 295; 275; 285; 290; 272; 273; 280; 285; 286; 200; 215; 185; 230; 250; 241; 190; 260; 250; 302; 265; 290; 276; 228; 265\n\na. Organize the data from smallest to largest value.\nb. Find the median.\nc. Find the first quartile.\nd. Find the third quartile.\ne. Construct a box plot of the data.\nf. The middle 50% of the weights are from _______ to _______.\ng. If our population were all professional football players, would the above data be a sample of weights or the population of weights? Why?\nh. Assume the population was the San Francisco 49ers. Find:\n\ni. the population mean, μ.\nii. the population standard deviation, σ.\niii. the weight that is two standard deviations below the mean.\niv. When Steve Young, quarterback, played football, he weighed 205 pounds. How many standard deviations above or below the mean was he?\n\ni. That same year, the mean weight for the Dallas Cowboys was 240.08 pounds with a standard deviation of 44.38 pounds. Emmit Smith weighed in at 209 pounds. With respect to his team, who was lighter, Smith or Young? How did you determine your answer?",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "element-324s"
+  },
+  "modelSolution": "a. 174; 177; 178; 184; 185; 185; 185; 185; 188; 190; 200; 205; 205; 206; 210; 210; 210; 212; 212; 215; 215; 220; 223; 228; 230; 232; 241; 241; 242; 245; 247; 250; 250; 259; 260; 260; 265; 265; 270; 272; 273; 275; 276; 278; 280; 280; 285; 285; 286; 290; 290; 295; 302\nb. 241\nc. 205.5\nd. 272.5\ne. [FIGURE]\nf. 205.5, 272.5\ng. sample\nh.\n\ni. 236.34\nii. 37.50\niii. 161.34\niv. 0.84 std. dev. below the mean\n\ni. Young",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-element-314",
+  "sectionId": "2.7",
+  "kind": "mc",
+  "conceptTag": "2.7",
+  "stem": "Refer to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.\n[FIGURE]",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "element-314"
+  },
+  "options": [
+   "The medians for all three graphs are the same.",
+   "We cannot determine if any of the means for the three graphs is different.",
+   "The standard deviation for graph b is larger than the standard deviation for graph a.",
+   "We cannot determine if any of the third quartiles for the three graphs is different."
+  ],
+  "correctIndex": 0,
+  "needsFigure": true,
+  "explanation": [
+   "a. True\nb. True\nc. True\nd. False"
+  ]
+ },
+ {
+  "id": "os-m46922-element-891",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "A survey of enrollment at 35 community colleges across the United States yielded the following figures:\n\n6414; 1550; 2109; 9350; 21828; 4300; 5944; 5722; 2825; 2044; 5481; 5200; 5853; 2750; 10012; 6357; 27000; 9414; 7681; 3200; 17500; 9200; 7380; 18314; 6557; 13713; 17768; 7493; 2771; 2861; 1263; 7285; 28165; 5080; 11622\n\na. Organize the data into a chart with six intervals of equal width from 0 to 30,000. Label the two columns \"Enrollment\" and \"Frequency.\"\nb. Construct a histogram of the data.\nc. If you were to build a new community college, which piece of information would be more valuable: the mode or the mean?\nd. Calculate the sample mean.\ne. Calculate the sample standard deviation.\nf. A school with an enrollment of 8000 would be how many standard deviations away from the mean?",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "element-891"
+  },
+  "modelSolution": "a.\n\n[TABLE]\nEnrollment | Frequency\n1000-5000 | 10\n5000-10000 | 16\n10000-15000 | 3\n15000-20000 | 3\n20000-25000 | 1\n25000-30000 | 2\n[/TABLE]\n\nb. Answers may vary.\nc. mode\nd. 8628.74\ne. 6943.88\nf. –0.09",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46922-element-867",
+  "sectionId": "2.7",
+  "kind": "mc",
+  "conceptTag": "2.7",
+  "stem": "The number that is 1.5 standard deviations BELOW the mean is approximately _____",
+  "source": "openstax-bring_together",
+  "sourceRef": {
+   "module": "m46922",
+   "exerciseId": "element-867"
+  },
+  "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]",
+  "options": [
+   "0.7",
+   "4.8",
+   "–2.8",
+   "Cannot be determined"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "pt1-27",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Do you see any outliers in this data? If so, how would you address the situation?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 27
+  },
+  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "modelSolution": "The value 740 is an outlier, because the exams were graded on a scale of 0 to 100, and 740 is far outside that range. It may be a data entry error, with the actual score being 74, so the professor should check that exam again to see what the actual score was.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-28",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Construct a stem plot for this data, using only the values in the range 0–100.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 28
+  },
+  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "modelSolution": "[TABLE]\nStem | Leaf\n6 | 2 4 5 5 8\n7 | 0 2 2 4 5 5 5 6 8 8\n8 | 1 3 3 4 5 7 8\n9 | 2 5 8 8\n10 | 0 0\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-29",
+  "sectionId": "2.1",
+  "kind": "open",
+  "conceptTag": "2.1",
+  "stem": "Describe the distribution of exam scores.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 29
+  },
+  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "modelSolution": "Most scores on this exam were in the range of 70–89, with a few scoring in the 60–69 range, and a few in the 90–100 range.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-30",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "In a class of 35 students, seven students received scores in the 70–79 range. What is the relative frequency of scores in this range?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 30
+  },
+  "modelSolution": "RF=7/35=0.2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-31",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "You decide to construct a histogram of this data. What will be the range of your first bar, and what will be the central point?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 31
+  },
+  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "modelSolution": "The range will be 0.5–1.5, and the central point will be 1.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-32",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "What will be the widths and central points of the other bars?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 32
+  },
+  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "modelSolution": "Range 1.5–2.5, central point 2; range 2.5–3.5, central point 3; range 3.5–4.5, central point 4; range 4.5–5.5., central point 5.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-33",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Which bar in this histogram will be the tallest, and what will be its height?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 33
+  },
+  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "modelSolution": "The bar from 3.5 to 4.5, with a central point of 4, will be tallest; its height will be nine, because there are nine students taking four courses.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-34",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "You get data from the U.S. Census Bureau on the median household income for your city, and decide to display it graphically. Which is the better choice for this data, a bar graph or a histogram?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 34
+  },
+  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "modelSolution": "The histogram is a better choice, because income is a continuous variable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-35",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "You collect data on the color of cars driven by students in your statistics class, and want to display this information graphically. Which is the better choice for this data, a bar graph or a histogram?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 35
+  },
+  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "modelSolution": "A bar graph is the better choice, because this data is categorical rather than continuous.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-36",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "Your daughter brings home test scores showing that she scored in the 80th percentile in math and the 76th percentile in reading for her grade. Interpret these scores.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 36
+  },
+  "modelSolution": "Your daughter scored better than 80 percent of the students in her grade on math and better than 76 percent of the students in reading. Both scores are very good, and place her in the upper quartile, but her math score is slightly better in relation to her peers than her reading score.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-37",
+  "sectionId": "2.3",
+  "kind": "open",
+  "conceptTag": "2.3",
+  "stem": "You have to wait 90 minutes in the emergency room of a hospital before you can see a doctor. You learn that your wait time was in the 82nd percentile of all wait times. Explain what this means, and whether you think it is good or bad.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 37
+  },
+  "modelSolution": "You had an unusually long wait time, which is bad: 82 percent of patients had a shorter wait time than you, and only 18 percent had a longer wait time.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-38",
+  "sectionId": "2.4",
+  "kind": "numeric",
+  "conceptTag": "2.4",
+  "stem": "What is the median for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 38
+  },
+  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "answer": 5.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "5"
+  ]
+ },
+ {
+  "id": "pt1-39",
+  "sectionId": "2.4",
+  "kind": "numeric",
+  "conceptTag": "2.4",
+  "stem": "What is the first quartile for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 39
+  },
+  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "answer": 3.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "3"
+  ]
+ },
+ {
+  "id": "pt1-40",
+  "sectionId": "2.4",
+  "kind": "numeric",
+  "conceptTag": "2.4",
+  "stem": "What is the third quartile for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 40
+  },
+  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "answer": 7.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "7"
+  ]
+ },
+ {
+  "id": "pt1-41",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "What is the median for this data, and how do you know?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 41
+  },
+  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.",
+  "modelSolution": "The median is 86, as represented by the vertical line in the box.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-42",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "What are the first and third quartiles for this data, and how do you know?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 42
+  },
+  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.",
+  "modelSolution": "The first quartile is 80, and the third quartile is 92, as represented by the left and right boundaries of the box.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-43",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "What is the interquartile range for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 43
+  },
+  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.",
+  "modelSolution": "IQR = 92 – 80 = 12",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-44",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "What is the range for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 44
+  },
+  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.",
+  "modelSolution": "Range = 100 – 75 = 25",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-45",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "In a marathon, the median finishing time was 3:35:04 (three hours, 35 minutes, and four seconds). You finished in 3:34:10. Interpret the meaning of the median time, and discuss your time in relation to it.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 45
+  },
+  "modelSolution": "Half the runners who finished the marathon ran a time faster than 3:35:04, and half ran a time slower than 3:35:04. Your time is faster than the median time, so you did better than more than half of the runners in this race.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-46",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Calculate the mean for this data.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 46
+  },
+  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "modelSolution": "61.5, or $61,500",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-47",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Calculate the median for this data.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 47
+  },
+  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "modelSolution": "49.25 or $49,250",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-48",
+  "sectionId": "2.5",
+  "kind": "open",
+  "conceptTag": "2.5",
+  "stem": "Which do you think better reflects the average value of the homes on this block?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 48
+  },
+  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "modelSolution": "The median, because the mean is distorted by the high value of one house.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-49",
+  "sectionId": "2.6",
+  "kind": "mc",
+  "conceptTag": "2.6",
+  "stem": "In a left-skewed distribution, which is greater?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 49
+  },
+  "options": [
+   "the mean",
+   "the media",
+   "the mode"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "pt1-50",
+  "sectionId": "2.6",
+  "kind": "mc",
+  "conceptTag": "2.6",
+  "stem": "In a right-skewed distribution, which is greater?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 50
+  },
+  "options": [
+   "the mean",
+   "the median",
+   "the mode"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "pt1-51",
+  "sectionId": "2.6",
+  "kind": "open",
+  "conceptTag": "2.6",
+  "stem": "In a symmetrical distribution what will be the relationship among the mean, median, and mode?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 51
+  },
+  "modelSolution": "They will all be fairly close to each other.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-52",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Compute the mean and standard deviation for this data; use the sample formula for the standard deviation.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 52
+  },
+  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "modelSolution": "Mean: 15\nStandard deviation: 4.3\n\nμ=(10+11+15+15+17+22)/6=15\n\ns=√((∑(x−x̄)^2)/n−1)=√(94/5)=4.3",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-53",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "What number is two standard deviations above the mean of this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 53
+  },
+  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "modelSolution": "15 + (2)(4.3) = 23.6",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-54",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Express the number 13.7 in terms of the mean and standard deviation of this data.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 54
+  },
+  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "modelSolution": "13.7 is one standard deviation below the mean of this data, because 15 – 4.3 = 10.7",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt1-55",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "In a biology class, the scores on the final exam were normally distributed, with a mean of 85, and a standard deviation of five. Susan got a final exam score of 95. Express her exam result as a z-score, and interpret its meaning.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 1",
+   "n": 55
+  },
+  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "modelSolution": "z=95−85/5=2.0\n\nSusan’s z-score was 2.0, meaning she scored two standard deviations above the class mean for the final exam.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe2-2",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "The box plot for the data is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 2
+  },
+  "context": "Use the following information to answer the next two exercises:",
+  "modelSolution": "a.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv3-7",
+  "sectionId": "2.4",
+  "kind": "mc",
+  "conceptTag": "2.4",
+  "stem": "Calculate the following values:",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 3",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next two exercises: Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)",
+  "options": [
+   "the average weight gain for the two weeks",
+   "the standard deviation",
+   "the first, second, and third quartiles"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 2.27\nb. 3.04\nc. –1, 4, 4"
+  ]
+ },
+ {
+  "id": "rv3-8",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Construct a histogram and box plot of the data.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 3",
+   "n": 8
+  },
+  "context": "Use the following information to answer the next two exercises: Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)",
+  "modelSolution": "Answers will vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv5-34",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "Rachel’s piano cost $3,000. The average cost for a piano is $4,000 with a standard deviation of $2,500. Becca’s guitar cost $550. The average cost for a guitar is $500 with a standard deviation of $200. Matt’s drums cost $600. The average cost for drums is $700 with a standard deviation of $100. Whose cost was lowest when compared to their own instrument?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 34
+  },
+  "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "modelSolution": "Matt",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv5-35",
+  "sectionId": "2.4",
+  "kind": "mc",
+  "conceptTag": "2.4",
+  "stem": "Explain why each statement is either true or false given the box plot in .",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 35
+  },
+  "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "options": [
+   "Twenty-five percent of the data re at most five.",
+   "There is the same amount of data from 4–5 as there is from 5–7.",
+   "There are no data values of three.",
+   "Fifty percent of the data are four."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. false\nb. true\nc. false\nd. false"
+  ]
+ },
+ {
+  "id": "rv5-37",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Find the first, second and third quartiles. Use them to construct a box plot of the data.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 37
+  },
+  "context": "Using the following information to answer the next two exercises: 64 faculty members were asked the number of cars they owned (including spouse and children’s cars). The results are given in the following graph:",
+  "modelSolution": "first quartile: 2\n\nsecond quartile: 2\n\nthird quartile: 3",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv6-41",
+  "sectionId": "2.5",
+  "kind": "mc",
+  "conceptTag": "2.5",
+  "stem": "Explain which of the following are false and which are true.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 6",
+   "n": 41
+  },
+  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "options": [
+   "f(x) = 1/10, 3 ≤ x ≤ 13",
+   "There is no mode",
+   "The median is less than the mean.",
+   "P(x > 10) = P(x ≤ 6)"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. true\nb. true\nc. False – the median and the mean are the same for this symmetric distribution.\nd. true"
+  ]
+ },
+ {
+  "id": "rv6-42",
+  "sectionId": "2.5",
+  "kind": "mc",
+  "conceptTag": "2.5",
+  "stem": "Calculate:",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 6",
+   "n": 42
+  },
+  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "options": [
+   "the mean.",
+   "the median.",
+   "the 65th percentile."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 8\nb. 8\nc. P(x < k) = 0.65 = (k – 3)(1/10). k = 9.5"
+  ]
+ },
+ {
+  "id": "rv6-43",
+  "sectionId": "2.4",
+  "kind": "mc",
+  "conceptTag": "2.4",
+  "stem": "Which of the following is true for the box plot in ?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 6",
+   "n": 43
+  },
+  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "options": [
+   "Twenty-five percent of the data are at most five.",
+   "There is about the same amount of data from 4–5 as there is from 5–7.",
+   "There are no data values of three.",
+   "Fifty percent of the data are four."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. False – 3/4\nof the data are at most five.\nb. True – each quartile has 25% of the data.\nc. False – that is unknown.\nd. False – 50% of the data are four or less."
+  ]
+ },
+ {
+  "id": "rv8-58",
+  "sectionId": "2.7",
+  "kind": "numeric",
+  "conceptTag": "2.7",
+  "stem": "Find the 90th percentile for the mean amount of weight lost by 15 people.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 8",
+   "n": 58
+  },
+  "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
+  "answer": 12.99,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "12.99"
+  ]
+ },
+ {
+  "id": "rv8-69",
+  "sectionId": "2.4",
+  "kind": "mc",
+  "conceptTag": "2.4",
+  "stem": "The following information is about the students who receive financial aid at the local community college.\n\n• 1st quartile = $250\n• 2nd quartile = $700\n• 3rd quartile = $1200\n\nThese amounts are for the school year. If a sample of 200 students is taken, how many are expected to receive $250 or more?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 8",
+   "n": 69
+  },
+  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "options": [
+   "50",
+   "250",
+   "150",
+   "cannot be determined"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. 150"
+  ]
+ },
+ {
+  "id": "rv9-73",
+  "sectionId": "2.7",
+  "kind": "mc",
+  "conceptTag": "2.7",
+  "stem": "Rebecca and Matt are 14 year old twins. Matt’s height is two standard deviations below the mean for 14 year old boys’ height. Rebecca’s height is 0.10 standard deviations above the mean for 14 year old girls’ height. Interpret this.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 73
+  },
+  "options": [
+   "Matt is 2.1 inches shorter than Rebecca.",
+   "Rebecca is very tall compared to other 14 year old girls.",
+   "Rebecca is taller than Matt.",
+   "Matt is shorter than the average 14 year old boy."
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d. Matt is shorter than the average 14 year old boy."
+  ]
+ },
+ {
+  "id": "rv9-74",
+  "sectionId": "2.2",
+  "kind": "open",
+  "conceptTag": "2.2",
+  "stem": "Construct a histogram of the IPO data (see ).",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 74
+  },
+  "modelSolution": "Answers will vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv9-77",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Calculate the median, M, the first quartile, Q1, the third quartile, Q3. Then construct a box plot of the data.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 77
+  },
+  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.",
+  "modelSolution": "M = 3; Q1 = 1; Q3 = 4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv10-91",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "The average length of time a person with a broken leg wears a cast is approximately six weeks. The standard deviation is about three weeks. Thirty people who had recently healed from broken legs were interviewed. State the distribution that most accurately reflects total time to heal for the thirty people.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 10",
+   "n": 91
+  },
+  "context": "Suppose that one person from was randomly selected.",
+  "modelSolution": "N(180, 16.43)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv10-94",
+  "sectionId": "2.7",
+  "kind": "open",
+  "conceptTag": "2.7",
+  "stem": "State the approximate distribution for X̄, the distribution for the average lengths of baby carrots in 16 five-pound bags. X̄ ~ ______",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 10",
+   "n": 94
+  },
+  "context": "Use the following information to answer the next three exercises: A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
+  "modelSolution": "N(2, 0.25/(√(16)))",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-117",
+  "sectionId": "2.4",
+  "kind": "open",
+  "conceptTag": "2.4",
+  "stem": "Find the mean, standard deviation, the median, the first quartile, the third quartile and the IQR.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 117
+  },
+  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:",
+  "modelSolution": "Sample mean = 3.2\n\nSample standard deviation = 1.85\n\nMedian = 3\n\nQ1 = 2\n\nQ3 = 5\n\nIQR = 3",
+  "needsFigure": false,
+  "explanation": []
+ }
+]

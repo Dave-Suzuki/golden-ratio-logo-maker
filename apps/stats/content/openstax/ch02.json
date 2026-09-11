@@ -1,0 +1,1255 @@
+{
+ "number": 2,
+ "title": "Descriptive Statistics",
+ "sections": [
+  {
+   "id": "m46925",
+   "title": "Introduction",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "intro"
+  },
+  {
+   "id": "m46934",
+   "title": "Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs",
+   "tryits": [
+    {
+     "id": "fs-idp3142256",
+     "problem": "For the Park City basketball team, scores for the last 30 games were as follows (smallest to largest):\n\n32; 32; 33; 34; 38; 40; 42; 42; 43; 44; 46; 47; 47; 48; 48; 48; 49; 50; 50; 51; 52; 52; 52; 53; 54; 56; 57; 57; 60; 61\n\nConstruct a stem plot for the data.",
+     "solution": null,
+     "guideSolution": "Stem\nLeaf\n3\n2 2 3 4 8\n4\n0 2 2 3 4 6 7 7 8 8 8 9\n5\n0 0 1 2 2 2 3 4 6 7 7\n6\n0 1",
+     "guideRef": "Try It 2.1"
+    },
+    {
+     "id": "fs-idm40603312",
+     "problem": "The following data show the distances (in miles) from the homes of off-campus statistics students to the college. Create a stem plot using the data and identify any outliers:\n\n0.5; 0.7; 1.1; 1.2; 1.2; 1.3; 1.3; 1.5; 1.5; 1.7; 1.7; 1.8; 1.9; 2.0; 2.2; 2.5; 2.6; 2.8; 2.8; 2.8; 3.5; 3.8; 4.4; 4.8; 4.9; 5.2; 5.5; 5.7; 5.8; 8.0",
+     "solution": null,
+     "guideSolution": "Stem\nLeaf\n0\n5 7\n1\n1 2 2 3 3 5 5 7 7 8 9\n2\n0 2 5 6 8 8 8\n3\n5 8\n4\n4 8 9\n5\n2 5 7 8\n6\n7\n8\n0\nThe value 8.0 may be an outlier. Values appear to concentrate at one and two miles.",
+     "guideRef": "Try It 2.2"
+    },
+    {
+     "id": "fs-idp35107968",
+     "problem": "The table shows the number of wins and losses the Atlanta Hawks have had in 42 seasons. Create a side-by-side stemand-leaf plot of these wins and losses.\n\n[TABLE]\nLosses | Wins | Season | Losses | Wins | Season\n34 | 48 | 1 | 41 | 41 | 22\n34 | 48 | 2 | 39 | 43 | 23\n46 | 36 | 3 | 44 | 38 | 24\n46 | 36 | 4 | 39 | 43 | 25\n36 | 46 | 5 | 25 | 57 | 26\n47 | 35 | 6 | 40 | 42 | 27\n51 | 31 | 7 | 36 | 46 | 28\n53 | 29 | 8 | 26 | 56 | 29\n51 | 31 | 9 | 32 | 50 | 30\n41 | 41 | 10 | 19 | 31 | 31\n36 | 46 | 11 | 54 | 28 | 32\n32 | 50 | 12 | 57 | 25 | 33\n51 | 31 | 13 | 49 | 33 | 34\n40 | 42 | 14 | 47 | 35 | 35\n39 | 43 | 15 | 54 | 28 | 36\n42 | 40 | 16 | 69 | 13 | 37\n48 | 34 | 17 | 56 | 26 | 38\n32 | 50 | 18 | 52 | 30 | 39\n25 | 57 | 19 | 45 | 37 | 40\n32 | 50 | 20 | 35 | 47 | 41\n30 | 52 | 21 | 29 | 53 | 42\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "Atlanta Hawks Wins and Losses\nNumber of Wins\nNumber of Losses\n3\n1\n9\n9 8 8 6 5\n2\n5 5 9\n8 7 6 6 5 5 4 3 1 1 1 1 0\n3\n0 2 2 2 2 4 4 5 6 6 6 9 9 9\n8 8 7 6 6 6 3 3 3 2 2 1 1 0\n4\n0 0 1 1 2 4 5 6 6 7 7 8 9\n7 7 6 3 2 0 0 0 0\n5\n1 1 1 2 3 4 4 6 7\n6\n9",
+     "guideRef": "Try It 2.3"
+    },
+    {
+     "id": "fs-idm95574864",
+     "problem": "In a survey, 40 people were asked how many times per year they had their car in the shop for repairs. The results are shown in . Construct a line graph.\n\n[TABLE]\nNumber of times in shop | Frequency\n0 | 7\n1 | 10\n2 | 14\n3 | 9\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "Figure 2",
+     "guideRef": "Try It 2.4"
+    },
+    {
+     "id": "fs-idm47906688",
+     "problem": "The population in Park City is made up of children, working-age adults, and retirees. shows the three age groups, the number of people in the town from each age group, and the proportion (%) of people in each age group. Construct a bar graph showing the proportions.\n\n[TABLE]\nAge groups | Number of people | Proportion of population\nChildren | 67,059 | 19%\nWorking-age adults | 152,198 | 43%\nRetirees | 131,662 | 38%\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "Figure 3",
+     "guideRef": "Try It 2.5"
+    },
+    {
+     "id": "fs-idm43065520",
+     "problem": "Park city is broken down into six voting districts. The table shows the percent of the total registered voter population that lives in each district as well as the percent total of the entire population that lives in each district. Construct a bar graph that shows the registered voter population by district.\n\n[TABLE]\nDistrict | Registered voter population | Overall city population\n1 | 15.5% | 19.4%\n2 | 12.2% | 15.6%\n3 | 9.8% | 9.0%\n4 | 17.4% | 18.5%\n5 | 22.8% | 20.7%\n6 | 22.3% | 16.8%\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "Figure 4\nSection 2. Histograms, Frequency Polygons, and Time Series Graphs",
+     "guideRef": "Try It 2.6"
+    }
+   ],
+   "examples": [
+    "For Professor Dean's spring pre-calculus class, scores for the first exam were as follows (smallest to largest):\n\n33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100\n\n[TABLE]\nStem | Leaf\n3 | 3\n4 | 2 9 9\n5 | 3 5 5\n6 | 1 3 7 8 8 9 9\n7 | 2 3 4 8\n8 | 0 3 8 8 8\n9 | 0 2 4 4 4 4 6\n10 | 0\n[/TABLE]\n\nThe stemplot shows that most scores fell in the 60s, 70s, 80s, and 90s. Eight out of the 31 scores or approximately 26% (8/31) were in the 90s or 100, a fairly high number of As.",
+    "The data are the distances (in kilometers) from a home to local supermarkets. Create a stemplot using the data:\n\n1.1; 1.5; 2.3; 2.5; 2.7; 3.2; 3.3; 3.3; 3.5; 3.8; 4.0; 4.2; 4.5; 4.5; 4.7; 4.8; 5.5; 5.6; 6.5; 6.7; 12.3\n\nDo the data seem to have any concentration of values?\n\nNOTE\n\nThe leaves are to the right of the decimal.\n\nThe value 12.3 may be an outlier. Values appear to concentrate at three and four kilometers.\n\n[TABLE]\nStem | Leaf\n1 | 1 5\n2 | 3 5 7\n3 | 2 3 3 5 8\n4 | 0 2 5 5 7 8\n5 | 5 6\n6 | 5 7\n7 |\n8 |\n9 |\n10 |\n11 |\n12 | 3\n[/TABLE]",
+    "A side-by-side stem-and-leaf plot allows a comparison of the two data sets in two columns. In a side-by-side stem-and-leaf plot, two sets of leaves share the same stem. The leaves are to the left and the right of the stems. and show the ages of presidents at their inauguration and at their death. Construct a side-by-side stem-and-leaf plot using this data.\n\n[TABLE]\nPresident | Age | President | Age | President | Age\nWashington | 57 | Lincoln | 52 | Hoover | 54\nJ. Adams | 61 | A. Johnson | 56 | F. Roosevelt | 51\nJefferson | 57 | Grant | 46 | Truman | 60\nMadison | 57 | Hayes | 54 | Eisenhower | 62\nMonroe | 58 | Garfield | 49 | Kennedy | 43\nJ. Q. Adams | 57 | Arthur | 51 | L. Johnson | 55\nJackson | 61 | Cleveland | 47 | Nixon | 56\nVan Buren | 54 | B. Harrison | 55 | Ford | 61\nW. H. Harrison | 68 | Cleveland | 55 | Carter | 52\nTyler | 51 | McKinley | 54 | Reagan | 69\nPolk | 49 | T. Roosevelt | 42 | G.H.W. Bush | 64\nTaylor | 64 | Taft | 51 | Clinton | 47\nFillmore | 50 | Wilson | 56 | G. W. Bush | 54\nPierce | 48 | Harding | 55 | Obama | 47\nBuchanan | 65 | Coolidge | 51 | |\n[/TABLE]\n\n[TABLE]\nPresident | Age | President | Age | President | Age\nWashington | 67 | Lincoln | 56 | Hoover | 90\nJ. Adams | 90 | A. Johnson | 66 | F. Roosevelt | 63\nJefferson | 83 | Grant | 63 | Truman | 88\nMadison | 85 | Hayes | 70 | Eisenhower | 78\nMonroe | 73 | Garfield | 49 | Kennedy | 46\nJ. Q. Adams | 80 | Arthur | 56 | L. Johnson | 64\nJackson | 78 | Cleveland | 71 | Nixon | 81\nVan Buren | 79 | B. Harrison | 67 | Ford | 93\nW. H. Harrison | 68 | Cleveland | 71 | Reagan | 93\nTyler | 71 | McKinley | 58 | |\nPolk | 53 | T. Roosevelt | 60 | |\nTaylor | 65 | Taft | 72 | |\nFillmore | 74 | Wilson | 67 | |\nPierce | 64 | Harding | 57 | |\nBuchanan | 77 | Coolidge | 60 | |\n[/TABLE]\n\n[TABLE]\nAges at Inauguration | | Ages at Death\n9 9 8 7 7 7 6 3 2 | 4 | 6 9\n8 7 7 7 7 6 6 6 5 5 5 5 4 4 4 4 4 2 2 1 1 1 1 1 0 | 5 | 3 6 6 7 7 8\n9 8 5 4 4 2 1 1 1 0 | 6 | 0 0 3 3 4 4 5 6 7 7 7 8\n| 7 | 0 1 1 1 2 3 4 7 8 8 9\n| 8 | 0 1 3 5 8\n| 9 | 0 0 3 3\n[/TABLE]",
+    "In a survey, 40 parents were asked how many times per week a teenager must be reminded to do their chores. The results are shown in and in .\n\n[TABLE]\nNumber of times\nteenager is reminded | Frequency\n0 | 2\n1 | 5\n2 | 8\n3 | 14\n4 | 7\n5 | 4\n[/TABLE]\n\n[FIGURE]",
+    "The percentage of U.S.-based TikTok users by age is shown in . Construct a bar graph using this data.\n\n[TABLE]\nAge groups | Proportion (%) of TikTok users\n10–19 | 32.5%\n20–29 | 29.5%\n30–39 | 16.4%\n40–49 | 13.9%\n50+ | 7.1%\n[/TABLE]\n\n[FIGURE]",
+    "The columns in show the projected data for the year 2030 for the number and percentages of high school graduates by geographic region in the United States. Create a bar graph for this data with the geographic region (qualitative data) on the x-axis and the percentage of high school data (quantitative data) on the y-axis.\n\n[TABLE]\nRegion | Number of Graduates | Percentage of Graduates\nNortheast | 517,720 | 16.1%\nMidwest | 695,170 | 21.6%\nSouth | 1,253,540 | 39.0%\nWest | 749,400 | 23.3%\n[/TABLE]\n\n[FIGURE]"
+   ],
+   "practice": [
+    {
+     "id": "fs-idp77965776",
+     "problem": "The miles per gallon rating for 30 cars are shown below (lowest to highest).\n\n19, 19, 19, 20, 21, 21, 25, 25, 25, 26, 26, 28, 29, 31, 31, 32, 32, 33, 34, 35, 36, 37, 37, 38, 38, 38, 38, 41, 43, 43",
+     "solution": "[TABLE]\nStem | Leaf\n1 | 9 9 9\n2 | 0 1 1 5 5 5 6 6 8 9\n3 | 1 1 2 2 3 4 5 6 7 7 8 8 8 8\n4 | 1 3 3\n[/TABLE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers."
+    },
+    {
+     "id": "fs-idp69585968",
+     "problem": "The height in feet of 25 trees is shown below (lowest to highest).\n\n25, 27, 33, 34, 34, 34, 35, 37, 37, 38, 39, 39, 39, 40, 41, 45, 46, 47, 49, 50, 50, 53, 53, 54, 54",
+     "solution": null,
+     "context": "For each of the following data sets, create a stem plot and identify any outliers."
+    },
+    {
+     "id": "exercise8",
+     "problem": "The data are the prices of different laptops at an electronics store. Round each value to the nearest ten.\n\n249, 249, 260, 265, 265, 280, 299, 299, 309, 319, 325, 326, 350, 350, 350, 365, 369, 389, 409, 459, 489, 559, 569, 570, 610",
+     "solution": "[TABLE]\nStem | Leaf\n2 | 5 5 6 7 7 8\n3 | 0 0 1 2 3 3 5 5 5 7 7 9\n4 | 1 6 9\n5 | 6 7 7\n6 | 1\n[/TABLE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers."
+    },
+    {
+     "id": "fs-idp48193248",
+     "problem": "The data are daily high temperatures in a town for one month.\n\n61, 61, 62, 64, 66, 67, 67, 67, 68, 69, 70, 70, 70, 71, 71, 72, 74, 74, 74, 75, 75, 75, 76, 76, 77, 78, 78, 79, 79, 95",
+     "solution": null,
+     "context": "For each of the following data sets, create a stem plot and identify any outliers."
+    },
+    {
+     "id": "fs-idp113295424",
+     "problem": "In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in .\n\n[TABLE]\nNumber of times in store | Frequency\n1 | 4\n2 | 10\n3 | 16\n4 | 6\n5 | 4\n[/TABLE]",
+     "solution": "[FIGURE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "fs-idp11360192",
+     "problem": "In a survey, several people were asked how many years it has been since they purchased a mattress. The results are shown in .\n\n[TABLE]\nYears since last purchase | Frequency\n0 | 2\n1 | 8\n2 | 13\n3 | 22\n4 | 16\n5 | 9\n[/TABLE]",
+     "solution": null,
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "fs-idp113509472",
+     "problem": "Several children were asked how many TV shows they watch each day. The results of the survey are shown in .\n\n[TABLE]\nNumber of TV Shows | Frequency\n0 | 12\n1 | 18\n2 | 36\n3 | 7\n4 | 2\n[/TABLE]",
+     "solution": "[FIGURE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "exercise13",
+     "problem": "The students in Ms. Ramirez’s math class have birthdays in each of the four seasons. shows the four seasons, the number of students who have birthdays in each season, and the percentage (%) of students in each group. Construct a bar graph showing the number of students.\n\n[TABLE]\nSeasons | Number of students | Proportion of population\nSpring | 8 | 24%\nSummer | 9 | 26%\nAutumn | 11 | 32%\nWinter | 6 | 18%\n[/TABLE]",
+     "solution": null,
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "fs-idp114173136",
+     "problem": "Using the data from Ms. Ramirez’s math class supplied in , construct a bar graph showing the percentages.",
+     "solution": "[FIGURE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "exercise10",
+     "problem": "David County has six high schools. Each school sent students to participate in a county-wide science competition. shows the percentage breakdown of competitors from each school, and the percentage of the entire student population of the county that goes to each school. Construct a bar graph that shows the population percentage of competitors from each school.\n\n[TABLE]\nHigh School | Science competition population | Overall student population\nAlabaster | 28.9% | 8.6%\nConcordia | 7.6% | 23.2%\nGenoa | 12.1% | 15.0%\nMocksville | 18.5% | 14.3%\nTynneson | 24.2% | 10.1%\nWest End | 8.7% | 28.8%\n[/TABLE]",
+     "solution": null,
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    },
+    {
+     "id": "fs-idp107146752",
+     "problem": "Use the data from the David County science competition supplied in . Construct a bar graph that shows the county-wide population percentage of students at each school.",
+     "solution": "[FIGURE]",
+     "context": "For each of the following data sets, create a stem plot and identify any outliers.\nFor the next three exercises, use the data to construct a line graph."
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp49136992",
+     "problem": "Student grades on a chemistry exam were: 77, 78, 76, 81, 86, 51, 79, 82, 84, 99\n\na. Construct a stem-and-leaf plot of the data.\nb. Are there any potential outliers? If so, which scores are they? Why do you consider them outliers?",
+     "solution": null
+    },
+    {
+     "id": "eip-440",
+     "problem": "contains the percentages of adults who were never married in the 50 U.S. states and Washington, DC.\n\n[TABLE]\nState | Percent (%) | State | Percent (%) | State | Percent (%)\nAlabama | 32.2 | Kentucky | 31.3 | North Dakota | 27.2\nAlaska | 24.5 | Louisiana | 31.0 | Ohio | 29.2\nArizona | 24.3 | Maine | 26.8 | Oklahoma | 30.4\nArkansas | 30.1 | Maryland | 27.1 | Oregon | 26.8\nCalifornia | 24.0 | Massachusetts | 23.0 | Pennsylvania | 28.6\nColorado | 21.0 | Michigan | 30.9 | Rhode Island | 25.5\nConnecticut | 22.5 | Minnesota | 24.8 | South Carolina | 31.5\nDelaware | 28.0 | Mississippi | 34.0 | South Dakota | 27.3\nWashington, DC | 22.2 | Missouri | 30.5 | Tennessee | 30.8\nFlorida | 26.6 | Montana | 23.0 | Texas | 31.0\nGeorgia | 29.6 | Nebraska | 26.9 | Utah | 22.5\nHawaii | 22.7 | Nevada | 22.4 | Vermont | 23.2\nIdaho | 26.5 | New Hampshire | 25.0 | Virginia | 26.0\nIllinois | 28.2 | New Jersey | 23.8 | Washington | 25.5\nIndiana | 29.6 | New Mexico | 25.1 | West Virginia | 32.5\nIowa | 28.4 | New York | 23.9 | Wisconsin | 26.3\nKansas | 29.4 | North Carolina | 27.8 | Wyoming | 25.1\n[/TABLE]\n\na. Use a random number generator to randomly pick eight states. Construct a bar graph of the rates of those eight states.\nb. Construct a bar graph for all the states beginning with the letter \"A.\"\nc. Construct a bar graph for all the states beginning with the letter \"M.\"",
+     "solution": "a. Example solution for using the random number generator for the TI-84+ to generate a simple random sample of 8 states. Instructions are as follows.\n\n• Number the entries in the table 1–51 (Includes Washington, DC; Numbered vertically)\n• Press MATH\n• Arrow over to PRB\n• Press 5:randInt(\n• Enter 51,1,8)\n\nEight numbers are generated (use the right arrow key to scroll through the numbers). The numbers correspond to the numbered states (for this example: {47 21 9 23 51 13 25 4}. If any numbers are repeated, generate a different number by using 5:randInt(51,1)). Here, the states (and Washington DC) are {Arkansas, Washington DC, Idaho, Maryland, Michigan, Mississippi, Virginia, Wyoming}.\n\nCorresponding percents are {30.1, 22.2, 26.5, 27.1, 30.9, 34.0, 26.0, 25.1}.\n\n[FIGURE]\n\nb.\n\n[FIGURE]\nc. [FIGURE]"
+    }
+   ],
+   "bring_together": [],
+   "summary": "A stem-and-leaf plot is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A line graph is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends. That is, finding a general pattern in data sets including temperature, sales, employment, company profit or cost over a period of time. A bar graph is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Some bar graphs present bars clustered in groups of more than one (grouped bar graphs), and others show the bars divided into subparts to show cumulative effect (stacked bar graphs). Bar graphs are especially useful when categorical data is being used.",
+   "formula_review": null,
+   "glossary": [],
+   "kind": "section",
+   "section": "2.1"
+  },
+  {
+   "id": "m46924",
+   "title": "Histograms, Frequency Polygons, and Time Series Graphs",
+   "tryits": [
+    {
+     "id": "fs-idm28791888",
+     "problem": "The following data are the shoe sizes of 50 students. The sizes are discrete data since shoe size is measured in whole and half units only. Construct a histogram and calculate the width of each bar or class interval. Suppose you choose six bars.\n\n9; 9; 9.5; 9.5; 10; 10; 10; 10; 10; 10; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5; 10.5\n\n11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11; 11.5; 11.5; 11.5; 11.5; 11.5; 11.5; 11.5\n\n12; 12; 12; 12; 12; 12; 12; 12.5; 12.5; 12.5; 12.5; 14",
+     "solution": null,
+     "guideSolution": "The smallest value is 9 and the sizes are measured to the nearest 0.5, so the starting point for the histogram is 8.95.\nThe largest value is 14, so the ending value is 14.05.\nCalculate the width of the 6 bars:\nRound 0.85 to 1; the width of each bar is 1.\nInterval\nFrequency\nRelative Frequency\n8.95–9.95\n4\n0.08\n9.95–10.95\n14\n0.28\n10.95–11.95\n20\n0.4\n11.95–12.95\n11\n0.22\n12.95–13.95\n0\n0\n13.95–14.95\n1\n0.02",
+     "guideRef": "Try It 2.7"
+    },
+    {
+     "id": "fs-idp68031136",
+     "problem": "The following data are the number of sports played by 50 student athletes. The number of sports is discrete data since sports are counted.\n\n1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1\n\n2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2; 2\n\n3; 3; 3; 3; 3; 3; 3; 3\n\n20 student athletes play one sport. 22 student athletes play two sports. Eight student athletes play three sports.\n\nFill in the blanks for the following sentence. Since the data consist of the numbers 1, 2, 3, and the starting point is 0.5, a width of one places the 1 in the middle of the interval 0.5 to _____, the 2 in the middle of the interval from _____ to _____, and the 3 in the middle of the interval from _____ to _____.",
+     "solution": null,
+     "guideSolution": "1.5 1.5 to 2.5 2.5 to 3.5",
+     "guideRef": "Try It 2.8"
+    },
+    {
+     "id": "fs-idm32934816",
+     "problem": "The following data represent the number of employees at various restaurants in New York City. Using this data, create a histogram.\n\n• 22\n• 35\n• 15\n• 26\n• 40\n• 28\n• 18\n• 20\n• 25\n• 34\n• 39\n• 42\n• 24\n• 22\n• 19\n• 27\n• 22\n• 34\n• 40\n• 20\n• 38\n• and 28\n\nUse 10–19 as the first interval.",
+     "solution": null,
+     "guideSolution": "Figure 5",
+     "guideRef": "Try It 2.9"
+    },
+    {
+     "id": "eip-idp12732512",
+     "problem": "Construct a frequency polygon of U.S. Presidents’ ages at inauguration shown in .\n\n[TABLE]\nAge at Inauguration | Frequency\n41.5–46.5 | 4\n46.5–51.5 | 11\n51.5–56.5 | 14\n56.5–61.5 | 9\n61.5–66.5 | 4\n66.5–71.5 | 2\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "The first label on the x-axis is 39. This represents an interval extending from 36.5 to 41.5. Since there are no ages less than 41.5, this interval is used only to allow the graph to touch the x-axis. The point labeled 44 represents the next interval, or the first “real” interval from the table, and contains four scores. This reasoning is followed for each of the remaining intervals with the point 74 representing the interval from 71.5 to 76.5. Again, this interval contains no data and is only used so that the graph will touch the x-axis. Looking at the graph, we say that this distribution is skewed because one side of the graph does not mirror the other side.\nFigure 6",
+     "guideRef": "Try It 2.10"
+    },
+    {
+     "id": "exer-00001",
+     "problem": "We will construct an overlay frequency polygon comparing the scores from with the students’ final test scores in algebra.\n\n[TABLE]\nFrequency Distribution for Algebra Final Test Scores\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 10 | 10\n59.5 | 69.5 | 5 | 15\n69.5 | 79.5 | 40 | 55\n79.5 | 89.5 | 35 | 90\n89.5 | 99.5 | 10 | 100\n[/TABLE]",
+     "solution": "Calculus Test Scores v Algebra Test Scores\n\nImage Insert"
+    },
+    {
+     "id": "fs-idm10087584",
+     "problem": "The following table is a portion of a data set from www.worldbank.org. Use the table to construct a time series graph for CO2 emissions for the United States.\n\n[TABLE]\nCO2 Emissions\nYear | Ukraine | United Kingdom | United States\n1 | 352,259 | 540,640 | 5,681,664\n2 | 343,121 | 540,409 | 5,790,761\n3 | 339,029 | 541,990 | 5,826,394\n4 | 327,797 | 542,045 | 5,737,615\n5 | 328,357 | 528,631 | 5,828,697\n6 | 323,657 | 522,247 | 5,656,839\n7 | 272,176 | 474,579 | 5,299,563\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "Figure 8\nSection 3. Measures of the Location of the Data",
+     "guideRef": "Try It 2.12"
+    }
+   ],
+   "examples": [
+    "The following data are the heights (in inches to the nearest half inch) of 100 semiprofessional soccer players. The heights are continuous data, since height is measured.\n\n60; 60.5; 61; 61; 61.5\n\n63.5; 63.5; 63.5\n\n64; 64; 64; 64; 64; 64; 64; 64.5; 64.5; 64.5; 64.5; 64.5; 64.5; 64.5; 64.5\n\n66; 66; 66; 66; 66; 66; 66; 66; 66; 66; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 66.5; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67; 67.5; 67.5; 67.5; 67.5; 67.5; 67.5; 67.5\n\n68; 68; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69; 69.5; 69.5; 69.5; 69.5; 69.5\n\n70; 70; 70; 70; 70; 70; 70.5; 70.5; 70.5; 71; 71; 71\n\n72; 72; 72; 72.5; 72.5; 73; 73.5\n\n74\n\nThe smallest data value is 60. Since the data with the most decimal places has one decimal (for instance, 61.5), we want our starting point to have two decimal places. Since the numbers 0.5, 0.05, 0.005, etc. are convenient numbers, use 0.05 and subtract it from 60, the smallest value, for the convenient starting point.\n\n60 – 0.05 = 59.95 which is more precise than, say, 61.5 by one decimal place. The starting point is, then, 59.95.\n\nThe largest value is 74, so 74 + 0.05 = 74.05 is the ending value.\n\nNext, calculate the width of each bar or class interval. To calculate this width, subtract the starting point from the ending value and divide by the number of bars (you must choose the number of bars you desire). Suppose you choose eight bars.\n\n74.05-59.95=14.1 ; 14.1÷8=1.76\n\nNOTE\n\nWe will round up to two and make each bar or class interval two units wide. Rounding up to two is one way to prevent a value from falling on a boundary. Rounding to the next number is often necessary even if it goes against the standard rules of rounding. For this example, using 1.76 as the width would also work. A guideline that is followed by some for the number of bars or class intervals is to take the square root of the number of data values and then round to the nearest whole number, if necessary. For example, if there are 150 values of data, take the square root of 150 and round to 12 bars or intervals.\n\nThe boundaries are:\n\n• 59.95\n• 59.95 + 2 = 61.95\n• 61.95 + 2 = 63.95\n• 63.95 + 2 = 65.95\n• 65.95 + 2 = 67.95\n• 67.95 + 2 = 69.95\n• 69.95 + 2 = 71.95\n• 71.95 + 2 = 73.95\n• 73.95 + 2 = 75.95\n\nThe heights 60 through 61.5 inches are in the interval 59.95–61.95. The heights that are 63.5 are in the interval 61.95–63.95. The heights that are 64 through 64.5 are in the interval 63.95–65.95. The heights 66 through 67.5 are in the interval 65.95–67.95. The heights 68 through 69.5 are in the interval 67.95–69.95. The heights 70 through 71 are in the interval 69.95–71.95. The heights 72 through 73.5 are in the interval 71.95–73.95. The height 74 is in the interval 73.95–75.95.\n\nThe following histogram displays the heights on the x-axis and relative frequency on the y-axis.\n\n[FIGURE]",
+    "Create a histogram for the following data: the number of books bought by 50 part-time college students at ABC College. The number of books is discrete data, since books are counted.\n\n1; 1; 1; 1; 1; 1; 1; 1; 1; 1; 1\n\n2; 2; 2; 2; 2; 2; 2; 2; 2; 2\n\n3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3; 3\n\n4; 4; 4; 4; 4; 4\n\n5; 5; 5; 5; 5\n\n6; 6\n\nEleven students buy one book. Ten students buy two books. Sixteen students buy three books. Six students buy four books. Five students buy five books. Two students buy six books.\n\nBecause the data are integers, subtract 0.5 from 1, the smallest data value and add 0.5 to 6, the largest data value. Then the starting point is 0.5 and the ending value is 6.5.\n\nNext, calculate the width of each bar or class interval. If the data are discrete and there are not too many different values, a width that places the data values in the middle of the bar or class interval is the most convenient. Since the data consist of the numbers 1, 2, 3, 4, 5, 6, and the starting point is 0.5, a width of one places the 1 in the middle of the interval from 0.5 to 1.5, the 2 in the middle of the interval from 1.5 to 2.5, the 3 in the middle of the interval from 2.5 to 3.5, the 4 in the middle of the interval from _______ to _______, the 5 in the middle of the interval from _______ to _______, and the _______ in the middle of the interval from _______ to _______ .\n\n• 3.5 to 4.5\n• 4.5 to 5.5\n• 6\n• 5.5 to 6.5\n\nCalculate the number of bars as follows:\n\n6.5-0.5=6 ; 6÷1=6\n\nwhere 1 is the width of a bar. Therefore, bars = 6.\n\nThe following histogram displays the number of books on the x-axis and the frequency on the y-axis.\n\n[FIGURE]",
+    "Using this data set, construct a histogram.\n\n[TABLE]\nNumber of Hours My Classmates Spent Playing Video Games on Weekends\n9.95 | 10 | 2.25 | 16.75 | 0\n19.5 | 22.5 | 7.5 | 15 | 12.75\n5.5 | 11 | 10 | 20.75 | 17.5\n23 | 21.9 | 24 | 23.75 | 18\n20 | 15 | 22.9 | 18.8 | 20.5\n[/TABLE]\n\n[FIGURE]\n\nSome values in this data set fall on boundaries for the class intervals. A value is counted in a class interval if it falls on the left boundary, but not if it falls on the right boundary. Different researchers may set up histograms for the same data in different ways. There is more than one correct way to set up a histogram.",
+    "A frequency polygon was constructed from the frequency table below.\n\n[TABLE]\nFrequency Distribution for Calculus Final Test Scores\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 5 | 5\n59.5 | 69.5 | 10 | 15\n69.5 | 79.5 | 30 | 45\n79.5 | 89.5 | 40 | 85\n89.5 | 99.5 | 15 | 100\n[/TABLE]\n\n[FIGURE]\n\nThe first label on the x-axis is 44.5. This represents an interval extending from 39.5 to 49.5. Since the lowest test score is 54.5, this interval is used only to allow the graph to touch the x-axis. The point labeled 54.5 represents the next interval, or the first “real” interval from the table, and contains five scores. This reasoning is followed for each of the remaining intervals with the point 104.5 representing the interval from 99.5 to 109.5. Again, this interval contains no data and is only used so that the graph will touch the x-axis. Looking at the graph, we say that this distribution is skewed because one side of the graph does not mirror the other side.",
+    "We will construct an overlay frequency polygon comparing the scores from with the students’ final numeric grade.\n\n[TABLE]\nFrequency Distribution for Calculus Final Test Scores\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 5 | 5\n59.5 | 69.5 | 10 | 15\n69.5 | 79.5 | 30 | 45\n79.5 | 89.5 | 40 | 85\n89.5 | 99.5 | 15 | 100\n[/TABLE]\n\n[TABLE]\nFrequency Distribution for Calculus Final Grades\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 10 | 10\n59.5 | 69.5 | 10 | 20\n69.5 | 79.5 | 30 | 50\n79.5 | 89.5 | 45 | 95\n89.5 | 99.5 | 5 | 100\n[/TABLE]\n\n[FIGURE]",
+    "The following data shows the Annual Consumer Price Index, each month, for ten years. Construct a time series graph for the Annual Consumer Price Index data only.\n\n[TABLE]\nYear | Jan | Feb | Mar | Apr | May | Jun | Jul\n1 | 181.7 | 183.1 | 184.2 | 183.8 | 183.5 | 183.7 | 183.9\n2 | 185.2 | 186.2 | 187.4 | 188.0 | 189.1 | 189.7 | 189.4\n3 | 190.7 | 191.8 | 193.3 | 194.6 | 194.4 | 194.5 | 195.4\n4 | 198.3 | 198.7 | 199.8 | 201.5 | 202.5 | 202.9 | 203.5\n5 | 202.416 | 203.499 | 205.352 | 206.686 | 207.949 | 208.352 | 208.299\n6 | 211.080 | 211.693 | 213.528 | 214.823 | 216.632 | 218.815 | 219.964\n7 | 211.143 | 212.193 | 212.709 | 213.240 | 213.856 | 215.693 | 215.351\n8 | 216.687 | 216.741 | 217.631 | 218.009 | 218.178 | 217.965 | 218.011\n9 | 220.223 | 221.309 | 223.467 | 224.906 | 225.964 | 225.722 | 225.922\n10 | 226.665 | 227.663 | 229.392 | 230.085 | 229.815 | 229.478 | 229.104\n[/TABLE]\n\n[TABLE]\nYear | Aug | Sep | Oct | Nov | Dec | Annual\n1 | 184.6 | 185.2 | 185.0 | 184.5 | 184.3 | 184.0\n2 | 189.5 | 189.9 | 190.9 | 191.0 | 190.3 | 188.9\n3 | 196.4 | 198.8 | 199.2 | 197.6 | 196.8 | 195.3\n4 | 203.9 | 202.9 | 201.8 | 201.5 | 201.8 | 201.6\n5 | 207.917 | 208.490 | 208.936 | 210.177 | 210.036 | 207.342\n6 | 219.086 | 218.783 | 216.573 | 212.425 | 210.228 | 215.303\n7 | 215.834 | 215.969 | 216.177 | 216.330 | 215.949 | 214.537\n8 | 218.312 | 218.439 | 218.711 | 218.803 | 219.179 | 218.056\n9 | 226.545 | 226.889 | 226.421 | 226.230 | 225.672 | 224.939\n10 | 230.379 | 231.407 | 231.317 | 230.221 | 229.601 | 229.594\n[/TABLE]\n\n[FIGURE]"
+   ],
+   "practice": [
+    {
+     "id": "eip-341",
+     "problem": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Complete the table.\n\n[TABLE]\nData Value (# cars) | Frequency | Relative Frequency | Cumulative Relative Frequency\n| | |\n| | |\n| | |\n| | |\n| | |\n[/TABLE]",
+     "solution": null
+    },
+    {
+     "id": "element-625",
+     "problem": "What does the frequency column in sum to? Why?",
+     "solution": "65"
+    },
+    {
+     "id": "exerciseone",
+     "problem": "What does the relative frequency column in sum to? Why?",
+     "solution": null
+    },
+    {
+     "id": "exercisetwo",
+     "problem": "What is the difference between relative frequency and frequency for each data value in ?",
+     "solution": "The relative frequency shows the proportion of data points that have each value. The frequency tells the number of data points that have each value."
+    },
+    {
+     "id": "exercisethree",
+     "problem": "What is the difference between cumulative relative frequency and relative frequency for each data value?",
+     "solution": null
+    },
+    {
+     "id": "fs-idp48667136",
+     "problem": "To construct the histogram for the data in , determine appropriate minimum and maximum x and y values and the scaling. Sketch the histogram. Label the horizontal and vertical axes with words. Include numerical scaling.\n[FIGURE]",
+     "solution": "Answers will vary. One possible histogram is shown:\n\n[FIGURE]"
+    },
+    {
+     "id": "fs-idm40930928",
+     "problem": "Construct a frequency polygon for the following:\n\na.\n[TABLE]\nPulse Rates for Females | Frequency\n60–69 | 12\n70–79 | 14\n80–89 | 11\n90–99 | 1\n100–109 | 1\n110–119 | 0\n120–129 | 1\n[/TABLE]\n\nb.\n[TABLE]\nActual Speed in a 30 MPH Zone | Frequency\n42–45 | 25\n46–49 | 14\n50–53 | 7\n54–57 | 3\n58–61 | 1\n[/TABLE]\n\nc.\n[TABLE]\nTar (mg) in Nonfiltered Cigarettes | Frequency\n10–13 | 1\n14–17 | 0\n18–21 | 15\n22–25 | 7\n26–29 | 2\n[/TABLE]",
+     "solution": null
+    },
+    {
+     "id": "fs-idp36783568",
+     "problem": "Construct a frequency polygon from the frequency distribution for the 50 highest ranked countries for depth of hunger.\n\n[TABLE]\nDepth of Hunger | Frequency\n230–259 | 21\n260–289 | 13\n290–319 | 5\n320–349 | 7\n350–379 | 1\n380–409 | 1\n410–439 | 1\n[/TABLE]",
+     "solution": "Find the midpoint for each class. These will be graphed on the x-axis. The frequency values will be graphed on the y-axis values.\n\n[FIGURE]"
+    },
+    {
+     "id": "fs-idm37056320",
+     "problem": "Use the two frequency tables to compare the life expectancy of males and females from 20 randomly selected countries. Include an overlayed frequency polygon and discuss the shapes of the distributions, the center, the spread, and any outliers. What can we conclude about the life expectancy of females compared to males?\n\n[TABLE]\nLife Expectancy at Birth – Females | Frequency\n49–55 | 3\n56–62 | 3\n63–69 | 1\n70–76 | 3\n77–83 | 8\n84–90 | 2\n[/TABLE]\n\n[TABLE]\nLife Expectancy at Birth – Males | Frequency\n49–55 | 3\n56–62 | 3\n63–69 | 1\n70–76 | 1\n77–83 | 7\n84–90 | 5\n[/TABLE]",
+     "solution": null
+    },
+    {
+     "id": "eip-583",
+     "problem": "Construct a times series graph for (a) the number of male births, (b) the number of female births, and (c) the total number of births.\n\n[TABLE]\nSex/Year | 1855 | 1856 | 1857 | 1858 | 1859 | 1860 | 1861\nFemale | 45,545 | 49,582 | 50,257 | 50,324 | 51,915 | 51,220 | 52,403\nMale | 47,804 | 52,239 | 53,158 | 53,694 | 54,628 | 54,409 | 54,606\nTotal | 93,349 | 101,821 | 103,415 | 104,018 | 106,543 | 105,629 | 107,009\n[/TABLE]\n\n[TABLE]\nSex/Year | 1862 | 1863 | 1864 | 1865 | 1866 | 1867 | 1868 | 1869\nFemale | 51,812 | 53,115 | 54,959 | 54,850 | 55,307 | 55,527 | 56,292 | 55,033\nMale | 55,257 | 56,226 | 57,374 | 58,220 | 58,360 | 58,517 | 59,222 | 58,321\nTotal | 107,069 | 109,341 | 112,333 | 113,070 | 113,667 | 114,044 | 115,514 | 113,354\n[/TABLE]\n\n[TABLE]\nSex/Year | 1870 | 1871 | 1872 | 1873 | 1874 | 1875\nFemale | 56,431 | 56,099 | 57,472 | 58,233 | 60,109 | 60,146\nMale | 58,959 | 60,029 | 61,293 | 61,467 | 63,602 | 63,432\nTotal | 115,390 | 116,128 | 118,765 | 119,700 | 123,711 | 123,578\n[/TABLE]",
+     "solution": "[FIGURE]"
+    },
+    {
+     "id": "eip-301",
+     "problem": "The following data sets list full time police per 100,000 citizens along with homicides per 100,000 citizens for a city during the period from 1961 to 1973.\n\n[TABLE]\nYear | 1961 | 1962 | 1963 | 1964 | 1965 | 1966 | 1967\nPolice | 260.35 | 269.8 | 272.04 | 272.96 | 272.51 | 261.34 | 268.89\nHomicides | 8.6 | 8.9 | 8.52 | 8.89 | 13.07 | 14.57 | 21.36\n[/TABLE]\n\n[TABLE]\nYear | 1968 | 1969 | 1970 | 1971 | 1972 | 1973\nPolice | 295.99 | 319.87 | 341.43 | 356.59 | 376.69 | 390.19\nHomicides | 28.03 | 31.49 | 37.39 | 46.26 | 47.24 | 52.33\n[/TABLE]\n\na. Construct a double time series graph using a common x-axis for both sets of data.\nb. Which variable increased the fastest? Explain.\nc. Did the city's increase in police officers have an impact on the murder rate? Explain.",
+     "solution": null
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp53668112",
+     "problem": "Suppose that three book publishers were interested in the number of fiction paperbacks adult consumers purchase per month. Each publisher conducted a survey. In the survey, adult consumers were asked the number of fiction paperbacks they had purchased the previous month. The results are as follows:\n\n[TABLE]\n# of books | Freq. | Rel. Freq.\n0 | 10 |\n1 | 12 |\n2 | 16 |\n3 | 12 |\n4 | 8 |\n5 | 6 |\n6 | 2 |\n8 | 2 |\n[/TABLE]\n\n[TABLE]\n# of books | Freq. | Rel. Freq.\n0 | 18 |\n1 | 24 |\n2 | 24 |\n3 | 22 |\n4 | 15 |\n5 | 10 |\n7 | 5 |\n9 | 1 |\n[/TABLE]\n\n[TABLE]\n# of books | Freq. | Rel. Freq.\n0–1 | 20 |\n2–3 | 35 |\n4–5 | 12 |\n6–7 | 2 |\n8–9 | 1 |\n[/TABLE]\n\na. Find the relative frequencies for each survey. Write them in the charts.\nb. Using either a graphing calculator, computer, or by hand, use the frequency column to construct a histogram for each publisher's survey. For Publishers A and B, make bar widths of one. For Publisher C, make bar widths of two.\nc. In complete sentences, give two reasons why the graphs for Publishers A and B are not identical.\nd. Would you have expected the graph for Publisher C to look like the other two graphs? Why or why not?\ne. Make new histograms for Publisher A and Publisher B. This time, make bar widths of two.\nf. Now, compare the graph for Publisher C to the new graphs for Publishers A and B. Are the graphs more similar or more different? Explain your answer.",
+     "solution": null
+    },
+    {
+     "id": "eip-457",
+     "problem": "Often, cruise ships conduct all on-board transactions, with the exception of gambling, on a cashless basis. At the end of the cruise, guests pay one bill that covers all onboard transactions. Suppose that 60 single travelers and 70 couples were surveyed as to their on-board bills for a seven-day cruise from Los Angeles to the Mexican Riviera. Following is a summary of the bills for each group.\n\n[TABLE]\nAmount($) | Frequency | Rel. Frequency\n51–100 | 5 |\n101–150 | 10 |\n151–200 | 15 |\n201–250 | 15 |\n251–300 | 10 |\n301–350 | 5 |\n[/TABLE]\n\n[TABLE]\nAmount($) | Frequency | Rel. Frequency\n100–150 | 5 |\n201–250 | 5 |\n251–300 | 5 |\n301–350 | 5 |\n351–400 | 10 |\n401–450 | 10 |\n451–500 | 10 |\n501–550 | 10 |\n551–600 | 5 |\n601–650 | 5 |\n[/TABLE]\n\na. Fill in the relative frequency for each group.\nb. Construct a histogram for the singles group. Scale the x-axis by $50 widths. Use relative frequency on the y-axis.\nc. Construct a histogram for the couples group. Scale the x-axis by $50 widths. Use relative frequency on the y-axis.\nd. Compare the two graphs:\n\ni. List two similarities between the graphs.\nii. List two differences between the graphs.\niii. Overall, are the graphs more similar or different?\n\ne. Construct a new graph for the couples by hand. Since each couple is paying for two individuals, instead of scaling the x-axis by $50, scale it by $100. Use relative frequency on the y-axis.\nf. Compare the graph for the singles with the new graph for the couples:\ni. List two similarities between the graphs.\nii. Overall, are the graphs more similar or different?\n\ng. How did scaling the couples graph differently change the way you compared it to the singles graph?\nh. Based on the graphs, do you think that individuals spend the same amount, more or less, as singles as they do person by person as a couple? Explain why in one or two complete sentences.",
+     "solution": "[TABLE]\nAmount($) | Frequency | Relative Frequency\n51–100 | 5 | 0.08\n101–150 | 10 | 0.17\n151–200 | 15 | 0.25\n201–250 | 15 | 0.25\n251–300 | 10 | 0.17\n301–350 | 5 | 0.08\n[/TABLE]\n\n[TABLE]\nAmount($) | Frequency | Relative Frequency\n100–150 | 5 | 0.07\n201–250 | 5 | 0.07\n251–300 | 5 | 0.07\n301–350 | 5 | 0.07\n351–400 | 10 | 0.14\n401–450 | 10 | 0.14\n451–500 | 10 | 0.14\n501–550 | 10 | 0.14\n551–600 | 5 | 0.07\n601–650 | 5 | 0.07\n[/TABLE]\n\na. See and .\nb. In the following histogram data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where both boundary values are included).\n[FIGURE]\n\nc. In the following histogram, the data values that fall on the right boundary are counted in the class interval, while values that fall on the left boundary are not counted (with the exception of the first interval where values on both boundaries are included).\n[FIGURE]\n\nd. Compare the two graphs:\n\ni. Answers may vary. Possible answers include:\n\n• Both graphs have a single peak.\n• Both graphs use class intervals with width equal to $50.\n\nii. Answers may vary. Possible answers include:\n\n• The couples graph has a class interval with no values.\n• It takes almost twice as many class intervals to display the data for couples.\n\niii. Answers may vary. Possible answers include: The graphs are more similar than different because the overall patterns for the graphs are the same.\n\ne. Answers may vary.\nf. Compare the graph for the Singles with the new graph for the Couples:\n\ni.\n• Both graphs have a single peak.\n• Both graphs display 6 class intervals.\n• Both graphs show the same general pattern.\n\nii. Answers may vary. Possible answers include: Although the width of the class intervals for couples is double that of the class intervals for singles, the graphs are more similar than they are different.\n\ng. Answers may vary. Possible answers include: You are able to compare the graphs interval by interval. It is easier to compare the overall patterns with the new scale on the Couples graph. Because a couple represents two individuals, the new scale leads to a more accurate comparison.\nh. Answers may vary. Possible answers include: Based on the histograms, it seems that spending does not vary much from singles to individuals who are part of a couple. The overall patterns are the same. The range of spending for couples is approximately double the range for individuals."
+    },
+    {
+     "id": "fs-idp73179824",
+     "problem": "Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows.\n\n[TABLE]\n# of movies | Frequency | Relative Frequency | Cumulative Relative Frequency\n0 | 5 | |\n1 | 9 | |\n2 | 6 | |\n3 | 4 | |\n4 | 1 | |\n[/TABLE]\n\na. Construct a histogram of the data.\nb. Complete the columns of the chart.",
+     "solution": null
+    },
+    {
+     "id": "fs-idm24292288",
+     "problem": "The percentage of people who own at most three T-shirts costing more than $19 each is approximately:\n\na. 21\nb. 59\nc. 41\nd. Cannot be determined",
+     "stem": "The percentage of people who own at most three T-shirts costing more than $19 each is approximately:",
+     "options": [
+      "21",
+      "59",
+      "41",
+      "Cannot be determined"
+     ],
+     "solution": "c",
+     "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n[FIGURE]"
+    },
+    {
+     "id": "element-195",
+     "problem": "If the data were collected by asking the first 111 people who entered the store, then the type of sampling is:\n\na. cluster\nb. simple random\nc. stratified\nd. convenience",
+     "stem": "If the data were collected by asking the first 111 people who entered the store, then the type of sampling is:",
+     "options": [
+      "cluster",
+      "simple random",
+      "stratified",
+      "convenience"
+     ],
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n[FIGURE]"
+    },
+    {
+     "id": "fs-idp13768528",
+     "problem": "Following are the rates of unmarried adults for the 50 U.S. states and Washington, DC.\n\n[TABLE]\nState | Percent (%) | State | Percent (%) | State | Percent (%)\nAlabama | 32.2 | Kentucky | 31.3 | North Dakota | 27.2\nAlaska | 24.5 | Louisiana | 31.0 | Ohio | 29.2\nArizona | 24.3 | Maine | 26.8 | Oklahoma | 30.4\nArkansas | 30.1 | Maryland | 27.1 | Oregon | 26.8\nCalifornia | 24.0 | Massachusetts | 23.0 | Pennsylvania | 28.6\nColorado | 21.0 | Michigan | 30.9 | Rhode Island | 25.5\nConnecticut | 22.5 | Minnesota | 24.8 | South Carolina | 31.5\nDelaware | 28.0 | Mississippi | 34.0 | South Dakota | 27.3\nWashington, DC | 22.2 | Missouri | 30.5 | Tennessee | 30.8\nFlorida | 26.6 | Montana | 23.0 | Texas | 31.0\nGeorgia | 29.6 | Nebraska | 26.9 | Utah | 22.5\nHawaii | 22.7 | Nevada | 22.4 | Vermont | 23.2\nIdaho | 26.5 | New Hampshire | 25.0 | Virginia | 26.0\nIllinois | 28.2 | New Jersey | 23.8 | Washington | 25.5\nIndiana | 29.6 | New Mexico | 25.1 | West Virginia | 32.5\nIowa | 28.4 | New York | 23.9 | Wisconsin | 26.3\nKansas | 29.4 | North Carolina | 27.8 | Wyoming | 25.1\n[/TABLE]\n\nConstruct a bar graph of the unmarried adult rates of your state and the four states closest to your state. Hint: Label the x-axis with the states.",
+     "solution": "Answers will vary.",
+     "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n[FIGURE]"
+    }
+   ],
+   "bring_together": [],
+   "summary": "A histogram is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually goes on y-axis with the frequency being graphed on the x-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.",
+   "formula_review": null,
+   "glossary": [
+    {
+     "term": "Frequency",
+     "meaning": "the number of times a value of the data occurs"
+    },
+    {
+     "term": "Histogram",
+     "meaning": "a graphical representation in x-y form of the distribution of data in a data set; x represents the data and y represents the frequency, or relative frequency. The graph consists of contiguous rectangles."
+    },
+    {
+     "term": "Relative Frequency",
+     "meaning": "the ratio of the number of times a value of the data occurs in the set of all outcomes to the number of all outcomes"
+    }
+   ],
+   "kind": "section",
+   "section": "2.2"
+  },
+  {
+   "id": "m46930",
+   "title": "Measures of the Location of the Data",
+   "tryits": [
+    {
+     "id": "fs-idp63302352",
+     "problem": "For the following 11 salaries, calculate the IQR and determine if any salaries are outliers. The salaries are in dollars.\n\n• $33,000\n• $64,500\n• $28,000\n• $54,000\n• $72,000\n• $68,500\n• $69,000\n• $42,000\n• $54,000\n• $120,000\n• $40,500",
+     "solution": null,
+     "guideSolution": "Order the data from smallest to largest.\n$28,000 $33,000 $40,500 $42,000 $54,000 $54,000 $64,500 $68,500$69,000 $72,000 $120,000\nMedian = $54,000\nQ1 = $40,500\nQ3 = $69,000\nIQR = $69,000 – $40,500 = $28,500\n(1.5)(IQR) = (1.5)($28,500) = $42,750\nQ1 – (1.5)(IQR) = $40,500 – $42,750 = –$2,250\nQ3 + (1.5)(IQR) = $69,000 + $42,750 = $111,750\nNo salary is less than –$2,250. However, $120,000 is more than $11,750, so $120,000 is a potential outlier.",
+     "guideRef": "Try It 2.13"
+    },
+    {
+     "id": "fs-idp23368176",
+     "problem": "Find the interquartile range for the following two data sets and compare them.\n\nTest Scores for Class A\n\n69; 96; 81; 79; 65; 76; 83; 99; 89; 67; 90; 77; 85; 98; 66; 91; 77; 69; 80; 94\n\nTest Scores for Class B\n\n90; 72; 80; 92; 90; 97; 92; 75; 79; 68; 70; 80; 99; 95; 78; 73; 71; 68; 95; 100",
+     "solution": null,
+     "guideSolution": "Class A\nOrder the data from smallest to largest.\n65 66 67 69 69 76 77 77 79 80 81 83 85 89 90 91 94 96 98 99\nMedian==80.5\nQ1= =72.5\nQ3==90.5\nIQR = 90.5 – 72.5 = 18\nClass B\nOrder the data from smallest to largest.\n68 68 70 71 72 73 75 78 79 80 80 90 90 92 92 95 95 97 99 100\nMedian==80\nQ1==72.5\nQ3==93.5\nIQR = 93.5 – 72.5 = 21\nThe data for Class B has a larger IQR, so the scores between Q3 and Q1(middle 50%) for the data for Class B are more spread out and not clustered about the median.",
+     "guideRef": "Try It 2.14"
+    },
+    {
+     "id": "fs-idm18606176",
+     "problem": "Forty bus drivers were asked how many hours they spend each day running their routes (rounded to the nearest hour). Find the 65th percentile.\n\n[TABLE]\nAmount of time spent on route (hours) | Frequency | Relative Frequency | Cumulative Relative Frequency\n2 | 12 | 0.30 | 0.30\n3 | 14 | 0.35 | 0.65\n4 | 10 | 0.25 | 0.90\n5 | 4 | 0.10 | 1.00\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "The 65th percentile is between the last three and the first four.\nThe 65th percentile is 3.5.",
+     "guideRef": "Try It 2.15"
+    },
+    {
+     "id": "fs-idm3894192",
+     "problem": "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\nCalculate the 20th percentile and the 55th percentile.",
+     "solution": null,
+     "guideSolution": "k = 20. Index = i = (k/100)*(n+1=(20/100)*(29 + 1) = 6. The age in the sixth position is 27. The 20th percentile is 27 years.\nk = 55. Index = i = (k/100)*(n+1)= (55/100)*(29 + 1) = 16.5. Round down to 16 and up to 17. The age in the 16th position is 52 and the age in the 17thposition is 55. The average of 52 and 55 is 53.5. The 55th percentile is 53.5 years.",
+     "guideRef": "Try It 2.16"
+    },
+    {
+     "id": "fs-idp38065168",
+     "problem": "Refer to the . Find the third quartile. What is another name for the third quartile?",
+     "solution": null,
+     "guideSolution": "The third quartile is the 75th percentile, which is four. The 65th percentile is between three and four, and the 90th percentile is between four and 5.75. The third quartile is between 65 and 90, so it must be four",
+     "guideRef": "Try It 2.17"
+    },
+    {
+     "id": "fs-idm170942864",
+     "problem": "Listed are 30 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31, 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\nFind the percentiles for 47 and 31.",
+     "solution": null,
+     "guideSolution": "Percentile for 47: Counting from the bottom of the list, there are 15 data values less than 47. There is one value of 47.\nx = 15 and y = 1. .  47 is the 52nd percentile.\nPercentile for 31: Counting from the bottom of the list, there are eight data values less than 31. There are two values of 31.\nx = 9 and y = 2. .   31 is the 33rdpercentile.",
+     "guideRef": "Try It 2.18"
+    },
+    {
+     "id": "fs-idp33388848",
+     "problem": "For the 100-meter dash, the third quartile for times for finishing the race was 11.5 seconds. Interpret the third quartile in the context of the situation.",
+     "solution": null,
+     "guideSolution": "Twenty-five percent of runners finished the race in 11.5 seconds or more. Seventy-five percent of runners finished the race in 11.5 seconds or less. A lower percentile is good because finishing a race more quickly is desirable.",
+     "guideRef": "Try It 2.19"
+    },
+    {
+     "id": "fs-idp34034288",
+     "problem": "On a 60 point written assignment, the 80th percentile for the number of points earned was 49. Interpret the 80th percentile in the context of this situation.",
+     "solution": null,
+     "guideSolution": "Eighty percent of students earned 49 points or fewer. Twenty percent of students earned 49 or more points. A higher percentile is good because getting more points on an assignment is desirable.",
+     "guideRef": "Try It 2.20"
+    },
+    {
+     "id": "fs-idp73731328",
+     "problem": "During a season, the 40th percentile for points scored per player in a game is eight. Interpret the 40th percentile in the context of this situation.",
+     "solution": null,
+     "guideSolution": "Forty percent of players scored eight points or fewer. Sixty percent of players scored eight points or more. A higher percentile is good because getting more points in a basketball game is desirable.",
+     "guideRef": "Try It 2.21"
+    },
+    {
+     "id": "exer-00001",
+     "problem": "A college statistics instructor is investigating the amount of time students spend working on a final project in the course. The instructor would like students to spend approximately 3 to 4 hours as the typical amount of time to be spent on the project. The instructor collects data from a random sample of 10 students for the number of hours spent working on the final project. The results obtained are as follows:\n\n2 hours; 3 hours; 5 hours; 3 hours; 4 hours;\n\n4 hours; 3 hours; 11 hours; 3 hours; 2 hours.\n\na. Determine the following five values: Min, Q1, Med, Q3, Max.\nb. Should the instructor modify the final project or leave as is?",
+     "solution": "a. The five values are obtained as follows:\n\nMin = 2\n\nQ1 = 3\n\nMed = 3\n\nQ3 = 4\n\nMax = 11\n\nb. Given that the 3rd quartile is 4 hours, this indicates that 75% of the students spend 4 hours or less on the project. Also for the interquartile range: IQR = 4 – 3 = 1, we know that half the students spent between 3 and 4 hours on the project. This seems like a reasonable amount of time for students to spend on the final project.\n\nHowever, the value 11 hours appears to be a potential outlier.\n\nQ_3+1.5(IQR)=4+1.5(1)=5.5\n\nThe value 11 is greater than 5.5, so it is an outlier. If we delete it and recalculate the five values, we get the following values:\n\nMin = 2\n\nQ1 = 2.5\n\nQ3 = 4\n\nMax = 5\n\nWe still have 75% of students spending 4 hours or less on the project. Half of the students spend between 2.5 hours and 4 hours on the project.\n\nHowever, 10 students may be a relatively small sample size. The instructor might consider a larger sample size.",
+     "guideSolution": "The five values are obtained as follows:\nMin = 2\nQ1 = 3\nMed =3\nQ3 = 4\nMax = 11\nGiven that the 3rd quartile is 4 hours, this indicates that 75% of the students spend 4 hours or less on the project. Also for the interquartile range: IQR = 4 – 3 = 1, we know that half the students spent between 3 and 4 hours on the project. This seems like a reasonable amount of time for students to spend on the final project.\nHowever, the value 11 hours appears to be a potential outlier.\nQ3+1.5(IQR)=4+1.5(1)=5.5\nThe value 11 is greater than 5.5, so it is an outlier. If we delete it and recalculate the five values, we get the following values:\nMin = 2\nQ1 = 2.5\nQ3 = 4\nMax = 5\nWe still have 75% of students spending 4 hours or less on the project. Half of the students spend between 2.5 hours and 4 hours on the project.\nHowever, 10 students may be a relatively small sample size. The instructor might consider a larger sample size.\nSection 4. Box Plots",
+     "guideRef": "Try It 2.22"
+    }
+   ],
+   "examples": [
+    "For the following 13 real estate prices, calculate the IQR and determine if any prices are potential outliers. Prices are in dollars.\n\n389,950; 230,500; 158,000; 479,000; 639,000; 114,950; 5,500,000; 387,000; 659,000; 529,000; 575,000; 488,800; 1,095,000\n\nOrder the data from smallest to largest.\n\n114,950; 158,000; 230,500; 387,000; 389,950; 479,000; 488,800; 529,000; 575,000; 639,000; 659,000; 1,095,000; 5,500,000\n\nM = 488,800\n\nQ1 = (230,500 + 387,000)/2 = 308,750\n\nQ3 =\n(639,000 + 659,000)/2 = 649,000\n\nIQR = 649,000 – 308,750 = 340,250\n\n(1.5)(IQR) = (1.5)(340,250) = 510,375\n\nQ1 – (1.5)(IQR) = 308,750 – 510,375 = –201,625\n\nQ3 + (1.5)(IQR) = 649,000 + 510,375 = 1,159,375\n\nNo house price is less than –201,625. However, 5,500,000 is more than 1,159,375. Therefore, 5,500,000 is a potential outlier.",
+    "Test scores for a college statistics class held during the day are:\n99; 56; 78; 55.5; 32; 90; 80; 81; 56; 59; 45; 77; 84.5; 84; 70; 72; 68; 32; 79; 90\n\nTest scores for a college statistics class held during the evening are:\n98; 78; 68; 83; 81; 89; 88; 76; 65; 45; 98; 90; 80; 84.5; 85; 79; 78; 98; 90; 79; 81; 25.5\n\nFor the two data sets, find the following:\n\na. The interquartile range. Compare the two interquartile ranges.\nb. Any outliers in either set.\n\nThe five number summary for the day and night classes is\n\n[TABLE]\n| Minimum | Q1 | Median | Q3 | Maximum\nDay | 32 | 56 | 74.5 | 82.5 | 99\nNight | 25.5 | 78 | 81 | 89 | 98\n[/TABLE]\n\na. The IQR for the day group is Q3 – Q1 = 82.5 – 56 = 26.5\n\nThe IQR for the night group is Q3 – Q1 = 89 – 78 = 11\n\nThe interquartile range (the spread or variability) for the day class is larger than the night class IQR. This suggests more variation will be found in the day class’s class test scores.\n\nb. Day class outliers are found using the IQR times 1.5 rule. So,\n\n• Q1 - IQR(1.5) = 56 – 26.5(1.5) = 16.25\n• Q3 + IQR(1.5) = 82.5 + 26.5(1.5) = 122.25\n\nSince the minimum and maximum values for the day class are greater than 16.25 and less than 122.25, there are no outliers.\n\nNight class outliers are calculated as:\n\n• Q1 – IQR (1.5) = 78 – 11(1.5) = 61.5\n• Q3 + IQR(1.5) = 89 + 11(1.5) = 105.5\n\nFor this class, any test score less than 61.5 is an outlier. Therefore, the scores of 45 and 25.5 are outliers. Since no test score is greater than 105.5, there is no upper end outlier.",
+    "Fifty statistics students were asked how much sleep they get per school night (rounded to the nearest hour). The results were:\n\n[TABLE]\nAMOUNT OF SLEEP PER SCHOOL NIGHT (HOURS) | FREQUENCY | RELATIVE FREQUENCY | CUMULATIVE RELATIVE FREQUENCY\n4 | 2 | 0.04 | 0.04\n5 | 5 | 0.10 | 0.14\n6 | 7 | 0.14 | 0.28\n7 | 12 | 0.24 | 0.52\n8 | 14 | 0.28 | 0.80\n9 | 7 | 0.14 | 0.94\n10 | 3 | 0.06 | 1.00\n[/TABLE]\n\nFind the 28th percentile. Notice the 0.28 in the \"cumulative relative frequency\" column. Twenty-eight percent of 50 data values is 14 values. There are 14 values less than the 28th percentile. They include the two 4s, the five 5s, and the seven 6s. The 28th percentile is between the last six and the first seven. The 28th percentile is 6.5.\n\nFind the median. Look again at the \"cumulative relative frequency\" column and find 0.52. The median is the 50th percentile or the second quartile. 50% of 50 is 25. There are 25 values less than the median. They include the two 4s, the five 5s, the seven 6s, and eleven of the 7s. The median or 50th percentile is between the 25th, or seven, and 26th, or seven, values. The median is seven.\n\nFind the third quartile. The third quartile is the same as the 75th percentile. You can \"eyeball\" this answer. If you look at the \"cumulative relative frequency\" column, you find 0.52 and 0.80. When you have all the fours, fives, sixes and sevens, you have 52% of the data. When you include all the 8s, you have 80% of the data. The 75th percentile, then, must be an eight. Another way to look at the problem is to find 75% of 50, which is 37.5, and round up to 38. The third quartile, Q3, is the 38th value, which is an eight. You can check this answer by counting the values. (There are 37 values below the third quartile and 12 values above.)",
+    "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\na. Find the 70th percentile.\nb. Find the 83rd percentile.\n\na.\n\n• k = 70\n• i = the index\n• n = 29\n\ni = k/100 (n + 1) = (70/100)(29 + 1) = 21. Twenty-one is an integer, and the data value in the 21st position in the ordered data set is 64. The 70th percentile is 64 years.\nb.\n\n• k = 83rd percentile\n• i = the index\n• n = 29\n\ni = k/100 (n + 1) = (83/100)(29 + 1) = 24.9, which is NOT an integer. Round it down to 24 and up to 25. The age in the 24th position is 71 and the age in the 25th position is 72. Average 71 and 72. The 83rd percentile is 71.5 years.",
+    "Using :\n\na. Find the 80th percentile.\nb. Find the 90th percentile.\nc. Find the first quartile. What is another name for the first quartile?\n\nUsing the data from the frequency table, we have:\n\na. Notice there are 50 data values in the table, so n = 50.\nCalculate the index i as follows:\ni=80/100(50+1)=40.8\nSince i = 40.8, calculate the mean of the 40th and 41st data values. The 40th data value is 8, the 41st data value is 9, and the mean of these two data values is 8.5. Thus, the 80th percentile is 8.5.\nb. Calculate the index i as follows:\ni=90/100(50+1)=45.9\nSince i = 45.9, calculate the mean of the 45th and 46th data values. The 45th data value is 9, the 46th data value is 9, and the mean of these two data values is 9. Thus, the 90th percentile is 9.\nc. Another name for the first quartile is the 25th percentile. Proceed to calculate the 25th percentile:\nCalculate the index i as follows:\ni=25/100(50+1)=12.75\nSince i = 12.75, calculate the mean of the 12th and 13th data values. The 12th data value is 6, the 13th data value is 6, and the mean of these two data values is 6. Thus, the first quartile is 6.",
+    "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\na. Find the percentile for 58.\nb. Find the percentile for 25.\n\na. Counting from the bottom of the list, there are 18 data values less than 58. There is one value of 58.\n\nx = 18 and y = 1.(x+0.5y)/n(100) = (18+0.5(1))/29(100) = 63.80. 58 is the 64th percentile.\n\nb.\nCounting from the bottom of the list, there are three data values less than 25. There is one value of 25.\n\nx = 3 and y = 1.(x+0.5y)/n(100) = (3+0.5(1))/29(100) = 12.07. Twenty-five is the 12th percentile.",
+    "On a timed math test, the first quartile for time it took to finish the exam was 35 minutes. Interpret the first quartile in the context of this situation.\n\n• Twenty-five percent of students finished the exam in 35 minutes or less.\n• Seventy-five percent of students finished the exam in 35 minutes or more.\n• A low percentile could be considered good, as finishing more quickly on a timed exam is desirable. (If you take too long, you might not be able to finish.)",
+    "On a 20 question math test, the 70th percentile for number of correct answers was 16. Interpret the 70th percentile in the context of this situation.",
+    "At a community college, it was found that the 30th percentile of credit units that students are enrolled for is seven units. Interpret the 30th percentile in the context of this situation.",
+    "Sharpe Middle School is applying for a grant that will be used to add fitness equipment to the gym. The principal surveyed 15 anonymous students to determine how many minutes a day the students spend exercising. The results from the 15 anonymous students are shown.\n\n0 minutes; 40 minutes; 60 minutes; 30 minutes; 60 minutes\n\n10 minutes; 45 minutes; 30 minutes; 300 minutes; 90 minutes;\n\n30 minutes; 120 minutes; 60 minutes; 0 minutes; 20 minutes\n\nDetermine the following five values.\n\n• Min = 0\n• Q1 = 20\n• Med = 40\n• Q3 = 60\n• Max = 300\n\nIf you were the principal, would you be justified in purchasing new fitness equipment? Since 75% of the students exercise for 60 minutes or less daily, and since the IQR is 40 minutes (60 – 20 = 40), we know that half of the students surveyed exercise between 20 minutes and 60 minutes daily. This seems a reasonable amount of time spent exercising, so the principal would be justified in purchasing the new equipment.\n\nHowever, the principal needs to be careful. The value 300 appears to be a potential outlier.\n\nQ3 + 1.5(IQR) = 60 + (1.5)(40) = 120.\n\nThe value 300 is greater than 120 so it is a potential outlier. If we delete it and calculate the five values, we get the following values:\n\n• Min = 0\n• Q1 = 20\n• Q3 = 60\n• Max = 120\n\nWe still have 75% of the students exercising for 60 minutes or less daily and half of the students exercising between 20 and 60 minutes a day. However, 15 students is a small sample and the principal should survey more students to be sure of his survey results."
+   ],
+   "practice": [
+    {
+     "id": "fs-idm1110784",
+     "problem": "Listed are 29 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 21; 22; 25; 26; 27; 29; 30; 31; 33; 36; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\na. Find the 40th percentile.\nb. Find the 78th percentile.",
+     "solution": "a. The 40th percentile is 37 years.\nb. The 78th percentile is 70 years."
+    },
+    {
+     "id": "fs-idm4719584",
+     "problem": "Listed are 32 ages for Academy Award winning best actors in order from smallest to largest.\n\n18; 18; 21; 22; 25; 26; 27; 29; 30; 31; 31; 33; 36; 37; 37; 41; 42; 47; 52; 55; 57; 58; 62; 64; 67; 69; 71; 72; 73; 74; 76; 77\n\na. Find the percentile of 37.\nb. Find the percentile of 72.",
+     "solution": null
+    },
+    {
+     "id": "fs-idp30887728",
+     "problem": "Jesse was ranked 37th in his graduating class of 180 students. At what percentile is Jesse’s ranking?",
+     "solution": "Jesse graduated 37th out of a class of 180 students. There are 180 – 37 = 143 students ranked below Jesse. There is one rank of 37.\n\nx = 143 and y = 1. (x+0.5y)/n(100) = (143+0.5(1))/180(100) = 79.72. Jesse’s rank of 37 puts him at the 80th percentile."
+    },
+    {
+     "id": "eip-id1168182229232",
+     "problem": "a. For runners in a race, a low time means a faster run. The winners in a race have the shortest running times. Is it more desirable to have a finish time with a high or a low percentile when running a race?\nb. The 20th percentile of run times in a particular race is 5.2 minutes. Write a sentence interpreting the 20th percentile in the context of the situation.\nc. A bicyclist in the 90th percentile of a bicycle race completed the race in 1 hour and 12 minutes. Is he among the fastest or slowest cyclists in the race? Write a sentence interpreting the 90th percentile in the context of the situation.",
+     "solution": null
+    },
+    {
+     "id": "eip-id1168182273864",
+     "problem": "a. For runners in a race, a higher speed means a faster run. Is it more desirable to have a speed with a high or a low percentile when running a race?\nb. The 40th percentile of speeds in a particular race is 7.5 miles per hour. Write a sentence interpreting the 40th percentile in the context of the situation.",
+     "solution": "a. For runners in a race it is more desirable to have a high percentile for speed. A high percentile means a higher speed which is faster.\nb. 40% of runners ran at speeds of 7.5 miles per hour or less (slower). 60% of runners ran at speeds of 7.5 miles per hour or more (faster)."
+    },
+    {
+     "id": "eip-id1168217995987",
+     "problem": "On an exam, would it be more desirable to earn a grade with a high or low percentile? Explain.",
+     "solution": null
+    },
+    {
+     "id": "eip-id1168183173702",
+     "problem": "Mina is waiting in line at the Department of Motor Vehicles (DMV). Her wait time of 32 minutes is the 85th percentile of wait times. Is that good or bad? Write a sentence interpreting the 85th percentile in the context of this situation.",
+     "solution": "When waiting in line at the DMV, the 85th percentile would be a long wait time compared to the other people waiting. 85% of people had shorter wait times than Mina. In this context, Mina would prefer a wait time corresponding to a lower percentile. 85% of people at the DMV waited 32 minutes or less. 15% of people at the DMV waited 32 minutes or longer."
+    },
+    {
+     "id": "eip-id1168213546999",
+     "problem": "In a survey collecting data about the salaries earned by recent college graduates, Li found that her salary was in the 78th percentile. Should Li be pleased or upset by this result? Explain.",
+     "solution": null
+    },
+    {
+     "id": "eip-id1168214876383",
+     "problem": "In a study collecting data about the repair costs of damage to automobiles in a certain type of crash tests, a certain model of car had $1,700 in damage and was in the 90th percentile. Should the manufacturer and the consumer be pleased or upset by this result? Explain and write a sentence that interprets the 90th percentile in the context of this problem.",
+     "solution": "The manufacturer and the consumer would be upset. This is a large repair cost for the damages, compared to the other cars in the sample. INTERPRETATION: 90% of the crash tested cars had damage repair costs of $1700 or less; only 10% had damage repair costs of $1700 or more."
+    },
+    {
+     "id": "eip-id1168195852900",
+     "problem": "The University of Wisconsin has two criteria used to set admission standards for students to be admitted to a college in the UW system:\n\na. Students' GPAs and scores on standardized tests (SATs and ACTs) are entered into a formula that calculates an \"admissions index\" score. The admissions index score is used to set eligibility standards intended to meet the goal of admitting the top 12% of high school students in the state. In this context, what percentile does the top 12% represent?\nb. Students whose GPAs are at or above the 96th percentile of all students at their high school are eligible (called eligible in the local context), even if they are not in the top 12% of all students in the state. What percentage of students from each high school are \"eligible in the local context\"?",
+     "solution": null
+    },
+    {
+     "id": "eip-id1168223160542",
+     "problem": "Suppose that you are buying a house. You and your realtor have determined that the most expensive house you can afford is the 34th percentile. The 34th percentile of housing prices is $240,000 in the town you want to move to. In this town, can you afford 34% of the houses or 66% of the houses?",
+     "solution": "You can afford 34% of houses. 66% of the houses are too expensive for your budget. INTERPRETATION: 34% of houses cost $240,000 or less. 66% of houses cost $240,000 or more."
+    },
+    {
+     "id": "exercisenine",
+     "problem": "First quartile = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "exerciseten",
+     "problem": "Second quartile = median = 50th percentile = _______",
+     "solution": "4",
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "exerciseeleven",
+     "problem": "Third quartile = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "exercisetwelve",
+     "problem": "Interquartile range (IQR) = _____ – _____ = _____",
+     "solution": "6 – 4 = 2",
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "exercisethirteen",
+     "problem": "10th percentile = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "exercisefourteen",
+     "problem": "70th percentile = _______",
+     "solution": "6",
+     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp61512400",
+     "problem": "The median age for Black people in the U.S. is 30.9 years; for U.S. White people it is 42.3 years.\n\na. Based upon this information, give two reasons why the median age for Black people could be lower than the median age for White people.\nb. Does the lower median age for Black people necessarily mean that Black people die younger than White people? Why or why not?\nc. How might it be possible for Black people and White people to die at approximately the same age, but for the median age for White people to be higher?",
+     "solution": null
+    },
+    {
+     "id": "element-927",
+     "problem": "Six hundred adult Americans were asked by telephone poll, \"What do you think constitutes a middle-class income?\" The results are in . Also, include left endpoint, but not the right endpoint.\n\n[TABLE]\nSalary ($) | Relative Frequency\n< 20,000 | 0.02\n20,000–25,000 | 0.09\n25,000–30,000 | 0.19\n30,000–40,000 | 0.26\n40,000–50,000 | 0.18\n50,000–75,000 | 0.17\n75,000–99,999 | 0.02\n100,000+ | 0.01\n[/TABLE]\n\na. What percentage of the survey answered \"not sure\"?\nb. What percentage think that middle-class is from $25,000 to $50,000?\nc. Construct a histogram of the data.\n\ni. Should all bars have the same width, based on the data? Why or why not?\nii. How should the <20,000 and the 100,000+ intervals be handled? Why?\n\nd. Find the 40th and 80th percentiles\ne. Construct a bar graph of the data",
+     "solution": "a. 1 – (0.02+0.09+0.19+0.26+0.18+0.17+0.02+0.01) = 0.06\nb. 0.19+0.26+0.18 = 0.63\nc. Answers may vary.\nd.\n40th percentile will fall between 30,000 and 40,000\n\n80th percentile will fall between 50,000 and 75,000\n\ne. Answers may vary."
+    },
+    {
+     "id": "fs-idp35930608",
+     "problem": "Given the following box plot:\n\n[FIGURE]\n\na. which quarter has the smallest spread of data? What is that spread?\nb. which quarter has the largest spread of data? What is that spread?\nc. find the interquartile range (IQR).\nd. are there more data in the interval 5–10 or in the interval 10–13? How do you know this?\ne. which interval has the fewest data in it? How do you know this?\n\ni. 0–2\nii. 2–4\niii. 10–12\niv. 12–13\nv. need more information",
+     "solution": null
+    },
+    {
+     "id": "element-284",
+     "problem": "The following box plot shows the U.S. population for a certain year.\n\n[FIGURE]\n\na. Are there fewer or more children (age 17 and under) than senior citizens (age 65 and over)? How do you know?\nb. 12.6% are age 65 and over. Approximately what percentage of the population are working age adults (above age 17 to age 65)?",
+     "solution": "a. more children; the left whisker shows that 25% of the population are children 17 and younger. The right whisker shows that 25% of the population are adults 50 and older, so adults 65 and over represent less than 25%.\nb. 62.4%"
+    }
+   ],
+   "bring_together": [],
+   "summary": "The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50th percentile would be greater than 50 percent of the other observations in the set. Quartiles divide data into quarters. The first quartile (Q1) is the 25th percentile,the second quartile (Q2 or median) is 50th percentile, and the third quartile (Q3) is the 75th percentile. The interquartile range, or IQR, is the range of the middle 50 percent of the data values. The IQR is found by subtracting Q1 from Q3, and can help determine outliers by using the following two expressions.\n\n• Q3 + IQR(1.5)\n• Q1 – IQR(1.5)",
+   "formula_review": "i=(k/100)(n+1)\n\nwhere i = the ranking or position of a data value,\n\nk = the kth percentile,\n\nn = total number of data.\n\nExpression for finding the percentile of a data value: ((x + 0.5y)/n)(100)\n\nwhere x = the number of values counting from the bottom of the data list up to but not including the data value for which you want to find the percentile,\n\ny = the number of data values equal to the data value for which you want to find the percentile,\n\nn = total number of data",
+   "glossary": [
+    {
+     "term": "Interquartile Range",
+     "meaning": "or IQR, is the range of the middle 50 percent of the data values; the\nIQR is found by subtracting the first quartile from the third quartile."
+    },
+    {
+     "term": "Outlier",
+     "meaning": "an observation that does not fit the rest of the data"
+    },
+    {
+     "term": "Percentile",
+     "meaning": "a number that divides ordered data into hundredths; percentiles may or may not be part of the data. The median of the data is the second quartile and the 50th percentile. The first and third quartiles are the 25th and the 75th percentiles, respectively."
+    },
+    {
+     "term": "Quartiles",
+     "meaning": "the numbers that separate the data into quarters; quartiles may or may not be part of the data. The second quartile is the median of the data."
+    }
+   ],
+   "kind": "section",
+   "section": "2.3"
+  },
+  {
+   "id": "m46920",
+   "title": "Box Plots",
+   "tryits": [
+    {
+     "id": "fs-idp52595328",
+     "problem": "The following data are the number of pages in 40 books on a shelf. Construct a box plot using a graphing calculator, and state the interquartile range.\n\n• 136\n• 140\n• 178\n• 190\n• 205\n• 215\n• 217\n• 218\n• 232\n• 234\n• 240\n• 255\n• 270\n• 275\n• 290\n• 301\n• 303\n• 315\n• 317\n• 318\n• 326\n• 333\n• 343\n• 349\n• 360\n• 369\n• 377\n• 388\n• 391\n• 392\n• 398\n• 400\n• 402\n• 405\n• 408\n• 422\n• 429\n• 450\n• 475\n• 512",
+     "solution": null,
+     "guideSolution": "Figure 9\nIQR = 158",
+     "guideRef": "Try It 2.23"
+    },
+    {
+     "id": "fs-idm19314304",
+     "problem": "The following data set shows the heights in inches for the boys in a class of 40 students.\n\n66; 66; 67; 67; 68; 68; 68; 68; 68; 69; 69; 69; 70; 71; 72; 72; 72; 73; 73; 74\n\nThe following data set shows the heights in inches for the girls in a class of 40 students.\n\n61; 61; 62; 62; 63; 63; 63; 65; 65; 65; 66; 66; 66; 67; 68; 68; 68; 69; 69; 69\n\nConstruct a box plot using a graphing calculator for each data set, and state which box plot has the wider spread for the middle 50% of the data.",
+     "solution": null,
+     "guideSolution": "Figure 10\nIQR for the boys = 4\nIQR for the girls = 5\nThe box plot for the heights of the girls has the wider spread for the middle 50% of the data.",
+     "guideRef": "Try It 2.24"
+    },
+    {
+     "id": "eip-idp22858976",
+     "problem": "Follow the steps you used to graph a box-and-whisker plot for the data values shown.\n\n• 0\n• 5\n• 5\n• 15\n• 30\n• 30\n• 45\n• 50\n• 50\n• 60\n• 75\n• 110\n• 140\n• 240\n• 330",
+     "solution": null,
+     "guideSolution": "The data are in order from least to greatest. There are 15 values, so the eighth number in order is the median: 50. There are seven data values written to the left of the median and 7 values to the right. The five values that are used to create the boxplot are:\nMin: 0\nQ1: 15\nMed: 50\nQ3: 110\nMax: 330\nFigure 11\nSection 5. Measures of the Center of the Data",
+     "guideRef": "Try It 2.25"
+    }
+   ],
+   "examples": [
+    "The following data are the heights of 40 students in a statistics class.\n\n• 59\n• 60\n• 61\n• 62\n• 62\n• 63\n• 63\n• 64\n• 64\n• 64\n• 65\n• 65\n• 65\n• 65\n• 65\n• 65\n• 65\n• 65\n• 65\n• 66\n• 66\n• 67\n• 67\n• 68\n• 68\n• 69\n• 70\n• 70\n• 70\n• 70\n• 70\n• 71\n• 71\n• 72\n• 72\n• 73\n• 74\n• 74\n• 75\n• 77\n\nConstruct a box plot with the following properties; the calculator intructions for the minimum and maximum values as well as the quartiles follow the example.\n\n• Minimum value = 59\n• Maximum value = 77\n• Q1: First quartile = 64.5\n• Q2: Second quartile or median= 66\n• Q3: Third quartile = 70\n\n[FIGURE]\na. Each quarter has approximately 25% of the data.\nb. The spreads of the four quarters are 64.5 – 59 = 5.5 (first quarter), 66 – 64.5 = 1.5 (second quarter), 70 – 66 = 4 (third quarter), and 77 – 70 = 7 (fourth quarter). So, the second quarter has the smallest spread and the fourth quarter has the largest spread.\nc. Range = maximum value – the minimum value = 77 – 59 = 18\nd. Interquartile Range: IQR = Q3 – Q1 = 70 – 64.5 = 5.5.\ne. The interval 59–65 has more than 25% of the data so it has more data in it than the interval 66 through 70 which has 25% of the data.\nf. The middle 50% (middle half) of the data has a range of 5.5 inches.",
+    "Test scores for a college statistics class held during the day are:\n\n• 99\n• 56\n• 78\n• 55.5\n• 32\n• 90\n• 80\n• 81\n• 56\n• 59\n• 45\n• 77\n• 84.5\n• 84\n• 70\n• 72\n• 68\n• 32\n• 79\n• 90\n\nTest scores for a college statistics class held during the evening are:\n\n• 98\n• 78\n• 68\n• 83\n• 81\n• 89\n• 88\n• 76\n• 65\n• 45\n• 98\n• 90\n• 80\n• 84.5\n• 85\n• 79\n• 78\n• 98\n• 90\n• 79\n• 81\n• 25.5\n\na. Find the smallest and largest values, the median, and the first and third quartile for the day class.\nb. Find the smallest and largest values, the median, and the first and third quartile for the night class.\nc. For each data set, what percentage of the data is between the smallest value and the first quartile? the first quartile and the median? the median and the third quartile? the third quartile and the largest value? What percentage of the data is between the first quartile and the largest value?\nd. Create a box plot for each set of data. Use one number line for both box plots.\ne. Which box plot has the widest spread for the middle 50% of the data (the data between the first and third quartiles)? What does this mean for that set of data in comparison to the other set of data?\n\na.\n• Min = 32\n• Q1 = 56\n• M = 74.5\n• Q3 = 82.5\n• Max = 99\n\nb.\n\n• Min = 25.5\n• Q1 = 78\n• M = 81\n• Q3 = 89\n• Max = 98\n\nc. Day class: There are six data values ranging from 32 to 56: 30%. There are six data values ranging from 56 to 74.5: 30%. There are five data values ranging from 74.5 to 82.5: 25%. There are five data values ranging from 82.5 to 99: 25%. There are 16 data values between the first quartile, 56, and the largest value, 99: 75%. Night class:\nd.\n[FIGURE]\n\ne. The first data set has the wider spread for the middle 50% of the data. The IQR for the first data set is greater than the IQR for the second set. This means that there is more variability in the middle 50% of the first data set.",
+    "Graph a box-and-whisker plot for the data values shown.\n\n• 10\n• 10\n• 10\n• 15\n• 35\n• 75\n• 90\n• 95\n• 100\n• 175\n• 420\n• 490\n• 515\n• 515\n• 790\n\nThe five numbers used to create a box-and-whisker plot are:\n\n• Min: 10\n• Q1: 15\n• Med: 95\n• Q3: 490\n• Max: 790\n\nThe following graph shows the box-and-whisker plot.\n[FIGURE]"
+   ],
+   "practice": [
+    {
+     "id": "fs-idm23427584",
+     "problem": "Construct a box plot below. Use a ruler to measure and scale accurately.",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    },
+    {
+     "id": "fs-idm39140224",
+     "problem": "Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas, but not in others? How can you tell?",
+     "solution": "More than 25% of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25% and the bottom 25% are spread out evenly; the whiskers have the same length.",
+     "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp68490208",
+     "problem": "In a survey of 20-year-olds in China, Germany, and the United States, people were asked the number of foreign countries they had visited in their lifetime. The following box plots display the results.\n\n[FIGURE]\n\na. In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected.\nb. Have more U.S. citizens or more Germans surveyed been to over eight foreign countries?\nc. Compare the three box plots. What do they imply about the foreign travel of 20-year-old residents of the three countries when compared to each other?",
+     "solution": null
+    },
+    {
+     "id": "element-606",
+     "problem": "Given the following box plot, answer the questions.\n[FIGURE]\n\na. Think of an example (in words) where the data might fit into the above box plot. In 2–5 sentences, write down the example.\nb. What does it mean to have the first and second quartiles so close together, while the second to third quartiles are far apart?",
+     "solution": "a. Answers will vary. Possible answer: State University conducted a survey to see how involved its students are in community service. The box plot shows the number of community service hours logged by participants over the past year.\nb. Because the first and second quartiles are close, the data in this quarter is very similar. There is not much variation in the values. The data in the third quarter is much more variable, or spread out. This is clear because the second quartile is so far away from the third quartile."
+    },
+    {
+     "id": "element-990",
+     "problem": "Given the following box plots, answer the questions.\n[FIGURE]\n\na. In complete sentences, explain why each statement is false.\n\ni. Data 1 has more data values above two than Data 2 has above two.\nii. The data sets cannot have the same mode.\niii. For Data 1, there are more data values below four than there are above four.\n\nb. For which group, Data 1 or Data 2, is the value of “7” more likely to be an outlier? Explain why in complete sentences.",
+     "solution": null
+    },
+    {
+     "id": "fs-idp23710160",
+     "problem": "A survey was conducted of 130 purchasers of new BMW 3 series cars, 130 purchasers of new BMW 5 series cars, and 130 purchasers of new BMW 7 series cars. In it, people were asked the age they were when they purchased their car. The following box plots display the results.\n\n[FIGURE]\n\na. In complete sentences, describe what the shape of each box plot implies about the distribution of the data collected for that car series.\nb. Which group is most likely to have an outlier? Explain how you determined that.\nc. Compare the three box plots. What do they imply about the age of purchasing a BMW from the series when compared to each other?\nd. Look at the BMW 5 series. Which quarter has the smallest spread of data? What is the spread?\ne. Look at the BMW 5 series. Which quarter has the largest spread of data? What is the spread?\nf. Look at the BMW 5 series. Estimate the interquartile range (IQR).\ng. Look at the BMW 5 series. Are there more data in the interval 31 to 38 or in the interval 45 to 55? How do you know this?\nh. Look at the BMW 5 series. Which interval has the fewest data in it? How do you know this?\n\ni. 31–35\nii. 38–41\niii. 41–64",
+     "solution": "a. Each box plot is spread out more in the greater values. Each plot is skewed to the right, so the ages of the top 50% of buyers are more variable than the ages of the lower 50%.\nb. The BMW 3 series is most likely to have an outlier. It has the longest whisker.\nc. Comparing the median ages, younger people tend to buy the BMW 3 series, while older people tend to buy the BMW 7 series. However, this is not a rule, because there is so much variability in each data set.\nd. The second quarter has the smallest spread. There seems to be only a three-year difference between the first quartile and the median.\ne. The third quarter has the largest spread. There seems to be approximately a 14-year difference between the median and the third quartile.\nf. IQR ~ 17 years\ng. There is not enough information to tell. Each interval lies within a quarter, so we cannot tell exactly where the data in that quarter is concentrated.\nh. The interval from 31 to 35 years has the fewest data values. Twenty-five percent of the values fall in the interval 38 to 41, and 25% fall between 41 and 64. Since 25% of values fall between 31 and 38, we know that fewer than 25% fall between 31 and 35."
+    },
+    {
+     "id": "element-833",
+     "problem": "Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:\n\n[TABLE]\n# of movies | Frequency\n0 | 5\n1 | 9\n2 | 6\n3 | 4\n4 | 1\n[/TABLE]\n\nConstruct a box plot of the data.",
+     "solution": null
+    }
+   ],
+   "bring_together": [
+    {
+     "id": "fs-idp67679120",
+     "problem": "A certain small town in the United states has a population of 27,873 people. Their ages are as follows:\n\n[TABLE]\nAge Group | Percent of Community\n0–17 | 18.9\n18–24 | 8.0\n25–34 | 22.8\n35–44 | 15.0\n45–54 | 13.1\n55–64 | 11.9\n65+ | 10.3\n[/TABLE]\n\na. Construct a histogram of the age distribution for this small town. The bars will not be the same width for this example. Why not? What impact does this have on the reliability of the graph?\nb. What percentage of the community is under age 35?\nc. Which box plot most resembles the information above?\n[FIGURE]",
+     "solution": "a. For graph, answers may vary.\nb. 49.7% of the community is under the age of 35.\nc. Based on the information in the table, graph (a) most closely represents the data."
+    }
+   ],
+   "summary": "Box plots are a type of graph that can help visually organize data. To graph a box plot the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.",
+   "formula_review": null,
+   "glossary": [
+    {
+     "term": "Box plot",
+     "meaning": "a graph that gives a quick picture of the middle 50% of the data"
+    },
+    {
+     "term": "First Quartile",
+     "meaning": "the value that is the median of the of the lower half of the ordered data set"
+    },
+    {
+     "term": "Frequency Polygon",
+     "meaning": "looks like a line graph but uses intervals to display ranges of large amounts of data"
+    },
+    {
+     "term": "Interval",
+     "meaning": "also called a class interval; an interval represents a range of data and is used when displaying large data sets"
+    },
+    {
+     "term": "Paired Data Set",
+     "meaning": "two data sets that have a one to one relationship so that:\n\n• both data sets are the same size, and\n• each data point in one data set is matched with exactly one point from the other set."
+    },
+    {
+     "term": "Skewed",
+     "meaning": "used to describe data that is not symmetrical; when the right side of a graph looks “chopped off” compared the left side, we say it is “skewed to the left.” When the left side of the graph looks “chopped off” compared to the right side, we say the data is “skewed to the right.” Alternatively: when the lower values of the data are more spread out, we say the data are skewed to the left. When the greater values are more spread out, the data are skewed to the right."
+    }
+   ],
+   "kind": "section",
+   "section": "2.4"
+  },
+  {
+   "id": "m46928",
+   "title": "Measures of the Center of the Data",
+   "tryits": [
+    {
+     "id": "fs-idm28353888",
+     "problem": "The following data show the number of months patients typically wait on a transplant list before getting surgery. The data are ordered from smallest to largest. Calculate the mean and median.\n\n• 3\n• 4\n• 5\n• 7\n• 7\n• 7\n• 7\n• 8\n• 8\n• 9\n• 9\n• 10\n• 10\n• 10\n• 10\n• 10\n• 11\n• 12\n• 12\n• 13\n• 14\n• 14\n• 15\n• 15\n• 17\n• 17\n• 18\n• 19\n• 19\n• 19\n• 21\n• 21\n• 22\n• 22\n• 23\n• 24\n• 24\n• 24\n• 24",
+     "solution": null,
+     "guideSolution": "Mean: 3 + 4 + 5 + 7 + 7 + 7 + 7 + 8 + 8 + 9 + 9 + 10 + 10 + 10 + 10 + 10 + 11 + 12 + 12 + 13 + 14 + 14 + 15 + 15 + 17 + 17 + 18 + 19 + 19 + 19 + 21 + 21 + 22 + 22 + 23 + 24 + 24 + 24 = 544  = 13.95 Median: Starting at the smallest value, the median is the 20th term, which is 13.",
+     "guideRef": "Try It 2.26"
+    },
+    {
+     "id": "fs-idm79009152",
+     "problem": "In a sample of 60 households, one house is worth $2,500,000. Twenty-nine houses are worth $280,000, and all the others are worth $315,000. Which is the better measure of the “center”: the mean or the median?",
+     "solution": null,
+     "guideSolution": "The median is the better measure of the “center” than the mean because 59 of the values are less than $315,000 and one is $2,500,000. The $2,500,000 is an outlier. The median, $315,000, gives us a better sense of the middle of the data than the mean, $334,500.",
+     "guideRef": "Try It 2.27"
+    },
+    {
+     "id": "fs-idm24402032",
+     "problem": "The number of books checked out from the library from 25 students are as follows:\n\n• 0\n• 0\n• 0\n• 1\n• 2\n• 3\n• 3\n• 4\n• 4\n• 5\n• 5\n• 7\n• 7\n• 7\n• 7\n• 8\n• 8\n• 8\n• 9\n• 10\n• 10\n• 11\n• 11\n• 12\n• 12\n\nFind the mode.",
+     "solution": null,
+     "guideSolution": "The most frequent number of books is 7, which occurs four times. Mode = 7.",
+     "guideRef": "Try It 2.28"
+    },
+    {
+     "id": "fs-idm2098096",
+     "problem": "Five credit scores are 680, 680, 700, 720, 720. The data set is bimodal because the scores 680 and 720 each occur twice. Consider the annual earnings of workers at a factory. The mode is $25,000 and occurs 150 times out of 301. The median is $50,000 and the mean is $47,500. What would be the best measure of the “center”?",
+     "solution": null,
+     "guideSolution": "Because $25,000 occurs nearly half the time, the mode would be the best measure of the center because the median and mean don’t represent what most people make at the factory.",
+     "guideRef": "Try It 2.29"
+    },
+    {
+     "id": "fs-idp22476928",
+     "problem": "A researcher conducted a study on the effect that playing video games has on memory recall. As part of the study, they compiled the following data:\n\n[TABLE]\nHours Teenagers Spend on Video Games | Number of Teenagers\n0–3.5 | 3\n3.5–7.5 | 7\n7.5–11.5 | 12\n11.5–15.5 | 7\n15.5–19.5 | 9\n[/TABLE]\n\nWhat is the best estimate for the mean number of hours spent playing video games?",
+     "solution": null,
+     "guideSolution": "Find the midpoint of each interval, multiply by the corresponding number of teenagers, add the results and then divide by the total number of teenagers The midpoints are 1.75, 5.5, 9.5, 13.5,17.5. Mean =   ==10.78\nSection 6. Skewness and the Mean, Median and Mode",
+     "guideRef": "Try It 2.30"
+    }
+   ],
+   "examples": [
+    "A hospital administrator keeps track of the ages (in years) of patients visiting the emergency room over a one-week period (data are sorted from smallest to largest):\n3; 4; 8; 8; 10; 11; 12; 13; 14; 15; 15; 16; 16; 17; 17; 18; 21; 22; 22; 24; 24; 25; 26; 26; 27; 27; 29; 29; 31; 32; 33; 33; 34; 34; 35; 37; 40; 44; 44; 47;\n\nCalculate the mean and the median.\n\nThe calculation for the mean is:\n\nx̄=([3+4+(8)(2)+10+11+12+13+14+(15)(2)+(16)(2)+...+35+37+40+(44)(2)+47])/40=23.6\n\nTo find the median, M, first use the formula for the location. The location is:\n\n(n+1)/2=(40+1)/2=20.5\n\nStarting at the smallest value, the median is located between the 20th and 21st values (the two 24s):\n\n3; 4; 8; 8; 10; 11; 12; 13; 14; 15; 15; 16; 16; 17; 17; 18; 21; 22; 22; 24; 24; 25; 26; 26; 27; 27; 29; 29; 31; 32; 33; 33; 34; 34; 35; 37; 40; 44; 44; 47;\n\nM=(24+24)/2=24",
+    "Suppose that in a small town of 50 people, one person earns $5,000,000 per year and the other 49 each earn $30,000. Which is the better measure of the \"center\": the mean or the median?\n\nx̄=(5,000,000+49(30,000))/50=129,400\n\nM = 30,000\n\n(There are 49 people who earn $30,000 and one person who earns $5,000,000.)\n\nThe median is a better measure of the \"center\" than the mean because 49 of the values are 30,000 and one is 5,000,000. The 5,000,000 is an outlier. The 30,000 gives us a better sense of the middle of the data.",
+    "Statistics exam scores for 20 students are as follows:\n\n• 50\n• 53\n• 59\n• 59\n• 63\n• 63\n• 72\n• 72\n• 72\n• 72\n• 72\n• 76\n• 78\n• 81\n• 83\n• 84\n• 84\n• 84\n• 90\n• 93\n\nFind the mode.\n\nThe most frequent score is 72, which occurs five times. Mode = 72.",
+    "Five real estate exam scores are 430, 430, 480, 480, 495. The data set is bimodal because the scores 430 and 480 each occur twice.\n\nWhen is the mode the best measure of the \"center\"? Consider a weight loss program that advertises a mean weight loss of six pounds the first week of the program. The mode might indicate that most people lose two pounds the first week, making the program less appealing.\n\nNOTE\n\nThe mode can be calculated for qualitative data as well as for quantitative data. For example, if the data set is: red, red, red, green, green, yellow, purple, black, blue, the mode is red.\n\nStatistical software will easily calculate the mean, the median, and the mode. Some graphing calculators can also make these calculations. In the real world, people make these calculations using software.",
+    "A frequency table displaying professor Blount’s last statistic test is shown. Find the best estimate of the class mean.\n\n[TABLE]\nGrade Interval | Number of Students\n50–56.5 | 1\n56.5–62.5 | 0\n62.5–68.5 | 4\n68.5–74.5 | 4\n74.5–80.5 | 2\n80.5–86.5 | 3\n86.5–92.5 | 4\n92.5–98.5 | 1\n[/TABLE]\n\n• Find the midpoints for all intervals\n\n[TABLE]\nGrade Interval | Midpoint\n50–56.5 | 53.25\n56.5–62.5 | 59.5\n62.5–68.5 | 65.5\n68.5–74.5 | 71.5\n74.5–80.5 | 77.5\n80.5–86.5 | 83.5\n86.5–92.5 | 89.5\n92.5–98.5 | 95.5\n[/TABLE]\n\n• Calculate the sum of the product of each interval frequency and midpoint.∑^​fm\n53.25(1)+59.5(0)+65.5(4)+71.5(4)+77.5(2)+83.5(3)+89.5(4)+95.5(1)=1460.25\n• μ=(∑fm)/(∑f)=1460.25/19=76.86"
+   ],
+   "practice": [
+    {
+     "id": "fs-idp11191056",
+     "problem": "Find the mean for the following frequency tables.\n\na.\n[TABLE]\nGrade | Frequency\n49.5–59.5 | 2\n59.5–69.5 | 3\n69.5–79.5 | 8\n79.5–89.5 | 12\n89.5–99.5 | 5\n[/TABLE]\n\nb.\n[TABLE]\nDaily Low Temperature | Frequency\n49.5–59.5 | 53\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 1\n89.5–99.5 | 0\n[/TABLE]\n\nc.\n[TABLE]\nPoints per Game | Frequency\n49.5–59.5 | 14\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 23\n89.5–99.5 | 2\n[/TABLE]",
+     "solution": null
+    },
+    {
+     "id": "fs-idp3713376",
+     "problem": "Calculate the mean.",
+     "solution": "Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;\n\n738/27 = 27.33",
+     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n• 16\n• 17\n• 19\n• 20\n• 20\n• 21\n• 23\n• 24\n• 25\n• 25\n• 25\n• 26\n• 26\n• 27\n• 27\n• 27\n• 28\n• 29\n• 30\n• 32\n• 33\n• 33\n• 34\n• 35\n• 37\n• 39\n• 40"
+    },
+    {
+     "id": "fs-idp23937584",
+     "problem": "Identify the median.",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n• 16\n• 17\n• 19\n• 20\n• 20\n• 21\n• 23\n• 24\n• 25\n• 25\n• 25\n• 26\n• 26\n• 27\n• 27\n• 27\n• 28\n• 29\n• 30\n• 32\n• 33\n• 33\n• 34\n• 35\n• 37\n• 39\n• 40"
+    },
+    {
+     "id": "fs-idm35941040",
+     "problem": "Identify the mode.",
+     "solution": "The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27",
+     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n• 16\n• 17\n• 19\n• 20\n• 20\n• 21\n• 23\n• 24\n• 25\n• 25\n• 25\n• 26\n• 26\n• 27\n• 27\n• 27\n• 28\n• 29\n• 30\n• 32\n• 33\n• 33\n• 34\n• 35\n• 37\n• 39\n• 40"
+    },
+    {
+     "id": "exercisefour",
+     "problem": "sample mean = x̄ = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+    },
+    {
+     "id": "eip-83",
+     "problem": "median = _______",
+     "solution": "4",
+     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+    },
+    {
+     "id": "eip-630",
+     "problem": "mode = _______",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+    }
+   ],
+   "homework": [
+    {
+     "id": "eip-735",
+     "problem": "The countries with the highest rates of obesity in the world have obesity rates that range from 11.4% to 74.6%. This data is summarized in the following table.\n\n[TABLE]\nPercent of Population | Number of Countries\n11.4–20.45 | 29\n20.45–29.45 | 13\n29.45–38.45 | 4\n38.45–47.45 | 0\n47.45–56.45 | 2\n56.45–65.45 | 1\n65.45–74.45 | 0\n74.45–83.45 | 1\n[/TABLE]\n\na. What is the best estimate of the average obesity percentage for these countries?\nb. The United States has an average obesity rate of 33.9%. Is this rate above average or below?\nc. How does the United States compare to other countries?",
+     "solution": null
+    },
+    {
+     "id": "eip-17",
+     "problem": "gives the percent of children under five considered to be underweight. What is the best estimate for the mean percentage of underweight children?\n\n[TABLE]\nPercent of Underweight Children | Number of Countries\n16–21.45 | 23\n21.45–26.9 | 4\n26.9–32.35 | 9\n32.35–37.8 | 7\n37.8–43.25 | 6\n43.25–48.7 | 1\n[/TABLE]",
+     "solution": "The mean percentage, x̄=1328.65/50=26.57"
+    }
+   ],
+   "bring_together": [
+    {
+     "id": "element-832",
+     "problem": "Javier and Ercilia are supervisors at a shopping mall. Each was given the task of estimating the mean distance that shoppers live from the mall. They each randomly surveyed 100 shoppers. The samples yielded the following information.\n\n[TABLE]\n| Javier | Ercilia\nx̄ | 6.0 miles | 6.0 miles\ns | 4.0 miles | 7.0 miles\n[/TABLE]\n\na. How can you determine which survey was correct ?\nb. Explain what the difference in the results of the surveys implies about the data.\nc. If the two histograms depict the distribution of values for each supervisor, which one depicts Ercilia's sample? How do you know?\n\n[FIGURE]\nd. If the two box plots depict the distribution of values for each supervisor, which one depicts Ercilia’s sample? How do you know?\n\n[FIGURE]",
+     "solution": null
+    },
+    {
+     "id": "element-84",
+     "problem": "What is the IQR?\n\na. 8\nb. 11\nc. 15\nd. 35",
+     "stem": "What is the IQR?",
+     "options": [
+      "8",
+      "11",
+      "15",
+      "35"
+     ],
+     "solution": "a",
+     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+    },
+    {
+     "id": "element-720",
+     "problem": "What is the mode?\n\na. 19\nb. 19.5\nc. 14 and 20\nd. 22.65",
+     "stem": "What is the mode?",
+     "options": [
+      "19",
+      "19.5",
+      "14 and 20",
+      "22.65"
+     ],
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+    },
+    {
+     "id": "element-346",
+     "problem": "Is this a sample or the entire population?\n\na. sample\nb. entire population\nc. neither",
+     "stem": "Is this a sample or the entire population?",
+     "options": [
+      "sample",
+      "entire population",
+      "neither"
+     ],
+     "solution": "b",
+     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+    }
+   ],
+   "summary": "The mean and the median can be calculated to help you find the \"center\" of a data set. The mean is the best estimate for the actual data set, but the median is the best measurement when a data set contains several outliers or extreme values. The mode will tell you the most frequently occurring datum (or data) in your data set. The mean, median, and mode are extremely helpful when you need to analyze your data, but if your data set consists of ranges which lack specific values, the mean may seem impossible to calculate. However, the mean can be approximated if you add the lower boundary with the upper boundary and divide by two to find the midpoint of each interval. Multiply each midpoint by the number of values found in the corresponding range. Divide the sum of these values by the total number of data values in the set.",
+   "formula_review": "μ=(∑fm)/(∑f) Where f = interval frequencies and m = interval midpoints.",
+   "glossary": [
+    {
+     "term": "Frequency Table",
+     "meaning": "a data representation in which grouped data is displayed along with the corresponding frequencies"
+    },
+    {
+     "term": "Mean",
+     "meaning": "a number that measures the central tendency of the data; a common name for mean is 'average.' The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by x̄) is x̄ = (Sum of all values in the sample)/(Number of values in the sample), and the mean for a population (denoted by μ) is μ=(Sum of all values in the population)/(Number of values in the population)."
+    },
+    {
+     "term": "Median",
+     "meaning": "a number that separates ordered data into halves; half the values are the same number or smaller than the median and half the values are the same number or larger than the median. The median may or may not be part of the data."
+    },
+    {
+     "term": "Midpoint",
+     "meaning": "the mean of an interval in a frequency table"
+    },
+    {
+     "term": "Mode",
+     "meaning": "the value that appears most frequently in a set of data"
+    }
+   ],
+   "kind": "section",
+   "section": "2.5"
+  },
+  {
+   "id": "m46931",
+   "title": "Skewness and the Mean, Median, and Mode",
+   "tryits": [
+    {
+     "id": "fs-idm4859600",
+     "problem": "Discuss the mean, median, and mode for each of the following problems. Is there a pattern between the shape and measure of the center?\n\na. [FIGURE]\n\nb.\n\n[TABLE]\nThe Ages Former U.S Presidents Died\n4 | 6 9\n5 | 3 6 7 7 7 8\n6 | 0 0 3 3 4 4 5 6 7 7 7 8\n7 | 0 1 1 2 3 4 7 8 8 9\n8 | 0 1 3 5 8\n9 | 0 0 3 3\nKey: 8|0 means 80.\n[/TABLE]\n\nc.\n[FIGURE]",
+     "solution": null,
+     "guideSolution": "mean = 4.25, median = 3.5, mode = 1; The mean > median > mode which indicates skewness to the right. (data are 0, 1, 2, 3, 4, 5, 6, 9, 10, 14 and respective frequencies are 2, 4, 3, 1, 2, 2, 2, 2, 1, 1)\nmean = 70.1 , median = 68, mode = 57, 67 bimodal; the mean and median are close but there is a little skewness to the right which is influenced by the data being bimodal. (data are 46, 49, 53, 56, 57, 57, 57, 58, 60, 60, 63, 63, 64, 64, 65, 66, 67, 67, 67, 68, 70, 71, 71, 72, 73, 74, 77, 78, 78, 79, 80, 81, 83, 85, 88, 90, 90 93, 93).\nThese are estimates: mean =16.095, median = 17.495, mode = 22.495 (there may be no mode); The mean < median < mode which indicates skewness to the left. (data are the midpoints of the intervals: 2.495, 7.495, 12.495, 17.495, 22.495 and respective frequencies are 2, 3, 4, 7, 9).\nSection 7. Measure of the Spread of the Data",
+     "guideRef": "Try It 2.31"
+    }
+   ],
+   "examples": [
+    "Statistics are used to compare and sometimes identify authors. The following lists shows a simple random sample that compares the letter counts for three authors.\n\nTerry: 7; 9; 3; 3; 3; 4; 1; 3; 2; 2\n\nDavis: 3; 3; 3; 4; 1; 4; 3; 2; 3; 1\n\nMaris: 2; 3; 4; 4; 4; 6; 6; 6; 8; 3\n\na. Make a dot plot for the three authors and compare the shapes.\nb. Calculate the mean for each.\nc. Calculate the median for each.\nd. Describe any pattern you notice between the shape and the measures of center.\n\na.\n[FIGURE: Terry’s distribution has a right (positive) skew.]\n\n[FIGURE: Davis’ distribution has a left (negative) skew][FIGURE: Maris’ distribution is symmetrically shaped.]\n\nb. Terry’s mean is 3.7, Davis’ mean is 2.7, Maris’ mean is 4.6.\nc. Terry’s median is three, Davis’ median is three. Maris’ median is four.\nd. It appears that the median is always closest to the high point (the mode), while the mean tends to be farther out on the tail. In a symmetrical distribution, the mean and the median are both centrally located close to the high point of the distribution."
+   ],
+   "practice": [
+    {
+     "id": "fs-idm89697712",
+     "problem": "• 1\n• 1\n• 1\n• 2\n• 2\n• 2\n• 2\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 3\n• 4\n• 4\n• 4\n• 5\n• 5",
+     "solution": "The data are symmetrical. The median is 3 and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm125692000",
+     "problem": "• 16\n• 17\n• 19\n• 22\n• 22\n• 22\n• 22\n• 22\n• 23",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm65822528",
+     "problem": "• 87\n• 87\n• 87\n• 87\n• 87\n• 88\n• 89\n• 89\n• 90\n• 91",
+     "solution": "The data are skewed right. The median is 87.5 and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm8768736",
+     "problem": "When the data are skewed left, what is the typical relationship between the mean and median?",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm8813456",
+     "problem": "When the data are symmetrical, what is the typical relationship between the mean and median?",
+     "solution": "When the data are symmetrical, the mean and median are close or the same.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm89404448",
+     "problem": "What word describes a distribution that has two modes?",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idp18513440",
+     "problem": "Describe the shape of this distribution.\n\n[FIGURE]",
+     "solution": "The distribution is skewed right because it looks pulled out to the right.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idp1656096",
+     "problem": "Describe the relationship between the mode and the median of this distribution.\n[FIGURE]",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm17924688",
+     "problem": "Describe the relationship between the mean and the median of this distribution.\n[FIGURE]",
+     "solution": "The mean is 4.1 and is slightly greater than the median, which is four.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm17745152",
+     "problem": "Describe the shape of this distribution.\n\n[FIGURE]",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idp21637424",
+     "problem": "Describe the relationship between the mode and the median of this distribution.\n[FIGURE]",
+     "solution": "The mode and the median are the same. In this case, they are both five.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm42189536",
+     "problem": "Are the mean and the median the exact same in this distribution? Why or why not?\n[FIGURE]",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm44509184",
+     "problem": "Describe the shape of this distribution.\n\n[FIGURE]",
+     "solution": "The distribution is skewed left because it looks pulled out to the left.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm24266752",
+     "problem": "Describe the relationship between the mode and the median of this distribution.\n\n[FIGURE]",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm56587152",
+     "problem": "Describe the relationship between the mean and the median of this distribution.\n\n[FIGURE]",
+     "solution": "The mean and the median are both six.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm53345552",
+     "problem": "The mean and median for the data are the same.\n\n• 3\n• 4\n• 5\n• 5\n• 6\n• 6\n• 6\n• 6\n• 7\n• 7\n• 7\n• 7\n• 7\n• 7\n• 7\n\nIs the data perfectly symmetrical? Why or why not?",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm106262320",
+     "problem": "Which is the greatest, the mean, the mode, or the median of the data set?\n\n• 11\n• 11\n• 12\n• 12\n• 12\n• 12\n• 13\n• 15\n• 17\n• 22\n• 22\n• 22",
+     "solution": "The mode is 12, the median is 12.5, and the mean is 15.1. The mean is the largest.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm77708816",
+     "problem": "Which is the least, the mean, the mode, and the median of the data set?\n\n• 56\n• 56\n• 56\n• 58\n• 59\n• 60\n• 62\n• 64\n• 64\n• 65\n• 67",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idm1767264",
+     "problem": "Of the three measures, which tends to reflect skewing the most, the mean, the mode, or the median? Why?",
+     "solution": "The mean tends to reflect skewing the most because it is affected the most by outliers.",
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    },
+    {
+     "id": "fs-idp5807168",
+     "problem": "In a perfectly symmetrical distribution, when would the mode be different from the mean and median?",
+     "solution": null,
+     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+    }
+   ],
+   "homework": [
+    {
+     "id": "element-564",
+     "problem": "The median age of the U.S. population in 1980 was 30.0 years. In 1991, the median age was 33.1 years.\n\na. What does it mean for the median age to rise?\nb. Give two reasons why the median age could rise.\nc. For the median age to rise, is the actual number of children less in 1991 than it was in 1980? Why or why not?",
+     "solution": null
+    }
+   ],
+   "bring_together": [],
+   "summary": "Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A left (or negative) skewed distribution has a shape like . A right (or positive) skewed distribution has a shape like . A symmetrical distribution looks like .",
+   "formula_review": null,
+   "glossary": [],
+   "kind": "section",
+   "section": "2.6"
+  },
+  {
+   "id": "m46922",
+   "title": "Measures of the Spread of the Data",
+   "tryits": [
+    {
+     "id": "fs-idm106330688",
+     "problem": "On a baseball team, the ages of each of the players are as follows:\n\n21; 21; 22; 23; 24; 24; 25; 25; 28; 29; 29; 31; 32; 33; 33; 34; 35; 36; 36; 36; 36; 38; 38; 38; 40\n\nUse your calculator or computer to find the mean and standard deviation. Then find the value that is two standard deviations above the mean.",
+     "solution": null,
+     "guideSolution": "μ = 30.68\ns = 6.09 (X̄ + 2s) = 30.68 + (2)(6.09) = 42.86.",
+     "guideRef": "Try It 2.32"
+    },
+    {
+     "id": "fs-idm22220656",
+     "problem": "The following data show the different types of pet food stores in the area carry.\n\n6; 6; 6; 6; 7; 7; 7; 7; 7; 8; 9; 9; 9; 9; 10; 10; 10; 10; 10; 11; 11; 11; 11; 12; 12; 12; 12; 12; 12;\n\nCalculate the sample mean and the sample standard deviation to one decimal place using a TI-83+ or TI-84 calculator.",
+     "solution": null,
+     "guideSolution": "μ = 9.3\ns = 2.2",
+     "guideRef": "Try It 2.33"
+    },
+    {
+     "id": "fs-idm30975248",
+     "problem": "Two swimmers, Angie and Beth, from different teams, wanted to find out who had the fastest time for the 50 meter freestyle when compared to her team. Which swimmer had the fastest time when compared to her team?\n\n[TABLE]\nSwimmer | Time (seconds) | Team Mean Time | Team Standard Deviation\nAngie | 26.2 | 27.2 | 0.8\nBeth | 27.3 | 30.1 | 1.4\n[/TABLE]",
+     "solution": null,
+     "guideSolution": "For Angie: z = = –1.25\nFor Beth: z = = –2\nChapter 3. Probability Topics\nSection 1. Terminology",
+     "guideRef": "Try It 2.35"
+    }
+   ],
+   "examples": [
+    "In a fifth grade class, the teacher was interested in the average age and the sample standard deviation of the ages of the students. The following data are the ages for a SAMPLE of n = 20 fifth grade students. The ages are rounded to the nearest half year:\n\n9; 9.5; 9.5; 10; 10; 10; 10; 10.5; 10.5; 10.5; 10.5; 11; 11; 11; 11; 11; 11; 11.5; 11.5; 11.5;\n\nx̄=(9 + 9.5(2) + 10(4) + 10.5(4) + 11(6) + 11.5(3))/20=10.525\n\nThe average age is 10.53 years, rounded to two places.\n\nThe variance may be calculated by using a table. Then the standard deviation is calculated by taking the square root of the variance. We will explain the parts of the table after calculating s.\n\n[TABLE]\nData | Freq. | Deviations | Deviations2 | (Freq.)(Deviations2)\nx | f | (x – x̄) | (x – x̄)2 | (f)(x – x̄)2\n9 | 1 | 9 – 10.525 = –1.525 | (–1.525)2 = 2.325625 | 1 × 2.325625 = 2.325625\n9.5 | 2 | 9.5 – 10.525 = –1.025 | (–1.025)2 = 1.050625 | 2 × 1.050625 = 2.101250\n10 | 4 | 10 – 10.525 = –0.525 | (–0.525)2 = 0.275625 | 4 × 0.275625 = 1.1025\n10.5 | 4 | 10.5 – 10.525 = –0.025 | (–0.025)2 = 0.000625 | 4 × 0.000625 = 0.0025\n11 | 6 | 11 – 10.525 = 0.475 | (0.475)2 = 0.225625 | 6 × 0.225625 = 1.35375\n11.5 | 3 | 11.5 – 10.525 = 0.975 | (0.975)2 = 0.950625 | 3 × 0.950625 = 2.851875\n| | | | The total is 9.7375\n[/TABLE]\n\nThe sample variance, s2, is equal to the sum of the last column (9.7375) divided by the total number of data values minus one (20 – 1):\n\ns^2=9.7375/20−1=0.5125\n\nThe sample standard deviation s is equal to the square root of the sample variance:\n\ns=√(0.5125)=0.715891, which is rounded to two decimal places, s = 0.72.\n\nTypically, you do the calculation for the standard deviation on your calculator or computer. The intermediate results are not rounded. This is done for accuracy.\n\n• For the following problems, recall that value = mean + (#ofSTDEVs)(standard deviation). Verify the mean and standard deviation or a calculator or computer.\n• For a sample: x = x̄ + (#ofSTDEVs)(s)\n• For a population: x = μ + (#ofSTDEVs)(σ)\n• For this example, use x = x̄ + (#ofSTDEVs)(s) because the data is from a sample\n\na. Verify the mean and standard deviation on your calculator or computer.\nb. Find the value that is one standard deviation above the mean. Find (x̄ + 1s).\nc. Find the value that is two standard deviations below the mean. Find (x̄ – 2s).\nd. Find the values that are 1.5 standard deviations from (below and above) the mean.\n\na.\n\n• Clear lists L1 and L2. Press STAT 4:ClrList. Enter 2nd 1 for L1, the comma (,), and\n2nd 2 for L2.\n• Enter data into the list editor. Press STAT 1:EDIT. If necessary, clear the lists by\narrowing up into the name. Press CLEAR and arrow down.\n• Put the data values (9, 9.5, 10, 10.5, 11, 11.5) into list L1 and the frequencies (1, 2, 4, 4, 6, 3) into list L2. Use the arrow keys to move around.\n• Press STAT and arrow to CALC. Press 1:1-VarStats and enter L1 (2nd 1), L2 (2nd 2). Do not forget the comma. Press ENTER.\n• x̄ = 10.525\n• Use Sx because this is sample data (not a population): Sx=0.715891\n\nb. (x̄ + 1s) = 10.53 + (1)(0.72) = 11.25\nc. (x̄ – 2s) = 10.53 – (2)(0.72) = 9.09\nd.\n• (x̄ – 1.5s) = 10.53 – (1.5)(0.72) = 9.45\n• (x̄ + 1.5s) = 10.53 + (1.5)(0.72) = 11.61",
+    "Use the following data (first exam scores) from Professor Dean's spring pre-calculus class:\n\n33; 42; 49; 49; 53; 55; 55; 61; 63; 67; 68; 68; 69; 69; 72; 73; 74; 78; 80; 83; 88; 88; 88; 90; 92; 94; 94; 94; 94; 96; 100\n\na. Create a chart containing the data, frequencies, relative frequencies, and cumulative relative frequencies to three decimal places.\nb. Calculate the following to one decimal place using a TI-83+ or TI-84 calculator:\n\ni. The sample mean\nii. The sample standard deviation\niii. The median\niv. The first quartile\nv. The third quartile\nvi. IQR\n\nc. Construct a box plot and a histogram on the same set of axes. Make comments about the box plot, the histogram, and the chart.\n\na. See\nb.\n\ni. The sample mean = 73.5\nii. The sample standard deviation = 17.9\niii. The median = 73\niv. The first quartile = 61\nv. The third quartile = 90\nvi. IQR = 90 – 61 = 29\n\nc. The x-axis goes from 32.5 to 100.5; y-axis goes from –2.4 to 15 for the histogram. The number of intervals is five, so the width of an interval is (100.5 – 32.5) divided by five, is equal to 13.6. Endpoints of the intervals are as follows: the starting point is 32.5, 32.5 + 13.6 = 46.1, 46.1 + 13.6 = 59.7, 59.7 + 13.6 = 73.3, 73.3 + 13.6 = 86.9, 86.9 + 13.6 = 100.5 = the ending value; No data values fall on an interval boundary.\n[FIGURE]\n\n[TABLE]\nData | Frequency | Relative Frequency | Cumulative Relative Frequency\n33 | 1 | 0.032 | 0.032\n42 | 1 | 0.032 | 0.064\n49 | 2 | 0.065 | 0.129\n53 | 1 | 0.032 | 0.161\n55 | 2 | 0.065 | 0.226\n61 | 1 | 0.032 | 0.258\n63 | 1 | 0.032 | 0.29\n67 | 1 | 0.032 | 0.322\n68 | 2 | 0.065 | 0.387\n69 | 2 | 0.065 | 0.452\n72 | 1 | 0.032 | 0.484\n73 | 1 | 0.032 | 0.516\n74 | 1 | 0.032 | 0.548\n78 | 1 | 0.032 | 0.580\n80 | 1 | 0.032 | 0.612\n83 | 1 | 0.032 | 0.644\n88 | 3 | 0.097 | 0.741\n90 | 1 | 0.032 | 0.773\n92 | 1 | 0.032 | 0.805\n94 | 4 | 0.129 | 0.934\n96 | 1 | 0.032 | 0.966\n100 | 1 | 0.032 | 0.998 (Why isn't this value 1?)\n[/TABLE]\n\nThe long left whisker in the box plot is reflected in the left side of the histogram. The spread of the exam scores in the lower 50% is greater (73 – 33 = 40) than the spread in the upper 50% (100 – 73 = 27). The histogram, box plot, and chart all reflect this. There are a substantial number of A and B grades (80s, 90s, and 100). The histogram clearly shows this. The box plot shows us that the middle 50% of the exam scores (IQR = 29) are Ds, Cs, and Bs. The box plot also shows us that the lower 25% of the exam scores are Ds and Fs.",
+    "Find the standard deviation for the data in .\n\n[TABLE]\nClass | Frequency, f | Midpoint, m | f⋅m | x̄ | m-x̄ | (m-x̄)^2 | f(m-x̄)^2\n0–2 | 1 | 1 | 1 | 7.58 | -6.58 | 43.2964 | 43.2964\n3–5 | 6 | 4 | 24 | 7.58 | -3.58 | 12.8164 | 76.8984\n6–8 | 10 | 7 | 70 | 7.58 | -0.58 | 0.3364 | 3.364\n9–11 | 7 | 10 | 70 | 7.58 | 2.42 | 5.8564 | 40.9948\n12–14 | 0 | 13 | 0 | 7.58 | 5.42 | 29.3764 | 0\n15–17 | 2 | 16 | 32 | 7.58 | 8.42 | 70.8964 | 141.7928\nSUM (Σ) | 26 | | 197 | | | | 306.3464\n[/TABLE]\n\nThe values in the second, third, and fourth columns of are used to calculate the mean of the grouped frequency table, the value in the fifth column.\n\nx̄=Σfm/Σf=197/26≈7.58.\n\nAfter calculating x̄, find the difference, m-x̄, for each midpoint, m. Next, square each difference. In the final column, calculate the product of the frequency and the squared difference for each class.\n\nThe table makes it easy to use the formula for calculating the standard deviation of a grouped frequency table:\n\ns_x=√((Σf(m-x̄)^2)/n-1)=√(43.2964/26-1)≈3.50.\n\nAlthough the formula is not complicated, these calculations are typically performed using technology.",
+    "Two students, John and Ali, from different high schools, wanted to find out who had the highest GPA when compared to his school. Which student had the highest GPA when compared to his school?\n\n[TABLE]\nStudent | GPA | School Mean GPA | School Standard Deviation\nJohn | 2.85 | 3.0 | 0.7\nAli | 77 | 80 | 10\n[/TABLE]\n\nFor each student, determine how many standard deviations (#ofSTDEVs) his GPA is away from the average, for his school. Pay careful attention to signs when comparing and interpreting the answer.\n\nz=# of STDEVs=(value –mean)/(standard deviation)=x–μ/σ\n\nFor John, z=#ofSTDEVs=2.85–3.0/0.7=–0.21\n\nFor Ali, z=#ofSTDEVs=77−80/10=−0.3\n\nJohn has the better GPA when compared to his school because his GPA is 0.21 standard deviations below his school's mean while Ali's GPA is 0.3 standard deviations below his school's mean.\n\nJohn's z-score of –0.21 is higher than Ali's z-score of –0.3. For GPA, higher values are better, so we conclude that John has the better GPA when compared to his school."
+   ],
+   "practice": [
+    {
+     "id": "fs-idm25484256",
+     "problem": "Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.",
+     "solution": "s = 34.5",
+     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+    },
+    {
+     "id": "fs-idm62691728",
+     "problem": "Find the value that is one standard deviation below the mean.",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+    },
+    {
+     "id": "fs-idm9402560",
+     "problem": "Two baseball players, Fredo and Karl, on different teams wanted to find out who had the higher batting average when compared to his team. Which baseball player had the higher batting average when compared to his team?\n\n[TABLE]\nBaseball Player | Batting Average | Team Batting Average | Team Standard Deviation\nFredo | 0.158 | 0.166 | 0.012\nKarl | 0.177 | 0.189 | 0.015\n[/TABLE]",
+     "solution": "For Fredo: z = (0.158 – 0.166)/0.012\n= –0.67\n\nFor Karl: z = (0.177 – 0.189)/0.015\n= –0.8\n\nFredo’s z-score of –0.67 is higher than Karl’s z-score of –0.8. For batting average, higher values are better, so Fredo has a better batting average compared to his team.",
+     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+    },
+    {
+     "id": "exercisefifteen",
+     "problem": "Use to find the value that is three standard deviations:\n\n• above the mean\n• below the mean",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+    },
+    {
+     "id": "fs-idm109676912",
+     "problem": "Find the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84.\n\na.\n[TABLE]\nGrade | Frequency\n49.5–59.5 | 2\n59.5–69.5 | 3\n69.5–79.5 | 8\n79.5–89.5 | 12\n89.5–99.5 | 5\n[/TABLE]\n\nb.\n[TABLE]\nDaily Low Temperature | Frequency\n49.5–59.5 | 53\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 1\n89.5–99.5 | 0\n[/TABLE]\n\nc.\n[TABLE]\nPoints per Game | Frequency\n49.5–59.5 | 14\n59.5–69.5 | 32\n69.5–79.5 | 15\n79.5–89.5 | 23\n89.5–99.5 | 2\n[/TABLE]",
+     "solution": "a. s_x=√((∑fm^2)/n−x̄^2)=√(193157.45/30−79.5^2)=10.88\nb. s_x=√((∑fm^2)/n−x̄^2)=√(380945.3/101−60.94^2)=7.62\nc. s_x=√((∑fm^2)/n−x̄^2)=√(440051.5/86−70.66^2)=11.14",
+     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150\nFind the standard deviation for the following frequency tables using the formula. Check the calculations with the TI 83/84."
+    }
+   ],
+   "homework": [
+    {
+     "id": "exercisetwenty",
+     "problem": "A sample of 11 years is taken. About how many are expected to have a FTES of 1014 or above? Explain how you determined your answer.",
+     "solution": "The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the 6th number in order. Six years will have totals at or above the median.",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "exercisetwentyone",
+     "problem": "75% of all years have an FTES:\n\na. at or below: _____\nb. at or above: _____",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "exercisetwentytwo",
+     "problem": "The population standard deviation = _____",
+     "solution": "474 FTES",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "exercisetwentythree",
+     "problem": "What percent of the FTES were from 528.5 to 1447.5? How do you know?",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "exercisetwentyfour",
+     "problem": "What is the IQR? What does the IQR represent?",
+     "solution": "919",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "exercisetwentyfive",
+     "problem": "How many standard deviations away from the mean is the median?\n\nAdditional Information: The population FTES for a specific six-year period was given in an updated report. The data are reported here.\n\n[TABLE]\nYear | 1 | 2 | 3 | 4 | 5 | 6\nTotal FTES | 1,585 | 1,690 | 1,735 | 1,935 | 2,021 | 1,890\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "eip-746",
+     "problem": "Calculate the mean, median, standard deviation, the first quartile, the third quartile and the IQR. Round to one decimal place.",
+     "solution": "• mean = 1,809.3\n• median = 1,812.5\n• standard deviation = 151.2\n• first quartile = 1,690\n• third quartile = 1,935\n• IQR = 245",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "eip-279",
+     "problem": "What additional information is needed to construct a box plot for the FTES for Years 1 to 6 and a box plot for the 29-year period shown earlier?",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "eip-975",
+     "problem": "Compare the IQR for the previous 29-year period with the IQR for the six-year period shown in . Why do you suppose the IQRs are so different?",
+     "solution": "Hint: Think about the number of years covered by each time period and what happened to higher education during those periods.",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "element-844",
+     "problem": "Three students were applying to the same graduate school. They came from schools with different grading systems. Which student had the best GPA when compared to other students at his school? Explain how you determined your answer.\n\n[TABLE]\nStudent | GPA | School Average GPA | School Standard Deviation\nThuy | 2.7 | 3.2 | 0.8\nVichet | 87 | 75 | 20\nKamala | 8.6 | 8 | 0.4\n[/TABLE]",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "eip-207",
+     "problem": "A music school has budgeted to purchase three musical instruments. They plan to purchase a piano costing $3,000, a guitar costing $550, and a drum set costing $600. The mean cost for a piano is $4,000 with a standard deviation of $2,500. The mean cost for a guitar is $500 with a standard deviation of $200. The mean cost for drums is $700 with a standard deviation of $100. Which cost is the lowest, when compared to other instruments of the same type? Which cost is the highest when compared to other instruments of the same type. Justify your answer.",
+     "solution": "For pianos, the cost of the piano is 0.4 standard deviations BELOW the mean. For guitars, the cost of the guitar is 0.25 standard deviations ABOVE the mean. For drums, the cost of the drum set is 1.0 standard deviations BELOW the mean. Of the three, the drums cost the lowest in comparison to the cost of other instruments of the same type. The guitar costs the most in comparison to the cost of other instruments of the same type.",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "element-799",
+     "problem": "An elementary school class ran one mile with a mean of 11 minutes and a standard deviation of three minutes. Rachel, a student in the class, ran one mile in eight minutes. A junior high school class ran one mile with a mean of nine minutes and a standard deviation of two minutes. Kenji, a student in the class, ran 1 mile in 8.5 minutes. A high school class ran one mile with a mean of seven minutes and a standard deviation of four minutes. Nedda, a student in the class, ran one mile in eight minutes.\n\na. Why is Kenji considered a better runner than Nedda, even though Nedda ran faster than he?\nb. Who is the fastest runner with respect to their class? Explain why.",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "fs-idm6474736",
+     "problem": "A selection of countries has poverty rates that range from 11.4% to 74.6%. This data is summarized in Table 2.76.\n\n[TABLE]\nPercent of Population | Number of Countries\n11.4–20.45 | 29\n20.45–29.45 | 13\n29.45–38.45 | 4\n38.45–47.45 | 0\n47.45–56.45 | 2\n56.45–65.45 | 1\n65.45–74.45 | 0\n74.45–83.45 | 1\n[/TABLE]\n\nWhat is the best estimate of the average poverty percentage for these countries? What is the standard deviation for the listed poverty rates? The United States has an average poverty rate of 33.9%. Is this rate above average or below? How “unusual” is the United States’ rate compared to the average rate? Explain.",
+     "solution": "• x̄=23.32\n• Using the TI 83/84, we obtain a standard deviation of: s_x=12.95.\n• The poverty rate of the United States is 10.58% higher than the average rate.\n• Since the standard deviation is 12.95, we see that 23.32 + 12.95 = 36.27 is the poverty percentage that is one standard deviation from the mean. The United States rate is slightly less than one standard deviation from the mean. Therefore, we can assume that the United States does not have an unusually high percentage of people experiencing poverty.",
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    },
+    {
+     "id": "fs-idm70000608",
+     "problem": "gives the percent of children under five considered to be underweight.\n\n[TABLE]\nPercent of Underweight Children | Number of Countries\n16–21.45 | 23\n21.45–26.9 | 4\n26.9–32.35 | 9\n32.35–37.8 | 7\n37.8–43.25 | 6\n43.25–48.7 | 1\n[/TABLE]\n\nWhat is the best estimate for the mean percentage of underweight children? What is the standard deviation? Which interval(s) could be considered unusual? Explain.",
+     "solution": null,
+     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n• μ = 1000 FTES\n• median = 1,014 FTES\n• σ = 474 FTES\n• first quartile = 528.5 FTES\n• third quartile = 1,447.5 FTES\n• n = 29 years"
+    }
+   ],
+   "bring_together": [
+    {
+     "id": "element-833",
+     "problem": "Twenty-five randomly selected students were asked the number of movies they watched the previous week. The results are as follows:\n\n[TABLE]\n# of movies | Frequency\n0 | 5\n1 | 9\n2 | 6\n3 | 4\n4 | 1\n[/TABLE]\n\na. Find the sample mean x̄.\nb. Find the approximate sample standard deviation, s.",
+     "solution": "a. 1.48\nb. 1.12"
+    },
+    {
+     "id": "element-976",
+     "problem": "Forty randomly selected students were asked the number of pairs of sneakers they owned. Let X = the number of pairs of sneakers owned. The results are as follows:\n\n[TABLE]\nX | Frequency\n1 | 2\n2 | 5\n3 | 8\n4 | 12\n5 | 12\n6 | 0\n7 | 1\n[/TABLE]\n\na. Find the sample mean x[–]\nb. Find the sample standard deviation, s\nc. Construct a histogram of the data.\nd. Complete the columns of the chart.\ne. Find the first quartile.\nf. Find the median.\ng. Find the third quartile.\nh. Construct a box plot of the data.\ni. What percent of the students owned at least five pairs?\nj. Find the 40th percentile.\nk. Find the 90th percentile.\nl. Construct a line graph of the data\nm. Construct a stemplot of the data",
+     "solution": null
+    },
+    {
+     "id": "element-324s",
+     "problem": "Following are the published weights (in pounds) of all of the team members of the San Francisco 49ers from a previous year.\n\n177; 205; 210; 210; 232; 205; 185; 185; 178; 210; 206; 212; 184; 174; 185; 242; 188; 212; 215; 247; 241; 223; 220; 260; 245; 259; 278; 270; 280; 295; 275; 285; 290; 272; 273; 280; 285; 286; 200; 215; 185; 230; 250; 241; 190; 260; 250; 302; 265; 290; 276; 228; 265\n\na. Organize the data from smallest to largest value.\nb. Find the median.\nc. Find the first quartile.\nd. Find the third quartile.\ne. Construct a box plot of the data.\nf. The middle 50% of the weights are from _______ to _______.\ng. If our population were all professional football players, would the above data be a sample of weights or the population of weights? Why?\nh. Assume the population was the San Francisco 49ers. Find:\n\ni. the population mean, μ.\nii. the population standard deviation, σ.\niii. the weight that is two standard deviations below the mean.\niv. When Steve Young, quarterback, played football, he weighed 205 pounds. How many standard deviations above or below the mean was he?\n\ni. That same year, the mean weight for the Dallas Cowboys was 240.08 pounds with a standard deviation of 44.38 pounds. Emmit Smith weighed in at 209 pounds. With respect to his team, who was lighter, Smith or Young? How did you determine your answer?",
+     "solution": "a. 174; 177; 178; 184; 185; 185; 185; 185; 188; 190; 200; 205; 205; 206; 210; 210; 210; 212; 212; 215; 215; 220; 223; 228; 230; 232; 241; 241; 242; 245; 247; 250; 250; 259; 260; 260; 265; 265; 270; 272; 273; 275; 276; 278; 280; 280; 285; 285; 286; 290; 290; 295; 302\nb. 241\nc. 205.5\nd. 272.5\ne. [FIGURE]\nf. 205.5, 272.5\ng. sample\nh.\n\ni. 236.34\nii. 37.50\niii. 161.34\niv. 0.84 std. dev. below the mean\n\ni. Young"
+    },
+    {
+     "id": "element-211",
+     "problem": "One hundred teachers attended a seminar on mathematical problem solving. The attitudes of a representative sample of 12 of the teachers were measured before and after the seminar. A positive number for change in attitude indicates that a teacher's attitude toward math became more positive. The 12 change scores are as follows:\n\n• 3\n• 8\n• –1\n• 2\n• 0\n• 5\n• –3\n• 1\n• –1\n• 6\n• 5\n• –2\n\na. What is the mean change score?\nb. What is the standard deviation for this population?\nc. What is the median change score?\nd. Find the change score that is 2.2 standard deviations below the mean.",
+     "solution": null
+    },
+    {
+     "id": "element-314",
+     "problem": "Refer to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.\n[FIGURE]\n\na. The medians for all three graphs are the same.\nb. We cannot determine if any of the means for the three graphs is different.\nc. The standard deviation for graph b is larger than the standard deviation for graph a.\nd. We cannot determine if any of the third quartiles for the three graphs is different.",
+     "stem": "Refer to determine which of the following are true and which are false. Explain your solution to each part in complete sentences.\n[FIGURE]",
+     "options": [
+      "The medians for all three graphs are the same.",
+      "We cannot determine if any of the means for the three graphs is different.",
+      "The standard deviation for graph b is larger than the standard deviation for graph a.",
+      "We cannot determine if any of the third quartiles for the three graphs is different."
+     ],
+     "solution": "a. True\nb. True\nc. True\nd. False"
+    },
+    {
+     "id": "fs-idm40658512",
+     "problem": "In a recent issue of the IEEE Spectrum, 84 engineering conferences were announced. Four conferences lasted two days. Thirty-six lasted three days. Eighteen lasted four days. Nineteen lasted five days. Four lasted six days. One lasted seven days. One lasted eight days. One lasted nine days. Let X = the length (in days) of an engineering conference.\n\na. Organize the data in a chart.\nb. Find the median, the first quartile, and the third quartile.\nc. Find the 65th percentile.\nd. Find the 10th percentile.\ne. Construct a box plot of the data.\nf. The middle 50% of the conferences last from _______ days to _______ days.\ng. Calculate the sample mean of days of engineering conferences.\nh. Calculate the sample standard deviation of days of engineering conferences.\ni. Find the mode.\nj. If you were planning an engineering conference, which would you choose as the length of the conference: mean; median; or mode? Explain why you made that choice.\nk. Give two reasons why you think that three to five days seem to be popular lengths of engineering conferences.",
+     "solution": null
+    },
+    {
+     "id": "element-891",
+     "problem": "A survey of enrollment at 35 community colleges across the United States yielded the following figures:\n\n6414; 1550; 2109; 9350; 21828; 4300; 5944; 5722; 2825; 2044; 5481; 5200; 5853; 2750; 10012; 6357; 27000; 9414; 7681; 3200; 17500; 9200; 7380; 18314; 6557; 13713; 17768; 7493; 2771; 2861; 1263; 7285; 28165; 5080; 11622\n\na. Organize the data into a chart with six intervals of equal width from 0 to 30,000. Label the two columns \"Enrollment\" and \"Frequency.\"\nb. Construct a histogram of the data.\nc. If you were to build a new community college, which piece of information would be more valuable: the mode or the mean?\nd. Calculate the sample mean.\ne. Calculate the sample standard deviation.\nf. A school with an enrollment of 8000 would be how many standard deviations away from the mean?",
+     "solution": "a.\n\n[TABLE]\nEnrollment | Frequency\n1000-5000 | 10\n5000-10000 | 16\n10000-15000 | 3\n15000-20000 | 3\n20000-25000 | 1\n25000-30000 | 2\n[/TABLE]\n\nb. Answers may vary.\nc. mode\nd. 8628.74\ne. 6943.88\nf. –0.09"
+    },
+    {
+     "id": "element-290",
+     "problem": "The 80th percentile is _____\n\na. 5\nb. 80\nc. 3\nd. 4",
+     "stem": "The 80th percentile is _____",
+     "options": [
+      "5",
+      "80",
+      "3",
+      "4"
+     ],
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
+    },
+    {
+     "id": "element-867",
+     "problem": "The number that is 1.5 standard deviations BELOW the mean is approximately _____\n\na. 0.7\nb. 4.8\nc. –2.8\nd. Cannot be determined",
+     "stem": "The number that is 1.5 standard deviations BELOW the mean is approximately _____",
+     "options": [
+      "0.7",
+      "4.8",
+      "–2.8",
+      "Cannot be determined"
+     ],
+     "solution": "a",
+     "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
+    },
+    {
+     "id": "eip-961",
+     "problem": "Suppose that a publisher conducted a survey asking adult consumers the number of fiction paperback books they had purchased in the previous month. The results are summarized in the .\n\n[TABLE]\n# of books | Freq. | Rel. Freq.\n0 | 18 |\n1 | 24 |\n2 | 24 |\n3 | 22 |\n4 | 15 |\n5 | 10 |\n7 | 5 |\n9 | 1 |\n[/TABLE]\n\na. Are there any outliers in the data? Use an appropriate numerical test involving the IQR to identify outliers, if any, and clearly state your conclusion.\nb. If a data value is identified as an outlier, what should be done about it?\nc. Are any data values further than two standard deviations away from the mean? In some situations, statisticians may use this criteria to identify data values that are unusual, compared to the other data values. (Note that this criteria is most appropriate to use for data that is mound-shaped and symmetric, rather than for skewed data.)\nd. Do parts a and c of this problem give the same answer?\ne. Examine the shape of the data. Which part, a or c, of this question gives a more appropriate result for this data?\nf. Based on the shape of the data which is the most appropriate measure of center for this data: mean, median or mode?",
+     "solution": null,
+     "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
+    }
+   ],
+   "summary": "The standard deviation can help you calculate the spread of data. There are different equations to use if are calculating the standard deviation of a sample or of a population.\n\n• The Standard Deviation allows us to compare individual data or classes to the data set mean numerically.\n• s = √((∑^​(x−x̄)^2)/n−1) or s = √((∑^​f(x−x̄)^2)/n−1) is the formula for calculating the standard deviation of a sample. To calculate the standard deviation of a population, we would use the population mean, μ, and the formula σ = √((∑^​(x−μ)^2)/N) or σ = √((∑^​f(x−μ)^2)/N).",
+   "formula_review": "s_x=√((∑fm^2)/n−x̄^2) where s_x= sample standard deviation ; x̄ = sample mean",
+   "glossary": [
+    {
+     "term": "Standard Deviation",
+     "meaning": "a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: s for sample standard deviation and σ for population standard deviation."
+    },
+    {
+     "term": "Variance",
+     "meaning": "mean of the squared deviations from the mean, or the square of the standard deviation; for a set of data, a deviation can be represented as x – x̄ where x is a value of the data and x̄ is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and one."
+    }
+   ],
+   "kind": "section",
+   "section": "2.7"
+  },
+  {
+   "id": "m50253",
+   "title": "Descriptive Statistics",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  }
+ ]
+}

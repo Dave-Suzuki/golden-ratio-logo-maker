@@ -1,0 +1,150 @@
+[
+ {
+  "sectionId": "2.1",
+  "title": "Stem-and-Leaf Graphs (Stemplots), Line Graphs, and Bar Graphs",
+  "notesTitle": "Stem-and-Leaf Graphs, Line Graphs, and Bar Graphs",
+  "notesText": "The distribution of data is how the data is spread or distributed over the range of the data values. This is one of the first and most important aspects one would want to know about any data set. Stem-and-leaf graphs provide a quick way to view the distribution of a small data set by hand. Example 1. Stem-and-leaf. The following are the ages of 29 actors at the time that they won the Best Actor award: 18 21 22 25 26 27 29 30 31 33 36 37 41 42 47 52 55 57 58 62 64 67 69 71 72 73 74 76 77 Data from Example 2.18 in the textbook. Explore the distribution of the best actor data by constructing a stem-and-leaf graph. We already saw bar graphs in Chapter 1. Frequency polygons and time series graphs are two types of line graphs that we will see in the next section.",
+  "summary": "A stem-and-leaf plot is a way to plot data and look at the distribution. In a stem-and-leaf plot, all data values within a class are visible. The advantage in a stem-and-leaf plot is that all values are listed, unlike a histogram, which gives classes of data values. A line graph is often used to represent a set of data values in which a quantity varies with time. These graphs are useful for finding trends. That is, finding a general pattern in data sets including temperature, sales, employment, company profit or cost over a period of time. A bar graph is a chart that uses either horizontal or vertical bars to show comparisons among categories. One axis of the chart shows the specific categories being compared, and the other axis represents a discrete value. Some bar graphs present bars clustered in groups of more than one (grouped bar graphs), and others show the bars divided into subparts to show cumulative effect (stacked bar graphs). Bar graphs are especially useful when categorical data is being used.",
+  "formulaReview": null,
+  "glossary": []
+ },
+ {
+  "sectionId": "2.2",
+  "title": "Histograms, Frequency Polygons, and Time Series Graphs",
+  "notesTitle": "Histograms, Frequency Polygons, and Time Series Graphs",
+  "notesText": "A histogram is similar to a bar graph. The difference is that bar graphs are for categorical data, whereas histograms are for quantitative data. Since quantitative data aren’t naturally sorted into categories, we must create “classes” of data: equal width intervals of data values. We record classes and frequencies in a frequency table. We constructed a frequency table and histogram using height data in Chapter 1. A frequency polygon displays the same data as a histogram, but in line graph form. This format is useful for comparing the distributions of multiple datasets by overlaying frequency polygons. Example 2. Overlaying frequency polygons. Figure 1 is an overlay of frequency polygons of men’s and women’s pulse data. By overlaying frequency polygons, we are able to easily compare the distributions (histograms) of two data sets. (This chart is from Elementary Statistics by Mario Triola.) A time series graph displays the trend of a variable over time. The x-axis is time (years, minutes, seconds, etc.). The y-axis is the range of data values. Example 3. Time series graph. The time series graph in Figure 2 allows us to easily see the trends in housing prices in Australia versus the US.\n\nFigure 1. Frequency Polygons Figure 2. Time Series Graph This TED talk contains an amazing example of data visualization: http://www. ted.com/talks/hans_rosling_shows_the_best_stats_you_ve_ever_seen. (Start at around the 2:30 mark.) Notice how Hans Rosling’s methods make it easy to see patterns in extremely complicated time-series data.",
+  "summary": "A histogram is a graphic version of a frequency distribution. The graph consists of bars of equal width drawn adjacent to each other. The horizontal scale represents classes of quantitative data values and the vertical scale represents frequencies. The heights of the bars correspond to frequency values. Histograms are typically used for large, continuous, quantitative data sets. A frequency polygon can also be used when graphing large data sets with data points that repeat. The data usually goes on y-axis with the frequency being graphed on the x-axis. Time series graphs can be helpful when looking at large amounts of data for one variable over a period of time.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Frequency",
+    "meaning": "the number of times a value of the data occurs"
+   },
+   {
+    "term": "Histogram",
+    "meaning": "a graphical representation in x-y form of the distribution of data in a data set; x represents the data and y represents the frequency, or relative frequency. The graph consists of contiguous rectangles."
+   },
+   {
+    "term": "Relative Frequency",
+    "meaning": "the ratio of the number of times a value of the data occurs in the set of all outcomes to the number of all outcomes"
+   }
+  ]
+ },
+ {
+  "sectionId": "2.3",
+  "title": "Measures of the Location of the Data",
+  "notesTitle": "Measures of Location of Data",
+  "notesText": "The median of a data set is the “middle value”, but it does not have to be one of the data values. Example 4. Median. Find the median. (1) 5 5 6 8 12 (2) 5 5 6 8 12 17 The kthpercentile,Pk, of a data set is the value that separates the lower k% of data values from the upper (100 −k)% of data values. Example 5. Understanding percentiles. (1) The 35 th percentile, or P35, separates the lower % of data values from the upper % of data values. (2) “Median” is another name for the th percentile. Percentiles are calculated on data that is sorted from lowest to highest. Low percentiles correspond to low data values. High percentiles correspond to high data values. Example 6. Interpreting percentiles. (1) Joe ran a 5K and his finishing time is the 5 th percentile. Interpret the 5 th percentile in this context. (What percent of racers did Joe beat? Is this a good finishing time?) (2) If Abby takes the SAT, would she prefer for her score to be P10 or P88 of SAT scores for this year? Explain. Locating the kth percentile. The position in the sorted data set of the kth percentile is i = k 100(n + 1). If i is a whole number, Pk is the data value found at position i of the sorted data set. If i is a decimal, round i up and round i down; Pk is the average of the data values found at these two positions in the sorted data set. Example 7. Calculating percentiles. The following are the sorted heights in inches of 40 students in a statistics class. 61 61 62 62 63 63 63 65 65 65 66 66 66 66 66 67 67 67 68 68 68 68 68 68 68 68 69 69 69 69 69 69 70 71 72 72 72 73 73 74 Data from TryIt 2.24 in the textbook. (1) Find the 80 th percentile of the class heights. Use appropriate notation to express the answer. Interpret the answer. (2) Find the 38 th percentile of the class heights. Use appropriate notation. Finding the percentile of a data value. let x be the number of data values below that data value and let y be the number of data values equal to that data\n\nvalue in the data set. The the percentile k of the data value is k = x + 0.5y n (100). Example 8. Finding the percentile of a data value. Use the class height data from Example 7. Use appropriate notation to express your answer. (1) Kara is 67 inches tall. At what percentile is Kara’s height? (2) Charles is 73 inches tall. At what percentile is Charles’ height?",
+  "summary": "The values that divide a rank-ordered set of data into 100 equal parts are called percentiles. Percentiles are used to compare and interpret data. For example, an observation at the 50th percentile would be greater than 50 percent of the other observations in the set. Quartiles divide data into quarters. The first quartile (Q1) is the 25th percentile,the second quartile (Q2 or median) is 50th percentile, and the third quartile (Q3) is the 75th percentile. The interquartile range, or IQR, is the range of the middle 50 percent of the data values. The IQR is found by subtracting Q1 from Q3, and can help determine outliers by using the following two expressions.\n\n• Q3 + IQR(1.5)\n• Q1 – IQR(1.5)",
+  "formulaReview": "i=(k/100)(n+1)\n\nwhere i = the ranking or position of a data value,\n\nk = the kth percentile,\n\nn = total number of data.\n\nExpression for finding the percentile of a data value: ((x + 0.5y)/n)(100)\n\nwhere x = the number of values counting from the bottom of the data list up to but not including the data value for which you want to find the percentile,\n\ny = the number of data values equal to the data value for which you want to find the percentile,\n\nn = total number of data",
+  "glossary": [
+   {
+    "term": "Interquartile Range",
+    "meaning": "or IQR, is the range of the middle 50 percent of the data values; the\nIQR is found by subtracting the first quartile from the third quartile."
+   },
+   {
+    "term": "Outlier",
+    "meaning": "an observation that does not fit the rest of the data"
+   },
+   {
+    "term": "Percentile",
+    "meaning": "a number that divides ordered data into hundredths; percentiles may or may not be part of the data. The median of the data is the second quartile and the 50th percentile. The first and third quartiles are the 25th and the 75th percentiles, respectively."
+   },
+   {
+    "term": "Quartiles",
+    "meaning": "the numbers that separate the data into quarters; quartiles may or may not be part of the data. The second quartile is the median of the data."
+   }
+  ]
+ },
+ {
+  "sectionId": "2.4",
+  "title": "Box Plots",
+  "notesTitle": "Boxplots",
+  "notesText": "Quartiles are numbers that separate the data into quarters. Like all percentiles, quartiles may or may not be actual data values. The first quartile,Q1, is the middle of the bottom half of data; Q1 = P25. The second quartile, Q2, is the median; Q2 = P50 = median. The third quartile, Q3 is the middle of the top half of the data; Q3 = P75. The five number summary of a data set is: minimum, Q1, median, Q3, maximum. We can calculate quartiles “by hand” just as we calculate any other percentiles. However, the calculator will calculate quartiles for us directly. Example 9. Using the calculator to find quartiles. The following are the heights in inches of 20 boys in a statistics class. 66 66 67 67 68 68 68 68 68 69 69 69 70 71 72 72 72 73 73 74 The following are the heights of the 20 girls in the same statistics class. 61 61 62 62 63 63 63 65 65 65 66 66 66 67 68 68 68 69 69 69 Data from TryIt 2.24 in the textbook. (1) Enter the 20 boys’ heights into L1. (2) Find the 5 number summary for the boys’ heights. (Use stat, calc, 1 var stats.) (3) Enter the 20 girls’ heights into L2. (4) Find the 5 number summary for the girls’ heights. A boxplot is a graph of the 5 number summary scaled on a numberline, showing the concentration of data. The spread of the middle 50% of data values, the data values between Q1 and Q3, are indicated by a box. The median is marked in the box. The bottom 25% and top 25% of data values are indicated by the “whiskers”. Example 10. Constructing a boxplot. Use boys’ and girls’ height data from Example 9. (1) Construct a boxplot for the boys’ height data by hand. (2) Use the calculator to construct boxplots for both data sets on the same scale. Example 11. Interpreting boxplots. Use the boxplots from Example 10. (1) 25% of girls are shorter than inches. What quartile is this? (2) 50% of girls are shorter than inches. What quartile is this?\n\n(3) 25% of boys are taller than inches. What quartile is this? (4) In which quartile are the girls’ heights most concentrated? The boys’ heights? The interquartile range, or IQR, is the range of the middle 50% of data values: IQR = Q3 −Q1. The IQR is often used to identify outliers in the following way. Data values that are below Q1 − (1.5)IQR or above Q3 + (1.5)IQR are considered outliers. Example 12. Identifiying outliers. Use the girls’ class height data from the last few examples. (1) Calculate the IQR of the girls height data. (2) Find the boundary height below which a girls’ height would be considered a “short” outlier. (3) Find the boundary height above which a girls’ height would be considered a “tall” outlier. (4) According to these boundary values, does this data set contain any outliers?",
+  "summary": "Box plots are a type of graph that can help visually organize data. To graph a box plot the following data points must be calculated: the minimum value, the first quartile, the median, the third quartile, and the maximum value. Once the box plot is graphed, you can display and compare distributions of data.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Box plot",
+    "meaning": "a graph that gives a quick picture of the middle 50% of the data"
+   },
+   {
+    "term": "First Quartile",
+    "meaning": "the value that is the median of the of the lower half of the ordered data set"
+   },
+   {
+    "term": "Frequency Polygon",
+    "meaning": "looks like a line graph but uses intervals to display ranges of large amounts of data"
+   },
+   {
+    "term": "Interval",
+    "meaning": "also called a class interval; an interval represents a range of data and is used when displaying large data sets"
+   },
+   {
+    "term": "Paired Data Set",
+    "meaning": "two data sets that have a one to one relationship so that:\n\n• both data sets are the same size, and\n• each data point in one data set is matched with exactly one point from the other set."
+   },
+   {
+    "term": "Skewed",
+    "meaning": "used to describe data that is not symmetrical; when the right side of a graph looks “chopped off” compared the left side, we say it is “skewed to the left.” When the left side of the graph looks “chopped off” compared to the right side, we say the data is “skewed to the right.” Alternatively: when the lower values of the data are more spread out, we say the data are skewed to the left. When the greater values are more spread out, the data are skewed to the right."
+   }
+  ]
+ },
+ {
+  "sectionId": "2.5",
+  "title": "Measures of the Center of the Data",
+  "notesTitle": "Measures of the Center of Data",
+  "notesText": "The mean is the most commonly used measure of the “center” of data. The mean is calculatated by adding all the data values and dividing by n, sample size, or the number of data values. Notation for mean: x̄ = sample mean , µ = population mean . The median is the second most commonly used measure of the center. Since the median does not take the actual exact values of data into account, it is a better choice when there are extreme data values. In this case, the mean can be skewed toward the extreme data value(s) and be misleading with respect to the center of the bulk of the data. For example, we hear about “median income” rather than mean income, because there are some extremely large incomes that would make the ordinary income, as measured by the mean, appear larger than it really is for the average person. The mode is the most frequently occuring data value. There can be more than one mode if there is a tie for the data value with the highest frequency. The mode is used primarily for categorical data, for which the mean and median don’t make sense. Example 13. Mode. Find the mode of the boys’ height data: 66 66 67 67 68 68 68 68 68 69 69 69 70 71 72 72 72 73 73 74 Example 14. Mean using a frequency table. Use the same boys’ height data as above. (1) Make a frequency table of the height data. (2) Use the frequency table to calculate the mean of the height data by hand.\n\n(3) Using the calculator, enter the frequency table into L 1 and L2. (4) Calculate the mean and median using 1 V ar Stats. We can’t get the exact mean of data from a grouped frequency table, but we can estimate the mean by using the midpoint of each class in place of each data value in that class. Example 15. Mean of a grouped frequency table. Maris conducted a study on the effect that playing video games has on memory recall. As part of her study, she compiled the following data. Hours spend on video games Number of teens 0-3 3 4-7 7 8-11 12 12-15 7 16-19 9 (1) Find the midpoint of each class. (2) What is the best estimate of the mean number of hours spent playing video games? TryIt 2.30. The Law of Large Numbers says that as sample size increases, sample mean (x̄) gets closer and closer to the population mean ( µ).",
+  "summary": "The mean and the median can be calculated to help you find the \"center\" of a data set. The mean is the best estimate for the actual data set, but the median is the best measurement when a data set contains several outliers or extreme values. The mode will tell you the most frequently occurring datum (or data) in your data set. The mean, median, and mode are extremely helpful when you need to analyze your data, but if your data set consists of ranges which lack specific values, the mean may seem impossible to calculate. However, the mean can be approximated if you add the lower boundary with the upper boundary and divide by two to find the midpoint of each interval. Multiply each midpoint by the number of values found in the corresponding range. Divide the sum of these values by the total number of data values in the set.",
+  "formulaReview": "μ=(∑fm)/(∑f) Where f = interval frequencies and m = interval midpoints.",
+  "glossary": [
+   {
+    "term": "Frequency Table",
+    "meaning": "a data representation in which grouped data is displayed along with the corresponding frequencies"
+   },
+   {
+    "term": "Mean",
+    "meaning": "a number that measures the central tendency of the data; a common name for mean is 'average.' The term 'mean' is a shortened form of 'arithmetic mean.' By definition, the mean for a sample (denoted by x̄) is x̄ = (Sum of all values in the sample)/(Number of values in the sample), and the mean for a population (denoted by μ) is μ=(Sum of all values in the population)/(Number of values in the population)."
+   },
+   {
+    "term": "Median",
+    "meaning": "a number that separates ordered data into halves; half the values are the same number or smaller than the median and half the values are the same number or larger than the median. The median may or may not be part of the data."
+   },
+   {
+    "term": "Midpoint",
+    "meaning": "the mean of an interval in a frequency table"
+   },
+   {
+    "term": "Mode",
+    "meaning": "the value that appears most frequently in a set of data"
+   }
+  ]
+ },
+ {
+  "sectionId": "2.6",
+  "title": "Skewness and the Mean, Median, and Mode",
+  "notesTitle": "Skewness and the Mean, Median, and Mode",
+  "notesText": "Data is skewed to the left if there is a “tail” of data to the left in the histogram, or on the low end of the data. Data is skewed to the right if there is a “tail” of data to the right in the histogram, or on the high end of the data. The mean will be pulled in the direction of the skewing due to extreme data values. If there is more than mild skewing, the median is a more approprate measure of center than the mean for a more accurate summary of the bulk of the data.",
+  "summary": "Looking at the distribution of data can reveal a lot about the relationship between the mean, the median, and the mode. There are three types of distributions. A left (or negative) skewed distribution has a shape like . A right (or positive) skewed distribution has a shape like . A symmetrical distribution looks like .",
+  "formulaReview": null,
+  "glossary": []
+ },
+ {
+  "sectionId": "2.7",
+  "title": "Measures of the Spread of the Data",
+  "notesTitle": "Measures of the Spread of Data",
+  "notesText": "Standard deviation is the most commonly used measure of the spread of data. The standard deviation tells us approximately how far data values are from the mean, on average. A larger standard deviation indicates that the data values are farther from the mean, on average. Example 16. Interpreting standard deviation. Suppose the average (mean) wait time in line at both Publix and BiLo is 5 minutes. However, the standard deviation of the wait times at Publix is 1 minute and the standard deviation of the wait times in BiLo is 3 minutes. (1) Which supermarket has more variation in wait times? (2) At which supermarket would you be able to predict your wait time more precisely? The standard deviation can be used to determine if a data value is close to or far away from the mean relative to the rest of the data. As a rule of thumb, more than\n\ntwo standard deviations from the mean is considered “unusual”. (Unusual data values are not as extreme as “outliers.” More than three standard deviations from the mean is a more reasonable boundary for outliers, if we want to use standard deviation instead of the IQR formula.) Example 17. Comparing data values using standard deviation. Suppose the wait times at Kroger are 5 minutes with a standard deviation of 2 minutes. (1) Draw a number line and mark the mean at 5 minutes and mark 1, 2, and 3 standard deviations above and below the mean. Label the unusual data value range(s) on the number line. (2) Rosa waits 3 minutes at Kroger. How many standard deviations from the mean is her wait time? (3) Binh waits 11 minutes at Kroger. How many standard deviations from the mean is his wait time? (4) Is either wait time unusual at Kroger? The standard deviation formulas are a bit much to calculate by hand, so we will use the calculator to find standard deviation. The formulas for sample and population standard deviation are different and your calculator provides both, so it is very important to be able to identify the notation for each when using the calculator: s = sample standard deviation, σ = population standard deviation. The calculator uses subscripts on these symbols to indicate which variable is being used: sx and σx, for example. We will almost always have sample data (as opposed to population data), so we will almost always use sx from the calculator for standard deviaton. Example 18. Standard deviation using calculator. Use your calculator to find the standard deviation of the boys’ height data: 66 66 67 67 68 68 68 68 68 69 69 69 70 71 72 72 72 73 73 74 Consider the data to be a sample from the population of male students at the school. (Is it reasonable to consider this to be a representative sample?) You may wish to enter the data in frequency table format, if you don’t still have it in your calculator. The deviation of a data value from the mean is the signed distance of the data value from the mean: deviation = data value − mean. The z score of a data value is the number of standard deviations from the mean that data value is. If the data values is below the mean, the z score is negative. If\n\nthe data value is above the mean, the z score is positive. z = deviation standard deviation = data value − mean standard deviation = x − x̄ s Example 19. Notation. Write the formula for a population z score, using the appropriate population symbols. Example 20. Z score. Use the same boys’ height data, which has mean x̄ = 69.5 and standard deviation s = 2.5. (1) Find the z score of a height of 74 inches. Should we consider 74 inches to be unusually tall among these boys? (2) Find the height that has a z score of -0.7. Example 21. Compare data values from different data sets. Find the z score for each girl’s time relative to her team. Which girl has the fastest time relative to her teammates? Swimmer Time(sec) Team Mean Time Team Standard Deviation Angie 26.2 27.2 0.8 Beth 27.3 30.1 1.4 TryIt 2.35 The following two rules give us more precise ideas of how far the data are spread from the mean based on the standard deviation. Chebyshev’s Rule is for ANY data set: (1) At least 75% of data is within two standard deviations of the mean (2) At least 89% of the data is within three standard deviations of the mean (3) At least 95% of the data is within 4.5 standard deviations of the mean The Empirical Rule, also known as the 68-95-99 Rule, is ONLY for data with a BELL-SHAPED and SYMMETRIC histogram/distribution: (1) Approximately 68% of data is within one s.d. of the mean (2) Approximately 95% of data is within two s.d.s of the mean (3) Approximately 99% of data is within one s.d.s of the mean The formula for sample standard deviation is s = √ Σ(x − x̄)2 n − 1 . The formula for population standard deviation is σ = √ Σ(x −µ)2 N . We won’t use these formulas in practice, but it would be good to get a feel for how the formula approximates the average distance of data values from the mean, and to recognize that the formulas for sample standard deviation and population standard deviation differ.\n\nExample 22. The standard deviation formula. In groups of 3 or 4 students, guess the age of the person in the provided photograph. Submit your group’s guess. Instructor note: Provide a photograph of someone that you know, but who is unknown to the students for this short activity. It’s also fun with more photographs. (1) List each guess in the first column a table. (2) In the second column, list the deviation of each guess from the true age: guess - true age. (3) Does a negative deviation indicate a low or high guess? (4) Are the guesses biased young? Biased old? Relatively unbiased? (5) In the third column, list the absolute value of the deviation from the previous column. The most natural average distance from the true age is the mean absolute deviation. However, absolute values are not practical in algebraic formulas. Calculate the mean absolute deviation. This is the average distance of the guesses from the true age. (6) In the fourth column, list the square of each deviation. (7) Now calculate the variance (the square of the standard deviation): Add up the values in the 4th column and divide by the n − 1. The units of variance is “years squared”. (8) Take the square root of the variance. This is the standard deviation of the guesses from the true age. The units of standard deviation is “years”, the same as the data values. (9) Compare the mean absolute deviation and the standard deviation. (Are they the same?) (10) Find the z score of your group’s guess. Which group had the best guess? Did any group have an “unusual” guess? Adapted from “Teaching Statistics, a bag of tricks” by Gelman and Nolan. guess deviation |deviation| (deviation)2 (guess - true age)",
+  "summary": "The standard deviation can help you calculate the spread of data. There are different equations to use if are calculating the standard deviation of a sample or of a population.\n\n• The Standard Deviation allows us to compare individual data or classes to the data set mean numerically.\n• s = √((∑^​(x−x̄)^2)/n−1) or s = √((∑^​f(x−x̄)^2)/n−1) is the formula for calculating the standard deviation of a sample. To calculate the standard deviation of a population, we would use the population mean, μ, and the formula σ = √((∑^​(x−μ)^2)/N) or σ = √((∑^​f(x−μ)^2)/N).",
+  "formulaReview": "s_x=√((∑fm^2)/n−x̄^2) where s_x= sample standard deviation ; x̄ = sample mean",
+  "glossary": [
+   {
+    "term": "Standard Deviation",
+    "meaning": "a number that is equal to the square root of the variance and measures how far data values are from their mean; notation: s for sample standard deviation and σ for population standard deviation."
+   },
+   {
+    "term": "Variance",
+    "meaning": "mean of the squared deviations from the mean, or the square of the standard deviation; for a set of data, a deviation can be represented as x – x̄ where x is a value of the data and x̄ is the sample mean. The sample variance is equal to the sum of the squares of the deviations divided by the difference of the sample size and one."
+   }
+  ]
+ }
+]

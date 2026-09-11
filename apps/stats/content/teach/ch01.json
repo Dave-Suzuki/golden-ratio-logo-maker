@@ -1,0 +1,206 @@
+[
+ {
+  "sectionId": "1.1",
+  "title": "Definitions of Statistics, Probability, and Key Terms",
+  "notesTitle": "Statistics, Probability, and Key Terms",
+  "notesText": "Before taking a statistics class, most people associate the term “statistics” with what a statistician would call descriptive statistics . We are using descriptive statistics when we use numbers or graphs to summarize a data set by calculating a mean or making a bar graph, for example. Descriptive statistics are essential to the field of statistics, but they will consume only a small portion of the course. The primary goal of the course is to begin a study of inferential statistics: drawing conclusions based on limited information (our data) and quantifying the accuracy of our conclusions. Confidence intervals and hypothesis tests are two of the tools of inferential statistics that we will explore. The tools of inferential statistics require probability, so our course will include a study of basic probability concepts. In the previous paragraph, we mention that our information is limited. What does that mean? To understand, we need the concepts of population and sample. Example 1. Suppose a pharmaceutical company seeks FDA approval for a particular medication that has migraine headaches as a rare side effect. The FDA may require a scientifically valid estimate of the percentage of consumers of the medication who experience this side effect. The pharmaceutical company cannot possible know the exact percentage of all eventual users of the medication who will experience migraines. That would require knowing information about every single user ever of the medication, even future users. In the context of this study, the collection of all users of the medication is the population of interest. Since it is impossible to test every member of the population, the company must do the next best thing and test a representative sample of the population. In other words, the company must run an experiment in which some people are given the medication, then use the data from this sample to draw conclusions about the population. To summarize: the process of inferring information about a population based on a representative sample is the practice of inferential statistics.\n\nA number that describes an aspect of a population is called a parameter, such as the mean of the population data. A number that describes an aspect of a sample is a statistic, such as the mean of the sample data. Generally, parameters are unknown values that we use inferential statistics to estimate. Example 2. Identify the parameter and statistic in the previous example. Notice that the parameter is unknown (and can never be known in this case), but the statistic is known after running the experiment and collecting data. The statistic is our best guess of the unknown parameter. A variable is a characteristic of interest about a subject. We use capital letters to name variables, such as X or Y. The answer to the question “what is the variable in this scenario?” is a verbal description of one piece of information we are collecting from each subject. The data (the singular form is datum) are the actual values that are collected about each subject. Example 3. Continuing the same example, identify the variable, X, and the possible data values, x. Example 4. Identify the population, sample, parameter, statistic, variable, and data for the following study: You wish to determine the average (mean) number of glasses of milk college students drink per day. Suppose yesterday in your English class you asked five students how many glasses of milk they drank the day before. The answers were 1, 0, 1, 3, and 4 glasses of milk. Collaborative Exercise 1.2, Illowsky & Dean.",
+  "summary": "The mathematical theory of statistics is easier to learn when you know the language. This module presents important terms that will be used throughout the text.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Average",
+    "meaning": "also called mean; a number that describes the central tendency of the data"
+   },
+   {
+    "term": "Categorical Variable",
+    "meaning": "variables that take on values that are names or labels"
+   },
+   {
+    "term": "Data",
+    "meaning": "a set of observations (a set of possible outcomes); most data can be put into two groups: qualitative (an attribute whose value is indicated by a label) or quantitative (an attribute whose value is indicated by a number). Quantitative data can be separated into two subgroups: discrete and continuous. Data is discrete if it is the result of counting (such as the number of students of a given ethnic group in a class or the number of books on a shelf). Data is continuous if it is the result of measuring (such as distance traveled or weight of luggage)"
+   },
+   {
+    "term": "Numerical Variable",
+    "meaning": "variables that take on values that are indicated by numbers"
+   },
+   {
+    "term": "Parameter",
+    "meaning": "a number that is used to represent a population characteristic and that generally cannot be determined easily"
+   },
+   {
+    "term": "Population",
+    "meaning": "all individuals, objects, or measurements whose properties are being studied"
+   },
+   {
+    "term": "Probability",
+    "meaning": "a number between zero and one, inclusive, that gives the likelihood that a specific event will occur"
+   },
+   {
+    "term": "Proportion",
+    "meaning": "the number of successes divided by the total number in the sample"
+   },
+   {
+    "term": "Representative Sample",
+    "meaning": "a subset of the population that has the same characteristics as the population"
+   },
+   {
+    "term": "Sample",
+    "meaning": "a subset of the population studied"
+   },
+   {
+    "term": "Statistic",
+    "meaning": "a numerical characteristic of the sample; a statistic estimates the corresponding population parameter."
+   },
+   {
+    "term": "Variable",
+    "meaning": "a characteristic of interest for each person or object in a population"
+   }
+  ]
+ },
+ {
+  "sectionId": "1.2",
+  "title": "Data, Sampling, and Variation in Data and Sampling",
+  "notesTitle": "Data, Sampling, and V ariation",
+  "notesText": "Most data is either categorical or quantitative. Data that sorts the subjects into categories is called categorical (or qualitative) data. Eye color is an example of a categorical variable with possible data values such as “blue” and “brown”. Often there will be only two categories of interest, such as the last example when “yes” and “no” were the possible data values. Data that describes a numerical aspect of a subject is called quantitative data. Quantitative data can be further subdivided into data that represents a count, discrete data, and data that represents a measurement, continuous data. Data that represents a measurement can technically land anywhere on the number line, not necessarily on a whole number, even though we often round measurements to the nearest whole number. Example 5. Identify the data type of each of the following variables: categorical, quantitative discrete, or quantitative continuous: (1) the number of shoes owned by a subject (2) the type of car a subject drives (3) where a subject goes on vacation (4) the distance from home to the nearest grocery store (5) the number of classes a student takes per year (6) the amount of money spent on textbooks in a semester by a student (7) movie ratings (8) the weight of a sumo wrestler (9) the number of correct answers on a quiz (10) the temperature of a cup of coffee If we wish to use sample data to infer characteristics of a population, the sample data must be representative of the population; it should have the same characteristics as the population. The way a researcher selects subjects from the population is called the sampling method.\n\nThe most ideal sampling method is a simple random sample, in which every set of n subjects has the same probability of being selected. This is like putting names in a hat and randomly selecting 5 names, for example. All of the inferential statistics methods we will study require that the data arise from a simple random sample, or SRS. The reason for this requirement is that if the data are not representative of the population, then the conclusions will be meaningless (GIGO: Garbage In, Garbage Out). Often a simple random sample is not feasible, or at least not practical, so researchers will do their best to use other sampling methods that are likely to result in a representative sample. A few different sampling methods that may be used successfully are: • stratified sampling: subjects are categorized by similar traits, then sample subjects are randomly selected from each category in numbers that are porportional to their numbers in the population. Example: 4 girls are randomly selected and then 6 boys are randomly selected from a population that is 40% female. Stratified sampling guarantees a representative sample relative to the categories that are used. • cluster sampling: there is already a natural categorization of subjects, usually by location. A sample of categories is selected randomly, and every subject in each of the selected categories is part of the sample. Example: randomly select 10 elementary schools in Georgia, then sample every teacher at each of those schools. Cluster sampling is done for the sake of saving time and/or money. • systematic sampling: sample every nth subject. Example: sample every 1000th m&m to weigh and measure. Systematic sampling is common in manufacturing. Sampling bias occurs when some members of the population are more likely to be chosen than others, resulting in a sample that is not representative of the population. The following sampling methods are common causes of sampling bias: • convenience sample: collect data in a way that is convenient for the researcher, with little regard for obtaining a representative sample. Example: a teacher sampling the students in her own classes to estimate the percentage of biology majors in the school. • voluntary response/self selection: each subject actively chooses to participate. Example: an internet survey posted on a website. This could also be less obvious. Example: an observational study of the health benefits of drinking wheatgrass juice. Example 6. Suppose you are a reporter for the school newspaper. The university just announced an institutional name change and you would like to write a story that includes an analysis of student opinion about the change. (1) Identify the population of interest. (2) Describe a sampling design of each type below that should result in a representative sample. (a) simple random sample (b) stratefied sample (c) cluster sample (d) systematic sample (3) Describe a sampling design of each type below. Do you think it is likely to result in a representative sample of the population for this particular question?\n\n(a) convenience sample (b) voluntary response sample It should be clear that there will always be natural variability in sampling. Two researchers could each select a sample of size 20 via a simple random sample from the same population, but they will end up with two different data sets; we would not expect the means of the two samples to match, nor would we expect either sample mean to match the population mean exactly. This natural variability is called sampling error and it is a natural, unavoidable aspect of sampling and inferential statistics. We can, however, manage sampling error to a degree: larger sample sizes result in smaller sampling errors. This is a common theme we will see throughout the course. On the other hand, nonsampling error arises from factors that can and should be avoided. The following are examples of nonsampling errors that can arise in statistical studies: • sampling bias: described above • self-interest study: sometimes the researcher or organization funding research has personal interest (usually monetary or political) in the outcome of a study. It is important to be aware of self-interest studies and carefully assess the statistical methods used in those cases. Example: Dr. Andrew Wakefield’s research involving the MMR vaccine and autism. • correlation/causality: if we identify a correlation between two variables, it is not necessarily the case that one causes the other. Example: Ice cream causes drowning. • non-response: a subject can always refuse to participate in a study, so this can become a problem if too many subjects refuse to participate. Example: phone survey when everyone has caller id • misleading use of data: incorrect graphs, incomplete data, or lack of context. Could be intentional or unintentional. • undue influence/leading questions: asking questions in ways that lead the subject to a particular response. Example: Do you agree with the administrations insightful decision regarding the name change? • confounding: multiple factors could contribute to a particular outcome. Example: when testing a particular diet, all subjects are required to exercise regularly. (Was it the diet or the exercise that caused the weight-loss?)",
+  "summary": "Data are individual items of information that come from a population or sample. Data may be classified as qualitative (categorical), quantitative continuous, or quantitative discrete.\n\nBecause it is not practical to measure the entire population in a study, researchers use samples to represent the population. A random sample is a representative group from the population chosen by using a method that gives each individual in the population an equal chance of being included in the sample. Random sampling methods include simple random sampling, stratified sampling, cluster sampling, and systematic sampling. Convenience sampling is a nonrandom method of choosing a sample that often produces biased\ndata.\n\nSamples that contain different individuals result in different data. This is true even when the samples are well-chosen and representative of the population. When properly selected, larger samples model the population more closely than smaller samples. There are many different potential problems that can affect the reliability of a sample. Statistical data needs to be critically analyzed, not simply accepted.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Cluster Sampling",
+    "meaning": "a method for selecting a random sample and dividing the population into groups (clusters); use simple random sampling to select a set of clusters. Every individual in the chosen clusters is included in the sample."
+   },
+   {
+    "term": "Continuous Random Variable",
+    "meaning": "a random variable (RV) whose outcomes are measured; the height of trees in the forest is a continuous RV."
+   },
+   {
+    "term": "Convenience Sampling",
+    "meaning": "a nonrandom method of selecting a sample; this method selects individuals that are easily accessible and may result in biased data."
+   },
+   {
+    "term": "Nonsampling Error",
+    "meaning": "an issue that affects the reliability of sampling data other than natural variation; it includes a variety of human errors including poor study design, biased sampling methods, inaccurate information provided by study participants, data entry errors, and poor analysis."
+   },
+   {
+    "term": "Qualitative Data",
+    "meaning": "a set of observations (a set of possible outcomes); qualitative data has an attribute whose value is indicated by a label"
+   },
+   {
+    "term": "Quantitative Data",
+    "meaning": "a set of observations (a set of possible outcomes); quantitative (an attribute whose value is indicated by a number) data can be separated into two subgroups: discrete and continuous. Data is discrete if it is the result of counting (such as the number of students of a given ethnic group in a class or the number of books on a shelf). Data is continuous if it is the result of measuring (such as distance traveled or weight of luggage)."
+   },
+   {
+    "term": "Random Sampling",
+    "meaning": "a method of selecting a sample that gives every member of the population an equal chance of being selected."
+   },
+   {
+    "term": "Sampling Bias",
+    "meaning": "not all members of the population are equally likely to be selected"
+   },
+   {
+    "term": "Sampling Error",
+    "meaning": "the natural variation that results from selecting a sample to represent a larger population; this variation decreases as the sample size increases, so selecting larger samples reduces sampling error."
+   },
+   {
+    "term": "Sampling with Replacement",
+    "meaning": "Once a member of the population is selected for inclusion in a sample, that member is returned to the population for the selection of the next individual."
+   },
+   {
+    "term": "Sampling without Replacement",
+    "meaning": "A member of the population may be chosen for inclusion in a sample only once. If chosen, the member is not returned to the population before the next selection."
+   },
+   {
+    "term": "Simple Random Sampling",
+    "meaning": "a straightforward method for selecting a random sample; give each member of the population a number. Use a random number generator to select a set of labels. These randomly selected labels identify the members of your sample."
+   },
+   {
+    "term": "Stratified Sampling",
+    "meaning": "a method for selecting a random sample used to ensure that subgroups of the population are represented adequately; divide the population into groups (strata). Use simple random sampling to identify a proportionate number of individuals from each stratum."
+   },
+   {
+    "term": "Systematic Sampling",
+    "meaning": "a method for selecting a random sample; list the members of the population. Use simple random sampling to select a starting point in the population. Let k = (number of individuals in the population)/(number of individuals needed in the sample). Choose every kth individual in the list starting with the one that was randomly selected. If necessary, return to the beginning of the population list to complete your sample."
+   }
+  ]
+ },
+ {
+  "sectionId": "1.3",
+  "title": "Frequency, Frequency Tables, and Levels of Measurement",
+  "notesTitle": "Organizing Categorical and Quantitative Data",
+  "notesText": "(The organization of categorical data appears in Section 1.2 of the textbook. Histograms are introduced in Chapter 2.) When we collect categorical data from each subject, the outcome is simply a list of the categories with frequencies (the number of subjects in each category) or relative frequencies (the percentage of subjects in each category). For example, suppose a fast food company samples teenagers to decide on a new milkshake flavor. Even though the data is categorical, the final result is a list of categories and frequencies (counts): vanilla: 20, chocolate: 27, cookies and cream: 35. CAUTION: even though there is a count involved, the actual data (milkshake flavors) is categorical. A bar graph is usually the best choice for displaying categorical data because bar graphs are very clear for comparing frequencies of different categories. The easiest of all bar graphs to read is the Pareto chart, in which the bars are sorted from tallest to shortest. Note that it only makes sense to sort the bars in this way if the categories do not already have a natural ordering. Pie charts are very popular\n\nfor displaying categorical data, though it is often difficult to compare similarly sized pie slices at a glance. Notice that with a pie chart, the slices must add up to 100%. The following charts (from Section 1.2 of the textbook) illustrate three different graphical representations of the same data. Figure 1. Relative frequency bar graph. Figure 2. In a Pareto Chart, the categories are sorted by size. Figure 3. Pie charts. We would like to organizequantitative data in a similar way, but the categories are not immediately available. Instead, we must split the range of data values into categories called classes. Then we can sort the data into these classes, treating the data much like we treated categorical data, finding a frequency and relative frequency for each class.\n\nExample 7. The heights in inches of the students in an Elementary Statistics class are as follows: 64 64 65 75 71 61 64 73 64 66 73 67 67 67 63 63 60 66 62 74 74 67 65 71 67 65 67 72 Complete the following frequency and relative frequency table. The last column, the cumulative relative frequency, is the percentage of data values that are no larger than the upper end of a given interval. (Later we will see that cumulative relative frequency is a percentile.) Height in Inches Frequency Relative Frequency Cumulative Relative Frequency 55 − 59 60 − 64 (1) What percentage of students in the class are 6” (5 feet,4 inches) or shorter? (2) What percentage of students in the class are taller than 69” (5 feet, 9 inches)? The next logical step is to draw a histogram of the data, which is a fancy word for a bar graph for quantitative data that has been sorted into classes. Histograms are the single most important graph in statistics, and we will be using them often. An important feature of a histogram is that there is a natural order for the classes (from left to right on the number line), so we will never sort a histograms bars by height. Example 8. Draw a relative frequency histogram of the class height data from Example 7. Example 9. Calculator histogram. Use the height data from Example 7. (1) Clear calculator ram. (2) Enter the height into L1. (3) Use stat plot to draw a histogram using default class boundaries. Use trace to see the default class boundaries and frequencies. (4) Use window then graph to change the histogram so that it uses the class boundaries we created in Example 7. The reason histograms are so important is because they display thedistribution of the data: where the data values fall along the range of possible values. They help us answer important questions such as: Is the data spread out or mostly concentrated in a small region? Is the data symmetrically distributed? Is the data skewed left (a few extremely low data values) or skewed right (a few extremely high data values)? Example 10. What does the histogram of the height data tell us about the heights of the people in the sampled statistics class? Sketch a histogram shape for each class described below. (1) The class has a lot of tall people. (2) Everyone in the class is 64”. (3) The students make a nice staircase shape when lined up from shortest to tallest.",
+  "summary": "Some calculations generate numbers that are artificially precise. It is not necessary to report a value to eight decimal places when the measures that generated that value were only accurate to the nearest tenth. Round off your final answer to one more decimal place than was present in the original data. This means that if you have data measured to the nearest tenth of a unit, report the final statistic to the nearest hundredth.\n\nIn addition to rounding your answers, you can measure your data using the following four levels of measurement.\n\n• Nominal scale level: data that cannot be ordered nor can it be used in calculations\n• Ordinal scale level: data that can be ordered; the differences cannot be measured\n• Interval scale level: data with a definite ordering but no starting point; the differences can be measured, but there is no such thing as a ratio.\n• Ratio scale level: data with a starting point that can be ordered; the differences have meaning and ratios can be calculated.\n\nWhen organizing data, it is important to know how many times a value appears. How many statistics students study five hours or more for an exam? What percent of families on our block own two pets? Frequency, relative frequency, and cumulative relative frequency are measures that answer questions like these.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Cumulative Relative Frequency",
+    "meaning": "The term applies to an ordered set of observations from smallest to largest. The cumulative relative frequency is the sum of the relative frequencies for all values that are less than or equal to the given value."
+   },
+   {
+    "term": "Frequency",
+    "meaning": "the number of times a value of the data occurs"
+   },
+   {
+    "term": "Relative Frequency",
+    "meaning": "the ratio of the number of times a value of the data occurs in the set of all outcomes to the total number of outcomes"
+   }
+  ]
+ },
+ {
+  "sectionId": "1.4",
+  "title": "Experimental Design and Ethics",
+  "notesTitle": "Experimental Design and Ethics.",
+  "notesText": "A statistical study can take the form of an observational study or an experiement. In an observational study the researcher collects data but does not introduce any change to the subjects. A political poll is an example of an observational study. In an experiment the researcher applies treatments to subjects, then observes the effects of the treatments. The purpose of an experiment is to study the relationship between two variables. The researcher controls the explanatory variable, then measures the change in the response variable. The different values of the explanatory variable are called treatments. An experimental unit is one subject being tested. It is often the case that the expectation of a treatment has a psychological effect that confounds the experiment: was it the treatment or the expectation of the treatment that affected the response variable? To manage this problem, researchers set aside a group of subjects to be the control group. The control group receives the placebo treatment, a treatment that cannot affect the response variable. It is vital that study participants not know if they are receiving the placebo or an effective treatment. It is called blinding when the subjects don’t know which treatment (which could be a placebo) they are receiving. A doubleblind experiment is when both the subjects and the researchers involved with the subjects are blinded. Example 11. Researchers want to investigate whether taking aspirin regularly reduces the risk of heart attack. Four hundred men are recruited as participants. The men are divided randomly into two groups: one group will take aspirin and the other group will take a placebo. Each man takes one pill each day for three years, but he does not know if it is aspirin or a placebo. At the end of the study, researchers count how many men in each group have had heart attacks. Identify each the following for this scenario: (1) population (2) sample (3) experimental units (4) explanatory variable (5) treatments (6) response variable Example 1.19, Illowsky & Dean. Ethics comes into play in statistical studies in a variety of ways. We have already seen that the self-interest studies can inspire fraudulent data and analysis. Another very important ethical component is related to the treatment of human subjects. There are laws that require that studies are safe, that participants understand the risks associated with a study, that subjects freely decide whether or not to participate, and that each subjects privacy is protected. Research institutions (including Augusta University) have Institutional Review Boards (IRB) to oversee the research at the institution and ensure the safety of all human subjects.",
+  "summary": "A poorly designed study will not produce reliable data. There are certain key components that must be\nincluded in every experiment. To eliminate lurking variables, subjects must be assigned randomly to different treatment groups. One of the groups must act as a control group, demonstrating what happens when the active treatment is not applied. To counter the influence of the power of suggestion in the study, participants in the control group receive an inactive placebo treatment that looks exactly like the active treatments, but cannot directly influence the response variable. To preserve the integrity of the placebo, both researchers and subjects may be blinded. When a study is designed properly, the only difference between treatment groups is the one imposed by the researcher. Therefore, when groups respond differently to different treatments, the difference must be due to the influence of the explanatory variable.\n\n“An ethics problem arises when you are considering an action that benefits you or some cause you support, hurts or reduces benefits to others, and violates some rule.” (Andrew Gelman, “Open Data and Open Methods,” Ethics and Statistics, http://www.stat.columbia.edu/~gelman/research/published/ChanceEthics1.pdf (accessed May 1, 2013).) Ethical violations in statistics are not always easy to spot. Professional associations and federal agencies post guidelines for proper conduct. It is important that you learn basic statistical procedures so that you can recognize proper data analysis.",
+  "formulaReview": null,
+  "glossary": [
+   {
+    "term": "Explanatory Variable",
+    "meaning": "the independent variable in an experiment; the value controlled by researchers"
+   },
+   {
+    "term": "Treatments",
+    "meaning": "different values or components of the explanatory variable applied in an experiment"
+   },
+   {
+    "term": "Response Variable",
+    "meaning": "the dependent variable in an experiment; the value that is measured for change at the end of an experiment"
+   },
+   {
+    "term": "Experimental Unit",
+    "meaning": "any individual or object to be measured"
+   },
+   {
+    "term": "Lurking Variable",
+    "meaning": "a variable that has an effect on a study even though it is neither an explanatory variable nor a response variable"
+   },
+   {
+    "term": "Random Assignment",
+    "meaning": "the act of organizing experimental units into treatment groups using random methods"
+   },
+   {
+    "term": "Control Group",
+    "meaning": "a group in a randomized experiment that receives an inactive treatment but is otherwise managed exactly as the other groups"
+   },
+   {
+    "term": "Informed Consent",
+    "meaning": "Any human subject in a research study must be cognizant of any risks or costs associated with the study. The subject has the right to know the nature of the treatments included in the study, their potential risks, and their potential benefits. Consent must be given freely by an informed, fit participant."
+   },
+   {
+    "term": "Institutional Review Board",
+    "meaning": "a committee tasked with oversight of research programs that involve human subjects"
+   },
+   {
+    "term": "Placebo",
+    "meaning": "an inactive treatment that cannot directly affect the response variable, used to counter the power of suggestion"
+   },
+   {
+    "term": "Blinding",
+    "meaning": "not telling participants which treatment a subject is receiving"
+   },
+   {
+    "term": "Double-blind experiment",
+    "meaning": "an experiment in which both the subjects of an experiment and the researchers who work with the subjects are blinded"
+   }
+  ]
+ }
+]

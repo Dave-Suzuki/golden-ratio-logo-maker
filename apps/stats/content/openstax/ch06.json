@@ -1,0 +1,745 @@
+{
+ "number": 6,
+ "title": "The Normal Distribution",
+ "sections": [
+  {
+   "id": "m46977",
+   "title": "Introduction",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": "X ∼ N(μ, σ)\n\n• μ = the mean\n• σ = the standard deviation",
+   "glossary": [
+    {
+     "term": "Normal Distribution",
+     "meaning": "a continuous random variable (RV) with pdf f(x) = 1/(σ√(2π)) e^((–(x – μ))/(2σ^2)^2), where μ is the mean of the distribution and σ is the standard deviation; notation: X ~ N(μ, σ). If μ = 0 and σ = 1, the RV is called the standard normal distribution."
+    }
+   ],
+   "kind": "intro"
+  },
+  {
+   "id": "m46980",
+   "title": "The Standard Normal Distribution",
+   "tryits": [
+    {
+     "id": "eip-949",
+     "problem": "What is the z-score of x, when x = 1 and X ~ N(12,3)?",
+     "solution": null,
+     "guideSolution": "z =  ≈ –3.67",
+     "guideRef": "Try It 6.1"
+    },
+    {
+     "id": "eip-24",
+     "problem": "Fill in the blanks.\n\nJerome averages 16 points a game with a standard deviation of four points. X ~ N(16,4). Suppose Jerome scores ten points in a game. The z–score when x = 10 is –1.5. This score tells you that x = 10 is _____ standard deviations to the ______(right or left) of the mean______(What is the mean?).",
+     "solution": null,
+     "guideSolution": "1.5, left, 16",
+     "guideRef": "Try It 6.2"
+    },
+    {
+     "id": "eip-893",
+     "problem": "Use the information in to answer the following questions.\n\na. Suppose a 15 to 18-year-old male from Chile was 176 cm tall from 2009 to 2010. The z-score when x = 176 cm is z = _______. This z-score tells you that x = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).\nb. Suppose that the height of a 15 to 18-year-old male from Chile from 2009 to 2010 has a z-score of z = –2. What is the male’s height? The z-score (z = –2) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.",
+     "solution": null,
+     "guideSolution": "Solve the equation z = (x−μ)/σ for x. x = μ + (z)(σ)\nz = (176−170)/6.28 ≈ 0.96, This z-score tells you that x = 176 cm is 0.96 standard deviations to the right of the mean 170 cm.\nX = 157.44 cm, The z-score(z = –2) tells you that the male’s height is two standard deviations to the left of the mean.",
+     "guideRef": "Try It 6.3"
+    },
+    {
+     "id": "eip-11",
+     "problem": "In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean µ = 496 and a standard deviation σ = 114. Let X = a SAT exam verbal section score in 2012. Then X ~ N(496, 114).\n\nFind the z-scores for x1 = 325 and x2 = 366.21. Interpret each z-score. What can you say about x1 = 325 and x2 = 366.21 as they compare to their respective means and standard deviations?",
+     "solution": null,
+     "guideSolution": "The z-score for x1 = 325 is z1 = –1.5.\nThe z-score for x2 = 366.21 is z2 = –1.14.\nStudent 2 scored closer to the mean than Student 1 and, since they both had negative z-scores, Student 2 had the better score.",
+     "guideRef": "Try It 6.4"
+    },
+    {
+     "id": "eip-897",
+     "problem": "Suppose X has a normal distribution with mean 25 and standard deviation five. Between what values of x do 68% of the values lie?",
+     "solution": null,
+     "guideSolution": "between 20 and 30.",
+     "guideRef": "Try It 6.5"
+    },
+    {
+     "id": "eip-188",
+     "problem": "The scores on a college entrance exam have an approximate normal distribution with mean, µ = 52 points and a standard deviation, σ = 11 points.\n\na. About 68% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\nb. About 95% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\nc. About 99.7% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.",
+     "solution": null,
+     "guideSolution": "About 68% of the values lie between the values 41 and 63. The z-scores are –1 and 1, respectively.\nAbout 95% of the values lie between the values 30 and 74. The z-scores are –2 and 2, respectively.\nAbout 99.7% of the values lie between the values 19 and 85. The z-scores are –3 and 3, respectively.\nSection 2. Using the Normal Distribution",
+     "guideRef": "Try It 6.6"
+    }
+   ],
+   "examples": [
+    "Suppose X ~ N(5, 6). This says that X is a normally distributed random variable with mean μ = 5 and standard deviation σ = 6. Suppose x = 17. Then:\n\nz=x–μ/σ=17–5/6=2\n\nThis means that x = 17 is two standard deviations (2σ) above or to the right of the mean μ = 5.\n\nNotice that: 5 + (2)(6) = 17 (The pattern is μ + zσ = x)\n\nNow suppose x = 1. Then: z = x–μ/σ = 1–5/6 = –0.67 (rounded to two decimal places)\n\nThis means that x = 1 is 0.67 standard deviations (–0.67σ) below or to the left of the mean μ = 5. Notice that: 5 + (–0.67)(6) is approximately equal to one (This has the pattern μ + (–0.67)σ = 1)\n\nSummarizing, when z is positive, x is above or to the right of μ and when z is negative, x is to the left of or below μ. Or, when z is positive, x is greater than μ, and when z is negative x is less than μ.",
+    "Some doctors believe that a person can lose five pounds, on the average, in a month by reducing their fat intake and by exercising consistently. Suppose weight loss has a normal distribution. Let X = the amount of weight lost (in pounds) by a person in a month. Use a standard deviation of two pounds. X ~ N(5, 2). Fill in the blanks.\n\na. Suppose a person lost ten pounds in a month. The z-score when x = 10 pounds is z = 2.5 (verify). This z-score tells you that x = 10 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).\n\na. This z-score tells you that x = 10 is 2.5 standard deviations to the right of the mean five.\n\nb. Suppose a person gained three pounds (a negative weight loss). Then z = __________. This z-score tells you that x = –3 is ________ standard deviations to the __________ (right or left) of the mean.\n\nb. z = –4. This z-score tells you that x = –3 is four standard deviations to the left of the mean.\n\nc. Suppose the random variables X and Y have the following normal distributions: X ~ N(5, 6) and Y ~ N(2, 1). If x = 17, then z = 2. (This was previously shown.) If y = 4, what is z?\n\nc. z = y−μ/σ = 4−2/1 = 2 where µ = 2 and σ = 1.\n\nThe z-score for y = 4 is z = 2. This means that four is z = 2 standard deviations to the right of the mean. Therefore, x = 17 and y = 4 are both two (of their own) standard deviations to the right of their respective means.\n\nThe z-score allows us to compare data that are scaled differently. To understand the concept, suppose X ~ N(5, 6) represents weight gains for one group of people who are trying to gain weight in a six week period and Y ~ N(2, 1) measures the same weight gain for a second group of people. A negative weight gain would be a weight loss. Since x = 17 and y = 4 are each two standard deviations to the right of their means, they represent the same, standardized weight gain relative to their means.",
+    "The mean height of 15 to 18-year-old males from Chile from 2009 to 2010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let X = the height of a 15 to 18-year-old male from Chile in 2009 to 2010. Then X ~ N(170, 6.28).\n\na. Suppose a 15 to 18-year-old male from Chile was 168 cm tall from 2009 to 2010. The z-score when x = 168 cm is z = _______. This z-score tells you that x = 168 is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).\n\nb. Suppose that the height of a 15 to 18-year-old male from Chile from 2009 to 2010 has a z-score of z = 1.27. What is the male’s height? The z-score (z = 1.27) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.\n\na. –0.32, 0.32, left, 170\n\nb. 177.98 cm, 1.27, right",
+    "From 1984 to 1985, the mean height of 15 to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let Y = the height of 15 to 18-year-old males from 1984 to 1985. Then Y ~ N(172.36, 6.34).\n\nThe mean height of 15 to 18-year-old males from Chile from 2009 to 2010 was 170 cm with a standard deviation of 6.28 cm. Male heights are known to follow a normal distribution. Let X = the height of a 15 to 18-year-old male from Chile in 2009 to 2010. Then X ~ N(170, 6.28).\n\nFind the z-scores for x = 160.58 cm and y = 162.85 cm. Interpret each z-score. What can you say about x = 160.58 cm and y = 162.85 cm as they compare to their respective means and standard deviations?\n\nThe z-score for x = -160.58 is z = –1.5.\n\nThe z-score for y = 162.85 is z = –1.5.\n\nBoth x = 160.58 and y = 162.85 deviate the same number of standard deviations from their respective means and in the same direction.",
+    "Suppose x has a normal distribution with mean 50 and standard deviation 6.\n\n• About 68% of the x values lie within one standard deviation of the mean. Therefore, about 68% of the x values lie between –1σ = (–1)(6) = –6 and 1σ = (1)(6) = 6 of the mean 50. The values 50 – 6 = 44 and 50 + 6 = 56 are within one standard deviation from the mean 50. The z-scores are –1 and +1 for 44 and 56, respectively.\n• About 95% of the x values lie within two standard deviations of the mean. Therefore, about 95% of the x values lie between –2σ = (–2)(6) = –12 and 2σ = (2)(6) = 12. The values 50 – 12 = 38 and 50 + 12 = 62 are within two standard deviations from the mean 50. The z-scores are –2 and +2 for 38 and 62, respectively.\n• About 99.7% of the x values lie within three standard deviations of the mean. Therefore, about 99.7% of the x values lie between –3σ = (–3)(6) = –18 and 3σ = (3)(6) = 18 from the mean 50. The values 50 – 18 = 32 and 50 + 18 = 68 are within three standard deviations of the mean 50. The z-scores are –3 and +3 for 32 and 68, respectively.",
+    "From 1984 to 1985, the mean height of 15 to 18-year-old males from Chile was 172.36 cm, and the standard deviation was 6.34 cm. Let Y = the height of 15 to 18-year-old males in 1984 to 1985. Then Y ~ N(172.36, 6.34).\n\na. About 68% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\nb. About 95% of the y values lie between what two values? These values are ________________. The z-scores are ________________ respectively.\nc. About 99.7% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\n\na. About 68% of the values lie between 166.02 cm and 178.7 cm. The z-scores are –1 and 1.\nb. About 95% of the values lie between 159.68 cm and 185.04 cm. The z-scores are –2 and 2.\nc. About 99.7% of the values lie between 153.34 cm and 191.38 cm. The z-scores are –3 and 3."
+   ],
+   "practice": [
+    {
+     "id": "fs-idp27962224",
+     "problem": "A bottle of water contains 12.05 fluid ounces with a standard deviation of 0.01 ounces. Define the random variable X in words. X = ____________.",
+     "solution": "ounces of water in a bottle"
+    },
+    {
+     "id": "fs-idm114970736",
+     "problem": "A normal distribution has a mean of 61 and a standard deviation of 15. What is the median?",
+     "solution": "61"
+    },
+    {
+     "id": "fs-idm121963344",
+     "problem": "X ~ N(1, 2)\n\nσ = _______",
+     "solution": "2"
+    },
+    {
+     "id": "fs-idm142191456",
+     "problem": "A company manufactures rubber balls. The mean diameter of a ball is 12 cm with a standard deviation of 0.2 cm. Define the random variable X in words. X = ______________.",
+     "solution": "diameter of a rubber ball"
+    },
+    {
+     "id": "fs-idm97876640",
+     "problem": "X ~ N(–4, 1)\n\nWhat is the median?",
+     "solution": "–4"
+    },
+    {
+     "id": "fs-idm102541136",
+     "problem": "X ~ N(3, 5)\n\nσ = _______",
+     "solution": "5"
+    },
+    {
+     "id": "fs-idm19058720",
+     "problem": "X ~ N(–2, 1)\n\nμ = _______",
+     "solution": "–2"
+    },
+    {
+     "id": "fs-idm122119648",
+     "problem": "What does a z-score measure?",
+     "solution": "The number of standard deviations a value is from the mean."
+    },
+    {
+     "id": "fs-idm63043376",
+     "problem": "What does standardizing a normal distribution do to the mean?",
+     "solution": "The mean becomes zero."
+    },
+    {
+     "id": "fs-idm126130944",
+     "problem": "Is X ~ N(0, 1) a standardized normal distribution? Why or why not?",
+     "solution": "Yes because the mean is zero, and the standard deviation is one."
+    },
+    {
+     "id": "fs-idm26153296",
+     "problem": "What is the z-score of x = 12, if it is two standard deviations to the right of the mean?",
+     "solution": "z = 2"
+    },
+    {
+     "id": "fs-idm114925552",
+     "problem": "What is the z-score of x = 9, if it is 1.5 standard deviations to the left of the mean?",
+     "solution": "z = –1.5"
+    },
+    {
+     "id": "fs-idm64977712",
+     "problem": "What is the z-score of x = –2, if it is 2.78 standard deviations to the right of the mean?",
+     "solution": "z = 2.78"
+    },
+    {
+     "id": "fs-idm140331968",
+     "problem": "What is the z-score of x = 7, if it is 0.133 standard deviations to the left of the mean?",
+     "solution": "z = –0.133"
+    },
+    {
+     "id": "fs-idm61157328",
+     "problem": "Suppose X ~ N(2, 6). What value of x has a z-score of three?",
+     "solution": "x = 20"
+    },
+    {
+     "id": "fs-idm18781776",
+     "problem": "Suppose X ~ N(8, 1). What value of x has a z-score of –2.25?",
+     "solution": "x = 5.75"
+    },
+    {
+     "id": "fs-idp23562800",
+     "problem": "Suppose X ~ N(9, 5). What value of x has a z-score of –0.5?",
+     "solution": "x = 6.5"
+    },
+    {
+     "id": "fs-idm69709296",
+     "problem": "Suppose X ~ N(2, 3). What value of x has a z-score of –0.67?",
+     "solution": "x = –0.01"
+    },
+    {
+     "id": "fs-idm137634928",
+     "problem": "Suppose X ~ N(4, 2). What value of x is 1.5 standard deviations to the left of the mean?",
+     "solution": "x = 1"
+    },
+    {
+     "id": "fs-idm63053168",
+     "problem": "Suppose X ~ N(4, 2). What value of x is two standard deviations to the right of the mean?",
+     "solution": "x = 8"
+    },
+    {
+     "id": "fs-idm62507744",
+     "problem": "Suppose X ~ N(8, 9). What value of x is 0.67 standard deviations to the left of the mean?",
+     "solution": "x = 1.97"
+    },
+    {
+     "id": "fs-idm78772448",
+     "problem": "Suppose X ~ N(–1, 2). What is the z-score of x = 2?",
+     "solution": "z = 1.5"
+    },
+    {
+     "id": "fs-idp21093808",
+     "problem": "Suppose X ~ N(12, 6). What is the z-score of x = 2?",
+     "solution": "z = –1.67"
+    },
+    {
+     "id": "fs-idp10811840",
+     "problem": "Suppose X ~ N(9, 3). What is the z-score of x = 9?",
+     "solution": "z = 0"
+    },
+    {
+     "id": "fs-idm74086800",
+     "problem": "Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the z-score of x = 5.5?",
+     "solution": "z ≈ –0.33"
+    },
+    {
+     "id": "fs-idm61163760",
+     "problem": "In a normal distribution, x = 5 and z = –1.25. This tells you that x = 5 is ____ standard deviations to the ____ (right or left) of the mean.",
+     "solution": "1.25, left"
+    },
+    {
+     "id": "fs-idp37768720",
+     "problem": "In a normal distribution, x = 3 and z = 0.67. This tells you that x = 3 is ____ standard deviations to the ____ (right or left) of the mean.",
+     "solution": "0.67, right"
+    },
+    {
+     "id": "fs-idm38070992",
+     "problem": "In a normal distribution, x = –2 and z = 6. This tells you that x = –2 is ____ standard deviations to the ____ (right or left) of the mean.",
+     "solution": "six, right"
+    },
+    {
+     "id": "fs-idm122820544",
+     "problem": "In a normal distribution, x = –5 and z = –3.14. This tells you that x = –5 is ____ standard deviations to the ____ (right or left) of the mean.",
+     "solution": "3.14, left"
+    },
+    {
+     "id": "fs-idm49315712",
+     "problem": "In a normal distribution, x = 6 and z = –1.7. This tells you that x = 6 is ____ standard deviations to the ____ (right or left) of the mean.",
+     "solution": "1.7, left"
+    },
+    {
+     "id": "fs-idm144883616",
+     "problem": "About what percent of x values from a normal distribution lie within one standard deviation (left and right) of the mean of that distribution?",
+     "solution": "about 68%"
+    },
+    {
+     "id": "fs-idm80518368",
+     "problem": "About what percent of the x values from a normal distribution lie within two standard deviations (left and right) of the mean of that distribution?",
+     "solution": "about 95.45%"
+    },
+    {
+     "id": "fs-idm85847520",
+     "problem": "About what percent of x values lie between the second and third standard deviations (both sides)?",
+     "solution": "about 4%"
+    },
+    {
+     "id": "fs-idm24842144",
+     "problem": "Suppose X ~ N(15, 3). Between what x values does 68.27% of the data lie? The range of x values is centered at the mean of the distribution (i.e., 15).",
+     "solution": "between 12 and 18"
+    },
+    {
+     "id": "fs-idm53172656",
+     "problem": "Suppose X ~ N(–3, 1). Between what x values does 95.45% of the data lie? The range of x values is centered at the mean of the distribution(i.e., –3).",
+     "solution": "between –5 and –1"
+    },
+    {
+     "id": "fs-idm113806912",
+     "problem": "Suppose X ~ N(–3, 1). Between what x values does 34.14% of the data lie?",
+     "solution": "between –4 and –3 or between –3 and –2"
+    },
+    {
+     "id": "fs-idp81343328",
+     "problem": "About what percent of x values lie between the mean and three standard deviations?",
+     "solution": "about 50%"
+    },
+    {
+     "id": "fs-idp84402208",
+     "problem": "About what percent of x values lie between the mean and one standard deviation?",
+     "solution": "about 34.14%"
+    },
+    {
+     "id": "fs-idp76784880",
+     "problem": "About what percent of x values lie between the first and second standard deviations from the mean (both sides)?",
+     "solution": "about 27%"
+    },
+    {
+     "id": "fs-idp72804864",
+     "problem": "About what percent of x values lie between the first and third standard deviations(both sides)?",
+     "solution": "about 34.46%"
+    },
+    {
+     "id": "fs-idm143086848",
+     "problem": "Define the random variable X in words. X = _______________.",
+     "solution": "The lifetime of a wearable fitness device measured in years.",
+     "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
+    },
+    {
+     "id": "fs-idm119601152",
+     "problem": "X ~ _____(_____,_____)",
+     "solution": "X ~ N(4.1, 1.3)",
+     "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
+    }
+   ],
+   "homework": [
+    {
+     "id": "fs-idp12375792",
+     "problem": "What is the median recovery time?\n\na. 2.7\nb. 5.3\nc. 7.4\nd. 2.1",
+     "stem": "What is the median recovery time?",
+     "options": [
+      "2.7",
+      "5.3",
+      "7.4",
+      "2.1"
+     ],
+     "solution": "b",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "fs-idp45221936",
+     "problem": "What is the z-score for a patient who takes ten days to recover?\n\na. 1.5\nb. 0.2\nc. 2.2\nd. 7.3",
+     "stem": "What is the z-score for a patient who takes ten days to recover?",
+     "options": [
+      "1.5",
+      "0.2",
+      "2.2",
+      "7.3"
+     ],
+     "solution": "c",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "fs-idm62385744",
+     "problem": "The length of time to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?\n\nI. The data cannot follow the uniform distribution.\nII. The data cannot follow the exponential distribution..\nIII. The data cannot follow the normal distribution.\n\na. I only\nb. II only\nc. III only\nd. I, II, and III",
+     "stem": "The length of time to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?\n\nI. The data cannot follow the uniform distribution.\nII. The data cannot follow the exponential distribution..\nIII. The data cannot follow the normal distribution.",
+     "options": [
+      "I only",
+      "II only",
+      "III only",
+      "I, II, and III"
+     ],
+     "solution": "b",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-866",
+     "problem": "The heights of the 430 National Basketball Association players were listed on team rosters at the start of a recent season. The heights of basketball players have an approximate normal distribution with mean, µ = 79 inches and a standard deviation, σ = 3.89 inches. For each of the following heights, calculate the z-score and interpret it using complete sentences.\n\na. 77 inches\nb. 85 inches\nc. If an NBA player reported his height had a z-score of 3.5, would you believe him? Explain your answer.",
+     "solution": "a. Use the z-score formula. z = –0.5141. The height of 77 inches is 0.5141 standard deviations below the mean. An NBA player whose height is 77 inches is shorter than average.\nb. Use the z-score formula. z = 1.5424. The height 85 inches is 1.5424 standard deviations above the mean. An NBA player whose height is 85 inches is taller than average.\nc. Height = 79 + 3.5(3.89) = 92.615 inches, which is taller than 7 feet, 8 inches. There are very few NBA players this tall so the answer is no, not likely.",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-474",
+     "problem": "The systolic blood pressure (given in millimeters) of males has an approximately normal distribution with mean µ = 125 and standard deviation σ = 14. Systolic blood pressure for males follows a normal distribution.\n\na. Calculate the z-scores for the male systolic blood pressures 100 and 150 millimeters.\nb. If a male friend of yours said he thought his systolic blood pressure was 2.5 standard deviations below the mean, but that he believed his blood pressure was between 100 and 150 millimeters, what would you say to him?",
+     "solution": "a. Use the z-score formula. (100 – 125)/14 ≈ –1.8 and (100 – 125)/14 ≈ 1.8\nb. I would tell him that 2.5 standard deviations below the mean would give him a blood pressure reading of 90, which is below the range of 100 to 150.",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-808",
+     "problem": "Kyle’s doctor told him that the z-score for his systolic blood pressure is 1.75. Which of the following is the best interpretation of this standardized score? The systolic blood pressure (given in millimeters) of males has an approximately normal distribution with mean µ = 125 and standard deviation σ = 14. If X = a systolic blood pressure score then X ~ N (125, 14).\n\na. Which answer(s) is/are correct?\n\ni. Kyle’s systolic blood pressure is 175.\nii. Kyle’s systolic blood pressure is 1.75 times the average blood pressure of men his age.\niii. Kyle’s systolic blood pressure is 1.75 above the average systolic blood pressure of men his age.\niv. Kyles’s systolic blood pressure is 1.75 standard deviations above the average systolic blood pressure for men.\n\nb. Calculate Kyle’s blood pressure.",
+     "solution": "a. iv\nb. Kyle’s blood pressure is equal to 125 + (1.75)(14) = 149.5.",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-459",
+     "problem": "Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and the same gender. In 2009, weights for all 80 cm girls in the reference population had a mean µ = 10.2 kg and standard deviation σ = 0.8 kg. Weights are normally distributed. X ~ N(10.2, 0.8). Calculate the z-scores that correspond to the following weights and interpret them.\n\na. 11 kg\nb. 7.9 kg\nc. 12.2 kg",
+     "stem": "Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and the same gender. In 2009, weights for all 80 cm girls in the reference population had a mean µ = 10.2 kg and standard deviation σ = 0.8 kg. Weights are normally distributed. X ~ N(10.2, 0.8). Calculate the z-scores that correspond to the following weights and interpret them.",
+     "options": [
+      "11 kg",
+      "7.9 kg",
+      "12.2 kg"
+     ],
+     "solution": "a. (11 – 10.2)/0.8 = 1\nA child who weighs 11 kg is one standard deviation above the mean of 10.2 kg.\nb. (7.9 – 10.2)/0.8 = –2.875\n\nA child who weighs 7.9 kg is 2.875 standard deviations below the mean of 10.2 kg.\nc. (12.2 – 10.2)/0.8 = 2.5\n\nA child who weighs 12.2 kg is 2.5 standard deviation above the mean of 10.2 kg.",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-802",
+     "problem": "During a certain year, 1,475,623 students heading to college took the SAT. The distribution of scores in the math section of the SAT follows a normal distribution with mean µ = 520 and standard deviation σ = 115.\n\na. Calculate the z-score for an SAT score of 720. Interpret it using a complete sentence.\nb. What math SAT score is 1.5 standard deviations above the mean? What can you say about this SAT score?\nc. During a different year, the SAT math test had a mean of 514 and standard deviation 117. The ACT math test is an alternate to the SAT and is approximately normally distributed with mean 21 and standard deviation 5.3. If one person took the SAT math test and scored 700 and a second person took the ACT math test and scored 30, who did better with respect to the test they took?",
+     "solution": "Let X = an SAT math score and Y = an ACT math score. Use the z-score formula.\n\na. X = 720 : z=720-520/115=1.74. The exam score of 720 is 1.74 standard deviations above the mean of 520.\nb. z = 1.5\nThe math SAT score is 520 + 1.5(115) ≈ 692.5. The exam score of 692.5 is 1.5 standard deviations above the mean of 520.\nc. (X – μ)/σ = (700 – 514)/117 ≈ 1.59, the z-score for the SAT. (Y – μ)/σ = (30 – 21)/5.3 ≈ 1.70, the z-scores for the ACT. With respect to the test they took, the person who took the ACT did better (has the higher z-score).",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    }
+   ],
+   "bring_together": [],
+   "summary": "A z-score is a standardized value. Its distribution is the standard normal, Z ~ N(0, 1). The mean of the z-scores is zero and the standard deviation is one. If z is the z-score for a value x from the normal distribution N(µ, σ) then z tells you how many standard deviations x is above (greater than) or below (less than) µ.",
+   "formula_review": "z = a standardized value (z-score)\n\nmean = 0; standard deviation = 1\n\nTo find the observed value, x, when the z-scores is known:\nx = μ + (z)σ\n\nz-score: z = (x – μ)/σ\n\nZ = the random variable for z-scores",
+   "glossary": [
+    {
+     "term": "Standard Normal Distribution",
+     "meaning": "a continuous random variable (RV) X ~ N(0, 1); when X follows the standard normal distribution, it is often noted as Z ~ N(0, 1)."
+    },
+    {
+     "term": "z-score",
+     "meaning": "the linear transformation of the form z = (x – μ)/σ; if this transformation is applied to any normal distribution X ~ N(μ, σ) the result is the standard normal distribution Z ~ N(0,1). If this transformation is applied to any specific value x of the RV with mean μ and standard deviation σ, the result is called the z-score of x. The z-score allows us to compare data that are normally distributed but scaled differently."
+    }
+   ],
+   "kind": "section",
+   "section": "6.1"
+  },
+  {
+   "id": "m46973",
+   "title": "Using the Normal Distribution",
+   "tryits": [
+    {
+     "id": "fs-idm159222080",
+     "problem": "If the area to the left of x is 0.012, then what is the area to the right?",
+     "solution": null,
+     "guideSolution": "1 − 0.012 = 0.988",
+     "guideRef": "Try It 6.7"
+    },
+    {
+     "id": "fs-idm160100784",
+     "problem": "The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.\n\nFind the probability that a randomly selected golfer scored less than 65.",
+     "solution": null,
+     "guideSolution": "normalcdf(0,65,68,3) = 0.1587",
+     "guideRef": "Try It 6.8"
+    },
+    {
+     "id": "fs-idm193708112",
+     "problem": "The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.",
+     "solution": null,
+     "guideSolution": "normalcdf(66,70,68,3) = 0.4950",
+     "guideRef": "Try It 6.9"
+    },
+    {
+     "id": "eip-idm1584512",
+     "problem": "a. Find the 30th percentile, and interpret it in a complete sentence.\nb. What is the probability that the age of a randomly selected smartphone user in the range 13 to 55+ is less than 27 years old.",
+     "solution": null,
+     "guideSolution": "Let X = a smart phone user whose age is 13 to 55+. X ~ N(36.9, 13.9)\nTo find the 30th percentile, find k such that P(x < k) = 0.30. invNorm(0.30, 36.9, 13.9) = 29.6 years Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.\nFind P(x < 27)normalcdf(0,27,36.9,13.9) = 0.2342 (Note that normalcdf(–1099,27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)",
+     "guideRef": "Try It 6.10"
+    },
+    {
+     "id": "fs-idm64657232",
+     "problem": "Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean μ = 81 points and standard deviation σ = 15 points.\n\na. Calculate the first- and third-quartile scores for this exam.\nb. The middle 50% of the exam scores are between what two values?",
+     "solution": null,
+     "guideSolution": "Q1 = 25th percentile = invNorm(0.25,81,15) = 70.9 Q3 = 75th percentile = invNorm(0.75,81,15) = 91.1\nThe middle 50% of the scores are between 70.9 and 91.1.",
+     "guideRef": "Try It 6.11"
+    },
+    {
+     "id": "eip-786",
+     "problem": "Using the information from , answer the following:\n\na. The middle 40% of mandarin oranges from this farm are between ______ and ______.\nb. Find the 16th percentile and interpret it in a complete sentence.",
+     "solution": null,
+     "guideSolution": "The middle area = 0.40, so each tail has an area of 0.30.\n1 – 0.40 = 0.60\nThe tails of the graph of the normal distribution each have an area of 0.30.\nFind k1, the 30th percentile and k2, the 70th percentile (0.40 + 0.30 = 0.70).\nk1 = invNorm(0.30,5.85,0.24) = 5.72 cm\nk2 = invNorm(0.70,5.85,0.24) = 5.98 cm\ninvNorm(0.16, 5.85, 0.24) = 5.61; 16% of mandarin oranges from this farm have diameter 5.61 cm or less.\nChapter 7. The Central Limit Theorem\nSection 1. The Central Limit Theorem for Sample Means (Averages)",
+     "guideRef": "Try It 6.12"
+    }
+   ],
+   "examples": [
+    "If the area to the left is 0.0228, then the area to the right is 1 – 0.0228 = 0.9772.",
+    "The final exam scores in a statistics class were normally distributed with a mean of 63 and a standard deviation of five.\n\na. Find the probability that a randomly selected student scored more than 65 on the exam.\n\na. Let X = a score on the final exam. X ~ N(63, 5), where μ = 63 and σ = 5.\n\nDraw a graph.\n\nThen, find P(x > 65).\n\nP(x > 65) = 0.3446\n\n[FIGURE]\nThe probability that any student selected at random scores more than 65 is 0.3446.\n\nGo into 2nd DISTR.\n\nAfter pressing 2nd DISTR, press 2:normalcdf.\n\nThe syntax for the instructions are as follows:\n\nnormalcdf(lower value, upper value, mean, standard deviation)\nFor this problem: normalcdf(65,1E99,63,5) = 0.3446. You get 1E99 (= 1099) by pressing 1, the EE key (a 2nd key) and then 99. Or, you can enter 10^99 instead. The number 1099 is way out in the right tail of the normal curve. We are calculating the area between 65 and 1099. In some instances, the lower number of the area might be –1E99 (= –1099). The number –1099 is way out in the left tail of the normal curve.\n\nHistorical Note\n\nThe TI probability program calculates a z-score and then the probability from the z-score. Before technology, the z-score was looked up in a standard normal probability table (because the math involved is too cumbersome) to find the probability. In this example, a standard normal table with area to the left of the z-score was used. You calculate the z-score and look up the area to the left. The probability is the area to the right.\n\nz = (65 – 63)/5 = 0.4\n\nArea to the left is 0.6554.\n\nP(x > 65) = P(z > 0.4) = 1 – 0.6554 = 0.3446\n\nFind the percentile for a student scoring 65:\n\n*Press 2nd Distr\n\n*Press 2:normalcdf(\n\n*Enter lower bound, upper bound, mean, standard deviation followed by )\n\n*Press ENTER.\n\nFor this Example, the steps are\n\n2nd Distr\n\n2:normalcdf(65,1,2nd EE,99,63,5) ENTER\n\nThe probability that a selected student scored more than 65 is 0.3446.\nTo find the probability that a selected student scored more than 65, subtract the percentile from 1.\n\nb. Find the probability that a randomly selected student scored less than 85.\n\nb. Draw a graph.\n\nThen find P(x < 85), and shade the graph.\n\nUsing a computer or calculator, find P(x < 85) = 1.\n\nnormalcdf(0,85,63,5) = 1 (rounds to one)\n\nThe probability that one student scores less than 85 is approximately one (or 100%).\n\nc. Find the 90th percentile (that is, find the score k that has 90% of the scores below k and 10% of the scores above k).\n\nc. Find the 90th percentile. For each problem or part of a problem, draw a new graph. Draw the x-axis. Shade the area that corresponds to the 90th percentile.\n\nLet k = the 90th percentile. The variable k is located on the x-axis. P(x < k) is the area to the left of k. The 90th percentile k separates the exam scores into those that are the same or lower than k and those that are the same or higher. Ninety percent of the test scores are the same or lower than k, and ten percent are the same or higher. The variable k is often called a critical value.\n\nk = 69.4\n\n[FIGURE]\n\nThe 90th percentile is 69.4. This means that 90% of the test scores fall at or below 69.4 and 10% fall at or above. To get this answer on the calculator, follow this step:\n\ninvNorm in 2nd DISTR. invNorm(area to the left, mean, standard deviation)\n\nFor this problem, invNorm(0.90,63,5) = 69.4\n\nd. Find the 70th percentile (that is, find the score k such that 70% of scores are below k and 30% of the scores are above k).\n\nd. Find the 70th percentile.\n\nDraw a new graph and label it appropriately. k = 65.6\n\nThe 70th percentile is 65.6. This means that 70% of the test scores fall at or below 65.5 and 30% fall at or above.\n\ninvNorm(0.70,63,5) = 65.6",
+    "A personal computer is used for office work at home, research, communication, personal finances, education, entertainment, social networking, and a myriad of other things. Suppose that the average number of hours a household personal computer is used for entertainment is two hours per day. Assume the times for entertainment are normally distributed and the standard deviation for the times is half an hour.\n\na. Find the probability that a household personal computer is used for entertainment between 1.8 and 2.75 hours per day.\n\na. Let X = the amount of time (in hours) a household personal computer is used for entertainment. X ~ N(2, 0.5) where μ = 2 and σ = 0.5.\n\nFind P(1.8 < x < 2.75).\n\nThe probability for which you are looking is the area between x = 1.8 and x = 2.75. P(1.8 < x < 2.75) = 0.5886\n\n[FIGURE]\n\nnormalcdf(1.8,2.75,2,0.5) = 0.5886\n\nThe probability that a household personal computer is used between 1.8 and 2.75 hours per day for entertainment is 0.5886.\n\nb. Find the maximum number of hours per day that the bottom quartile of households uses a personal computer for entertainment.\n\nb. To find the maximum number of hours per day that the bottom quartile of households uses a personal computer for entertainment, find the 25th percentile, k, where P(x < k) = 0.25.\n\n[FIGURE]\ninvNorm(0.25,2,0.5) = 1.66\n\nThe maximum number of hours per day that the bottom quartile of households uses a personal computer for entertainment is 1.66 hours.",
+    "In the United States the ages 13 to 55+ of smartphone users approximately follow a normal distribution with approximate mean and standard deviation of 36.9 years and 13.9 years, respectively.\n\na. Determine the probability that a random smartphone user in the age range 13 to 55+ is between 23 and 64.7 years old.\n\nb. Determine the probability that a randomly selected smartphone user in the age range 13 to 55+ is at most 50.8 years old.\n\nc. Find the 80th percentile of this distribution, and interpret it in a complete sentence.\n\na. normalcdf(23,64.7,36.9,13.9) = 0.8186\n\nb. normalcdf(–1099,50.8,36.9,13.9) = 0.8413\n\nc.\n\n• invNorm(0.80,36.9,13.9) = 48.6\n• The 80th percentile is 48.6 years.\n• 80% of the smartphone users in the age range 13 – 55+ are 48.6 years old or less.",
+    "In the United States the ages 13 to 55+ of smartphone users approximately follow a normal distribution with approximate mean and standard deviation of 36.9 years and 13.9 years respectively. Using this information, answer the following questions (round answers to one decimal place).\n\na. Calculate the interquartile range (IQR).\n\nb. Forty percent of the smartphone users from 13 to 55+ are at least what age?\n\na.\n• IQR = Q3 – Q1\n• Calculate Q3 = 75th percentile and Q1 = 25th percentile.\n• invNorm(0.75,36.9,13.9) = Q3 = 46.2754\n• invNorm(0.25,36.9,13.9) = Q1 = 27.5246\n• IQR = Q3 – Q1 = 18.8\n\nb.\n• Find k where P(x ≥ k) = 0.40 (\"At least\" translates to \"greater than or equal to.\")\n• 0.40 = the area to the right.\n• Area to the left = 1 – 0.40 = 0.60.\n• The area to the left of k = 0.60.\n• invNorm(0.60,36.9,13.9) = 40.4215.\n• k = 40.4.\n• Forty percent of the smartphone users from 13 to 55+ are at least 40.4 years.",
+    "A citrus farmer who grows mandarin oranges finds that the diameters of mandarin oranges harvested on his farm follow a normal distribution with a mean diameter of 5.85 cm and a standard deviation of 0.24 cm.\n\na. Find the probability that a randomly selected mandarin orange from this farm has a diameter larger than 6.0 cm. Sketch the graph.\n\nb. The middle 20% of mandarin oranges from this farm have diameters between ______ and ______.\n\nc. Find the 90th percentile for the diameters of mandarin oranges, and interpret it in a complete sentence.\n\na. normalcdf(6,10^99,5.85,0.24) = 0.2660\n\n[FIGURE]\n\nb.\n• 1 – 0.20 = 0.80\n• The tails of the graph of the normal distribution each have an area of 0.40.\n• Find k1, the 40th percentile, and k2, the 60th percentile (0.40 + 0.20 = 0.60).\n• k1 = invNorm(0.40,5.85,0.24) = 5.79 cm\n• k2 = invNorm(0.60,5.85,0.24) = 5.91 cm\n\nc. 6.16: Ninety percent of the diameter of the mandarin oranges is at most 6.16 cm."
+   ],
+   "practice": [
+    {
+     "id": "fs-idp83652864",
+     "problem": "How would you represent the area to the left of one in a probability statement?\n\n[FIGURE]",
+     "solution": "P(x < 1)"
+    },
+    {
+     "id": "fs-idm18365728",
+     "problem": "What is the area to the right of one?\n\n[FIGURE]",
+     "solution": "1 – P(x < 1) or P(x < 1)"
+    },
+    {
+     "id": "fs-idp76730048",
+     "problem": "Is P(x < 1) equal to P(x ≤ 1)? Why?",
+     "solution": "Yes, because they are the same in a continuous distribution: P(x = 1) = 0"
+    },
+    {
+     "id": "fs-idp16475344",
+     "problem": "How would you represent the area to the left of three in a probability statement?\n\n[FIGURE]",
+     "solution": "P(x < 3)"
+    },
+    {
+     "id": "fs-idp103778720",
+     "problem": "What is the area to the right of three?\n\n[FIGURE]",
+     "solution": "1 – P(x < 3) or P(x > 3)"
+    },
+    {
+     "id": "fs-idp880816",
+     "problem": "If the area to the left of x in a normal distribution is 0.123, what is the area to the right of x?",
+     "solution": "1 – 0.123 = 0.877"
+    },
+    {
+     "id": "fs-idm33682096",
+     "problem": "If the area to the right of x in a normal distribution is 0.543, what is the area to the left of x?",
+     "solution": "1 – 0.543 = 0.457"
+    },
+    {
+     "id": "fs-idp83610000",
+     "problem": "Find the probability that x > 56.",
+     "solution": "0.4013",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp105059184",
+     "problem": "Find the probability that x < 30.",
+     "solution": "0.0013",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp153118944",
+     "problem": "Find the 80th percentile.",
+     "solution": "60.73",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp49095264",
+     "problem": "Find the 60th percentile.",
+     "solution": "56.03",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp65259648",
+     "problem": "X ~ N(6, 2)\n\nFind the probability that x is between three and nine.",
+     "solution": "0.8664",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp152542352",
+     "problem": "X ~ N(–3, 4)\n\nFind the probability that x is between one and four.",
+     "solution": "0.1186",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "fs-idp153143568",
+     "problem": "X ~ N(4, 5)\n\nFind the maximum of x in the bottom quartile.",
+     "solution": "0.6276",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "element-942",
+     "problem": "Use the following information to answer the next three exercise: The life of wearable fitness devices is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts. Find the probability that a wearable fitness device will break down during the guarantee period.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.\n[FIGURE]\n\nb. P(0 < x < ____________) = ___________ (Use zero for the minimum value of x.)",
+     "solution": "a. Answers may vary.\nb. 3, 0.1979",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "element-893",
+     "problem": "Find the probability that a wearable fitness device will last between 2.8 and six years.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.\n[FIGURE]\nb. P(__________ < x < __________) = __________",
+     "solution": "a. Check student’s solution\nb. 2.8, 6, 0.7694",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    },
+    {
+     "id": "element-889",
+     "problem": "Find the 70th percentile of the distribution for the time a wearable fitness device lasts.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70%.\n[FIGURE]\nb. P(x < k) = __________ Therefore, k = _________",
+     "solution": "a. Answers may vary.\nb. 0.70, 4.78 years",
+     "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)"
+    }
+   ],
+   "homework": [
+    {
+     "id": "eip-181",
+     "problem": "What is the probability of spending more than two days in recovery?\n\na. 0.0580\nb. 0.8447\nc. 0.0553\nd. 0.9420",
+     "stem": "What is the probability of spending more than two days in recovery?",
+     "options": [
+      "0.0580",
+      "0.8447",
+      "0.0553",
+      "0.9420"
+     ],
+     "solution": "d",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-318",
+     "problem": "The 90th percentile for recovery times is?\n\na. 8.89\nb. 7.07\nc. 7.99\nd. 4.32",
+     "stem": "The 90th percentile for recovery times is?",
+     "options": [
+      "8.89",
+      "7.07",
+      "7.99",
+      "4.32"
+     ],
+     "solution": "c",
+     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+    },
+    {
+     "id": "eip-486",
+     "problem": "Based upon the given information and numerically justified, would you be surprised if it took less than one minute to find a parking space?\n\na. Yes\nb. No\nc. Unable to determine",
+     "stem": "Based upon the given information and numerically justified, would you be surprised if it took less than one minute to find a parking space?",
+     "options": [
+      "Yes",
+      "No",
+      "Unable to determine"
+     ],
+     "solution": "a",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-231",
+     "problem": "Find the probability that it takes at least eight minutes to find a parking space.\n\na. 0.0001\nb. 0.9270\nc. 0.1862\nd. 0.0668",
+     "stem": "Find the probability that it takes at least eight minutes to find a parking space.",
+     "options": [
+      "0.0001",
+      "0.9270",
+      "0.1862",
+      "0.0668"
+     ],
+     "solution": "d",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-295",
+     "problem": "Seventy percent of the time, it takes more than how many minutes to find a parking space?\n\na. 1.24\nb. 2.41\nc. 3.95\nd. 6.05",
+     "stem": "Seventy percent of the time, it takes more than how many minutes to find a parking space?",
+     "options": [
+      "1.24",
+      "2.41",
+      "3.95",
+      "6.05"
+     ],
+     "solution": "c",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-581",
+     "problem": "According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches. Suppose one Asian adult male is randomly chosen. Let X = height of the individual.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the person is between 65 and 69 inches. Include a sketch of the graph, and write a probability statement.\nc. Would you expect to meet many Asian adult males over 72 inches? Explain why or why not,\nand justify your answer numerically.",
+     "solution": "a. X ~ N(66, 2.5)\nb. 0.5404\nc. No, the probability that an Asian male is over 72 inches tall is 0.0082",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-563",
+     "problem": "IQ is normally distributed with a mean of 100 and a standard deviation of 15. Suppose one individual is randomly chosen. Let X = IQ of an individual.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the person has an IQ greater than 120. Include a sketch of the graph, and write a probability statement.\nc. MENSA is an organization whose members have the top 2% of all IQs. Find the minimum IQ needed to qualify for the MENSA organization. Sketch the graph, and write the probability statement.\nd. The middle 50% of IQs fall between what two values? Sketch the graph and write the probability statement.",
+     "solution": "a. N(100, 15)\nb. The probability that a person has an IQ greater than 120 is 0.0918.\nc. A person has to have an IQ over 130 to qualify for MENSA.\nd. The middle 50% of IQ scores falls between 89.95 and 110.05.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-516",
+     "problem": "The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10. Suppose that one individual is randomly chosen. Let X = percent of fat calories.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the percent of fat calories a person consumes is more than 40. Graph the situation. Shade in the area to be determined.\nc. Find the maximum number for the lower quarter of percent of fat calories. Sketch the graph and write the probability statement.",
+     "solution": "a. X ~ N(36, 10)\nb. The probability that a person consumes more than 40% of their calories as fat is 0.3446.\nc. Approximately 25% of people consume less than 29.26% of their calories as fat.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-967",
+     "problem": "Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.\n\na. If X = distance in feet for a fly ball, then X ~ _____(_____,_____)\nb. If one fly ball is randomly chosen from this distribution, what is the probability that this ball traveled fewer than 220 feet? Sketch the graph. Scale the horizontal axis X. Shade the region corresponding to the probability. Find the probability.\nc. Find the 80th percentile of the distribution of fly balls. Sketch the graph, and write the probability statement.",
+     "solution": "a. X ~ N(250, 50)\nb. The probability that a fly ball travels less than 220 feet is 0.2743.\nc. Eighty percent of the fly balls will travel less than 292 feet.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-930",
+     "problem": "In China, four-year-olds average three hours a day unsupervised. Most of the unsupervised children live in rural areas, considered safe. Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed. We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time the child spends alone per day.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. Find the probability that the child spends less than one hour per day unsupervised. Sketch the graph, and write the probability statement.\nd. What percent of the children spend over ten hours per day unsupervised?\ne. Seventy percent of the children spend at least how long per day unsupervised?",
+     "solution": "a. X = number of hours that a Chinese four-year-old in a rural area is unsupervised during the day.\nb. X ~ N(3, 1.5)\nc. The probability that the child spends less than one hour a day unsupervised is 0.0918.\nd. The probability that a child spends over ten hours a day unsupervised is less than 0.0001.\ne. 2.21 hours",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-698",
+     "problem": "In a certain presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for Candidate A. The standard deviation was 572.3. (There are only 40 election districts in Alaska.) The distribution of the votes per district for Candidate A was bell-shaped. Let X = number of votes for Candidate A for an election district.\n\na. State the approximate distribution of X.\nb. Is 1,956.8 a population mean or a sample mean? How do you know?\nc. Find the probability that a randomly selected district had fewer than 1,600 votes for Candidate A. Sketch the graph and write the probability statement.\nd. Find the probability that a randomly selected district had between 1,800 and 2,000 votes for Candidate A.\ne. Find the third quartile for votes for Candidate A.",
+     "solution": "a. X ~ N(1956.8, 572.3)\nb. This is a population mean, because all election districts are included.\nc. The probability that a district had less than 1,600 votes for President Clinton is 0.2676.\nd. 0.3798\ne. Seventy-five percent of the districts had fewer than 2,340 votes for President Clinton.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-838",
+     "problem": "Suppose that the duration of a particular type of criminal trial is known to be normally distributed with a mean of 21 days and a standard deviation of seven days.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. If one of the trials is randomly chosen, find the probability that it lasted at least 24 days. Sketch the graph and write the probability statement.\nd. Sixty percent of all trials of this type are completed within how many days?",
+     "solution": "a. X = the distribution of the number of days a particular type of criminal trial will take\nb. X ~ N(21, 7)\nc. The probability that a randomly selected trial will last more than 24 days is 0.3336.\nd. 22.77",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-335",
+     "problem": "A motorcycle racer averages 129.71 seconds per 2.5 mile lap (in a seven-lap race) with a standard deviation of 2.28 seconds. The distribution of their race times is normally distributed. We are interested in one of their randomly selected laps.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. Find the percent of the racer's laps that are completed in less than 130 seconds.\nd. The fastest 3% of the racer's laps are under _____.\ne. The middle 80% of the racer's laps are from _______ seconds to _______ seconds.",
+     "solution": "a. X = the distribution of race times that Terry Vogel produces\nb. X ~ N(129.71, 2.28)\nc. Terri completes 55.17% of her laps in less than 130 seconds.\nd. Terri completes 55.17% of her laps in less than 130 seconds.\ne. 124.4 and 135.02",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-923",
+     "problem": "Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long customers at Lucky claimed to wait in the checkout line until their turn. Let X = time in line. displays the ordered real data (in minutes):\n\n[TABLE]\n0.50 | 4.25 | 5 | 6 | 7.25\n1.75 | 4.25 | 5.25 | 6 | 7.25\n2 | 4.25 | 5.25 | 6.25 | 7.25\n2.25 | 4.25 | 5.5 | 6.25 | 7.75\n2.25 | 4.5 | 5.5 | 6.5 | 8\n2.5 | 4.75 | 5.5 | 6.5 | 8.25\n2.75 | 4.75 | 5.75 | 6.5 | 9.5\n3.25 | 4.75 | 5.75 | 6.75 | 9.5\n3.75 | 5 | 6 | 6.75 | 9.75\n3.75 | 5 | 6 | 6.75 | 10.75\n[/TABLE]\n\na. Calculate the sample mean and the sample standard deviation.\nb. Construct a histogram.\nc. Draw a smooth curve through the midpoints of the tops of the bars.\nd. In words, describe the shape of your histogram and smooth curve.\ne. Let the sample mean approximate μ and the sample standard deviation approximate σ. The distribution of X can then be approximated by X ~ _____(_____,_____)\nf. Use the distribution in part e to calculate the probability that a person will wait fewer than 6.1 minutes.\ng. Determine the cumulative relative frequency for waiting less than 6.1 minutes.\nh. Why aren’t the answers to part f and part g exactly the same?\ni. Why are the answers to part f and part g as close as they are?\nj. If only ten customers has been surveyed rather than 50, do you think the answers to part f and part g would have been closer together or farther apart? Explain your conclusion.",
+     "solution": "a. mean = 5.51, s = 2.15\nb. Answers may vary.\nc. Answers may vary.\nd. Answers may vary.\ne. X ~ N(5.51, 2.15)\nf. 0.6029\ng. The cumulative frequency for less than 6.1 minutes is 0.64.\nh. The answers to part f and part g are not exactly the same, because the normal distribution is only an approximation to the real one.\ni. The answers to part f and part g are close, because a normal distribution is an excellent approximation when the sample size is greater than 30.\nj. The approximation would have been less accurate, because the smaller sample size means that the data does not fit normal curve as well.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-24",
+     "problem": "Suppose that Ric and Anita attend different colleges. Ric’s GPA is the same as the average GPA at their school. Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false.\n\na. Ric’s actual GPA is lower than Anita’s actual GPA.\nb. Ric is not passing because their z-score is zero.\nc. Anita is in the 70th percentile of students at her college.",
+     "stem": "Suppose that Ric and Anita attend different colleges. Ric’s GPA is the same as the average GPA at their school. Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false.",
+     "options": [
+      "Ric’s actual GPA is lower than Anita’s actual GPA.",
+      "Ric is not passing because their z-score is zero.",
+      "Anita is in the 70th percentile of students at her college."
+     ],
+     "solution": "a. If the average GPA is less at Anita’s school than it is at Ricardo’s, then Ricardo’s actual score could be higher.\nb. Passing can be defined differently at different schools. Also, since Ricardo’s z-score is 0, his GPA is actually\nthe average for his school, which is typically a passing GPA.\nc. Anita’s percentile is higher than the 70th percentile.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-67",
+     "problem": "shows a sample of the maximum capacity (maximum number of spectators) of sports stadiums. The table does not include horse-racing or motor-racing stadiums.\n\n[TABLE]\n40,000 | 40,000 | 45,050 | 45,500 | 46,249 | 48,134\n49,133 | 50,071 | 50,096 | 50,466 | 50,832 | 51,100\n51,500 | 51,900 | 52,000 | 52,132 | 52,200 | 52,530\n52,692 | 53,864 | 54,000 | 55,000 | 55,000 | 55,000\n55,000 | 55,000 | 55,000 | 55,082 | 57,000 | 58,008\n59,680 | 60,000 | 60,000 | 60,492 | 60,580 | 62,380\n62,872 | 64,035 | 65,000 | 65,050 | 65,647 | 66,000\n66,161 | 67,428 | 68,349 | 68,976 | 69,372 | 70,107\n70,585 | 71,594 | 72,000 | 72,922 | 73,379 | 74,500\n75,025 | 76,212 | 78,000 | 80,000 | 80,000 | 82,300\n[/TABLE]\n\na. Calculate the sample mean and the sample standard deviation for the maximum capacity of sports stadiums (the data).\nb. Construct a histogram.\nc. Draw a smooth curve through the midpoints of the tops of the bars of the histogram.\nd. In words, describe the shape of your histogram and smooth curve.\ne. Let the sample mean approximate μ and the sample standard deviation approximate σ. The distribution of X can then be approximated by X ~ _____(_____,_____).\nf. Use the distribution in part e to calculate the probability that the maximum capacity of sports stadiums is less than 67,000 spectators.\ng. Determine the cumulative relative frequency that the maximum capacity of sports stadiums is less than 67,000 spectators. Hint: Order the data and count the sports stadiums that have a maximum capacity less than 67,000. Divide by the total number of sports stadiums in the sample.\nh. Why aren’t the answers to part f and part g exactly the same?",
+     "solution": "1. mean = 60,136\n\ns = 10,468\n2. Answers will vary.\n3. Answers will vary.\n4. Answers will vary.\n5. X ~ N(60136, 10468)\n6. 0.7440\n7. The cumulative relative frequency is 43/60 = 0.717.\n8. The answers for part f and part g are not the same, because the normal distribution is only an\napproximation.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-406",
+     "problem": "An expert witness for a paternity lawsuit testifies that the length of a pregnancy is normally distributed with a mean of 280 days and a standard deviation of 13 days. The person who is being sued for lack of child support was out of the country from 240 to 306 days before the birth of the child, so the pregnancy would have been less than 240 days or more than 306 days long if he was the biological parent. The birth was uncomplicated, and the child needed no medical intervention. What is the probability that he was NOT the parent? What is the probability that he could be the parent? Calculate the z-scores first, and then use those to calculate the probability.",
+     "solution": "• For x = 240, X−μ/σ = 240−280/13=−3.0769\n• For x = 306, 306−280/13=2\n• P(240 < x < 306) = P(–3.0769 < z < 2) = normalcdf(–3.0769,2,0,1) = 0.9762.\n\nAccording to the scenario given, this means that there is a 97.62% chance that he is not the father.\n\nTo answer the second part of the question, there is a 1 – 0.9762 = 0.0238 = 2.38% chance that he is the father.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-889",
+     "problem": "An automotive factory can build an average of 6,000 cars and trucks a week. Generally, 10% of the cars were defective coming off the assembly line. Suppose we draw a random sample of n = 100 cars. Let X represent the number of defective cars in the sample. What can we say about X in regard to the 68-95-99.7 empirical rule (one standard deviation, two standard deviations and three standard deviations from the mean are being referred to)? Assume a normal distribution for the defective cars in the sample.",
+     "solution": "• n = 100; p = 0.1; q = 0.9\n• μ = np = (100)(0.10) = 10\n• σ = √(npq) = √((100)(0.1)(0.9)) = 3\n\ni. z = ±1: x1 = µ + zσ = 10 + 1(3) = 13 and x2 = µ – zσ = 10 – 1(3) = 7. 68% of the defective cars will fall between seven and 13.\nii. z = ±2: x1 = µ + zσ = 10 + 2(3) = 16 and x2 = µ – zσ = 10 – 2(3) = 4. 95 % of the defective cars will fall between four and 16\niii. z = ±3: x1 = µ + zσ = 10 + 3(3) = 19 and x2 = µ – zσ = 10 – 3(3) = 1. 99.7% of the defective cars will fall between one and 19.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-35",
+     "problem": "We flip a coin 100 times (n = 100) and note that it only comes up heads 20% (p = 0.20) of the time. The mean and standard deviation for the number of times the coin lands on heads is µ = 20 and σ = 4 (verify the mean and standard deviation). Solve the following:\n\na. There is about a 68% chance that the number of heads will be somewhere between ___ and ___.\nb. There is about a ____chance that the number of heads will be somewhere between 12 and 28.\nc. There is about a ____ chance that the number of heads will be somewhere between eight and 32.",
+     "solution": "a. There is about a 68% chance that the number of heads will be somewhere between 16 and 24. z = ±1: x1 = µ + zσ = 20 + 1(4) = 24 and x2 = µ-zσ = 20 – 1(4) = 16.\nb. There is about a 95% chance that the number of heads will be somewhere between 12 and 28. For this problem: normalcdf(12,28,20,4) = 0.9545 = 95.45%\nc. There is about a 99.73% chance that the number of heads will be somewhere between eight and 32. For this problem: normalcdf(8,32,20,4) = 0.9973 = 99.73%.",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-868",
+     "problem": "A $1 scratch off lotto ticket will be a winner one out of five times. Out of a shipment of n = 190 lotto tickets, find the probability for the lotto tickets that there are\n\na. somewhere between 34 and 54 prizes.\nb. somewhere between 54 and 64 prizes.\nc. more than 64 prizes.",
+     "stem": "A $1 scratch off lotto ticket will be a winner one out of five times. Out of a shipment of n = 190 lotto tickets, find the probability for the lotto tickets that there are",
+     "options": [
+      "somewhere between 34 and 54 prizes.",
+      "somewhere between 54 and 64 prizes.",
+      "more than 64 prizes."
+     ],
+     "solution": "• n = 190; p = 1/5\n= 0.2; q = 0.8\n• μ = np = (190)(0.2) = 38\n• σ = √(npq) = √((190)(0.2)(0.8)) = 5.5136\n\na. For this problem: P(34 < x < 54) = normalcdf(34,54,48,5.5136) = 0.7641\nb. For this problem: P(54 < x < 64) = normalcdf(54,64,48,5.5136) = 0.0018\nc. For this problem: P(x > 64) = normalcdf(64,1099,48,5.5136) = 0.0000012 (approximately 0)",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    },
+    {
+     "id": "eip-291",
+     "problem": "On average, 28% of 18 to 34 year olds check social media before getting out of bed in the morning. Suppose this percentage follows a normal distribution with a standard deviation of 5%.\n\na. Find the probability that the percent of 18 to 34-year-olds who check social media before getting out of bed in the morning is at least 30.\nb. Find the 95th percentile, and express it in a sentence.",
+     "solution": "X = the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning.\n\nX ~ N(28, 5)\n\na. P(x ≥ 30) = 0.3446; normalcdf(30,1EE99,28,5) = 0.3446\nb.\n\ninvNorm(0.95,0.28,0.05) = 0.3622.\n\n95% of the percent of 18 to 34 year olds who check Facebook before getting out of bed in the morning is at most 36.22%.\n\nc.\nP(25 < x < 55).\n\nP(25 < x < 55) = normalcdf(25,55,28,5) = 0.7257(0.7257)(400) = 290.28",
+     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+    }
+   ],
+   "bring_together": [],
+   "summary": "The normal distribution, which is continuous, is the most important of all the probability distributions. Its graph is bell-shaped. This bell-shaped curve is used in almost all disciplines. Since it is a continuous distribution, the total area under the curve is one. The parameters of the normal are the mean µ and the standard deviation σ. A special normal distribution, called the standard normal distribution is the distribution of z-scores. Its mean is zero, and its standard deviation is one.",
+   "formula_review": "Normal Distribution: X ~ N(µ, σ) where µ is the mean and σ is the standard deviation.\n\nStandard Normal Distribution: Z ~ N(0, 1).\n\nCalculator function for probability: normalcdf (lower x value of the area, upper x value of the area, mean, standard deviation)\n\nCalculator function for the kth percentile: k = invNorm (area to the left of k, mean, standard deviation)",
+   "glossary": [],
+   "kind": "section",
+   "section": "6.2"
+  },
+  {
+   "id": "m50261",
+   "title": "Normal Distribution (Lap Times)",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  },
+  {
+   "id": "m50264",
+   "title": "Normal Distribution (Pinkie Length)",
+   "tryits": [],
+   "examples": [],
+   "practice": [],
+   "homework": [],
+   "bring_together": [],
+   "summary": null,
+   "formula_review": null,
+   "glossary": [],
+   "kind": "lab"
+  }
+ ]
+}

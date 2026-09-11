@@ -1,0 +1,31 @@
+{
+  "name": "@kiwari/stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stats trainer — section-by-section quizzes, mistake review and printable tests for OpenStax Introductory Statistics 2e",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "ingest": "python3 scripts/ingest_openstax.py && python3 scripts/ingest_extra.py"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.116.0",
+    "next": "^15.3.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.0",
+    "vitest": "^4.1.10"
+  }
+}

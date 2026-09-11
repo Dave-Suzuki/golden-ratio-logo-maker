@@ -1,0 +1,2361 @@
+[
+ {
+  "id": "tryit-m46980-0",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score of x, when x = 1 and X ~ N(12,3)?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-949",
+   "ref": "Try It 6.1"
+  },
+  "modelSolution": "z =  ≈ –3.67",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46980-1",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Fill in the blanks.\n\nJerome averages 16 points a game with a standard deviation of four points. X ~ N(16,4). Suppose Jerome scores ten points in a game. The z–score when x = 10 is –1.5. This score tells you that x = 10 is _____ standard deviations to the ______(right or left) of the mean______(What is the mean?).",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-24",
+   "ref": "Try It 6.2"
+  },
+  "modelSolution": "1.5, left, 16",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46980-2",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Use the information in to answer the following questions.\n\na. Suppose a 15 to 18-year-old male from Chile was 176 cm tall from 2009 to 2010. The z-score when x = 176 cm is z = _______. This z-score tells you that x = 176 cm is ________ standard deviations to the ________ (right or left) of the mean _____ (What is the mean?).\nb. Suppose that the height of a 15 to 18-year-old male from Chile from 2009 to 2010 has a z-score of z = –2. What is the male’s height? The z-score (z = –2) tells you that the male’s height is ________ standard deviations to the __________ (right or left) of the mean.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-893",
+   "ref": "Try It 6.3"
+  },
+  "modelSolution": "Solve the equation z = (x−μ)/σ for x. x = μ + (z)(σ)\nz = (176−170)/6.28 ≈ 0.96, This z-score tells you that x = 176 cm is 0.96 standard deviations to the right of the mean 170 cm.\nX = 157.44 cm, The z-score(z = –2) tells you that the male’s height is two standard deviations to the left of the mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46980-3",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In 2012, 1,664,479 students took the SAT exam. The distribution of scores in the verbal section of the SAT had a mean µ = 496 and a standard deviation σ = 114. Let X = a SAT exam verbal section score in 2012. Then X ~ N(496, 114).\n\nFind the z-scores for x1 = 325 and x2 = 366.21. Interpret each z-score. What can you say about x1 = 325 and x2 = 366.21 as they compare to their respective means and standard deviations?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-11",
+   "ref": "Try It 6.4"
+  },
+  "modelSolution": "The z-score for x1 = 325 is z1 = –1.5.\nThe z-score for x2 = 366.21 is z2 = –1.14.\nStudent 2 scored closer to the mean than Student 1 and, since they both had negative z-scores, Student 2 had the better score.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46980-4",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Suppose X has a normal distribution with mean 25 and standard deviation five. Between what values of x do 68% of the values lie?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-897",
+   "ref": "Try It 6.5"
+  },
+  "modelSolution": "between 20 and 30.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46980-5",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "The scores on a college entrance exam have an approximate normal distribution with mean, µ = 52 points and a standard deviation, σ = 11 points.\n\na. About 68% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\nb. About 95% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.\nc. About 99.7% of the y values lie between what two values? These values are ________________. The z-scores are ________________, respectively.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-188",
+   "ref": "Try It 6.6"
+  },
+  "modelSolution": "About 68% of the values lie between the values 41 and 63. The z-scores are –1 and 1, respectively.\nAbout 95% of the values lie between the values 30 and 74. The z-scores are –2 and 2, respectively.\nAbout 99.7% of the values lie between the values 19 and 85. The z-scores are –3 and 3, respectively.\nSection 2. Using the Normal Distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp27962224",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "A bottle of water contains 12.05 fluid ounces with a standard deviation of 0.01 ounces. Define the random variable X in words. X = ____________.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp27962224"
+  },
+  "modelSolution": "ounces of water in a bottle",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm114970736",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "A normal distribution has a mean of 61 and a standard deviation of 15. What is the median?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm114970736"
+  },
+  "answer": 61.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "61"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm121963344",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "X ~ N(1, 2)\n\nσ = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm121963344"
+  },
+  "answer": 2.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "2"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm142191456",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "A company manufactures rubber balls. The mean diameter of a ball is 12 cm with a standard deviation of 0.2 cm. Define the random variable X in words. X = ______________.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm142191456"
+  },
+  "modelSolution": "diameter of a rubber ball",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm97876640",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "X ~ N(–4, 1)\n\nWhat is the median?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm97876640"
+  },
+  "answer": -4.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "–4"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm102541136",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "X ~ N(3, 5)\n\nσ = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm102541136"
+  },
+  "answer": 5.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "5"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm19058720",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "X ~ N(–2, 1)\n\nμ = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm19058720"
+  },
+  "answer": -2.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "–2"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm122119648",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What does a z-score measure?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm122119648"
+  },
+  "modelSolution": "The number of standard deviations a value is from the mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm63043376",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What does standardizing a normal distribution do to the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm63043376"
+  },
+  "modelSolution": "The mean becomes zero.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm126130944",
+  "sectionId": "6.1",
+  "kind": "tf",
+  "conceptTag": "6.1",
+  "stem": "Is X ~ N(0, 1) a standardized normal distribution? Why or why not?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm126130944"
+  },
+  "answer": true,
+  "needsFigure": false,
+  "explanation": [
+   "Yes because the mean is zero, and the standard deviation is one."
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm26153296",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score of x = 12, if it is two standard deviations to the right of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm26153296"
+  },
+  "answer": 2.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = 2"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm114925552",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score of x = 9, if it is 1.5 standard deviations to the left of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm114925552"
+  },
+  "answer": -1.5,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = –1.5"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm64977712",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score of x = –2, if it is 2.78 standard deviations to the right of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm64977712"
+  },
+  "answer": 2.78,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = 2.78"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm140331968",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score of x = 7, if it is 0.133 standard deviations to the left of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm140331968"
+  },
+  "answer": -0.133,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = –0.133"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm61157328",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(2, 6). What value of x has a z-score of three?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm61157328"
+  },
+  "answer": 20.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 20"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm18781776",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(8, 1). What value of x has a z-score of –2.25?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm18781776"
+  },
+  "answer": 5.75,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 5.75"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idp23562800",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(9, 5). What value of x has a z-score of –0.5?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp23562800"
+  },
+  "answer": 6.5,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 6.5"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm69709296",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(2, 3). What value of x has a z-score of –0.67?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm69709296"
+  },
+  "answer": -0.01,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = –0.01"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm137634928",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(4, 2). What value of x is 1.5 standard deviations to the left of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm137634928"
+  },
+  "answer": 1.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 1"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm63053168",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(4, 2). What value of x is two standard deviations to the right of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm63053168"
+  },
+  "answer": 8.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 8"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm62507744",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(8, 9). What value of x is 0.67 standard deviations to the left of the mean?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm62507744"
+  },
+  "answer": 1.97,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "x = 1.97"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm78772448",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(–1, 2). What is the z-score of x = 2?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm78772448"
+  },
+  "answer": 1.5,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = 1.5"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idp21093808",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(12, 6). What is the z-score of x = 2?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp21093808"
+  },
+  "answer": -1.67,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = –1.67"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idp10811840",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(9, 3). What is the z-score of x = 9?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp10811840"
+  },
+  "answer": 0.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z = 0"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm74086800",
+  "sectionId": "6.1",
+  "kind": "numeric",
+  "conceptTag": "6.1",
+  "stem": "Suppose a normal distribution has a mean of six and a standard deviation of 1.5. What is the z-score of x = 5.5?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm74086800"
+  },
+  "answer": -0.33,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "z ≈ –0.33"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm61163760",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In a normal distribution, x = 5 and z = –1.25. This tells you that x = 5 is ____ standard deviations to the ____ (right or left) of the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm61163760"
+  },
+  "modelSolution": "1.25, left",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp37768720",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In a normal distribution, x = 3 and z = 0.67. This tells you that x = 3 is ____ standard deviations to the ____ (right or left) of the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp37768720"
+  },
+  "modelSolution": "0.67, right",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm38070992",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In a normal distribution, x = –2 and z = 6. This tells you that x = –2 is ____ standard deviations to the ____ (right or left) of the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm38070992"
+  },
+  "modelSolution": "six, right",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm122820544",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In a normal distribution, x = –5 and z = –3.14. This tells you that x = –5 is ____ standard deviations to the ____ (right or left) of the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm122820544"
+  },
+  "modelSolution": "3.14, left",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm49315712",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "In a normal distribution, x = 6 and z = –1.7. This tells you that x = 6 is ____ standard deviations to the ____ (right or left) of the mean.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm49315712"
+  },
+  "modelSolution": "1.7, left",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm144883616",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values from a normal distribution lie within one standard deviation (left and right) of the mean of that distribution?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm144883616"
+  },
+  "modelSolution": "about 68%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm80518368",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of the x values from a normal distribution lie within two standard deviations (left and right) of the mean of that distribution?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm80518368"
+  },
+  "modelSolution": "about 95.45%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm85847520",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values lie between the second and third standard deviations (both sides)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm85847520"
+  },
+  "modelSolution": "about 4%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm24842144",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(15, 3). Between what x values does 68.27% of the data lie? The range of x values is centered at the mean of the distribution (i.e., 15).",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm24842144"
+  },
+  "modelSolution": "between 12 and 18",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm53172656",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(–3, 1). Between what x values does 95.45% of the data lie? The range of x values is centered at the mean of the distribution(i.e., –3).",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm53172656"
+  },
+  "modelSolution": "between –5 and –1",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm113806912",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Suppose X ~ N(–3, 1). Between what x values does 34.14% of the data lie?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm113806912"
+  },
+  "modelSolution": "between –4 and –3 or between –3 and –2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp81343328",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values lie between the mean and three standard deviations?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp81343328"
+  },
+  "modelSolution": "about 50%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp84402208",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values lie between the mean and one standard deviation?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp84402208"
+  },
+  "modelSolution": "about 34.14%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp76784880",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values lie between the first and second standard deviations from the mean (both sides)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp76784880"
+  },
+  "modelSolution": "about 27%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp72804864",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "About what percent of x values lie between the first and third standard deviations(both sides)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp72804864"
+  },
+  "modelSolution": "about 34.46%",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm143086848",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Define the random variable X in words. X = _______________.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm143086848"
+  },
+  "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
+  "modelSolution": "The lifetime of a wearable fitness device measured in years.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idm119601152",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "X ~ _____(_____,_____)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm119601152"
+  },
+  "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
+  "modelSolution": "X ~ N(4.1, 1.3)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-fs-idp12375792",
+  "sectionId": "6.1",
+  "kind": "mc",
+  "conceptTag": "6.1",
+  "stem": "What is the median recovery time?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp12375792"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "2.7",
+   "5.3",
+   "7.4",
+   "2.1"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idp45221936",
+  "sectionId": "6.1",
+  "kind": "mc",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score for a patient who takes ten days to recover?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idp45221936"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "1.5",
+   "0.2",
+   "2.2",
+   "7.3"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46980-fs-idm62385744",
+  "sectionId": "6.1",
+  "kind": "mc",
+  "conceptTag": "6.1",
+  "stem": "The length of time to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes. If the mean is significantly greater than the standard deviation, which of the following statements is true?\n\nI. The data cannot follow the uniform distribution.\nII. The data cannot follow the exponential distribution..\nIII. The data cannot follow the normal distribution.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "fs-idm62385744"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "I only",
+   "II only",
+   "III only",
+   "I, II, and III"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "os-m46980-eip-866",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "The heights of the 430 National Basketball Association players were listed on team rosters at the start of a recent season. The heights of basketball players have an approximate normal distribution with mean, µ = 79 inches and a standard deviation, σ = 3.89 inches. For each of the following heights, calculate the z-score and interpret it using complete sentences.\n\na. 77 inches\nb. 85 inches\nc. If an NBA player reported his height had a z-score of 3.5, would you believe him? Explain your answer.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-866"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "modelSolution": "a. Use the z-score formula. z = –0.5141. The height of 77 inches is 0.5141 standard deviations below the mean. An NBA player whose height is 77 inches is shorter than average.\nb. Use the z-score formula. z = 1.5424. The height 85 inches is 1.5424 standard deviations above the mean. An NBA player whose height is 85 inches is taller than average.\nc. Height = 79 + 3.5(3.89) = 92.615 inches, which is taller than 7 feet, 8 inches. There are very few NBA players this tall so the answer is no, not likely.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-eip-474",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "The systolic blood pressure (given in millimeters) of males has an approximately normal distribution with mean µ = 125 and standard deviation σ = 14. Systolic blood pressure for males follows a normal distribution.\n\na. Calculate the z-scores for the male systolic blood pressures 100 and 150 millimeters.\nb. If a male friend of yours said he thought his systolic blood pressure was 2.5 standard deviations below the mean, but that he believed his blood pressure was between 100 and 150 millimeters, what would you say to him?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-474"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "modelSolution": "a. Use the z-score formula. (100 – 125)/14 ≈ –1.8 and (100 – 125)/14 ≈ 1.8\nb. I would tell him that 2.5 standard deviations below the mean would give him a blood pressure reading of 90, which is below the range of 100 to 150.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-eip-808",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Kyle’s doctor told him that the z-score for his systolic blood pressure is 1.75. Which of the following is the best interpretation of this standardized score? The systolic blood pressure (given in millimeters) of males has an approximately normal distribution with mean µ = 125 and standard deviation σ = 14. If X = a systolic blood pressure score then X ~ N (125, 14).\n\na. Which answer(s) is/are correct?\n\ni. Kyle’s systolic blood pressure is 175.\nii. Kyle’s systolic blood pressure is 1.75 times the average blood pressure of men his age.\niii. Kyle’s systolic blood pressure is 1.75 above the average systolic blood pressure of men his age.\niv. Kyles’s systolic blood pressure is 1.75 standard deviations above the average systolic blood pressure for men.\n\nb. Calculate Kyle’s blood pressure.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-808"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "modelSolution": "a. iv\nb. Kyle’s blood pressure is equal to 125 + (1.75)(14) = 149.5.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46980-eip-459",
+  "sectionId": "6.1",
+  "kind": "mc",
+  "conceptTag": "6.1",
+  "stem": "Height and weight are two measurements used to track a child’s development. The World Health Organization measures child development by comparing the weights of children who are the same height and the same gender. In 2009, weights for all 80 cm girls in the reference population had a mean µ = 10.2 kg and standard deviation σ = 0.8 kg. Weights are normally distributed. X ~ N(10.2, 0.8). Calculate the z-scores that correspond to the following weights and interpret them.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-459"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "11 kg",
+   "7.9 kg",
+   "12.2 kg"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. (11 – 10.2)/0.8 = 1\nA child who weighs 11 kg is one standard deviation above the mean of 10.2 kg.\nb. (7.9 – 10.2)/0.8 = –2.875\n\nA child who weighs 7.9 kg is 2.875 standard deviations below the mean of 10.2 kg.\nc. (12.2 – 10.2)/0.8 = 2.5\n\nA child who weighs 12.2 kg is 2.5 standard deviation above the mean of 10.2 kg."
+  ]
+ },
+ {
+  "id": "os-m46980-eip-802",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "During a certain year, 1,475,623 students heading to college took the SAT. The distribution of scores in the math section of the SAT follows a normal distribution with mean µ = 520 and standard deviation σ = 115.\n\na. Calculate the z-score for an SAT score of 720. Interpret it using a complete sentence.\nb. What math SAT score is 1.5 standard deviations above the mean? What can you say about this SAT score?\nc. During a different year, the SAT math test had a mean of 514 and standard deviation 117. The ACT math test is an alternate to the SAT and is approximately normally distributed with mean 21 and standard deviation 5.3. If one person took the SAT math test and scored 700 and a second person took the ACT math test and scored 30, who did better with respect to the test they took?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46980",
+   "exerciseId": "eip-802"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "modelSolution": "Let X = an SAT math score and Y = an ACT math score. Use the z-score formula.\n\na. X = 720 : z=720-520/115=1.74. The exam score of 720 is 1.74 standard deviations above the mean of 520.\nb. z = 1.5\nThe math SAT score is 520 + 1.5(115) ≈ 692.5. The exam score of 692.5 is 1.5 standard deviations above the mean of 520.\nc. (X – μ)/σ = (700 – 514)/117 ≈ 1.59, the z-score for the SAT. (Y – μ)/σ = (30 – 21)/5.3 ≈ 1.70, the z-scores for the ACT. With respect to the test they took, the person who took the ACT did better (has the higher z-score).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-0",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "If the area to the left of x is 0.012, then what is the area to the right?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm159222080",
+   "ref": "Try It 6.7"
+  },
+  "modelSolution": "1 − 0.012 = 0.988",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-1",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three.\n\nFind the probability that a randomly selected golfer scored less than 65.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm160100784",
+   "ref": "Try It 6.8"
+  },
+  "modelSolution": "normalcdf(0,65,68,3) = 0.1587",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-2",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "The golf scores for a school team were normally distributed with a mean of 68 and a standard deviation of three. Find the probability that a golfer scored between 66 and 70.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm193708112",
+   "ref": "Try It 6.9"
+  },
+  "modelSolution": "normalcdf(66,70,68,3) = 0.4950",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-3",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "a. Find the 30th percentile, and interpret it in a complete sentence.\nb. What is the probability that the age of a randomly selected smartphone user in the range 13 to 55+ is less than 27 years old.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-idm1584512",
+   "ref": "Try It 6.10"
+  },
+  "modelSolution": "Let X = a smart phone user whose age is 13 to 55+. X ~ N(36.9, 13.9)\nTo find the 30th percentile, find k such that P(x < k) = 0.30. invNorm(0.30, 36.9, 13.9) = 29.6 years Thirty percent of smartphone users 13 to 55+ are at most 29.6 years and 70% are at least 29.6 years.\nFind P(x < 27)normalcdf(0,27,36.9,13.9) = 0.2342 (Note that normalcdf(–1099,27,36.9,13.9) = 0.2382. The two answers differ only by 0.0040.)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-4",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Two thousand students took an exam. The scores on the exam have an approximate normal distribution with a mean μ = 81 points and standard deviation σ = 15 points.\n\na. Calculate the first- and third-quartile scores for this exam.\nb. The middle 50% of the exam scores are between what two values?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm64657232",
+   "ref": "Try It 6.11"
+  },
+  "modelSolution": "Q1 = 25th percentile = invNorm(0.25,81,15) = 70.9 Q3 = 75th percentile = invNorm(0.75,81,15) = 91.1\nThe middle 50% of the scores are between 70.9 and 91.1.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46973-5",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Using the information from , answer the following:\n\na. The middle 40% of mandarin oranges from this farm are between ______ and ______.\nb. Find the 16th percentile and interpret it in a complete sentence.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-786",
+   "ref": "Try It 6.12"
+  },
+  "modelSolution": "The middle area = 0.40, so each tail has an area of 0.30.\n1 – 0.40 = 0.60\nThe tails of the graph of the normal distribution each have an area of 0.30.\nFind k1, the 30th percentile and k2, the 70th percentile (0.40 + 0.30 = 0.70).\nk1 = invNorm(0.30,5.85,0.24) = 5.72 cm\nk2 = invNorm(0.70,5.85,0.24) = 5.98 cm\ninvNorm(0.16, 5.85, 0.24) = 5.61; 16% of mandarin oranges from this farm have diameter 5.61 cm or less.\nChapter 7. The Central Limit Theorem\nSection 1. The Central Limit Theorem for Sample Means (Averages)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idp83652864",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "How would you represent the area to the left of one in a probability statement?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp83652864"
+  },
+  "modelSolution": "P(x < 1)",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idm18365728",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "What is the area to the right of one?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm18365728"
+  },
+  "modelSolution": "1 – P(x < 1) or P(x < 1)",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idp76730048",
+  "sectionId": "6.2",
+  "kind": "tf",
+  "conceptTag": "6.2",
+  "stem": "Is P(x < 1) equal to P(x ≤ 1)? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp76730048"
+  },
+  "answer": true,
+  "needsFigure": false,
+  "explanation": [
+   "Yes, because they are the same in a continuous distribution: P(x = 1) = 0"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp16475344",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "How would you represent the area to the left of three in a probability statement?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp16475344"
+  },
+  "modelSolution": "P(x < 3)",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idp103778720",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "What is the area to the right of three?\n\n[FIGURE]",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp103778720"
+  },
+  "modelSolution": "1 – P(x < 3) or P(x > 3)",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idp880816",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "If the area to the left of x in a normal distribution is 0.123, what is the area to the right of x?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp880816"
+  },
+  "modelSolution": "1 – 0.123 = 0.877",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idm33682096",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "If the area to the right of x in a normal distribution is 0.543, what is the area to the left of x?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idm33682096"
+  },
+  "modelSolution": "1 – 0.543 = 0.457",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-fs-idp83610000",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that x > 56.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp83610000"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 0.4013,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.4013"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp105059184",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that x < 30.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp105059184"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 0.0013,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0013"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp153118944",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the 80th percentile.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp153118944"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 60.73,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "60.73"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp49095264",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the 60th percentile.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp49095264"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 56.03,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "56.03"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp65259648",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "X ~ N(6, 2)\n\nFind the probability that x is between three and nine.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp65259648"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 0.8664,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.8664"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp152542352",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "X ~ N(–3, 4)\n\nFind the probability that x is between one and four.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp152542352"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 0.1186,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.1186"
+  ]
+ },
+ {
+  "id": "os-m46973-fs-idp153143568",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "X ~ N(4, 5)\n\nFind the maximum of x in the bottom quartile.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "fs-idp153143568"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "answer": 0.6276,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.6276"
+  ]
+ },
+ {
+  "id": "os-m46973-element-942",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Use the following information to answer the next three exercise: The life of wearable fitness devices is normally distributed with a mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts. Find the probability that a wearable fitness device will break down during the guarantee period.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.\n[FIGURE]\n\nb. P(0 < x < ____________) = ___________ (Use zero for the minimum value of x.)",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "element-942"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "modelSolution": "a. Answers may vary.\nb. 3, 0.1979",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-element-893",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that a wearable fitness device will last between 2.8 and six years.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the probability.\n[FIGURE]\nb. P(__________ < x < __________) = __________",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "element-893"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "modelSolution": "a. Check student’s solution\nb. 2.8, 6, 0.7694",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-element-889",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Find the 70th percentile of the distribution for the time a wearable fitness device lasts.\n\na. Sketch the situation. Label and scale the axes. Shade the region corresponding to the lower 70%.\n[FIGURE]\nb. P(x < k) = __________ Therefore, k = _________",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "element-889"
+  },
+  "context": "Use the following information to answer the next four exercises:\nX ~ N(54, 8)",
+  "modelSolution": "a. Answers may vary.\nb. 0.70, 4.78 years",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-181",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "What is the probability of spending more than two days in recovery?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-181"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "0.0580",
+   "0.8447",
+   "0.0553",
+   "0.9420"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d"
+  ]
+ },
+ {
+  "id": "os-m46973-eip-318",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "The 90th percentile for recovery times is?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-318"
+  },
+  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "options": [
+   "8.89",
+   "7.07",
+   "7.99",
+   "4.32"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46973-eip-486",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Based upon the given information and numerically justified, would you be surprised if it took less than one minute to find a parking space?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-486"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "options": [
+   "Yes",
+   "No",
+   "Unable to determine"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "os-m46973-eip-231",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that it takes at least eight minutes to find a parking space.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-231"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "options": [
+   "0.0001",
+   "0.9270",
+   "0.1862",
+   "0.0668"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d"
+  ]
+ },
+ {
+  "id": "os-m46973-eip-295",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Seventy percent of the time, it takes more than how many minutes to find a parking space?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-295"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "options": [
+   "1.24",
+   "2.41",
+   "3.95",
+   "6.05"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46973-eip-581",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "According to a study done by De Anza students, the height for Asian adult males is normally distributed with an average of 66 inches and a standard deviation of 2.5 inches. Suppose one Asian adult male is randomly chosen. Let X = height of the individual.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the person is between 65 and 69 inches. Include a sketch of the graph, and write a probability statement.\nc. Would you expect to meet many Asian adult males over 72 inches? Explain why or why not,\nand justify your answer numerically.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-581"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X ~ N(66, 2.5)\nb. 0.5404\nc. No, the probability that an Asian male is over 72 inches tall is 0.0082",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-563",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "IQ is normally distributed with a mean of 100 and a standard deviation of 15. Suppose one individual is randomly chosen. Let X = IQ of an individual.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the person has an IQ greater than 120. Include a sketch of the graph, and write a probability statement.\nc. MENSA is an organization whose members have the top 2% of all IQs. Find the minimum IQ needed to qualify for the MENSA organization. Sketch the graph, and write the probability statement.\nd. The middle 50% of IQs fall between what two values? Sketch the graph and write the probability statement.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-563"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. N(100, 15)\nb. The probability that a person has an IQ greater than 120 is 0.0918.\nc. A person has to have an IQ over 130 to qualify for MENSA.\nd. The middle 50% of IQ scores falls between 89.95 and 110.05.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-516",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of 10. Suppose that one individual is randomly chosen. Let X = percent of fat calories.\n\na. X ~ _____(_____,_____)\nb. Find the probability that the percent of fat calories a person consumes is more than 40. Graph the situation. Shade in the area to be determined.\nc. Find the maximum number for the lower quarter of percent of fat calories. Sketch the graph and write the probability statement.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-516"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X ~ N(36, 10)\nb. The probability that a person consumes more than 40% of their calories as fat is 0.3446.\nc. Approximately 25% of people consume less than 29.26% of their calories as fat.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-967",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet.\n\na. If X = distance in feet for a fly ball, then X ~ _____(_____,_____)\nb. If one fly ball is randomly chosen from this distribution, what is the probability that this ball traveled fewer than 220 feet? Sketch the graph. Scale the horizontal axis X. Shade the region corresponding to the probability. Find the probability.\nc. Find the 80th percentile of the distribution of fly balls. Sketch the graph, and write the probability statement.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-967"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X ~ N(250, 50)\nb. The probability that a fly ball travels less than 220 feet is 0.2743.\nc. Eighty percent of the fly balls will travel less than 292 feet.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-930",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "In China, four-year-olds average three hours a day unsupervised. Most of the unsupervised children live in rural areas, considered safe. Suppose that the standard deviation is 1.5 hours and the amount of time spent alone is normally distributed. We randomly select one Chinese four-year-old living in a rural area. We are interested in the amount of time the child spends alone per day.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. Find the probability that the child spends less than one hour per day unsupervised. Sketch the graph, and write the probability statement.\nd. What percent of the children spend over ten hours per day unsupervised?\ne. Seventy percent of the children spend at least how long per day unsupervised?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-930"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X = number of hours that a Chinese four-year-old in a rural area is unsupervised during the day.\nb. X ~ N(3, 1.5)\nc. The probability that the child spends less than one hour a day unsupervised is 0.0918.\nd. The probability that a child spends over ten hours a day unsupervised is less than 0.0001.\ne. 2.21 hours",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-698",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "In a certain presidential election, Alaska’s 40 election districts averaged 1,956.8 votes per district for Candidate A. The standard deviation was 572.3. (There are only 40 election districts in Alaska.) The distribution of the votes per district for Candidate A was bell-shaped. Let X = number of votes for Candidate A for an election district.\n\na. State the approximate distribution of X.\nb. Is 1,956.8 a population mean or a sample mean? How do you know?\nc. Find the probability that a randomly selected district had fewer than 1,600 votes for Candidate A. Sketch the graph and write the probability statement.\nd. Find the probability that a randomly selected district had between 1,800 and 2,000 votes for Candidate A.\ne. Find the third quartile for votes for Candidate A.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-698"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X ~ N(1956.8, 572.3)\nb. This is a population mean, because all election districts are included.\nc. The probability that a district had less than 1,600 votes for President Clinton is 0.2676.\nd. 0.3798\ne. Seventy-five percent of the districts had fewer than 2,340 votes for President Clinton.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-838",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Suppose that the duration of a particular type of criminal trial is known to be normally distributed with a mean of 21 days and a standard deviation of seven days.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. If one of the trials is randomly chosen, find the probability that it lasted at least 24 days. Sketch the graph and write the probability statement.\nd. Sixty percent of all trials of this type are completed within how many days?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-838"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X = the distribution of the number of days a particular type of criminal trial will take\nb. X ~ N(21, 7)\nc. The probability that a randomly selected trial will last more than 24 days is 0.3336.\nd. 22.77",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-335",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "A motorcycle racer averages 129.71 seconds per 2.5 mile lap (in a seven-lap race) with a standard deviation of 2.28 seconds. The distribution of their race times is normally distributed. We are interested in one of their randomly selected laps.\n\na. In words, define the random variable X.\nb. X ~ _____(_____,_____)\nc. Find the percent of the racer's laps that are completed in less than 130 seconds.\nd. The fastest 3% of the racer's laps are under _____.\ne. The middle 80% of the racer's laps are from _______ seconds to _______ seconds.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-335"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. X = the distribution of race times that Terry Vogel produces\nb. X ~ N(129.71, 2.28)\nc. Terri completes 55.17% of her laps in less than 130 seconds.\nd. Terri completes 55.17% of her laps in less than 130 seconds.\ne. 124.4 and 135.02",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-923",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Thuy Dau, Ngoc Bui, Sam Su, and Lan Voung conducted a survey as to how long customers at Lucky claimed to wait in the checkout line until their turn. Let X = time in line. displays the ordered real data (in minutes):\n\n[TABLE]\n0.50 | 4.25 | 5 | 6 | 7.25\n1.75 | 4.25 | 5.25 | 6 | 7.25\n2 | 4.25 | 5.25 | 6.25 | 7.25\n2.25 | 4.25 | 5.5 | 6.25 | 7.75\n2.25 | 4.5 | 5.5 | 6.5 | 8\n2.5 | 4.75 | 5.5 | 6.5 | 8.25\n2.75 | 4.75 | 5.75 | 6.5 | 9.5\n3.25 | 4.75 | 5.75 | 6.75 | 9.5\n3.75 | 5 | 6 | 6.75 | 9.75\n3.75 | 5 | 6 | 6.75 | 10.75\n[/TABLE]\n\na. Calculate the sample mean and the sample standard deviation.\nb. Construct a histogram.\nc. Draw a smooth curve through the midpoints of the tops of the bars.\nd. In words, describe the shape of your histogram and smooth curve.\ne. Let the sample mean approximate μ and the sample standard deviation approximate σ. The distribution of X can then be approximated by X ~ _____(_____,_____)\nf. Use the distribution in part e to calculate the probability that a person will wait fewer than 6.1 minutes.\ng. Determine the cumulative relative frequency for waiting less than 6.1 minutes.\nh. Why aren’t the answers to part f and part g exactly the same?\ni. Why are the answers to part f and part g as close as they are?\nj. If only ten customers has been surveyed rather than 50, do you think the answers to part f and part g would have been closer together or farther apart? Explain your conclusion.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-923"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. mean = 5.51, s = 2.15\nb. Answers may vary.\nc. Answers may vary.\nd. Answers may vary.\ne. X ~ N(5.51, 2.15)\nf. 0.6029\ng. The cumulative frequency for less than 6.1 minutes is 0.64.\nh. The answers to part f and part g are not exactly the same, because the normal distribution is only an approximation to the real one.\ni. The answers to part f and part g are close, because a normal distribution is an excellent approximation when the sample size is greater than 30.\nj. The approximation would have been less accurate, because the smaller sample size means that the data does not fit normal curve as well.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-24",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Suppose that Ric and Anita attend different colleges. Ric’s GPA is the same as the average GPA at their school. Anita’s GPA is 0.70 standard deviations above her school average. In complete sentences, explain why each of the following statements may be false.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-24"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "options": [
+   "Ric’s actual GPA is lower than Anita’s actual GPA.",
+   "Ric is not passing because their z-score is zero.",
+   "Anita is in the 70th percentile of students at her college."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. If the average GPA is less at Anita’s school than it is at Ricardo’s, then Ricardo’s actual score could be higher.\nb. Passing can be defined differently at different schools. Also, since Ricardo’s z-score is 0, his GPA is actually\nthe average for his school, which is typically a passing GPA.\nc. Anita’s percentile is higher than the 70th percentile."
+  ]
+ },
+ {
+  "id": "os-m46973-eip-67",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "shows a sample of the maximum capacity (maximum number of spectators) of sports stadiums. The table does not include horse-racing or motor-racing stadiums.\n\n[TABLE]\n40,000 | 40,000 | 45,050 | 45,500 | 46,249 | 48,134\n49,133 | 50,071 | 50,096 | 50,466 | 50,832 | 51,100\n51,500 | 51,900 | 52,000 | 52,132 | 52,200 | 52,530\n52,692 | 53,864 | 54,000 | 55,000 | 55,000 | 55,000\n55,000 | 55,000 | 55,000 | 55,082 | 57,000 | 58,008\n59,680 | 60,000 | 60,000 | 60,492 | 60,580 | 62,380\n62,872 | 64,035 | 65,000 | 65,050 | 65,647 | 66,000\n66,161 | 67,428 | 68,349 | 68,976 | 69,372 | 70,107\n70,585 | 71,594 | 72,000 | 72,922 | 73,379 | 74,500\n75,025 | 76,212 | 78,000 | 80,000 | 80,000 | 82,300\n[/TABLE]\n\na. Calculate the sample mean and the sample standard deviation for the maximum capacity of sports stadiums (the data).\nb. Construct a histogram.\nc. Draw a smooth curve through the midpoints of the tops of the bars of the histogram.\nd. In words, describe the shape of your histogram and smooth curve.\ne. Let the sample mean approximate μ and the sample standard deviation approximate σ. The distribution of X can then be approximated by X ~ _____(_____,_____).\nf. Use the distribution in part e to calculate the probability that the maximum capacity of sports stadiums is less than 67,000 spectators.\ng. Determine the cumulative relative frequency that the maximum capacity of sports stadiums is less than 67,000 spectators. Hint: Order the data and count the sports stadiums that have a maximum capacity less than 67,000. Divide by the total number of sports stadiums in the sample.\nh. Why aren’t the answers to part f and part g exactly the same?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-67"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "1. mean = 60,136\n\ns = 10,468\n2. Answers will vary.\n3. Answers will vary.\n4. Answers will vary.\n5. X ~ N(60136, 10468)\n6. 0.7440\n7. The cumulative relative frequency is 43/60 = 0.717.\n8. The answers for part f and part g are not the same, because the normal distribution is only an\napproximation.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-406",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "An expert witness for a paternity lawsuit testifies that the length of a pregnancy is normally distributed with a mean of 280 days and a standard deviation of 13 days. The person who is being sued for lack of child support was out of the country from 240 to 306 days before the birth of the child, so the pregnancy would have been less than 240 days or more than 306 days long if he was the biological parent. The birth was uncomplicated, and the child needed no medical intervention. What is the probability that he was NOT the parent? What is the probability that he could be the parent? Calculate the z-scores first, and then use those to calculate the probability.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-406"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "• For x = 240, X−μ/σ = 240−280/13=−3.0769\n• For x = 306, 306−280/13=2\n• P(240 < x < 306) = P(–3.0769 < z < 2) = normalcdf(–3.0769,2,0,1) = 0.9762.\n\nAccording to the scenario given, this means that there is a 97.62% chance that he is not the father.\n\nTo answer the second part of the question, there is a 1 – 0.9762 = 0.0238 = 2.38% chance that he is the father.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-889",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "An automotive factory can build an average of 6,000 cars and trucks a week. Generally, 10% of the cars were defective coming off the assembly line. Suppose we draw a random sample of n = 100 cars. Let X represent the number of defective cars in the sample. What can we say about X in regard to the 68-95-99.7 empirical rule (one standard deviation, two standard deviations and three standard deviations from the mean are being referred to)? Assume a normal distribution for the defective cars in the sample.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-889"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "• n = 100; p = 0.1; q = 0.9\n• μ = np = (100)(0.10) = 10\n• σ = √(npq) = √((100)(0.1)(0.9)) = 3\n\ni. z = ±1: x1 = µ + zσ = 10 + 1(3) = 13 and x2 = µ – zσ = 10 – 1(3) = 7. 68% of the defective cars will fall between seven and 13.\nii. z = ±2: x1 = µ + zσ = 10 + 2(3) = 16 and x2 = µ – zσ = 10 – 2(3) = 4. 95 % of the defective cars will fall between four and 16\niii. z = ±3: x1 = µ + zσ = 10 + 3(3) = 19 and x2 = µ – zσ = 10 – 3(3) = 1. 99.7% of the defective cars will fall between one and 19.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-35",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "We flip a coin 100 times (n = 100) and note that it only comes up heads 20% (p = 0.20) of the time. The mean and standard deviation for the number of times the coin lands on heads is µ = 20 and σ = 4 (verify the mean and standard deviation). Solve the following:\n\na. There is about a 68% chance that the number of heads will be somewhere between ___ and ___.\nb. There is about a ____chance that the number of heads will be somewhere between 12 and 28.\nc. There is about a ____ chance that the number of heads will be somewhere between eight and 32.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-35"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "a. There is about a 68% chance that the number of heads will be somewhere between 16 and 24. z = ±1: x1 = µ + zσ = 20 + 1(4) = 24 and x2 = µ-zσ = 20 – 1(4) = 16.\nb. There is about a 95% chance that the number of heads will be somewhere between 12 and 28. For this problem: normalcdf(12,28,20,4) = 0.9545 = 95.45%\nc. There is about a 99.73% chance that the number of heads will be somewhere between eight and 32. For this problem: normalcdf(8,32,20,4) = 0.9973 = 99.73%.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-868",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "A $1 scratch off lotto ticket will be a winner one out of five times. Out of a shipment of n = 190 lotto tickets, find the probability for the lotto tickets that there are",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-868"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "• n = 190; p = 1/5\n= 0.2; q = 0.8\n• μ = np = (190)(0.2) = 38\n• σ = √(npq) = √((190)(0.2)(0.8)) = 5.5136\n\na. For this problem: P(34 < x < 54) = normalcdf(34,54,48,5.5136) = 0.7641\nb. For this problem: P(54 < x < 64) = normalcdf(54,64,48,5.5136) = 0.0018\nc. For this problem: P(x > 64) = normalcdf(64,1099,48,5.5136) = 0.0000012 (approximately 0)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46973-eip-291",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "On average, 28% of 18 to 34 year olds check social media before getting out of bed in the morning. Suppose this percentage follows a normal distribution with a standard deviation of 5%.\n\na. Find the probability that the percent of 18 to 34-year-olds who check social media before getting out of bed in the morning is at least 30.\nb. Find the 95th percentile, and express it in a sentence.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46973",
+   "exerciseId": "eip-291"
+  },
+  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "modelSolution": "X = the percent of 18 to 34-year-olds who check Facebook before getting out of bed in the morning.\n\nX ~ N(28, 5)\n\na. P(x ≥ 30) = 0.3446; normalcdf(30,1EE99,28,5) = 0.3446\nb.\n\ninvNorm(0.95,0.28,0.05) = 0.3622.\n\n95% of the percent of 18 to 34 year olds who check Facebook before getting out of bed in the morning is at most 36.22%.\n\nc.\nP(25 < x < 55).\n\nP(25 < x < 55) = normalcdf(25,55,28,5) = 0.7257(0.7257)(400) = 290.28",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-55",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Translate this statement about the distribution of a random variable X into words: X ~ (100, 15).",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 55
+  },
+  "modelSolution": "The random variable X has a normal distribution with a mean of 100 and a standard deviation of 15.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-56",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "If the variable X has the standard normal distribution, express this symbolically.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 56
+  },
+  "modelSolution": "X ~ N(0,1)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-57",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score for a height of 112 inches?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 57
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "z=x−μ/σ so z=112−109/4.5=0.67",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-58",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What is the z-score for a height of 100 centimeters?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 58
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "z=x−μ/σ so z=100−109/4.5=−2.00",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-59",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Find the z-score for a height of 105 centimeters and explain what that means In the context of the population.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 59
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "z=105−109/4.5=−0.89\n\nThis girl is shorter than average for her age, by 0.89 standard deviations.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-60",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "What height corresponds to a z-score of 1.5 in this population?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 60
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "109 + (1.5)(4.5) = 115.75 cm",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-61",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Using the empirical rule, we expect about 68 percent of the values in a normal distribution to lie within one standard deviation above or below the mean. What does this mean, in terms of a specific range of values, for this distribution?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 61
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "We expect about 68 percent of the heights of girls of age five years and zero months to be between 104.5 cm and 113.5 cm.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-62",
+  "sectionId": "6.1",
+  "kind": "open",
+  "conceptTag": "6.1",
+  "stem": "Using the empirical rule, about what percent of heights in this distribution do you expect to be between 95.5 cm and 122.5 cm?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 62
+  },
+  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "modelSolution": "We expect 99.7 percent of the heights in this distribution to be between 95.5 cm and 122.5 cm, because that range represents the values three standard deviations above and below the mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-63",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "Can you use the normal approximation to the binomial for your calculations? Why or why not.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 63
+  },
+  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "modelSolution": "Yes, because both np and nq are greater than five.\nnp = (500)(0.20) = 100 and nq = 500(0.80) = 400",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-64",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "What are the expected mean and standard deviation for your sample, assuming the distributor’s claim is true?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 64
+  },
+  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "modelSolution": "μ=np=(500)(0.20)=100\n\nσ=√(npq)=√(500(0.20)(0.80))=8.94",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-65",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "What is the probability that your sample will have a mean greater than 100?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 65
+  },
+  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "modelSolution": "Fifty percent, because in a normal distribution, half the values lie above the mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt2-66",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "If the z-score for your sample result is –2.00, explain what this means, using the empirical rule.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 2",
+   "n": 66
+  },
+  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "modelSolution": "The results of our sample were two standard deviations below the mean, suggesting it is unlikely that 20 percent of the lotto tickets are winners, as claimed by the distributor, and that the true percent of winners is lower. Applying the Empirical Rule, If that claim were true, we would expect to see a result this far below the mean only about 2.5 percent of the time.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-27",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "The lifetime of a computer circuit board is normally distributed with a mean of 2,500 hours and a standard deviation of 60 hours. What is the probability that a randomly chosen board will last at most 2,560 hours?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 27
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "options": [
+   "0.8413",
+   "0.1587",
+   "0.3461",
+   "0.6539"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 0.8413"
+  ]
+ },
+ {
+  "id": "fe1-30",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Suppose that Phi Beta Kappa honors the top one percent of college and university seniors. Assume that grade point means (GPA) at a certain college are normally distributed with a 2.5 mean and a standard deviation of 0.5. What would be the minimum GPA needed to become a member of Phi Beta Kappa at that college?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 30
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "options": [
+   "3.99",
+   "1.34",
+   "3.00",
+   "3.66"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d. 3.66"
+  ]
+ },
+ {
+  "id": "fe2-12",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "If a normally distributed random variable has µ = 0 and σ = 1, then 97.5% of the population values lie above:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 12
+  },
+  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
+  "options": [
+   "–1.96.",
+   "1.96.",
+   "1.",
+   "–1."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. –1.96"
+  ]
+ },
+ {
+  "id": "fe2-19",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "What is the 90th percentile of waiting times (in minutes)?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 19
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "options": [
+   "1.28",
+   "90",
+   "7.47",
+   "6.92"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d. 6.92"
+  ]
+ },
+ {
+  "id": "fe2-20",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "The median waiting time (in minutes) for one student is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 20
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "options": [
+   "5.",
+   "50.",
+   "2.5.",
+   "1.5."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. 5"
+  ]
+ },
+ {
+  "id": "fe2-21",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that the average wait time for ten students is at most 5.5 minutes.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 21
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "options": [
+   "0.6301",
+   "0.8541",
+   "0.3694",
+   "0.1459"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. 0.8541"
+  ]
+ },
+ {
+  "id": "fe2-22",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "A sample of 80 software engineers in Silicon Valley is taken and it is found that 20% of them earn approximately $50,000 per year. A point estimate for the true proportion of engineers in Silicon Valley who earn $50,000 per year is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 22
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "options": [
+   "16.",
+   "0.2.",
+   "1.",
+   "0.95."
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. 0.2"
+  ]
+ },
+ {
+  "id": "fe2-23",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "If P(Z < zα) = 0.1587 where Z ~ N(0, 1), then α is equal to:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 23
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "options": [
+   "–1.",
+   "0.1587.",
+   "0.8413.",
+   "1."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. –1."
+  ]
+ },
+ {
+  "id": "rv9-87",
+  "sectionId": "6.2",
+  "kind": "mc",
+  "conceptTag": "6.2",
+  "stem": "Given: uniform, exponential, normal distributions. Match each to a statement below.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 87
+  },
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
+  "options": [
+   "mean = median ≠ mode",
+   "mean > median > mode",
+   "mean = median = mode"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. uniform\nb. exponential\nc. normal"
+  ]
+ },
+ {
+  "id": "rv10-97",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the 90th percentile of waiting time in minutes.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 10",
+   "n": 97
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "answer": 7.6,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "7.6"
+  ]
+ },
+ {
+  "id": "rv10-98",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the median waiting time for one student.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 10",
+   "n": 98
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "answer": 5.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "5"
+  ]
+ },
+ {
+  "id": "rv10-99",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Find the probability that the average waiting time for 40 students is at least 4.5 minutes.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 10",
+   "n": 99
+  },
+  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "answer": 0.9431,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.9431"
+  ]
+ },
+ {
+  "id": "rv11-100",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Sixty percent of individuals keep their cars at most how many years?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 100
+  },
+  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "answer": 7.5,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "7.5"
+  ]
+ },
+ {
+  "id": "rv11-101",
+  "sectionId": "6.2",
+  "kind": "numeric",
+  "conceptTag": "6.2",
+  "stem": "Suppose that we randomly survey one person. Find the probability that person keeps their car less than 2.5 years.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 101
+  },
+  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "answer": 0.0122,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.0122"
+  ]
+ },
+ {
+  "id": "rv11-102",
+  "sectionId": "6.2",
+  "kind": "open",
+  "conceptTag": "6.2",
+  "stem": "If we are to pick individuals ten at a time, find the distribution for the mean car length ownership.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 102
+  },
+  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "modelSolution": "N(7, 0.63)",
+  "needsFigure": false,
+  "explanation": []
+ }
+]

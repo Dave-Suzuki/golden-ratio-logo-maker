@@ -1,0 +1,1106 @@
+[
+ {
+  "id": "os-m47124-eip-555",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "Write one assumption.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47124",
+   "exerciseId": "eip-555"
+  },
+  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "modelSolution": "Each population from which a sample is taken is assumed to be normal.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47124-eip-194",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "Write a third assumption.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47124",
+   "exerciseId": "eip-194"
+  },
+  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "modelSolution": "The populations are assumed to have equal standard deviations (or variances).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47124-eip-922",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "Write the final assumption.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47124",
+   "exerciseId": "eip-922"
+  },
+  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "modelSolution": "The response is a numerical value.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47124-eip-417",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "State the alternative hypothesis for a one-way ANOVA test if there are three groups.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47124",
+   "exerciseId": "eip-417"
+  },
+  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "modelSolution": "Ha: At least two of the group means μ1, μ2, μ3 are not equal.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47124-eip-213",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "Three different traffic routes are tested for mean driving time. The entries in the are the driving times in minutes on the three different routes.\n\n[TABLE]\nRoute 1 | Route 2 | Route 3\n30 | 27 | 16\n32 | 29 | 41\n27 | 28 | 22\n35 | 36 | 31\n[/TABLE]\n\nState SSbetween, SSwithin, and the F statistic.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47124",
+   "exerciseId": "eip-213"
+  },
+  "modelSolution": "SSbetween = 26\n\nSSwithin = 441\n\nF = 0.2653",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47128-0",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "As part of an experiment to see how different types of soil cover would affect slicing tomato production, Marist College students grew tomato plants under different soil cover conditions. Groups of three plants each had one of the following treatments\n\n• bare soil\n• a commercial ground cover\n• black plastic\n• straw\n• compost\n\nAll plants grew under the same conditions and were the same variety. Students recorded the weight (in grams) of tomatoes produced by each of the n = 15 plants:\n\n[TABLE]\nBare: n1 = 3 | Ground Cover: n2 = 3 | Plastic: n3 = 3 | Straw: n4 = 3 | Compost: n5 = 3\n2,625 | 5,348 | 6,583 | 7,285 | 6,277\n2,997 | 5,682 | 8,560 | 6,897 | 7,818\n4,915 | 5,482 | 3,830 | 9,230 | 8,677\n[/TABLE]\n\nCreate the one-way ANOVA table.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "fs-idm48661072",
+   "ref": "Try It 13.1"
+  },
+  "modelSolution": "Enter the data into lists L1, L2, L3, L4 and L5. Press STAT and arrow over to TESTS. Arrow down to ANOVA. Press ENTER and enter L1, L2, L3, L4, L5). Press ENTER. The table was filled in with the results from the calculator.\nOne-Way ANOVA table:\nSource of Variation\nSum of Squares (SS)\nDegrees of Freedom (df)\nMean Square (MS)\nF\nFactor (Between)\n36,648,561\n5 – 1 = 4\n=9,162,140\n=4.4810\nError (Within)\n20,446,726\n15 – 5 = 10\n=2,044,672.6\nTotal\n57,095,287\n15 – 1 = 14\nSection 3. Facts About the F Distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47128-eip-317",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is the Sum of Squares Factor?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-317"
+  },
+  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in are the weights for the different groups.\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "answer": 4939.2,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "4,939.2"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-617",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is the df for the numerator?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-617"
+  },
+  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in are the weights for the different groups.\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "answer": 2.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "2"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-297",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is the Mean Square Factor?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-297"
+  },
+  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in are the weights for the different groups.\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "answer": 2469.6,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "2,469.6"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-485",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is the F statistic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-485"
+  },
+  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in are the weights for the different groups.\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "answer": 3.7416,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "3.7416"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-332",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is the df for the numerator?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-332"
+  },
+  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "answer": 3.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "3"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-543",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is SSwithin?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-543"
+  },
+  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "answer": 13.2,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "13.2"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-91",
+  "sectionId": "13.2",
+  "kind": "numeric",
+  "conceptTag": "13.2",
+  "stem": "What is MSwithin?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-91"
+  },
+  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "answer": 0.825,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.825"
+  ]
+ },
+ {
+  "id": "os-m47128-eip-23",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "Judging by the F statistic, do you think it is likely or unlikely that you will reject the null hypothesis?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "eip-23"
+  },
+  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "modelSolution": "Because a one-way ANOVA test is always right-tailed, a high F statistic corresponds to a low p-value, so it is likely that we will reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47128-fs-idp124948560",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "degrees of freedom – denominator: df(denom) = ________",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47128",
+   "exerciseId": "fs-idp124948560"
+  },
+  "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\nH0: µ1 = µ2 = µ3 = µ4 = µ5\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal.",
+  "modelSolution": "df(denom) = 15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47119-0",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "There are multiple variants of the virus that causes COVID-19. The length of hospital stays for patients afflicted with various strains of COVID-19 is shown in .\n\n[TABLE]\nDelta Strain | Omicron Strain | Alpha Strain | Gamma Strain | Beta Strain\n13.9 | 11.7 | 18.2 | 16.9 | 9.3\n14.9 | 15.1 | 14.6 | 12.8 | 15.8\n16.8 | 9.9 | 10.1 | 11.2 | 16.4\n[/TABLE]\n\nTest whether the mean length of hospital stay is the same or different for the various strains of COVID-19. Construct the ANOVA table, find the p-value, and state your conclusion. Use a 5% significance level.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-746",
+   "ref": "Try It 13.2"
+  },
+  "modelSolution": "We test for equality of mean length of hospital stay:\n\nH_0:μ_1=μ_2=μ_3=μ_4=μ_5\n\nH_a:μ_i≠μ_j,some i≠j\n\nThe one-way ANOVA table results are shown:\n\n[TABLE]\nSource of Variation | Sum of Squares (SS) | Degrees of Freedom (df) | Mean Square (MS) | F | P-value\nFactor (Between) | 14.056 | 5 – 1 = 4 | 3.514 | 0.353095 | 0.8362\nError (Within) | 99.52 | 15 – 5 = 10 | 9.952 | |\n| | | |\nTotal | 113.576 | 15 – 1 = 14 | | |\n[/TABLE]\n\nDistribution for the test: F4, 10\n\nProbability Statement: p-value = P(F > 0.3531) = 0.8362\n\nCompare  and the p-value: α = 0.05, p-value = 08362, α > p-value\n\nMake a decision: Since  > p-value, we do not reject H_0.\n\nConclusion: At the 5% significance level, there is insufficient evidence from these data that different strains of COVID-19 virus will cause a significant difference in the length of a hospital stay.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47119-1",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Four sports teams took a random sample of players regarding their GPAs for the last year. The results are shown in .\n\n[TABLE]\nBasketball | Baseball | Hockey | Lacrosse\n3.6 | 2.1 | 4.0 | 2.0\n2.9 | 2.6 | 2.0 | 3.6\n2.5 | 3.9 | 2.6 | 3.9\n3.3 | 3.1 | 3.2 | 2.7\n3.8 | 3.4 | 3.2 | 2.5\n[/TABLE]\n\nUse a significance level of 5%, and determine if there is a difference in GPA among the teams.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-935",
+   "ref": "Try It 13.3"
+  },
+  "modelSolution": "With a p-value of 0.9271, we decline to reject the null hypothesis. There is not sufficient evidence to conclude that there is a difference among the GPAs for the sports teams.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47119-2",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Another fourth grader also grew bean plants, but this time in a jelly-like mass. The heights were (in inches) 24, 28, 25, 30, and 32. Do a one-way ANOVA test on the four groups. Are the heights of the bean plants different? Use the same method as shown in .",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "element-3252",
+   "ref": "Try It 13.4"
+  },
+  "modelSolution": "F = 0.9496\np-value = 0.4402\nFrom the sample data, the evidence is not sufficient to conclude that the mean heights of the bean plants are different.\nSection 4. Test of Two Variances",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-707",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "What happens to the curves as the degrees of freedom for the numerator and the denominator get larger?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-707"
+  },
+  "modelSolution": "The curves approximate the normal distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-162",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "What is the df(denom)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-162"
+  },
+  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "modelSolution": "ten",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-213",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "What are the Sum of Squares and Mean Squares Errors?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-213"
+  },
+  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "modelSolution": "SS = 237.33; MS = 23.73",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-155",
+  "sectionId": "13.3",
+  "kind": "numeric",
+  "conceptTag": "13.3",
+  "stem": "What is the p-value?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-155"
+  },
+  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in .\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "answer": 0.1614,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.1614"
+  ]
+ },
+ {
+  "id": "os-m47119-eip-602",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "What is the df(num)?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-602"
+  },
+  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "modelSolution": "two",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-944",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "What are the SSbetween and MSbetween?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-944"
+  },
+  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "modelSolution": "SS = 5,700.4;\n\nMS = 2,850.2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-105",
+  "sectionId": "13.3",
+  "kind": "numeric",
+  "conceptTag": "13.3",
+  "stem": "What is the F Statistic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-105"
+  },
+  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "answer": 3.6101,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "3.6101"
+  ]
+ },
+ {
+  "id": "os-m47119-eip-920",
+  "sectionId": "13.3",
+  "kind": "tf",
+  "conceptTag": "13.3",
+  "stem": "At the 10% significance level, are the scores among the different groups different?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-920"
+  },
+  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "answer": true,
+  "needsFigure": false,
+  "explanation": [
+   "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level."
+  ]
+ },
+ {
+  "id": "os-m47119-element-240",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat's weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again, and the net gain in grams is recorded. Using a significance level of 10%, test the hypothesis that the three formulas produce the same mean weight gain.\n\n[TABLE]\nLinda's rats | Tuan's rats | Javier's rats\n43.5 | 47.0 | 51.2\n39.4 | 40.5 | 40.9\n41.3 | 38.9 | 37.9\n46.0 | 46.3 | 45.0\n38.2 | 44.2 | 48.6\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "element-240"
+  },
+  "modelSolution": "a. H0: µL = µT = µJ\nb. Ha: at least any two of the means are different\nc. df(num) = 2; df(denom) = 12\nd. F distribution\ne. 0.67\nf. 0.5305\ng. Answers may vary.\nh. Decision: Do not reject null hypothesis; Conclusion: There is insufficient evidence to conclude that the means are different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-element-219",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Eliminate one magazine type that you now feel has a mean length different from the others. Redo the hypothesis test, testing that the remaining three means are statistically the same. Use a new solution sheet. Based on this test, are the mean lengths for the remaining three magazines statistically the same?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "element-219"
+  },
+  "modelSolution": "a. Ha: µc = µn = µh\nb. At least any two of the magazines have different mean lengths.\nc. df(num) = 2, df(denom) = 12\nd. F distribtuion\ne. F = 15.28\nf. p-value = 0.0005\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the Null Hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the mean lengths of the magazines are different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-1000",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Are the means for the final exams the same for all statistics class delivery types? shows the scores on final exams from several randomly selected classes that used the different delivery types.\n\n[TABLE]\nOnline | Hybrid | Face-to-Face\n72 | 83 | 80\n84 | 73 | 78\n77 | 84 | 84\n80 | 81 | 81\n81 | | 86\n| | 79\n| | 82\n[/TABLE]\n\nAssume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-1000"
+  },
+  "modelSolution": "a. H0: μo = μh = μf\nb. At least two of the means are different.\nc. df(n) = 2, df(d) = 13\nd. F2,13\ne. 0.64\nf. 0.5437\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: The mean scores of different class delivery are not different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-fs-idp113565584",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Are the mean numbers of daily visitors to a ski resort the same for the three types of snow conditions? Suppose that shows the results of a study.\n\n[TABLE]\nPowder | Machine Made | Hard Packed\n1,210 | 2,107 | 2,846\n1,080 | 1,149 | 1,638\n1,537 | 862 | 2,019\n941 | 1,870 | 1,178\n| 1,528 | 2,233\n| 1,382 |\n[/TABLE]\n\nAssume that all distributions are normal, the four population standard deviations are approximately the same, and the data were collected independently and randomly. Use a level of significance of 0.05.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "fs-idp113565584"
+  },
+  "modelSolution": "a. H0: μp = μm = μh\nb. At least any two of the means are different.\nc. df(n) = 2, df(d) = 12\nd. F2,12\ne. 3.13\nf. 0.0807\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47119-eip-137",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "DDT is a pesticide that has been banned from use in the United States and most other areas of the world. It is quite effective, but persisted in the environment and over time became seen as harmful to higher-level organisms. Famously, egg shells of eagles and other raptors were believed to be thinner and prone to breakage in the nest because of ingestion of DDT in the food chain of the birds.\n\nAn experiment was conducted on the number of eggs (fecundity) laid by female fruit flies. There are three groups of flies. One group was bred to be resistant to DDT (the RS group). Another was bred to be especially susceptible to DDT (SS). Finally there was a control line of non-selected or typical fruitflies (NS). Here are the data:\n\n[TABLE]\nRS | SS | NS | RS | SS | NS\n12.8 | 38.4 | 35.4 | 22.4 | 23.1 | 22.6\n21.6 | 32.9 | 27.4 | 27.5 | 29.4 | 40.4\n14.8 | 48.5 | 19.3 | 20.3 | 16 | 34.4\n23.1 | 20.9 | 41.8 | 38.7 | 20.1 | 30.4\n34.6 | 11.6 | 20.3 | 26.4 | 23.3 | 14.9\n19.7 | 22.3 | 37.6 | 23.7 | 22.9 | 51.8\n22.6 | 30.2 | 36.9 | 26.1 | 22.5 | 33.8\n29.6 | 33.4 | 37.3 | 29.5 | 15.1 | 37.9\n16.4 | 26.7 | 28.2 | 38.6 | 31 | 29.5\n20.3 | 39 | 23.4 | 44.4 | 16.9 | 42.4\n29.3 | 12.8 | 33.7 | 23.2 | 16.1 | 36.6\n14.9 | 14.6 | 29.2 | 23.6 | 10.8 | 47.4\n27.3 | 12.2 | 41.7 | | |\n[/TABLE]\n\nThe values are the average number of eggs laid daily for each of 75 flies (25 in each group) over the first 14 days of their lives. Using a 1% level of significance, are the mean rates of egg selection for the three strains of fruitfly different? If so, in what way? Specifically, the researchers were interested in whether or not the selectively bred strains were different from the nonselected line, and whether the two selected lines were different from each other.\n\nHere is a chart of the three groups:\n\n[FIGURE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47119",
+   "exerciseId": "eip-137"
+  },
+  "modelSolution": "The data appear normally distributed from the chart and of similar spread. There do not appear to be any serious outliers, so we may proceed with our ANOVA calculations, to see if we have good evidence of a difference between the three groups.\n\nH0: μ1 = μ2 = μ3;\n\nHa: μi ≠ μj some i ≠ j.\n\nDefine μ1, μ2, μ3, as the population mean number of eggs laid by the three groups of fruit flies.\n\nF statistic = 8.6657;\n\np-value = 0.0004\n\n[FIGURE]\nDecision: Since the p-value is less than the level of significance of 0.01, we reject the null hypothesis.\n\nConclusion: We have good evidence that the average number of eggs laid during the first 14 days of life for these three strains of fruitflies are different.\n\nInterestingly, if you perform a two sample t-test to compare the RS and NS groups they are significantly different (p = 0.0013). Similarly, SS and NS are significantly different (p = 0.0006). However, the two selected groups, RS and SS are not significantly different (p = 0.5176). Thus we appear to have good evidence that selection either for resistance or for susceptibility involves a reduced rate of egg production (for these specific strains) as compared to flies that were not selected for resistance or susceptibility to DDT. Here, genetic selection has apparently involved a loss of fecundity.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47125-0",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "The New York Choral Society divides its singers who are men up into four categories from highest voices to lowest: Tenor1, Tenor2, Bass1, Bass2. In the table are heights of the men in the Tenor1 and Bass2 groups. One suspects that taller men will have lower voices, and that the variance of height may go up with the lower voices as well. Do we have good evidence that the variance of the heights of singers in each of these two groups (Tenor1 and Bass2) are different?\n\n[TABLE]\nTenor1 | Bass2 | Tenor 1 | Bass 2 | Tenor 1 | Bass 2\n69 | 72 | 67 | 72 | 68 | 67\n72 | 75 | 70 | 74 | 67 | 70\n71 | 67 | 65 | 70 | 64 | 70\n66 | 75 | 72 | 66 | | 69\n76 | 74 | 70 | 68 | | 72\n74 | 72 | 68 | 75 | | 71\n71 | 72 | 64 | 68 | | 74\n66 | 74 | 73 | 70 | | 75\n68 | 72 | 66 | 72 | |\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "fs-idp56175568",
+   "ref": "Try It 13.5"
+  },
+  "modelSolution": "The histograms are not as normal as one might like. Plot them to verify. However, we proceed with the test in any case.\nSubscripts: T1= tenor1 and B2 = bass 2\nThe standard deviations of the samples are sT1 = 3.3302 and sB2 = 2.7208.\nThe hypotheses are\nH0: σT12= σB22 and H0: σT12 ≠ σB22 (two tailed test)\nThe F statistic is 1.4894 with 20 and 25 degrees of freedom.\nThe p-value is 0.3430. If we assume alpha is 0.05, then we cannot reject the null hypothesis.\nWe have no good evidence from the data that the heights of Tenor1 and Bass2 singers have different variances (despite there being a significant difference in mean heights of about 2.5 inches.)\nThis file is copyright 2023, Rice University. All Rights Reserved.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-801",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "Name one assumption that must be true.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-801"
+  },
+  "context": "Use the following information to answer the next two exercises. There are two assumptions that must be true in order to perform an F test of two variances.",
+  "modelSolution": "The populations from which the two samples are drawn are normally distributed.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-119",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "State the null and alternative hypotheses.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-119"
+  },
+  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "modelSolution": "H0: σ1 = σ2\n\nHa: σ1 < σ2\n\nor\n\nH0: σ_1^2 = σ_2^2\n\nHa: σ_1^2<σ_2^2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-941",
+  "sectionId": "13.4",
+  "kind": "numeric",
+  "conceptTag": "13.4",
+  "stem": "What is s2 in this problem?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-941"
+  },
+  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "answer": 4.11,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "4.11"
+  ]
+ },
+ {
+  "id": "os-m47125-eip-416",
+  "sectionId": "13.4",
+  "kind": "numeric",
+  "conceptTag": "13.4",
+  "stem": "What is the F statistic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-416"
+  },
+  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "answer": 0.7159,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.7159"
+  ]
+ },
+ {
+  "id": "os-m47125-eip-464",
+  "sectionId": "13.4",
+  "kind": "tf",
+  "conceptTag": "13.4",
+  "stem": "Is the claim accurate?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-464"
+  },
+  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "answer": false,
+  "needsFigure": false,
+  "explanation": [
+   "No, at the 10% level of significance, we do not reject the null hypothesis and state that the data do not show that the variation in drive times for the first worker is less than the variation in drive times for the second worker."
+  ]
+ },
+ {
+  "id": "os-m47125-eip-932",
+  "sectionId": "13.4",
+  "kind": "numeric",
+  "conceptTag": "13.4",
+  "stem": "What is the F Statistic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-932"
+  },
+  "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
+  "answer": 2.8674,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "2.8674"
+  ]
+ },
+ {
+  "id": "os-m47125-eip-792",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "At the 5% significance level, do we reject the null hypothesis?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-792"
+  },
+  "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
+  "modelSolution": "Reject the null hypothesis. There is enough evidence to say that the variance of the grades for the first student is higher than the variance in the grades for the second student.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-366",
+  "sectionId": "13.4",
+  "kind": "numeric",
+  "conceptTag": "13.4",
+  "stem": "What is the F Statistic?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-366"
+  },
+  "context": "Use the following information to answer the next three exercises. Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed.",
+  "answer": 0.7414,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.7414"
+  ]
+ },
+ {
+  "id": "os-m47125-element-721",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "Three students, Linda, Tuan, and Javier, are given five laboratory rats each for a nutritional experiment. Each rat’s weight is recorded in grams. Linda feeds her rats Formula A, Tuan feeds his rats Formula B, and Javier feeds his rats Formula C. At the end of a specified time period, each rat is weighed again and the net gain in grams is recorded.\n\n[TABLE]\nLinda's rats | Tuan's rats | Javier's rats\n43.5 | 47.0 | 51.2\n39.4 | 40.5 | 40.9\n41.3 | 38.9 | 37.9\n46.0 | 46.3 | 45.0\n38.2 | 44.2 | 48.6\n[/TABLE]\n\nDetermine whether or not the variance in weight gain is statistically the same among Javier’s and Linda’s rats. Test at a significance level of 10%.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "element-721"
+  },
+  "modelSolution": "a. H_0: σ_1^2=σ_2^2\n\nb. H_a: σ_1^2≠σ_1^2\n\nc. df(num) = 4; df(denom) = 4\nd. F4, 4\ne. 3.00\nf. 2(0.1563) = 0.3126. Using the TI-83+/84+ function 2-SampFtest, you get the test statistic as 2.9986 and p-value directly as 0.3127. If you input the lists in a different order, you get a test statistic of 0.3335 but the p-value is the same because this is a two-tailed test.\ng. Answers may vary.\nh. Decision: Do not reject the null hypothesis; Conclusion: There is insufficient evidence to conclude that the variances are different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-element-577",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "Which two magazine types do you think have different variances in length?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "element-577"
+  },
+  "modelSolution": "The answers may vary. Sample answer: Home decorating magazines and news magazines have different variances.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-578",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "Are the variances for incomes on the East Coast and the West Coast the same? Suppose that shows the results of a study. Income is shown in thousands of dollars. Assume that both distributions are normal. Use a level of significance of 0.05.\n\n[TABLE]\nEast | West\n38 | 71\n47 | 126\n30 | 42\n82 | 51\n75 | 44\n52 | 90\n115 | 88\n67 |\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-578"
+  },
+  "modelSolution": "a. H0: = σ_1^2 = σ_2^2\n\nb. Ha: σ_1^2 ≠ σ_1^2\n\nc. df(n) = 7, df(d) = 6\nd. F7,6\ne. 0.8117\nf. 0.7825\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is not sufficient evidence to conclude that the variances are different.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-262",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "King Manuel I, Komnenus ruled the Byzantine Empire from Constantinople (Istanbul) during the years 1145 to 1180 A.D. The empire was very powerful during his reign, but declined significantly afterwards. Coins minted during his era were found in Cyprus, an island in the eastern Mediterranean Sea. Nine coins were from his first coinage, seven from the second, four from the third, and seven from a fourth. These spanned most of his reign. We have data on the silver content of the coins:\n\n[TABLE]\nFirst Coinage | Second Coinage | Third Coinage | Fourth Coinage\n5.9 | 6.9 | 4.9 | 5.3\n6.8 | 9.0 | 5.5 | 5.6\n6.4 | 6.6 | 4.6 | 5.5\n7.0 | 8.1 | 4.5 | 5.1\n6.6 | 9.3 | | 6.2\n7.7 | 9.2 | | 5.8\n7.2 | 8.6 | | 5.8\n6.9 | | |\n6.2 | | |\n[/TABLE]\n\nDid the silver content of the coins change over the course of Manuel’s reign?\n\nHere are the means and variances of each coinage. The data are unbalanced.\n\n[TABLE]\n| First | Second | Third | Fourth\nMean | 6.7444 | 8.2429 | 4.875 | 5.6143\nVariance | 0.2953 | 1.2095 | 0.2025 | 0.1314\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-262"
+  },
+  "modelSolution": "Here is a strip chart of the silver content of the coins:\n\n[FIGURE]\nWhile there are differences in spread, it is not unreasonable to use ANOVA techniques. Here is the completed ANOVA table:\n\n[TABLE]\nSource of Variation | Sum of Squares (SS) | Degrees of Freedom (df) | Mean Square (MS) | F\nFactor (Between) | 37.748 | 4 – 1 = 3 | 12.5825 | 26.272\nError (Within) | 11.015 | 27 – 4 = 23 | 0.4789 |\nTotal | 48.763 | 27 – 1 = 26 | |\n[/TABLE]\n\nP(F > 26.272) = 0;\n\nReject the null hypothesis for any alpha. There is sufficient evidence to conclude that the mean silver content among the four coinages are different. From the strip chart, it appears that the first and second coinages had higher silver contents than the third and fourth.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47125-eip-273",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "The American League and the National League of Major League Baseball are each divided into three divisions: East, Central, and West. Many years, fans talk about some divisions being stronger (having better teams) than other divisions. This may have consequences for the postseason. For instance, in a certain year Tampa Bay won 90 games and did not play in the postseason, while Detroit won only 88 and did play in the postseason. This may have been an oddity, but is there good evidence that in this year, the American League divisions were significantly different in overall records? Use the following data to test whether the mean number of wins per team in the three American League divisions were the same or not. Note that the data are not balanced, as two divisions had five teams, while one had only four.\n\n[TABLE]\nDivision | Team | Wins\nEast | NY Yankees | 95\nEast | Baltimore | 93\nEast | Tampa Bay | 90\nEast | Toronto | 73\nEast | Boston | 69\n[/TABLE]\n\n[TABLE]\nDivision | Team | Wins\nCentral | Detroit | 88\nCentral | Chicago Sox | 85\nCentral | Kansas City | 72\nCentral | Cleveland | 68\nCentral | Minnesota | 66\n[/TABLE]\n\n[TABLE]\nDivision | Team | Wins\nWest | Oakland | 94\nWest | Texas | 93\nWest | LA Angels | 89\nWest | Seattle | 75\n[/TABLE]",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47125",
+   "exerciseId": "eip-273"
+  },
+  "modelSolution": "Here is a stripchart of the number of wins for the 14 teams in the AL for the 2012 season.\n\n[FIGURE]\nWhile the spread seems similar, there may be some question about the normality of the data, given the wide gaps in the middle near the 0.500 mark of 82 games (teams play 162 games each season in MLB). However, one-way ANOVA is robust.\n\nHere is the ANOVA table for the data:\n\n[TABLE]\nSource of Variation | Sum of Squares (SS) | Degrees of Freedom (df) | Mean Square (MS) | F\nFactor (Between) | 344.16 | 3 – 1 = 2 | 172.08 |\nError (Within) | 1,219.55 | 14 – 3 = 11 | 110.87 | 1.5521\nTotal | 1,563.71 | 14 – 1 = 13 | |\n[/TABLE]\n\nP(F > 1.5521) = 0.2548\n\nSince the p-value is so large, there is not good evidence against the null hypothesis of equal means. We decline to reject the null hypothesis. Thus, for 2012, there is not any have any good evidence of a significant difference in mean number of wins between the divisions of the American League.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "pt4-28",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "What are the five basic assumptions to be met if you want to do a one-way ANOVA?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 28
+  },
+  "modelSolution": "1. Each sample is drawn from a normally distributed population\n2. All samples are independent and randomly selected.\n3. The populations from which the samples are draw have equal standard deviations.\n4. The factor is a categorical variable.\n5. The response is a numerical variable.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-29",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "You are conducting a one-way ANOVA comparing the effectiveness of four drugs in lowering blood pressure in hypertensive patients. What are the null and alternative hypotheses for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 29
+  },
+  "modelSolution": "H0: μ1 = μ2 = μ3 = μ4\nHa: At least two of the group means μ1, μ2, μ3, μ4 are not equal.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-30",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "What is the primary difference between the independent samples t-test and one-way ANOVA?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 30
+  },
+  "modelSolution": "The independent samples t-test can only compare means from two groups, while one-way ANOVA can compare means of more than two groups.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-31",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "You are comparing the results of three methods of teaching geometry to high school students. The final exam scores X1, X2, X3, for the samples taught by the different methods have the following distributions:\nX1 ~ N(85, 3.6)\nX1 ~ N(82, 4.8)\nX1 ~ N(79, 2.9)\nEach sample includes 100 students, and the final exam scores have a range of 0–100. Assuming the samples are independent and randomly selected, have the requirements for conducting a one-way ANOVA been met? Explain why or why not for each assumption.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 31
+  },
+  "modelSolution": "Each sample appears to have been drawn from a normally distributed populations, the factor is a categorical variable (method), the outcome is a numerical variable (test score), and you were told the samples were independent and randomly selected, so those requirements are met. However, each sample has a different standard deviation, and this suggests that the populations from which they were drawn also have different standard deviations, which is a violation of an assumption for one-way ANOVA. Further statistical testing will be necessary to test the assumption of equal variance before proceeding with the analysis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-32",
+  "sectionId": "13.1",
+  "kind": "open",
+  "conceptTag": "13.1",
+  "stem": "You conduct a study comparing the effectiveness of four types of fertilizer to increase crop yield on wheat farms. When examining the sample results, you find that two of the samples have an approximately normal distribution, and two have an approximately uniform distribution. Is this a violation of the assumptions for conducting a one-way ANOVA?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 32
+  },
+  "modelSolution": "One of the assumptions for a one-way ANOVA is that the samples are drawn from normally distributed populations. Since two of your samples have an approximately uniform distribution, this casts doubt on whether this assumption has been met. Further statistical testing will be necessary to determine if you can proceed with the analysis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-33",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "What is SSwithin in this experiment, and what does it mean?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 33
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "SSwithin is the sum of squares within groups, representing the variation in outcome that cannot be attributed to the different feed supplements, but due to individual or chance factors among the calves in each group.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-34",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "What is SSbetween in this experiment, and what does it mean?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 34
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "SSbetween is the sum of squares between groups, representing the variation in outcome that can be attributed to the different feed supplements.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-35",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "What are k and i for this experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 35
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "k = the number of groups = 4\nn1 = the number of cases in group 1 = 30\nn = the total number of cases = 4(30) = 120",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-36",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "If SSwithin = 374.5 and SStotal = 621.4 for this data, what is SSbetween?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 36
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "SStotal = SSwithin + SSbetween so SSbetween = SStotal – SSwithin\n\n621.4 – 374.5 = 246.9",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-37",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "What are MSbetween, and MSwithin, for this experiment?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 37
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "The mean squares in an ANOVA are found by dividing each sum of squares by its respective degrees of freedom (df).\nFor SStotal, df = n – 1 = 120 – 1 = 119.\nFor SSbetween, df = k – 1 = 4 – 1 = 3.\nFor SSwithin, df = 120 – 4 = 116.\nMSbetween = 246.9/3 = 82.3\nMSwithin = 374.5/116 = 3.23",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-38",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "What is the F Statistic for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 38
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "F=(MS_(between))/(MS_(within))=82.3/3.23=25.48",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-39",
+  "sectionId": "13.2",
+  "kind": "open",
+  "conceptTag": "13.2",
+  "stem": "If there had been 35 calves in each group, instead of 30, with the sums of squares remaining the same, would the F Statistic be larger or smaller?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 39
+  },
+  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "modelSolution": "It would be larger, because you would be dividing by a smaller number. The value of MSbetween would not change with a change of sample size, but the value of MSwithin would be smaller, because you would be dividing by a larger number (dfwithin would be 136, not 116). Dividing a constant by a smaller number produces a larger result.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-40",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Which of the following numbers are possible F Statistics?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 40
+  },
+  "modelSolution": "All but choice c, –3.61. F Statistics are always greater than or equal to 0.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-41",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "Histograms F1 and F2 below display the distribution of cases from samples from two populations, one distributed F3,15 and one distributed F5,500. Which sample came from which population?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 41
+  },
+  "modelSolution": "As the degrees of freedom increase in an F distribution, the distribution becomes more nearly normal. Histogram F2 is closer to a normal distribution than histogram F1, so the sample displayed in histogram F1 was drawn from the F3,15 population, and the sample displayed in histogram F2 was drawn from the F5,500 population.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-42",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "The F Statistic from an experiment with k = 3 and n = 50 is 3.67. At α = 0.05, will you reject the null hypothesis?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 42
+  },
+  "modelSolution": "Using the calculator function Fcdf, p-value = Fcdf(3.67, 1E, 3,50) = 0.0182. Reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-43",
+  "sectionId": "13.3",
+  "kind": "open",
+  "conceptTag": "13.3",
+  "stem": "The F Statistic from an experiment with k = 4 and n = 100 is 4.72. At α = 0.01, will you reject the null hypothesis?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 43
+  },
+  "modelSolution": "Using the calculator function Fcdf, p-value = Fcdf(4.72, 1E, 4, 100) = 0.0016 Reject the null hypothesis.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-44",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "What assumptions must be met to perform the F test of two variances?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 44
+  },
+  "modelSolution": "The samples must be drawn from populations that are normally distributed, and must be drawn from independent populations.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt4-45",
+  "sectionId": "13.4",
+  "kind": "open",
+  "conceptTag": "13.4",
+  "stem": "You believe there is greater variance in grades given by the math department at your university than in the English department. You collect all the grades for undergraduate classes in the two departments for a semester, and compute the variance of each, and conduct an F test of two variances. What are the null and alternative hypotheses for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 4",
+   "n": 45
+  },
+  "modelSolution": "Let σ_M^2 = variance in math grades, and σ_E^2 = variance in English grades.\nH0: σ_M^2 ≤ σ_E^2\n\nHa: σ_M^2 > σ_E^2",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe2-34",
+  "sectionId": "13.1",
+  "kind": "mc",
+  "conceptTag": "13.1",
+  "stem": "Which of the following statements is true when using one-way ANOVA?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 34
+  },
+  "context": "Sixty-four backpackers were asked the number of days since their latest backpacking trip. The number of days is given in :",
+  "options": [
+   "The populations from which the samples are selected have different distributions.",
+   "The sample sizes are large.",
+   "The test is to determine if the different groups have the same means.",
+   "There is a correlation between the factors of the experiment."
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. The test is to determine if the different groups have the same means."
+  ]
+ }
+]

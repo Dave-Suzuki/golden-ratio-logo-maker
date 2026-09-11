@@ -1,0 +1,20 @@
+{
+ "openstax": {
+  "repo": "https://github.com/openstax/osbooks-introductory-statistics-bundle",
+  "branch": "main",
+  "book": "introductory-statistics-2e",
+  "license": "CC BY 4.0"
+ },
+ "tryItGuide": {
+  "file": "sources/tryit-answers.txt",
+  "license": "CC BY 4.0",
+  "matched": 218,
+  "items": 232
+ },
+ "lectureNotes": {
+  "file": "sources/lecture-notes.txt",
+  "license": "CC BY 4.0",
+  "citation": "Skipper, Smith, Scott, Payne, Terry (2017). Lecture Notes for OpenStax Introductory Statistics. GALILEO/USG."
+ },
+ "generatedAt": "2026-09-11"
+}

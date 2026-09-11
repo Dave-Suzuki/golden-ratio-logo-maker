@@ -1,0 +1,1926 @@
+[
+ {
+  "id": "tryit-m47002-0",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Suppose we have data from a sample. The sample mean is 15, and the error bound for the mean is 3.2.\n\nWhat is the confidence interval estimate for the population mean?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-273",
+   "ref": "Try It 8.1"
+  },
+  "modelSolution": "(11.8, 18.2)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-1",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Find a 90% confidence interval estimate for the population mean delivery time.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-24",
+   "ref": null
+  },
+  "modelSolution": "(34.1347, 37.8653)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-2",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "shows a different random sampling of 20 cell phone models. Use this data to calculate a 93% confidence interval for the true mean SAR for cell phones certified for use in the United States. As previously, assume that the population standard deviation is σ = 0.337.\n\n[TABLE]\nSAR Data for a sample of 20 cell phones\n1.48 | 1.53\n0.8 | 0.68\n1.15 | 1.4\n1.36 | 1.24\n0.77 | 0.57\n0.462 | 0.2\n1.36 | 0.51\n1.39 | 0.3\n1.3 | 0.73\n0.7 | 0.869\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-158",
+   "ref": "Try It 8.3"
+  },
+  "modelSolution": "x̄ =0.940 x̄ =0.940\n=  = =0.035\nZ0.035 = 1.812\nEBM=(Z0.035)(  )=(1.812)(  )=0.1365\nx̄ – EBM = 0.940 – 0.1365 = 0.8035\nx̄ + EBM = 0.940 + 0.1365 = 1.0765\nWe estimate with 93% confidence that the true SAR mean for the population of cell phones in the United States is between 0.8035 and 1.0765 watts per kilogram.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-3",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Refer back to the pizza-delivery Try It exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95% confidence interval estimate for the true mean pizza delivery time.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-847",
+   "ref": "Try It 8.4"
+  },
+  "modelSolution": "(33.37, 38.63)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-4",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Refer back to the pizza-delivery Try It exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90% confidence interval estimate for the population mean delivery time.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-159",
+   "ref": "Try It 8.5"
+  },
+  "modelSolution": "(34.6041, 37.3958)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-5",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Suppose we know that a confidence interval is (42.12, 47.88). Find the error bound and the sample mean.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-998",
+   "ref": "Try It 8.6"
+  },
+  "modelSolution": "Sample mean is 45, error bound is 2.88",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47002-6",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "The population standard deviation for the height of high school basketball players is three inches. If we want to be 95% confident that the sample mean height is within one inch of the true population mean height, how many randomly selected students must be surveyed?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-669",
+   "ref": "Try It 8.7"
+  },
+  "modelSolution": "35 Students\nSection 2. Single Population Mean using the Student t Distribution",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-499",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Identify the following:\n\na. x̄ = _____\nb. σ = _____\nc. n = _____",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-499"
+  },
+  "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds.",
+  "modelSolution": "a. 244\nb. 15\nc. 50",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-568",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Which distribution should you use for this problem?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-568"
+  },
+  "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds.",
+  "modelSolution": "N(244,15/(√(50)))",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-773",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What will happen to the confidence interval obtained, if 500 newborn elephants are weighed instead of 50? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-773"
+  },
+  "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds.",
+  "modelSolution": "As the sample size increases, there will be less variability in the mean, so the interval size decreases.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-322",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "In words, define the random variables X and X̄.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-322"
+  },
+  "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal.",
+  "modelSolution": "X is the time in minutes it takes to complete the U.S. Census short form. X̄ is the mean time it took a sample of 200 people to complete the U.S. Census short form.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-899",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Construct a 90% confidence interval for the population mean time to complete the forms. State the confidence interval, sketch the graph, and calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-899"
+  },
+  "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal.",
+  "modelSolution": "CI: (7.9441, 8.4559)\n\n[FIGURE]\n\nEBM = 0.26",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-366",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "If the Census did another survey, kept the error bound the same, and surveyed only 50 people instead of 200, what would happen to the level of confidence? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-366"
+  },
+  "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal.",
+  "modelSolution": "The level of confidence would decrease because decreasing n makes the confidence interval wider, so at the same error bound, the confidence level decreases.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-924",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Identify the following:\n\na. x̄ = ______\nb. σ = ______\nc. n = ______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-924"
+  },
+  "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds.",
+  "modelSolution": "a. x̄ = 2.2\nb. σ = 0.2\nc. n = 20",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-64",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "In words, define the random variable X̄.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-64"
+  },
+  "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds.",
+  "modelSolution": "X̄ is the mean weight of a sample of 20 heads of lettuce.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-833",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Construct a 90% confidence interval for the population mean weight of the heads of lettuce. State the confidence interval, sketch the graph, and calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-833"
+  },
+  "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds.",
+  "modelSolution": "EBM = 0.07\n\nCI: (2.1264, 2.2736)\n\n[FIGURE]",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-656",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "In complete sentences, explain why the confidence interval in is wider than in .",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-656"
+  },
+  "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds.",
+  "modelSolution": "The interval is greater because the level of confidence increased. If the only change made in the analysis is a change in confidence level, then all we are doing is changing how much area is being calculated for the normal distribution. Therefore, a larger confidence level results in larger areas and larger intervals.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-909",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What would happen if 40 heads of lettuce were sampled instead of 20, and the error bound remained the same?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-909"
+  },
+  "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds.",
+  "modelSolution": "The confidence level would increase.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-463",
+  "sectionId": "8.1",
+  "kind": "numeric",
+  "conceptTag": "8.1",
+  "stem": "x̄ = _____",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-463"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.",
+  "answer": 30.4,
+  "tolerance": {
+   "abs": 0.06,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "30.4"
+  ]
+ },
+ {
+  "id": "os-m47002-element-608",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "________ = 15",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-608"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.",
+  "modelSolution": "σ",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-917",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What is x̄ estimating?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-917"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.",
+  "modelSolution": "μ",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-524",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "As a result of your answer to , state the exact distribution to use when calculating the confidence interval.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-524"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.",
+  "modelSolution": "normal",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-888",
+  "sectionId": "8.1",
+  "kind": "numeric",
+  "conceptTag": "8.1",
+  "stem": "How much area is in each tail? α/2 =________",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-888"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.\nConstruct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.",
+  "answer": 0.025,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.025"
+  ]
+ },
+ {
+  "id": "os-m47002-element-767",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "The 95% confidence interval is:__________________.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-767"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.\nConstruct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.",
+  "modelSolution": "(24.52,36.28)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-158",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "In one complete sentence, explain what the interval means.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-158"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.\nConstruct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.",
+  "modelSolution": "We are 95% confident that the true mean age for Winger Foothill College students is between 24.52 and 36.28.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-element-395",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Using the same mean, standard deviation, and sample size, how would the error bound change if the confidence level were reduced to 90%? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "element-395"
+  },
+  "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student.\nConstruct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.",
+  "modelSolution": "The error bound for the mean would decrease because as the CL decreases, you need less area under the normal curve (which translates into a smaller interval) to capture the true population mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-exer1",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95% confidence interval for the mean height of male Swedes. Forty-eight male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 inches.\n\na.\n\ni. x̄ =________\nii. σ =________\niii. n =________\n\nb. In words, define the random variables X and X̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean height of male Swedes.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\ne. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "exer1"
+  },
+  "modelSolution": "a.\n\ni. 71\nii. 3\niii. 48\n\nb. X is the height of a Swiss male, and is the mean height from a sample of 48 Swiss males.\n\nc. Normal. We know the standard deviation for the population, and the sample size is greater than 30.\nd.\n\ni. CI: (70.151, 71.49)\nii. [FIGURE]\niii. EBM = 0.849\n\ne. The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-exer6",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.\n\na.\n\ni. x̄ =________\nii. σ =________\niii. n =________\n\nb. In words, define the random variables X and X̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean time to complete the tax forms.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\ne. If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, what changes should it make?\nf. If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?\ng. Suppose that the firm decided that it needed to be at least 96% confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "exer6"
+  },
+  "modelSolution": "a.\n\ni. x̄ = 23.6\nii. σ = 7\niii. n = 100\n\nb. X is the time needed to complete an individual tax form. X̄ is the mean time to complete tax forms from a sample of 100 customers.\nc. N(23.6,7/(√(100))) because we know sigma.\nd.\n\ni. (22.228, 24.972)\nii.\n[FIGURE]\niii. EBM = 1.372\n\ne. It will need to change the sample size. The firm needs to determine what the confidence level should be, then apply the error bound formula to determine the necessary sample size.\nf. The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.\ng. According to the error bound formula, the firm needs to survey 206 people. Since we increase the confidence level, we need to increase either our error bound or the sample size.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-exerci",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "A camp director is interested in the mean number of letters each child sends during their camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9 with a sample standard deviation of 2.8.\n\na.\n\ni. x̄ =________\nii. σ =________\niii. n =________\n\nb. Define the random variables X and X̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean number of letters campers send home.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\ne. What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "exerci"
+  },
+  "modelSolution": "a.\n\ni. 7.9\nii. 2.5\niii. 20\n\nb. X is the number of letters a single camper will send home. X̄ is the mean number of letters sent home from a sample of 20 campers.\n\nc.\nN\n7.9(2.5/(√(20)))\n\nd.\ni. CI: (6.98, 8.82)\nii. [FIGURE]\niii. EBM: 0.92\n\ne. The error bound and confidence interval will decrease.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-217",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "The Federal Election Commission collects information about campaign contributions and disbursements for candidates and political committees each election cycle. During a certain campaign season, there were 1,619 candidates for the House of Representatives across the United States who received contributions from individuals. shows the total receipts from individuals for a random selection of 40 House candidates rounded to the nearest $100. The standard deviation for this data to the nearest hundred is σ = $909,200.\n\n[TABLE]\n$3,600 | $1,243,900 | $10,900 | $385,200 | $581,500\n$7,400 | $2,900 | $400 | $3,714,500 | $632,500\n$391,000 | $467,400 | $56,800 | $5,800 | $405,200\n$733,200 | $8,000 | $468,700 | $75,200 | $41,000\n$13,300 | $9,500 | $953,800 | $1,113,500 | $1,109,300\n$353,900 | $986,100 | $88,600 | $378,200 | $13,200\n$3,800 | $745,100 | $5,800 | $3,072,100 | $1,626,700\n$512,900 | $2,309,200 | $6,600 | $202,400 | $15,800\n[/TABLE]\n\na. Find the point estimate for the population mean.\nb. Using 95% confidence, calculate the error bound.\nc. Create a 95% confidence interval for the mean total individual contributions.\nd. Interpret the confidence interval in the context of the problem.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-217"
+  },
+  "modelSolution": "a. x̄ = $568,873\nb. CL = 0.95 α = 1 – 0.95 = 0.05 z_(α/2) = 1.96\n\nEBM = z_(0.025)σ/(√(n)) = 1.96 909200/(√(40)) = $281,764\nc. x̄ − EBM = 568,873 − 281,764 = 287,109\n\nx̄ + EBM = 568,873 + 281,764 = 850,637\n\nAlternate solution:\n\n1. Press STAT and arrow over to TESTS.\n2. Arrow down to 7:ZInterval.\n3. Press ENTER.\n4. Arrow to Stats and press ENTER.\n5. Arrow down and enter the following values:\n\n• σ : 909,200\n• x̄: 568,873\n• n: 40\n• CL: 0.95\n\n6. Arrow down to Calculate and press ENTER.\n7. The confidence interval is ($287,114, $850,632).\n8. Notice the small difference between the two solutions–these differences are simply due to rounding error in the hand calculations.\n\nd. We estimate with 95% confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47002-eip-580",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "The average height of young adult males has a normal distribution with standard deviation of 2.5 inches. You want to estimate the mean height of students at your college or university to within one inch with 93% confidence. How many male students must you measure?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47002",
+   "exerciseId": "eip-580"
+  },
+  "modelSolution": "Use the formula for EBM, solved for n:\n\nn= (z^2σ^2)/(EBM^2)\n\nFrom the statement of the problem, you know that σ = 2.5, and you need EBM = 1.\n\nz = z0.035 = 1.812\n\n(This is the value of z for which the area under the density curve to the right of z is 0.035.)\n\nn= (z^2σ^2)/(EBM^2)=(1.812^22.5^2)/(1^2) ≈ 20.52\n\nYou need to measure at least 21 male students to achieve your goal.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47001-0",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "You do a study of hypnotherapy to determine how effective it is in increasing the number of hours of sleep subjects get each night. You measure hours of sleep for 12 subjects with the following results. Construct a 95% confidence interval for the mean number of hours slept for the population (assumed normal) from which you took the data.\n\n8.2; 9.1; 7.7; 8.6; 6.9; 11.2; 10.1; 9.9; 8.9; 9.2; 7.5; 10.5",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-496",
+   "ref": "Try It 8.8"
+  },
+  "modelSolution": "(8.1634, 9.8032)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m47001-1",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "A random sample of statistics students were asked to estimate the total number of hours they spend watching television in an average week. The responses are recorded in . Use this sample data to construct a 98% confidence interval for the mean number of hours statistics students will spend watching television in one week.\n\n[TABLE]\n0 | 3 | 1 | 20 | 9\n5 | 10 | 1 | 10 | 4\n14 | 2 | 4 | 4 | 5\n[/TABLE]",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-467",
+   "ref": "Try It 8.9"
+  },
+  "modelSolution": "Solution A\nx̄ = 6.133, s = 5.514, n = 15, and df = 15 – 1 = 14\nCL = 0.98, so α = 1 - CL = 1 - 0.98 = 0.02\nα/2=0.01tα/2=t0.01=2.624\nEBM=tα/2()=2.624(~3.736\nx̄ – EBM = 6.133 – 3.736 = 2.397\nx̄ + EBM = 6.133 + 3.736 = 9.869\nWe estimate with 98% confidence that the mean number of all hours that statistics students spend watching television in one week is between 2.397 and 9.869.\nSolution B\nEnter the data as a list.Press STAT and arrow over to TESTS.Arrow down to 8:TInterval.Press ENTER.Arrow to Data and press ENTER.Arrow down and enter the name of the list where the data is stored.Enter Freq: 1Enter C-Level: 0.98Arrow down to Calculate and press Enter.The 98% confidence interval is (2.3965, 9.8702).\nSection 3. A Population Proportion",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-589",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Define the random variables X and X̄ in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-589"
+  },
+  "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours.",
+  "modelSolution": "X is the number of hours a patient waits in the emergency room before being called back to be examined. X̄ is the mean wait time of 70 patients in the emergency room.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-624",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Construct a 95% confidence interval for the population mean time spent waiting. State the confidence interval, sketch the graph, and calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-624"
+  },
+  "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours.",
+  "modelSolution": "CI: (1.3808, 1.6192)\n\n[FIGURE]\n\nEBM = 0.12",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-817",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Identify the following:\n\na. x̄ =_______\nb. s_x =_______\nc. n =_______\nd. n – 1 =_______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-817"
+  },
+  "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal.",
+  "modelSolution": "a.\nx̄ = 151\nb.\ns_x = 32\nc. n = 108\nd. n – 1 = 107",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-810",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Define the random variable X̄ in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-810"
+  },
+  "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal.",
+  "modelSolution": "X̄ is the mean number of hours spent watching television per month from a sample of 108 Americans.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-82",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Construct a 99% confidence interval for the population mean hours spent watching television per month. (a) State the confidence interval, (b) sketch the graph, and (c) calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-82"
+  },
+  "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal.",
+  "modelSolution": "CI: (142.92, 159.08)\n\n[FIGURE]\n\nEBM = 8.08",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-953",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Calculate the following:\n\na. x̄ =______\nb. s_x =______\nc. n =______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-953"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]",
+  "modelSolution": "a. 3.26\nb. 1.02\nc. 39",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-212",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "What is x̄ estimating?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-212"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]",
+  "modelSolution": "μ",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-164",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "As a result of your answer to , state the exact distribution to use when calculating the confidence interval.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-164"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]",
+  "modelSolution": "t38",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-945",
+  "sectionId": "8.2",
+  "kind": "numeric",
+  "conceptTag": "8.2",
+  "stem": "How much area is in each tail?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-945"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]\nConstruct a 95% confidence interval for the true mean number of colors on national flags.",
+  "answer": 0.025,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.025"
+  ]
+ },
+ {
+  "id": "os-m47001-element-363",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "The 95% confidence interval is_____.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-363"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]\nConstruct a 95% confidence interval for the true mean number of colors on national flags.",
+  "modelSolution": "(2.93, 3.59)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-499",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "In one complete sentence, explain what the interval means.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-499"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]\nConstruct a 95% confidence interval for the true mean number of colors on national flags.",
+  "modelSolution": "We are 95% confident that the true mean number of colors for national flags is between 2.93 colors and 3.59 colors.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-element-542",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Using the same x̄, s_x, and level of confidence, suppose that n were 69 instead of 39. Would the error bound become larger or smaller? How do you know?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "element-542"
+  },
+  "context": "Use the following information to answer the next 13 exercises: The data in are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]\nConstruct a 95% confidence interval for the true mean number of colors on national flags.",
+  "modelSolution": "The error bound would become EBM = 0.245. This error bound decreases because as sample sizes increase, variability decreases and we need less interval length to capture the true mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-exer3",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414; 1,550; 2,109; 9,350; 21,828; 4,300; 5,944; 5,722; 2,825; 2,044; 5,481; 5,200; 5,853; 2,750; 10,012; 6,357; 27,000; 9,414; 7,681; 3,200; 17,500; 9,200; 7,380; 18,314; 6,557; 13,713; 17,768; 7,493; 2,771; 2,861; 1,263; 7,285; 28,165; 5,080; 11,622. Assume the underlying population is normal.\n\na.\n\ni. x̄ = __________\nii. s_x = __________\niii. n = __________\niv. n – 1 = __________\n\nb. Define the random variables X and X̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean enrollment at community colleges in the United States.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\ne. What will happen to the error bound and confidence interval if 500 community colleges were surveyed? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "exer3"
+  },
+  "modelSolution": "a.\n\ni. 8629\nii. 6944\niii. 35\niv. 34\n\nb. t_34\n\nc.\ni. CI: (6244, 11,014)\nii. [FIGURE]\niii. EB = 2385\n\nd. It will become smaller",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-exer10",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "A pharmaceutical company makes tranquilizers. It is assumed that the distribution for the length of time they last is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the tranquilizer for each patient (in hours) was as follows: 2.7; 2.8; 3.0; 2.3; 2.3; 2.2; 2.8; 2.1; and 2.4.\n\na.\ni. x̄ = __________\nii. s_x = __________\niii. n = __________\niv. n – 1 = __________\n\nb. Define the random variable X in words.\nc. Define the random variable X̄ in words.\nd. Which distribution should you use for this problem? Explain your choice.\ne. Construct a 95% confidence interval for the population mean length of time.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\nf. What does it mean to be “95% confident” in this problem?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "exer10"
+  },
+  "modelSolution": "a.\n\ni. x̄ = 2.51\nii. s_x = 0.318\niii. n = 9\niv. n - 1 = 8\n\nb. the effective length of time for a tranquilizer\nc. the mean effective length of time of tranquilizers from a sample of nine patients\nd. We need to use a Student’s-t distribution, because we do not know the population standard deviation.\ne.\n\ni. CI: (2.27, 2.76)\nii. Answers may vary.\niii. EBM: 0.25\n\nf. If we were to sample many groups of nine patients, 95% of the samples would contain the true population mean length of time.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-390",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "The Federal Election Commission (FEC) collects information about campaign contributions and disbursements for candidates and political committees each election cycle. A political action committee (PAC) is a committee formed to raise money for candidates and campaigns. A Leadership PAC is a PAC formed by a federal politician (senator or representative) to raise money to help other candidates’ campaigns.\n\nThe FEC has reported financial information for 556 Leadership PACs that operating during a certain election cycle. The following table shows the total receipts during this cycle for a random selection of 30 Leadership PACs.\n\n[TABLE]\n$46,500.00 | $0 | $40,966.50 | $105,887.20 | $5,175.00\n$29,050.00 | $19,500.00 | $181,557.20 | $31,500.00 | $149,970.80\n$2,555,363.20 | $12,025.00 | $409,000.00 | $60,521.70 | $18,000.00\n$61,810.20 | $76,530.80 | $119,459.20 | $0 | $63,520.00\n$6,500.00 | $502,578.00 | $705,061.10 | $708,258.90 | $135,810.00\n$2,000.00 | $2,000.00 | $0 | $1,287,933.80 | $219,148.30\n[/TABLE]\n\nx̄=$251,854.23\n\ns= $521,130.41\n\nUse this sample data to construct a 96% confidence interval for the mean amount of money raised by all Leadership PACs during the specific election cycle. Use the Student's t-distribution.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-390"
+  },
+  "modelSolution": "x̄=$251,854.23\n\ns= $521,130.41\n\nNote that we are not given the population standard deviation, only the standard deviation of the sample.\n\nThere are 30 measures in the sample, so n = 30, and df = 30 - 1 = 29\n\nCL = 0.96, so α = 1 - CL = 1 - 0.96 = 0.04\n\nα/2=0.02t_(α/2)=t_(0.02)\n= 2.150\n\nEBM=t_(α/2)(s/(√(n)))=2.150((521,130.41)/(√(30))) ~ $204,561.66\n\nx̄ - EBM = $251,854.23 - $204,561.66 = $47,292.57\n\nx̄ + EBM = $251,854.23+ $204,561.66 = $456,415.89\n\nWe estimate with 96% confidence that the mean amount of money raised by all Leadership PACs during the specific election cycle lies between $47,292.57 and $456,415.89.\n\nAlternate Solution\n\nEnter the data as a list.\n\nPress STAT and arrow over to TESTS.\n\nArrow down to 8:TInterval.\n\nPress ENTER.\n\nArrow to Data and press ENTER.\n\nArrow down and enter the name of the list where the data is stored.\n\nEnter Freq: 1\n\nEnter C-Level: 0.96\n\nArrow down to Calculate and press Enter.\n\nThe 96% confidence interval is ($47,262, $456,447).\n\nThe difference between solutions arises from rounding differences.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-392",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats and the sample standard deviation is 4.1 seats.\n\na.\n\ni. x̄ = __________\n\nii. s_x = __________\niii. n = __________\niv. n-1 = __________\n\nb. Define the random variables X and X̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 92% confidence interval for the population mean number of unoccupied seats per\nflight.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-392"
+  },
+  "modelSolution": "a.\n\ni. x̄ = 11.6\nii. s_x = 4.1\niii. n = 225\niv. n - 1 = 224\n\nb. X is the number of unoccupied seats on a single flight. X̄ is the mean number of unoccupied seats from a sample of 225 flights.\nc. We will use a Student’s-t distribution, because we do not know the population standard deviation.\nd.\n\ni. CI: (11.12 , 12.08)\nii. Answers may vary.\niii. EBM: 0.48",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eip-789",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8; 8; 10; 7; 9; 9. Assume the underlying distribution is approximately normal.\n\na. Construct a 90% confidence interval for the population mean grams of fat per serving of chocolate chip cookies sold in supermarkets.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n\nb. If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?\nc. Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.\nd. Calculate the mean.\ne. Is the mean within the interval you calculated in part a? Did you expect it to be? Why or why not?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eip-789"
+  },
+  "modelSolution": "a.\n\ni. CI: (7.64 , 9.36)\nii. [FIGURE]\niii. EBM: 0.86\n\nb. The sample should have been increased.\nc. Answers will vary.\nd. Answers will vary.\ne. Answers will vary.",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m47001-eeeeeeeeeeeeeeex",
+  "sectionId": "8.2",
+  "kind": "mc",
+  "conceptTag": "8.2",
+  "stem": "Find the 95% Confidence Interval for the true population mean for the amount of soda served.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m47001",
+   "exerciseId": "eeeeeeeeeeeeeeex"
+  },
+  "context": "Use the following information to answer the next two exercises: A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16 oz. serving size. The sample mean is 13.30 with a sample standard deviation of 1.55. Assume the underlying population is normally distributed.",
+  "options": [
+   "(12.42, 14.18)",
+   "(12.32, 14.29)",
+   "(12.50, 14.10)",
+   "Impossible to determine"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b"
+  ]
+ },
+ {
+  "id": "tryit-m46999-0",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Suppose 250 randomly selected people are surveyed to determine if they own a tablet. Of the 250 surveyed, 98 reported owning a tablet. Using a 95% confidence level, compute a confidence interval estimate for the true proportion of people who own tablets.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-890",
+   "ref": "Try It 8.10"
+  },
+  "modelSolution": "(0.3315,0.4525)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46999-1",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "A student polls their school to see if students in the school district are for or against the new legislation regarding school uniforms. They survey 600 students and finds that 480 are against the new legislation.\n\na. Compute a 90% confidence interval for the true percent of students who are against the new legislation, and interpret the confidence interval.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "fs-idm23330928",
+   "ref": "Try It 8.11"
+  },
+  "modelSolution": "a. (0.7731, 0.8269); We estimate with 90% confidence that the true percent of all students in the district who are against the new legislation is between 77.31% and 82.69%.\nb.\nSolution A;\nSixty-eight percent (68%) of students own an iPod and a smart phone.\np′=0.68\nq′=1–p′=1–0.68=0.32\nSince CL = 0.97, we know α = 1 – 0.97 = 0.03 and α/2 = 0.015.\nThe area to the left of z0.015 is 0.015, and the area to the right of z0.015 is 1 – 0.015 = 0.985.\nUsing the TI 83, 83+, or 84+ calculator function InvNorm(.985,0,1),\nz0.015=2.17\nEPB = (zα/2) = 2.17 ≈ 0.0584\np′ – EPB = 0.68 – 0.0584 = 0.6216\np′ + EPB = 0.68 + 0.0584 = 0.7384\nWe are 97% confident that the true proportion of all students who own an iPod and a smart phone is between 0.6216 and 0.7384.\nSolution B:\nPress STAT and arrow over to TESTS.Arrow down to A:1-PropZint. Press ENTER.Arrow down to x and enter 300*0.68. Arrow down to n and enter 300.Arrow down to C-Level and enter 0.97.Arrow down to Calculate and press ENTER.The confidence interval is (0.6216, 0.7384).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46999-3",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Out of a random sample of 65 first-year students at State University, 31 students have declared a major. Use the “plus-four” method to find a 96% confidence interval for the true proportion of first-year students at State University who have declared a major.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-479",
+   "ref": "Try It 8.12"
+  },
+  "modelSolution": "Solution A\nUsing “plus four,” we have x = 31 + 2 = 33 and n = 65 + 4 = 69.\np′=33/69≈0.478\nq′=1–p′=1–0.478=0.522\nSince CL = 0.96, we know α = 1 – 0.96 = 0.04 and α/2 = 0.02.\nz0.02=2.054z0.02=2.054\nEPB = (zα/2) = 2.054 ≈ 0.124\np′ – EPB = 0.478 – 0.124 = 0.354\np′ + EPB = 0.478 + 0.124 = 0.602\nWe are 96% confident that between 35.4% and 60.2% of all freshmen at State U have declared a major.\nSolution B\nPress STAT and arrow over to TESTS.Arrow down to A:1-PropZint. Press ENTER.Arrow down to x and enter 33.Arrow down to n and enter 69.Arrow down to C-Level and enter 0.96.Arrow down to Calculate and press ENTER.The confidence interval is (0.355, 0.602).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46999-4",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "The survey referenced in talked to adults aged 18–29 in smaller focus groups but also interviewed additional individuals over the phone. When the study was complete, 588 adults aged 18–29 had answered the question about their potential purchase of an electric vehicle with 159 saying that they would consider such a purchase. Use the “plus-four” method to find a 90% confidence interval for the true proportion of adults aged 18–29 who would consider the purchase of an electric vehicle based on this larger sample. Compare the results to those in .",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-375",
+   "ref": "Try It 8.13"
+  },
+  "modelSolution": "Solution A\nUsing “plus four,” we have x = 159 + 2 = 161 and n = 588 + 4 = 592.\np′=161/592 ≈ 0.272\nq′=1–p′=1–0.272=0.728\nSince CL = 0.90, we know α = 1 – 0.90 = 0.10 and α/2 = 0.05.\nEPB = (zα/2) = 1.645 ≈ 0.030\np′ – EPB = 0.272 – 0.030 = 0.242\np′ + EPB = 0.272 + 0.034 = 0.302\nWe are 96% confident that between 24.2% and 30.2% of all adults aged 18–29 would report considering the purchase of an electric vehicle.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "tryit-m46999-5",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Suppose an internet marketing company wants to determine the current percentage of customers who click on ads on their smartphones. How many customers should the company survey in order to be 90% confident that the estimated proportion is within five percentage points of the true population proportion of customers who click on ads on their smartphones?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-143",
+   "ref": "Try It 8.14"
+  },
+  "modelSolution": "271 customers should be surveyed.\nChapter 9. Hypothesis Testing with One Sample\nSection 1. Null and Alternative Hypotheses",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-523",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "If it were later determined that it was important to be more than 90% confident and a new survey were commissioned, how would it affect the minimum number you need to survey? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-523"
+  },
+  "context": "Use the following information to answer the next two exercises: Marketing companies are interested in knowing the population percent of women who make the majority of household purchasing decisions.",
+  "modelSolution": "The sample size needed would increase. As the confidence level increases, α decreases and z_((a/2)) increases. To maintain the same error bound, the size of the sample needs to increase.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-55",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Define the random variables X and p^′ in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-55"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions.",
+  "modelSolution": "X is the number of “successes” where the woman makes the majority of the purchasing decisions for the household. P′ is the percentage of households sampled where the woman makes the majority of the purchasing decisions for the household.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-151",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Construct a 95% confidence interval for the population proportion of households where the women make the majority of the purchasing decisions. State the confidence interval, sketch the graph, and calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-151"
+  },
+  "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions.",
+  "modelSolution": "CI: (0.5321, 0.6679)\n\n[FIGURE]\n\nEBM: 0.0679",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-115",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "We are interested in finding the 95% confidence interval for the percent of executives who prefer trucks. Define random variables X and P′ in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-115"
+  },
+  "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks.",
+  "modelSolution": "X is the number of “successes” where an executive prefers a truck. P′ is the percentage of executives sampled who prefer a truck.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-593",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Construct a 95% confidence interval. State the confidence interval, sketch the graph, and calculate the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-593"
+  },
+  "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks.",
+  "modelSolution": "CI: (0.19432, 0.33068)\n\n[FIGURE]\n\nEBM: 0.0707",
+  "needsFigure": true,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-978",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "The sampling error given in the survey is ±2%. Explain what the ±2% means.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-978"
+  },
+  "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks.",
+  "modelSolution": "The sampling error means that the true mean can be 2% above or below the sample mean.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-94",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Define the random variable P′ in words.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-94"
+  },
+  "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important.",
+  "modelSolution": "P′ is the proportion of voters sampled who said the economy is the most important issue in the upcoming election.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-820",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Construct a 90% confidence interval, and state the confidence interval and the error bound.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-820"
+  },
+  "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important.",
+  "modelSolution": "CI: (0.62735, 0.67265)\n\nEBM: 0.02265",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-193",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "What is being counted?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-193"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "The number of girls, ages 8 to 12, in the 5 P.M. Monday night beginning ice-skating class.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-138",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Calculate the following:\n\na. x = _______\nb. n = _______\nc. p′ = _______",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-138"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "a. x = 64\nb. n = 80\nc. p′ = 0.8",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-324",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Define a new random variable P′. What is p′ estimating?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-324"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "p",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-759",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "State the estimated distribution of P′. Construct a 92% Confidence Interval for the true proportion of girls in the ages 8 to 12 beginning ice-skating classes at the Ice Chalet.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-759"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "P^′~N(0.8,√(((0.8)(0.2))/80)). (0.72171, 0.87829).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-364",
+  "sectionId": "8.3",
+  "kind": "numeric",
+  "conceptTag": "8.3",
+  "stem": "How much area is in each tail?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-364"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "answer": 0.04,
+  "tolerance": {
+   "abs": 0.006,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.04"
+  ]
+ },
+ {
+  "id": "os-m46999-element-846",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "The 92% confidence interval is _______.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-846"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "(0.72; 0.88)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-733",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "In one complete sentence, explain what the interval means.",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-733"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "With 92% confidence, we estimate the proportion of girls, ages 8 to 12, in a beginning ice-skating class at the Ice Chalet to be between 72% and 88%.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-element-478",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Using the same p′ and n = 80, how would the error bound change if the confidence level were increased to 98%? Why?",
+  "source": "openstax-practice",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "element-478"
+  },
+  "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population.",
+  "modelSolution": "The error bound would increase. Assuming all other variables are kept constant, as the confidence level increases, the area under the curve corresponding to the confidence level becomes larger, which creates a wider interval and thus a larger error.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-77",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Insurance companies are interested in knowing the population percent of drivers who always buckle up before riding in a car.\n\na. When designing a study to determine this population proportion, what is the minimum number you would need to survey to be 95% confident that the population proportion is estimated to within 0.03?\nb. If it were later determined that it was important to be more than 95% confident and a new survey was commissioned, how would that affect the minimum number you would need to survey? Why?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-77"
+  },
+  "modelSolution": "a. 1,068\nb. The sample size would need to be increased since the critical value increases as the confidence level increases.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-exerc4",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "According to a recent survey of 1,200 people, 61% feel that the president is doing an acceptable job. We are interested in the population proportion of people who feel the president is doing an acceptable job.\n\na. Define the random variables X and P′ in words.\nb. Which distribution should you use for this problem? Explain your choice.\nc. Construct a 90% confidence interval for the population proportion of people who feel the president is doing an acceptable job.\n\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "exerc4"
+  },
+  "modelSolution": "a.\n\nX = the number of people who feel that the president is doing an acceptable job;\n\nP′ = the proportion of people in a sample who feel that the president is doing an acceptable job.\n\nb. N(0.61,√(((0.61)(0.39))/1200))\nc.\n\ni. CI: (0.59, 0.63)\nii. Answers may vary.\niii. EBM: 0.02",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-exe1",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Refer to the information in .\n\na. Construct three 95% confidence intervals.\n\ni. percent of all Asians who would welcome a White person into their families.\nii. percent of all Asians who would welcome a Hispanic/Latino into their families.\niii. percent of all Asians who would welcome a Black person into their families.\n\nb. Even though the three point estimates are different, do any of the confidence intervals overlap? Which?\nc. For any intervals that do overlap, in words, what does this imply about the significance of the differences in the true proportions?\nd. For any intervals that do not overlap, in words, what does this imply about the significance of the differences in the true proportions?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "exe1"
+  },
+  "modelSolution": "a.\n\ni. (0.72, 0.82)\nii. (0.65, 0.76)\niii. (0.60, 0.72)\n\nb. Yes, the intervals (0.72, 0.82) and (0.65, 0.76) overlap, and the intervals (0.65, 0.76) and (0.60, 0.72) overlap.\nc. We can say that there does not appear to be a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Hispanic/Latino person into their families.\nd. We can say that there is a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Black person into their families.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-exercise3289720",
+  "sectionId": "8.3",
+  "kind": "mc",
+  "conceptTag": "8.3",
+  "stem": "A point estimate for the true population proportion is:",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "exercise3289720"
+  },
+  "context": "Use the following information to answer the next three exercises: According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia.",
+  "options": [
+   "0.90",
+   "1.27",
+   "0.79",
+   "400"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c"
+  ]
+ },
+ {
+  "id": "os-m46999-eeexxxx",
+  "sectionId": "8.3",
+  "kind": "mc",
+  "conceptTag": "8.3",
+  "stem": "The error bound is approximately _____.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eeexxxx"
+  },
+  "context": "Use the following information to answer the next three exercises: According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia.",
+  "options": [
+   "1.581",
+   "0.791",
+   "0.059",
+   "0.030"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d"
+  ]
+ },
+ {
+  "id": "os-m46999-exer12345",
+  "sectionId": "8.3",
+  "kind": "mc",
+  "conceptTag": "8.3",
+  "stem": "The point estimate for the population proportion of homes that do not meet the minimum recommendations for earthquake preparedness is ______.",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "exer12345"
+  },
+  "context": "Use the following information to answer the next two exercises: Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not.",
+  "options": [
+   "0.6614",
+   "0.3386",
+   "173",
+   "338"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a"
+  ]
+ },
+ {
+  "id": "os-m46999-eip-126",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "A national survey of 1,000 adults was conducted by Rasmussen Reports. It concluded with 95% confidence that 49% to 55% of Americans believe that big-time college sports programs corrupt the process of higher education.\n\na. Find the point estimate and the error bound for this confidence interval.\nb. Can we (with 95% confidence) conclude that more than half of all American adults believe this?\nc. Use the point estimate from part a and n = 1,000 to calculate a 75% confidence interval for the proportion of American adults that believe that major college sports programs corrupt higher education.\nd. Can we (with 75% confidence) conclude that at least half of all American adults believe this?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-126"
+  },
+  "context": "Use the following information to answer the next two exercises: Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not.",
+  "modelSolution": "a. p^′ = ((0.55 + 0.49))/2 = 0.52; EBP = 0.55 - 0.52 = 0.03\nb. No, the confidence interval includes values less than or equal to 0.50. It is possible that less than half of the population believe this.\nc. CL = 0.75, so α = 1 – 0.75 = 0.25 and α/2=0.125 z_(α/2)=1.150. (The area to the right of this z is 0.125, so the area to the left is 1 – 0.125 = 0.875.)\n\nEBP=(1.150)√((0.52(0.48))/(1,000))≈0.018\n\n(p′ - EBP, p′ + EBP) = (0.52 – 0.018, 0.52 + 0.018) = (0.502, 0.538)\n\nAlternate Solution\n\nSTAT TESTS A: 1-PropZinterval with x = (0.52)(1,000), n = 1,000, CL = 0.75.\n\nAnswer is (0.502, 0.538)\n\nd. Yes – this interval does not fall less than 0.50 so we can conclude that at least half of all American adults believe that major sports programs corrupt education – but we do so with only 75% confidence.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "os-m46999-eip-934",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "You plan to conduct a survey on your college campus to learn about the political awareness of students. You want to estimate the true proportion of college students on your campus who voted in the 2020 presidential election with 95% confidence and a margin of error no greater than five percent. How many students must you interview?",
+  "source": "openstax-homework",
+  "sourceRef": {
+   "module": "m46999",
+   "exerciseId": "eip-934"
+  },
+  "context": "Use the following information to answer the next two exercises: Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not.",
+  "modelSolution": "CL = 0.95 α = 1 – 0.95 = 0.05 α/2 = 0.025 z_(α/2) = 1.96. Use p′ = q′ = 0.5.\n\nn=( z_(α/2)^2p^′q^′)/(EBP^2)= (1.96^2(0.5)(0.5))/(0.05^2)=384.16\n\nYou need to interview at least 385 students to estimate the proportion to within 5% at 95% confidence.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-1",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What is the standard error of the sample mean in this scenario, rounded to two decimal places?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 1
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "σ/(√(n))=4/(√(30))=0.73",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-2",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What is the distribution of the sample mean?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 2
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "normal",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-3",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "If you want to construct a two-sided 95% confidence interval, how much probability will be in each tail of the distribution?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 3
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "0.025 or 2.5%; A 95% confidence interval contains 95% of the probability, and excludes five percent, and the five percent excluded is split evenly between the upper and lower tails of the distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-4",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What is the appropriate z-score and error bound or margin of error (EBM) for a 95% confidence interval for this data?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 4
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "z-score = 1.96; EBM= z_(α/2)(σ/(√(n)))=(1.96)(0.73)= 1.4308",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-5",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Rounding to two decimal places, what is the 95% confidence interval if the sample mean is 41?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 5
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "41 ± 1.43 = (39.57, 42.43); Using the calculator function Zinterval, answer is (40.74, 41.26. Answers differ due to rounding.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-6",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "What is the 90% confidence interval if the sample mean is 41? Round to two decimal places",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 6
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "The z-value for a 90% confidence interval is 1.645, so EBM = 1.645(0.73) = 1.20085.\nThe 90% confidence interval is 41 ± 1.20 = (39.80, 42.20).\nThe calculator function Zinterval answer is (40.78, 41.23). Answers differ due to rounding.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-7",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Suppose the sample size in this study had been 50, rather than 30. What would the 95% confidence interval be if the sample mean is 41? Round your answer to two decimal places.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "The standard error of measurement is: σ/(√(n))= 4/(√(50))=0.57\n\nEBM= z_(α/2)(σ/(√(n)))=(1.96)(0.57)= 1.12\n\nThe 95% confidence interval is 41 ± 1.12 = (39.88, 42.12).\nThe calculator function Zinterval answer is (40.84, 41.16). Answers differ due to rounding.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-8",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "For any given data set and sampling situation, which would you expect to be wider: a 95% confidence interval or a 99% confidence interval?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 8
+  },
+  "context": "Use the following information to answer the next seven exercises. You draw a sample of size 30 from a normally distributed population with a standard deviation of four.",
+  "modelSolution": "The 99% confidence interval, because it includes all but one percent of the distribution. The 95% confidence interval will be narrower, because it excludes five percent of the distribution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-9",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Comparing graphs of the standard normal distribution (z-distribution) and a t-distribution with 15 degrees of freedom (df), how do they differ?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 9
+  },
+  "modelSolution": "The t-distribution will have more probability in its tails (“thicker tails”) and less probability near the mean of the distribution (“shorter in the center”).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-10",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Comparing graphs of the standard normal distribution (z-distribution) and a t-distribution with 15 degrees of freedom (df), how are they similar?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 10
+  },
+  "modelSolution": "Both distributions are symmetrical and centered at zero.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-11",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "What is the degrees of freedom (df) for this study?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 11
+  },
+  "context": "Use the following information to answer the next five exercises. Body temperature is known to be distributed normally among healthy adults. Because you do not know the population standard deviation, you use the t-distribution to study body temperature. You collect data from a random sample of 20 healthy adults and find that your sample temperatures have a mean of 98.4 and a sample standard deviation of 0.3 (both in degrees Fahrenheit).",
+  "modelSolution": "df = n – 1 = 20 – 1 = 19",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-12",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "For a two-tailed 95% confidence interval, what is the appropriate t-value to use in the formula?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 12
+  },
+  "context": "Use the following information to answer the next five exercises. Body temperature is known to be distributed normally among healthy adults. Because you do not know the population standard deviation, you use the t-distribution to study body temperature. You collect data from a random sample of 20 healthy adults and find that your sample temperatures have a mean of 98.4 and a sample standard deviation of 0.3 (both in degrees Fahrenheit).",
+  "modelSolution": "You can get the t-value from a probability table or a calculator. In this case, for a t-distribution with 19 degrees of freedom, and a 95% two-sided confidence interval, the value is 2.093, i.e.,\nt_(α/2 )=2.093. The calculator function is invT(0.975, 19).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-13",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "What is the 95% confidence interval?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 13
+  },
+  "context": "Use the following information to answer the next five exercises. Body temperature is known to be distributed normally among healthy adults. Because you do not know the population standard deviation, you use the t-distribution to study body temperature. You collect data from a random sample of 20 healthy adults and find that your sample temperatures have a mean of 98.4 and a sample standard deviation of 0.3 (both in degrees Fahrenheit).",
+  "modelSolution": "EBM= t_(α/2)(s/(√(n)))=(2.093)(0.3/(√(20)))= 0.140\n\n98.4 ± 0.14 = (98.26, 98.54).\nThe calculator function Tinterval answer is (98.26, 98.54).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-14",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "What is the 99% confidence interval? Round to two decimal places.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 14
+  },
+  "context": "Use the following information to answer the next five exercises. Body temperature is known to be distributed normally among healthy adults. Because you do not know the population standard deviation, you use the t-distribution to study body temperature. You collect data from a random sample of 20 healthy adults and find that your sample temperatures have a mean of 98.4 and a sample standard deviation of 0.3 (both in degrees Fahrenheit).",
+  "modelSolution": "t_(α/2)=2.861. The calculator function is invT(0.995, 19).\n\nEBM=t_(α/2)(s/(√(n)))=(2.861)(0.3/(√(20)))=0.192\n\n98.4 ± 0.19 = (98.21, 98.59). The calculator function Tinterval answer is (98.21, 98.59).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-15",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Suppose your sample size had been 30 rather than 20. What would the 95% confidence interval be then? Round to two decimal places",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 15
+  },
+  "context": "Use the following information to answer the next five exercises. Body temperature is known to be distributed normally among healthy adults. Because you do not know the population standard deviation, you use the t-distribution to study body temperature. You collect data from a random sample of 20 healthy adults and find that your sample temperatures have a mean of 98.4 and a sample standard deviation of 0.3 (both in degrees Fahrenheit).",
+  "modelSolution": "df = n – 1 = 30 – 1 = 29. t_(α/2 )=2.045\n\nEBM= z_t(s/(√(n)))=(2.045)(0.3/(√(30)))= 0.112\n\n98.4 ± 0.11 = (98.29, 98.51). The calculator function Tinterval answer is (98.29, 98.51).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-16",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Find the sample proportion and sample standard deviation for this data.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 16
+  },
+  "context": "Use this information to answer the next four exercises. You conduct a poll of 500 randomly selected city residents, asking them if they own an automobile. 280 say they do own an automobile, and 220 say they do not.",
+  "modelSolution": "p^′=280/500=0.56\n\nq^′=1−p^′=1−0.56=0.44\n\ns=√(pq/n)=√((0.56(0.44))/500)=0.0222",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-17",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "What is the 95% two-sided confidence interval? Round to four decimal places.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 17
+  },
+  "context": "Use this information to answer the next four exercises. You conduct a poll of 500 randomly selected city residents, asking them if they own an automobile. 280 say they do own an automobile, and 220 say they do not.",
+  "modelSolution": "Because you are using the normal approximation to the binomial, z_(α/2)=1.96.\nCalculate the error bound for the population (EBP):\nEBP= z_(a/2)√(pq/n)=1.96(0.222)=0.0435\n\nCalculate the 95% confidence interval:\n0.56 ± 0.0435 = (0.5165, 0.6035).\nThe calculator function 1-PropZint answer is (0.5165, 0.6035).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-18",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Calculate the 90% confidence interval. Round to four decimal places.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 18
+  },
+  "context": "Use this information to answer the next four exercises. You conduct a poll of 500 randomly selected city residents, asking them if they own an automobile. 280 say they do own an automobile, and 220 say they do not.",
+  "modelSolution": "z_(α/2)=1.64\n\nEBP= z_(a/2)√(pq/n)=1.64(0.0222)=0.0364\n\n0.56 ± 0.03 = (0.5236, 0.5964). The calculator function 1-PropZint answer is (0.5235, 0.5965)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-19",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Calculate the 99% confidence interval. Round to four decimal places.",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 19
+  },
+  "context": "Use this information to answer the next four exercises. You conduct a poll of 500 randomly selected city residents, asking them if they own an automobile. 280 say they do own an automobile, and 220 say they do not.",
+  "modelSolution": "z_(α/2)=2.58\n\nEBP= z_(a/2)√(pq/n)=2.58(0.0222)= 0.0573\n\n0.56 ± 0.05 = (0.5127, 0.6173).\nThe calculator function 1-PropZint answer is (0.5028, 0.6172).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-20",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "What sample size do you need?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 20
+  },
+  "context": "Use the following information to answer the next three exercises. You are planning to conduct a poll of community members age 65 and older, to determine how many own mobile phones. You want to produce an estimate whose 95% confidence interval will be within four percentage points (plus or minus) the true population proportion. Use an estimated population proportion of 0.5.",
+  "modelSolution": "EBP = 0.04 (because 4% = 0.04)\nz_(α/2)=1.96 for a 95% confidence interval\nn= (z^2pq)/(EBP^2)= (1.96^2(0.5)(0.5))/(0.04^2)= 0.9604/0.0016=600.25\n\nYou need 601 subjects (rounding upward from 600.25).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-21",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Suppose you knew from prior research that the population proportion was 0.6. What sample size would you need?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 21
+  },
+  "context": "Use the following information to answer the next three exercises. You are planning to conduct a poll of community members age 65 and older, to determine how many own mobile phones. You want to produce an estimate whose 95% confidence interval will be within four percentage points (plus or minus) the true population proportion. Use an estimated population proportion of 0.5.",
+  "modelSolution": "n= (n^2pq)/(EBP^2)= (1.96^2(0.6)(0.4))/(0.04^2)= 0.9220/0.0016=576.24\n\nYou need 577 subjects (rounding upward from 576.24).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "pt3-22",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Suppose you wanted a 95% confidence interval within three percentage points of the population. Assume the population proportion is 0.5. What sample size do you need?",
+  "source": "openstax-practice-test",
+  "sourceRef": {
+   "test": "Practice Test 3",
+   "n": 22
+  },
+  "context": "Use the following information to answer the next three exercises. You are planning to conduct a poll of community members age 65 and older, to determine how many own mobile phones. You want to produce an estimate whose 95% confidence interval will be within four percentage points (plus or minus) the true population proportion. Use an estimated population proportion of 0.5.",
+  "modelSolution": "n= (n^2pq)/(EBP^2)= (1.96^2(0.5)(0.5))/(0.03^2)= 0.9604/0.0009=1067.11\n\nYou need 1,068 subjects (rounding upward from 1,067.11).",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-10",
+  "sectionId": "8.2",
+  "kind": "mc",
+  "conceptTag": "8.2",
+  "stem": "Using a sample of 15 Stanford-Binet IQ scores, we wish to conduct a hypothesis test. Our claim is that the mean IQ score on the Stanford-Binet IQ test is more than 100. It is known that the standard deviation of all Stanford-Binet IQ scores is 15 points. The correct distribution to use for the hypothesis test is:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 10
+  },
+  "context": "Use the following information to answer the next two exercises: On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
+  "options": [
+   "Binomial",
+   "Student's t",
+   "Normal",
+   "Uniform"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. Normal"
+  ]
+ },
+ {
+  "id": "fe1-23",
+  "sectionId": "8.1",
+  "kind": "mc",
+  "conceptTag": "8.1",
+  "stem": "Construct a 95% confidence interval for the true population mean number of dependents of Reservists called to active duty to increase security at California airports.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 23
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "options": [
+   "(1.85, 2.32)",
+   "(1.80, 2.36)",
+   "(1.97, 2.46)",
+   "(1.92, 2.50)"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. (1.85, 2.32)"
+  ]
+ },
+ {
+  "id": "fe1-24",
+  "sectionId": "8.1",
+  "kind": "mc",
+  "conceptTag": "8.1",
+  "stem": "The 95% confidence interval above means:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 24
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "options": [
+   "Five percent of confidence intervals constructed this way will not contain the true population aveage number of dependents.",
+   "We are 95% confident the true population mean number of dependents falls in the interval.",
+   "Both of the above answer choices are correct.",
+   "None of the above."
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. Both above are correct."
+  ]
+ },
+ {
+  "id": "fe1-28",
+  "sectionId": "8.3",
+  "kind": "mc",
+  "conceptTag": "8.3",
+  "stem": "A survey of 123 reservists called to active duty as a result of the September 11, 2001, attacks was conducted to determine the proportion that were married. Eighty-six reported being married. Construct a 98% confidence interval for the true population proportion of reservists called to active duty that are married.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 28
+  },
+  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "options": [
+   "(0.6030, 0.7954)",
+   "(0.6181, 0.7802)",
+   "(0.5927, 0.8057)",
+   "(0.6312, 0.7672)"
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. (0.6030, 0.7954)"
+  ]
+ },
+ {
+  "id": "fe2-11",
+  "sectionId": "8.1",
+  "kind": "mc",
+  "conceptTag": "8.1",
+  "stem": "The ages of campus day and evening students is known to be normally distributed. A sample of six campus day and evening students reported their ages (in years) as: {18, 35, 27, 45, 20, 20}. What is the error bound for the 90% confidence interval of the true average age?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 11
+  },
+  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
+  "options": [
+   "11.2",
+   "22.3",
+   "17.5",
+   "8.7"
+  ],
+  "correctIndex": 3,
+  "needsFigure": false,
+  "explanation": [
+   "d. 8.7"
+  ]
+ },
+ {
+  "id": "rv9-86",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Six different brands of Italian salad dressing were randomly selected at a supermarket. The grams of fat per serving are 7, 7, 9, 6, 8, 5. Assume that the underlying distribution is normal. Calculate a 95% confidence interval for the population mean grams of fat per serving of Italian salad dressing sold in supermarkets.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 86
+  },
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
+  "modelSolution": "CI: (5.25, 8.48)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-104",
+  "sectionId": "8.2",
+  "kind": "mc",
+  "conceptTag": "8.2",
+  "stem": "For which distribution is the median not equal to the mean?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 104
+  },
+  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "options": [
+   "Uniform",
+   "Exponential",
+   "Normal",
+   "Student t"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. Exponential"
+  ]
+ },
+ {
+  "id": "rv11-105",
+  "sectionId": "8.2",
+  "kind": "open",
+  "conceptTag": "8.2",
+  "stem": "Compare the standard normal distribution to the Student’s t-distribution, centered at zero. Explain which of the following are true and which are false.\na. As the number surveyed increases, the area to the left of –1 for the Student’s t-distribution approaches the area for the standard normal distribution.\nb. As the degrees of freedom decrease, the graph of the Student’s t-distribution looks more like the graph of the standard normal distribution.\nc. If the number surveyed is 15, the normal distribution should never be used.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 105
+  },
+  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "modelSolution": "a. true\nb. false\nc. false",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-107",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "If you were to create a confidence interval or perform a hypothesis test for the population mean checking account balance of twenty-year-old college students, what distribution would you use?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 107
+  },
+  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
+  "modelSolution": "Student’s t with df = 15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv11-108",
+  "sectionId": "8.1",
+  "kind": "open",
+  "conceptTag": "8.1",
+  "stem": "Find the 95% confidence interval for the true mean checking account balance of a twenty-year-old college student.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 108
+  },
+  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
+  "modelSolution": "(560.07, 719.93)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv12-123",
+  "sectionId": "8.3",
+  "kind": "open",
+  "conceptTag": "8.3",
+  "stem": "Find the 95% confidence interval for the true proportion of U.S. girls, age 12–19, who have been pregnant.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 12",
+   "n": 123
+  },
+  "context": "Use the following information to answer the next two exercises: A recent survey of U.S. teenage pregnancy was answered by 720 girls, age 12–19. Six percent of the girls surveyed said they have been pregnant. We are interested in the true proportion of U.S. girls, age 12–19, who have been pregnant.",
+  "modelSolution": "(0.0424, 0.0770)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv12-124",
+  "sectionId": "8.3",
+  "kind": "numeric",
+  "conceptTag": "8.3",
+  "stem": "The report also stated that the results of the survey are accurate to within ±3.7% at the 95% confidence level. Suppose that a new study is to be done. It is desired to be accurate to within 2% of the 95% confidence level. What is the minimum number that should be surveyed?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 12",
+   "n": 124
+  },
+  "context": "Use the following information to answer the next two exercises: A recent survey of U.S. teenage pregnancy was answered by 720 girls, age 12–19. Six percent of the girls surveyed said they have been pregnant. We are interested in the true proportion of U.S. girls, age 12–19, who have been pregnant.",
+  "answer": 2401.0,
+  "tolerance": {
+   "abs": 0.05,
+   "rel": 0.005
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "2,401"
+  ]
+ }
+]
