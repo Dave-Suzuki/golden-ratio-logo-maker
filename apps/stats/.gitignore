@@ -1,3 +1,4 @@
 data/
 scripts/.cache/
 scripts/__pycache__/
+spa-dist/
