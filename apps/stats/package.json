@@ -2,7 +2,7 @@
   "name": "@kiwari/stats",
   "version": "0.1.0",
   "private": true,
-  "description": "Stats trainer — section-by-section quizzes, mistake review and printable tests for OpenStax Introductory Statistics 2e",
+  "description": "Stats trainer \u2014 section-by-section quizzes, mistake review and printable tests for OpenStax Introductory Statistics 2e",
   "scripts": {
     "dev": "next dev -p 3001",
     "build": "next build",
