@@ -392,15 +392,19 @@ def merge_tryit_solutions(chapters, guide, overrides):
                     if s['id'] == f['module'] and i == f['index']:
                         target = t
             else:
-                best, br = None, 0
+                # short-prefix similarity decides whether it is a match; the full text breaks ties between
+                # Try Its that share a long preamble (e.g. the deck-of-cards series in 3.2)
+                scored = []
                 for s, i, t in srcs:
                     if id(t) in used:
                         continue
-                    r = difflib.SequenceMatcher(None, norm(g['problem'])[:200], norm(t['problem'])[:200]).ratio()
-                    if r > br:
-                        best, br = t, r
-                if br > 0.6:
-                    target = best
+                    r200 = difflib.SequenceMatcher(None, norm(g['problem'])[:200], norm(t['problem'])[:200]).ratio()
+                    if r200 > 0.6:
+                        r_full = difflib.SequenceMatcher(None, norm(g['problem'])[:1500], norm(t['problem'])[:1500]).ratio()
+                        scored.append((r_full, r200, t))
+                if scored:
+                    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+                    target = scored[0][2]
             if target is not None and g['solution']:
                 used.add(id(target))
                 target['guideSolution'] = g['solution']

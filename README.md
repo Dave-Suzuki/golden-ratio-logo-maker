@@ -43,6 +43,26 @@ export ANTHROPIC_API_KEY=sk-ant-...
 
 Same brief + same seed always reproduces the identical marks, on either path.
 
+## Stats trainer (`apps/stats`)
+
+A second app in this workspace: a section-by-section learning tool for OpenStax *Introductory Statistics 2e*.
+Quizzes mix auto-graded items (multiple choice, numeric, true/false, fill-in) with worked problems you
+self-assess and generated problems with fresh numbers; every mistake opens a concept that stays in review until
+you answer it correctly twice; sections turn "mastered" at 80%+ with nothing open; any section, chapter or
+OpenStax practice test can be printed with an answer key, and a new seed gives a different paper.
+
+```sh
+npm run dev:stats          # http://localhost:3001
+npm run test:stats         # vitest: grading, generation, reducer, storage, content shape, templates × 200 seeds
+npm run build:stats
+npm run ingest:stats       # regenerate apps/stats/content from the OpenStax source + uploaded texts (python3)
+```
+
+Learner progress is stored as JSON under `apps/stats/data/` (override with `STATS_DATA_DIR`). With
+`ANTHROPIC_API_KEY` set, a "Deeper explanation" button asks Claude for a tailored explanation; without it the
+app is fully functional offline. Content, ingestion and licensing: `apps/stats/scripts/README.md`,
+`apps/stats/content/ATTRIBUTION.md`, and the plan in `apps/stats/PLAN.md`.
+
 ## Verify
 
 ```sh

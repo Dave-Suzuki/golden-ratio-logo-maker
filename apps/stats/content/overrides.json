@@ -1,0 +1,27 @@
+{
+  "_comment": "Hand corrections applied by scripts/ingest_openstax.py. tryitAlignment: guide item 'ch.n' -> {module, index} of the source Try It, or null when the 2e source has no counterpart (the guide item is skipped). items: question id -> fields merged into the emitted question. skip: ids never emitted.",
+  "tryitAlignment": {
+    "1.11": null,
+    "1.18": null,
+    "2.11": {
+      "module": "m46924",
+      "index": 4
+    },
+    "2.34": null,
+    "3.22": null,
+    "3.23": {
+      "module": "m46935",
+      "index": 3
+    },
+    "8.2": null,
+    "9.8": {
+      "module": "m47029",
+      "index": 3
+    },
+    "10.5": null,
+    "10.10": null,
+    "10.12": null
+  },
+  "items": {},
+  "skip": []
+}

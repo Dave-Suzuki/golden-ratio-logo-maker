@@ -237,6 +237,22 @@
   "explanation": []
  },
  {
+  "id": "tryit-m47029-3",
+  "sectionId": "9.2",
+  "kind": "open",
+  "conceptTag": "9.2",
+  "stem": "Identify the Type I and Type II errors from these four statements.",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m47029",
+   "exerciseId": "eip-856",
+   "ref": "Try It 9.8"
+  },
+  "modelSolution": "Type I error: c\nType I error: a\nSection 4. Rare Events, the Sample, Decision and Conclusion",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
   "id": "os-m47029-eip-308",
   "sectionId": "9.2",
   "kind": "open",

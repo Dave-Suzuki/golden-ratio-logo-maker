@@ -192,7 +192,9 @@
     {
      "id": "exer-00001",
      "problem": "We will construct an overlay frequency polygon comparing the scores from with the students’ final test scores in algebra.\n\n[TABLE]\nFrequency Distribution for Algebra Final Test Scores\nLower Bound | Upper Bound | Frequency | Cumulative Frequency\n49.5 | 59.5 | 10 | 10\n59.5 | 69.5 | 5 | 15\n69.5 | 79.5 | 40 | 55\n79.5 | 89.5 | 35 | 90\n89.5 | 99.5 | 10 | 100\n[/TABLE]",
-     "solution": "Calculus Test Scores v Algebra Test Scores\n\nImage Insert"
+     "solution": "Calculus Test Scores v Algebra Test Scores\n\nImage Insert",
+     "guideSolution": "Calculus Test Scores v Algebra Test Scores\nFigure 7",
+     "guideRef": "Try It 2.11"
     },
     {
      "id": "fs-idm10087584",

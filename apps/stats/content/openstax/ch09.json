@@ -220,7 +220,9 @@
       "Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when the percentage is actually at least 88%.",
       "Reject the null hypothesis that the percentage of adults who have jobs is at least 88% when that percentage is actually less than 88%."
      ],
-     "solution": null
+     "solution": null,
+     "guideSolution": "Type I error: c\nType I error: a\nSection 4. Rare Events, the Sample, Decision and Conclusion",
+     "guideRef": "Try It 9.8"
     }
    ],
    "examples": [

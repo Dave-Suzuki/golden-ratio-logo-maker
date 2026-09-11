@@ -1080,6 +1080,22 @@
   "explanation": []
  },
  {
+  "id": "tryit-m46935-3",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "relates the weights and heights of a group of individuals participating in an observational study.\n\n[TABLE]\nWeight/Height | Tall | Medium | Short | Totals\nOverweight | 18 | 28 | 14 |\nTypical Weight Range | 20 | 51 | 28 |\nUnderweight | 12 | 25 | 9 |\nTotals | | | |\n[/TABLE]\n\na. Find the total for each row and column\nb. Find the probability that a randomly chosen individual from this group is Tall.\nc. Find the probability that a randomly chosen individual from this group is Overweight and Tall.\nd. Find the probability that a randomly chosen individual from this group is Tall given that the individual is Overweight.\ne. Find the probability that a randomly chosen individual from this group is Overweight given that the individual is Tall.\nf. Find the probability a randomly chosen individual from this group is Tall and Underweight.\ng. Are the events Overweight and Tall independent?",
+  "source": "openstax-tryit",
+  "sourceRef": {
+   "module": "m46935",
+   "exerciseId": "fs-idm30200592",
+   "ref": "Try It 3.23"
+  },
+  "modelSolution": "Weight/Height\nTall\nMedium\nShort\nTotals\nObese\n18\n28\n14\n60\nNormal\n20\n51\n28\n99\nUnderweight\n12\n25\n9\n46\nTotals\n50\n104\n51\n205\nRow Totals: 60, 99, 46. Column totals: 50, 104, 51.\nP(Tall) = 50/205 = 0.244\nP(Obese AND Tall) = 18/205 = 0.088\nP(Tall|Obese) = 18/60 = 0.3\nP(Obese|Tall) = 18/50 = 0.36\nP(Tall AND Underweight = 12/205 = 0.0585\nNo. P(Tall) does not equal P(Tall|Obese).\nSection 5. Tree and Venn Diagrams",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
   "id": "os-m46935-eip-388",
   "sectionId": "3.4",
   "kind": "open",

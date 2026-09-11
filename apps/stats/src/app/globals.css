@@ -1,0 +1,56 @@
+@import 'tailwindcss';
+
+:root {
+  --paper: #fbfaf7;
+  --ink: #1d1c1a;
+  --accent: #2f6f8f;
+  --accent-soft: #e3eef4;
+  --line: #e4e1da;
+  --ok: #2e7d4f;
+  --ok-soft: #e4f3ea;
+  --bad: #b3372b;
+  --bad-soft: #fbe7e4;
+  --warn: #b7791f;
+  --warn-soft: #fdf1dc;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.stem-table {
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+.stem-table th,
+.stem-table td {
+  border: 1px solid var(--line);
+  padding: 0.2rem 0.6rem;
+  text-align: left;
+  font-size: 0.9em;
+}
+.stem-table th {
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+
+@media print {
+  @page {
+    margin: 16mm;
+  }
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-item {
+    break-inside: avoid;
+  }
+  .page-break {
+    break-before: page;
+  }
+}
