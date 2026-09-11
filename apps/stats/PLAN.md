@@ -28,6 +28,19 @@ The user will widen the environment's network policy (Claude Code on the web →
 - **The next session** (on branch `claude/dazzling-pasteur-l5lmxd`) runs `scripts/ingest_extra.py --fetch` for the Virginia Tech "Chapter N Extra Practice" pages (`https://pressbooks.lib.vt.edu/significantstatistics/chapter/chapter-N-extra-practice/`, N = 1…13) and the remaining De Anza exams (index: `https://www.deanza.edu/faculty/bloomroberta/math10/math10exampractice.html`), then continues with milestones 2–6.
 - Files sent to the user at handoff: this plan and `extract.py` (the working CNXML parser).
 
+## Revision 2 — study companion, not a textbook (user feedback after first release)
+
+The learner uses the OpenStax textbook. The app's teaching layer must therefore be a **refresher, not a reader**:
+
+- **Section refresher** (`content/keypoints.ts`, hand-written for all 58 sections): 3–6 one-line key points, the
+  essential formulas (≤ 4), the essential terms (≤ 5), 2–3 common pitfalls, and a textbook pointer
+  ("OpenStax 2e §6.2"). Nothing longer than a screen. This replaces the lecture-notes dump and the OpenStax chapter
+  review in the UI; the ingested notes/summaries stay in `content/` as data for future use but are not shown.
+- **Flow**: refresh (key points) → test → on a miss: correct answer + worked steps + the *pitfalls and key points for that
+  section* → review until understood. "Teach me this" shows the refresher, never the full notes.
+- **Section page**: refresher card + Start quiz / Print. Item-count statistics move out of the way (small line).
+- `TeachSnippet` gains `keyPoints`, `pitfalls`, `textbookRef`; `formulas`/`glossary` are the curated short lists.
+
 ## Status (end of session 1)
 
 Done and pushed on `claude/dazzling-pasteur-l5lmxd`:

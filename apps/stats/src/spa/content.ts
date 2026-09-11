@@ -1,5 +1,6 @@
 /** Browser build of src/lib/server/content.ts: the generated JSON is bundled instead of read from disk. */
-import type { Chapter, Question, Section, SectionId, TeachSnippet } from '../lib/types';
+import type { Chapter, GlossaryEntry, Question, Section, SectionId, TeachSnippet } from '../lib/types';
+import { keyPointsFor } from '../../content/keypoints';
 import catalogJson from '../../content/catalog.json';
 import extraIndex from '../../content/extra/index.json';
 import deanza from '../../content/extra/deanza.json';
@@ -52,7 +53,28 @@ for (const q of ALL) {
   const key = q.sectionId ?? 'unassigned';
   BY_SECTION.set(key, [...(BY_SECTION.get(key) ?? []), q]);
 }
-const TEACH = new Map<string, TeachSnippet>(([t01, t02, t03, t04, t05, t06, t07, t08, t09, t10, t11, t12, t13] as TeachSnippet[][]).flat().map((t) => [t.sectionId, t]));
+interface RawTeach {
+  sectionId: string;
+  title: string;
+  notesText: string | null;
+  summary: string | null;
+  formulaReview: string | null;
+  glossary: GlossaryEntry[];
+}
+function toSnippet(raw: RawTeach): TeachSnippet {
+  const kp = keyPointsFor(raw.sectionId);
+  return {
+    sectionId: raw.sectionId,
+    title: raw.title,
+    keyPoints: kp?.points ?? [],
+    formulas: kp?.formulas ?? [],
+    terms: kp?.terms ?? [],
+    pitfalls: kp?.pitfalls ?? [],
+    textbookRef: `OpenStax Introductory Statistics 2e, section ${raw.sectionId}`,
+    glossary: raw.glossary,
+  };
+}
+const TEACH = new Map<string, TeachSnippet>(([t01, t02, t03, t04, t05, t06, t07, t08, t09, t10, t11, t12, t13] as RawTeach[][]).flat().map((t) => [t.sectionId, toSnippet(t)]));
 const EXTRA_SOURCES = new Set(['deanza', 'vt']);
 
 export function chapters(): Chapter[] {

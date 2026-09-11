@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import type { Chapter, Question, Section, SectionId, TeachSnippet } from '../types';
+import type { Chapter, GlossaryEntry, Question, Section, SectionId, TeachSnippet } from '../types';
+import { keyPointsFor } from '../../../content/keypoints';
 
 /**
  * Server-only content access. Generated JSON lives under apps/stats/content (see scripts/README.md);
@@ -118,12 +119,38 @@ export function testItems(prefix: 'pt' | 'fe', n: number): Question[] {
     .sort((a, b) => Number(re.exec(a.id)![1]) - Number(re.exec(b.id)![1]));
 }
 
+interface RawTeach {
+  sectionId: string;
+  title: string;
+  notesText: string | null;
+  summary: string | null;
+  formulaReview: string | null;
+  glossary: GlossaryEntry[];
+}
+
+export function toSnippet(raw: RawTeach): TeachSnippet {
+  const kp = keyPointsFor(raw.sectionId);
+  return {
+    sectionId: raw.sectionId,
+    title: raw.title,
+    keyPoints: kp?.points ?? [],
+    formulas: kp?.formulas ?? [],
+    terms: kp?.terms ?? [],
+    pitfalls: kp?.pitfalls ?? [],
+    textbookRef: `OpenStax Introductory Statistics 2e, section ${raw.sectionId}`,
+    notesText: raw.notesText,
+    summary: raw.summary,
+    formulaReview: raw.formulaReview,
+    glossary: raw.glossary,
+  };
+}
+
 export function teachFor(sectionId: SectionId): TeachSnippet | undefined {
   if (!teachCache) {
     teachCache = new Map();
     for (const c of chapters()) {
       const rel = `teach/ch${String(c.number).padStart(2, '0')}.json`;
-      if (exists(rel)) for (const t of readJson<TeachSnippet[]>(rel)) teachCache.set(t.sectionId, t);
+      if (exists(rel)) for (const t of readJson<RawTeach[]>(rel)) teachCache.set(t.sectionId, toSnippet(t));
     }
   }
   return teachCache.get(sectionId);

@@ -28,7 +28,10 @@ describe('generated content', () => {
       if (items.length < 5) thin.push(`${s.id}: ${items.length}`);
       const t = teachFor(s.id);
       expect(t, s.id).toBeDefined();
-      expect((t?.summary ?? '').length + (t?.notesText ?? '').length, s.id).toBeGreaterThan(100);
+      expect(t?.keyPoints.length ?? 0, s.id).toBeGreaterThanOrEqual(3);
+      expect(t?.keyPoints.length ?? 0, s.id).toBeLessThanOrEqual(6);
+      for (const kp of t?.keyPoints ?? []) expect(kp.length, `${s.id}: ${kp}`).toBeLessThan(260);
+      expect(t?.textbookRef, s.id).toContain(s.id);
     }
     expect(thin).toEqual([]);
   });

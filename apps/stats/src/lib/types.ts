@@ -115,16 +115,25 @@ export interface GlossaryEntry {
   meaning: string;
 }
 
+/** The refresher shown before a quiz and after a miss: one screen, essentials only. */
 export interface TeachSnippet {
   sectionId: SectionId;
   title: string;
-  notesTitle: string | null;
-  notesText: string | null;
-  summary: string | null;
-  formulaReview: string | null;
-  glossary: GlossaryEntry[];
-  /** optional hand-written paragraphs keyed by concept tag, shown first in the feedback panel */
-  byTag?: Record<string, string>;
+  /** hand-written key points (3–6 one-liners) */
+  keyPoints: string[];
+  /** essential formulas in plain unicode */
+  formulas: string[];
+  /** essential terms */
+  terms: [string, string][];
+  /** common mistakes for this section */
+  pitfalls: string[];
+  /** where to read more, e.g. "OpenStax Introductory Statistics 2e, section 6.2" */
+  textbookRef: string;
+  /** ingested reference material, kept as data but not shown by default */
+  notesText?: string | null;
+  summary?: string | null;
+  formulaReview?: string | null;
+  glossary?: GlossaryEntry[];
 }
 
 // ----- tests -----

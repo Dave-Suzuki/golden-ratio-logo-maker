@@ -50,7 +50,7 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
         <div className="mt-3 flex flex-wrap gap-2">
           {teach && (
             <button onClick={() => setShowTeach((v) => !v)} className="rounded border border-[var(--line)] bg-white px-3 py-1">
-              {showTeach ? 'Hide' : 'Teach me this'}
+              {showTeach ? 'Hide' : 'Show me the essentials'}
             </button>
           )}
           {aiEnabled && deeper === null && (
@@ -76,7 +76,7 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
       )}
       {showTeach && teach && (
         <div className="mt-3 rounded bg-white/80 p-3">
-          <TeachPanel teach={teach} compact tag={q.conceptTag} />
+          <TeachPanel teach={teach} mode="miss" />
         </div>
       )}
     </div>

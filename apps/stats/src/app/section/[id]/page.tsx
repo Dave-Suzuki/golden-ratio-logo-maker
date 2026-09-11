@@ -29,9 +29,9 @@ export default async function SectionPage({ params }: { params: Promise<{ id: st
       <SectionActions sectionId={id} hasTemplates={generators > 0} />
       {teach ? (
         <details open className="rounded-lg border border-[var(--line)] bg-white p-5">
-          <summary className="cursor-pointer font-semibold">Learn this section</summary>
+          <summary className="cursor-pointer font-semibold">Refresh the essentials</summary>
           <div className="mt-3">
-            <TeachPanel teach={teach} />
+            <TeachPanel teach={teach} mode="refresh" />
           </div>
         </details>
       ) : null}

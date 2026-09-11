@@ -1,42 +1,62 @@
 import type { TeachSnippet } from '@/lib/types';
-import { RichText } from './QuestionStem';
 
-export function TeachPanel({ teach, compact = false, tag }: { teach: TeachSnippet; compact?: boolean; tag?: string }) {
-  const byTag = tag && teach.byTag?.[tag];
+/**
+ * The refresher: essentials only. `mode="miss"` (after a wrong answer) leads with the pitfalls;
+ * `mode="refresh"` (before a quiz) leads with the key points. Never the full notes — the learner has the textbook.
+ */
+export function TeachPanel({ teach, mode = 'refresh' }: { teach: TeachSnippet; mode?: 'refresh' | 'miss' }) {
+  const pitfalls = teach.pitfalls.length > 0 && (
+    <section key="pitfalls">
+      <h4 className="eyebrow">Watch out for</h4>
+      <ul className="mt-1 space-y-1">
+        {teach.pitfalls.map((p, i) => (
+          <li key={i} className="flex gap-2">
+            <span aria-hidden className="text-[var(--warn)]">
+              ⚠
+            </span>
+            <span>{p}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+  const points = (
+    <section key="points">
+      <h4 className="eyebrow">Key points</h4>
+      <ul className="mt-1 list-disc space-y-1 pl-5">
+        {teach.keyPoints.map((p, i) => (
+          <li key={i}>{p}</li>
+        ))}
+      </ul>
+    </section>
+  );
   return (
     <div className="space-y-4 text-sm leading-relaxed">
-      {byTag && <RichText text={byTag} className="rounded bg-[var(--warn-soft)] p-3" />}
-      {teach.notesText && (
+      {mode === 'miss' ? [pitfalls, points] : [points, pitfalls]}
+      {teach.formulas.length > 0 && (
         <section>
-          <h4 className="text-xs font-semibold uppercase tracking-wide opacity-60">Lecture notes{teach.notesTitle ? ` — ${teach.notesTitle}` : ''}</h4>
-          <RichText text={compact ? teach.notesText.slice(0, 1600) + (teach.notesText.length > 1600 ? ' …' : '') : teach.notesText} />
+          <h4 className="eyebrow">Formulas</h4>
+          <ul className="mt-1 space-y-1 font-mono text-[13px]">
+            {teach.formulas.map((f, i) => (
+              <li key={i}>{f}</li>
+            ))}
+          </ul>
         </section>
       )}
-      {teach.summary && (
+      {teach.terms.length > 0 && (
         <section>
-          <h4 className="text-xs font-semibold uppercase tracking-wide opacity-60">Chapter review (OpenStax)</h4>
-          <RichText text={teach.summary} />
-        </section>
-      )}
-      {teach.formulaReview && (
-        <section>
-          <h4 className="text-xs font-semibold uppercase tracking-wide opacity-60">Formula review</h4>
-          <RichText text={teach.formulaReview} className="font-mono text-[13px]" />
-        </section>
-      )}
-      {teach.glossary.length > 0 && (
-        <section>
-          <h4 className="text-xs font-semibold uppercase tracking-wide opacity-60">Key terms</h4>
-          <dl className="mt-1 grid gap-1 sm:grid-cols-2">
-            {teach.glossary.map((g) => (
-              <div key={g.term}>
-                <dt className="font-medium">{g.term}</dt>
-                <dd className="opacity-80">{g.meaning}</dd>
+          <h4 className="eyebrow">Terms</h4>
+          <dl className="mt-1 grid gap-x-6 gap-y-1 sm:grid-cols-2">
+            {teach.terms.map(([term, meaning]) => (
+              <div key={term} className="flex gap-2">
+                <dt className="shrink-0 font-medium">{term}</dt>
+                <dd className="opacity-80">{meaning}</dd>
               </div>
             ))}
           </dl>
         </section>
       )}
+      <p className="text-xs opacity-60">Read more: {teach.textbookRef}.</p>
     </div>
   );
 }

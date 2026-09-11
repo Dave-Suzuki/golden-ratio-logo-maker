@@ -27,9 +27,9 @@ export function SectionPage({ id }: { id: string }) {
       <SectionActions sectionId={id} hasTemplates={generators > 0} />
       {teach ? (
         <details open className="rounded-lg border border-[var(--line)] bg-[var(--surface)] p-5">
-          <summary className="cursor-pointer font-semibold">Learn this section</summary>
+          <summary className="cursor-pointer font-semibold">Refresh the essentials</summary>
           <div className="mt-3">
-            <TeachPanel teach={teach} />
+            <TeachPanel teach={teach} mode="refresh" />
           </div>
         </details>
       ) : null}
