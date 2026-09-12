@@ -9,3 +9,7 @@ coverage/
 .DS_Store
 apps/stats/data/
 apps/stats/scripts/.cache/
+
+# QA audit inputs — regenerate with QA_EXPORT=1 npx vitest run test/export-qa.test.ts
+apps/stats/qa/questions.json
+apps/stats/qa/batches/
