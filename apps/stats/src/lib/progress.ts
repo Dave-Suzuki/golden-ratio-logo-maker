@@ -20,7 +20,9 @@ export function describeGiven(q: Question, g: Given): string {
     case 'fill':
       return g.values.join(', ');
     case 'open':
-      return g.selfMark === 'got' ? 'marked as got it' : g.selfMark === 'missed' ? 'marked as missed' : g.text;
+      // what they wrote is the useful record; whether they marked it missed is already implied by
+      // the entry being in the mistake log at all
+      return g.text.trim() || (g.selfMark === 'missed' ? 'left blank, marked as missed' : 'left blank');
   }
 }
 

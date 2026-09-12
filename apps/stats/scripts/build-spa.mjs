@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 
 const app = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const src = path.join(app, 'src');
-const out = path.join(app, 'spa-dist');
+const out = path.join(app, process.env.SPA_OUT ?? 'spa-dist');
 fs.mkdirSync(out, { recursive: true });
 
 const spaAliases = {

@@ -196,7 +196,17 @@ export function QuizRunner() {
           {q.kind === 'numeric' && <NumericInput value={num} onChange={setNum} unit={q.unit} disabled={locked} inputRef={answerRef} />}
           {q.kind === 'fill' && <FillInput blanks={q.blanks} symbolSet={q.symbolSet} values={fill} onChange={setFill} disabled={locked} inputRef={answerRef} />}
           {q.kind === 'tf' && <TfInput value={tf} onChange={setTf} disabled={locked} inputRef={answerRef} />}
-          {q.kind === 'open' && <OpenInput value={open} onChange={setOpen} disabled={locked} inputRef={answerRef} />}
+          {q.kind === 'open' && (
+            <OpenInput
+              value={open}
+              onChange={setOpen}
+              disabled={locked}
+              inputRef={answerRef}
+              stem={q.stem}
+              modelSolution={q.modelSolution}
+              questionId={q.id}
+            />
+          )}
         </div>
         {!locked && (
           <div className="mt-4 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
