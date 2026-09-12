@@ -22,3 +22,6 @@ apps/stats/qa/recheck-deanza/
 apps/stats/qa/e2e/*.mjs
 !apps/stats/qa/e2e/browser.mjs
 apps/stats/qa/e2e/*.png
+apps/stats/qa/e2e/_*
+apps/stats/qa/e2e/*.log
+apps/stats/qa/e2e/*.pdf
