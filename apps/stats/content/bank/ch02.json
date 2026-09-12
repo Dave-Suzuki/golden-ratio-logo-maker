@@ -413,9 +413,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": true,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46924-fs-idp13768528",
@@ -1538,9 +1536,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-27",
@@ -1927,9 +1923,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-50",
@@ -1949,9 +1943,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-51",
@@ -2051,9 +2043,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. cluster sampling"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-18",
@@ -2074,9 +2064,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. median"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-25",
@@ -2112,9 +2100,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. N(14514/(√(10)))"
-  ]
+  "explanation": []
  },
  {
   "id": "rv3-7",
@@ -2168,7 +2154,7 @@
   "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "b. The middle fifty percent of the members lost from 2 to 8.5 lbs."
+   "The middle fifty percent of the members lost from 2 to 8.5 lbs."
   ]
  },
  {
@@ -2190,9 +2176,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. All of the data have the same value."
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-16",
@@ -2213,9 +2197,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": true,
-  "explanation": [
-   "c. The lowest data value is the median."
-  ]
+  "explanation": []
  },
  {
   "id": "rv5-34",
@@ -2338,9 +2320,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 150"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-73",
@@ -2361,9 +2341,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. Matt is shorter than the average 14 year old boy."
-  ]
+  "explanation": []
  },
  {
   "id": "rv10-91",

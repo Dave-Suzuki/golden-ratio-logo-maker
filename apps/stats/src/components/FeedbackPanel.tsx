@@ -81,7 +81,7 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
       )}
       {showTeach && teach && (
         <div className="mt-3 rounded bg-white/80 p-3">
-          <TeachPanel teach={teach} mode="miss" />
+          <TeachPanel teach={teach} mode="miss" focus={`${q.stem} ${q.kind === 'mc' ? q.options.join(' ') : ''}`} />
         </div>
       )}
     </div>

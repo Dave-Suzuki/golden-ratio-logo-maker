@@ -554,9 +554,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46972-eip-412",
@@ -578,9 +576,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46972-fs-idm19928432",
@@ -1024,9 +1020,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46969-fs-idm5013072",
@@ -1338,9 +1332,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 360"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-15",
@@ -1362,9 +1354,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. N(72,72/(√(50)))"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-16",
@@ -1386,9 +1376,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": true,
-  "explanation": [
-   "a. 3/9"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-17",
@@ -1442,9 +1430,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. U(0, 4)"
-  ]
+  "explanation": []
  },
  {
   "id": "rv7-48",
@@ -1467,7 +1453,7 @@
   "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "b. 2 hour"
+   "2 hour"
   ]
  },
  {
@@ -1490,9 +1476,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 1/4"
-  ]
+  "explanation": []
  },
  {
   "id": "rv7-52",
@@ -1513,9 +1497,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. exponential"
-  ]
+  "explanation": []
  },
  {
   "id": "rv7-53",
@@ -1552,9 +1534,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 1/2"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-60",
@@ -1592,9 +1572,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. N(60, 5.477)"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-63",
@@ -1616,9 +1594,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. eight days"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-64",
@@ -1640,9 +1616,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 0.7500"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-68",
@@ -1664,9 +1638,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. quantitative continuous"
-  ]
+  "explanation": []
  },
  {
   "id": "rv10-92",

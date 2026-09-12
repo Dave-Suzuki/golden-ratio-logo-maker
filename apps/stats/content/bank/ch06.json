@@ -889,9 +889,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46980-fs-idp45221936",
@@ -913,9 +911,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46980-fs-idm62385744",
@@ -936,9 +932,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46980-eip-866",
@@ -1441,9 +1435,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-eip-318",
@@ -1465,9 +1457,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-eip-486",
@@ -1488,9 +1478,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-eip-231",
@@ -1512,9 +1500,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-eip-295",
@@ -1536,9 +1522,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-eip-581",
@@ -1985,9 +1969,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 0.8413"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-30",
@@ -2008,9 +1990,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 3.66"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-12",
@@ -2031,9 +2011,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. –1.96"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-19",
@@ -2055,9 +2033,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 6.92"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-20",
@@ -2079,9 +2055,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 5"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-21",
@@ -2103,9 +2077,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 0.8541"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-87",

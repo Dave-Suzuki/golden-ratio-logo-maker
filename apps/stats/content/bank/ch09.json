@@ -184,9 +184,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m47029-0",
@@ -375,9 +373,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47029-exer17",
@@ -503,9 +499,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m47044-0",
@@ -1219,9 +1213,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47019-eip-40",
@@ -1775,9 +1767,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. not reject H0"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-15",
@@ -1799,9 +1789,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. Student's t"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-16",
@@ -1838,9 +1826,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. the probability that an outcome of the data will happen purely by chance when the null hypothesis is true."
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-36",
@@ -1862,9 +1848,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. There is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other."
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-7",
@@ -1915,9 +1899,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. no"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-28",
@@ -1938,7 +1920,7 @@
   "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "b. p-value is close to 1."
+   "p-value is close to 1."
   ]
  },
  {
@@ -1960,9 +1942,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. The p-value is > 0.10. There is insufficient information to conclude that the distribution is not uniform."
-  ]
+  "explanation": []
  },
  {
   "id": "rv11-118",

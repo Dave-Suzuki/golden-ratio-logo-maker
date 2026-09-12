@@ -108,7 +108,7 @@ export function allQuestions(): Question[] {
 }
 export function testItems(prefix: 'pt' | 'fe', n: number): Question[] {
   const re = new RegExp(`^${prefix}${n}-(\\d+)$`);
-  return ALL.filter((q) => re.test(q.id)).sort((a, b) => Number(re.exec(a.id)![1]) - Number(re.exec(b.id)![1]));
+  return ALL.filter((q) => re.test(q.id) && isQuizzable(q)).sort((a, b) => Number(re.exec(a.id)![1]) - Number(re.exec(b.id)![1]));
 }
 export function teachFor(sectionId: SectionId): TeachSnippet | undefined {
   return TEACH.get(sectionId);

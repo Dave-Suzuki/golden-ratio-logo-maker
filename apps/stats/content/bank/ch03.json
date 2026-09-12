@@ -1177,9 +1177,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46935-tablular-ex",
@@ -1216,9 +1214,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46935-element-738",
@@ -1430,9 +1426,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": true,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46944-element-194",
@@ -1769,9 +1763,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. independent"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-2",
@@ -1793,9 +1785,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 4/16"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-4",
@@ -1817,9 +1807,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 68/118"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-5",
@@ -1841,9 +1829,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 30/52"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-6",
@@ -1881,9 +1867,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 2.78"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-9",
@@ -1905,9 +1889,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 0.2870"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-20",
@@ -1929,9 +1911,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. stratified"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-21",
@@ -1953,9 +1933,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 25"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-22",
@@ -1993,9 +1971,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. Chi^2_3."
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-35",
@@ -2017,9 +1993,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 70"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-2",
@@ -2057,9 +2031,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": true,
-  "explanation": [
-   "c. seven"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-4",
@@ -2081,9 +2053,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 0.02"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-5",
@@ -2104,9 +2074,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. none of the above"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-6",
@@ -2128,9 +2096,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 100/140"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-8",
@@ -2152,9 +2118,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. The values for x are: {1, 2, 3,..., 14}"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-9",
@@ -2176,9 +2140,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. 0.9417."
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-29",
@@ -2199,9 +2161,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. No"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-31",
@@ -2223,9 +2183,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. We should not be estimating here."
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-9",
@@ -2247,9 +2205,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. (0.80)(0.30)"
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-10",
@@ -2271,9 +2227,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. No, and they are not mutually exclusive either."
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-12",
@@ -2577,9 +2531,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. G and H are independent events."
-  ]
+  "explanation": []
  },
  {
   "id": "rv6-45",
@@ -2661,9 +2613,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 80%"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-66",
@@ -2685,9 +2635,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 35%"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-67",
@@ -2708,9 +2656,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. no"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-70",
@@ -2826,9 +2772,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 8/70"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-80",
@@ -2866,9 +2810,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 9/19"
-  ]
+  "explanation": []
  },
  {
   "id": "rv10-88",

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { finishSession, nextQuestion, submitAnswer } from '@/lib/actions';
+import { refresherSectionFor } from '@/lib/refresher';
 import { currentQuestion, specLabel, useStats } from '@/lib/store';
 import type { Given, TeachSnippet } from '@/lib/types';
 import { Clamp } from './Clamp';
@@ -86,7 +87,8 @@ export function QuizRunner() {
     setTf(null);
     setOpen('');
     if (!q) return;
-    void loadTeach(q.sectionId).then(setTeach);
+    // a practice-test question is filed under the heading it follows, not the topic it tests
+    void loadTeach(refresherSectionFor({ ...q, options: q.kind === 'mc' ? q.options : undefined })).then(setTeach);
     // preventScroll matters: without it, focusing an input below a long scenario
     // jumps the viewport past the question on a small screen
     answerRef.current?.focus({ preventScroll: true });

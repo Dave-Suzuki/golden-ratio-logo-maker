@@ -681,13 +681,36 @@ def classify(problem, stem, options, solution, context):
     return 'open', {'modelSolution': sol, 'needsFigure': has_fig}
 
 
+OPTION_LETTER_RE = re.compile(r'^\s*\(?([a-f])[.)]?\s*', re.I)
+
+
+def useful_mc_explanation(solution, options):
+    """Drop an MC "explanation" that is only the answer letter.
+
+    The stored solution is often just "c", or "c. Iris". The correct answer is already shown, and
+    the letter is meaningless once the options are shuffled -- it contradicts what the learner sees.
+    """
+    body = OPTION_LETTER_RE.sub('', (solution or '').strip()).strip()
+    if not body:
+        return []
+    norm = lambda t: re.sub(r'\W+', '', (t or '').lower())
+    if any(norm(body) == norm(o) for o in (options or [])):
+        return []
+    return [body]
+
+
 def make_question(qid, section_id, kind, fields, stem, context, solution, source, source_ref):
     q = OrderedDict(id=qid, sectionId=section_id, kind=kind, conceptTag=section_id or 'unassigned',
                     stem=stem.strip(), source=source, sourceRef=source_ref)
     if context:
         q['context'] = context
     q.update(fields)
-    q['explanation'] = [solution.strip()] if kind != 'open' else []
+    if kind == 'mc':
+        q['explanation'] = useful_mc_explanation(solution, fields.get('options'))
+    elif kind == 'open':
+        q['explanation'] = []
+    else:
+        q['explanation'] = [solution.strip()]
     return q
 
 

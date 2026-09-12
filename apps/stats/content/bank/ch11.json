@@ -1552,9 +1552,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. Chi^2 goodness-of-fit"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-10",
@@ -1575,9 +1573,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": true,
-  "explanation": [
-   "d. binomial"
-  ]
+  "explanation": []
  },
  {
   "id": "rv13-136",
@@ -1598,9 +1594,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": true,
-  "explanation": [
-   "d. Binomial"
-  ]
+  "explanation": []
  },
  {
   "id": "rv13-144",
@@ -1621,8 +1615,6 @@
   ],
   "correctIndex": 0,
   "needsFigure": true,
-  "explanation": [
-   "a. uniform"
-  ]
+  "explanation": []
  }
 ]

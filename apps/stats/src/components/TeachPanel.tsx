@@ -1,15 +1,18 @@
+import { relevantTo } from '@/lib/refresher';
 import type { TeachSnippet } from '@/lib/types';
 
 /**
  * The refresher: essentials only. `mode="miss"` (after a wrong answer) leads with the pitfalls;
  * `mode="refresh"` (before a quiz) leads with the key points. Never the full notes — the learner has the textbook.
  */
-export function TeachPanel({ teach, mode = 'refresh' }: { teach: TeachSnippet; mode?: 'refresh' | 'miss' }) {
-  const pitfalls = teach.pitfalls.length > 0 && (
+export function TeachPanel({ teach, mode = 'refresh', focus }: { teach: TeachSnippet; mode?: 'refresh' | 'miss'; focus?: string }) {
+  // after a miss, lead with the warnings that bear on the question actually asked
+  const pitfalls = focus ? relevantTo(focus, teach.pitfalls).slice(0, 3) : teach.pitfalls;
+  const pitfallList = pitfalls.length > 0 && (
     <section key="pitfalls">
       <h4 className="eyebrow">Watch out for</h4>
       <ul className="mt-1 space-y-1">
-        {teach.pitfalls.map((p, i) => (
+        {pitfalls.map((p, i) => (
           <li key={i} className="flex gap-2">
             <span aria-hidden className="text-[var(--warn)]">
               ⚠
@@ -32,7 +35,7 @@ export function TeachPanel({ teach, mode = 'refresh' }: { teach: TeachSnippet; m
   );
   return (
     <div className="space-y-4 text-sm leading-relaxed">
-      {mode === 'miss' ? [pitfalls, points] : [points, pitfalls]}
+      {mode === 'miss' ? [pitfallList, points] : [points, pitfallList]}
       {teach.formulas.length > 0 && (
         <section>
           <h4 className="eyebrow">Formulas</h4>

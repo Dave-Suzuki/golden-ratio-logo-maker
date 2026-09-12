@@ -313,9 +313,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46994-element-680",
@@ -336,9 +334,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m46997-0",
@@ -1062,9 +1058,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46997-element-119",
@@ -1697,9 +1691,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-element-407",
@@ -1721,9 +1713,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-element-191",
@@ -1745,9 +1735,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-element-620",
@@ -1769,9 +1757,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-element-339",
@@ -1792,9 +1778,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-element-644",
@@ -1816,9 +1800,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-eip-415",

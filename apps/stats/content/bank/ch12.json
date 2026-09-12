@@ -939,7 +939,7 @@
   "correctIndex": 4,
   "needsFigure": false,
   "explanation": [
-   "e. A, B, and C.\nAll three are linear equations of the form y = mx + b."
+   "A, B, and C.\nAll three are linear equations of the form y = mx + b."
   ]
  },
  {
@@ -1360,9 +1360,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 5.1"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-32",
@@ -1383,9 +1381,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. 13.46"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-33",
@@ -1406,9 +1402,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. There is a strong linear pattern. Therefore, it is most likely a good model to be used."
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-30",
@@ -1431,7 +1425,7 @@
   "correctIndex": 2,
   "needsFigure": false,
   "explanation": [
-   "c. ŷ = 79.96x – 0.0094"
+   "ŷ = 79.96x – 0.0094"
   ]
  }
 ]

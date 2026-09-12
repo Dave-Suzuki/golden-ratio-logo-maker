@@ -371,9 +371,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47050-fs-idm81478720",
@@ -968,9 +966,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47060-fs-idp30249712",
@@ -1262,9 +1258,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47045-element-954",
@@ -1286,9 +1280,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47045-fs-idp31663264",
@@ -1419,9 +1411,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "pt3-52",
@@ -1753,9 +1743,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. Two measurements are drawn from the same pair of individuals or objects."
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-24",
@@ -1776,9 +1764,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. matched pairs, dependent groups."
-  ]
+  "explanation": []
  },
  {
   "id": "rv11-121",
@@ -1799,9 +1785,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. dependent means"
-  ]
+  "explanation": []
  },
  {
   "id": "rv11-122",

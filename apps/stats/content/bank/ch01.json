@@ -283,9 +283,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46909-element-590",
@@ -307,9 +305,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46909-element-992",
@@ -331,9 +327,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m46885-0",
@@ -1136,9 +1130,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-fs-idm58778016",
@@ -1159,9 +1151,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-772",
@@ -1272,9 +1262,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-40",
@@ -1600,9 +1588,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46882-element-627",
@@ -1624,9 +1610,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m46919-0",
@@ -1802,9 +1786,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-3",
@@ -1827,9 +1809,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-4",
@@ -1851,9 +1831,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-5",
@@ -1874,9 +1852,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-6",
@@ -1912,9 +1888,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-8",
@@ -1935,9 +1909,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-9",
@@ -2065,9 +2037,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-16",
@@ -2265,9 +2235,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. Ha: pA ≠ pB"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-1",
@@ -2288,9 +2256,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. parameter."
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-22",
@@ -2311,9 +2277,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. 0.2"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-32",
@@ -2351,9 +2315,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. parameter"
-  ]
+  "explanation": []
  },
  {
   "id": "rv3-2",
@@ -2376,9 +2338,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. population"
-  ]
+  "explanation": []
  },
  {
   "id": "rv3-3",
@@ -2402,7 +2362,7 @@
   "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "b. statistic"
+   "statistic"
   ]
  },
  {
@@ -2426,9 +2386,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. sample"
-  ]
+  "explanation": []
  },
  {
   "id": "rv3-5",
@@ -2451,9 +2409,7 @@
   ],
   "correctIndex": 4,
   "needsFigure": false,
-  "explanation": [
-   "e. variable"
-  ]
+  "explanation": []
  },
  {
   "id": "rv3-6",
@@ -2490,9 +2446,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. all employed adult women"
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-19",
@@ -2529,9 +2483,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. quantitative discrete"
-  ]
+  "explanation": []
  },
  {
   "id": "rv4-24",
@@ -2629,9 +2581,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. false"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-83",
@@ -2650,9 +2600,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. false"
-  ]
+  "explanation": []
  },
  {
   "id": "rv11-116",

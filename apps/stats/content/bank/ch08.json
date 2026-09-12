@@ -817,9 +817,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m46999-0",
@@ -1222,9 +1220,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46999-eeexxxx",
@@ -1246,9 +1242,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46999-exer12345",
@@ -1270,9 +1264,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46999-eip-126",
@@ -1668,9 +1660,7 @@
   ],
   "correctIndex": 2,
   "needsFigure": false,
-  "explanation": [
-   "c. Normal"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-23",
@@ -1692,9 +1682,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. (1.85, 2.32)"
-  ]
+  "explanation": []
  },
  {
   "id": "fe1-24",
@@ -1717,7 +1705,7 @@
   "correctIndex": 2,
   "needsFigure": false,
   "explanation": [
-   "c. Both above are correct."
+   "Both above are correct."
   ]
  },
  {
@@ -1739,9 +1727,7 @@
   ],
   "correctIndex": 0,
   "needsFigure": false,
-  "explanation": [
-   "a. (0.6030, 0.7954)"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-11",
@@ -1762,9 +1748,7 @@
   ],
   "correctIndex": 3,
   "needsFigure": false,
-  "explanation": [
-   "d. 8.7"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-86",
@@ -1800,9 +1784,7 @@
   ],
   "correctIndex": 1,
   "needsFigure": false,
-  "explanation": [
-   "b. Exponential"
-  ]
+  "explanation": []
  },
  {
   "id": "rv11-105",

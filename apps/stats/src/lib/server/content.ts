@@ -116,7 +116,7 @@ export function testItems(prefix: 'pt' | 'fe', n: number): Question[] {
   loadBank();
   const re = new RegExp(`^${prefix}${n}-(\\d+)$`);
   return [...byIdCache!.values()]
-    .filter((q) => re.test(q.id))
+    .filter((q) => re.test(q.id) && isQuizzable(q))
     .sort((a, b) => Number(re.exec(a.id)![1]) - Number(re.exec(b.id)![1]));
 }
 
