@@ -17,3 +17,8 @@ apps/stats/qa/recheck/
 apps/stats/qa/recheck-sample/
 apps/stats/qa/recheck-suspect/
 apps/stats/qa/recheck-deanza/
+
+# end-to-end testers write throwaway scripts and screenshots here; findings (*.jsonl) are kept
+apps/stats/qa/e2e/*.mjs
+!apps/stats/qa/e2e/browser.mjs
+apps/stats/qa/e2e/*.png
