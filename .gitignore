@@ -25,3 +25,7 @@ apps/stats/qa/e2e/*.png
 apps/stats/qa/e2e/_*
 apps/stats/qa/e2e/*.log
 apps/stats/qa/e2e/*.pdf
+
+# round-two testers: keep only their findings; the staged copies of round one are duplicates
+apps/stats/qa/e2e/round2/*
+!apps/stats/qa/e2e/round2/*-r2.jsonl
