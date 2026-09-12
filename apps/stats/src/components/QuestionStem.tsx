@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { estimateLines, parseRich } from '@/lib/richtext';
 import { Clamp } from './Clamp';
 import { RichText } from './RichText';
@@ -22,23 +21,20 @@ const SCENARIO_TABLE_PX = 620;
 const STEM_LINES = 26;
 const STEM_PX = 560;
 
-function Scenario({ text, repeated, measureKey }: { text: string; repeated: boolean; measureKey: string }) {
-  const [shown, setShown] = useState(!repeated);
+/**
+ * The scenario is always shown in full.
+ *
+ * It used to collapse to "Same scenario as the previous question" when two questions in a row
+ * shared one — but the quiz shows a single question per screen, so the previous question and its
+ * scenario are no longer there to refer back to. The learner was left with a table they needed and
+ * could not see.
+ */
+function Scenario({ text, measureKey }: { text: string; measureKey: string }) {
   const blocks = parseRich(text);
   const hasTable = blocks.some((b) => b.kind === 'table');
   const maxPx = hasTable ? SCENARIO_TABLE_PX : SCENARIO_PX;
   const long = !hasTable && estimateLines(blocks) > SCENARIO_LINES;
 
-  if (repeated && !shown) {
-    return (
-      <div className="scenario scenario-repeated">
-        <span>Same scenario as the previous question.</span>
-        <button type="button" onClick={() => setShown(true)} className="clamp-toggle">
-          Show it again
-        </button>
-      </div>
-    );
-  }
 
   return (
     <div className="scenario">
@@ -57,12 +53,13 @@ function Scenario({ text, repeated, measureKey }: { text: string; repeated: bool
 export function QuestionStem({
   stem,
   context,
-  repeatedContext = false,
+  repeatedContext: _repeatedContext = false,
   stemId,
   measureKey,
 }: {
   stem: string;
   context?: string | null;
+  /** kept for callers; the scenario is no longer collapsed (see Scenario) */
   repeatedContext?: boolean;
   stemId?: string;
   measureKey?: string;
@@ -72,7 +69,7 @@ export function QuestionStem({
   return (
     <div>
       {/* keyed so each question starts with its own collapsed/expanded state */}
-      {context && <Scenario key={key} text={context} repeated={repeatedContext} measureKey={key} />}
+      {context && <Scenario key={key} text={context} measureKey={key} />}
       <div id={stemId} className="question-text prose-measure">
         {stemLong ? (
           <Clamp maxPx={STEM_PX} probablyLong measureKey={key} openLabel="Show the whole question">

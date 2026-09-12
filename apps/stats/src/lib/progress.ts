@@ -26,6 +26,11 @@ export function describeGiven(q: Question, g: Given): string {
   }
 }
 
+/** The correct answer without the option letter, which is shuffled per test and meaningless later. */
+function plainAnswer(q: Question, correctDisplay: string): string {
+  return q.kind === 'mc' ? (q.options[q.correctIndex] ?? correctDisplay) : correctDisplay;
+}
+
 export function conceptKey(q: Pick<Question, 'id' | 'source'>): string {
   return q.source === 'template' ? q.id.split('#')[0] ?? q.id : q.id;
 }
@@ -71,6 +76,11 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
     const sid = ev.question.sectionId;
     const tag = conceptKey(ev.question);
 
+    const sessBefore = p.openSessions[ev.sessionId];
+    // Two tabs on one quiz, or a resubmitted answer, used to be counted twice: a five-question
+    // quiz became "answered 10" with mistakes logged for questions answered right in the other tab.
+    if (sessBefore?.answered?.includes(ev.question.id)) return profile;
+
     if (sid) {
       const st = { ...(p.sectionStats[sid] ?? { answered: 0, correct: 0 }) };
       st.answered += 1;
@@ -81,24 +91,35 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
 
     const sess = p.openSessions[ev.sessionId] ?? { spec: ev.spec, total: 0, correct: 0, sectionIds: [], startedAt: at };
     const sectionIds = sid && !sess.sectionIds.includes(sid) ? [...sess.sectionIds, sid] : sess.sectionIds;
+    const bySection = { ...(sess.bySection ?? {}) };
+    if (sid) {
+      const cur = bySection[sid] ?? { total: 0, correct: 0 };
+      bySection[sid] = { total: cur.total + 1, correct: cur.correct + (result.correct ? 1 : 0) };
+    }
     p.openSessions[ev.sessionId] = {
       ...sess,
       total: sess.total + 1,
       correct: sess.correct + (result.correct ? 1 : 0),
       sectionIds,
+      bySection,
+      answered: [...(sess.answered ?? []), ev.question.id],
     };
 
     const existing = p.review[tag];
     if (result.correct) {
-      if (existing && existing.status === 'open') {
-        const streak = existing.streak + 1;
-        p.review[tag] = {
-          ...existing,
-          streak,
-          lastAt: at,
-          status: streak >= existing.required ? 'understood' : 'open',
-        };
-      }
+      // A generated question's concept is its generator, so the same quiz can serve two more of
+      // them; answering those must not clear a miss the learner has not come back to. Progress on
+      // a concept only counts from a later sitting than the one it was missed in.
+      const advance = (key: string) => {
+        const c = p.review[key];
+        if (!c || c.status !== 'open' || c.missedIn === ev.sessionId) return;
+        const streak = c.streak + 1;
+        p.review[key] = { ...c, streak, lastAt: at, status: streak >= c.required ? 'understood' : 'open' };
+      };
+      advance(tag);
+      // profiles written before concepts were per question key them by section; without this their
+      // entries can never be worked off, because no answer ever matches the key again
+      if (sid && sid !== tag) advance(sid);
     } else {
       p.mistakes.push({
         id: `${ev.sessionId}:${ev.question.id}:${p.mistakes.length}`,
@@ -109,13 +130,14 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
         stem: ev.question.stem,
         given: ev.given,
         correctDisplay: result.correctDisplay,
+        correctPlain: plainAnswer(ev.question, result.correctDisplay),
         context: ev.context,
         scenario: ev.question.context ?? null,
         givenDisplay: describeGiven(ev.question, ev.given),
       });
       const cr: ConceptReview = existing
-        ? { ...existing, streak: 0, status: 'open', lastAt: at, misses: existing.misses + 1 }
-        : { conceptTag: tag, sectionId: sid, streak: 0, required: REVIEW_STREAK, status: 'open', lastAt: at, misses: 1 };
+        ? { ...existing, streak: 0, status: 'open', lastAt: at, misses: existing.misses + 1, missedIn: ev.sessionId }
+        : { conceptTag: tag, sectionId: sid, streak: 0, required: REVIEW_STREAK, status: 'open', lastAt: at, misses: 1, missedIn: ev.sessionId };
       p.review[tag] = cr;
     }
     return p;
@@ -135,10 +157,12 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
       sectionIds: sess.sectionIds,
     });
     if (ev.spec.scope !== 'review') {
-      const score = sess.correct / sess.total;
       for (const sid of sess.sectionIds) {
         const st = { ...(p.sectionStats[sid] ?? { answered: 0, correct: 0 }) };
-        st.lastScore = score;
+        // a chapter quiz used to stamp its overall score on every section it touched, so a section
+        // the learner got 0 of 6 right in showed the chapter's 35%
+        const own = sess.bySection?.[sid];
+        st.lastScore = own && own.total > 0 ? own.correct / own.total : sess.correct / sess.total;
         st.lastAt = at;
         p.sectionStats[sid] = st;
       }

@@ -45,8 +45,16 @@ export const CH03_TEMPLATES: Template[] = [
     generate(rng) {
       const pA = rng.pick([0.2, 0.25, 0.3, 0.4, 0.5, 0.6]);
       const pB = rng.pick([0.1, 0.2, 0.3, 0.5]);
-      const indep = rng.next() < 0.5;
-      const pAB = indep ? round(pA * pB, 3) : round(pA * pB + rng.pick([0.05, -0.04, 0.08]), 3);
+      const product = round(pA * pB, 3);
+      // P(A AND B) has to be a probability that could actually happen: never below zero or above
+      // either event on its own. Adding a fixed offset to the product produced P(A AND B) = −0.02.
+      const lo = Math.max(0.01, round(pA + pB - 1, 3));
+      const hi = Math.min(pA, pB);
+      const usable = [0.05, -0.04, 0.08, -0.06, 0.1, -0.08]
+        .map((d) => round(product + d, 3))
+        .filter((v) => v >= lo && v <= hi && Math.abs(v - product) >= 0.01);
+      const indep = usable.length === 0 || rng.next() < 0.5;
+      const pAB = indep ? product : (rng.pick(usable) as number);
       return {
         sectionId: '3.2',
         conceptTag: '3.2',

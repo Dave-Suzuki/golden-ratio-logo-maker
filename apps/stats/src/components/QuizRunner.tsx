@@ -54,6 +54,7 @@ export function QuizRunner() {
   const nextRef = useRef<HTMLButtonElement>(null);
   /** ids of questions rendered since this page loaded */
   const shownRef = useRef(new Set<string>());
+  const gotItRef = useRef<HTMLButtonElement>(null);
   const answerRef = useRef<HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement | null>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
 
@@ -102,6 +103,11 @@ export function QuizRunner() {
     answerRef.current?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: smooth() });
   }, [q?.id]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // revealing a model answer leaves the learner with a decision to make, so focus lands on it
+  useEffect(() => {
+    if (revealed) gotItRef.current?.focus({ preventScroll: true });
+  }, [revealed]);
 
   useEffect(() => {
     if (!answered) return;
@@ -160,6 +166,8 @@ export function QuizRunner() {
   if (!q) return <ScoreSummary session={session} />;
 
   const total = session.test.questions.length;
+  const asked = session.test.spec.count;
+  const short = asked > total;
   const previous = session.index > 0 ? session.test.questions[session.index - 1] : undefined;
   // "Same scenario as the previous question" is only true if that question was shown in this page
   // load; after a reload or a quit-and-return there is no previous question on screen to refer to
@@ -190,6 +198,9 @@ export function QuizRunner() {
       </div>
 
       <div className="rounded-lg border border-[var(--line)] bg-white p-4 sm:p-5">
+        {short && session.index === 0 && (
+          <p className="mb-3 text-xs opacity-70">This section has {total} questions matching what you asked for, so this test is {total} long, not {asked}.</p>
+        )}
         <QuestionStem stem={q.stem} context={q.context} repeatedContext={repeatedContext} stemId={`stem-${q.id}`} measureKey={q.id} />
         <div className="mt-5">
           {q.kind === 'mc' && <McInput options={q.options} value={mc} onChange={setMc} disabled={locked} inputRef={answerRef} />}
@@ -240,13 +251,18 @@ export function QuizRunner() {
             </Clamp>
           </div>
           <p className="mt-3">Compare it with your own working. Did you get it?</p>
-          <div className="mt-2 flex flex-col gap-2 sm:flex-row">
-            <button onClick={() => void submitAnswer({ kind: 'open', text: open, selfMark: 'got' })} className="rounded bg-[var(--ok)] px-4 py-2.5 text-white">
+          <div className="mt-2 flex flex-col gap-2 sm:flex-row sm:items-center">
+            <button
+              ref={gotItRef}
+              onClick={() => void submitAnswer({ kind: 'open', text: open, selfMark: 'got' })}
+              className="rounded bg-[var(--ok)] px-4 py-2.5 text-white"
+            >
               I got it
             </button>
             <button onClick={() => void submitAnswer({ kind: 'open', text: open, selfMark: 'missed' })} className="rounded bg-[var(--bad)] px-4 py-2.5 text-white">
               I missed it
             </button>
+            <p className="key-hint hidden sm:block">Enter marks it as got it</p>
           </div>
         </div>
       )}

@@ -52,7 +52,7 @@ export function ScoreSummary({ session }: { session: Session }) {
             <Link href={`/quiz?${specToQuery({ ...spec, seed: Math.floor(Math.random() * 1_000_000) })}`} className="rounded border border-[var(--line)] bg-white px-4 py-2">
               Retake with new questions
             </Link>
-            <Link href={`/print?${specToQuery(spec)}`} className="rounded border border-[var(--line)] bg-white px-4 py-2">
+            <Link href={`/print?${specToQuery({ ...spec, count: total })}`} className="rounded border border-[var(--line)] bg-white px-4 py-2">
               Print this test
             </Link>
           </>

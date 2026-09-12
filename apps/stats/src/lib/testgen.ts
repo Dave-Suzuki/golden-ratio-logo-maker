@@ -45,7 +45,9 @@ function pickForSection(sectionId: string, quota: number, spec: TestSpec, src: C
   const openShare = spec.openShare ?? 0.3;
   const out: Question[] = [];
 
-  let nT = templates.length ? Math.min(Math.round(quota * templateShare), quota) : 0;
+  // "worked problems: only" asks for questions with a model answer; a generator makes auto-graded
+  // ones, so honour the request rather than filling 4 of 10 with them
+  let nT = templates.length && openShare < 1 ? Math.min(Math.round(quota * templateShare), quota) : 0;
   const nOpenTarget = Math.min(Math.round(quota * openShare), open.length);
   // fill the template quota round-robin over a shuffled template list (a template may repeat with a fresh seed)
   const order = rng.shuffle(templates);

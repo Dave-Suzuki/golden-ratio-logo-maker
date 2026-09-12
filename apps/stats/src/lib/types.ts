@@ -174,6 +174,8 @@ export interface MistakeEntry {
   stem: string;
   given: Given;
   correctDisplay: string;
+  /** the correct answer without the per-test option letter, which means nothing once reshuffled */
+  correctPlain?: string;
   context: 'quiz' | 'review';
   /** the scenario the question was asked under, so the log entry can be checked on its own */
   scenario?: string | null;
@@ -198,6 +200,8 @@ export interface ConceptReview {
   status: 'open' | 'understood';
   lastAt: string;
   misses: number;
+  /** the session the last miss happened in: answers from that same session do not clear it */
+  missedIn?: string;
 }
 
 export type Mastery = 'not_started' | 'in_progress' | 'mastered';
@@ -215,6 +219,10 @@ export interface SessionTally {
   correct: number;
   sectionIds: SectionId[];
   startedAt: string;
+  /** per section, so a chapter quiz can report each section's own score rather than the whole quiz's */
+  bySection?: Record<SectionId, { total: number; correct: number }>;
+  /** questions already recorded, so the same answer arriving twice is not counted twice */
+  answered?: string[];
 }
 
 export interface Profile {

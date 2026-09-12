@@ -37,3 +37,23 @@ describe('templates', () => {
     }
   });
 });
+
+describe('generated premises are possible', () => {
+  it('never states a probability that could not happen', () => {
+    const t = TEMPLATES.find((x) => x.id === 'prob-independent-check');
+    expect(t, 'prob-independent-check missing').toBeDefined();
+    const bad: string[] = [];
+    for (let seed = 1; seed <= 500; seed++) {
+      const stem = (instantiate(t!, seed) as unknown as { stem: string }).stem;
+      const nums = (stem.match(/=\s*(-?[\d.]+)/g) ?? []).map((x) => Number(x.replace(/[^-\d.]/g, '')));
+      const [pA, pB, pAB] = nums;
+      if (pA === undefined || pB === undefined || pAB === undefined) {
+        bad.push(`seed ${seed}: could not read three probabilities from "${stem}"`);
+        continue;
+      }
+      // P(A AND B) must be a real probability: never negative, never more than either event alone
+      if (pAB < 0 || pAB > Math.min(pA, pB) || pAB < pA + pB - 1) bad.push(`seed ${seed}: P(A)=${pA} P(B)=${pB} P(A AND B)=${pAB}`);
+    }
+    expect(bad.slice(0, 5)).toEqual([]);
+  });
+});

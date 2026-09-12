@@ -21,7 +21,12 @@ export function ReviewPage() {
   // the most recent miss on this concept names it; a chip that only says "§6.1" could be any of six
   const label = (tag: string) => {
     const m = [...profile.mistakes].reverse().find((x) => x.conceptTag === tag);
-    return m ? plainText(parseRich(m.stem), 60) : '';
+    if (!m) return '';
+    // a generated question comes back with new numbers, so naming the exact one that was missed
+    // promises something the review will not ask
+    const generated = m.ref.kind === 'template';
+    const text = plainText(parseRich(m.stem), 60);
+    return generated ? `another like: ${text}` : text;
   };
   const active = session?.mode === 'review' && session.index < session.test.questions.length;
   return (

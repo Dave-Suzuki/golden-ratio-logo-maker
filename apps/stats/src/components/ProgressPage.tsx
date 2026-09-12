@@ -87,7 +87,7 @@ export function ProgressPage() {
                   <p className="mt-1 text-xs">
                     <span className="opacity-60">your answer: </span>
                     {m.givenDisplay ?? describe(m.given)} <span className="opacity-60">· correct: </span>
-                    <span>{plainText(parseRich(m.correctDisplay), 200)}</span>
+                    <span>{plainText(parseRich(m.correctPlain ?? m.correctDisplay), 200)}</span>
                   </p>
                   <button
                     onClick={async () => {
