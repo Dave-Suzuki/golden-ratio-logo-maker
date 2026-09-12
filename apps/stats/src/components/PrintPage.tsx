@@ -19,6 +19,7 @@ export function PrintPage() {
   useEffect(() => {
     if (!spec) return;
     setTest(null);
+    setError(null); // a stale error from a bad URL must not outlive the URL that caused it
     fetchTest(spec)
       .then(setTest)
       .catch((e: Error) => setError(e.message));
@@ -27,7 +28,8 @@ export function PrintPage() {
   if (error) return <p className="text-sm text-[var(--bad)]">{error}</p>;
   if (!test) return <p className="text-sm opacity-60">Building the test…</p>;
   const title = specLabel(spec);
-  const newSeed = () => router.replace(`/print?${specToQuery({ ...spec, seed: Math.floor(Math.random() * 1_000_000) })}`);
+  // push, not replace: each test is its own page, and Back should return to the previous one
+  const newSeed = () => router.push(`/print?${specToQuery({ ...spec, seed: Math.floor(Math.random() * 1_000_000) })}`);
   return (
     <div className="mx-auto max-w-3xl bg-white p-6 text-[13px] leading-relaxed print:p-0">
       <div className="no-print mb-4 flex flex-wrap gap-2 text-sm">
@@ -82,7 +84,7 @@ export function PrintPage() {
                   ))}
                 </p>
               )}
-              {q.kind === 'open' && <div className="mt-2 h-20 rounded border border-dashed border-black/30" />}
+              {q.kind === 'open' && <div className={`mt-2 rounded border border-dashed border-black/30 ${/\[PARTS\]/.test(q.stem) ? 'h-40' : 'h-20'}`} />}
             </div>
           </li>
         ))}
@@ -96,7 +98,13 @@ export function PrintPage() {
             <li key={q.id} className="print-item flex gap-3">
               <span className="w-6 shrink-0 font-semibold">{i + 1}.</span>
               <div>
-                <span className="font-medium whitespace-pre-line">{formatAnswer(q)}</span>
+                {q.kind === 'open' ? (
+                  // a model answer carries the same [PARTS]/[TABLE] markup as a question, and must
+                  // be rendered the same way rather than printed as raw tags
+                  <RichText text={q.modelSolution} variant="print" className="font-medium" />
+                ) : (
+                  <span className="font-medium whitespace-pre-line">{formatAnswer(q)}</span>
+                )}
                 {q.kind !== 'open' && q.explanation.length > 0 && <span className="block text-xs opacity-70">{q.explanation.join(' · ')}</span>}
               </div>
             </li>

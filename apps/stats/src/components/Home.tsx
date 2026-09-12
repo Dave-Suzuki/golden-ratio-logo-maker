@@ -1,9 +1,13 @@
 'use client';
 
 import Link from 'next/link';
+import { specToQuery } from '@/lib/actions';
 import { useStats } from '@/lib/store';
 import { ChapterGrid } from './ChapterGrid';
 import { ProfilePicker } from './ProfilePicker';
+
+/** OpenStax ships two whole-book final exams; they belong here rather than under any one chapter. */
+const FINAL_EXAMS = [1, 2];
 
 export function Home() {
   const profile = useStats((s) => s.profile);
@@ -37,6 +41,18 @@ export function Home() {
         </div>
       )}
       <ChapterGrid />
+      <div className="flex flex-wrap items-center gap-2 text-sm">
+        <span className="opacity-60">Whole-book paper tests:</span>
+        {FINAL_EXAMS.map((n) => (
+          <Link
+            key={n}
+            href={`/print?${specToQuery({ scope: 'final', id: String(n), count: 100, seed: 1 })}`}
+            className="rounded border border-[var(--line)] bg-white px-3 py-1"
+          >
+            Print OpenStax Final Exam {n}
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

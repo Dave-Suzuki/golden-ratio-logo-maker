@@ -43,8 +43,27 @@ body {
   @page {
     margin: 16mm;
   }
+  /* Paper is white whatever the screen theme. Every surface colour is a token, so forcing the
+     light palette here is enough; without it a learner in dark mode prints a grey slab. */
+  :root,
+  :root[data-theme='dark'],
+  :root:not([data-theme='light']) {
+    --paper: #fff;
+    --surface: #fff;
+    --surface-70: #fff;
+    --ink: #000;
+    --muted: #444;
+    --muted-soft: #eee;
+    --line: #bbb;
+    --accent: #1f6f78;
+    --on-accent: #fff;
+    --accent-soft: #eee;
+    --scenario-bg: transparent;
+    color-scheme: light;
+  }
   body {
     background: #fff;
+    background-image: none;
     color: #000;
     font-size: 11pt;
   }
