@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { finishSession, nextQuestion, submitAnswer } from '@/lib/actions';
+import { parseNumeric } from '@/lib/grade';
 import { refresherSectionFor } from '@/lib/refresher';
 import { currentQuestion, specLabel, useStats } from '@/lib/store';
 import type { Given, TeachSnippet } from '@/lib/types';
@@ -82,8 +83,18 @@ export function QuizRunner() {
 
   const check = useCallback(() => {
     const g = buildGiven();
-    if (g) void submitAnswer(g);
-    else setNudge(q?.kind === 'open' ? 'Write something first, even a guess.' : 'Choose an answer first.');
+    if (!g) {
+      setNudge(q?.kind === 'open' ? 'Write something first, even a guess.' : 'Choose an answer first.');
+      return;
+    }
+    // "abtfd" in the number box used to be graded wrong, costing the question and logging a
+    // mistake for what is plainly a typo rather than an answer
+    if (g.kind === 'numeric' && parseNumeric(g.raw) === null) {
+      setNudge('That is not a number yet — try something like 0.25, 3/8 or 35%.');
+      return;
+    }
+    setNudge(null);
+    void submitAnswer(g);
   }, [buildGiven, q?.kind]);
 
   // a fresh question: clear the inputs, load its refresher, focus the answer and go back to the top
@@ -129,9 +140,11 @@ export function QuizRunner() {
     const onKey = (e: KeyboardEvent) => {
       if (e.isComposing || e.altKey) return;
       const el = e.target as HTMLElement | null;
-      // A focused button or link must keep its own Enter: taking it over meant Enter on
-      // "Show me the essentials" advanced the quiz and Enter on "I got it" did nothing at all.
-      if (e.key === 'Enter' && el && (el.tagName === 'BUTTON' || el.tagName === 'A')) return;
+      // A focused button or link keeps its own Enter — that is what makes Enter open "Show me the
+      // essentials" and record "I got it". But the True/False and symbol buttons ARE the answer:
+      // letting them take Enter meant it never checked, and Enter on a focused "True" replaced the
+      // "False" the learner had just chosen.
+      if (e.key === 'Enter' && el && (el.tagName === 'BUTTON' || el.tagName === 'A') && !el.hasAttribute('data-answer-control')) return;
       // a focused radio or button is not "typing": the letter shortcuts must still work there
       const inputType = el instanceof HTMLInputElement ? el.type : '';
       const typing =

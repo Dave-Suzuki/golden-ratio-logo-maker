@@ -17,6 +17,10 @@ export function FillInput({ blanks, symbolSet, values, onChange, disabled, input
                 <button
                   key={s}
                   type="button"
+                  data-answer-control
+                  // a shortcut for the keyboard-free learner; Tab should go to the next blank, not
+                  // through six symbols
+                  tabIndex={-1}
                   disabled={disabled}
                   onClick={() => set(i, s)}
                   className={`h-9 w-9 rounded border text-base ${values[i] === s ? 'border-[var(--accent)] bg-[var(--accent-soft)]' : 'border-[var(--line)] bg-white'}`}

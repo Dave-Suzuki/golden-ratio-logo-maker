@@ -24,6 +24,9 @@ element. To start the same URL fresh, clear it first:
     await page.evaluate(() => sessionStorage.removeItem('stats-session'));
 
 That behaviour is intentional; do not report it as a defect unless the resume itself is wrong.
+Clearing it is not enough on its own: `page.goto` to the same `#/...` URL is a same-document
+navigation, so the app keeps the session it already has in memory. Follow the clear with a real
+`page.reload()` when you mean to start a URL over.
 Take a screenshot of every defect: `await page.screenshot({ path: 'qa/e2e/<id>.png', fullPage: true })`.
 Prefer clicking what the learner sees (buttons, links) over typing URLs. Use a URL only when a page
 has no visible way in. Wait for content with `page.waitForSelector` or a short `waitForTimeout`

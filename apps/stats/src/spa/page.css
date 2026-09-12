@@ -4,6 +4,8 @@
   --grid: rgba(31, 111, 120, 0.07);
   --surface: #ffffff;
   --scenario-bg: #eef3f5;
+  /* the shadow that says a wide table continues; must read against the surface it sits on */
+  --edge-cue: rgba(15, 30, 40, 0.28);
   --surface-70: rgba(255, 255, 255, 0.72);
   --ink: #1b2430;
   --muted: #5d6a73;
@@ -26,6 +28,7 @@
     --grid: rgba(108, 195, 204, 0.06);
     --surface: #1b2429;
   --scenario-bg: #212c33;
+  --edge-cue: rgba(255, 255, 255, 0.3);
     --surface-70: rgba(27, 36, 41, 0.75);
     --ink: #e4e9e6;
     --muted: #9aa8ae;
@@ -48,6 +51,7 @@
   --grid: rgba(108, 195, 204, 0.06);
   --surface: #1b2429;
   --scenario-bg: #212c33;
+  --edge-cue: rgba(255, 255, 255, 0.3);
   --surface-70: rgba(27, 36, 41, 0.75);
   --ink: #e4e9e6;
   --muted: #9aa8ae;
@@ -206,7 +210,9 @@ input[inputmode='decimal'] {
    never one value per line, and a wide table scrolls inside its own box so the
    page never scrolls sideways. */
 .prose-measure { max-width: 68ch; }
-.rich-para { margin: 0 0 0.6rem; white-space: pre-line; }
+/* overflow-wrap: a question can quote a bare URL, and one unbreakable 76-character word was
+   forcing the whole printable sheet wider than a phone screen */
+.rich-para { margin: 0 0 0.6rem; white-space: pre-line; overflow-wrap: anywhere; }
 .rich > :last-child { margin-bottom: 0; }
 .rich-data {
   margin: 0.4rem 0 0.7rem;
@@ -218,7 +224,7 @@ input[inputmode='decimal'] {
 .rich-list { list-style: disc; padding-left: 1.25rem; margin: 0.4rem 0 0.7rem; }
 .rich-parts { list-style: none; padding-left: 0; margin: 0.5rem 0 0.7rem; }
 .rich-list > li + li, .rich-parts > li + li { margin-top: 0.3rem; }
-.rich-parts > li { display: flex; gap: 0.5rem; }
+.rich-parts > li { display: flex; gap: 0.5rem; overflow-wrap: anywhere; }
 .rich-part-label { font-weight: 600; min-width: 1.5em; flex-shrink: 0; }
 .rich-figure { color: var(--muted); font-style: italic; }
 .table-scroll {
@@ -237,8 +243,8 @@ input[inputmode='decimal'] {
   background:
     linear-gradient(to right, var(--surface) 30%, transparent) left / 24px 100% no-repeat local,
     linear-gradient(to left, var(--surface) 30%, transparent) right / 24px 100% no-repeat local,
-    linear-gradient(to right, rgba(0, 0, 0, 0.18), transparent) left / 14px 100% no-repeat scroll,
-    linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent) right / 14px 100% no-repeat scroll;
+    linear-gradient(to right, var(--edge-cue), transparent) left / 16px 100% no-repeat scroll,
+    linear-gradient(to left, var(--edge-cue), transparent) right / 16px 100% no-repeat scroll;
 }
 .table-scroll .stem-table th, .table-scroll .stem-table td { background: transparent; }
 .table-scroll thead th { position: sticky; top: 0; z-index: 1; }
@@ -298,8 +304,14 @@ input[inputmode='decimal'] {
   .table-scroll { border-radius: 0; }
 }
 
+/* On screen a printable test is still a web page: a table wider than the sheet must scroll inside
+   its own box rather than drag the page sideways. */
+.print-table { max-width: 100%; overflow-x: auto; }
+
 @media print {
   .table-scroll, .print-table { max-height: none; overflow: visible; border: 0; }
+  /* paper cannot scroll: shrink a wide table to the sheet instead of losing its right-hand columns */
+  .print-table .stem-table, .table-scroll .stem-table { max-width: 100%; table-layout: fixed; word-break: break-word; font-size: 0.85em; }
   .print-table .stem-table, .table-scroll .stem-table { break-inside: avoid; }
   .fade-bottom { -webkit-mask-image: none; mask-image: none; }
   .clamp-body { max-height: none !important; overflow: visible !important; }

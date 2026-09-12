@@ -69,14 +69,22 @@ export function PrintPage() {
         <p className="text-xs opacity-70">
           Introductory Statistics · {test.questions.length} {test.questions.length === 1 ? 'question' : 'questions'} · test code {spec.scope}:{spec.id}:{spec.seed}
         </p>
-        <p className="mt-2 text-xs">Name: ______________________________ &nbsp;&nbsp; Date: ______________ &nbsp;&nbsp; Score: ______ / {test.questions.length}</p>
+        {/* ruled blanks, not underscores: a run of "____" cannot wrap, and it forced the whole
+            sheet wider than a phone screen */}
+        <p className="mt-2 flex flex-wrap items-end gap-x-6 gap-y-2 text-xs">
+          <span className="flex min-w-0 flex-1 items-end gap-1">Name: <span className="min-w-24 flex-1 border-b border-black/40" /></span>
+          <span className="flex items-end gap-1">Date: <span className="w-28 border-b border-black/40" /></span>
+          <span className="flex items-end gap-1">
+            Score: <span className="w-12 border-b border-black/40" /> / {test.questions.length}
+          </span>
+        </p>
       </header>
 
       <ol className="mt-4 space-y-5">
         {test.questions.map((q, i) => (
           <li key={q.id} className="print-item flex gap-3">
             <span className="w-6 shrink-0 font-semibold">{i + 1}.</span>
-            <div className="grow">
+            <div className="min-w-0 grow">
               {q.context &&
                 (i > 0 && test.questions[i - 1]?.context === q.context ? (
                   <p className="mb-1 text-[11px] italic opacity-70">Same information as question {i}.</p>
@@ -93,13 +101,17 @@ export function PrintPage() {
                   ))}
                 </ul>
               )}
-              {q.kind === 'numeric' && <p className="mt-1">Answer: ______________________ {q.unit ?? ''}</p>}
+              {q.kind === 'numeric' && (
+                <p className="mt-1 flex items-end gap-1">
+                  Answer: <span className="w-40 max-w-full border-b border-black/40" /> {q.unit ?? ''}
+                </p>
+              )}
               {q.kind === 'tf' && <p className="mt-1">Circle one: &nbsp; True &nbsp;&nbsp; False</p>}
               {q.kind === 'fill' && (
                 <p className="mt-1">
                   {q.blanks.map((b) => (
-                    <span key={b.label} className="mr-6">
-                      {b.label} ________
+                    <span key={b.label} className="mr-6 inline-flex items-end gap-1">
+                      {b.label} <span className="inline-block w-16 border-b border-black/40" />
                     </span>
                   ))}
                 </p>
@@ -117,7 +129,7 @@ export function PrintPage() {
           {test.questions.map((q, i) => (
             <li key={q.id} className="print-item flex gap-3">
               <span className="w-6 shrink-0 font-semibold">{i + 1}.</span>
-              <div>
+              <div className="min-w-0">
                 {q.kind === 'open' ? (
                   // a model answer carries the same [PARTS]/[TABLE] markup as a question, and must
                   // be rendered the same way rather than printed as raw tags

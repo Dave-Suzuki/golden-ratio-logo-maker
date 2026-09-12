@@ -19,6 +19,7 @@ export function TfInput({
         <button
           key={String(v)}
           type="button"
+          data-answer-control
           disabled={disabled}
           onClick={() => onChange(v)}
           ref={i === 0 ? (inputRef as RefObject<HTMLButtonElement | null> | undefined) : undefined}
