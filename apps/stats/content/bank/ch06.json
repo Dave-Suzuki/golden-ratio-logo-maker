@@ -848,7 +848,7 @@
    "module": "m46980",
    "exerciseId": "fs-idm143086848"
   },
-  "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
+  "context": "The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
   "modelSolution": "The lifetime of a wearable fitness device measured in years.",
   "needsFigure": false,
   "explanation": []
@@ -864,7 +864,7 @@
    "module": "m46980",
    "exerciseId": "fs-idm119601152"
   },
-  "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
+  "context": "The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts.",
   "modelSolution": "X ~ N(4.1, 1.3)",
   "needsFigure": false,
   "explanation": []
@@ -880,7 +880,7 @@
    "module": "m46980",
    "exerciseId": "fs-idp12375792"
   },
-  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
   "options": [
    "2.7",
    "5.3",
@@ -902,7 +902,7 @@
    "module": "m46980",
    "exerciseId": "fs-idp45221936"
   },
-  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
   "options": [
    "1.5",
    "0.2",
@@ -1223,7 +1223,7 @@
    "module": "m46973",
    "exerciseId": "fs-idp83610000"
   },
-  "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)",
+  "context": "X ~ N(54, 8)",
   "answer": 0.4013,
   "tolerance": {
    "abs": 0.005,
@@ -1246,7 +1246,7 @@
    "module": "m46973",
    "exerciseId": "fs-idp105059184"
   },
-  "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)",
+  "context": "X ~ N(54, 8)",
   "answer": 0.0013,
   "tolerance": {
    "abs": 0.005,
@@ -1269,7 +1269,7 @@
    "module": "m46973",
    "exerciseId": "fs-idp153118944"
   },
-  "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)",
+  "context": "X ~ N(54, 8)",
   "answer": 60.73,
   "tolerance": {
    "abs": 0.006,
@@ -1292,7 +1292,7 @@
    "module": "m46973",
    "exerciseId": "fs-idp49095264"
   },
-  "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)",
+  "context": "X ~ N(54, 8)",
   "answer": 56.03,
   "tolerance": {
    "abs": 0.006,
@@ -1426,7 +1426,7 @@
    "module": "m46973",
    "exerciseId": "eip-181"
   },
-  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
   "options": [
    "0.0580",
    "0.8447",
@@ -1448,7 +1448,7 @@
    "module": "m46973",
    "exerciseId": "eip-318"
   },
-  "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
+  "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days.",
   "options": [
    "8.89",
    "7.07",
@@ -1470,7 +1470,7 @@
    "module": "m46973",
    "exerciseId": "eip-486"
   },
-  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
   "options": [
    "Yes",
    "No",
@@ -1491,7 +1491,7 @@
    "module": "m46973",
    "exerciseId": "eip-231"
   },
-  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
   "options": [
    "0.0001",
    "0.9270",
@@ -1513,7 +1513,7 @@
    "module": "m46973",
    "exerciseId": "eip-295"
   },
-  "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes.",
   "options": [
    "1.24",
    "2.41",
@@ -1805,7 +1805,7 @@
    "test": "Practice Test 2",
    "n": 57
   },
-  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "context": "According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
   "modelSolution": "z=x−μ/σ so z=112−109/4.5=0.67",
   "needsFigure": false,
   "explanation": []
@@ -1821,7 +1821,7 @@
    "test": "Practice Test 2",
    "n": 58
   },
-  "context": "Use the following information for the next six exercises. According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
+  "context": "According to the World Health Organization, distribution of height in centimeters for girls aged five years and no months has the distribution: X ~ N(109, 4.5).",
   "modelSolution": "z=x−μ/σ so z=100−109/4.5=−2.00",
   "needsFigure": false,
   "explanation": []
@@ -1897,7 +1897,7 @@
    "test": "Practice Test 2",
    "n": 63
   },
-  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "context": "The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
   "modelSolution": "Yes, because both np and nq are greater than five.\nnp = (500)(0.20) = 100 and nq = 500(0.80) = 400",
   "needsFigure": false,
   "explanation": []
@@ -1913,7 +1913,7 @@
    "test": "Practice Test 2",
    "n": 64
   },
-  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "context": "The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
   "modelSolution": "μ=np=(500)(0.20)=100\n\nσ=√(npq)=√(500(0.20)(0.80))=8.94",
   "needsFigure": false,
   "explanation": []
@@ -1929,7 +1929,7 @@
    "test": "Practice Test 2",
    "n": 65
   },
-  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "context": "The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
   "modelSolution": "Fifty percent, because in a normal distribution, half the values lie above the mean.",
   "needsFigure": false,
   "explanation": []
@@ -1945,7 +1945,7 @@
    "test": "Practice Test 2",
    "n": 66
   },
-  "context": "Use the following information to answer the next four exercises. The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
+  "context": "The distributor of lotto tickets claims that 20 percent of the tickets are winners. You draw a sample of 500 tickets to test this proposition.",
   "modelSolution": "The results of our sample were two standard deviations below the mean, suggesting it is unlikely that 20 percent of the lotto tickets are winners, as claimed by the distributor, and that the true percent of winners is lower. Applying the Empirical Rule, If that claim were true, we would expect to see a result this far below the mean only about 2.5 percent of the time.",
   "needsFigure": false,
   "explanation": []
@@ -2024,7 +2024,7 @@
    "test": "Practice Final Exam 2",
    "n": 19
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "context": "At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
   "options": [
    "1.28",
    "90",
@@ -2046,7 +2046,7 @@
    "test": "Practice Final Exam 2",
    "n": 20
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "context": "At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
   "options": [
    "5.",
    "50.",
@@ -2068,7 +2068,7 @@
    "test": "Practice Final Exam 2",
    "n": 21
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
+  "context": "At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
   "options": [
    "0.6301",
    "0.8541",
@@ -2105,7 +2105,7 @@
    "test": "Chapter 10",
    "n": 97
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
   "answer": 7.6,
   "tolerance": {
    "abs": 0.06,
@@ -2128,7 +2128,7 @@
    "test": "Chapter 10",
    "n": 98
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
   "answer": 5.0,
   "tolerance": {
    "abs": 0.05,
@@ -2151,7 +2151,7 @@
    "test": "Chapter 10",
    "n": 99
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
+  "context": "At the beginning of the term, the amount of time a student waits in line at the campus store is normally distributed with a mean of five minutes and a standard deviation of two minutes.",
   "answer": 0.9431,
   "tolerance": {
    "abs": 0.005,
@@ -2174,7 +2174,7 @@
    "test": "Chapter 11",
    "n": 100
   },
-  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "context": "Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
   "answer": 7.5,
   "tolerance": {
    "abs": 0.06,
@@ -2197,7 +2197,7 @@
    "test": "Chapter 11",
    "n": 101
   },
-  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "context": "Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
   "answer": 0.0122,
   "tolerance": {
    "abs": 0.005,
@@ -2220,7 +2220,7 @@
    "test": "Chapter 11",
    "n": 102
   },
-  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "context": "Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
   "modelSolution": "N(7, 0.63)",
   "needsFigure": false,
   "explanation": []

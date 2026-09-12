@@ -10,7 +10,7 @@
    "module": "m47124",
    "exerciseId": "eip-555"
   },
-  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
   "modelSolution": "Each population from which a sample is taken is assumed to be normal.",
   "needsFigure": false,
   "explanation": []
@@ -26,7 +26,7 @@
    "module": "m47124",
    "exerciseId": "eip-194"
   },
-  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
   "modelSolution": "The populations are assumed to have equal standard deviations (or variances).",
   "needsFigure": false,
   "explanation": []
@@ -42,7 +42,7 @@
    "module": "m47124",
    "exerciseId": "eip-922"
   },
-  "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
+  "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?",
   "modelSolution": "The response is a numerical value.",
   "needsFigure": false,
   "explanation": []
@@ -104,7 +104,7 @@
    "module": "m47128",
    "exerciseId": "eip-317"
   },
-  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
   "answer": 4939.2,
   "tolerance": {
    "abs": 0.06,
@@ -127,7 +127,7 @@
    "module": "m47128",
    "exerciseId": "eip-617"
   },
-  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
   "answer": 2.0,
   "tolerance": {
    "abs": 0.05,
@@ -150,7 +150,7 @@
    "module": "m47128",
    "exerciseId": "eip-297"
   },
-  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
   "answer": 2469.6,
   "tolerance": {
    "abs": 0.06,
@@ -173,7 +173,7 @@
    "module": "m47128",
    "exerciseId": "eip-485"
   },
-  "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
+  "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]",
   "answer": 3.7416,
   "tolerance": {
    "abs": 0.005,
@@ -196,7 +196,7 @@
    "module": "m47128",
    "exerciseId": "eip-332"
   },
-  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -219,7 +219,7 @@
    "module": "m47128",
    "exerciseId": "eip-543"
   },
-  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
   "answer": 13.2,
   "tolerance": {
    "abs": 0.06,
@@ -242,7 +242,7 @@
    "module": "m47128",
    "exerciseId": "eip-91"
   },
-  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
   "answer": 0.825,
   "tolerance": {
    "abs": 0.005,
@@ -265,7 +265,7 @@
    "module": "m47128",
    "exerciseId": "eip-23"
   },
-  "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
+  "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]",
   "modelSolution": "Because a one-way ANOVA test is always right-tailed, a high F statistic corresponds to a low p-value, so it is likely that we will reject the null hypothesis.",
   "needsFigure": false,
   "explanation": []
@@ -281,7 +281,7 @@
    "module": "m47128",
    "exerciseId": "fs-idp124948560"
   },
-  "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal.",
+  "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal.",
   "modelSolution": "df(denom) = 15",
   "needsFigure": false,
   "explanation": []
@@ -360,7 +360,7 @@
    "module": "m47119",
    "exerciseId": "eip-162"
   },
-  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
   "modelSolution": "ten",
   "needsFigure": false,
   "explanation": []
@@ -376,7 +376,7 @@
    "module": "m47119",
    "exerciseId": "eip-213"
   },
-  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
   "modelSolution": "SS = 237.33; MS = 23.73",
   "needsFigure": false,
   "explanation": []
@@ -392,7 +392,7 @@
    "module": "m47119",
    "exerciseId": "eip-155"
   },
-  "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
+  "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]",
   "answer": 0.1614,
   "tolerance": {
    "abs": 0.005,
@@ -415,7 +415,7 @@
    "module": "m47119",
    "exerciseId": "eip-602"
   },
-  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
   "modelSolution": "two",
   "needsFigure": false,
   "explanation": []
@@ -431,7 +431,7 @@
    "module": "m47119",
    "exerciseId": "eip-944"
   },
-  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
   "modelSolution": "SS = 5,700.4;\n\nMS = 2,850.2",
   "needsFigure": false,
   "explanation": []
@@ -447,7 +447,7 @@
    "module": "m47119",
    "exerciseId": "eip-105"
   },
-  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
   "answer": 3.6101,
   "tolerance": {
    "abs": 0.005,
@@ -470,7 +470,7 @@
    "module": "m47119",
    "exerciseId": "eip-920"
   },
-  "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
+  "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -579,7 +579,7 @@
    "module": "m47125",
    "exerciseId": "eip-801"
   },
-  "context": "Use the following information to answer the next two exercises. There are two assumptions that must be true in order to perform an F test of two variances.",
+  "context": "There are two assumptions that must be true in order to perform an F test of two variances.",
   "modelSolution": "The populations from which the two samples are drawn are normally distributed.",
   "needsFigure": false,
   "explanation": []
@@ -595,7 +595,7 @@
    "module": "m47125",
    "exerciseId": "eip-119"
   },
-  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
   "modelSolution": "H0: σ1 = σ2\n\nHa: σ1 < σ2\n\nor\n\nH0: σ_1^2 = σ_2^2\n\nHa: σ_1^2<σ_2^2",
   "needsFigure": false,
   "explanation": []
@@ -611,7 +611,7 @@
    "module": "m47125",
    "exerciseId": "eip-941"
   },
-  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
   "answer": 4.11,
   "tolerance": {
    "abs": 0.006,
@@ -634,7 +634,7 @@
    "module": "m47125",
    "exerciseId": "eip-416"
   },
-  "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
+  "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed.",
   "answer": 0.7159,
   "tolerance": {
    "abs": 0.005,
@@ -674,7 +674,7 @@
    "module": "m47125",
    "exerciseId": "eip-932"
   },
-  "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
+  "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
   "answer": 2.8674,
   "tolerance": {
    "abs": 0.005,
@@ -697,7 +697,7 @@
    "module": "m47125",
    "exerciseId": "eip-792"
   },
-  "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
+  "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent.",
   "modelSolution": "Reject the null hypothesis. There is enough evidence to say that the variance of the grades for the first student is higher than the variance in the grades for the second student.",
   "needsFigure": false,
   "explanation": []
@@ -713,7 +713,7 @@
    "module": "m47125",
    "exerciseId": "eip-366"
   },
-  "context": "Use the following information to answer the next three exercises. Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed.",
+  "context": "Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed.",
   "answer": 0.7414,
   "tolerance": {
    "abs": 0.005,
@@ -886,7 +886,7 @@
    "test": "Practice Test 4",
    "n": 33
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "SSwithin is the sum of squares within groups, representing the variation in outcome that cannot be attributed to the different feed supplements, but due to individual or chance factors among the calves in each group.",
   "needsFigure": false,
   "explanation": []
@@ -902,7 +902,7 @@
    "test": "Practice Test 4",
    "n": 34
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "SSbetween is the sum of squares between groups, representing the variation in outcome that can be attributed to the different feed supplements.",
   "needsFigure": false,
   "explanation": []
@@ -918,7 +918,7 @@
    "test": "Practice Test 4",
    "n": 35
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "k = the number of groups = 4\nn1 = the number of cases in group 1 = 30\nn = the total number of cases = 4(30) = 120",
   "needsFigure": false,
   "explanation": []
@@ -934,7 +934,7 @@
    "test": "Practice Test 4",
    "n": 36
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "SStotal = SSwithin + SSbetween so SSbetween = SStotal – SSwithin\n\n621.4 – 374.5 = 246.9",
   "needsFigure": false,
   "explanation": []
@@ -950,7 +950,7 @@
    "test": "Practice Test 4",
    "n": 37
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "The mean squares in an ANOVA are found by dividing each sum of squares by its respective degrees of freedom (df).\nFor SStotal, df = n – 1 = 120 – 1 = 119.\nFor SSbetween, df = k – 1 = 4 – 1 = 3.\nFor SSwithin, df = 120 – 4 = 116.\nMSbetween = 246.9/3 = 82.3\nMSwithin = 374.5/116 = 3.23",
   "needsFigure": false,
   "explanation": []
@@ -966,7 +966,7 @@
    "test": "Practice Test 4",
    "n": 38
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "F=(MS_(between))/(MS_(within))=82.3/3.23=25.48",
   "needsFigure": false,
   "explanation": []
@@ -982,7 +982,7 @@
    "test": "Practice Test 4",
    "n": 39
   },
-  "context": "Use the following information to answer the next seven exercises. You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
+  "context": "You are conducting a study of three types of feed supplements for cattle to test their effectiveness in producing weight gain among calves whose feed includes one of the supplements. You have four groups of 30 calves (one is a control group receiving the usual feed, but no supplement). You will conduct a one-way ANOVA after one year to see if there are difference in the mean weight for the four groups.",
   "modelSolution": "It would be larger, because you would be dividing by a smaller number. The value of MSbetween would not change with a change of sample size, but the value of MSwithin would be smaller, because you would be dividing by a larger number (dfwithin would be 136, not 116). Dividing a constant by a smaller number produces a larger result.",
   "needsFigure": false,
   "explanation": []

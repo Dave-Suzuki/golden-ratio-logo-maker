@@ -98,145 +98,145 @@
      "id": "eip-499",
      "problem": "Identify the following:\n\n[PARTS]\na. x̄ = _____\nb. σ = _____\nc. n = _____\n[/PARTS]",
      "solution": "[DATA]244, 15, 50[/DATA]",
-     "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
+     "context": "The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
     },
     {
      "id": "eip-681",
      "problem": "In words, define the random variables X and X̄.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
+     "context": "The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
     },
     {
      "id": "eip-568",
      "problem": "Which distribution should you use for this problem?",
      "solution": "N(244,15/(√(50)))",
-     "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
+     "context": "The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
     },
     {
      "id": "eip-815",
      "problem": "Construct a 95% confidence interval for the population mean weight of newborn elephants. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
+     "context": "The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
     },
     {
      "id": "eip-773",
      "problem": "What will happen to the confidence interval obtained, if 500 newborn elephants are weighed instead of 50? Why?",
      "solution": "As the sample size increases, there will be less variability in the mean, so the interval size decreases.",
-     "context": "Use the following information to answer the next five exercises: The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
+     "context": "The standard deviation of the weights of elephants is known to be approximately 15 pounds. We wish to construct a 95% confidence interval for the mean weight of newborn elephant calves. Fifty newborn elephants are weighed. The sample mean is 244 pounds. The sample standard deviation is 11 pounds."
     },
     {
      "id": "eip-250",
      "problem": "Identify the following:\n\n[PARTS]\na. x̄ = _____\nb. σ = _____\nc. n = _____\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-322",
      "problem": "In words, define the random variables X and X̄.",
      "solution": "X is the time in minutes it takes to complete the U.S. Census short form. X̄ is the mean time it took a sample of 200 people to complete the U.S. Census short form.",
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-818",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-899",
      "problem": "Construct a 90% confidence interval for the population mean time to complete the forms. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": "CI: (7.9441, 8.4559)\n\n[FIGURE]\n\nEBM = 0.26",
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-846",
      "problem": "If the Census wants to increase its level of confidence and keep the error bound the same by taking another survey, what changes should it make?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-366",
      "problem": "If the Census did another survey, kept the error bound the same, and surveyed only 50 people instead of 200, what would happen to the level of confidence? Why?",
      "solution": "The level of confidence would decrease because decreasing n makes the confidence interval wider, so at the same error bound, the confidence level decreases.",
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-838",
      "problem": "Suppose the Census needed to be 98% confident of the population mean length of time. Would the Census have to survey more people? Why or why not?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises: The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
+     "context": "The U.S. Census Bureau conducts a study to determine the time needed to complete the short form. The Bureau surveys 200 people. The sample mean is 8.2 minutes. There is a known standard deviation of 2.2 minutes. The population distribution is assumed to be normal."
     },
     {
      "id": "eip-924",
      "problem": "Identify the following:\n\n[PARTS]\na. x̄ = ______\nb. σ = ______\nc. n = ______\n[/PARTS]",
      "solution": "[PARTS]\na. x̄ = 2.2\nb. σ = 0.2\nc. n = 20\n[/PARTS]",
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-700",
      "problem": "In words, define the random variable X.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-64",
      "problem": "In words, define the random variable X̄.",
      "solution": "X̄ is the mean weight of a sample of 20 heads of lettuce.",
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-187",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-833",
      "problem": "Construct a 90% confidence interval for the population mean weight of the heads of lettuce. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": "EBM = 0.07\n\nCI: (2.1264, 2.2736)\n\n[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-342",
      "problem": "Construct a 95% confidence interval for the population mean weight of the heads of lettuce. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-656",
      "problem": "In complete sentences, explain why the confidence interval in the exercise above is wider than in the exercise above.",
      "solution": "The interval is greater because the level of confidence increased. If the only change made in the analysis is a change in confidence level, then all we are doing is changing how much area is being calculated for the normal distribution. Therefore, a larger confidence level results in larger areas and larger intervals.",
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-598",
      "problem": "In complete sentences, give an interpretation of what the interval in the exercise above means.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-909",
      "problem": "What would happen if 40 heads of lettuce were sampled instead of 20, and the error bound remained the same?",
      "solution": "The confidence level would increase.",
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "eip-602",
      "problem": "What would happen if 40 heads of lettuce were sampled instead of 20, and the confidence level remained the same?",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises: A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
+     "context": "A sample of 20 heads of lettuce was selected. Assume that the population distribution of head weight is normal. The weight of each head of lettuce was then recorded. The mean weight was 2.2 pounds with a standard deviation of 0.1 pounds. The population standard deviation is known to be 0.2 pounds."
     },
     {
      "id": "element-463",
      "problem": "x̄ = _____",
      "solution": "30.4",
-     "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student."
+     "context": "The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student."
     },
     {
      "id": "fs-idm37850320",
      "problem": "n = _____",
      "solution": null,
-     "context": "Use the following information to answer the next 14 exercises: The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student."
+     "context": "The mean age for all Foothill College students for a recent Fall term was 33.2. The population standard deviation has been pretty consistent at 15. Suppose that twenty-five Winter students were randomly selected. The mean age for the sample was 30.4. We are interested in the true mean age for Winter Foothill College students. Let X = the age of a Winter Foothill College student."
     },
     {
      "id": "element-608",
@@ -401,79 +401,79 @@
      "id": "eip-761",
      "problem": "Identify the following:\n\n[PARTS]\na. x̄ =_______\nb. s_x =_______\nc. n =_______\nd. n – 1 =_______\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
+     "context": "A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
     },
     {
      "id": "eip-589",
      "problem": "Define the random variables X and X̄ in words.",
      "solution": "X is the number of hours a patient waits in the emergency room before being called back to be examined. X̄ is the mean wait time of 70 patients in the emergency room.",
-     "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
+     "context": "A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
     },
     {
      "id": "eip-709",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
+     "context": "A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
     },
     {
      "id": "eip-624",
      "problem": "Construct a 95% confidence interval for the population mean time spent waiting. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": "CI: (1.3808, 1.6192)\n\n[FIGURE]\n\nEBM = 0.12",
-     "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
+     "context": "A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
     },
     {
      "id": "eip-469",
      "problem": "Explain in complete sentences what the confidence interval means.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
+     "context": "A hospital is trying to cut down on emergency room wait times. It is interested in the amount of time patients must wait before being called back to be examined. An investigation committee randomly surveyed 70 patients. The sample mean was 1.5 hours with a sample standard deviation of 0.5 hours."
     },
     {
      "id": "eip-817",
      "problem": "Identify the following:\n\n[PARTS]\na. x̄ =_______\nb. s_x =_______\nc. n =_______\nd. n – 1 =_______\n[/PARTS]",
      "solution": "[PARTS]\na. x̄ = 151\nb. s_x = 32\nc. n = 108\nd. n – 1 = 107\n[/PARTS]",
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "eip-225",
      "problem": "Define the random variable X in words.",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "eip-810",
      "problem": "Define the random variable X̄ in words.",
      "solution": "X̄ is the mean number of hours spent watching television per month from a sample of 108 Americans.",
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "eip-72",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "eip-82",
      "problem": "Construct a 99% confidence interval for the population mean hours spent watching television per month. (a) State the confidence interval, (b) sketch the graph, and (c) calculate the error bound.",
      "solution": "CI: (142.92, 159.08)\n\n[FIGURE]\n\nEBM = 8.08",
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "eip-793",
      "problem": "Why would the error bound change if the confidence level were lowered to 95%?",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises: One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
+     "context": "One hundred eight Americans were surveyed to determine the number of hours they spend watching television each month. It was revealed that they watched an average of 151 hours each month with a standard deviation of 32 hours. Assume that the underlying population distribution is normal."
     },
     {
      "id": "element-953",
      "problem": "Calculate the following:\n\n[PARTS]\na. x̄ =______\nb. s_x =______\nc. n =______\n[/PARTS]",
      "solution": "[DATA]3.26, 1.02, 39[/DATA]",
-     "context": "Use the following information to answer the next 13 exercises: The data in the table below are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]"
+     "context": "The data in the table below are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]"
     },
     {
      "id": "element-62",
      "problem": "Define the random variable X̄ in words.",
      "solution": null,
-     "context": "Use the following information to answer the next 13 exercises: The data in the table below are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]"
+     "context": "The data in the table below are the result of a random survey of 39 national flags (with replacement between picks) from various countries. We are interested in finding a confidence interval for the true mean number of colors on a national flag. Let X = the number of colors on a national flag.\n\n[TABLE]\nX | Freq.\n1 | 1\n2 | 7\n3 | 18\n4 | 7\n5 | 6\n[/TABLE]"
     },
     {
      "id": "element-212",
@@ -604,7 +604,7 @@
       "Impossible to determine"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16 oz. serving size. The sample mean is 13.30 with a sample standard deviation of 1.55. Assume the underlying population is normally distributed."
+     "context": "A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16 oz. serving size. The sample mean is 13.30 with a sample standard deviation of 1.55. Assume the underlying population is normally distributed."
     },
     {
      "id": "exxxx",
@@ -617,7 +617,7 @@
       "1.74"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises: A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16 oz. serving size. The sample mean is 13.30 with a sample standard deviation of 1.55. Assume the underlying population is normally distributed."
+     "context": "A quality control specialist for a restaurant chain takes a random sample of size 12 to check the amount of soda served in the 16 oz. serving size. The sample mean is 13.30 with a sample standard deviation of 1.55. Assume the underlying population is normally distributed."
     }
    ],
    "bring_together": [],
@@ -701,115 +701,115 @@
      "id": "eip-506",
      "problem": "When designing a study to determine this population proportion, what is the minimum number you would need to survey to be 90% confident that the population proportion is estimated to within 0.05?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises: Marketing companies are interested in knowing the population percent of women who make the majority of household purchasing decisions."
+     "context": "Marketing companies are interested in knowing the population percent of women who make the majority of household purchasing decisions."
     },
     {
      "id": "eip-523",
      "problem": "If it were later determined that it was important to be more than 90% confident and a new survey were commissioned, how would it affect the minimum number you need to survey? Why?",
      "solution": "The sample size needed would increase. As the confidence level increases, α decreases and z_((a/2)) increases. To maintain the same error bound, the size of the sample needs to increase.",
-     "context": "Use the following information to answer the next two exercises: Marketing companies are interested in knowing the population percent of women who make the majority of household purchasing decisions."
+     "context": "Marketing companies are interested in knowing the population percent of women who make the majority of household purchasing decisions."
     },
     {
      "id": "eip-616",
      "problem": "Identify the following:\n\n[PARTS]\na. x = ______\nb. n = ______\nc. p^′ = ______\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
+     "context": "Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
     },
     {
      "id": "eip-55",
      "problem": "Define the random variables X and p^′ in words.",
      "solution": "X is the number of “successes” where the woman makes the majority of the purchasing decisions for the household. P′ is the percentage of households sampled where the woman makes the majority of the purchasing decisions for the household.",
-     "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
+     "context": "Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
     },
     {
      "id": "eip-733",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
+     "context": "Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
     },
     {
      "id": "eip-151",
      "problem": "Construct a 95% confidence interval for the population proportion of households where the women make the majority of the purchasing decisions. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": "CI: (0.5321, 0.6679)\n\n[FIGURE]\n\nEBM: 0.0679",
-     "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
+     "context": "Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
     },
     {
      "id": "eip-839",
      "problem": "List two difficulties the company might have in obtaining random results, if this survey were done by email.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
+     "context": "Suppose the marketing company did do a survey. They randomly surveyed 200 households and found that in 120 of them, the woman made the majority of the purchasing decisions. We are interested in the population proportion of households where women make the majority of the purchasing decisions."
     },
     {
      "id": "eip-115",
      "problem": "We are interested in finding the 95% confidence interval for the percent of executives who prefer trucks. Define random variables X and P′ in words.",
      "solution": "X is the number of “successes” where an executive prefers a truck. P′ is the percentage of executives sampled who prefer a truck.",
-     "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
+     "context": "Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
     },
     {
      "id": "eip-47",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
+     "context": "Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
     },
     {
      "id": "eip-593",
      "problem": "Construct a 95% confidence interval. State the confidence interval, sketch the graph, and calculate the error bound.",
      "solution": "CI: (0.19432, 0.33068)\n\n[FIGURE]\n\nEBM: 0.0707",
-     "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
+     "context": "Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
     },
     {
      "id": "eip-218",
      "problem": "Suppose we want to lower the sampling error. What is one way to accomplish that?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
+     "context": "Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
     },
     {
      "id": "eip-978",
      "problem": "The sampling error given in the survey is ±2%. Explain what the ±2% means.",
      "solution": "The sampling error means that the true mean can be 2% above or below the sample mean.",
-     "context": "Use the following information to answer the next five exercises: Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
+     "context": "Of 1,050 randomly selected adults, 360 identified themselves as manual laborers, 280 identified themselves as non-manual wage earners, 250 identified themselves as mid-level managers, and 160 identified themselves as executives. In the survey, 82% of manual laborers preferred trucks, 62% of non-manual wage earners preferred trucks, 54% of mid-level managers preferred trucks, and 26% of executives preferred trucks."
     },
     {
      "id": "eip-808",
      "problem": "Define the random variable X in words.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
+     "context": "A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
     },
     {
      "id": "eip-94",
      "problem": "Define the random variable P′ in words.",
      "solution": "P′ is the proportion of voters sampled who said the economy is the most important issue in the upcoming election.",
-     "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
+     "context": "A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
     },
     {
      "id": "eip-425",
      "problem": "Which distribution should you use for this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
+     "context": "A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
     },
     {
      "id": "eip-820",
      "problem": "Construct a 90% confidence interval, and state the confidence interval and the error bound.",
      "solution": "CI: (0.62735, 0.67265)\n\nEBM: 0.02265",
-     "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
+     "context": "A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
     },
     {
      "id": "eip-209",
      "problem": "What would happen to the confidence interval if the level of confidence were 95%?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises: A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
+     "context": "A poll of 1,200 voters asked what the most significant issue was in the upcoming election. Sixty-five percent answered the economy. We are interested in the population proportion of voters who feel the economy is the most important."
     },
     {
      "id": "element-193",
      "problem": "What is being counted?",
      "solution": "The number of girls, ages 8 to 12, in the 5 P.M. Monday night beginning ice-skating class.",
-     "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population."
+     "context": "The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population."
     },
     {
      "id": "element-708",
      "problem": "In words, define the random variable X.",
      "solution": null,
-     "context": "Use the following information to answer the next 16 exercises: The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population."
+     "context": "The Ice Chalet offers dozens of different beginning ice-skating classes. All of the class names are put into a bucket. The 5 P.M., Monday night, ages 8 to 12, beginning ice-skating class was picked. In that class were 64 girls and 16 boys. Suppose that we are interested in the true proportion of girls, ages 8 to 12, in all beginning ice-skating classes at the Ice Chalet. Assume that the children in the selected class are a random sample of the population."
     },
     {
      "id": "element-138",
@@ -930,7 +930,7 @@
       "400"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next three exercises: According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
+     "context": "According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
     },
     {
      "id": "eip-idm27625664",
@@ -943,7 +943,7 @@
       "(0.130, 0.183)"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
+     "context": "According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
     },
     {
      "id": "eeexxxx",
@@ -956,7 +956,7 @@
       "0.030"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next three exercises: According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
+     "context": "According to a Field Poll, 79% of Georgia adults (actual results are 400 out of 506 surveyed) feel that “education and our schools” is one of the top issues facing the state. We wish to construct a 90% confidence interval for the true proportion of Georgia adults who feel that education and the schools is one of the top issues facing Georgia."
     },
     {
      "id": "exercising1",
@@ -969,7 +969,7 @@
       "(0.6204, 0.7025)"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises: Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not."
+     "context": "Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not."
     },
     {
      "id": "exer12345",
@@ -982,7 +982,7 @@
       "338"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next two exercises: Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not."
+     "context": "Five hundred and eleven (511) homes in a certain southern California community are randomly surveyed to determine if they meet minimal earthquake preparedness recommendations. One hundred seventy-three (173) of the homes surveyed met the minimum recommendations for earthquake preparedness, and 338 did not."
     },
     {
      "id": "eip-44",

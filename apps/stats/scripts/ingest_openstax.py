@@ -240,10 +240,32 @@ OPENER_RE = re.compile(r'^\s*use the following|following information', re.I)
 # starting a new one: its own text says "ten mothers from the above population", and the numbers
 # that define that population ("76% of the mothers are employed") are in the earlier block.
 ADDITIONAL_RE = re.compile(r'following (additional|more) information', re.I)
+# "Use the following information to answer the next five exercises:" describes the layout of a
+# printed page, not the problem. A quiz draws a couple of questions out of that run, so the promise
+# is broken the moment the learner clicks Next. The scenario reads better as plain setup anyway.
+PAGE_INSTRUCTION_RE = re.compile(
+    r'(?:^|(?<=\n))[ \t]*use the following[^.:\n]{0,90}?(?:exercises?|questions?|problems?)[ \t]*[.:][ \t]*', re.I)
+
+
+def strip_page_instruction(text):
+    out = PAGE_INSTRUCTION_RE.sub('', text).strip()
+    return out if out else text.strip()
 # An instruction that introduces sub-parts ("Determine what the key terms refer to…") belongs to the
 # QUESTION, not to the shared scenario; otherwise the stem is left as a bare label like "population".
+# "For the following exercises, identify the type of data…" heads a run of bare noun phrases
+# ("brand of toothpaste"). Without the instruction the learner is shown a label and no question.
+RUN_LEAD_RE = re.compile(r'^\s*for the (?:following|next) (?:\w+ )?(?:exercises?|questions?|problems?)[,:]?\s*', re.I)
 INSTRUCTION_RE = re.compile(
-    r'^\s*(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give)\b', re.I)
+    r'^\s*(?:for the (?:following|next) (?:\w+ )?(?:exercises?|questions?|problems?)[,:]?\s*)?'
+    r'(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give)\b', re.I)
+
+
+def normalise_lead(t):
+    """Drop the "for the following exercises" framing: a quiz asks one at a time."""
+    out = RUN_LEAD_RE.sub('', t).strip()
+    if not out:
+        return t.strip()
+    return out[0].upper() + out[1:]
 
 
 def merge_lead(lead, stem):
@@ -262,7 +284,11 @@ def merge_lead(lead, stem):
     if not is_question:
         if re.search(r'(?i)\bthe key terms refer\b', lead):
             return re.sub(r'(?i)\bthe key terms refer\b', f'\u201c{stem}\u201d refers', lead)
-        return f'{lead}\n\nIn this study, identify the {stem}.'
+        # "In this study, identify the population." only reads as English when the lead really is
+        # about one study and the part is a single key term. "In this study, identify the brand of
+        # toothpaste." is nonsense: there, the item just goes under the instruction as the book has it.
+        if len(stem.split()) == 1 and re.search(r'(?i)\b(study|example|researcher|scenario|survey)\b', lead):
+            return f'{lead}\n\nIn this study, identify the {stem}.'
     return f'{lead}\n\n{stem}'
 
 
@@ -288,9 +314,10 @@ class ContextScope:
         assigning as we go gave the first exercise of a group a truncated copy, typically missing
         the very table it needed.
         """
+        shown = strip_page_instruction(self.text) if self.text else None
         for exercise in self.group:
-            if self.text:
-                exercise['context'] = self.text
+            if shown:
+                exercise['context'] = shown
         self.group = []
         if self.text:
             self.last = self.text
@@ -310,12 +337,12 @@ class ContextScope:
             # data, tables and figures that follow the opener are part of the same scenario;
             # a trailing instruction is a lead-in for the questions instead.
             if INSTRUCTION_RE.match(t) and len(t) < 300:
-                self.lead = t
+                self.lead = normalise_lead(t)
             else:
                 self.text += '\n\n' + t
             return
         # a standalone block with no opener: treat an instruction as a lead-in, ignore the rest
-        self.lead = t if (INSTRUCTION_RE.match(t) and len(t) < 300) else None
+        self.lead = normalise_lead(t) if (INSTRUCTION_RE.match(t) and len(t) < 300) else None
 
     def apply(self, exercise):
         if self.lead:

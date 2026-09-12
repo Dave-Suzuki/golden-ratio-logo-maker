@@ -61,13 +61,13 @@
      "id": "fs-idm22935904",
      "problem": "It is believed that 70% of men pass their drivers test in the first attempt, while 65% of women pass the test in the first attempt. Of interest is whether the proportions are in fact equal.",
      "solution": "two proportions",
-     "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\n\n[PARTS]\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "Indicate if the hypothesis test is for\n\n[PARTS]\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm146907648",
      "problem": "A new laundry detergent is tested on consumers. Of interest is the proportion of consumers who prefer the new brand over the leading competitor. A study is done to test this.",
      "solution": null,
-     "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\n\n[PARTS]\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "Indicate if the hypothesis test is for\n\n[PARTS]\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm161821520",
@@ -138,31 +138,31 @@
      "id": "fs-idm174647808",
      "problem": "Are standard deviations known or unknown?",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
+     "context": "A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
     },
     {
      "id": "fs-idm213711120",
      "problem": "What is the random variable?",
      "solution": "The random variable is the difference between the mean amounts of sugar in the two soft drinks.",
-     "context": "Use the following information to answer the next three exercises: A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
+     "context": "A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
     },
     {
      "id": "fs-idm106857024",
      "problem": "Is this a one-tailed or two-tailed test?",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
+     "context": "A study is done to determine which of two soft drinks has more sugar. There are 13 cans of Beverage A in a sample and six cans of Beverage B. The mean amount of sugar in Beverage A is 36 grams with a standard deviation of 0.6 grams. The mean amount of sugar in Beverage B is 38 grams with a standard deviation of 0.8 grams. The researchers believe that Beverage B has more sugar than Beverage A, on average. Both populations have normal distributions."
     },
     {
      "id": "fs-idm77134224",
      "problem": "Is this a test of means or proportions?",
      "solution": "means",
-     "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people."
+     "context": "The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people."
     },
     {
      "id": "fs-idm87532368",
      "problem": "State the null and alternative hypotheses.\n\n[PARTS]\na. H0: __________\nb. Ha: __________\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people."
+     "context": "The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people."
     },
     {
      "id": "fs-idp13932064",
@@ -278,7 +278,7 @@
       "the exponential distribution"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\n\nConduct a hypothesis test to answer the next two exercises."
+     "context": "The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\n\nConduct a hypothesis test to answer the next two exercises."
     },
     {
      "id": "fs-idm3207760",
@@ -291,7 +291,7 @@
       "Unable to determine"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\n\nConduct a hypothesis test to answer the next two exercises."
+     "context": "The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\n\nConduct a hypothesis test to answer the next two exercises."
     },
     {
      "id": "fs-idm108118736",
@@ -369,91 +369,91 @@
      "id": "fs-idm106340640",
      "problem": "What is the random variable?",
      "solution": "The difference in mean speeds of the fastball pitches of the two pitchers",
-     "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
+     "context": "The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idm41149200",
      "problem": "State the null and alternative hypotheses.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
+     "context": "The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idm113366480",
      "problem": "What is the test statistic?",
      "solution": "–2.46",
-     "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
+     "context": "The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idm174856784",
      "problem": "What is the p-value?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
+     "context": "The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idm126168192",
      "problem": "At the 1% significance level, what is your conclusion?",
      "solution": "At the 1% significance level, we can reject the null hypothesis. There is sufficient data to conclude that the mean speed of Rodriguez’s fastball is faster than Wesley’s.",
-     "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
+     "context": "The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idm6624080",
      "problem": "Is the population standard deviation known or unknown?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
+     "context": "A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
     },
     {
      "id": "fs-idm92555424",
      "problem": "State the null and alternative hypotheses.",
      "solution": "Subscripts: 1 = Food, 2 = No Food\n\nH0: μ1 ≤ μ2\n\nHa: μ1 > μ2",
-     "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
+     "context": "A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
     },
     {
      "id": "fs-idm40490208",
      "problem": "What is the p-value?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
+     "context": "A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
     },
     {
      "id": "fs-idm112309984",
      "problem": "Draw the graph of the p-value.",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
+     "context": "A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
     },
     {
      "id": "fs-idm31661248",
      "problem": "At the 1% significance level, what is your conclusion?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
+     "context": "A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]"
     },
     {
      "id": "fs-idm4478224",
      "problem": "State the null and alternative hypotheses.",
      "solution": "Subscripts: 1 = Gamma, 2 = Zeta\n\nH0: μ1 = μ2\n\nHa: μ1 ≠ μ2",
-     "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
+     "context": "Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
     },
     {
      "id": "fs-idm1600720",
      "problem": "Is this a right-, left-, or two-tailed test?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
+     "context": "Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
     },
     {
      "id": "fs-idm100159520",
      "problem": "What is the p-value?",
      "solution": "0.0062",
-     "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
+     "context": "Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
     },
     {
      "id": "fs-idm183272192",
      "problem": "Draw the graph of the p-value.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
+     "context": "Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
     },
     {
      "id": "fs-idm85314992",
      "problem": "At the 1% significance level, what is your conclusion?",
      "solution": "There is sufficient evidence to reject the null hypothesis. The data support that the melting point for Alloy Zeta is different from the melting point of Alloy Gamma.",
-     "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
+     "context": "Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]"
     }
    ],
    "homework": [
@@ -564,13 +564,13 @@
      "id": "eip-920",
      "problem": "Is this a test of means or proportions?",
      "solution": null,
-     "context": "Use the following information for the next five exercises. Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS1 had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS2 had system failures within the first eight hours of operation. OS2 is believed to be more stable (have fewer crashes) than OS1."
+     "context": "Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS1 had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS2 had system failures within the first eight hours of operation. OS2 is believed to be more stable (have fewer crashes) than OS1."
     },
     {
      "id": "eip-964",
      "problem": "What is the random variable?",
      "solution": "P′OS1 – P′OS2 = difference in the proportions of phones that had system failures within the first eight hours of operation with OS1 and OS2.",
-     "context": "Use the following information for the next five exercises. Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS1 had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS2 had system failures within the first eight hours of operation. OS2 is believed to be more stable (have fewer crashes) than OS1."
+     "context": "Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS1 had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS2 had system failures within the first eight hours of operation. OS2 is believed to be more stable (have fewer crashes) than OS1."
     },
     {
      "id": "eip-11",
@@ -591,61 +591,61 @@
      "id": "element-385",
      "problem": "Is this a test of means or proportions?",
      "solution": "proportions",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-818",
      "problem": "State the null and alternative hypotheses.\n\n[PARTS]\na. H0: _________\nb. Ha: _________\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-22",
      "problem": "Is this a right-tailed, left-tailed, or two-tailed test? How do you know?",
      "solution": "right-tailed",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-708",
      "problem": "What is the random variable of interest for this test?",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-386",
      "problem": "In words, define the random variable for this test.",
      "solution": "The random variable is the difference in proportions (percents) of the populations that are of two or more races in Nevada and North Dakota.",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-7",
      "problem": "Which distribution (normal or Student's t) would you use for this hypothesis test?",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-464",
      "problem": "Explain why you chose the distribution you did for the Exercise 10.56.",
      "solution": "Our sample sizes are much greater than five each, so we use the normal for two proportions distribution for this hypothesis test.",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-345",
      "problem": "Calculate the test statistic.",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-814",
      "problem": "Sketch a graph of the situation. Mark the hypothesized difference and the sample difference. Shade the area corresponding to the p-value.\n[FIGURE]",
      "solution": "Answers may vary.",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-287",
      "problem": "Find the p-value.",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "element-723",
@@ -657,13 +657,13 @@
       "Conclusion (write out in a complete sentence):"
      ],
      "solution": "[PARTS]\na. Reject the null hypothesis.\nb. p-value < alpha\nc. At the 5% significance level, there is sufficient evidence to conclude that the proportion (percent) of the population that is of two or more races in Nevada is statistically higher than that in North Dakota.\n[/PARTS]",
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },
     {
      "id": "exerciselkj",
      "problem": "Does it appear that the proportion of Nevadans who are two or more races is higher than the proportion of North Dakotans? Why or why not?",
      "solution": null,
-     "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
+     "context": "In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     }
    ],
    "homework": [
@@ -698,7 +698,7 @@
       "a test of matched pairs."
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
+     "context": "Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
     },
     {
      "id": "element-552",
@@ -711,13 +711,13 @@
       "p2022 > p2021"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
+     "context": "Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
     },
     {
      "id": "element-92",
      "problem": "The p-value is 0.0022. At a 1% level of significance, the appropriate conclusion is\n\n[PARTS]\na. There is sufficient evidence to conclude that the proportion of people in the United States in 2022 who experienced loss of taste is less than the proportion of people in the United States in 2021 who experienced loss of taste.\nb. There is insufficient evidence to conclude that the proportion of people in the United States in 2022 who experienced loss of taste is more than the proportion of people in the United States in 2021 who experienced loss of taste.\nc. There is insufficient evidence to conclude that the proportion of people in the United States in 2022 who experienced loss of taste is less than the proportion of people in the United States in 2021 who experienced loss of taste.\nd. There is sufficient evidence to conclude that the proportion of people in the United States in 2022 who experienced loss of taste is more than the proportion of people in the United States in 2021 who experienced loss of taste.\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
+     "context": "Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]"
     },
     {
      "id": "fs-idp30249712",
@@ -811,43 +811,43 @@
      "id": "fs-idm5499280",
      "problem": "What is the random variable?",
      "solution": "the mean difference of the system failures",
-     "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
     },
     {
      "id": "fs-idp71083104",
      "problem": "State the null and alternative hypotheses.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
     },
     {
      "id": "fs-idm10056224",
      "problem": "What is the p-value?",
      "solution": "0.0067",
-     "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
     },
     {
      "id": "fs-idp119203856",
      "problem": "Draw the graph of the p-value.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
     },
     {
      "id": "fs-idp92713024",
      "problem": "What conclusion can you draw about the software patch?",
      "solution": "With a p-value 0.0067, we can reject the null hypothesis. There is enough evidence to support that the software patch is effective in reducing the number of system failures.",
-     "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]"
     },
     {
      "id": "fs-idm940496",
      "problem": "State the null and alternative hypotheses.",
      "solution": null,
-     "context": "Use the following information to answer next five exercises. A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idp15011664",
      "problem": "What is the p-value?",
      "solution": "0.0021",
-     "context": "Use the following information to answer next five exercises. A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]"
+     "context": "A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]"
     },
     {
      "id": "fs-idp12451552",
@@ -868,31 +868,31 @@
      "id": "fs-idp5612992",
      "problem": "State the null and alternative hypotheses.",
      "solution": "H0: μd ≥ 0\n\nHa: μd < 0",
-     "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
+     "context": "A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
     },
     {
      "id": "fs-idm60519136",
      "problem": "What is the test statistic?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
+     "context": "A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
     },
     {
      "id": "fs-idp69509280",
      "problem": "What is the p-value?",
      "solution": "0.0699",
-     "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
+     "context": "A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
     },
     {
      "id": "fs-idp22543728",
      "problem": "What is the sample mean difference?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
+     "context": "A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
     },
     {
      "id": "fs-idm55198624",
      "problem": "What is the conclusion?",
      "solution": "We decline to reject the null hypothesis. There is not sufficient evidence to support that the medication is effective.",
-     "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
+     "context": "A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]"
     }
    ],
    "homework": [
@@ -912,7 +912,7 @@
       "H0: pt = put and Ha: pt < put"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
+     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
     },
     {
      "id": "element-198",
@@ -925,7 +925,7 @@
       "There is insufficient evidence to conclude that the method reduces the proportion of patients who develop heart disease after four years."
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises. A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
+     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
     },
     {
      "id": "element-38",
@@ -938,7 +938,7 @@
       "N(−10.2, 8.4/(√(6)))"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training."
+     "context": "An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training."
     },
     {
      "id": "element-954",
@@ -951,7 +951,7 @@
       "0.0155; There is sufficient evidence to conclude that the blood pressure increased after the training."
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises. An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training."
+     "context": "An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training."
     },
     {
      "id": "element-841",
@@ -979,61 +979,61 @@
      "id": "fs-idm69867264",
      "problem": "A powder diet is tested on 49 people, and a liquid diet is tested on 36 different people. The population standard deviations are two pounds and three pounds, respectively. Of interest is whether the liquid diet yields a higher mean weight loss than the powder diet.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm89593504",
      "problem": "A new chocolate bar is taste-tested on consumers. Of interest is whether the proportion of children who like the new chocolate bar is greater than the proportion of adults who like it.",
      "solution": "e",
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm66474352",
      "problem": "The mean number of English courses taken in a two–year time period by men and women college students is believed to be about the same. An experiment is conducted and data are collected from nine males and 16 females.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm53146784",
      "problem": "A football league reported that the mean number of touchdowns per game was five. A study is done to determine if the mean number of touchdowns has decreased.",
      "solution": "d",
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm118453520",
      "problem": "A study is done to determine if students in the California state university system take longer to graduate than students enrolled in private universities. One hundred students from both the California state university system and private universities are surveyed. From years of research, it is known that the population standard deviations are 1.5811 years and one year, respectively.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idp12095488",
      "problem": "According to a YWCA Rape Crisis Center newsletter, 75% of rape victims know their attackers. A study is done to verify this.",
      "solution": "f",
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm63898096",
      "problem": "According to a recent study, U.S. companies have a mean maternity-leave of six weeks.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm45776544",
      "problem": "A recent drug survey showed an increase in use of drugs and alcohol among local high school students as compared to the national percent. Suppose that a survey of 100 local youths and 100 national youths is conducted to see if the proportion of drug and alcohol use is higher locally than nationally.",
      "solution": "e",
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm129031904",
      "problem": "A new SAT study course is tested on 12 individuals. Pre-course and post-course scores are recorded. Of interest is the mean increase in SAT scores. The following data are collected:\n\n[TABLE]\nPre-course score | Post-course score\n1 | 300\n960 | 920\n1010 | 1100\n840 | 880\n1100 | 1070\n1250 | 1320\n860 | 860\n1330 | 1370\n790 | 770\n990 | 1040\n1110 | 1200\n740 | 850\n[/TABLE]",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "fs-idm28383952",
      "problem": "University of Michigan researchers reported in the Journal of the National Cancer Institute that quitting smoking is especially beneficial for those under age 49. In this American Cancer Society study, the risk (probability) of dying of lung cancer was about the same as for those who had never smoked.",
      "solution": "f",
-     "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
+     "context": "indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]"
     },
     {
      "id": "eip-787",

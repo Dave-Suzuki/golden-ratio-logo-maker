@@ -280,13 +280,13 @@
      "id": "fs-idm143086848",
      "problem": "Define the random variable X in words. X = _______________.",
      "solution": "The lifetime of a wearable fitness device measured in years.",
-     "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
+     "context": "The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
     },
     {
      "id": "fs-idm119601152",
      "problem": "X ~ _____(_____,_____)",
      "solution": "X ~ N(4.1, 1.3)",
-     "context": "Use the following information to answer the next two exercises: The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
+     "context": "The life of wearable fitness devices is normally distributed with mean of 4.1 years and a standard deviation of 1.3 years. A wearable fitness device is guaranteed for three years. We are interested in the length of time a wearable fitness device lasts."
     }
    ],
    "homework": [
@@ -301,7 +301,7 @@
       "2.1"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+     "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
     },
     {
      "id": "fs-idp45221936",
@@ -314,7 +314,7 @@
       "7.3"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+     "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
     },
     {
      "id": "fs-idm62385744",
@@ -471,25 +471,25 @@
      "id": "fs-idp83610000",
      "problem": "Find the probability that x > 56.",
      "solution": "0.4013",
-     "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)"
+     "context": "X ~ N(54, 8)"
     },
     {
      "id": "fs-idp105059184",
      "problem": "Find the probability that x < 30.",
      "solution": "0.0013",
-     "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)"
+     "context": "X ~ N(54, 8)"
     },
     {
      "id": "fs-idp153118944",
      "problem": "Find the 80th percentile.",
      "solution": "60.73",
-     "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)"
+     "context": "X ~ N(54, 8)"
     },
     {
      "id": "fs-idp49095264",
      "problem": "Find the 60th percentile.",
      "solution": "56.03",
-     "context": "Use the following information to answer the next four exercises:\n\nX ~ N(54, 8)"
+     "context": "X ~ N(54, 8)"
     },
     {
      "id": "fs-idp65259648",
@@ -534,7 +534,7 @@
       "0.9420"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+     "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
     },
     {
      "id": "eip-318",
@@ -547,7 +547,7 @@
       "4.32"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises: The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
+     "context": "The patient recovery time from a particular surgical procedure is normally distributed with a mean of 5.3 days and a standard deviation of 2.1 days."
     },
     {
      "id": "eip-486",
@@ -559,7 +559,7 @@
       "Unable to determine"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+     "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
     },
     {
      "id": "eip-231",
@@ -572,7 +572,7 @@
       "0.0668"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+     "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
     },
     {
      "id": "eip-295",
@@ -585,7 +585,7 @@
       "6.05"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next three exercises: The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
+     "context": "The length of time it takes to find a parking space at 9 A.M. follows a normal distribution with a mean of five minutes and a standard deviation of two minutes."
     },
     {
      "id": "eip-581",

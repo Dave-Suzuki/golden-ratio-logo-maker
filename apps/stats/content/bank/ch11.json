@@ -171,7 +171,7 @@
    "module": "m47064",
    "exerciseId": "eip-760"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -194,7 +194,7 @@
    "module": "m47064",
    "exerciseId": "eip-462"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "answer": 2.04,
   "tolerance": {
    "abs": 0.006,
@@ -217,7 +217,7 @@
    "module": "m47064",
    "exerciseId": "eip-873"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "modelSolution": "We decline to reject the null hypothesis. There is not enough evidence to suggest that the observed test scores are significantly different from the expected test scores.",
   "needsFigure": false,
   "explanation": []
@@ -233,7 +233,7 @@
    "module": "m47064",
    "exerciseId": "element-806"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "H0: the distribution of COVID-19 cases follows the ethnicities of the general population of Santa Clara County.",
   "needsFigure": false,
   "explanation": []
@@ -249,7 +249,7 @@
    "module": "m47064",
    "exerciseId": "element-502"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "right-tailed",
   "needsFigure": false,
   "explanation": []
@@ -265,7 +265,7 @@
    "module": "m47064",
    "exerciseId": "element-575"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "answer": 2016.136,
   "tolerance": {
    "abs": 0.005,
@@ -288,7 +288,7 @@
    "module": "m47064",
    "exerciseId": "fs-idp52863376"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "Graph: Answers may vary.\n\nDecision: Reject the null hypothesis.\n\nReason for the Decision: p-value < alpha\n\nConclusion (write out in complete sentences): The make-up of COVID-19 cases does not fit the ethnicities of the general population of Santa Clara County.",
   "needsFigure": true,
   "explanation": []
@@ -319,7 +319,7 @@
    "module": "m47064",
    "exerciseId": "element-849"
   },
-  "context": "Use the following information to answer the next two exercises: The columns in the table below contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]",
+  "context": "The columns in the table below contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]",
   "modelSolution": "[PARTS]\na. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject null when a = 0.05 iii. Reason for Decision: p-value < alpha iv. Conclusion: Local data do not fit the mass transit Distribution. v. Decision: Do not reject null when a = 0.01 vi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -335,7 +335,7 @@
    "module": "m47064",
    "exerciseId": "element-465"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for the exercise above and the exercise above. The second column in each table does not add to 100% because of rounding.",
+  "context": "UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for the exercise above and the exercise above. The second column in each table does not add to 100% because of rounding.",
   "modelSolution": "[PARTS]\na. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Do not reject null when a = 0.05 anda = 0.01 iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -489,7 +489,7 @@
    "module": "m47077",
    "exerciseId": "eip-304"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 8.0,
   "tolerance": {
    "abs": 0.05,
@@ -512,7 +512,7 @@
    "module": "m47077",
    "exerciseId": "eip-870"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 6.6,
   "tolerance": {
    "abs": 0.06,
@@ -535,7 +535,7 @@
    "module": "m47077",
    "exerciseId": "eip-811"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 0.0435,
   "tolerance": {
    "abs": 0.005,
@@ -558,7 +558,7 @@
    "module": "m47077",
    "exerciseId": "fs-idm12518016"
   },
-  "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
   "modelSolution": "[TABLE]\nSmoking Level Per Day | Black | Native Hawaiian | Hispanic/Latino | Japanese | White | Totals\n1-10 | 9,886 | 2,745 | 12,831 | 8,378 | 7,650 | 41,490\n11-20 | 6,514 | 3,062 | 4,932 | 10,680 | 9,877 | 35,065\n21-30 | 1,671 | 1,419 | 1,406 | 4,715 | 6,062 | 15,273\n31+ | 759 | 788 | 800 | 2,305 | 3,970 | 8,622\nTotals | 18,830 | 8,014 | 19,969 | 26,078 | 27,559 | 10,0450\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -574,7 +574,7 @@
    "module": "m47077",
    "exerciseId": "fs-idp153986240"
   },
-  "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
   "modelSolution": "[TABLE]\nSmoking Level Per Day | Black | Native Hawaiian | Hispanic/Latino | Japanese | White\n1-10 | 7777.57 | 3310.11 | 8248.02 | 10771.29 | 11383.01\n11-20 | 6573.16 | 2797.52 | 6970.76 | 9103.29 | 9620.27\n21-30 | 2863.02 | 1218.49 | 3036.20 | 3965.05 | 4190.23\n31+ | 1616.25 | 687.87 | 1714.01 | 2238.37 | 2365.49\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -590,7 +590,7 @@
    "module": "m47077",
    "exerciseId": "element-607"
   },
-  "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
   "answer": 10301.8,
   "tolerance": {
    "abs": 0.06,
@@ -613,7 +613,7 @@
    "module": "m47077",
    "exerciseId": "element-526"
   },
-  "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.",
   "modelSolution": "right",
   "needsFigure": false,
   "explanation": []
@@ -826,7 +826,7 @@
    "module": "m47091",
    "exerciseId": "eip-735"
   },
-  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
+  "context": "Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -849,7 +849,7 @@
    "module": "m47091",
    "exerciseId": "eip-696"
   },
-  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
+  "context": "Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
   "answer": 5e-05,
   "tolerance": {
    "abs": 0.005,
@@ -1024,7 +1024,7 @@
    "module": "m47085",
    "exerciseId": "eip-432"
   },
-  "context": "Use the following information to answer the next three exercises: An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less.",
+  "context": "An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less.",
   "modelSolution": "a test of a single variance",
   "needsFigure": false,
   "explanation": []
@@ -1040,7 +1040,7 @@
    "module": "m47085",
    "exerciseId": "eip-356"
   },
-  "context": "Use the following information to answer the next three exercises: An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less.",
+  "context": "An archer’s standard deviation for hits is six (data is measured in distance from the center of the target). An observer claims the standard deviation is less.",
   "modelSolution": "a left-tailed test",
   "needsFigure": false,
   "explanation": []
@@ -1056,7 +1056,7 @@
    "module": "m47085",
    "exerciseId": "eip-631"
   },
-  "context": "Use the following information to answer the next three exercises: The standard deviation of heights for students in a school is 0.81. A random sample of 50 students is taken, and the standard deviation of heights of the sample is 0.96. A researcher in charge of the study believes the standard deviation of heights for the school is greater than 0.81.",
+  "context": "The standard deviation of heights for students in a school is 0.81. A random sample of 50 students is taken, and the standard deviation of heights of the sample is 0.96. A researcher in charge of the study believes the standard deviation of heights for the school is greater than 0.81.",
   "modelSolution": "H0: σ2 = 0.812;\n\nHa: σ2 > 0.812",
   "needsFigure": false,
   "explanation": []
@@ -1072,7 +1072,7 @@
    "module": "m47085",
    "exerciseId": "eip-608"
   },
-  "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought.",
+  "context": "The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought.",
   "modelSolution": "a test of a single variance",
   "needsFigure": false,
   "explanation": []
@@ -1088,7 +1088,7 @@
    "module": "m47085",
    "exerciseId": "eip-462"
   },
-  "context": "Use the following information to answer the next four exercises: The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought.",
+  "context": "The average waiting time in a doctor’s office varies. The standard deviation of waiting times in a doctor’s office is 3.4 minutes. A random sample of 30 patients in the doctor’s office has a standard deviation of waiting times of 4.1 minutes. One doctor believes the variance of waiting times is greater than originally thought.",
   "answer": 0.0542,
   "tolerance": {
    "abs": 0.005,
@@ -1111,7 +1111,7 @@
    "module": "m47085",
    "exerciseId": "fs-idm21799472"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "answer": 225.0,
   "tolerance": {
    "abs": 0.05,
@@ -1134,7 +1134,7 @@
    "module": "m47085",
    "exerciseId": "fs-idm22555680"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "modelSolution": "H0: σ2 ≤ 150",
   "needsFigure": false,
   "explanation": []
@@ -1150,7 +1150,7 @@
    "module": "m47085",
    "exerciseId": "fs-idm22718256"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "answer": 36.0,
   "tolerance": {
    "abs": 0.05,
@@ -1173,7 +1173,7 @@
    "module": "m47085",
    "exerciseId": "fs-idp82699488"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "modelSolution": "Answers may vary.",
   "needsFigure": false,
   "explanation": []
@@ -1189,7 +1189,7 @@
    "module": "m47085",
    "exerciseId": "eip-572"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "modelSolution": "The claim is that the variance is no more than 150 minutes.",
   "needsFigure": false,
   "explanation": []
@@ -1205,7 +1205,7 @@
    "module": "m47085",
    "exerciseId": "eip-512"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
+  "context": "Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.",
   "modelSolution": "a Student's t- or normal distribution",
   "needsFigure": false,
   "explanation": []
@@ -1296,7 +1296,7 @@
    "test": "Practice Test 3",
    "n": 73
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
+  "context": "Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "Enrolled = 200(0.66) = 132. Not enrolled = 200(0.34) = 68",
   "needsFigure": false,
   "explanation": []
@@ -1312,7 +1312,7 @@
    "test": "Practice Test 3",
    "n": 74
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
+  "context": "Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | 132 | 145 – 132 = 13 | 169 | 169/132=1.280\nNot enrolled | 55 | 68 | 55 – 68 = –13 | 169 | 169/68=2.485\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1328,7 +1328,7 @@
    "test": "Practice Test 3",
    "n": 75
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
+  "context": "Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "df = n – 1 = 2 – 1 = 1.",
   "needsFigure": false,
   "explanation": []
@@ -1344,7 +1344,7 @@
    "test": "Practice Test 3",
    "n": 76
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
+  "context": "Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "Using the calculator function Chi-square GOF – Test (in STAT TESTS), the test statistic is 3.7656 and the p-value is 0.0523. Do not reject the null hypothesis. At the 5% significance level, there is insufficient evidence to conclude that high school most recent graduating class distribution of enrolled and not enrolled does not fit that of the national distribution.",
   "needsFigure": false,
   "explanation": []
@@ -1390,7 +1390,7 @@
    "test": "Practice Test 3",
    "n": 79
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
+  "context": "You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Cell = Yes | Cell = No | Total\nFirst-year | (250(300))/500=150 | (250(200))/500=100 | 250\nSenior | (250(300))/500=150 | (250(200))/500=100 | 250\nTotal | 300 | 200 | 500\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1406,7 +1406,7 @@
    "test": "Practice Test 3",
    "n": 80
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
+  "context": "You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "((100−150)^2)/150=16.67\n\n((150−100)^2)/100=25\n\n((200−100)^2)/150=16.67\n\n((50−100)^2)/100=25",
   "needsFigure": false,
   "explanation": []
@@ -1422,7 +1422,7 @@
    "test": "Practice Test 3",
    "n": 81
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
+  "context": "You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "Chi-square = 16.67 + 25 + 16.67 + 25 = 83.34.\ndf = (r – 1)(c – 1) = 1",
   "needsFigure": false,
   "explanation": []
@@ -1438,7 +1438,7 @@
    "test": "Practice Test 3",
    "n": 82
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
+  "context": "You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "p-value = P(Chi-square, 83.34) = 0\nReject the null hypothesis.\nYou could also use the calculator function STAT TESTS Chi-Square – Test.",
   "needsFigure": false,
   "explanation": []

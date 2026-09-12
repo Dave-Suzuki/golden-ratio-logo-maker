@@ -59,31 +59,31 @@
      "id": "exerciseone",
      "problem": "Determine what “population” refers to in the example for Researcher A.",
      "solution": "Patients with the virus",
-     "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
     },
     {
      "id": "exercisetwo",
      "problem": "Determine what “sample” refers to in the example for Researcher A.",
      "solution": "AIDS patients sampled from researcher A and researcher B.",
-     "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
     },
     {
      "id": "exercisethree",
      "problem": "Determine what “parameter” refers to in the example for Researcher A.",
      "solution": "The average length of time (in months) patients with the virus live after treatment.",
-     "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
     },
     {
      "id": "exercisefour",
      "problem": "Determine what “statistic” refers to in the example for Researcher A.",
      "solution": "The average length of time (in months) AIDS patients from the sample live after treatment.",
-     "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
     },
     {
      "id": "exercisefive",
      "problem": "Determine what “variable” refers to in the example for Researcher A.",
      "solution": "X = the length of time (in months) patients with the virus live after treatment",
-     "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]"
     }
    ],
    "homework": [
@@ -138,7 +138,7 @@
       "all Lake Tahoe Community College math students"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
+     "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
     },
     {
      "id": "element-590",
@@ -151,7 +151,7 @@
       "data."
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
+     "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
     },
     {
      "id": "element-992",
@@ -164,7 +164,7 @@
       "variable."
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
+     "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter."
     }
    ],
    "bring_together": [],
@@ -310,25 +310,25 @@
      "id": "fs-idm67132096",
      "problem": "The sampling method was\n\n[LIST]\na. simple random\nb. systematic\nc. stratified\nd. cluster\n[/LIST]",
      "solution": "b",
-     "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
     },
     {
      "id": "fs-idm13982640",
      "problem": "“Duration (amount of time)” is what type of data?\n\n[LIST]\na. qualitative (categorical)\nb. quantitative discrete\nc. quantitative continuous\n[/LIST]",
      "solution": "c",
-     "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
     },
     {
      "id": "fs-idm63417136",
      "problem": "The colors of the houses around the park are what kind of data?\n\n[LIST]\na. qualitative (categorical)\nb. quantitative discrete\nc. quantitative continuous\n[/LIST]",
      "solution": "a",
-     "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
     },
     {
      "id": "fs-idm77797872",
      "problem": "The population is ______________________",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed."
     },
     {
      "id": "fs-idp31767488",
@@ -359,43 +359,43 @@
      "id": "eip-641",
      "problem": "Complete the tables using the data provided:\n\n[TABLE]\nSurvival Length (in days) | Frequency | Relative Frequency | Cumulative Relative Frequency\n0.5–6.5 | | |\n6.5–12.5 | | |\n12.5–18.5 | | |\n18.5–24.5 | | |\n24.5–30.5 | | |\n30.5–36.5 | | |\n36.5–42.5 | | |\n42.5–48.5 | | |\n[/TABLE]\n\n[TABLE]\nSurvival Length (in days) | Frequency | Relative Frequency | Cumulative Relative Frequency\n0.5–6.5 | | |\n6.5–12.5 | | |\n12.5–18.5 | | |\n18.5–24.5 | | |\n24.5–30.5 | | |\n30.5–36.5 | | |\n36.5-45.5 | | |\n[/TABLE]",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-885",
      "problem": "Determine what the key term data refers to in the above example for Researcher A.",
      "solution": "values for X, such as 3, 4, 11, and so on",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-812",
      "problem": "List two reasons why the data may differ.",
      "solution": "Answers will vary. Sample answer: One reason may be the average age of the individuals in the two samples. Or, perhaps the drug affects men and women differently. If the ratio of men and women aren't the same in both sample groups, then the data would differ.",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-385",
      "problem": "Can you tell if one researcher is correct and the other one is incorrect? Why?",
      "solution": "No, we do not have enough information to make such a claim.",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-322",
      "problem": "Would you expect the data to be identical? Why or why not?",
      "solution": "Since the treatment is not the same the data might be different unless neither treatment has an effect.",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-471",
      "problem": "Suggest at least two methods the researchers might use to gather random data.",
      "solution": "Take a simple random sample from each group. One way is by assigning a number to each patient and using a random number generator to randomly select patients.",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-581",
      "problem": "Suppose that the first researcher conducted his survey by randomly choosing one state in the nation and then randomly picking 40 patients from that state. What sampling method would that researcher have used?",
      "solution": "He has used a simple random sample method.",
-     "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
+     "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29"
     },
     {
      "id": "eip-183",
@@ -406,61 +406,61 @@
      "id": "eip-695",
      "problem": "Give a reason why the data may differ.",
      "solution": "The researchers are studying different groups, so there will be some variation in the data.",
-     "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
+     "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
     },
     {
      "id": "eip-381",
      "problem": "Would the sample size be large enough if the population is the students in the school?",
      "solution": "Yes, the sample size of 150 would be large enough to reflect a population of one school.",
-     "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
+     "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
     },
     {
      "id": "eip-680",
      "problem": "Would the sample size be large enough if the population is school-aged children and young adults in the United States?",
      "solution": "There are many school-aged children and young adults in the United States, and the study was done at only one school, so the sample size is not large enough to reflect the population.",
-     "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
+     "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
     },
     {
      "id": "eip-162",
      "problem": "Researcher A concludes that most students play video games between four and six hours each week. Researcher B concludes that most students play video games between two and four hours each week. Who is correct?",
      "solution": "Even though the specific data support each researcher’s conclusions, the different results suggest that more data need to be collected before the researchers can reach a conclusion.",
-     "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
+     "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
     },
     {
      "id": "eip-528",
      "problem": "As part of a way to reward students for participating in the survey, the researchers gave each student a gift card to a video game store. Would this affect the data if students knew about the award before the study?",
      "solution": "Yes, people who play games more might be more likely to participate, since they would want the gift card more than a student who does not play video games. This would leave out many students who do not play games at all and skew the data.",
-     "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
+     "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]"
     },
     {
      "id": "eip-370",
      "problem": "Given what you know, which study is correct?",
      "solution": "There is not enough information given to judge if either one is correct or incorrect.",
-     "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
+     "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
     },
     {
      "id": "eip-78",
      "problem": "The first study was performed by the company that designed the software program. The second study was performed by the American Medical Association. Which study is more reliable?",
      "solution": "The second study is more reliable, because the company would be interested in showing results that favored a higher rate of improvement from patients using their software. The data may be skewed; however, the American Medical Association is not concerned with the success of the software and so should be objective.",
-     "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
+     "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
     },
     {
      "id": "eip-297",
      "problem": "Both groups that performed the study concluded that the software works. Is this accurate?",
      "solution": "The software program seems to work because the second study shows that more patients improve while using the software than not. Even though the difference is not as large as that in the first study, the results from the second study are likely more reliable and still show improvement.",
-     "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
+     "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
     },
     {
      "id": "eip-242",
      "problem": "The company takes the two studies as proof that their software causes mental improvement in stroke patients. Is this a fair statement?",
      "solution": "No, the data suggest the two are correlated, but more studies need to be done to prove that using the software causes improvement in stroke patients.",
-     "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
+     "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
     },
     {
      "id": "eip-668",
      "problem": "Patients who used the software were also a part of an exercise program whereas patients who did not use the software were not. Does this change the validity of the conclusions from the exercise above?",
      "solution": "Yes, because we cannot tell if the improvement was due to the software or the exercise; the data is confounded, and a reliable conclusion cannot be drawn. New studies should be performed.",
-     "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
+     "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]"
     },
     {
      "id": "eip-908",
@@ -491,52 +491,52 @@
    "homework": [
     {
      "id": "element-842",
-     "problem": "number of tickets sold to a concert",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of tickets sold to a concert",
      "solution": "quantitative discrete, 150"
     },
     {
      "id": "eip-869",
-     "problem": "percent of body fat",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\npercent of body fat",
      "solution": "quantitative continuous, 19.2%"
     },
     {
      "id": "eip-146",
-     "problem": "favorite baseball team",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nfavorite baseball team",
      "solution": "qualitative, Oakland A’s"
     },
     {
      "id": "eip-572",
-     "problem": "time in line to buy groceries",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\ntime in line to buy groceries",
      "solution": "quantitative continuous, 7.2 minutes"
     },
     {
      "id": "eip-601",
-     "problem": "number of students enrolled at Evergreen Valley College",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of students enrolled at Evergreen Valley College",
      "solution": "quantitative discrete, 11,234 students"
     },
     {
      "id": "eip-22",
-     "problem": "most-watched television show",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nmost-watched television show",
      "solution": "qualitative, Dancing with the Stars"
     },
     {
      "id": "eip-279",
-     "problem": "brand of toothpaste",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nbrand of toothpaste",
      "solution": "qualitative, Crest"
     },
     {
      "id": "eip-172",
-     "problem": "distance to the closest movie theatre",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\ndistance to the closest movie theatre",
      "solution": "quantitative continuous, 8.32 miles"
     },
     {
      "id": "eip-418",
-     "problem": "age of executives in Fortune 500 companies",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nage of executives in Fortune 500 companies",
      "solution": "quantitative continuous, 47.3 years"
     },
     {
      "id": "eip-865",
-     "problem": "number of competing computer spreadsheet software packages",
+     "problem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of competing computer spreadsheet software packages",
      "solution": "quantitative discrete, three"
     },
     {
@@ -549,7 +549,7 @@
       "quantitative continuous"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed."
     },
     {
      "id": "fs-idm58778016",
@@ -561,7 +561,7 @@
       "quantitative continuous"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed."
+     "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed."
     },
     {
      "id": "eip-772",
@@ -815,7 +815,7 @@
       "Not enough information to calculate"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]"
+     "context": "the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]"
     },
     {
      "id": "element-627",
@@ -828,7 +828,7 @@
       "0.3370"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]"
+     "context": "the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]"
     }
    ],
    "bring_together": [],

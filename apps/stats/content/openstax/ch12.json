@@ -59,31 +59,31 @@
      "id": "eip-510",
      "problem": "What are the dependent and independent variables?",
      "solution": "dependent variable: fee amount; independent variable: time",
-     "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
+     "context": "A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
     },
     {
      "id": "eip-683",
      "problem": "Find the equation that expresses the total fee in terms of the number of hours the equipment is rented.",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
+     "context": "A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
     },
     {
      "id": "eip-325",
      "problem": "Graph the equation from the exercise above.",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
+     "context": "A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour."
     },
     {
      "id": "eip-23",
      "problem": "Find the equation that expresses the total fee in terms of the number of days the payment is late.",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid."
+     "context": "A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid."
     },
     {
      "id": "eip-22",
      "problem": "Graph the equation from the exercise above.",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid."
+     "context": "A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid."
     },
     {
      "id": "eip-337",
@@ -109,43 +109,43 @@
      "id": "eip-177",
      "problem": "What are the independent and dependent variables?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x."
+     "context": "A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x."
     },
     {
      "id": "eip-188",
      "problem": "What is the y-intercept and what is the slope? Interpret them using complete sentences.",
      "solution": "The y-intercept is 50 (a = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when x = 0). The slope is 100 (b = 100). For each session, the company charges $100 for each hour they clean.",
-     "context": "Use the following information to answer the next two exercises. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x."
+     "context": "A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x."
     },
     {
      "id": "eip-364",
      "problem": "What are the independent and dependent variables?",
      "solution": null,
-     "context": "Use the following information to answer the next three questions. Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
+     "context": "Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
     },
     {
      "id": "eip-160",
      "problem": "How many pounds of soil does the shoreline lose in a year?",
      "solution": "12,000 pounds of soil",
-     "context": "Use the following information to answer the next three questions. Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
+     "context": "Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
     },
     {
      "id": "eip-67",
      "problem": "What is the y-intercept? Interpret its meaning.",
      "solution": null,
-     "context": "Use the following information to answer the next three questions. Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
+     "context": "Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x."
     },
     {
      "id": "eip-761",
      "problem": "What are the slope and y-intercept? Interpret their meaning.",
      "solution": "The slope is –1.5 (b = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The y-intercept is $15 (a = 15). This means the price of stock before the trading day was $15.",
-     "context": "Use the following information to answer the next two exercises. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading."
+     "context": "The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading."
     },
     {
      "id": "eip-227",
      "problem": "If you owned this stock, would you want a positive or negative slope? Why?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading."
+     "context": "The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading."
     }
    ],
    "homework": [
@@ -253,31 +253,31 @@
      "id": "eip-405",
      "problem": "Draw a scatter plot of the data.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
+     "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
     },
     {
      "id": "eip-141",
      "problem": "Use regression to find the equation for the line of best fit.",
      "solution": "ŷ = 2.23 + 1.99x",
-     "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
+     "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
     },
     {
      "id": "eip-88",
      "problem": "Draw the line of best fit on the scatter plot.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
+     "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
     },
     {
      "id": "eip-247",
      "problem": "What is the slope of the line of best fit? What does it represent?",
      "solution": "The slope is 1.99 (b = 1.99). It means that for every endorsement deal a professional player gets, he gets an average of another $1.99 million in pay each year.",
-     "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
+     "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
     },
     {
      "id": "eip-723",
      "problem": "What is the y-intercept of the line of best fit? What does it represent?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
+     "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]"
     },
     {
      "id": "eip-976",
@@ -403,31 +403,31 @@
      "id": "eip-673",
      "problem": "What would you predict the sales to be on day 60?",
      "solution": "$250,120",
-     "context": "Use the following information to answer the next two exercises. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars."
+     "context": "An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars."
     },
     {
      "id": "eip-439",
      "problem": "What would you predict the sales to be on day 90?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars."
+     "context": "An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars."
     },
     {
      "id": "eip-584",
      "problem": "How many acres will be left to mow after 20 hours of work?",
      "solution": "1,326 acres",
-     "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
+     "context": "A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
     },
     {
      "id": "eip-309",
      "problem": "How many acres will be left to mow after 100 hours of work?",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
+     "context": "A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
     },
     {
      "id": "eip-159",
      "problem": "How many hours will it take to mow all of the lawns? (When is ŷ = 0?)",
      "solution": "1,125 hours, or when x = 1,125",
-     "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
+     "context": "A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow."
     },
     {
      "id": "fs-idm41333104",
@@ -575,25 +575,25 @@
      "id": "eip-984",
      "problem": "Do there appear to be any outliers?",
      "solution": "Yes, there appears to be an outlier at (6, 58).",
-     "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
+     "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
     },
     {
      "id": "eip-237",
      "problem": "A point is removed, and the line of best fit is recalculated. The new correlation coefficient is 0.98. Does the point appear to have been an outlier? Why?",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
+     "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
     },
     {
      "id": "eip-430",
      "problem": "What effect did the potential outlier have on the line of best fit?",
      "solution": "The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate as a predictor for the data.",
-     "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
+     "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
     },
     {
      "id": "eip-955",
      "problem": "Are you more or less confident in the predictive ability of the new line of best fit?",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
+     "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]"
     },
     {
      "id": "eip-930",
@@ -653,13 +653,13 @@
      "id": "element-454",
      "problem": "[PARTS]\na. Using “size” as the independent variable and “cost” as the dependent variable, draw a scatter plot.\nb. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nc. Calculate the least-squares line. Put the equation in the form of: ŷ =a +bx\nd. Find the correlation coefficient. Is it significant?\ne. If the laundry detergent were sold in a 40-ounce size, find the estimated cost.\nf. If the laundry detergent were sold in a 90-ounce size, find the estimated cost.\ng. Does it appear that a line is the best way to fit the data? Why or why not?\nh. Are there any outliers in the given data?\ni. Is the least-squares line valid for predicting what a 300-ounce size of the laundry detergent would you cost? Why or why not?\nj. What is the slope of the least-squares (best-fit) line? Interpret the slope.\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]"
+     "context": "The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]"
     },
     {
      "id": "element-952",
      "problem": "[PARTS]\na. Complete the table below for the cost per ounce of the different sizes.\nb. Using “size” as the independent variable and “cost per ounce” as the dependent variable, draw a scatter plot of the data.\nc. Does it appear from inspection that there is a relationship between the variables? Why or why not?\nd. Calculate the least-squares line. Put the equation in the form of: ŷ =a +bx\ne. Find the correlation coefficient. Is it significant?\nf. If the laundry detergent were sold in a 40-ounce size, find the estimated cost per ounce.\ng. If the laundry detergent were sold in a 90-ounce size, find the estimated cost per ounce.\nh. Does it appear that a line is the best way to fit the data? Why or why not?\ni. Are there any outliers in the the data?\nj. Is the least-squares line valid for predicting what a 300-ounce size of the laundry detergent would cost per ounce? Why or why not?\nk. What is the slope of the least-squares (best-fit) line? Interpret the slope.\n[/PARTS]",
      "solution": "[PARTS]\na. [TABLE] Size (ounces) | Cost ($) | cents/oz 16 | 3.99 | 24.94 32 | 4.99 | 15.59 64 | 5.99 | 9.36 200 | 10.99 | 5.50 [/TABLE]\nb. Check student’s solution.\nc. There is a linear relationship for the sizes 16 through 64, but that linear trend does not continue to the 200-oz size.\nd. ŷ = 20.2368 – 0.0819x\ne. r = –0.8086\nf. 40-oz: 16.96 cents/oz\ng. 90-oz: 12.87 cents/oz\nh. The relationship is not linear; the least squares line is not appropriate.\ni. no outliers\nj. No, you would be extrapolating. The 300-oz size is outside the range of x.\nk. slope = –0.08194; for each additional ounce in size, the cost per ounce decreases by 0.082 cents.\n[/PARTS]",
-     "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]"
+     "context": "The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]"
     },
     {
      "id": "element-574",

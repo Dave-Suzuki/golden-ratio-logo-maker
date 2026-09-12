@@ -404,7 +404,7 @@
    "module": "m46924",
    "exerciseId": "fs-idm24292288"
   },
-  "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]",
+  "context": "Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]",
   "options": [
    "21",
    "59",
@@ -691,7 +691,7 @@
    "module": "m46930",
    "exerciseId": "exerciseten"
   },
-  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
   "answer": 4.0,
   "tolerance": {
    "abs": 0.05,
@@ -714,7 +714,7 @@
    "module": "m46930",
    "exerciseId": "exercisetwelve"
   },
-  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
   "modelSolution": "6 – 4 = 2",
   "needsFigure": false,
   "explanation": []
@@ -730,7 +730,7 @@
    "module": "m46930",
    "exerciseId": "exercisefourteen"
   },
-  "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
   "answer": 6.0,
   "tolerance": {
    "abs": 0.05,
@@ -831,7 +831,7 @@
    "module": "m46920",
    "exerciseId": "fs-idm39140224"
   },
-  "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
+  "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars.",
   "modelSolution": "More than 25% of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25% and the bottom 25% are spread out evenly; the whiskers have the same length.",
   "needsFigure": false,
   "explanation": []
@@ -972,7 +972,7 @@
    "module": "m46928",
    "exerciseId": "fs-idp3713376"
   },
-  "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]",
+  "context": "The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]",
   "modelSolution": "Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;\n\n738/27 = 27.33",
   "needsFigure": false,
   "explanation": []
@@ -988,7 +988,7 @@
    "module": "m46928",
    "exerciseId": "fs-idm35941040"
   },
-  "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]",
+  "context": "The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]",
   "modelSolution": "The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27",
   "needsFigure": false,
   "explanation": []
@@ -1004,7 +1004,7 @@
    "module": "m46928",
    "exerciseId": "eip-83"
   },
-  "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:",
+  "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:",
   "answer": 4.0,
   "tolerance": {
    "abs": 0.05,
@@ -1042,7 +1042,7 @@
    "module": "m46928",
    "exerciseId": "element-84"
   },
-  "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
+  "context": "We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
   "modelSolution": "a",
   "needsFigure": false,
   "explanation": []
@@ -1058,7 +1058,7 @@
    "module": "m46928",
    "exerciseId": "element-346"
   },
-  "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
+  "context": "We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]",
   "modelSolution": "b",
   "needsFigure": false,
   "explanation": []
@@ -1090,7 +1090,7 @@
    "module": "m46931",
    "exerciseId": "fs-idm89697712"
   },
-  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "context": "State whether the data are symmetrical, skewed to the left, or skewed to the right.",
   "modelSolution": "The data are symmetrical. The median is 3 and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.",
   "needsFigure": false,
   "explanation": []
@@ -1106,7 +1106,7 @@
    "module": "m46931",
    "exerciseId": "fs-idm65822528"
   },
-  "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right.",
+  "context": "State whether the data are symmetrical, skewed to the left, or skewed to the right.",
   "modelSolution": "The data are skewed right. The median is 87.5 and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.",
   "needsFigure": false,
   "explanation": []
@@ -1290,7 +1290,7 @@
    "module": "m46922",
    "exerciseId": "fs-idm25484256"
   },
-  "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150",
+  "context": "The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150",
   "answer": 34.5,
   "tolerance": {
    "abs": 0.06,
@@ -1343,7 +1343,7 @@
    "module": "m46922",
    "exerciseId": "exercisetwenty"
   },
-  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
+  "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
   "modelSolution": "The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the 6th number in order. Six years will have totals at or above the median.",
   "needsFigure": false,
   "explanation": []
@@ -1359,7 +1359,7 @@
    "module": "m46922",
    "exerciseId": "exercisetwentytwo"
   },
-  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
+  "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
   "answer": 474.0,
   "tolerance": {
    "abs": 0.05,
@@ -1382,7 +1382,7 @@
    "module": "m46922",
    "exerciseId": "exercisetwentyfour"
   },
-  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
+  "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
   "answer": 919.0,
   "tolerance": {
    "abs": 0.05,
@@ -1405,7 +1405,7 @@
    "module": "m46922",
    "exerciseId": "eip-746"
   },
-  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
+  "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
   "modelSolution": "[LIST]\nmean = 1,809.3\nmedian = 1,812.5\nstandard deviation = 151.2\nfirst quartile = 1,690\nthird quartile = 1,935\nIQR = 245\n[/LIST]",
   "needsFigure": false,
   "explanation": []
@@ -1421,7 +1421,7 @@
    "module": "m46922",
    "exerciseId": "eip-975"
   },
-  "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
+  "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]",
   "modelSolution": "Hint: Think about the number of years covered by each time period and what happened to higher education during those periods.",
   "needsFigure": false,
   "explanation": []
@@ -1527,7 +1527,7 @@
    "module": "m46922",
    "exerciseId": "element-867"
   },
-  "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]",
+  "context": "X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]",
   "options": [
    "0.7",
    "4.8",
@@ -1549,7 +1549,7 @@
    "test": "Practice Test 1",
    "n": 27
   },
-  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "context": "The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
   "modelSolution": "The value 740 is an outlier, because the exams were graded on a scale of 0 to 100, and 740 is far outside that range. It may be a data entry error, with the actual score being 74, so the professor should check that exam again to see what the actual score was.",
   "needsFigure": false,
   "explanation": []
@@ -1565,7 +1565,7 @@
    "test": "Practice Test 1",
    "n": 28
   },
-  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "context": "The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
   "modelSolution": "[TABLE]\nStem | Leaf\n6 | 2 4 5 5 8\n7 | 0 2 2 4 5 5 5 6 8 8\n8 | 1 3 3 4 5 7 8\n9 | 2 5 8 8\n10 | 0 0\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1581,7 +1581,7 @@
    "test": "Practice Test 1",
    "n": 29
   },
-  "context": "Use the following information to answer the next four exercises. The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
+  "context": "The midterm grades on a chemistry exam, graded on a scale of 0 to 100, were:\n62, 64, 65, 65, 68, 70, 72, 72, 74, 75, 75, 75, 76,78, 78, 81, 83, 83, 84, 85, 87, 88, 92, 95, 98, 98, 100, 100, 740",
   "modelSolution": "Most scores on this exam were in the range of 70–89, with a few scoring in the 60–69 range, and a few in the 90–100 range.",
   "needsFigure": false,
   "explanation": []
@@ -1612,7 +1612,7 @@
    "test": "Practice Test 1",
    "n": 31
   },
-  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "context": "You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
   "modelSolution": "The range will be 0.5–1.5, and the central point will be 1.",
   "needsFigure": false,
   "explanation": []
@@ -1628,7 +1628,7 @@
    "test": "Practice Test 1",
    "n": 32
   },
-  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "context": "You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
   "modelSolution": "Range 1.5–2.5, central point 2; range 2.5–3.5, central point 3; range 3.5–4.5, central point 4; range 4.5–5.5., central point 5.",
   "needsFigure": false,
   "explanation": []
@@ -1644,7 +1644,7 @@
    "test": "Practice Test 1",
    "n": 33
   },
-  "context": "Use the following information to answer the next three exercises. You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
+  "context": "You conduct a poll of 30 students to see how many classes they are taking this term. Your results are:\n1; 1; 1; 1\n2; 2; 2; 2; 2\n3; 3; 3; 3; 3; 3; 3; 3\n4; 4; 4; 4; 4; 4; 4; 4; 4\n5; 5; 5; 5",
   "modelSolution": "The bar from 3.5 to 4.5, with a central point of 4, will be tallest; its height will be nine, because there are nine students taking four courses.",
   "needsFigure": false,
   "explanation": []
@@ -1720,7 +1720,7 @@
    "test": "Practice Test 1",
    "n": 38
   },
-  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "context": "1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
   "answer": 5.0,
   "tolerance": {
    "abs": 0.05,
@@ -1743,7 +1743,7 @@
    "test": "Practice Test 1",
    "n": 39
   },
-  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "context": "1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -1766,7 +1766,7 @@
    "test": "Practice Test 1",
    "n": 40
   },
-  "context": "Use the following information to answer the next three exercises. 1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
+  "context": "1; 1; 2; 3; 4; 4; 5; 5; 6; 7; 7; 8; 9",
   "answer": 7.0,
   "tolerance": {
    "abs": 0.05,
@@ -1789,7 +1789,7 @@
    "test": "Practice Test 1",
    "n": 41
   },
-  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
+  "context": "This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
   "modelSolution": "The median is 86, as represented by the vertical line in the box.",
   "needsFigure": true,
   "explanation": []
@@ -1805,7 +1805,7 @@
    "test": "Practice Test 1",
    "n": 42
   },
-  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
+  "context": "This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
   "modelSolution": "The first quartile is 80, and the third quartile is 92, as represented by the left and right boundaries of the box.",
   "needsFigure": true,
   "explanation": []
@@ -1821,7 +1821,7 @@
    "test": "Practice Test 1",
    "n": 43
   },
-  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
+  "context": "This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
   "modelSolution": "IQR = 92 – 80 = 12",
   "needsFigure": true,
   "explanation": []
@@ -1837,7 +1837,7 @@
    "test": "Practice Test 1",
    "n": 44
   },
-  "context": "Use the following information to answer the next four exercises. This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
+  "context": "This box plot represents scores on the final exam for a physics class.\n\n[FIGURE]",
   "modelSolution": "Range = 100 – 75 = 25",
   "needsFigure": true,
   "explanation": []
@@ -1868,7 +1868,7 @@
    "test": "Practice Test 1",
    "n": 46
   },
-  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "context": "The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
   "modelSolution": "61.5, or $61,500",
   "needsFigure": false,
   "explanation": []
@@ -1884,7 +1884,7 @@
    "test": "Practice Test 1",
    "n": 47
   },
-  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "context": "The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
   "modelSolution": "49.25 or $49,250",
   "needsFigure": false,
   "explanation": []
@@ -1900,7 +1900,7 @@
    "test": "Practice Test 1",
    "n": 48
   },
-  "context": "Use the following information to answer the next three exercises. The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
+  "context": "The value, in thousands of dollars, for houses on a block, are: 45; 47; 47.5; 51; 53.5; 125.",
   "modelSolution": "The median, because the mean is distorted by the high value of one house.",
   "needsFigure": false,
   "explanation": []
@@ -1971,7 +1971,7 @@
    "test": "Practice Test 1",
    "n": 52
   },
-  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "context": "10; 11; 15; 15; 17; 22",
   "modelSolution": "Mean: 15\nStandard deviation: 4.3\n\nμ=(10+11+15+15+17+22)/6=15\n\ns=√((∑(x−x̄)^2)/n−1)=√(94/5)=4.3",
   "needsFigure": false,
   "explanation": []
@@ -1987,7 +1987,7 @@
    "test": "Practice Test 1",
    "n": 53
   },
-  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "context": "10; 11; 15; 15; 17; 22",
   "modelSolution": "15 + (2)(4.3) = 23.6",
   "needsFigure": false,
   "explanation": []
@@ -2003,7 +2003,7 @@
    "test": "Practice Test 1",
    "n": 54
   },
-  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "context": "10; 11; 15; 15; 17; 22",
   "modelSolution": "13.7 is one standard deviation below the mean of this data, because 15 – 4.3 = 10.7",
   "needsFigure": false,
   "explanation": []
@@ -2019,7 +2019,7 @@
    "test": "Practice Test 1",
    "n": 55
   },
-  "context": "Use the following information to answer the next four exercises. 10; 11; 15; 15; 17; 22",
+  "context": "10; 11; 15; 15; 17; 22",
   "modelSolution": "z=95−85/5=2.0\n\nSusan’s z-score was 2.0, meaning she scored two standard deviations above the class mean for the final exam.",
   "needsFigure": false,
   "explanation": []
@@ -2113,7 +2113,7 @@
    "test": "Chapter 3",
    "n": 7
   },
-  "context": "Use the following information to answer the next two exercises: Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)\n\n[TABLE]\nWeight Gain | Frequency\n–2 | 3\n–1 | 5\n0 | 2\n1 | 4\n4 | 13\n6 | 2\n11 | 1\n[/TABLE]",
+  "context": "Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)\n\n[TABLE]\nWeight Gain | Frequency\n–2 | 3\n–1 | 5\n0 | 2\n1 | 4\n4 | 13\n6 | 2\n11 | 1\n[/TABLE]",
   "modelSolution": "[PARTS]\na. 2.27\nb. 3.04\nc. –1, 4, 4\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2129,7 +2129,7 @@
    "test": "Chapter 3",
    "n": 8
   },
-  "context": "Use the following information to answer the next two exercises: Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)\n\n[TABLE]\nWeight Gain | Frequency\n–2 | 3\n–1 | 5\n0 | 2\n1 | 4\n4 | 13\n6 | 2\n11 | 1\n[/TABLE]",
+  "context": "Thirty people spent two weeks around Mardi Gras in New Orleans. Their two-week weight gain is below. (Note: a loss is shown by a negative weight gain.)\n\n[TABLE]\nWeight Gain | Frequency\n–2 | 3\n–1 | 5\n0 | 2\n1 | 4\n4 | 13\n6 | 2\n11 | 1\n[/TABLE]",
   "modelSolution": "Answers will vary.",
   "needsFigure": false,
   "explanation": []
@@ -2241,7 +2241,7 @@
    "test": "Chapter 6",
    "n": 41
   },
-  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "context": "X ~ U(3, 13)",
   "modelSolution": "[PARTS]\na. true\nb. true\nc. False – the median and the mean are the same for this symmetric distribution.\nd. true\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2257,7 +2257,7 @@
    "test": "Chapter 6",
    "n": 42
   },
-  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
+  "context": "X ~ U(3, 13)",
   "modelSolution": "[PARTS]\na. 8\nb. 8\nc. P(x <k) = 0.65 = (k – 3)(1/10).k = 9.5\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2288,7 +2288,7 @@
    "test": "Chapter 8",
    "n": 58
   },
-  "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
+  "context": "Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
   "answer": 12.99,
   "tolerance": {
    "abs": 0.006,
@@ -2311,7 +2311,7 @@
    "test": "Chapter 8",
    "n": 69
   },
-  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "context": "Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
   "options": [
    "50",
    "250",
@@ -2369,7 +2369,7 @@
    "test": "Chapter 10",
    "n": 94
   },
-  "context": "Use the following information to answer the next three exercises: A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
+  "context": "A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
   "modelSolution": "N(2, 0.25/(√(16)))",
   "needsFigure": false,
   "explanation": []
@@ -2400,7 +2400,7 @@
    "test": "Chapter 11",
    "n": 117
   },
-  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:\n\n[FIGURE]",
+  "context": "A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:\n\n[FIGURE]",
   "modelSolution": "Sample mean = 3.2\n\nSample standard deviation = 1.85\n\nMedian = 3\n\nQ1 = 2\n\nQ3 = 5\n\nIQR = 3",
   "needsFigure": true,
   "explanation": []

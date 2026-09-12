@@ -604,7 +604,7 @@
    "module": "m47044",
    "exerciseId": "eip-714"
   },
-  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "context": "Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
   "modelSolution": "means",
   "needsFigure": false,
   "explanation": []
@@ -620,7 +620,7 @@
    "module": "m47044",
    "exerciseId": "element-126"
   },
-  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "context": "Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
   "modelSolution": "the mean time spent in jail for 26 first time convicted burglars",
   "needsFigure": false,
   "explanation": []
@@ -636,7 +636,7 @@
    "module": "m47044",
    "exerciseId": "element-877"
   },
-  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "context": "Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
   "modelSolution": "[DATA]3, 1.5, 1.8, 26[/DATA]",
   "needsFigure": false,
   "explanation": []
@@ -652,7 +652,7 @@
    "module": "m47044",
    "exerciseId": "element-121"
   },
-  "context": "Use the following information to answer the next seven exercises: Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
+  "context": "Suppose that a recent article stated that the mean time spent in jail by a first-time convicted burglar is 2.5 years. A study was then done to see if the mean time has increased in the new century. A random sample of 26 first-time convicted burglars in a recent year was picked. The mean length of time in jail from the survey was three years with a standard deviation of 1.8 years. Suppose that it is somehow known that the population standard deviation is 1.5. Conduct a hypothesis test to determine if the mean length of jail time has increased. Assume the distribution of the jail times is approximately normal.",
   "modelSolution": "X̄~N(2.5,1.5/(√(26)))",
   "needsFigure": false,
   "explanation": []
@@ -1586,7 +1586,7 @@
    "test": "Practice Test 3",
    "n": 42
   },
-  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "context": "According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
   "modelSolution": "H0: μ ≥ 29.0”\nHa: μ < 29.0”",
   "needsFigure": false,
   "explanation": []
@@ -1602,7 +1602,7 @@
    "test": "Practice Test 3",
    "n": 43
   },
-  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "context": "According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
   "modelSolution": "t19. Because you do not know the population standard deviation, use the t-distribution. The degrees of freedom are 19, because df = n – 1.",
   "needsFigure": false,
   "explanation": []
@@ -1618,7 +1618,7 @@
    "test": "Practice Test 3",
    "n": 44
   },
-  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "context": "According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
   "modelSolution": "The test statistic is –4.4721 and the p-value is 0.00013 using the calculator function TTEST.",
   "needsFigure": false,
   "explanation": []
@@ -1634,7 +1634,7 @@
    "test": "Practice Test 3",
    "n": 45
   },
-  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "context": "According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
   "modelSolution": "With α = 0.05, reject the null hypothesis.",
   "needsFigure": false,
   "explanation": []
@@ -1650,7 +1650,7 @@
    "test": "Practice Test 3",
    "n": 46
   },
-  "context": "Use the following information to answer the next five exercises. According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
+  "context": "According to the World Health Organization, the average height of a one-year-old child is 29”. You believe children with a particular disease are smaller than average, so you draw a sample of 20 children with this disease and find a mean height of 27.5” and a sample standard deviation of 1.5”.",
   "modelSolution": "With α = 0.05, the p-value is almost zero using the calculator function TTEST so reject the null hypothesis.",
   "needsFigure": false,
   "explanation": []
@@ -1711,7 +1711,7 @@
    "test": "Practice Test 3",
    "n": 50
   },
-  "context": "Use the following information to answer the next three exercises. Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
+  "context": "Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
   "modelSolution": "H0: p = 0.8\nHa: p ≠ 0.8",
   "needsFigure": false,
   "explanation": []
@@ -1727,7 +1727,7 @@
    "test": "Practice Test 3",
    "n": 51
   },
-  "context": "Use the following information to answer the next three exercises. Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
+  "context": "Nationally, 80 percent of adults own an automobile. You are interested in whether the same proportion in your community own cars. You draw a sample of 100 and find that 75 percent own cars.",
   "modelSolution": "You will use the normal test for a single population proportion because np and nq are both greater than five.",
   "needsFigure": false,
   "explanation": []
@@ -1743,7 +1743,7 @@
    "test": "Practice Final Exam 1",
    "n": 12
   },
-  "context": "Use the following information to answer the next three exercises: De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
+  "context": "De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
   "modelSolution": "b. conclude that the pass rate for Math 1A is different than the pass rate for Math 1B when, in fact, the pass rates are the same.",
   "needsFigure": false,
   "explanation": []
@@ -1759,7 +1759,7 @@
    "test": "Practice Final Exam 1",
    "n": 13
   },
-  "context": "Use the following information to answer the next three exercises: De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
+  "context": "De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
   "options": [
    "reject H0",
    "not reject H0",
@@ -1780,7 +1780,7 @@
    "test": "Practice Final Exam 1",
    "n": 15
   },
-  "context": "Use the following information to answer the next two exercises: The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236\n\nAssume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "context": "The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236\n\nAssume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
   "options": [
    "Normal",
    "Binomial",
@@ -1802,7 +1802,7 @@
    "test": "Practice Final Exam 1",
    "n": 16
   },
-  "context": "Use the following information to answer the next two exercises: The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236\n\nAssume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
+  "context": "The following adult ski sweater prices are from the Gorsuch Ltd. Winter catalog: $212, $292, $278, $199, $280, $236\n\nAssume the underlying sweater price population is approximately normal. The null hypothesis is that the mean price of adult ski sweaters from Gorsuch Ltd. is at least $275.",
   "modelSolution": "b. is left-tailed.",
   "needsFigure": false,
   "explanation": []
@@ -1839,7 +1839,7 @@
    "test": "Practice Final Exam 1",
    "n": 36
   },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
+  "context": "A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
   "options": [
    "there is insufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.",
    "there is sufficient evidence to conclude that the choice of major and the gender of the student are not independent of each other.",
@@ -1861,7 +1861,7 @@
    "test": "Practice Final Exam 2",
    "n": 7
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that a survey yielded the following data:\n[TABLE]\ngender | apple | pumpkin | pecan\nfemale | 40 | 10 | 30\nmale | 20 | 30 | 10\n[/TABLE]",
+  "context": "Suppose that a survey yielded the following data:\n[TABLE]\ngender | apple | pumpkin | pecan\nfemale | 40 | 10 | 30\nmale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "a. ≈ 0",
   "needsFigure": false,
   "explanation": []

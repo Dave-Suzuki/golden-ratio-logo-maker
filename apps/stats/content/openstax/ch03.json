@@ -56,97 +56,97 @@
      "id": "fs-idm23159776",
      "problem": "Find P(H).",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
+     "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
     },
     {
      "id": "fs-idm49682256",
      "problem": "Find P(N).",
      "solution": "P(N) = 15/42 = 5/14 = 0.36",
-     "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
+     "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
     },
     {
      "id": "fs-idm10330672",
      "problem": "Find P(F).",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
+     "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
     },
     {
      "id": "fs-idm119514368",
      "problem": "Find P(C).",
      "solution": "P(C) = 5/42 = 0.12",
-     "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
+     "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti."
     },
     {
      "id": "fs-idm75082368",
      "problem": "Find P(B).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm80518976",
      "problem": "Find P(G).",
      "solution": "P(G) = 20/150 = 2/15 = 0.13",
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm68528784",
      "problem": "Find P(P).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm48493856",
      "problem": "Find P(R).",
      "solution": "P(R) = 22/150 = 11/75 = 0.15",
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm3176768",
      "problem": "Find P(Y).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm53901776",
      "problem": "Find P(O).",
      "solution": "P(O) = 150-22-38-20-28-26/150 = 16/150 = 8/75 = 0.11",
-     "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
+     "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean."
     },
     {
      "id": "fs-idm3484896",
      "problem": "Find P(A).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idm9492064",
      "problem": "Find P(E).",
      "solution": "P(E) = 47/194 = 0.24",
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idm79250496",
      "problem": "Find P(F).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idm3781600",
      "problem": "Find P(N).",
      "solution": "P(N) = 23/194 = 0.12",
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idm121890336",
      "problem": "Find P(O).",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idp14140208",
      "problem": "Find P(S).",
      "solution": "P(S) = 12/194 = 6/97 = 0.06",
-     "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
+     "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America."
     },
     {
      "id": "fs-idm24247104",
@@ -172,73 +172,73 @@
      "id": "fs-idm87354368",
      "problem": "If you land on Y, you get the biggest prize. Find P(Y).",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow."
+     "context": "You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow."
     },
     {
      "id": "fs-idm87415968",
      "problem": "If you land on red, you don’t get a prize. What is P(R)?",
      "solution": "P(R)=4/8=0.5",
-     "context": "Use the following information to answer the next two exercises. You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow."
+     "context": "You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow."
     },
     {
      "id": "eip-386",
      "problem": "Write the symbols for the probability that a player is not an outfielder.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-432",
      "problem": "Write the symbols for the probability that a player is an outfielder or is a great hitter.",
      "solution": "P(O OR H)",
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-863",
      "problem": "Write the symbols for the probability that a player is an infielder and is not a great hitter.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-94",
      "problem": "Write the symbols for the probability that a player is a great hitter, given that the player is an infielder.",
      "solution": "P(H|I)",
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-16",
      "problem": "Write the symbols for the probability that a player is an infielder, given that the player is a great hitter.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-680",
      "problem": "Write the symbols for the probability that of all the outfielders, a player is not a great hitter.",
      "solution": "P(N|O)",
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-266",
      "problem": "Write the symbols for the probability that of all the great hitters, a player is an outfielder.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-542",
      "problem": "Write the symbols for the probability that a player is an infielder or is not a great hitter.",
      "solution": "P(I OR N)",
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-355",
      "problem": "Write the symbols for the probability that a player is an outfielder and is a great hitter.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-311",
      "problem": "Write the symbols for the probability that a player is an infielder.",
      "solution": "P(I)",
-     "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
+     "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter."
     },
     {
      "id": "eip-731",
@@ -264,13 +264,13 @@
      "id": "eip-460",
      "problem": "What does P(E|M) mean in words?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three."
+     "context": "You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three."
     },
     {
      "id": "eip-185",
      "problem": "What does P(E OR M) mean in words?",
      "solution": "the probability of landing on an even number or a multiple of three",
-     "context": "Use the following information to answer the next two exercises. You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three."
+     "context": "You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three."
     }
    ],
    "homework": [
@@ -461,13 +461,13 @@
      "id": "exer-00001",
      "problem": "Find the probability that the selected occupation has an Emotional Health Index Score of 82.7.",
      "solution": null,
-     "context": "Use the following information to answer the next 12 exercises. The graph shown is based on more than 170,000 interviews done by Gallup that took place from January through December in a certain year. The sample consists of employed Americans 18 years of age or older. The Emotional Health Index Scores are the sample space. We randomly sample one Emotional Health Index Score.\n\n[FIGURE]"
+     "context": "The graph shown is based on more than 170,000 interviews done by Gallup that took place from January through December in a certain year. The sample consists of employed Americans 18 years of age or older. The Emotional Health Index Scores are the sample space. We randomly sample one Emotional Health Index Score.\n\n[FIGURE]"
     },
     {
      "id": "exer-00002",
      "problem": "Find the probability that the selected occupation has an Emotional Health Index Score of 81.0.",
      "solution": null,
-     "context": "Use the following information to answer the next 12 exercises. The graph shown is based on more than 170,000 interviews done by Gallup that took place from January through December in a certain year. The sample consists of employed Americans 18 years of age or older. The Emotional Health Index Scores are the sample space. We randomly sample one Emotional Health Index Score.\n\n[FIGURE]"
+     "context": "The graph shown is based on more than 170,000 interviews done by Gallup that took place from January through December in a certain year. The sample consists of employed Americans 18 years of age or older. The Emotional Health Index Scores are the sample space. We randomly sample one Emotional Health Index Score.\n\n[FIGURE]"
     },
     {
      "id": "exer-00003",
@@ -617,61 +617,61 @@
      "id": "exercise1",
      "problem": "Find P(Z).",
      "solution": "Find P(S) : P(S) = 0.87",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise2",
      "problem": "Find P(S).",
      "solution": "Find P(S) : P(S) = 0.32",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise3",
      "problem": "Find P(S|Z).",
      "solution": "Find P(S | Z) : P(S | Z) = 0.55",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise4",
      "problem": "In words, what is S|Z?",
      "solution": "In words, what is S | Z? : S | Z means, given that the customer has ordered pizza, the person also orders a salad.",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise5",
      "problem": "Find P(Z AND S).",
      "solution": "Find P(Z AND S): P(Z AND S)= 0.4785",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise6",
      "problem": "In words, what is Z AND S?",
      "solution": "In words, what is Z AND S? : Z AND S represents the event that a customer orders a pizza and salad.",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise7",
      "problem": "Are P and S independent events? Show why or why not.",
      "solution": "Are P and S independent events? Show why or why not. No, because P(S) does not equal P(S | Z).",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise8",
      "problem": "Find P(Z OR S).",
      "solution": "Find P(Z OR S): P(Z OR S)= 0.7115",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise9",
      "problem": "In words, what is Z OR S?",
      "solution": "In words, what is Z OR S?\nZ OR S represents the event that a customer orders a pizza or salad.",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     },
     {
      "id": "exercise10",
      "problem": "Are Z and S mutually exclusive events? Show why or why not.",
      "solution": "Are Z and S mutually exclusive events? Show why or why not. No, because P(S and Z) does not equal 0.",
-     "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
     }
    ],
    "homework": [
@@ -689,13 +689,13 @@
      "id": "eip-628",
      "problem": "[PARTS]\na. List the sample space of the 38 possible outcomes in roulette.\nb. You bet on red. Find P(red).\nc. You bet on -1st 12- (1st Dozen). Find P(-1st 12-).\nd. You bet on an even number. Find P(even number).\ne. Is getting an odd number the complement of getting an even number? Why?\nf. Find two mutually exclusive events.\ng. Are the events Even and 1st Dozen independent?\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
+     "context": "The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
     },
     {
      "id": "eip-374",
      "problem": "Compute the probability of winning the following types of bets:\n\n[PARTS]\na. Betting on two lines that touch each other on the table as in 1-2-3-4-5-6\nb. Betting on three numbers in a line, as in 1-2-3\nc. Betting on one number\nd. Betting on four numbers that touch each other to form a square, as in 10-11-13-14\ne. Betting on two numbers that touch each other on the table, as in 10-11 or 10-13\nf. Betting on 0-00-1-2-3\ng. Betting on 0-1-2; or 0-00-2; or 00-2-3\n[/PARTS]",
      "solution": "[PARTS]\na. P(Betting on two line that touch each other on the table) =6/38\nb. P(Betting on three numbers in a line) =3/38\nc. P(Bettting on one number) =1/38\nd. P(Betting on four number that touch each other to form a square) =4/38\ne. P(Betting on two number that touch each other on the table ) =2/38\nf. P(Betting on 0-00-1-2-3) =5/38\ng. P(Betting on 0-1-2; or 0-00-2; or 00-2-3) =3/38\n[/PARTS]",
-     "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
+     "context": "The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
     },
     {
      "id": "eip-95",
@@ -710,7 +710,7 @@
       "Betting on an even or odd number (excluding zero)"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
+     "context": "The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]"
     },
     {
      "id": "element-555",
@@ -858,25 +858,25 @@
      "id": "eip-976",
      "problem": "Find P(musician is a woman).",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
+     "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
     },
     {
      "id": "eip-388",
      "problem": "Find P(musician is a man AND had private instruction).",
      "solution": "P(musician is a male AND had private instruction) = 15/130 = 3/26 = 0.12",
-     "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
+     "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
     },
     {
      "id": "eip-631",
      "problem": "Find P(musician is a woman OR is self taught).",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
+     "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
     },
     {
      "id": "eip-350",
      "problem": "Are the events “being a woman musician” and “learning music in school” mutually exclusive events?",
      "solution": "The events are not mutually exclusive. It is possible to be a woman musician who learned music in school.",
-     "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
+     "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]"
     }
    ],
    "homework": [
@@ -950,7 +950,7 @@
       "4189/12351"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]"
+     "context": "The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]"
     },
     {
      "id": "element-940",
@@ -963,7 +963,7 @@
       "( 117)/12351"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]"
+     "context": "The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]"
     },
     {
      "id": "element-782",
@@ -981,43 +981,43 @@
      "id": "element-841",
      "problem": "Complete the table using the data provided.\n\n[TABLE]\nSmoking Level | Black | Native Hawaiian | Hispanic/Latino | Japanese people | White | TOTALS\n1–10 | | | | | |\n11–20 | | | | | |\n21–30 | | | | | |\n31+ | | | | | |\nTOTALS | | | | | |\n[/TABLE]",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "eip-892",
      "problem": "Suppose that one person from the study is randomly selected. Find the probability that person smoked 11 to 20 cigarettes per day.",
      "solution": "(35,065)/(100,450)",
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "element-120",
      "problem": "Find the probability that the person was Hispanic/Latino.",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "exercise-124",
      "problem": "In words, explain what it means to pick one person from the study who is “Japanese American AND smokes 21 to 30 cigarettes per day.” Also, find the probability.",
      "solution": "To pick one person from the study who is Japanese American AND smokes 21 to 30 cigarettes per day means that the person has to meet both criteria: both Japanese American and smokes 21 to 30 cigarettes. The sample space should include everyone in the study. The probability is (4,715)/(100,450).",
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "exercise-125",
      "problem": "In words, explain what it means to pick one person from the study who is “Japanese American OR smokes 21 to 30 cigarettes per day.” Also, find the probability.",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "exercise-126",
      "problem": "In words, explain what it means to pick one person from the study who is “Japanese American GIVEN that person smokes 21 to 30 cigarettes per day.” Also, find the probability.",
      "solution": "To pick one person from the study who is Japanese American given that person smokes 21-30 cigarettes per day, means that the person must fulfill both criteria and the sample space is reduced to those who smoke 21-30 cigarettes per day. The probability is 4715/(15,273).",
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     },
     {
      "id": "exercise-127",
      "problem": "Prove that smoking level/day and ethnicity are dependent events.",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
+     "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people."
     }
    ],
    "summary": "There are several tools you can use to help organize and sort data when calculating probabilities. Contingency tables help display data and are particularly useful when calculating probabilites that have multiple dependent variables.",
@@ -1113,7 +1113,7 @@
       "5/36"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]"
+     "context": "This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]"
     },
     {
      "id": "element-684",
@@ -1126,7 +1126,7 @@
       "6/36"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next two exercises. This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]"
+     "context": "This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]"
     },
     {
      "id": "eip-346",
@@ -1139,25 +1139,25 @@
      "id": "element-194",
      "problem": "Suppose that you randomly draw two cards, one at a time, with replacement.\n\nLet G1 = first card is green\n\nLet G2 = second card is green\n\n[PARTS]\na. Draw a tree diagram of the situation.\nb. Find P(G1 ANDG2).\nc. Find P(at least one green).\nd. Find P(G2|G1).\ne. Are G2 andG1 independent events? Explain why or why not.\n[/PARTS]",
      "solution": "[PARTS]\na. [FIGURE]\nb. P(GG) =(5/8)(5/8) =25/64\nc. P(at least one green) =P(GG) +P(GY) +P(YG) =25/64 +15/64 +15/64 =55/64\nd. P(G|G) =5/8\ne. Yes, they are independent because the first card is placed back in the bag before the second card is drawn; the composition of cards in the bag remains the same from draw one to draw two.\n[/PARTS]",
-     "context": "Use the following information to answer the next two exercises. Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled."
+     "context": "Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled."
     },
     {
      "id": "element-606",
      "problem": "Suppose that you randomly draw two cards, one at a time, without replacement.\n\nG1 = first card is green\n\nG2 = second card is green\n\n[PARTS]\na. Draw a tree diagram of the situation.\nb. Find P(G1 ANDG2).\nc. Find P(at least one green).\nd. Find P(G2|G1).\ne. Are G2 andG1 independent events? Explain why or why not.\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled."
+     "context": "Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled."
     },
     {
      "id": "element-950",
      "problem": "Complete the following.\n\n[PARTS]\na. Construct a table or a tree diagram of the situation.\nb. Find P(driver is a woman).\nc. Find P(driver is age 65 or over|driver is a woman).\nd. Find P(driver is age 65 or over AND a woman).\ne. In words, explain the difference between the probabilities in part c and part d.\nf. Find P(driver is age 65 or over).\ng. Are being age 65 or over and being a woman mutually exclusive events? How do you know?\n[/PARTS]",
      "solution": "[PARTS]\na. [TABLE] | <20 | 20–64 | >64 | Totals Women | 0.0244 | 0.3954 | 0.0661 | 0.486 Men | 0.0259 | 0.4186 | 0.0695 | 0.514 Totals | 0.0503 | 0.8140 | 0.1356 | 1 [/TABLE]\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 andF) =P(F)P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older andP(>64 andF) is the percentage of drivers who are women and 65 or older.\nf. P(>64) =P(>64 andF) +P(>64 andM) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.\n[/PARTS]",
-     "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over."
+     "context": "The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over."
     },
     {
      "id": "element-175",
      "problem": "Suppose that 10,000 U.S. licensed drivers are randomly selected.\n\n[PARTS]\na. How many would you expect to be men?\nb. Using the table or tree diagram, construct a contingency table of gender versus age group.\nc. Using the contingency table, find the probability that out of the age 20–64 group, a randomly selected driver is a woman.\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over."
+     "context": "The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over."
     },
     {
      "id": "element-974",

@@ -74,7 +74,7 @@
    "module": "m46994",
    "exerciseId": "fs-idm15565424"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "mean = 4 hours; standard deviation = 1.2 hours; sample size = 16",
   "needsFigure": false,
   "explanation": []
@@ -90,7 +90,7 @@
    "module": "m46994",
    "exerciseId": "fs-idp17869408"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "[PARTS]\n1. X ~N(4, 1.2).\n2. X̄ ~N(4, 1.2/(√(16)))\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -106,7 +106,7 @@
    "module": "m46994",
    "exerciseId": "element-446"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "a. Answers may vary.\n\nb. 3.5, 4.25, 0.2441",
   "needsFigure": true,
   "explanation": []
@@ -122,7 +122,7 @@
    "module": "m46994",
    "exerciseId": "element-322"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "b. 0.7499",
   "needsFigure": true,
   "explanation": []
@@ -138,7 +138,7 @@
    "module": "m46994",
    "exerciseId": "fs-idm42157984"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "The fact that the two distributions are different accounts for the different probabilities.",
   "needsFigure": false,
   "explanation": []
@@ -154,7 +154,7 @@
    "module": "m46994",
    "exerciseId": "fs-idm70816816"
   },
-  "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
+  "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
   "modelSolution": "P(3.5 < x̄ < 4.25) = invNorm(95,4,1.2/(√(16))) = 4.49",
   "needsFigure": true,
   "explanation": []
@@ -386,7 +386,7 @@
    "module": "m46997",
    "exerciseId": "eip-769"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
+  "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
   "answer": 0.3345,
   "tolerance": {
    "abs": 0.005,
@@ -409,7 +409,7 @@
    "module": "m46997",
    "exerciseId": "eip-145"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
+  "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
   "answer": 0.0436,
   "tolerance": {
    "abs": 0.005,
@@ -432,7 +432,7 @@
    "module": "m46997",
    "exerciseId": "eip-335"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
+  "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
   "answer": 7833.92,
   "tolerance": {
    "abs": 0.006,
@@ -455,7 +455,7 @@
    "module": "m46997",
    "exerciseId": "eip-251"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
+  "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population.",
   "answer": 7424.56,
   "tolerance": {
    "abs": 0.006,
@@ -478,7 +478,7 @@
    "module": "m46997",
    "exerciseId": "eip-539"
   },
-  "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
+  "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
   "answer": 0.0089,
   "tolerance": {
    "abs": 0.005,
@@ -501,7 +501,7 @@
    "module": "m46997",
    "exerciseId": "eip-169"
   },
-  "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
+  "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
   "answer": 0.0569,
   "tolerance": {
    "abs": 0.005,
@@ -524,7 +524,7 @@
    "module": "m46997",
    "exerciseId": "eip-308"
   },
-  "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
+  "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
   "answer": 7326.49,
   "tolerance": {
    "abs": 0.006,
@@ -547,7 +547,7 @@
    "module": "m46997",
    "exerciseId": "eip-743"
   },
-  "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
+  "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
   "answer": 7010.26,
   "tolerance": {
    "abs": 0.006,
@@ -570,7 +570,7 @@
    "module": "m46997",
    "exerciseId": "eip-593"
   },
-  "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
+  "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly.",
   "answer": 77.45,
   "tolerance": {
    "abs": 0.006,
@@ -593,7 +593,7 @@
    "module": "m46997",
    "exerciseId": "exercise11"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 0.0359,
   "tolerance": {
    "abs": 0.005,
@@ -616,7 +616,7 @@
    "module": "m46997",
    "exerciseId": "exercise12"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 0.4207,
   "tolerance": {
    "abs": 0.005,
@@ -639,7 +639,7 @@
    "module": "m46997",
    "exerciseId": "eip-718"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 0.5433,
   "tolerance": {
    "abs": 0.005,
@@ -662,7 +662,7 @@
    "module": "m46997",
    "exerciseId": "eip-750"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 3888.5,
   "tolerance": {
    "abs": 0.06,
@@ -685,7 +685,7 @@
    "module": "m46997",
    "exerciseId": "eip-763"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 3903.5,
   "tolerance": {
    "abs": 0.06,
@@ -708,7 +708,7 @@
    "module": "m46997",
    "exerciseId": "eip-44"
   },
-  "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
+  "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100.",
   "answer": 0.8186,
   "tolerance": {
    "abs": 0.005,
@@ -731,7 +731,7 @@
    "module": "m46997",
    "exerciseId": "eip-175"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
+  "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 300.0,
   "tolerance": {
    "abs": 0.05,
@@ -754,7 +754,7 @@
    "module": "m46997",
    "exerciseId": "eip-213"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
+  "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 5.0,
   "tolerance": {
    "abs": 0.05,
@@ -777,7 +777,7 @@
    "module": "m46997",
    "exerciseId": "eip-592"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
+  "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 0.0,
   "tolerance": {
    "abs": 0.05,
@@ -800,7 +800,7 @@
    "module": "m46997",
    "exerciseId": "eip-710"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
+  "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 0.9772,
   "tolerance": {
    "abs": 0.005,
@@ -912,7 +912,7 @@
    "module": "m46997",
    "exerciseId": "eip-626"
   },
-  "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
+  "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
   "answer": 26.0,
   "tolerance": {
    "abs": 0.006,
@@ -935,7 +935,7 @@
    "module": "m46997",
    "exerciseId": "eip-224"
   },
-  "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
+  "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
   "answer": -1.0,
   "tolerance": {
    "abs": 0.05,
@@ -958,7 +958,7 @@
    "module": "m46997",
    "exerciseId": "eip-616"
   },
-  "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
+  "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers.",
   "answer": 0.1587,
   "tolerance": {
    "abs": 0.005,
@@ -981,7 +981,7 @@
    "module": "m46997",
    "exerciseId": "eip-956"
   },
-  "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
+  "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
   "answer": 10000.0,
   "tolerance": {
    "abs": 0.05,
@@ -1004,7 +1004,7 @@
    "module": "m46997",
    "exerciseId": "eip-368"
   },
-  "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
+  "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
   "answer": 1000.0,
   "tolerance": {
    "abs": 0.05,
@@ -1027,7 +1027,7 @@
    "module": "m46997",
    "exerciseId": "eip-899"
   },
-  "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
+  "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest.",
   "answer": 0.8413,
   "tolerance": {
    "abs": 0.005,
@@ -1180,7 +1180,7 @@
    "module": "m46992",
    "exerciseId": "exercise4"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[PARTS]\na. U(24, 26), 25, 0.5774\nb. N(25, 0.0577)\nc. 0.0416\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -1196,7 +1196,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm84240544"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1212,7 +1212,7 @@
    "module": "m46992",
    "exerciseId": "exercise6"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "answer": 0.0003,
   "tolerance": {
    "abs": 0.005,
@@ -1235,7 +1235,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm30735600"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1251,7 +1251,7 @@
    "module": "m46992",
    "exerciseId": "exercise8"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "answer": 25.07,
   "tolerance": {
    "abs": 0.006,
@@ -1274,7 +1274,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm167897040"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1290,7 +1290,7 @@
    "module": "m46992",
    "exerciseId": "exercise10"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[PARTS]\na. N(2,500, 5.7735)\nb. 0\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -1306,7 +1306,7 @@
    "module": "m46992",
    "exerciseId": "exercise11"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1322,7 +1322,7 @@
    "module": "m46992",
    "exerciseId": "exercise12"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "answer": 2507.4,
   "tolerance": {
    "abs": 0.006,
@@ -1345,7 +1345,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm54084400"
   },
-  "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
+  "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1361,7 +1361,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm110175696"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
+  "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "modelSolution": "[PARTS]\na. 10\nb. 1/10\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -1377,7 +1377,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm85285856"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
+  "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "modelSolution": "Exp(1/10)",
   "needsFigure": false,
   "explanation": []
@@ -1393,7 +1393,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm151129248"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
+  "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "modelSolution": "N(10, 10/8)",
   "needsFigure": false,
   "explanation": []
@@ -1409,7 +1409,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm69924752"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
+  "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "modelSolution": "N(640, 80)",
   "needsFigure": false,
   "explanation": []
@@ -1425,7 +1425,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm1366160"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
+  "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "answer": 0.7799,
   "tolerance": {
    "abs": 0.005,
@@ -1514,7 +1514,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm1612656"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 0.0072,
   "tolerance": {
    "abs": 0.005,
@@ -1537,7 +1537,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm48638032"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 410.46,
   "tolerance": {
    "abs": 0.006,
@@ -1560,7 +1560,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm53694544"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 391.54,
   "tolerance": {
    "abs": 0.006,
@@ -1583,7 +1583,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm16561168"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 394.49,
   "tolerance": {
    "abs": 0.006,
@@ -1606,7 +1606,7 @@
    "module": "m46992",
    "exerciseId": "fs-idp10404400"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 405.51,
   "tolerance": {
    "abs": 0.006,
@@ -1629,7 +1629,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm111220240"
   },
-  "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
+  "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken.",
   "answer": 406.87,
   "tolerance": {
    "abs": 0.006,
@@ -1682,7 +1682,7 @@
    "module": "m46992",
    "exerciseId": "element-725"
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "U(0,4)",
    "U(10,2)",
@@ -1704,7 +1704,7 @@
    "module": "m46992",
    "exerciseId": "element-407"
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "one hour.",
    "two hours.",
@@ -1726,7 +1726,7 @@
    "module": "m46992",
    "exerciseId": "element-191"
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "1/4",
    "1/2",
@@ -1748,7 +1748,7 @@
    "module": "m46992",
    "exerciseId": "element-620"
   },
-  "context": "Use the following information to answer the next two exercises: The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.",
+  "context": "The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.",
   "options": [
    "315.0",
    "40.3",
@@ -1770,7 +1770,7 @@
    "module": "m46992",
    "exerciseId": "element-339"
   },
-  "context": "Use the following information to answer the next two exercises: The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.",
+  "context": "The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited.",
   "options": [
    "yes",
    "no",
@@ -1791,7 +1791,7 @@
    "module": "m46992",
    "exerciseId": "element-644"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
+  "context": "The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
   "options": [
    "almost zero",
    "0.1587",
@@ -1813,7 +1813,7 @@
    "module": "m46992",
    "exerciseId": "eip-415"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
+  "context": "The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
   "modelSolution": "c",
   "needsFigure": false,
   "explanation": []
@@ -2114,7 +2114,7 @@
    "test": "Practice Test 2",
    "n": 73
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "X ~ N(75, 0.45)",
   "needsFigure": false,
   "explanation": []
@@ -2130,7 +2130,7 @@
    "test": "Practice Test 2",
    "n": 74
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "Your friend forgot to divide the standard deviation by the square root of n.",
   "needsFigure": false,
   "explanation": []
@@ -2146,7 +2146,7 @@
    "test": "Practice Test 2",
    "n": 75
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "z= (x̄− μ_x)/σ_x= 76−75/4.5=2.2",
   "needsFigure": false,
   "explanation": []
@@ -2162,7 +2162,7 @@
    "test": "Practice Test 2",
    "n": 76
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "z=(x̄− μ_x)/σ_x= 74.7−75/4.5=−0.67",
   "needsFigure": false,
   "explanation": []
@@ -2178,7 +2178,7 @@
    "test": "Practice Test 2",
    "n": 77
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "75 + (1.5)(0.45) = 75.675",
   "needsFigure": false,
   "explanation": []
@@ -2194,7 +2194,7 @@
    "test": "Practice Test 2",
    "n": 78
   },
-  "context": "Use the following information to answer the next six exercises. You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
+  "context": "You repeatedly draw samples of n = 100 from a population with a mean of 75 and a standard deviation of 4.5.",
   "modelSolution": "The standard error of the mean will be larger, because you will be dividing by a smaller number. The standard error of the mean for samples of size n = 50 is:\n(σ_x/(√(n)))= 4.5/(√(50))=0.64",
   "needsFigure": false,
   "explanation": []
@@ -2210,7 +2210,7 @@
    "test": "Practice Test 2",
    "n": 79
   },
-  "context": "Use the following information to answer the next two questions. We use the empirical rule to analyze data for samples of size 60 drawn from a population with a mean of 70 and a standard deviation of 9.",
+  "context": "We use the empirical rule to analyze data for samples of size 60 drawn from a population with a mean of 70 and a standard deviation of 9.",
   "modelSolution": "You would expect this range to include values up to one standard deviation above or below the mean of the sample means. In this case:\n70+9/(√(60))=71.16 and 70−9/(√(60))=68.84 so you would expect 68 percent of the sample means to be between 68.84 and 71.16.",
   "needsFigure": false,
   "explanation": []
@@ -2226,7 +2226,7 @@
    "test": "Practice Test 2",
    "n": 80
   },
-  "context": "Use the following information to answer the next two questions. We use the empirical rule to analyze data for samples of size 60 drawn from a population with a mean of 70 and a standard deviation of 9.",
+  "context": "We use the empirical rule to analyze data for samples of size 60 drawn from a population with a mean of 70 and a standard deviation of 9.",
   "modelSolution": "70+9/(√(100))=70.9 and 70−9/(√(100))=69.1 so you would expect 68 percent of the sample means to be between 69.1 and 70.9. Note that this is a narrower interval due to the increased sample size.",
   "needsFigure": false,
   "explanation": []
@@ -2287,7 +2287,7 @@
    "test": "Practice Test 2",
    "n": 84
   },
-  "context": "Use the following information to answer the next four exercises. You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
+  "context": "You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
   "modelSolution": "The probability is 0.50, because 5,000 is the mean of the sampling distribution of sums of size 40 from this population. Sums of random variables computed from a sample of sufficient size are normally distributed, and in a normal distribution, half the values lie below the mean.",
   "needsFigure": false,
   "explanation": []
@@ -2303,7 +2303,7 @@
    "test": "Practice Test 2",
    "n": 85
   },
-  "context": "Use the following information to answer the next four exercises. You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
+  "context": "You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
   "modelSolution": "Using the empirical rule, you would expect 95 percent of the values to be within two standard deviations of the mean. Using the formula for the standard deviation is for a sample sum: (√(n))(σ_x)=(√(40))(7)=44.3 so you would expect 95 percent of the values to be between 5,000 + (2)(44.3) and 5,000 – (2)(44.3), or between 4,911.4 and 588.6.",
   "needsFigure": false,
   "explanation": []
@@ -2319,7 +2319,7 @@
    "test": "Practice Test 2",
    "n": 86
   },
-  "context": "Use the following information to answer the next four exercises. You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
+  "context": "You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
   "modelSolution": "μ−(√(n))(σ_x)=5000−(√(40))(7)=4955.7",
   "needsFigure": false,
   "explanation": []
@@ -2335,7 +2335,7 @@
    "test": "Practice Test 2",
    "n": 87
   },
-  "context": "Use the following information to answer the next four exercises. You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
+  "context": "You draw one sample of size 40 from a population with a mean of 125 and a standard deviation of seven.",
   "modelSolution": "5000+(2.2)(√(40))(7)=5097.4",
   "needsFigure": false,
   "explanation": []
@@ -2426,7 +2426,7 @@
    "test": "Chapter 9",
    "n": 76
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "context": "Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
   "modelSolution": "[DATA]2.8, 1.48, 90%[/DATA]",
   "needsFigure": false,
   "explanation": []
@@ -2442,7 +2442,7 @@
    "test": "Chapter 11",
    "n": 103
   },
-  "context": "Use the following information to answer the next four exercises: Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
+  "context": "Suppose that the time that owners keep their cars (purchased new) is normally distributed with a mean of seven years and a standard deviation of two years. We are interested in how long an individual keeps his car (purchased new). Our population is people who buy their cars new.",
   "answer": 0.9911,
   "tolerance": {
    "abs": 0.005,
@@ -2465,7 +2465,7 @@
    "test": "Chapter 11",
    "n": 106
   },
-  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
+  "context": "We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
   "modelSolution": "Answers will vary.",
   "needsFigure": false,
   "explanation": []
@@ -2481,7 +2481,7 @@
    "test": "Chapter 11",
    "n": 109
   },
-  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
+  "context": "We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
   "modelSolution": "quantitative continuous data",
   "needsFigure": false,
   "explanation": []
@@ -2497,7 +2497,7 @@
    "test": "Chapter 11",
    "n": 110
   },
-  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
+  "context": "We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
   "modelSolution": "quantitative discrete data",
   "needsFigure": false,
   "explanation": []

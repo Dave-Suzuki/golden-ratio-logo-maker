@@ -25,31 +25,31 @@
      "id": "eip-555",
      "problem": "Write one assumption.",
      "solution": "Each population from which a sample is taken is assumed to be normal.",
-     "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
+     "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
     },
     {
      "id": "eip-191",
      "problem": "Write another assumption.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
+     "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
     },
     {
      "id": "eip-194",
      "problem": "Write a third assumption.",
      "solution": "The populations are assumed to have equal standard deviations (or variances).",
-     "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
+     "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
     },
     {
      "id": "eip-396",
      "problem": "Write a fourth assumption.",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
+     "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
     },
     {
      "id": "eip-922",
      "problem": "Write the final assumption.",
      "solution": "The response is a numerical value.",
-     "context": "Use the following information to answer the next five exercises. There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
+     "context": "There are five basic assumptions that must be fulfilled in order to perform a one-way ANOVA test. What are they?"
     },
     {
      "id": "eip-550",
@@ -119,91 +119,91 @@
      "id": "eip-317",
      "problem": "What is the Sum of Squares Factor?",
      "solution": "4,939.2",
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-394",
      "problem": "What is the Sum of Squares Error?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-617",
      "problem": "What is the df for the numerator?",
      "solution": "2",
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-920",
      "problem": "What is the df for the denominator?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-297",
      "problem": "What is the Mean Square Factor?",
      "solution": "2,469.6",
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-869",
      "problem": "What is the Mean Square Error?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-485",
      "problem": "What is the F statistic?",
      "solution": "3.7416",
-     "context": "Use the following information to answer the next eight exercises. Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
+     "context": "Groups of men from three different areas of the country are to be tested for mean weight. The entries in the table below are the weights for the different groups.\n\n[TABLE]\nGroup 1 | Group 2 | Group 3\n216 | 202 | 170\n198 | 213 | 165\n240 | 284 | 182\n187 | 228 | 197\n176 | 210 | 201\n[/TABLE]"
     },
     {
      "id": "eip-380",
      "problem": "What is SSbetween?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-332",
      "problem": "What is the df for the numerator?",
      "solution": "3",
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-361",
      "problem": "What is MSbetween?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-543",
      "problem": "What is SSwithin?",
      "solution": "13.2",
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-200",
      "problem": "What is the df for the denominator?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-91",
      "problem": "What is MSwithin?",
      "solution": "0.825",
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-501",
      "problem": "What is the F statistic?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     },
     {
      "id": "eip-23",
      "problem": "Judging by the F statistic, do you think it is likely or unlikely that you will reject the null hypothesis?",
      "solution": "Because a one-way ANOVA test is always right-tailed, a high F statistic corresponds to a low p-value, so it is likely that we will reject the null hypothesis.",
-     "context": "Use the following information to answer the next eight exercises. Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
+     "context": "Girls from four different soccer teams are to be tested for mean goals scored per game. The entries in the table are the goals per game for the different teams. The one-way ANOVA results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4\n1 | 2 | 0 | 3\n2 | 3 | 1 | 4\n0 | 2 | 1 | 4\n3 | 4 | 0 | 3\n2 | 4 | 0 | 2\n[/TABLE]"
     }
    ],
    "homework": [
@@ -211,19 +211,19 @@
      "id": "fs-idm50760160",
      "problem": "degrees of freedom – numerator: df(num) = _________",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
     },
     {
      "id": "fs-idp124948560",
      "problem": "degrees of freedom – denominator: df(denom) = ________",
      "solution": "df(denom) = 15",
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
     },
     {
      "id": "element-115",
      "problem": "F statistic = ________",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country.\nSuppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nH0: µ1 = µ2 = µ3 = µ4 = µ5\n\nHα: At least any two of the group means µ1, µ2, …, µ5 are not equal."
     }
    ],
    "bring_together": [],
@@ -279,103 +279,103 @@
      "id": "eip-535",
      "problem": "What is the df(num)?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-162",
      "problem": "What is the df(denom)?",
      "solution": "ten",
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-984",
      "problem": "What are the Sum of Squares and Mean Squares Factors?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-213",
      "problem": "What are the Sum of Squares and Mean Squares Errors?",
      "solution": "SS = 237.33; MS = 23.73",
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-79",
      "problem": "What is the F statistic?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-155",
      "problem": "What is the p-value?",
      "solution": "0.1614",
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-773",
      "problem": "At the 5% significance level, is there a difference in the mean jump heights among the teams?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercise. Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
+     "context": "Four basketball teams took a random sample of players regarding how high each player can jump (in inches). The results are shown in the table below.\n\n[TABLE]\nTeam 1 | Team 2 | Team 3 | Team 4 | Team 5\n36 | 32 | 48 | 38 | 41\n42 | 35 | 50 | 44 | 39\n51 | 38 | 39 | 46 | 40\n[/TABLE]"
     },
     {
      "id": "eip-602",
      "problem": "What is the df(num)?",
      "solution": "two",
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-99",
      "problem": "What is the df(denom)?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-944",
      "problem": "What are the SSbetween and MSbetween?",
      "solution": "SS = 5,700.4;\n\nMS = 2,850.2",
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-264",
      "problem": "What are the SSwithin and MSwithin?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-105",
      "problem": "What is the F Statistic?",
      "solution": "3.6101",
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-56",
      "problem": "What is the p-value?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "eip-920",
      "problem": "At the 10% significance level, are the scores among the different groups different?",
      "solution": "Yes, there is enough evidence to show that the scores among the groups are statistically significant at the 10% level.",
-     "context": "Use the following information to answer the next seven exercises. A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
+     "context": "A video game developer is testing a new game on three different groups. Each group represents a different target market for the game. The developer collects scores from a random sample from each group. The results are shown in the table below\n\n[TABLE]\nGroup A | Group B | Group C\n101 | 151 | 101\n108 | 149 | 109\n98 | 160 | 198\n107 | 112 | 186\n111 | 126 | 160\n[/TABLE]"
     },
     {
      "id": "fs-idm77454416",
      "problem": "p-value = ______",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
     },
     {
      "id": "fs-idm138666704",
      "problem": "α = 0.05\n\na. Decision: ____________________________\n\nb. Conclusion: ____________________________",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
     },
     {
      "id": "exercisemern",
      "problem": "α = 0.01\n\na. Decision: ____________________________\n\nb. Conclusion: ____________________________",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
+     "context": "Suppose a group is interested in determining whether teenagers obtain their drivers licenses at approximately the same average age across the country. Suppose that the following data are randomly collected from five teenagers in each region of the country. The numbers represent the age at which teenagers obtained their drivers licenses.\n\n[TABLE]\n| Northeast | South | West | Central | East\n| 16.3 | 16.9 | 16.4 | 16.2 | 17.1\n| 16.1 | 16.5 | 16.5 | 16.6 | 17.2\n| 16.4 | 16.4 | 16.6 | 16.5 | 16.6\n| 16.5 | 16.2 | 16.1 | 16.4 | 16.8\nx̄= | | | | |\ns^2= | | | | |\n[/TABLE]\n\nEnter the data into your calculator or computer."
     }
    ],
    "homework": [
@@ -462,43 +462,43 @@
      "id": "eip-801",
      "problem": "Name one assumption that must be true.",
      "solution": "The populations from which the two samples are drawn are normally distributed.",
-     "context": "Use the following information to answer the next two exercises. There are two assumptions that must be true in order to perform an F test of two variances."
+     "context": "There are two assumptions that must be true in order to perform an F test of two variances."
     },
     {
      "id": "eip-417",
      "problem": "What is the other assumption that must be true?",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. There are two assumptions that must be true in order to perform an F test of two variances."
+     "context": "There are two assumptions that must be true in order to perform an F test of two variances."
     },
     {
      "id": "eip-119",
      "problem": "State the null and alternative hypotheses.",
      "solution": "H0: σ1 = σ2\n\nHa: σ1 < σ2\n\nor\n\nH0: σ_1^2 = σ_2^2\n\nHa: σ_1^2<σ_2^2",
-     "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
+     "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-113",
      "problem": "What is s1 in this problem?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
+     "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-941",
      "problem": "What is s2 in this problem?",
      "solution": "4.11",
-     "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
+     "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-646",
      "problem": "What is n?",
      "solution": null,
-     "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
+     "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-416",
      "problem": "What is the F statistic?",
      "solution": "0.7159",
-     "context": "Use the following information to answer the next five exercises. Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
+     "context": "Two coworkers commute from the same building. They are interested in whether or not there is any variation in the time it takes them to drive to work. They each record their times for 20 commutes. The first worker’s times have a variance of 12.1. The second worker’s times have a variance of 16.9. The first worker thinks that he is more consistent with his commute times. Test the claim at the 10% level. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-249",
@@ -514,43 +514,43 @@
      "id": "eip-292",
      "problem": "State the null and alternative hypotheses.",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
+     "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
     },
     {
      "id": "eip-932",
      "problem": "What is the F Statistic?",
      "solution": "2.8674",
-     "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
+     "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
     },
     {
      "id": "eip-694",
      "problem": "What is the p-value?",
      "solution": null,
-     "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
+     "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
     },
     {
      "id": "eip-792",
      "problem": "At the 5% significance level, do we reject the null hypothesis?",
      "solution": "Reject the null hypothesis. There is enough evidence to say that the variance of the grades for the first student is higher than the variance in the grades for the second student.",
-     "context": "Use the following information to answer the next four exercises. Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
+     "context": "Two students are interested in whether or not there is variation in their test scores for math class. There are 15 total math tests they have taken so far. The first student’s grades have a standard deviation of 38.1. The second student’s grades have a standard deviation of 22.5. The second student thinks his scores are more consistent."
     },
     {
      "id": "eip-827",
      "problem": "State the null and alternative hypotheses.",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
+     "context": "Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-366",
      "problem": "What is the F Statistic?",
      "solution": "0.7414",
-     "context": "Use the following information to answer the next three exercises. Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
+     "context": "Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
     },
     {
      "id": "eip-146",
      "problem": "At the 5% significance level, what can we say about the cyclists’ variances?",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
+     "context": "Two cyclists are comparing the variances of their overall paces going uphill. Each cyclist records their speeds going up 35 hills. The first cyclist has a variance of 23.8 and the second cyclist has a variance of 32.1. The cyclists want to see if their variances are the same or different. Assume that commute times are normally distributed."
     }
    ],
    "homework": [

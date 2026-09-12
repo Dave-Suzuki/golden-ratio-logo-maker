@@ -133,6 +133,27 @@ describe('the shipped question bank', () => {
     expect(q!.context).toMatch(/ten mothers from the above population/);
   });
 
+  it('states no scenario as an instruction about a printed page', () => {
+    // "Use the following data to answer the next five exercises" promises something a shuffled
+    // ten-question quiz cannot keep: the next question is usually not one of the five.
+    const pageTalk = /use the following[^.:]{0,90}?(exercises?|questions?|problems?)\s*[.:]/i;
+    const bad = allQuestions().filter((q) => pageTalk.test(q.context ?? ''));
+    expect(bad.map((q) => q.id)).toEqual([]);
+  });
+
+  it('asks a bare list item as a question, not a label', () => {
+    // "number of competing computer spreadsheet software packages" was shown on its own; the
+    // instruction heading the run ("For the following exercises, identify the type of data…")
+    // was dropped because it did not start with the verb.
+    const q = allQuestions().find((x) => x.id === 'os-m46885-eip-865');
+    expect(q, 'os-m46885-eip-865 missing from the bank').toBeDefined();
+    expect(q!.stem).toMatch(/^Identify the type of data/);
+    expect(q!.stem).toMatch(/number of competing computer spreadsheet software packages/);
+    // and the framing that only makes sense on a printed page is gone
+    expect(q!.stem).not.toMatch(/for the following exercises/i);
+    expect(isQuizzable(q!)).toBe(true);
+  });
+
   it('keeps the wording of a cross-reference that has its own', () => {
     // <link>Try It</link> used to be replaced wholesale, dropping a second determiner phrase
     // inside the noun phrase: "the pizza-delivery the note above exercise".

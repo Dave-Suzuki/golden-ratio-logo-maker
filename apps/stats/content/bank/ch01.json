@@ -74,7 +74,7 @@
    "module": "m46909",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "Patients with the virus",
   "needsFigure": false,
   "explanation": []
@@ -90,7 +90,7 @@
    "module": "m46909",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "AIDS patients sampled from researcher A and researcher B.",
   "needsFigure": false,
   "explanation": []
@@ -106,7 +106,7 @@
    "module": "m46909",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "The average length of time (in months) patients with the virus live after treatment.",
   "needsFigure": false,
   "explanation": []
@@ -122,7 +122,7 @@
    "module": "m46909",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "The average length of time (in months) AIDS patients from the sample live after treatment.",
   "needsFigure": false,
   "explanation": []
@@ -138,7 +138,7 @@
    "module": "m46909",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "X = the length of time (in months) patients with the virus live after treatment",
   "needsFigure": false,
   "explanation": []
@@ -274,7 +274,7 @@
    "module": "m46909",
    "exerciseId": "element-230"
   },
-  "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
+  "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
   "options": [
    "all Lake Tahoe Community College students",
    "all Lake Tahoe Community College English students",
@@ -296,7 +296,7 @@
    "module": "m46909",
    "exerciseId": "element-590"
   },
-  "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
+  "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
   "options": [
    "variable.",
    "population.",
@@ -318,7 +318,7 @@
    "module": "m46909",
    "exerciseId": "element-992"
   },
-  "context": "Use the following information to answer the next three exercises: A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
+  "context": "A Lake Tahoe Community College instructor is interested in the mean number of days Lake Tahoe Community College math students are absent from class during a quarter.",
   "options": [
    "parameter.",
    "data.",
@@ -483,7 +483,7 @@
    "module": "m46885",
    "exerciseId": "fs-idm67132096"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
+  "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
   "modelSolution": "b",
   "needsFigure": false,
   "explanation": []
@@ -499,7 +499,7 @@
    "module": "m46885",
    "exerciseId": "fs-idm13982640"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
+  "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
   "modelSolution": "c",
   "needsFigure": false,
   "explanation": []
@@ -515,7 +515,7 @@
    "module": "m46885",
    "exerciseId": "fs-idm63417136"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
+  "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
   "modelSolution": "a",
   "needsFigure": false,
   "explanation": []
@@ -606,7 +606,7 @@
    "module": "m46885",
    "exerciseId": "eip-885"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "values for X, such as 3, 4, 11, and so on",
   "needsFigure": false,
   "explanation": []
@@ -622,7 +622,7 @@
    "module": "m46885",
    "exerciseId": "eip-812"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Answers will vary. Sample answer: One reason may be the average age of the individuals in the two samples. Or, perhaps the drug affects men and women differently. If the ratio of men and women aren't the same in both sample groups, then the data would differ.",
   "needsFigure": false,
   "explanation": []
@@ -638,7 +638,7 @@
    "module": "m46885",
    "exerciseId": "eip-385"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -656,7 +656,7 @@
    "module": "m46885",
    "exerciseId": "eip-322"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Since the treatment is not the same the data might be different unless neither treatment has an effect.",
   "needsFigure": false,
   "explanation": []
@@ -672,7 +672,7 @@
    "module": "m46885",
    "exerciseId": "eip-471"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Take a simple random sample from each group. One way is by assigning a number to each patient and using a random number generator to randomly select patients.",
   "needsFigure": false,
   "explanation": []
@@ -688,7 +688,7 @@
    "module": "m46885",
    "exerciseId": "eip-581"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "He has used a simple random sample method.",
   "needsFigure": false,
   "explanation": []
@@ -719,7 +719,7 @@
    "module": "m46885",
    "exerciseId": "eip-695"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "The researchers are studying different groups, so there will be some variation in the data.",
   "needsFigure": false,
   "explanation": []
@@ -735,7 +735,7 @@
    "module": "m46885",
    "exerciseId": "eip-381"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -753,7 +753,7 @@
    "module": "m46885",
    "exerciseId": "eip-680"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "There are many school-aged children and young adults in the United States, and the study was done at only one school, so the sample size is not large enough to reflect the population.",
   "needsFigure": false,
   "explanation": []
@@ -769,7 +769,7 @@
    "module": "m46885",
    "exerciseId": "eip-162"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "Even though the specific data support each researcher’s conclusions, the different results suggest that more data need to be collected before the researchers can reach a conclusion.",
   "needsFigure": false,
   "explanation": []
@@ -785,7 +785,7 @@
    "module": "m46885",
    "exerciseId": "eip-528"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -803,7 +803,7 @@
    "module": "m46885",
    "exerciseId": "eip-370"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "There is not enough information given to judge if either one is correct or incorrect.",
   "needsFigure": false,
   "explanation": []
@@ -819,7 +819,7 @@
    "module": "m46885",
    "exerciseId": "eip-78"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "The second study is more reliable, because the company would be interested in showing results that favored a higher rate of improvement from patients using their software. The data may be skewed; however, the American Medical Association is not concerned with the success of the software and so should be objective.",
   "needsFigure": false,
   "explanation": []
@@ -835,7 +835,7 @@
    "module": "m46885",
    "exerciseId": "eip-297"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "The software program seems to work because the second study shows that more patients improve while using the software than not. Even though the difference is not as large as that in the first study, the results from the second study are likely more reliable and still show improvement.",
   "needsFigure": false,
   "explanation": []
@@ -851,7 +851,7 @@
    "module": "m46885",
    "exerciseId": "eip-242"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -869,7 +869,7 @@
    "module": "m46885",
    "exerciseId": "eip-668"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -966,7 +966,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "number of tickets sold to a concert",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of tickets sold to a concert",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -981,7 +981,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "percent of body fat",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\npercent of body fat",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -996,7 +996,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "favorite baseball team",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nfavorite baseball team",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1011,7 +1011,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "time in line to buy groceries",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\ntime in line to buy groceries",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1026,7 +1026,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "number of students enrolled at Evergreen Valley College",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of students enrolled at Evergreen Valley College",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1041,7 +1041,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "most-watched television show",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nmost-watched television show",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1056,7 +1056,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "brand of toothpaste",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nbrand of toothpaste",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1071,7 +1071,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "distance to the closest movie theatre",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\ndistance to the closest movie theatre",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1086,7 +1086,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "age of executives in Fortune 500 companies",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nage of executives in Fortune 500 companies",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1101,7 +1101,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "number of competing computer spreadsheet software packages",
+  "stem": "Identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.\n\nnumber of competing computer spreadsheet software packages",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
@@ -1122,7 +1122,7 @@
    "module": "m46885",
    "exerciseId": "element-636"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
+  "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "options": [
    "qualitative",
    "quantitative discrete",
@@ -1143,7 +1143,7 @@
    "module": "m46885",
    "exerciseId": "fs-idm58778016"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
+  "context": "A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "options": [
    "qualitative",
    "quantitative discrete",
@@ -1579,7 +1579,7 @@
    "module": "m46882",
    "exerciseId": "element-87"
   },
-  "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
+  "context": "the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
   "options": [
    "0.0768",
    "0.0659",
@@ -1601,7 +1601,7 @@
    "module": "m46882",
    "exerciseId": "element-627"
   },
-  "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
+  "context": "the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
   "options": [
    "0.3480",
    "0.9231",
@@ -1762,7 +1762,7 @@
    "test": "Practice Test 1",
    "n": 1
   },
-  "context": "Use the following information to answer the next three exercises. A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
+  "context": "A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
   "modelSolution": "[PARTS]\na. population: all the shopping visits by all the store’s customers\nb. sample: the 1,000 visits drawn for the study\nc. parameter: the average expenditure on produce per visit by all the store’s customers\nd. statistic: the average expenditure on produce per visit by the sample of 1,000\ne. variable: the expenditure on produce for each visit\nf. data: the dollar amounts spent on produce; for instance, $15.40, $11.53, etc\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -1778,7 +1778,7 @@
    "test": "Practice Test 1",
    "n": 2
   },
-  "context": "Use the following information to answer the next three exercises. A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
+  "context": "A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
   "options": [
    "qualitative",
    "quantitative-continuous",
@@ -1799,7 +1799,7 @@
    "test": "Practice Test 1",
    "n": 3
   },
-  "context": "Use the following information to answer the next three exercises. A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
+  "context": "A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
   "options": [
    "population",
    "sample",
@@ -1822,7 +1822,7 @@
    "test": "Practice Test 1",
    "n": 4
   },
-  "context": "Use the following information to answer the next two exercises. A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
+  "context": "A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
   "options": [
    "cluster",
    "stratified",
@@ -1844,7 +1844,7 @@
    "test": "Practice Test 1",
    "n": 5
   },
-  "context": "Use the following information to answer the next two exercises. A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
+  "context": "A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
   "options": [
    "qualitative",
    "quantitative-continuous",
@@ -1922,7 +1922,7 @@
    "test": "Practice Test 1",
    "n": 9
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
+  "context": "A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "modelSolution": "[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | 0.25 | 0.25\n5–10 | 30 | 0.30 | 0.55\n> 10 | 45 | 0.45 | 1.00\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1938,7 +1938,7 @@
    "test": "Practice Test 1",
    "n": 10
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
+  "context": "A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "answer": 0.75,
   "tolerance": {
    "abs": 0.006,
@@ -1961,7 +1961,7 @@
    "test": "Practice Test 1",
    "n": 11
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
+  "context": "A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "answer": 0.55,
   "tolerance": {
    "abs": 0.006,
@@ -2226,7 +2226,7 @@
    "test": "Practice Final Exam 1",
    "n": 11
   },
-  "context": "Use the following information to answer the next three exercises: De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
+  "context": "De Anza College keeps statistics on the pass rate of students who enroll in math classes. In a sample of 1,795 students enrolled in Math 1A (1st quarter calculus), 1,428 passed the course. In a sample of 856 students enrolled in Math 1B (2nd quarter calculus), 662 passed. In general, are the pass rates of Math 1A and Math 1B statistically the same? Let A = the subscript for Math 1A and B = the subscript for Math 1B.",
   "options": [
    "Ha: pA = pB",
    "Ha: pA > pB",
@@ -2305,7 +2305,7 @@
    "test": "Chapter 3",
    "n": 1
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "options": [
    "population",
    "statistic",
@@ -2328,7 +2328,7 @@
    "test": "Chapter 3",
    "n": 2
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "options": [
    "population",
    "statistics",
@@ -2351,7 +2351,7 @@
    "test": "Chapter 3",
    "n": 3
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "options": [
    "population",
    "statistics",
@@ -2376,7 +2376,7 @@
    "test": "Chapter 3",
    "n": 4
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "options": [
    "population",
    "statistic",
@@ -2399,7 +2399,7 @@
    "test": "Chapter 3",
    "n": 5
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "options": [
    "population",
    "statistic",
@@ -2422,7 +2422,7 @@
    "test": "Chapter 3",
    "n": 6
   },
-  "context": "Use the following information to answer the next six exercises: In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
+  "context": "In a survey of 100 stocks on NASDAQ, the average percent increase for the past year was 9% for NASDAQ stocks.",
   "modelSolution": "quantitative continuous",
   "needsFigure": false,
   "explanation": []
@@ -2459,7 +2459,7 @@
    "test": "Chapter 4",
    "n": 19
   },
-  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "modelSolution": "X = the number of patients calling in claiming to have the flu, who actually have the flu.\n\nX = 0, 1, 2, …25",
   "needsFigure": false,
   "explanation": []
@@ -2475,7 +2475,7 @@
    "test": "Chapter 4",
    "n": 23
   },
-  "context": "Use the following information to answer the next two exercises: Different types of writing can sometimes be distinguished by the number of letters in the words used. A student interested in this fact wants to study the number of letters of words used by Jhumpa Lahiri in her novels. She opens a novel at random and records the number of letters of the first 250 words on the page.",
+  "context": "Different types of writing can sometimes be distinguished by the number of letters in the words used. A student interested in this fact wants to study the number of letters of words used by Jhumpa Lahiri in her novels. She opens a novel at random and records the number of letters of the first 250 words on the page.",
   "options": [
    "qualitative",
    "quantitative continuous",
@@ -2496,7 +2496,7 @@
    "test": "Chapter 4",
    "n": 24
   },
-  "context": "Use the following information to answer the next two exercises: Different types of writing can sometimes be distinguished by the number of letters in the words used. A student interested in this fact wants to study the number of letters of words used by Jhumpa Lahiri in her novels. She opens a novel at random and records the number of letters of the first 250 words on the page.",
+  "context": "Different types of writing can sometimes be distinguished by the number of letters in the words used. A student interested in this fact wants to study the number of letters of words used by Jhumpa Lahiri in her novels. She opens a novel at random and records the number of letters of the first 250 words on the page.",
   "modelSolution": "all words used by Tom Clancy in his novels",
   "needsFigure": false,
   "explanation": []
@@ -2512,7 +2512,7 @@
    "test": "Chapter 5",
    "n": 25
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
   "modelSolution": "[PARTS]\na. 24%\nb. 27%\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2528,7 +2528,7 @@
    "test": "Chapter 5",
    "n": 26
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
   "modelSolution": "qualitative",
   "needsFigure": false,
   "explanation": []
@@ -2544,7 +2544,7 @@
    "test": "Chapter 5",
    "n": 30
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nUse the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nWe randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
   "modelSolution": "B(10, 0.76)",
   "needsFigure": false,
   "explanation": []
@@ -2613,7 +2613,7 @@
    "test": "Chapter 11",
    "n": 116
   },
-  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:\n\n[FIGURE]",
+  "context": "A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:\n\n[FIGURE]",
   "answer": 14.0,
   "tolerance": {
    "abs": 0.05,

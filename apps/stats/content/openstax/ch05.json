@@ -187,175 +187,175 @@
      "id": "fs-idp4769248",
      "problem": "What type of distribution is this?",
      "solution": null,
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idm13169200",
      "problem": "In this distribution, outcomes are equally likely. What does this mean?",
      "solution": "It means that the value of x is just as likely to be any number between 1.5 and 4.5.",
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp93850064",
      "problem": "What is the height of f(x) for the continuous probability distribution?",
      "solution": null,
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idm8575520",
      "problem": "What are the constraints for the values of x?",
      "solution": "1.5 ≤ x ≤ 4.5",
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp126140448",
      "problem": "Graph P(2 < x < 3).",
      "solution": null,
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp86093264",
      "problem": "What is P(2 < x < 3)?",
      "solution": "0.3333",
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idm8617328",
      "problem": "What is P(x < 3.5| x < 4)?",
      "solution": null,
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp159814864",
      "problem": "What is P(x = 1.5)?",
      "solution": "zero",
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp82566640",
      "problem": "What is the 90th percentile of square footage for homes?",
      "solution": null,
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idp64873328",
      "problem": "Find the probability that a randomly selected home has more than 3,000 square feet given that you already know the house has more than 2,000 square feet.",
      "solution": "0.6",
-     "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
+     "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5)."
     },
     {
      "id": "fs-idm886512",
      "problem": "What is a? What does it represent?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp67116592",
      "problem": "What is b? What does it represent?",
      "solution": "b is 12, and it represents the highest value of x.",
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp93994000",
      "problem": "What is the probability density function?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp104926176",
      "problem": "What is the theoretical mean?",
      "solution": "six",
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp97956800",
      "problem": "What is the theoretical standard deviation?",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp172321904",
      "problem": "Draw the graph of the distribution for P(x > 9).",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp49233616",
      "problem": "Find P(x > 9).",
      "solution": null,
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp16246272",
      "problem": "Find the 40th percentile.",
      "solution": "4.8",
-     "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12)."
+     "context": "A distribution is given as X ~ U(0, 12)."
     },
     {
      "id": "fs-idp73318288",
      "problem": "What is being measured here?",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp109888",
      "problem": "In words, define the random variable X.",
      "solution": "X = The age (in years) of cars in the staff parking lot",
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp80642336",
      "problem": "Are the data discrete or continuous?",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp74722352",
      "problem": "The interval of values for x is ______.",
      "solution": "0.5 to 9.5",
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp64667664",
      "problem": "The distribution for X is ______.",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp54832288",
      "problem": "Write the probability density function.",
      "solution": "f(x) = 1/9 where x is between 0.5 and 9.5, inclusive.",
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp50471968",
      "problem": "Graph the probability distribution.\n\n[PARTS]\na. Sketch the graph of the probability distribution. [FIGURE]\nb. Identify the following values: [PARTS] i. Lowest value for x̄: _______ ii. Highest value for x̄: _______ iii. Height of the rectangle: _______ iv. Label for x-axis (words): _______ v. Label for y-axis (words): _______ [/PARTS]\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "eip-97",
      "problem": "Find the average age of the cars in the lot.",
      "solution": "μ = 5",
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "fs-idp4577984",
      "problem": "Find the probability that a randomly chosen car in the lot was less than four years old.\n\n[PARTS]\na. Sketch the graph, and shade the area of interest. [FIGURE]\nb. Find the probability. P(x < 4) = _______\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "eip-709",
      "problem": "Considering only the cars less than 7.5 years old, find the probability that a randomly chosen car in the lot was less than four years old.\n\n[PARTS]\na. Sketch the graph, shade the area of interest. [FIGURE]\nb. Find the probability. P(x < 4|x < 7.5) = _______\n[/PARTS]",
      "solution": "[PARTS]\na. Answers may vary.\nb. 3.5/7\n[/PARTS]",
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "eip-174",
      "problem": "What has changed in the previous two problems that made the solutions different?",
      "solution": null,
-     "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
+     "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
     {
      "id": "eip-332",
@@ -400,7 +400,7 @@
       "four"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
+     "context": "The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
     },
     {
      "id": "eip-255",
@@ -413,7 +413,7 @@
       "three"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
+     "context": "The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
     },
     {
      "id": "eip-412",
@@ -426,7 +426,7 @@
       "0.75"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
+     "context": "The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution."
     },
     {
      "id": "fs-idp57726432",
@@ -529,103 +529,103 @@
      "id": "fs-idp88695904",
      "problem": "What type of distribution is this?",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp131072752",
      "problem": "Are outcomes equally likely in this distribution? Why or why not?",
      "solution": "No, outcomes are not equally likely. In this distribution, more people require a little bit of time, and fewer people require a lot of time, so it is more likely that someone will require less time.",
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp103439344",
      "problem": "What is m? What does it represent?",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp66812752",
      "problem": "What is the mean?",
      "solution": "five",
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp2024800",
      "problem": "What is the standard deviation?",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idm6140336",
      "problem": "State the probability density function.",
      "solution": "f(x) = 0.2e-0.2x",
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp25279376",
      "problem": "Graph the distribution.",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idm18193360",
      "problem": "Find P(2 < x < 10).",
      "solution": "0.5350",
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idm38664656",
      "problem": "Find P(x > 6).",
      "solution": null,
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp55954320",
      "problem": "Find the 70th percentile.",
      "solution": "6.02",
-     "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
+     "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)"
     },
     {
      "id": "fs-idp102397024",
      "problem": "What is m?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idp2772016",
      "problem": "What is the probability density function?",
      "solution": "f(x) = 0.75e-0.75x",
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idm34697936",
      "problem": "What is the cumulative distribution function?",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idp110613552",
      "problem": "Draw the distribution.",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idm34988928",
      "problem": "Find P(x < 4).",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idm14412736",
      "problem": "Find the 30th percentile.",
      "solution": "0.4756",
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idp23631744",
      "problem": "Find the median.",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75)."
+     "context": "A distribution is given as X ~ Exp(0.75)."
     },
     {
      "id": "fs-idp51932320",
@@ -636,13 +636,13 @@
      "id": "fs-idp107050752",
      "problem": "What is being measured here?",
      "solution": null,
-     "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14."
+     "context": "Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14."
     },
     {
      "id": "fs-idm50791120",
      "problem": "Are the data discrete or continuous?",
      "solution": "continuous",
-     "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14."
+     "context": "Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14."
     },
     {
      "id": "fs-idp50908000",
@@ -705,7 +705,7 @@
      "id": "fs-idp164419184",
      "problem": "The decay rate is:\n\n[DATA]0.3333, 0.5000, 2, 3[/DATA]",
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
+     "context": "The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
     },
     {
      "id": "fs-idp147488160",
@@ -718,7 +718,7 @@
       "0.9997"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
+     "context": "The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
     },
     {
      "id": "fs-idm3440688",
@@ -731,7 +731,7 @@
       "5.5452"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
+     "context": "The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution."
     },
     {
      "id": "fs-idp45849728",

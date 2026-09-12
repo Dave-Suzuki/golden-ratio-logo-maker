@@ -48,103 +48,103 @@
      "id": "fs-idm11913472",
      "problem": "Complete the table below using the data provided.\n\n[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 |\n5 | 0.10\n6 | 0.05\n[/TABLE]",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 | 0.10\n5 | 0.10\n6 | 0.05\n[/TABLE]",
-     "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
     },
     {
      "id": "fs-idm3556768",
      "problem": "P(x = 4) = _______",
      "solution": "0.10",
-     "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
     },
     {
      "id": "fs-idp21614176",
      "problem": "P(x ≥ 5) = _______",
      "solution": "0.10 + 0.05 = 0.15",
-     "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
     },
     {
      "id": "fs-idp88464496",
      "problem": "On average, how long would you expect a new hire to stay with the company?",
      "solution": "0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years",
-     "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
     },
     {
      "id": "fs-idp18018320",
      "problem": "What does the column “P(x)” sum to?",
      "solution": "1",
-     "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
     },
     {
      "id": "fs-idm2415264",
      "problem": "Define the random variable X.",
      "solution": "Let X = the number of batches that the baker will sell.",
-     "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
+     "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
     },
     {
      "id": "fs-idm14204160",
      "problem": "What is the probability the baker will sell more than one batch? P(x > 1) = _______",
      "solution": "0.35 + 0.40 + 0.10 = 0.85",
-     "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
+     "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
     },
     {
      "id": "fs-idp60250832",
      "problem": "What is the probability the baker will sell exactly one\nbatch? P(x = 1) = _______",
      "solution": "0.15",
-     "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
+     "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
     },
     {
      "id": "fs-idp100680048",
      "problem": "On average, how many batches should the baker make?",
      "solution": "1(0.15) + 2(0.35) + 3(0.40) + 4(0.10) = 0.15 + 0.70 + 1.20 + 0.40 = 2.45",
-     "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
+     "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]"
     },
     {
      "id": "fs-idp80631856",
      "problem": "Define the random variable X.",
      "solution": "Let X = the number of days Ellen attends practice per week.",
-     "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
+     "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
     },
     {
      "id": "fs-idp105752304",
      "problem": "Construct a probability distribution table for the data.",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.04\n2 | 0.08\n3 | 0.85\n[/TABLE]",
-     "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
+     "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
     },
     {
      "id": "fs-idm12290976",
      "problem": "We know that for a probability distribution function to be discrete, it must have two characteristics. One is that the sum of the probabilities is one. What is the other characteristic?",
      "solution": "Each probability is between zero and one, inclusive.",
-     "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
+     "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random."
     },
     {
      "id": "fs-idp45989040",
      "problem": "Define the random variable X.",
      "solution": "Let X = the number of events Javier volunteers for each month.",
-     "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
+     "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
     },
     {
      "id": "fs-idp99208272",
      "problem": "What values does x take on?",
      "solution": "0, 1, 2, 3, 4, 5",
-     "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
+     "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
     },
     {
      "id": "fs-idm44182368",
      "problem": "Construct a PDF table.",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.05\n1 | 0.05\n2 | 0.10\n3 | 0.20\n4 | 0.25\n5 | 0.35\n[/TABLE]",
-     "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
+     "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
     },
     {
      "id": "fs-idm51474800",
      "problem": "Find the probability that Javier volunteers for less than three events each month. P(x < 3) = _______",
      "solution": "0.05 + 0.05 + 0.10 = 0.20",
-     "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
+     "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
     },
     {
      "id": "fs-idm38193104",
      "problem": "Find the probability that Javier volunteers for at least one event each month. P(x > 0) = _______",
      "solution": "1 – 0.05 = 0.95",
-     "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
+     "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time."
     }
    ],
    "homework": [
@@ -251,73 +251,73 @@
      "id": "fs-idp57624976",
      "problem": "Define the random variable X.",
      "solution": "Let X = the number of years a physics major will spend doing post-graduate research.",
-     "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
+     "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
     },
     {
      "id": "fs-idp12372960",
      "problem": "Define P(x), or the probability of x.",
      "solution": "Let P(x) = the probability that a physics major will do post-graduate research for x years.",
-     "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
+     "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
     },
     {
      "id": "fs-idp33661936",
      "problem": "Find the probability that a physics major will do post-graduate research for four years. P(x = 4) = _______",
      "solution": "1 – 0.35 – 0.20 – 0.15 – 0.10 – 0.05 = 0.15",
-     "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
+     "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
     },
     {
      "id": "fs-idm517184",
      "problem": "FInd the probability that a physics major will do post-graduate research for at most three years. P(x ≤ 3) = _______",
      "solution": "0.35 + 0.20 + 0.15 = 0.70",
-     "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
+     "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
     },
     {
      "id": "fs-idp96964736",
      "problem": "On average, how many years would you expect a physics major to spend doing post-graduate research?",
      "solution": "1(0.35) + 2(0.20) + 3(0.15) + 4(0.15) + 5(0.10) + 6(0.05) = 0.35 + 0.40 + 0.45 + 0.60 + 0.50 + 0.30 = 2.6 years",
-     "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
+     "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]"
     },
     {
      "id": "fs-idp129333088",
      "problem": "Complete the table below using the data provided.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.10 |\n2 | 0.05 |\n3 | 0.10 |\n4 | |\n5 | 0.30 |\n6 | 0.20 |\n7 | 0.10 |\n[/TABLE]",
      "solution": null,
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exerciseone",
      "problem": "In words, define the random variable X.",
      "solution": "X is the number of years a student studies ballet with the teacher.",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exercisetwo",
      "problem": "P(x = 4) = _______",
      "solution": "1 – 0.10 – 0.05 – 0.10 – 0.30 – 0.20 – 0.10 = 0.15",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exercisethree",
      "problem": "P(x < 4) = _______",
      "solution": "0.10 + 0.05 + 0.10 = 0.25",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exercisefour",
      "problem": "On average, how many years would you expect a child to study ballet with this teacher?",
      "solution": "1(0.10) + 2(0.05) + 3(0.10) + 4(0.15) + 5(0.30) + 6(0.20) + 7(0.10) = 4.5 years",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exercisefive",
      "problem": "What does the column \"P(x)\" sum to and why?",
      "solution": "The sum of the probabilities sum to one because it is a probability distribution.",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "exercisesix",
      "problem": "What does the column \"x*P(x)\" sum to and why?",
      "solution": "The sum of xP(x) = 4.5; it is the mean of the distribution.",
-     "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
+     "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]"
     },
     {
      "id": "fs-idm7617472",
@@ -500,49 +500,49 @@
      "id": "exerciseone",
      "problem": "In words, define the random variable X.",
      "solution": "X = the number that reply “yes”",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisetwo",
      "problem": "X ~ _____(_____,_____)",
      "solution": "B(8,0.713)",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisethree",
      "problem": "What values does the random variable X take on?",
      "solution": "0, 1, 2, 3, 4, 5, 6, 7, 8",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisefour",
      "problem": "Construct the probability distribution function (PDF).\n\n[TABLE]\nx | P(x)\n|\n|\n|\n|\n|\n|\n|\n|\n|\n[/TABLE]",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.00005\n1 | 0.0009\n2 | 0.0080\n3 | 0.0395\n4 | 0.1227\n5 | 0.2439\n6 | 0.3030\n7 | 0.2151\n8 | 0.0668\n[/TABLE]",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisefive",
      "problem": "On average (μ), how many would you expect to answer yes?",
      "solution": "5.7",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisesix",
      "problem": "What is the standard deviation (σ)?",
      "solution": "1.2795",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exerciseseven",
      "problem": "What is the probability that at most five of the first-year students reply “yes”?",
      "solution": "0.4151",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     },
     {
      "id": "exercisenine",
      "problem": "What is the probability that at least two of the first-year students reply “yes”?",
      "solution": "0.9990",
-     "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status."
     }
    ],
    "homework": [
@@ -555,25 +555,25 @@
      "id": "eip-idm71407792",
      "problem": "Define the random variable and list its possible values.",
      "solution": "X = the number of patients calling in claiming to have the flu, who actually have the flu.\n\nX = 0, 1, 2, ...25",
-     "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
+     "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
     },
     {
      "id": "eip-idm5233360",
      "problem": "State the distribution of X.",
      "solution": "B(25,0.04)",
-     "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
+     "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
     },
     {
      "id": "eip-idm142417552",
      "problem": "Find the probability that at least four of the 25 patients actually have the flu.",
      "solution": "0.0165",
-     "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
+     "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
     },
     {
      "id": "eip-idm188197216",
      "problem": "On average, for every 25 patients calling in, how many do you expect to have the flu?",
      "solution": "one",
-     "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
+     "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu."
     },
     {
      "id": "fs-idp24682912",
@@ -596,7 +596,7 @@
       "4.43"
      ],
      "solution": "d. 4.43",
-     "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
     },
     {
      "id": "element-861",
@@ -609,7 +609,7 @@
       "0.8903"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
     },
     {
      "id": "element-408",
@@ -622,7 +622,7 @@
       "0.2305"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
     },
     {
      "id": "eip-122",
@@ -757,37 +757,37 @@
      "id": "exerciseone",
      "problem": "In words, define the random variable X.",
      "solution": "X = the number of first-year students selected from the study until one replied \"yes\" that same-sex couples should have the right to legal marital status.",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     },
     {
      "id": "exercisetwo",
      "problem": "X ~ _____(_____,_____)",
      "solution": "G(0.713)",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     },
     {
      "id": "exercisethree",
      "problem": "What values does the random variable X take on?",
      "solution": "1,2,…",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     },
     {
      "id": "exercisefour",
      "problem": "Construct the probability distribution function (PDF). Stop at x = 6.\n\n[TABLE]\nx | P(x)\n1 |\n2 |\n3 |\n4 |\n5 |\n6 |\n[/TABLE]",
      "solution": "[TABLE]\nx | P(x)\n1 | 0.7130\n2 | 0.2046\n3 | 0.0587\n4 | 0.0169\n5 | 0.0048\n6 | 0.0014\n[/TABLE]",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     },
     {
      "id": "exercisefive",
      "problem": "On average (μ), how many first-year students would you expect to have to ask until you found one who replies \"yes?\"",
      "solution": "1.4",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     },
     {
      "id": "exercisesix",
      "problem": "What is the probability that you will need to ask fewer than three first-year students?",
      "solution": "0.9176",
-     "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
+     "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask."
     }
    ],
    "homework": [
@@ -892,31 +892,31 @@
      "id": "exerciseone",
      "problem": "In words, define the random variable X.",
      "solution": "X = the number of business majors in the sample.",
-     "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
+     "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
     },
     {
      "id": "exercisetwo",
      "problem": "X ~ _____(_____,_____)",
      "solution": "H(16, 7, 9)",
-     "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
+     "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
     },
     {
      "id": "exercisethree",
      "problem": "What values does X take on?",
      "solution": "2, 3, 4, 5, 6, 7, 8, 9",
-     "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
+     "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
     },
     {
      "id": "exercisefour",
      "problem": "Find the standard deviation.",
      "solution": "[TABLE]\nx | P(x)\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n[/TABLE]",
-     "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
+     "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
     },
     {
      "id": "fs-idp74125840",
      "problem": "On average (μ), how many would you expect to be business majors?",
      "solution": "6.26",
-     "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
+     "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample."
     }
    ],
    "homework": [
@@ -1030,37 +1030,37 @@
      "id": "fs-idm137455952",
      "problem": "Assume the event occurs independently in any given day. Define the random variable X.",
      "solution": "X ~ P(120)",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idm144498128",
      "problem": "What values does X take on?",
      "solution": "0, 1, 2, 3, 4, …",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idm120323120",
      "problem": "What is the probability of getting 150 customers in one day?",
      "solution": "0.0010",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idp38717104",
      "problem": "What is the probability of getting 35 customers in the first four hours? Assume the store is open 12 hours each day.",
      "solution": "0.0485",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idp22578880",
      "problem": "What is the probability that the store will have more than 12 customers in the first hour?",
      "solution": "0.2084",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idm69114848",
      "problem": "What is the probability that the store will have fewer than 12 customers in the first two hours?",
      "solution": "0.0214",
-     "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day."
+     "context": "On average, a clothing store gets 120 customers per day."
     },
     {
      "id": "fs-idm48809408",
@@ -1071,37 +1071,37 @@
      "id": "exerciseone",
      "problem": "Assume the event occurs independently in any given day. In words, define the random variable X.",
      "solution": "X = the number of U.S. teens who die from motor vehicle injuries per day.",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     },
     {
      "id": "exercisetwo",
      "problem": "X ~ _____(_____,_____)",
      "solution": "P(8)",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     },
     {
      "id": "exercisethree",
      "problem": "What values does X take on?",
      "solution": "0, 1, 2, 3, 4, ...",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     },
     {
      "id": "exercisefour",
      "problem": "For the given values of the random variable X, fill in the corresponding probabilities.",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.0003\n4 | 0.0573\n8 | 0.1396\n10 | 0.993\n11 | 0.0722\n15 | 0.0090\n[/TABLE]",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     },
     {
      "id": "exercisefive",
      "problem": "Is it likely that there will be no teens killed from motor vehicle injuries on any given day in the U.S? Justify your answer numerically.",
      "solution": "No",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     },
     {
      "id": "exercisesix",
      "problem": "Is it likely that there will be more than 20 teens killed from motor vehicle injuries on any given day in the U.S.? Justify your answer numerically.",
      "solution": "No",
-     "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
+     "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age."
     }
    ],
    "homework": [
@@ -1171,7 +1171,7 @@
       "the number of times Mrs. Plum’s cats wake her up."
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week."
+     "context": "The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week."
     },
     {
      "id": "fs-idp14208992",
@@ -1184,7 +1184,7 @@
       "0.0671"
      ],
      "solution": "d",
-     "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week."
+     "context": "The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week."
     }
    ],
    "bring_together": [],

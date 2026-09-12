@@ -74,7 +74,7 @@
    "module": "m47100",
    "exerciseId": "eip-510"
   },
-  "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
+  "context": "A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
   "modelSolution": "dependent variable: fee amount; independent variable: time",
   "needsFigure": false,
   "explanation": []
@@ -90,7 +90,7 @@
    "module": "m47100",
    "exerciseId": "eip-325"
   },
-  "context": "Use the following information to answer the next three exercises. A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
+  "context": "A vacation resort rents SCUBA equipment to certified divers. The resort charges an up-front fee of $25 and another fee of $12.50 an hour.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -106,7 +106,7 @@
    "module": "m47100",
    "exerciseId": "eip-22"
   },
-  "context": "Use the following information to answer the next two exercises. A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid.",
+  "context": "A credit card company charges $10 when a payment is late, and $5 a day each day the payment remains unpaid.",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -152,7 +152,7 @@
    "module": "m47100",
    "exerciseId": "eip-188"
   },
-  "context": "Use the following information to answer the next two exercises. A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x.",
+  "context": "A specialty cleaning company charges an equipment fee and an hourly labor fee. A linear equation that expresses the total amount of the fee the company charges for each session is y = 50 + 100x.",
   "modelSolution": "The y-intercept is 50 (a = 50). At the start of the cleaning, the company charges a one-time fee of $50 (this is when x = 0). The slope is 100 (b = 100). For each session, the company charges $100 for each hour they clean.",
   "needsFigure": false,
   "explanation": []
@@ -168,7 +168,7 @@
    "module": "m47100",
    "exerciseId": "eip-160"
   },
-  "context": "Use the following information to answer the next three questions. Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x.",
+  "context": "Due to erosion, a river shoreline is losing several thousand pounds of soil each year. A linear equation that expresses the total amount of soil lost per year is y = 12,000x.",
   "modelSolution": "12,000 pounds of soil",
   "needsFigure": false,
   "explanation": []
@@ -184,7 +184,7 @@
    "module": "m47100",
    "exerciseId": "eip-761"
   },
-  "context": "Use the following information to answer the next two exercises. The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading.",
+  "context": "The price of a single issue of stock can fluctuate throughout the day. A linear equation that represents the price of stock for Shipment Express is y = 15 – 1.5x where x is the number of hours passed in an eight-hour day of trading.",
   "modelSolution": "The slope is –1.5 (b = –1.5). This means the stock is losing value at a rate of $1.50 per hour. The y-intercept is $15 (a = 15). This means the price of stock before the trading day was $15.",
   "needsFigure": false,
   "explanation": []
@@ -329,7 +329,7 @@
    "module": "m47117",
    "exerciseId": "eip-141"
   },
-  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
   "modelSolution": "ŷ = 2.23 + 1.99x",
   "needsFigure": false,
   "explanation": []
@@ -345,7 +345,7 @@
    "module": "m47117",
    "exerciseId": "eip-247"
   },
-  "context": "Use the following information to answer the next five exercises. A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
+  "context": "A random sample of ten professional athletes produced the following data where x is the number of endorsements the player has and y is the amount of money made (in millions of dollars).\n\n[TABLE]\nx | y | x | y\n0 | 2 | 5 | 12\n3 | 8 | 4 | 9\n2 | 7 | 3 | 9\n1 | 3 | 0 | 3\n5 | 13 | 4 | 10\n[/TABLE]",
   "modelSolution": "The slope is 1.99 (b = 1.99). It means that for every endorsement deal a professional player gets, he gets an average of another $1.99 million in pay each year.",
   "needsFigure": false,
   "explanation": []
@@ -507,7 +507,7 @@
    "module": "m47105",
    "exerciseId": "eip-673"
   },
-  "context": "Use the following information to answer the next two exercises. An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars.",
+  "context": "An electronics retailer used regression to find a simple model to predict sales growth in the first quarter of the new year (January through March). The model is good for 90 days, where x is the day. The model can be written as follows:\n\nŷ = 101.32 + 2.48x where ŷ is in thousands of dollars.",
   "answer": 250120.0,
   "tolerance": {
    "abs": 0.05,
@@ -530,7 +530,7 @@
    "module": "m47105",
    "exerciseId": "eip-584"
   },
-  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
+  "context": "A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
   "answer": 1326.0,
   "tolerance": {
    "abs": 0.05,
@@ -553,7 +553,7 @@
    "module": "m47105",
    "exerciseId": "eip-159"
   },
-  "context": "Use the following information to answer the next three exercises. A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
+  "context": "A landscaping company is hired to mow the grass for several large properties. The total area of the properties combined is 1,350 acres. The rate at which one person can mow is as follows:\n\nŷ = 1350 – 1.2x where x is the number of hours and ŷ represents the number of acres left to mow.",
   "modelSolution": "1,125 hours, or when x = 1,125",
   "needsFigure": false,
   "explanation": []
@@ -767,7 +767,7 @@
    "module": "m47107",
    "exerciseId": "eip-984"
   },
-  "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]",
+  "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]",
   "answer": true,
   "needsFigure": true,
   "explanation": [
@@ -785,7 +785,7 @@
    "module": "m47107",
    "exerciseId": "eip-430"
   },
-  "context": "Use the following information to answer the next four exercises. The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]",
+  "context": "The scatter plot shows the relationship between hours spent studying and exam scores. The line shown is the calculated line of best fit. The correlation coefficient is 0.69.\n\n[FIGURE]",
   "modelSolution": "The potential outlier flattened the slope of the line of best fit because it was below the data set. It made the line of best fit less accurate as a predictor for the data.",
   "needsFigure": true,
   "explanation": []
@@ -883,7 +883,7 @@
    "module": "m47107",
    "exerciseId": "element-952"
   },
-  "context": "Use the following information to answer the next two exercises. The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]",
+  "context": "The cost of a leading liquid laundry detergent in different sizes is given in the table below.\n\n[TABLE]\nSize (ounces) | Cost ($) | Cost per ounce\n16 | 3.99 |\n32 | 4.99 |\n64 | 5.99 |\n200 | 10.99 |\n[/TABLE]",
   "modelSolution": "[PARTS]\na. [TABLE] Size (ounces) | Cost ($) | cents/oz 16 | 3.99 | 24.94 32 | 4.99 | 15.59 64 | 5.99 | 9.36 200 | 10.99 | 5.50 [/TABLE]\nb. Check student’s solution.\nc. There is a linear relationship for the sizes 16 through 64, but that linear trend does not continue to the 200-oz size.\nd. ŷ = 20.2368 – 0.0819x\ne. r = –0.8086\nf. 40-oz: 16.96 cents/oz\ng. 90-oz: 12.87 cents/oz\nh. The relationship is not linear; the least squares line is not appropriate.\ni. no outliers\nj. No, you would be extrapolating. The 300-oz size is outside the range of x.\nk. slope = –0.08194; for each additional ounce in size, the cost per ounce decreases by 0.082 cents.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -998,7 +998,7 @@
    "test": "Practice Test 4",
    "n": 5
   },
-  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "context": "For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
   "modelSolution": "The independent variable is the hours worked on a car. The dependent variable is the total labor charges to fix a car.",
   "needsFigure": false,
   "explanation": []
@@ -1014,7 +1014,7 @@
    "test": "Practice Test 4",
    "n": 6
   },
-  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "context": "For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
   "modelSolution": "Let y = the total charge, and x the number of hours required. The equation is: y = 55x + 75\nThe slope is 55 and the intercept is 75.",
   "needsFigure": false,
   "explanation": []
@@ -1030,7 +1030,7 @@
    "test": "Practice Test 4",
    "n": 7
   },
-  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "context": "For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
   "modelSolution": "y = 55(3.5) + 75 = 267.50",
   "needsFigure": false,
   "explanation": []
@@ -1046,7 +1046,7 @@
    "test": "Practice Test 4",
    "n": 8
   },
-  "context": "Use the following information to answer the next four exercises. For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
+  "context": "For the labor costs of doing repairs, an auto mechanic charges a flat fee of $75 per car, plus an hourly rate of $55.",
   "modelSolution": "Because the intercept is included in both equations, while you are only interested in the difference in costs, you do not need to include the intercept in the solution. The difference in number of hours required is: 6.3 – 2.4 = 3.9.\nMultiply this difference by the cost per hour: 55(3.9) = 214.5.\nThe difference in cost between the two jobs is $214.50.",
   "needsFigure": false,
   "explanation": []
@@ -1122,7 +1122,7 @@
    "test": "Practice Test 4",
    "n": 13
   },
-  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "context": "Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
   "modelSolution": "r(s_y/s_x)=0.73(9.6/4.0)=1.752≈1.75",
   "needsFigure": false,
   "explanation": []
@@ -1138,7 +1138,7 @@
    "test": "Practice Test 4",
    "n": 14
   },
-  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "context": "Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
   "modelSolution": "a=ȳ−bx̄=141.6−1.752(68.4)=21.7632≈21.76",
   "needsFigure": false,
   "explanation": []
@@ -1154,7 +1154,7 @@
    "test": "Practice Test 4",
    "n": 15
   },
-  "context": "Use the following information to answer the next four exercises. Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
+  "context": "Height (in inches) and weight (In pounds) in a sample of college students have a linear relationship with the following summary statistics:\nx̄ = 68.4\nȳ =141.6\nsx = 4.0\nsy = 9.6\nr = 0.73\nLet Y = weight and X = height, and write the regression equation in the form:\nŷ=a+bx",
   "modelSolution": "ŷ=21.76+1.75(68)=140.76",
   "needsFigure": false,
   "explanation": []
@@ -1260,7 +1260,7 @@
    "test": "Practice Test 4",
    "n": 22
   },
-  "context": "Use the following information to answer the next two exercises. A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
+  "context": "A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
   "modelSolution": "ŷ=25+16(5)=105",
   "needsFigure": false,
   "explanation": []
@@ -1276,7 +1276,7 @@
    "test": "Practice Test 4",
    "n": 23
   },
-  "context": "Use the following information to answer the next two exercises. A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
+  "context": "A study relating the grams of potassium (Y) to the grams of fiber (X) per serving in enriched flour products (bread, rolls, etc.) produced the equation:\nŷ=25+16x",
   "modelSolution": "Because the intercept appears in both predicted values, you can ignore it in calculating a predicted difference score. The difference in grams of fiber per serving is 6 – 3 = 3 and the predicted difference in grams of potassium per serving is (16)(3) = 48.",
   "needsFigure": false,
   "explanation": []
@@ -1415,7 +1415,7 @@
    "test": "Practice Final Exam 2",
    "n": 30
   },
-  "context": "Use the following information to answer the next three exercises: A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
+  "context": "A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
   "options": [
    "ŷ = 0.0094 − 79.96x",
    "ŷ = 79.96 + 0.0094x",

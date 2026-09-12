@@ -285,7 +285,7 @@
       "Cannot be determined"
      ],
      "solution": "c",
-     "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]"
+     "context": "Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]"
     },
     {
      "id": "element-195",
@@ -298,7 +298,7 @@
       "convenience"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next two exercises: Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]"
+     "context": "Suppose 111 people who shopped in a special T-shirt store were asked the number of T-shirts they own costing more than $19 each.\n\n[FIGURE]"
     },
     {
      "id": "fs-idp13768528",
@@ -473,37 +473,37 @@
      "id": "exercisenine",
      "problem": "First quartile = _______",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "exerciseten",
      "problem": "Second quartile = median = 50th percentile = _______",
      "solution": "4",
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "exerciseeleven",
      "problem": "Third quartile = _______",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "exercisetwelve",
      "problem": "Interquartile range (IQR) = _____ – _____ = _____",
      "solution": "6 – 4 = 2",
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "exercisethirteen",
      "problem": "10th percentile = _______",
      "solution": null,
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "exercisefourteen",
      "problem": "70th percentile = _______",
      "solution": "6",
-     "context": "Use the following information to answer the next six exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     }
    ],
    "homework": [
@@ -588,13 +588,13 @@
      "id": "fs-idm23427584",
      "problem": "Construct a box plot below. Use a ruler to measure and scale accurately.",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     },
     {
      "id": "fs-idm39140224",
      "problem": "Looking at your box plot, does it appear that the data are concentrated together, spread out evenly, or concentrated in some areas, but not in others? How can you tell?",
      "solution": "More than 25% of salespersons sell four cars in a typical week. You can see this concentration in the box plot because the first quartile is equal to the median. The top 25% and the bottom 25% are spread out evenly; the whiskers have the same length.",
-     "context": "Use the following information to answer the next two exercises. Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars."
     }
    ],
    "homework": [
@@ -719,37 +719,37 @@
      "id": "fs-idp3713376",
      "problem": "Calculate the mean.",
      "solution": "Mean: 16 + 17 + 19 + 20 + 20 + 21 + 23 + 24 + 25 + 25 + 25 + 26 + 26 + 27 + 27 + 27 + 28 + 29 + 30 + 32 + 33 + 33 + 34 + 35 + 37 + 39 + 40 = 738;\n\n738/27 = 27.33",
-     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
+     "context": "The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
     },
     {
      "id": "fs-idp23937584",
      "problem": "Identify the median.",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
+     "context": "The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
     },
     {
      "id": "fs-idm35941040",
      "problem": "Identify the mode.",
      "solution": "The most frequent lengths are 25 and 27, which occur three times. Mode = 25, 27",
-     "context": "Use the following information to answer the next three exercises: The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
+     "context": "The following data show the lengths of boats moored in a marina. The data are ordered from smallest to largest:\n\n[DATA]16, 17, 19, 20, 20, 21, 23, 24, 25, 25, 25, 26, 26, 27, 27, 27, 28, 29, 30, 32, 33, 33, 34, 35, 37, 39, 40[/DATA]"
     },
     {
      "id": "exercisefour",
      "problem": "sample mean = x̄ = _______",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
     },
     {
      "id": "eip-83",
      "problem": "median = _______",
      "solution": "4",
-     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
     },
     {
      "id": "eip-630",
      "problem": "mode = _______",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
+     "context": "Sixty-five randomly selected car salespersons were asked the number of cars they generally sell in one week. Fourteen people answered that they generally sell three cars; nineteen generally sell four cars; twelve generally sell five cars; nine generally sell six cars; eleven generally sell seven cars. Calculate the following:"
     }
    ],
    "homework": [
@@ -774,7 +774,7 @@
      "id": "element-84",
      "problem": "What is the IQR?\n\n[DATA]8, 11, 15, 35[/DATA]",
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+     "context": "We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
     },
     {
      "id": "element-720",
@@ -787,13 +787,13 @@
       "22.65"
      ],
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+     "context": "We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
     },
     {
      "id": "element-346",
      "problem": "Is this a sample or the entire population?\n\n[PARTS]\na. sample\nb. entire population\nc. neither\n[/PARTS]",
      "solution": "b",
-     "context": "Use the following information to answer the next three exercises: We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
+     "context": "We are interested in the number of years students in a particular elementary statistics class have lived in California. The information in the following table is from the entire section.\n\n[TABLE]\nNumber of years | Frequency | Number of years | Frequency\n7 | 1 | 22 | 1\n14 | 3 | 23 | 1\n15 | 1 | 26 | 1\n18 | 1 | 40 | 2\n19 | 4 | 42 | 2\n20 | 3 | |\n| | | Total = 20\n[/TABLE]"
     }
    ],
    "summary": "The mean and the median can be calculated to help you find the \"center\" of a data set. The mean is the best estimate for the actual data set, but the median is the best measurement when a data set contains several outliers or extreme values. The mode will tell you the most frequently occurring datum (or data) in your data set. The mean, median, and mode are extremely helpful when you need to analyze your data, but if your data set consists of ranges which lack specific values, the mean may seem impossible to calculate. However, the mean can be approximated if you add the lower boundary with the upper boundary and divide by two to find the midpoint of each interval. Multiply each midpoint by the number of values found in the corresponding range. Divide the sum of these values by the total number of data values in the set.",
@@ -843,19 +843,19 @@
      "id": "fs-idm89697712",
      "problem": "[DATA]1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5[/DATA]",
      "solution": "The data are symmetrical. The median is 3 and the mean is 2.85. They are close, and the mode lies close to the middle of the data, so the data are symmetrical.",
-     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+     "context": "State whether the data are symmetrical, skewed to the left, or skewed to the right."
     },
     {
      "id": "fs-idm125692000",
      "problem": "[DATA]16, 17, 19, 22, 22, 22, 22, 22, 23[/DATA]",
      "solution": null,
-     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+     "context": "State whether the data are symmetrical, skewed to the left, or skewed to the right."
     },
     {
      "id": "fs-idm65822528",
      "problem": "[DATA]87, 87, 87, 87, 87, 88, 89, 89, 90, 91[/DATA]",
      "solution": "The data are skewed right. The median is 87.5 and the mean is 88.2. Even though they are close, the mode lies to the left of the middle of the data, and there are many more instances of 87 than any other number, so the data are skewed right.",
-     "context": "Use the following information to answer the next three exercises: State whether the data are symmetrical, skewed to the left, or skewed to the right."
+     "context": "State whether the data are symmetrical, skewed to the left, or skewed to the right."
     },
     {
      "id": "fs-idm8768736",
@@ -994,13 +994,13 @@
      "id": "fs-idm25484256",
      "problem": "Use a graphing calculator or computer to find the standard deviation and round to the nearest tenth.",
      "solution": "s = 34.5",
-     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+     "context": "The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
     },
     {
      "id": "fs-idm62691728",
      "problem": "Find the value that is one standard deviation below the mean.",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises: The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
+     "context": "The following data are the distances between 20 retail stores and a large distribution center. The distances are in miles.\n\n29; 37; 38; 40; 58; 67; 68; 69; 76; 86; 87; 95; 96; 96; 99; 106; 112; 127; 145; 150"
     },
     {
      "id": "fs-idm9402560",
@@ -1023,55 +1023,55 @@
      "id": "exercisetwenty",
      "problem": "A sample of 11 years is taken. About how many are expected to have a FTES of 1014 or above? Explain how you determined your answer.",
      "solution": "The median value is the middle value in the ordered list of data values. The median value of a set of 11 will be the 6th number in order. Six years will have totals at or above the median.",
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "exercisetwentyone",
      "problem": "75% of all years have an FTES:\n\n[PARTS]\na. at or below: _____\nb. at or above: _____\n[/PARTS]",
      "solution": null,
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "exercisetwentytwo",
      "problem": "The population standard deviation = _____",
      "solution": "474 FTES",
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "exercisetwentythree",
      "problem": "What percent of the FTES were from 528.5 to 1447.5? How do you know?",
      "solution": null,
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "exercisetwentyfour",
      "problem": "What is the IQR? What does the IQR represent?",
      "solution": "919",
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "exercisetwentyfive",
      "problem": "How many standard deviations away from the mean is the median?\n\nAdditional Information: The population FTES for a specific six-year period was given in an updated report. The data are reported here.\n\n[TABLE]\nYear | 1 | 2 | 3 | 4 | 5 | 6\nTotal FTES | 1,585 | 1,690 | 1,735 | 1,935 | 2,021 | 1,890\n[/TABLE]",
      "solution": null,
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "eip-746",
      "problem": "Calculate the mean, median, standard deviation, the first quartile, the third quartile and the IQR. Round to one decimal place.",
      "solution": "[LIST]\nmean = 1,809.3\nmedian = 1,812.5\nstandard deviation = 151.2\nfirst quartile = 1,690\nthird quartile = 1,935\nIQR = 245\n[/LIST]",
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "eip-279",
      "problem": "What additional information is needed to construct a box plot for the FTES for Years 1 to 6 and a box plot for the 29-year period shown earlier?",
      "solution": null,
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "eip-975",
      "problem": "Compare the IQR for the previous 29-year period with the IQR for the six-year period shown in the table below. Why do you suppose the IQRs are so different?",
      "solution": "Hint: Think about the number of years covered by each time period and what happened to higher education during those periods.",
-     "context": "Use the following information to answer the next nine exercises: The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
+     "context": "The population parameters below describe the full-time equivalent number of students (FTES) each year at a local community college over a 29-year period.\n\n[LIST]\nμ = 1000 FTES\nmedian = 1,014 FTES\nσ = 474 FTES\nfirst quartile = 528.5 FTES\nthird quartile = 1,447.5 FTES\nn = 29 years\n[/LIST]"
     },
     {
      "id": "element-844",
@@ -1146,7 +1146,7 @@
      "id": "element-290",
      "problem": "The 80th percentile is _____\n\n[DATA]5, 80, 3, 4[/DATA]",
      "solution": null,
-     "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
+     "context": "X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
     },
     {
      "id": "element-867",
@@ -1159,7 +1159,7 @@
       "Cannot be determined"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next two exercises. X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
+     "context": "X = the number of days per week that 100 clients use a particular exercise facility.\n\n[TABLE]\nx | Frequency\n0 | 3\n1 | 12\n2 | 33\n3 | 28\n4 | 11\n5 | 9\n6 | 4\n[/TABLE]"
     },
     {
      "id": "eip-961",

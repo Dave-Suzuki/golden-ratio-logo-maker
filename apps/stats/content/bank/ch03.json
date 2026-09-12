@@ -73,7 +73,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm49682256"
   },
-  "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti.",
+  "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti.",
   "modelSolution": "P(N) = 15/42 = 5/14 = 0.36",
   "needsFigure": false,
   "explanation": []
@@ -89,7 +89,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm119514368"
   },
-  "context": "Use the following information to answer the next four exercises. A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti.",
+  "context": "A box is filled with several party favors. It contains 12 hats, 15 noisemakers, ten finger traps, and five bags of confetti. One party favor is chosen from the box at random.\n\nLet H = the event of getting a hat.\n\nLet N = the event of getting a noisemaker.\n\nLet F = the event of getting a finger trap.\n\nLet C = the event of getting a bag of confetti.",
   "modelSolution": "P(C) = 5/42 = 0.12",
   "needsFigure": false,
   "explanation": []
@@ -105,7 +105,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm80518976"
   },
-  "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
+  "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
   "modelSolution": "P(G) = 20/150 = 2/15 = 0.13",
   "needsFigure": false,
   "explanation": []
@@ -121,7 +121,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm48493856"
   },
-  "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
+  "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
   "modelSolution": "P(R) = 22/150 = 11/75 = 0.15",
   "needsFigure": false,
   "explanation": []
@@ -137,7 +137,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm53901776"
   },
-  "context": "Use the following information to answer the next six exercises. A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
+  "context": "A jar of 150 jelly beans contains 22 red jelly beans, 38 yellow, 20 green, 28 purple, 26 blue, and the rest are orange. One jelly bean is chosen from the box at random.\n\nLet B = the event of getting a blue jelly bean\n\nLet G = the event of getting a green jelly bean.\n\nLet O = the event of getting an orange jelly bean.\n\nLet P = the event of getting a purple jelly bean.\n\nLet R = the event of getting a red jelly bean.\n\nLet Y = the event of getting a yellow jelly bean.",
   "modelSolution": "P(O) = 150-22-38-20-28-26/150 = 16/150 = 8/75 = 0.11",
   "needsFigure": false,
   "explanation": []
@@ -153,7 +153,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm9492064"
   },
-  "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
+  "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
   "modelSolution": "P(E) = 47/194 = 0.24",
   "needsFigure": false,
   "explanation": []
@@ -169,7 +169,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm3781600"
   },
-  "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
+  "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
   "modelSolution": "P(N) = 23/194 = 0.12",
   "needsFigure": false,
   "explanation": []
@@ -185,7 +185,7 @@
    "module": "m46942",
    "exerciseId": "fs-idp14140208"
   },
-  "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
+  "context": "There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
   "modelSolution": "P(S) = 12/194 = 6/97 = 0.06",
   "needsFigure": false,
   "explanation": []
@@ -231,7 +231,7 @@
    "module": "m46942",
    "exerciseId": "fs-idm87415968"
   },
-  "context": "Use the following information to answer the next two exercises. You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow.",
+  "context": "You see a game at a local fair. You have to throw a dart at a color wheel. Each section on the color wheel is equal in area.\n[FIGURE]\n\nLet B = the event of landing on blue.\n\nLet R = the event of landing on red.\n\nLet G = the event of landing on green.\n\nLet Y = the event of landing on yellow.",
   "modelSolution": "P(R)=4/8=0.5",
   "needsFigure": true,
   "explanation": []
@@ -247,7 +247,7 @@
    "module": "m46942",
    "exerciseId": "eip-432"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
+  "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "P(O OR H)",
   "needsFigure": false,
   "explanation": []
@@ -263,7 +263,7 @@
    "module": "m46942",
    "exerciseId": "eip-94"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
+  "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "P(H|I)",
   "needsFigure": false,
   "explanation": []
@@ -279,7 +279,7 @@
    "module": "m46942",
    "exerciseId": "eip-680"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
+  "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "P(N|O)",
   "needsFigure": false,
   "explanation": []
@@ -295,7 +295,7 @@
    "module": "m46942",
    "exerciseId": "eip-542"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
+  "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "P(I OR N)",
   "needsFigure": false,
   "explanation": []
@@ -311,7 +311,7 @@
    "module": "m46942",
    "exerciseId": "eip-311"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
+  "context": "On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "P(I)",
   "needsFigure": false,
   "explanation": []
@@ -364,7 +364,7 @@
    "module": "m46942",
    "exerciseId": "eip-185"
   },
-  "context": "Use the following information to answer the next two exercises. You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three.",
+  "context": "You are rolling a fair, six-sided number cube. Let E = the event that it lands on an even number. Let M = the event that it lands on a multiple of three.",
   "modelSolution": "the probability of landing on an even number or a multiple of three",
   "needsFigure": false,
   "explanation": []
@@ -695,7 +695,7 @@
    "module": "m46947",
    "exerciseId": "exercise1"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S) : P(S) = 0.87",
   "needsFigure": false,
   "explanation": []
@@ -711,7 +711,7 @@
    "module": "m46947",
    "exerciseId": "exercise2"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S) : P(S) = 0.32",
   "needsFigure": false,
   "explanation": []
@@ -727,7 +727,7 @@
    "module": "m46947",
    "exerciseId": "exercise3"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S | Z) : P(S | Z) = 0.55",
   "needsFigure": false,
   "explanation": []
@@ -743,7 +743,7 @@
    "module": "m46947",
    "exerciseId": "exercise4"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is S | Z? : S | Z means, given that the customer has ordered pizza, the person also orders a salad.",
   "needsFigure": false,
   "explanation": []
@@ -759,7 +759,7 @@
    "module": "m46947",
    "exerciseId": "exercise5"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(Z AND S): P(Z AND S)= 0.4785",
   "needsFigure": false,
   "explanation": []
@@ -775,7 +775,7 @@
    "module": "m46947",
    "exerciseId": "exercise6"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is Z AND S? : Z AND S represents the event that a customer orders a pizza and salad.",
   "needsFigure": false,
   "explanation": []
@@ -791,7 +791,7 @@
    "module": "m46947",
    "exerciseId": "exercise7"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Are P and S independent events? Show why or why not. No, because P(S) does not equal P(S | Z).",
   "needsFigure": false,
   "explanation": []
@@ -807,7 +807,7 @@
    "module": "m46947",
    "exerciseId": "exercise8"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(Z OR S): P(Z OR S)= 0.7115",
   "needsFigure": false,
   "explanation": []
@@ -823,7 +823,7 @@
    "module": "m46947",
    "exerciseId": "exercise9"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is Z OR S?\nZ OR S represents the event that a customer orders a pizza or salad.",
   "needsFigure": false,
   "explanation": []
@@ -839,7 +839,7 @@
    "module": "m46947",
    "exerciseId": "exercise10"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
+  "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Are Z and S mutually exclusive events? Show why or why not. No, because P(S and Z) does not equal 0.",
   "needsFigure": false,
   "explanation": []
@@ -870,7 +870,7 @@
    "module": "m46947",
    "exerciseId": "eip-374"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]",
+  "context": "The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]",
   "modelSolution": "[PARTS]\na. P(Betting on two line that touch each other on the table) =6/38\nb. P(Betting on three numbers in a line) =3/38\nc. P(Bettting on one number) =1/38\nd. P(Betting on four number that touch each other to form a square) =4/38\ne. P(Betting on two number that touch each other on the table ) =2/38\nf. P(Betting on 0-00-1-2-3) =5/38\ng. P(Betting on 0-1-2; or 0-00-2; or 00-2-3) =3/38\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
@@ -1085,7 +1085,7 @@
    "module": "m46935",
    "exerciseId": "eip-388"
   },
-  "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
+  "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
   "modelSolution": "P(musician is a male AND had private instruction) = 15/130 = 3/26 = 0.12",
   "needsFigure": false,
   "explanation": []
@@ -1101,7 +1101,7 @@
    "module": "m46935",
    "exerciseId": "eip-350"
   },
-  "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
+  "context": "the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
   "modelSolution": "The events are not mutually exclusive. It is possible to be a woman musician who learned music in school.",
   "needsFigure": false,
   "explanation": []
@@ -1205,7 +1205,7 @@
    "module": "m46935",
    "exerciseId": "element-940"
   },
-  "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]",
+  "context": "The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]",
   "options": [
    "4189/12351",
    "117/1723",
@@ -1242,7 +1242,7 @@
    "module": "m46935",
    "exerciseId": "eip-892"
   },
-  "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
   "modelSolution": "(35,065)/(100,450)",
   "needsFigure": false,
   "explanation": []
@@ -1258,7 +1258,7 @@
    "module": "m46935",
    "exerciseId": "exercise-124"
   },
-  "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
   "modelSolution": "To pick one person from the study who is Japanese American AND smokes 21 to 30 cigarettes per day means that the person has to meet both criteria: both Japanese American and smokes 21 to 30 cigarettes. The sample space should include everyone in the study. The probability is (4,715)/(100,450).",
   "needsFigure": false,
   "explanation": []
@@ -1274,7 +1274,7 @@
    "module": "m46935",
    "exerciseId": "exercise-126"
   },
-  "context": "Use the following information to answer the next seven exercises. An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
+  "context": "An article in the New England Journal of Medicine, reported about a study of smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese people, and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Hispanic/Latino people, 2,305 Japanese people, and 3,970 White people.",
   "modelSolution": "To pick one person from the study who is Japanese American given that person smokes 21-30 cigarettes per day, means that the person must fulfill both criteria and the sample space is reduced to those who smoke 21-30 cigarettes per day. The probability is 4715/(15,273).",
   "needsFigure": false,
   "explanation": []
@@ -1417,7 +1417,7 @@
    "module": "m46944",
    "exerciseId": "element-684"
   },
-  "context": "Use the following information to answer the next two exercises. This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]",
+  "context": "This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]",
   "options": [
    "15/36",
    "10/36",
@@ -1439,7 +1439,7 @@
    "module": "m46944",
    "exerciseId": "element-194"
   },
-  "context": "Use the following information to answer the next two exercises. Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.",
+  "context": "Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.",
   "modelSolution": "[PARTS]\na. [FIGURE]\nb. P(GG) =(5/8)(5/8) =25/64\nc. P(at least one green) =P(GG) +P(GY) +P(YG) =25/64 +15/64 +15/64 =55/64\nd. P(G|G) =5/8\ne. Yes, they are independent because the first card is placed back in the bag before the second card is drawn; the composition of cards in the bag remains the same from draw one to draw two.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
@@ -1455,7 +1455,7 @@
    "module": "m46944",
    "exerciseId": "element-950"
   },
-  "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
+  "context": "The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
   "modelSolution": "[PARTS]\na. [TABLE] | <20 | 20–64 | >64 | Totals Women | 0.0244 | 0.3954 | 0.0661 | 0.486 Men | 0.0259 | 0.4186 | 0.0695 | 0.514 Totals | 0.0503 | 0.8140 | 0.1356 | 1 [/TABLE]\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 andF) =P(F)P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older andP(>64 andF) is the percentage of drivers who are women and 65 or older.\nf. P(>64) =P(>64 andF) +P(>64 andM) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -1516,7 +1516,7 @@
    "test": "Practice Test 1",
    "n": 56
   },
-  "context": "Use the following information to answer the next two exercises. You have a jar full of marbles: 50 are red, 25 are blue, and 15 are yellow. Assume you draw one marble at random for each trial, and replace it before the next trial.\nLet P(R) = the probability of drawing a red marble.\nLet P(B) = the probability of drawing a blue marble.\nLet P(Y) = the probability of drawing a yellow marble.",
+  "context": "You have a jar full of marbles: 50 are red, 25 are blue, and 15 are yellow. Assume you draw one marble at random for each trial, and replace it before the next trial.\nLet P(R) = the probability of drawing a red marble.\nLet P(B) = the probability of drawing a blue marble.\nLet P(Y) = the probability of drawing a yellow marble.",
   "modelSolution": "P(B)=25/90=0.28",
   "needsFigure": false,
   "explanation": []
@@ -1532,7 +1532,7 @@
    "test": "Practice Test 1",
    "n": 57
   },
-  "context": "Use the following information to answer the next two exercises. You have a jar full of marbles: 50 are red, 25 are blue, and 15 are yellow. Assume you draw one marble at random for each trial, and replace it before the next trial.\nLet P(R) = the probability of drawing a red marble.\nLet P(B) = the probability of drawing a blue marble.\nLet P(Y) = the probability of drawing a yellow marble.",
+  "context": "You have a jar full of marbles: 50 are red, 25 are blue, and 15 are yellow. Assume you draw one marble at random for each trial, and replace it before the next trial.\nLet P(R) = the probability of drawing a red marble.\nLet P(B) = the probability of drawing a blue marble.\nLet P(Y) = the probability of drawing a yellow marble.",
   "modelSolution": "Drawing a red marble is more likely.\nP(R)=50/80=0.62\n\nP(Y)=15/80=0.19",
   "needsFigure": false,
   "explanation": []
@@ -1548,7 +1548,7 @@
    "test": "Practice Test 1",
    "n": 58
   },
-  "context": "Use the following information to answer the next two exercises. The following are probabilities describing a group of college students.\nLet P(M) = the probability that the student is male\nLet P(F) = the probability that the student is female\nLet P(E) = the probability the student is majoring in education\nLet P(S) = the probability the student is majoring in science",
+  "context": "The following are probabilities describing a group of college students.\nLet P(M) = the probability that the student is male\nLet P(F) = the probability that the student is female\nLet P(E) = the probability the student is majoring in education\nLet P(S) = the probability the student is majoring in science",
   "modelSolution": "P(F AND S)",
   "needsFigure": false,
   "explanation": []
@@ -1564,7 +1564,7 @@
    "test": "Practice Test 1",
    "n": 59
   },
-  "context": "Use the following information to answer the next two exercises. The following are probabilities describing a group of college students.\nLet P(M) = the probability that the student is male\nLet P(F) = the probability that the student is female\nLet P(E) = the probability the student is majoring in education\nLet P(S) = the probability the student is majoring in science",
+  "context": "The following are probabilities describing a group of college students.\nLet P(M) = the probability that the student is male\nLet P(F) = the probability that the student is female\nLet P(E) = the probability the student is majoring in education\nLet P(S) = the probability the student is majoring in science",
   "modelSolution": "P(E|M)",
   "needsFigure": false,
   "explanation": []
@@ -1627,7 +1627,7 @@
    "test": "Practice Test 1",
    "n": 63
   },
-  "context": "Use the following information to answer the next two exercises. An archer hits the center of the target (the bullseye) 70 percent of the time. However, she is a streak shooter, and if she hits the center on one shot, her probability of hitting it on the shot immediately following is 0.85. Written in probability notation:\nP(A) = P(B) = P(hitting the center on one shot) = 0.70\nP(B|A) = P(hitting the center on a second shot, given that she hit it on the first) = 0.85",
+  "context": "An archer hits the center of the target (the bullseye) 70 percent of the time. However, she is a streak shooter, and if she hits the center on one shot, her probability of hitting it on the shot immediately following is 0.85. Written in probability notation:\nP(A) = P(B) = P(hitting the center on one shot) = 0.70\nP(B|A) = P(hitting the center on a second shot, given that she hit it on the first) = 0.85",
   "modelSolution": "P(A and B) = (P(B|A))(P(A)) = (0.85)(0.70) = 0.595",
   "needsFigure": false,
   "explanation": []
@@ -1643,7 +1643,7 @@
    "test": "Practice Test 1",
    "n": 64
   },
-  "context": "Use the following information to answer the next two exercises. An archer hits the center of the target (the bullseye) 70 percent of the time. However, she is a streak shooter, and if she hits the center on one shot, her probability of hitting it on the shot immediately following is 0.85. Written in probability notation:\nP(A) = P(B) = P(hitting the center on one shot) = 0.70\nP(B|A) = P(hitting the center on a second shot, given that she hit it on the first) = 0.85",
+  "context": "An archer hits the center of the target (the bullseye) 70 percent of the time. However, she is a streak shooter, and if she hits the center on one shot, her probability of hitting it on the shot immediately following is 0.85. Written in probability notation:\nP(A) = P(B) = P(hitting the center on one shot) = 0.70\nP(B|A) = P(hitting the center on a second shot, given that she hit it on the first) = 0.85",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -1661,7 +1661,7 @@
    "test": "Practice Test 1",
    "n": 65
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
+  "context": "The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | 482 | 200 | 682\nStudy less than 15 hours/week | 125 | 193 | 318\nTotal | 607 | 393 | 1,000\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1677,7 +1677,7 @@
    "test": "Practice Test 1",
    "n": 66
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
+  "context": "The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "P(honor roll|study at least 15 hours per week) = 482/682, or about 0.707",
   "needsFigure": false,
   "explanation": []
@@ -1693,7 +1693,7 @@
    "test": "Practice Test 1",
    "n": 67
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
+  "context": "The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "P(study less than 15 hours per week)=318/1000, or 0.318",
   "needsFigure": false,
   "explanation": []
@@ -1754,7 +1754,7 @@
    "test": "Practice Final Exam 1",
    "n": 1
   },
-  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
+  "context": "An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
   "options": [
    "mutually exclusive.",
    "independent.",
@@ -1776,7 +1776,7 @@
    "test": "Practice Final Exam 1",
    "n": 2
   },
-  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
+  "context": "An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
   "options": [
    "2/4",
    "16/144",
@@ -1798,7 +1798,7 @@
    "test": "Practice Final Exam 1",
    "n": 4
   },
-  "context": "Use the following information to answer the next two exercises: One hundred eighteen students were asked what type of color their bedrooms were painted: light colors, dark colors, or vibrant colors. The results were tabulated according to gender.\n[TABLE]\n| Light colors | Dark colors | Vibrant colors\nFemale | 20 | 22 | 28\nMale | 10 | 30 | 8\n[/TABLE]",
+  "context": "One hundred eighteen students were asked what type of color their bedrooms were painted: light colors, dark colors, or vibrant colors. The results were tabulated according to gender.\n[TABLE]\n| Light colors | Dark colors | Vibrant colors\nFemale | 20 | 22 | 28\nMale | 10 | 30 | 8\n[/TABLE]",
   "options": [
    "10/118",
    "68/118",
@@ -1820,7 +1820,7 @@
    "test": "Practice Final Exam 1",
    "n": 5
   },
-  "context": "Use the following information to answer the next two exercises: One hundred eighteen students were asked what type of color their bedrooms were painted: light colors, dark colors, or vibrant colors. The results were tabulated according to gender.\n[TABLE]\n| Light colors | Dark colors | Vibrant colors\nFemale | 20 | 22 | 28\nMale | 10 | 30 | 8\n[/TABLE]",
+  "context": "One hundred eighteen students were asked what type of color their bedrooms were painted: light colors, dark colors, or vibrant colors. The results were tabulated according to gender.\n[TABLE]\n| Light colors | Dark colors | Vibrant colors\nFemale | 20 | 22 | 28\nMale | 10 | 30 | 8\n[/TABLE]",
   "options": [
    "30/118",
    "30/48",
@@ -1842,7 +1842,7 @@
    "test": "Practice Final Exam 1",
    "n": 6
   },
-  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
+  "context": "We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
   "modelSolution": "b. 8/40",
   "needsFigure": false,
   "explanation": []
@@ -1858,7 +1858,7 @@
    "test": "Practice Final Exam 1",
    "n": 7
   },
-  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
+  "context": "We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
   "options": [
    "15",
    "2.78",
@@ -1880,7 +1880,7 @@
    "test": "Practice Final Exam 1",
    "n": 9
   },
-  "context": "Use the following information to answer the next two exercises: On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
+  "context": "On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
   "options": [
    "0.1263",
    "0.1607",
@@ -1902,7 +1902,7 @@
    "test": "Practice Final Exam 1",
    "n": 20
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "context": "A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
   "options": [
    "simple random",
    "systematic",
@@ -1924,7 +1924,7 @@
    "test": "Practice Final Exam 1",
    "n": 21
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "context": "A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
   "options": [
    "49",
    "25",
@@ -1946,7 +1946,7 @@
    "test": "Practice Final Exam 1",
    "n": 22
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "context": "A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
   "modelSolution": "c. 4",
   "needsFigure": false,
   "explanation": []
@@ -1962,7 +1962,7 @@
    "test": "Practice Final Exam 1",
    "n": 34
   },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
+  "context": "A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
   "options": [
    "Chi^2_8.",
    "Chi^2_3.",
@@ -1984,7 +1984,7 @@
    "test": "Practice Final Exam 1",
    "n": 35
   },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
+  "context": "A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
   "options": [
    "37.",
    "61.",
@@ -2006,7 +2006,7 @@
    "test": "Practice Final Exam 2",
    "n": 2
   },
-  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
+  "context": "[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
   "modelSolution": "a.",
   "needsFigure": true,
   "explanation": []
@@ -2022,7 +2022,7 @@
    "test": "Practice Final Exam 2",
    "n": 3
   },
-  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
+  "context": "[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
   "options": [
    "six",
    "one",
@@ -2044,7 +2044,7 @@
    "test": "Practice Final Exam 2",
    "n": 4
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is ten percent. However, in any year, the probability of water rationing is five percent.",
+  "context": "Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is ten percent. However, in any year, the probability of water rationing is five percent.",
   "options": [
    "0.05",
    "0.01",
@@ -2066,7 +2066,7 @@
    "test": "Practice Final Exam 2",
    "n": 5
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is ten percent. However, in any year, the probability of water rationing is five percent.",
+  "context": "Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is ten percent. However, in any year, the probability of water rationing is five percent.",
   "options": [
    "Drought and water rationing are independent events.",
    "Drought and water rationing are mutually exclusive events.",
@@ -2087,7 +2087,7 @@
    "test": "Practice Final Exam 2",
    "n": 6
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that a survey yielded the following data:\n[TABLE]\ngender | apple | pumpkin | pecan\nfemale | 40 | 10 | 30\nmale | 20 | 30 | 10\n[/TABLE]",
+  "context": "Suppose that a survey yielded the following data:\n[TABLE]\ngender | apple | pumpkin | pecan\nfemale | 40 | 10 | 30\nmale | 20 | 30 | 10\n[/TABLE]",
   "options": [
    "40/60",
    "60/140",
@@ -2109,7 +2109,7 @@
    "test": "Practice Final Exam 2",
    "n": 8
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
+  "context": "Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
   "options": [
    "X ~ B(14 0.60)",
    "The values for x are: {1 ,2 ,3 ,... ,14}.",
@@ -2131,7 +2131,7 @@
    "test": "Practice Final Exam 2",
    "n": 9
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
+  "context": "Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
   "options": [
    "6/14",
    "0.8499",
@@ -2153,7 +2153,7 @@
    "test": "Practice Final Exam 2",
    "n": 29
   },
-  "context": "Use the following information to answer the next three exercises: A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
+  "context": "A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
   "options": [
    "Yes",
    "No",
@@ -2174,7 +2174,7 @@
    "test": "Practice Final Exam 2",
    "n": 31
   },
-  "context": "Use the following information to answer the next three exercises: A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
+  "context": "A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
   "options": [
    "69",
    "91",
@@ -2196,7 +2196,7 @@
    "test": "Chapter 4",
    "n": 9
   },
-  "context": "Use the following information to answer the next two exercises: A recent poll concerning credit cards found that 35 percent of respondents use a credit card that gives them a mile of air travel for every dollar they charge. Thirty percent of the respondents charge more than $2,000 per month. Of those respondents who charge more than $2,000, 80 percent use a credit card that gives them a mile of air travel for every dollar they charge.",
+  "context": "A recent poll concerning credit cards found that 35 percent of respondents use a credit card that gives them a mile of air travel for every dollar they charge. Thirty percent of the respondents charge more than $2,000 per month. Of those respondents who charge more than $2,000, 80 percent use a credit card that gives them a mile of air travel for every dollar they charge.",
   "options": [
    "(0.30)(0.35)",
    "(0.80)(0.35)",
@@ -2218,7 +2218,7 @@
    "test": "Chapter 4",
    "n": 10
   },
-  "context": "Use the following information to answer the next two exercises: A recent poll concerning credit cards found that 35 percent of respondents use a credit card that gives them a mile of air travel for every dollar they charge. Thirty percent of the respondents charge more than $2,000 per month. Of those respondents who charge more than $2,000, 80 percent use a credit card that gives them a mile of air travel for every dollar they charge.",
+  "context": "A recent poll concerning credit cards found that 35 percent of respondents use a credit card that gives them a mile of air travel for every dollar they charge. Thirty percent of the respondents charge more than $2,000 per month. Of those respondents who charge more than $2,000, 80 percent use a credit card that gives them a mile of air travel for every dollar they charge.",
   "options": [
    "Yes",
    "No, and they are not mutually exclusive either.",
@@ -2240,7 +2240,7 @@
    "test": "Chapter 4",
    "n": 12
   },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
+  "context": "An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
   "answer": 0.5773,
   "tolerance": {
    "abs": 0.005,
@@ -2263,7 +2263,7 @@
    "test": "Chapter 4",
    "n": 13
   },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
+  "context": "An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
   "answer": 0.0522,
   "tolerance": {
    "abs": 0.005,
@@ -2308,7 +2308,7 @@
    "test": "Chapter 4",
    "n": 21
   },
-  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "answer": 0.0165,
   "tolerance": {
    "abs": 0.005,
@@ -2331,7 +2331,7 @@
    "test": "Chapter 5",
    "n": 27
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
   "answer": 0.36,
   "tolerance": {
    "abs": 0.006,
@@ -2354,7 +2354,7 @@
    "test": "Chapter 5",
    "n": 28
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
   "answer": 0.7636,
   "tolerance": {
    "abs": 0.005,
@@ -2377,7 +2377,7 @@
    "test": "Chapter 5",
    "n": 29
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
   "modelSolution": "[PARTS]\na. No\nb. No\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2393,7 +2393,7 @@
    "test": "Chapter 5",
    "n": 31
   },
-  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nUse the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "context": "A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nWe randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
   "answer": 0.933,
   "tolerance": {
    "abs": 0.005,
@@ -2453,7 +2453,7 @@
    "test": "Chapter 5",
    "n": 38
   },
-  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
+  "context": "the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "answer": 0.5,
   "tolerance": {
    "abs": 0.06,
@@ -2476,7 +2476,7 @@
    "test": "Chapter 5",
    "n": 39
   },
-  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
+  "context": "the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "modelSolution": "7/15",
   "needsFigure": false,
   "explanation": []
@@ -2492,7 +2492,7 @@
    "test": "Chapter 5",
    "n": 40
   },
-  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
+  "context": "the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "modelSolution": "2/15",
   "needsFigure": false,
   "explanation": []
@@ -2559,7 +2559,7 @@
    "test": "Chapter 8",
    "n": 57
   },
-  "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
+  "context": "Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
   "answer": 0.9951,
   "tolerance": {
    "abs": 0.005,
@@ -2604,7 +2604,7 @@
    "test": "Chapter 8",
    "n": 65
   },
-  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "context": "Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
   "options": [
    "80%",
    "20%",
@@ -2626,7 +2626,7 @@
    "test": "Chapter 8",
    "n": 66
   },
-  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "context": "Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
   "options": [
    "50%",
    "35%",
@@ -2648,7 +2648,7 @@
    "test": "Chapter 8",
    "n": 67
   },
-  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "context": "Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
   "options": [
    "yes",
    "no",
@@ -2669,7 +2669,7 @@
    "test": "Chapter 8",
    "n": 70
   },
-  "context": "Use the following information to answer the next two exercises: P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
+  "context": "P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
   "modelSolution": "d. 0.06",
   "needsFigure": false,
   "explanation": []
@@ -2685,7 +2685,7 @@
    "test": "Chapter 8",
    "n": 71
   },
-  "context": "Use the following information to answer the next two exercises: P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
+  "context": "P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
   "modelSolution": "c. 0.44",
   "needsFigure": false,
   "explanation": []
@@ -2731,7 +2731,7 @@
    "test": "Chapter 9",
    "n": 75
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "context": "Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
   "modelSolution": "[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 | 0.3\n2 | 0.2 | 0.2\n4 | 0.4 | 0.4\n5 | 0.1 | 0.1\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -2747,7 +2747,7 @@
    "test": "Chapter 9",
    "n": 77
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "context": "Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
   "modelSolution": "M = 3; Q1 = 1; Q3 = 4",
   "needsFigure": false,
   "explanation": []
@@ -2763,7 +2763,7 @@
    "test": "Chapter 9",
    "n": 79
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
+  "context": "Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
   "options": [
    "32/70",
    "8/32",
@@ -2785,7 +2785,7 @@
    "test": "Chapter 9",
    "n": 80
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
+  "context": "Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
   "modelSolution": "c. 40/70",
   "needsFigure": false,
   "explanation": []
@@ -2801,7 +2801,7 @@
    "test": "Chapter 9",
    "n": 81
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
+  "context": "Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
   "options": [
    "9/19",
    "9/70",
@@ -2823,7 +2823,7 @@
    "test": "Chapter 10",
    "n": 88
   },
-  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+  "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
   "modelSolution": "77/100",
   "needsFigure": false,
   "explanation": []
@@ -2839,7 +2839,7 @@
    "test": "Chapter 10",
    "n": 89
   },
-  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+  "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
   "modelSolution": "12/42",
   "needsFigure": false,
   "explanation": []
@@ -2855,7 +2855,7 @@
    "test": "Chapter 10",
    "n": 90
   },
-  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+  "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
   "modelSolution": "[PARTS]\na. false\nb. false\nc. true\nd. false\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -2871,7 +2871,7 @@
    "test": "Chapter 10",
    "n": 95
   },
-  "context": "Use the following information to answer the next three exercises: A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
+  "context": "A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
   "modelSolution": "Answers will vary.",
   "needsFigure": false,
   "explanation": []
@@ -2887,7 +2887,7 @@
    "test": "Chapter 10",
    "n": 96
   },
-  "context": "Use the following information to answer the next three exercises: A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
+  "context": "A group of students measured the lengths of all the carrots in a five-pound bag of baby carrots. They calculated the average length of baby carrots to be 2.0 inches with a standard deviation of 0.25 inches. Suppose we randomly survey 16 five-pound bags of baby carrots.",
   "answer": 0.5,
   "tolerance": {
    "abs": 0.005,
@@ -2910,7 +2910,7 @@
    "test": "Chapter 11",
    "n": 112
   },
-  "context": "Use the following information to answer the next two exercises: The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
+  "context": "The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
   "modelSolution": "greater than",
   "needsFigure": false,
   "explanation": []
@@ -2926,7 +2926,7 @@
    "test": "Chapter 11",
    "n": 113
   },
-  "context": "Use the following information to answer the next two exercises: The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
+  "context": "The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
   "modelSolution": "No; P(x = 8) = 0.0348",
   "needsFigure": false,
   "explanation": []
@@ -2942,7 +2942,7 @@
    "test": "Chapter 13",
    "n": 129
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is 10%. However, in any year, the probability of water rationing is 5%.",
+  "context": "Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is 10%. However, in any year, the probability of water rationing is 5%.",
   "answer": 0.02,
   "tolerance": {
    "abs": 0.006,
@@ -2965,7 +2965,7 @@
    "test": "Chapter 13",
    "n": 130
   },
-  "context": "Use the following information to answer the next two exercises: Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is 10%. However, in any year, the probability of water rationing is 5%.",
+  "context": "Suppose that the probability of a drought in any independent year is 20%. Out of those years in which a drought occurs, the probability of water rationing is 10%. However, in any year, the probability of water rationing is 5%.",
   "answer": 0.4,
   "tolerance": {
    "abs": 0.006,
@@ -2988,7 +2988,7 @@
    "test": "Chapter 13",
    "n": 131
   },
-  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
+  "context": "[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "100/140",
   "needsFigure": false,
   "explanation": []
@@ -3004,7 +3004,7 @@
    "test": "Chapter 13",
    "n": 132
   },
-  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
+  "context": "[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "10/60",
   "needsFigure": false,
   "explanation": []
@@ -3020,7 +3020,7 @@
    "test": "Chapter 13",
    "n": 133
   },
-  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
+  "context": "[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "p-value = 0; Reject the null hypothesis; conclude that they are dependent events",
   "needsFigure": false,
   "explanation": []
@@ -3036,7 +3036,7 @@
    "test": "Chapter 13",
    "n": 134
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
+  "context": "Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
   "answer": 8.4,
   "tolerance": {
    "abs": 0.06,
@@ -3059,7 +3059,7 @@
    "test": "Chapter 13",
    "n": 135
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
+  "context": "Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
   "modelSolution": "B(14, 0.60)",
   "needsFigure": false,
   "explanation": []
@@ -3075,7 +3075,7 @@
    "test": "Chapter 13",
    "n": 141
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
+  "context": "120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
   "modelSolution": "[PARTS]\na. No\nb. Yes, P(M AND 30+) = 0\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
@@ -3091,7 +3091,7 @@
    "test": "Chapter 13",
    "n": 142
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
+  "context": "120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
   "modelSolution": "12/38",
   "needsFigure": false,
   "explanation": []
@@ -3107,7 +3107,7 @@
    "test": "Chapter 13",
    "n": 143
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
+  "context": "120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
   "modelSolution": "No; p-value = 0",
   "needsFigure": false,
   "explanation": []

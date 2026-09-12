@@ -42,7 +42,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm11913472"
   },
-  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 | 0.10\n5 | 0.10\n6 | 0.05\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -58,7 +58,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm3556768"
   },
-  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
   "answer": 0.1,
   "tolerance": {
    "abs": 0.006,
@@ -81,7 +81,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp21614176"
   },
-  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
   "modelSolution": "0.10 + 0.05 = 0.15",
   "needsFigure": false,
   "explanation": []
@@ -97,7 +97,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp88464496"
   },
-  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
   "modelSolution": "0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years",
   "needsFigure": false,
   "explanation": []
@@ -113,7 +113,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp18018320"
   },
-  "context": "Use the following information to answer the next five exercises: A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
   "answer": 1.0,
   "tolerance": {
    "abs": 0.05,
@@ -136,7 +136,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm2415264"
   },
-  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
   "modelSolution": "Let X = the number of batches that the baker will sell.",
   "needsFigure": false,
   "explanation": []
@@ -152,7 +152,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm14204160"
   },
-  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
   "modelSolution": "0.35 + 0.40 + 0.10 = 0.85",
   "needsFigure": false,
   "explanation": []
@@ -168,7 +168,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp60250832"
   },
-  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
   "answer": 0.15,
   "tolerance": {
    "abs": 0.006,
@@ -191,7 +191,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp100680048"
   },
-  "context": "Use the following information to answer the next six exercises: A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
+  "context": "A baker is deciding how many batches of muffins to make to sell in his bakery. He wants to make enough to sell every one and no fewer. Through observation, the baker has established a probability distribution.\n\n[TABLE]\nx | P(x)\n1 | 0.15\n2 | 0.35\n3 | 0.40\n4 | 0.10\n[/TABLE]",
   "modelSolution": "1(0.15) + 2(0.35) + 3(0.40) + 4(0.10) = 0.15 + 0.70 + 1.20 + 0.40 = 2.45",
   "needsFigure": false,
   "explanation": []
@@ -207,7 +207,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp80631856"
   },
-  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
   "modelSolution": "Let X = the number of days Ellen attends practice per week.",
   "needsFigure": false,
   "explanation": []
@@ -223,7 +223,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp105752304"
   },
-  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.04\n2 | 0.08\n3 | 0.85\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -239,7 +239,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm12290976"
   },
-  "context": "Use the following information to answer the next four exercises: Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
+  "context": "Ellen has music practice three days a week. She practices for all of the three days 85% of the time, two days 8% of the time, one day 4% of the time, and no days 3% of the time. One week is selected at random.",
   "modelSolution": "Each probability is between zero and one, inclusive.",
   "needsFigure": false,
   "explanation": []
@@ -255,7 +255,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp45989040"
   },
-  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
   "modelSolution": "Let X = the number of events Javier volunteers for each month.",
   "needsFigure": false,
   "explanation": []
@@ -271,7 +271,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp99208272"
   },
-  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
   "modelSolution": "0, 1, 2, 3, 4, 5",
   "needsFigure": false,
   "explanation": []
@@ -287,7 +287,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm44182368"
   },
-  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.05\n1 | 0.05\n2 | 0.10\n3 | 0.20\n4 | 0.25\n5 | 0.35\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -303,7 +303,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm51474800"
   },
-  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
   "modelSolution": "0.05 + 0.05 + 0.10 = 0.20",
   "needsFigure": false,
   "explanation": []
@@ -319,7 +319,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm38193104"
   },
-  "context": "Use the following information to answer the next five exercises: Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
+  "context": "Javier volunteers in community events each month. He does not do more than five events in a month. He attends exactly five events 35% of the time, four events 25% of the time, three events 20% of the time, two events 10% of the time, one event 5% of the time, and no events 5% of the time.",
   "modelSolution": "1 – 0.05 = 0.95",
   "needsFigure": false,
   "explanation": []
@@ -506,7 +506,7 @@
    "module": "m46959",
    "exerciseId": "fs-idp57624976"
   },
-  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
   "modelSolution": "Let X = the number of years a physics major will spend doing post-graduate research.",
   "needsFigure": false,
   "explanation": []
@@ -522,7 +522,7 @@
    "module": "m46959",
    "exerciseId": "fs-idp12372960"
   },
-  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
   "modelSolution": "Let P(x) = the probability that a physics major will do post-graduate research for x years.",
   "needsFigure": false,
   "explanation": []
@@ -538,7 +538,7 @@
    "module": "m46959",
    "exerciseId": "fs-idp33661936"
   },
-  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
   "modelSolution": "1 – 0.35 – 0.20 – 0.15 – 0.10 – 0.05 = 0.15",
   "needsFigure": false,
   "explanation": []
@@ -554,7 +554,7 @@
    "module": "m46959",
    "exerciseId": "fs-idm517184"
   },
-  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
   "modelSolution": "0.35 + 0.20 + 0.15 = 0.70",
   "needsFigure": false,
   "explanation": []
@@ -570,7 +570,7 @@
    "module": "m46959",
    "exerciseId": "fs-idp96964736"
   },
-  "context": "Use the following information to answer the next five exercises: A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
+  "context": "A physics professor wants to know what percent of physics majors will spend the next several years doing post-graduate research. They have the following probability distribution.\n\n[TABLE]\nx | P(x) | x*P(x)\n1 | 0.35 |\n2 | 0.20 |\n3 | 0.15 |\n4 | |\n5 | 0.10 |\n6 | 0.05 |\n[/TABLE]",
   "modelSolution": "1(0.35) + 2(0.20) + 3(0.15) + 4(0.15) + 5(0.10) + 6(0.05) = 0.35 + 0.40 + 0.45 + 0.60 + 0.50 + 0.30 = 2.6 years",
   "needsFigure": false,
   "explanation": []
@@ -586,7 +586,7 @@
    "module": "m46959",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "X is the number of years a student studies ballet with the teacher.",
   "needsFigure": false,
   "explanation": []
@@ -602,7 +602,7 @@
    "module": "m46959",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "1 – 0.10 – 0.05 – 0.10 – 0.30 – 0.20 – 0.10 = 0.15",
   "needsFigure": false,
   "explanation": []
@@ -618,7 +618,7 @@
    "module": "m46959",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "0.10 + 0.05 + 0.10 = 0.25",
   "needsFigure": false,
   "explanation": []
@@ -634,7 +634,7 @@
    "module": "m46959",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "1(0.10) + 2(0.05) + 3(0.10) + 4(0.15) + 5(0.30) + 6(0.20) + 7(0.10) = 4.5 years",
   "needsFigure": false,
   "explanation": []
@@ -650,7 +650,7 @@
    "module": "m46959",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "The sum of the probabilities sum to one because it is a probability distribution.",
   "needsFigure": false,
   "explanation": []
@@ -666,7 +666,7 @@
    "module": "m46959",
    "exerciseId": "exercisesix"
   },
-  "context": "Use the following information to answer the next seven exercises: A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
+  "context": "A ballet instructor is interested in knowing what percent of each year's class will continue on to the next, so that she can plan what classes to offer. Over the years, she has established the following probability distribution.\n\n[LIST]\nLet X = the number of years a student will study ballet with the teacher.\nLet P(x) = the probability that a student will study balletx years.\n[/LIST]",
   "modelSolution": "The sum of xP(x) = 4.5; it is the mean of the distribution.",
   "needsFigure": false,
   "explanation": []
@@ -1018,7 +1018,7 @@
    "module": "m46950",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "modelSolution": "X = the number that reply “yes”",
   "needsFigure": false,
   "explanation": []
@@ -1034,7 +1034,7 @@
    "module": "m46950",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "modelSolution": "B(8,0.713)",
   "needsFigure": false,
   "explanation": []
@@ -1050,7 +1050,7 @@
    "module": "m46950",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "modelSolution": "0, 1, 2, 3, 4, 5, 6, 7, 8",
   "needsFigure": false,
   "explanation": []
@@ -1066,7 +1066,7 @@
    "module": "m46950",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.00005\n1 | 0.0009\n2 | 0.0080\n3 | 0.0395\n4 | 0.1227\n5 | 0.2439\n6 | 0.3030\n7 | 0.2151\n8 | 0.0668\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1082,7 +1082,7 @@
    "module": "m46950",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "answer": 5.7,
   "tolerance": {
    "abs": 0.06,
@@ -1105,7 +1105,7 @@
    "module": "m46950",
    "exerciseId": "exercisesix"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "answer": 1.2795,
   "tolerance": {
    "abs": 0.005,
@@ -1128,7 +1128,7 @@
    "module": "m46950",
    "exerciseId": "exerciseseven"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "answer": 0.4151,
   "tolerance": {
    "abs": 0.005,
@@ -1151,7 +1151,7 @@
    "module": "m46950",
    "exerciseId": "exercisenine"
   },
-  "context": "Use the following information to answer the next eight exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly pick eight first-time, full-time first-year students from the survey. You are interested in the number that believes that same sex-couples should have the right to legal marital status.",
   "answer": 0.999,
   "tolerance": {
    "abs": 0.005,
@@ -1196,7 +1196,7 @@
    "module": "m46950",
    "exerciseId": "eip-idm71407792"
   },
-  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "modelSolution": "X = the number of patients calling in claiming to have the flu, who actually have the flu.\n\nX = 0, 1, 2, ...25",
   "needsFigure": false,
   "explanation": []
@@ -1212,7 +1212,7 @@
    "module": "m46950",
    "exerciseId": "eip-idm5233360"
   },
-  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "modelSolution": "B(25,0.04)",
   "needsFigure": false,
   "explanation": []
@@ -1228,7 +1228,7 @@
    "module": "m46950",
    "exerciseId": "eip-idm142417552"
   },
-  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "answer": 0.0165,
   "tolerance": {
    "abs": 0.005,
@@ -1251,7 +1251,7 @@
    "module": "m46950",
    "exerciseId": "eip-idm188197216"
   },
-  "context": "Use the following information to answer the next four exercises. Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "modelSolution": "one",
   "needsFigure": false,
   "explanation": []
@@ -1297,7 +1297,7 @@
    "module": "m46950",
    "exerciseId": "eip-514"
   },
-  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
   "options": [
    "1.67",
    "12",
@@ -1319,7 +1319,7 @@
    "module": "m46950",
    "exerciseId": "element-861"
   },
-  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
   "options": [
    "0.1476",
    "0.2336",
@@ -1341,7 +1341,7 @@
    "module": "m46950",
    "exerciseId": "element-408"
   },
-  "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
   "options": [
    "0.3694",
    "0.5266",
@@ -1623,7 +1623,7 @@
    "module": "m46953",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "modelSolution": "X = the number of first-year students selected from the study until one replied \"yes\" that same-sex couples should have the right to legal marital status.",
   "needsFigure": false,
   "explanation": []
@@ -1639,7 +1639,7 @@
    "module": "m46953",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "modelSolution": "G(0.713)",
   "needsFigure": false,
   "explanation": []
@@ -1655,7 +1655,7 @@
    "module": "m46953",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "modelSolution": "1,2,…",
   "needsFigure": false,
   "explanation": []
@@ -1671,7 +1671,7 @@
    "module": "m46953",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "modelSolution": "[TABLE]\nx | P(x)\n1 | 0.7130\n2 | 0.2046\n3 | 0.0587\n4 | 0.0169\n5 | 0.0048\n6 | 0.0014\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1687,7 +1687,7 @@
    "module": "m46953",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "answer": 1.4,
   "tolerance": {
    "abs": 0.06,
@@ -1710,7 +1710,7 @@
    "module": "m46953",
    "exerciseId": "exercisesix"
   },
-  "context": "Use the following information to answer the next six exercises: The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
+  "context": "The Higher Education Research Institute at UCLA collected data from 203,967 incoming first-time, full-time first-year students from 270 four-year colleges and universities in the U.S. 71.3% of those students replied that, yes, they believe that same-sex couples should have the right to legal marital status. Suppose that you randomly select first-year students from the study until you find one who replies “yes.” You are interested in the number of first-year students you must ask.",
   "answer": 0.9176,
   "tolerance": {
    "abs": 0.005,
@@ -1902,7 +1902,7 @@
    "module": "m46964",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
   "modelSolution": "X = the number of business majors in the sample.",
   "needsFigure": false,
   "explanation": []
@@ -1918,7 +1918,7 @@
    "module": "m46964",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
   "modelSolution": "H(16, 7, 9)",
   "needsFigure": false,
   "explanation": []
@@ -1934,7 +1934,7 @@
    "module": "m46964",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
   "modelSolution": "2, 3, 4, 5, 6, 7, 8, 9",
   "needsFigure": false,
   "explanation": []
@@ -1950,7 +1950,7 @@
    "module": "m46964",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
   "modelSolution": "[TABLE]\nx | P(x)\n|\n|\n|\n|\n|\n|\n|\n|\n|\n|\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1966,7 +1966,7 @@
    "module": "m46964",
    "exerciseId": "fs-idp74125840"
   },
-  "context": "Use the following information to answer the next five exercises: Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
+  "context": "Suppose that a group of statistics students is divided into two groups: business majors and non-business majors. There are 16 business majors in the group and seven non-business majors in the group. A random sample of nine students is taken. We are interested in the number of business majors in the sample.",
   "answer": 6.26,
   "tolerance": {
    "abs": 0.006,
@@ -2176,7 +2176,7 @@
    "module": "m46961",
    "exerciseId": "fs-idm137455952"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "modelSolution": "X ~ P(120)",
   "needsFigure": false,
   "explanation": []
@@ -2192,7 +2192,7 @@
    "module": "m46961",
    "exerciseId": "fs-idm144498128"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "modelSolution": "0, 1, 2, 3, 4, …",
   "needsFigure": false,
   "explanation": []
@@ -2208,7 +2208,7 @@
    "module": "m46961",
    "exerciseId": "fs-idm120323120"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "answer": 0.001,
   "tolerance": {
    "abs": 0.005,
@@ -2231,7 +2231,7 @@
    "module": "m46961",
    "exerciseId": "fs-idp38717104"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "answer": 0.0485,
   "tolerance": {
    "abs": 0.005,
@@ -2254,7 +2254,7 @@
    "module": "m46961",
    "exerciseId": "fs-idp22578880"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "answer": 0.2084,
   "tolerance": {
    "abs": 0.005,
@@ -2277,7 +2277,7 @@
    "module": "m46961",
    "exerciseId": "fs-idm69114848"
   },
-  "context": "Use the following information to answer the next six exercises: On average, a clothing store gets 120 customers per day.",
+  "context": "On average, a clothing store gets 120 customers per day.",
   "answer": 0.0214,
   "tolerance": {
    "abs": 0.005,
@@ -2315,7 +2315,7 @@
    "module": "m46961",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "X = the number of U.S. teens who die from motor vehicle injuries per day.",
   "needsFigure": false,
   "explanation": []
@@ -2331,7 +2331,7 @@
    "module": "m46961",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "P(8)",
   "needsFigure": false,
   "explanation": []
@@ -2347,7 +2347,7 @@
    "module": "m46961",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "0, 1, 2, 3, 4, ...",
   "needsFigure": false,
   "explanation": []
@@ -2363,7 +2363,7 @@
    "module": "m46961",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.0003\n4 | 0.0573\n8 | 0.1396\n10 | 0.993\n11 | 0.0722\n15 | 0.0090\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -2379,7 +2379,7 @@
    "module": "m46961",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "No",
   "needsFigure": false,
   "explanation": []
@@ -2395,7 +2395,7 @@
    "module": "m46961",
    "exerciseId": "exercisesix"
   },
-  "context": "Use the following information to answer the next six exercises: On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
+  "context": "On average, eight teens in the U.S. die from motor vehicle injuries per day. As a result, states across the country are debating raising the driving age.",
   "modelSolution": "No",
   "needsFigure": false,
   "explanation": []
@@ -2561,7 +2561,7 @@
    "module": "m46961",
    "exerciseId": "element-528"
   },
-  "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
+  "context": "The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
   "options": [
    "the number of times Mrs. Plum’s cats wake her up each week.",
    "the number of times Mrs. Plum’s cats wake her up each hour.",
@@ -2583,7 +2583,7 @@
    "module": "m46961",
    "exerciseId": "fs-idp14208992"
   },
-  "context": "Use the following information to answer the next two exercises: The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
+  "context": "The average number of times per week that Mrs. Plum’s cats wake her up at night because they want to play is ten. We are interested in the number of times her cats wake her up each week.",
   "options": [
    "0.5000",
    "0.9329",
@@ -2605,7 +2605,7 @@
    "test": "Practice Test 2",
    "n": 1
   },
-  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "context": "You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
   "modelSolution": "The domain of X = {English, Mathematics,….], i.e., a list of all the majors offered at the university, plus “undeclared.”",
   "needsFigure": false,
   "explanation": []
@@ -2621,7 +2621,7 @@
    "test": "Practice Test 2",
    "n": 2
   },
-  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "context": "You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
   "modelSolution": "The domain of Y = {0, 1, 2, …}, i.e., the integers from 0 to the upper limit of classes allowed by the university.",
   "needsFigure": false,
   "explanation": []
@@ -2637,7 +2637,7 @@
    "test": "Practice Test 2",
    "n": 3
   },
-  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "context": "You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
   "modelSolution": "The domain of Z = any amount of money from 0 upwards.",
   "needsFigure": false,
   "explanation": []
@@ -2653,7 +2653,7 @@
    "test": "Practice Test 2",
    "n": 4
   },
-  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "context": "You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
   "modelSolution": "Because they can take any value within their domain, and their value for any particular case is not known until the survey is completed.",
   "needsFigure": false,
   "explanation": []
@@ -2669,7 +2669,7 @@
    "test": "Practice Test 2",
    "n": 5
   },
-  "context": "Use the following information to answer the next five exercises. You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
+  "context": "You conduct a survey among a random sample of students at a particular university. The data collected includes their major, the number of classes they took the previous semester, and amount of money they spent on books purchased for classes in the previous semester.",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -2792,7 +2792,7 @@
    "test": "Practice Test 2",
    "n": 13
   },
-  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
+  "context": "Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
   "modelSolution": "[TABLE]\nx | P(x) | xP(x)\n30 | 30/130 | 6.92\n40 | 40/130 | 12.31\n60 | 60/130 | 27.69\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -2808,7 +2808,7 @@
    "test": "Practice Test 2",
    "n": 14
   },
-  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
+  "context": "Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
   "modelSolution": "x̄ = 6.92 + 12.31 + 27.69 = 46.92",
   "needsFigure": false,
   "explanation": []
@@ -2824,7 +2824,7 @@
    "test": "Practice Test 2",
    "n": 15
   },
-  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
+  "context": "Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
   "modelSolution": "P(x = 30) = 0.23\nP(x = 40) = 0.31\nP(x = 60) = 0.46",
   "needsFigure": false,
   "explanation": []
@@ -2840,7 +2840,7 @@
    "test": "Practice Test 2",
    "n": 16
   },
-  "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
+  "context": "Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
   "modelSolution": "[TABLE]\nx | P(x) | xP(x) | (x – μ)2P(x)\n30 | 0.23 | 6.92 | (30 – 46.92)2(0.23) = 66.09\n40 | 0.31 | 12.31 | (40 – 46.92)2(0.31) = 14.75\n60 | 0.46 | 46.92 | (60 – 46.92)2(0.46) = 78.93\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -2903,7 +2903,7 @@
    "test": "Practice Test 2",
    "n": 21
   },
-  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "context": "In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
   "modelSolution": "X ~ B(100, 0.65)",
   "needsFigure": false,
   "explanation": []
@@ -2919,7 +2919,7 @@
    "test": "Practice Test 2",
    "n": 22
   },
-  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "context": "In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
   "modelSolution": "μ = np = 100(0.65) = 65",
   "needsFigure": false,
   "explanation": []
@@ -2935,7 +2935,7 @@
    "test": "Practice Test 2",
    "n": 23
   },
-  "context": "Use the following information to answer the next three exercises. In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
+  "context": "In a particularly community, 65 percent of households include at least one person who has graduated from college. You randomly sample 100 households in this community. Let X = the number of households including at least one college graduate.",
   "modelSolution": "σ_x=√(npq)=√(100(0.65)(0.35))=4.77",
   "needsFigure": false,
   "explanation": []
@@ -2951,7 +2951,7 @@
    "test": "Practice Test 2",
    "n": 24
   },
-  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "context": "Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
   "modelSolution": "X = Joe gets a hit in one at-bat (in one occasion of his coming to bat)",
   "needsFigure": false,
   "explanation": []
@@ -2967,7 +2967,7 @@
    "test": "Practice Test 2",
    "n": 25
   },
-  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "context": "Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
   "modelSolution": "X ~ B(20, 0.4)",
   "needsFigure": false,
   "explanation": []
@@ -2983,7 +2983,7 @@
    "test": "Practice Test 2",
    "n": 26
   },
-  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "context": "Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
   "modelSolution": "μ = np = 20(0.4) = 8",
   "needsFigure": false,
   "explanation": []
@@ -2999,7 +2999,7 @@
    "test": "Practice Test 2",
    "n": 27
   },
-  "context": "Use the following information to answer the next four exercises. Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
+  "context": "Joe is the star of his school’s baseball team. His batting average is 0.400, meaning that for every ten times he comes to bat (an at-bat), four of those times he gets a hit. You decide to track his batting performance his next 20 at-bats.",
   "modelSolution": "σ_x=√(npq)=√(20(0.40)(0.60))=2.19",
   "needsFigure": false,
   "explanation": []
@@ -3075,7 +3075,7 @@
    "test": "Practice Test 2",
    "n": 32
   },
-  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "context": "In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
   "modelSolution": "X ~ G(0.24)",
   "needsFigure": false,
   "explanation": []
@@ -3091,7 +3091,7 @@
    "test": "Practice Test 2",
    "n": 33
   },
-  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "context": "In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
   "modelSolution": "μ= 1/p= 1/0.27=3.70",
   "needsFigure": false,
   "explanation": []
@@ -3107,7 +3107,7 @@
    "test": "Practice Test 2",
    "n": 34
   },
-  "context": "Use the following information to answer the next three exercises. In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
+  "context": "In a particular university, 27 percent of students are engineering majors. You decide to select students at random until you choose one that is an engineering major. Let X = the number of students you select until you find one that is an engineering major.",
   "modelSolution": "σ= √(1−p/(p^2))= √(1−0.27/(0.27^2))=3.16",
   "needsFigure": false,
   "explanation": []
@@ -3168,7 +3168,7 @@
    "test": "Practice Test 2",
    "n": 38
   },
-  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "context": "The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
   "modelSolution": "X ~ P(4)",
   "needsFigure": false,
   "explanation": []
@@ -3184,7 +3184,7 @@
    "test": "Practice Test 2",
    "n": 39
   },
-  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "context": "The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
   "modelSolution": "The domain of X = {0, 1, 2, 3, …..) i.e., any integer from 0 upwards.",
   "needsFigure": false,
   "explanation": []
@@ -3200,7 +3200,7 @@
    "test": "Practice Test 2",
    "n": 40
   },
-  "context": "Use the following information to answer the next three exercises. The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
+  "context": "The number of drivers to arrive at a toll booth in an hour can be modeled by the Poisson distribution.",
   "modelSolution": "μ=4\n\nσ=√(4)=2",
   "needsFigure": false,
   "explanation": []
@@ -3231,7 +3231,7 @@
    "test": "Chapter 8",
    "n": 56
   },
-  "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
+  "context": "Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
   "options": [
    "number of people who lost weight on the special weight loss diet.",
    "the number of people who were on the diet.",

@@ -248,7 +248,7 @@
    "module": "m46972",
    "exerciseId": "fs-idm13169200"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "It means that the value of x is just as likely to be any number between 1.5 and 4.5.",
   "needsFigure": false,
   "explanation": []
@@ -264,7 +264,7 @@
    "module": "m46972",
    "exerciseId": "fs-idm8575520"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "1.5 ≤ x ≤ 4.5",
   "needsFigure": false,
   "explanation": []
@@ -280,7 +280,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp86093264"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "answer": 0.3333,
   "tolerance": {
    "abs": 0.005,
@@ -303,7 +303,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp159814864"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "zero",
   "needsFigure": false,
   "explanation": []
@@ -319,7 +319,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp64873328"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "answer": 0.6,
   "tolerance": {
    "abs": 0.06,
@@ -342,7 +342,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp67116592"
   },
-  "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12).",
+  "context": "A distribution is given as X ~ U(0, 12).",
   "modelSolution": "b is 12, and it represents the highest value of x.",
   "needsFigure": false,
   "explanation": []
@@ -358,7 +358,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp104926176"
   },
-  "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12).",
+  "context": "A distribution is given as X ~ U(0, 12).",
   "modelSolution": "six",
   "needsFigure": false,
   "explanation": []
@@ -374,7 +374,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp172321904"
   },
-  "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12).",
+  "context": "A distribution is given as X ~ U(0, 12).",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -390,7 +390,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp16246272"
   },
-  "context": "Use the following information to answer the next eight exercises. A distribution is given as X ~ U(0, 12).",
+  "context": "A distribution is given as X ~ U(0, 12).",
   "answer": 4.8,
   "tolerance": {
    "abs": 0.06,
@@ -413,7 +413,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp109888"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
+  "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
   "modelSolution": "X = The age (in years) of cars in the staff parking lot",
   "needsFigure": false,
   "explanation": []
@@ -429,7 +429,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp74722352"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
+  "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
   "modelSolution": "0.5 to 9.5",
   "needsFigure": false,
   "explanation": []
@@ -445,7 +445,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp54832288"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
+  "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
   "modelSolution": "f(x) = 1/9 where x is between 0.5 and 9.5, inclusive.",
   "needsFigure": false,
   "explanation": []
@@ -461,7 +461,7 @@
    "module": "m46972",
    "exerciseId": "eip-97"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
+  "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
   "answer": 5.0,
   "tolerance": {
    "abs": 0.05,
@@ -484,7 +484,7 @@
    "module": "m46972",
    "exerciseId": "eip-709"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
+  "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
   "modelSolution": "[PARTS]\na. Answers may vary.\nb. 3.5/7\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
@@ -545,7 +545,7 @@
    "module": "m46972",
    "exerciseId": "eip-518"
   },
-  "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
+  "context": "The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
   "options": [
    "zero",
    "two",
@@ -567,7 +567,7 @@
    "module": "m46972",
    "exerciseId": "eip-412"
   },
-  "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
+  "context": "The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
   "options": [
    "0.125",
    "0.25",
@@ -731,7 +731,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp131072752"
   },
-  "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
+  "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -749,7 +749,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp66812752"
   },
-  "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
+  "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
   "modelSolution": "five",
   "needsFigure": false,
   "explanation": []
@@ -765,7 +765,7 @@
    "module": "m46969",
    "exerciseId": "fs-idm6140336"
   },
-  "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
+  "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
   "modelSolution": "f(x) = 0.2e-0.2x",
   "needsFigure": false,
   "explanation": []
@@ -781,7 +781,7 @@
    "module": "m46969",
    "exerciseId": "fs-idm18193360"
   },
-  "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
+  "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
   "answer": 0.535,
   "tolerance": {
    "abs": 0.005,
@@ -804,7 +804,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp55954320"
   },
-  "context": "Use the following information to answer the next ten exercises. A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
+  "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
   "answer": 6.02,
   "tolerance": {
    "abs": 0.006,
@@ -827,7 +827,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp2772016"
   },
-  "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75).",
+  "context": "A distribution is given as X ~ Exp(0.75).",
   "modelSolution": "f(x) = 0.75e-0.75x",
   "needsFigure": false,
   "explanation": []
@@ -843,7 +843,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp110613552"
   },
-  "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75).",
+  "context": "A distribution is given as X ~ Exp(0.75).",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -859,7 +859,7 @@
    "module": "m46969",
    "exerciseId": "fs-idm14412736"
   },
-  "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75).",
+  "context": "A distribution is given as X ~ Exp(0.75).",
   "answer": 0.4756,
   "tolerance": {
    "abs": 0.005,
@@ -897,7 +897,7 @@
    "module": "m46969",
    "exerciseId": "fs-idm50791120"
   },
-  "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.",
+  "context": "Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.",
   "modelSolution": "continuous",
   "needsFigure": false,
   "explanation": []
@@ -995,7 +995,7 @@
    "module": "m46969",
    "exerciseId": "fs-idp164419184"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
+  "context": "The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
   "modelSolution": "a",
   "needsFigure": false,
   "explanation": []
@@ -1011,7 +1011,7 @@
    "module": "m46969",
    "exerciseId": "fs-idm3440688"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
+  "context": "The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
   "options": [
    "0.1941",
    "1.3863",
@@ -1198,7 +1198,7 @@
    "test": "Practice Test 2",
    "n": 48
   },
-  "context": "Use the following information to answer the next four exercises. The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
+  "context": "The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
   "modelSolution": "X ~ U(0, 15)",
   "needsFigure": false,
   "explanation": []
@@ -1214,7 +1214,7 @@
    "test": "Practice Test 2",
    "n": 49
   },
-  "context": "Use the following information to answer the next four exercises. The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
+  "context": "The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
   "modelSolution": "f(x)=1/b−a for (a≤x≤b) so f(x)=1/30 for (0≤x≤30)",
   "needsFigure": false,
   "explanation": []
@@ -1230,7 +1230,7 @@
    "test": "Practice Test 2",
    "n": 50
   },
-  "context": "Use the following information to answer the next four exercises. The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
+  "context": "The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
   "modelSolution": "μ= (a+b)/2= (0+30)/5=15.0\n\nσ= √(((b−a)^2)/12)= √(((30−0)^2)/12)=8.66",
   "needsFigure": false,
   "explanation": []
@@ -1246,7 +1246,7 @@
    "test": "Practice Test 2",
    "n": 51
   },
-  "context": "Use the following information to answer the next four exercises. The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
+  "context": "The number of minutes that a patient waits at a medical clinic to see a doctor is represented by a uniform distribution between zero and 30 minutes, inclusive.",
   "modelSolution": "P(x<10)=(10)(1/30)= 0.33",
   "needsFigure": false,
   "explanation": []
@@ -1307,7 +1307,7 @@
    "test": "Practice Final Exam 2",
    "n": 13
   },
-  "context": "Use the following information to answer the next three exercises. The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
   "modelSolution": "a. 0.6321",
   "needsFigure": false,
   "explanation": []
@@ -1323,7 +1323,7 @@
    "test": "Practice Final Exam 2",
    "n": 14
   },
-  "context": "Use the following information to answer the next three exercises. The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
   "options": [
    "72",
    "(72^2)/5",
@@ -1345,7 +1345,7 @@
    "test": "Practice Final Exam 2",
    "n": 15
   },
-  "context": "Use the following information to answer the next three exercises. The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
   "options": [
    "N(72, 72)",
    "N(72,72/(√(50)))",
@@ -1367,7 +1367,7 @@
    "test": "Practice Final Exam 2",
    "n": 16
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
+  "context": "The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
   "options": [
    "3/9",
    "7/9",
@@ -1389,7 +1389,7 @@
    "test": "Practice Final Exam 2",
    "n": 17
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
+  "context": "The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
   "modelSolution": "d.",
   "needsFigure": true,
   "explanation": []
@@ -1405,7 +1405,7 @@
    "test": "Practice Final Exam 2",
    "n": 18
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
+  "context": "The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
   "modelSolution": "b. 5.5",
   "needsFigure": true,
   "explanation": []
@@ -1421,7 +1421,7 @@
    "test": "Chapter 7",
    "n": 47
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "U(0, 4)",
    "U(10, 20)",
@@ -1443,7 +1443,7 @@
    "test": "Chapter 7",
    "n": 48
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "1 hour.",
    "2 hours.",
@@ -1467,7 +1467,7 @@
    "test": "Chapter 7",
    "n": 49
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
+  "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "1/4",
    "1/2",
@@ -1585,7 +1585,7 @@
    "test": "Chapter 8",
    "n": 63
   },
-  "context": "Use the following information to answer the next two exercises: The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.",
+  "context": "The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.",
   "options": [
    "eight days",
    "three days",
@@ -1607,7 +1607,7 @@
    "test": "Chapter 8",
    "n": 64
   },
-  "context": "Use the following information to answer the next two exercises: The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.",
+  "context": "The length of time a parent must wait for his children to clean their rooms is uniformly distributed in the time interval from one to 15 days.",
   "options": [
    "0.5174",
    "0.0174",
@@ -1629,7 +1629,7 @@
    "test": "Chapter 8",
    "n": 68
   },
-  "context": "Use the following information to answer the next five exercises: Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
+  "context": "Twenty percent of the students at a local community college live in within five miles of the campus. Thirty percent of the students at the same community college receive some kind of financial aid. Of those who live within five miles of the campus, 75% receive some kind of financial aid.",
   "options": [
    "quantitative discrete",
    "quantitative continuous",
@@ -1681,7 +1681,7 @@
    "test": "Chapter 12",
    "n": 126
   },
-  "context": "Use the following information to answer the next three exercises: The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
   "answer": 0.6321,
   "tolerance": {
    "abs": 0.005,
@@ -1704,7 +1704,7 @@
    "test": "Chapter 12",
    "n": 127
   },
-  "context": "Use the following information to answer the next three exercises: The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
   "answer": 360.0,
   "tolerance": {
    "abs": 0.05,
@@ -1727,7 +1727,7 @@
    "test": "Chapter 12",
    "n": 128
   },
-  "context": "Use the following information to answer the next three exercises: The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
+  "context": "The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the mean amount of money a customer spends in one trip to the supermarket is $72.",
   "modelSolution": "N(72, 72/(√(5)))",
   "needsFigure": false,
   "explanation": []

@@ -10,7 +10,7 @@
    "test": "Practice Final Exam 1",
    "n": 8
   },
-  "context": "Use the following information to answer the next two exercises: On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
+  "context": "On any given day, approximately 37.5% of the cars parked in the De Anza parking garage are parked crookedly. We randomly survey 22 cars. We are interested in the number of cars that are parked crookedly.",
   "options": [
    "8.25",
    "11",
@@ -131,7 +131,7 @@
    "test": "Chapter 4",
    "n": 20
   },
-  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "modelSolution": "B(25, 0.04)",
   "needsFigure": false,
   "explanation": []
@@ -147,7 +147,7 @@
    "test": "Chapter 4",
    "n": 22
   },
-  "context": "Use the following information to answer the next four exercises: Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
+  "context": "Recently, a nurse commented that when a patient calls the medical advice line claiming to have the flu, the chance that they truly have the flu (and not just a nasty cold) is only about 4%. Of the next 25 patients calling in claiming to have the flu, we are interested in how many actually have the flu.",
   "answer": 1.0,
   "tolerance": {
    "abs": 0.05,

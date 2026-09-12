@@ -64,37 +64,37 @@
      "id": "fs-idm15565424",
      "problem": "What is the mean, standard deviation, and sample size?",
      "solution": "mean = 4 hours; standard deviation = 1.2 hours; sample size = 16",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     },
     {
      "id": "fs-idp17869408",
      "problem": "Complete the distributions.\n\n[PARTS]\na. X ~ _____(_____,_____)\nb. X̄ ~ _____(_____,_____)\n[/PARTS]",
      "solution": "[PARTS]\n1. X ~N(4, 1.2).\n2. X̄ ~N(4, 1.2/(√(16)))\n[/PARTS]",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     },
     {
      "id": "element-446",
      "problem": "Find the probability that one review will take Yoonie from 3.5 to 4.25 hours. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\n[PARTS]\na. [FIGURE]\nb. P(________ <x < ________) = _______\n[/PARTS]",
      "solution": "a. Answers may vary.\n\nb. 3.5, 4.25, 0.2441",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     },
     {
      "id": "element-322",
      "problem": "Find the probability that the mean of a month’s reviews will take Yoonie from 3.5 to 4.25 hrs. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\n[PARTS]\na. [FIGURE]\nb. P(________________) = _______\n[/PARTS]",
      "solution": "b. 0.7499",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     },
     {
      "id": "fs-idm42157984",
      "problem": "What causes the probabilities in the exercise above and the exercise above to be different?",
      "solution": "The fact that the two distributions are different accounts for the different probabilities.",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     },
     {
      "id": "fs-idm70816816",
      "problem": "Find the 95th percentile for the mean time to complete one month's reviews. Sketch the graph.\n\n[PARTS]\na. [FIGURE]\nb. The 95th Percentile =____________\n[/PARTS]",
      "solution": "P(3.5 < x̄ < 4.25) = invNorm(95,4,1.2/(√(16))) = 4.49",
-     "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
+     "context": "Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews."
     }
    ],
    "homework": [
@@ -232,115 +232,115 @@
      "id": "eip-769",
      "problem": "Find the probability that the sum of the 95 values is greater than 7,650.",
      "solution": "0.3345",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
+     "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
     },
     {
      "id": "eip-145",
      "problem": "Find the probability that the sum of the 95 values is less than 7,400.",
      "solution": "0.0436",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
+     "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
     },
     {
      "id": "eip-335",
      "problem": "Find the sum that is two standard deviations above the mean of the sums.",
      "solution": "7,833.92",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
+     "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
     },
     {
      "id": "eip-251",
      "problem": "Find the sum that is 1.5 standard deviations below the mean of the sums.",
      "solution": "7,424.56",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
+     "context": "An unknown distribution has a mean of 80 and a standard deviation of 12. A sample size of 95 is drawn randomly from the population."
     },
     {
      "id": "eip-539",
      "problem": "Find the probability that the sum of the 40 values is greater than 7,500.",
      "solution": "0.0089",
-     "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
+     "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
     },
     {
      "id": "eip-169",
      "problem": "Find the probability that the sum of the 40 values is less than 7,000.",
      "solution": "0.0569",
-     "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
+     "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
     },
     {
      "id": "eip-308",
      "problem": "Find the sum that is one standard deviation above the mean of the sums.",
      "solution": "7,326.49",
-     "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
+     "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
     },
     {
      "id": "eip-743",
      "problem": "Find the sum that is 1.5 standard deviations below the mean of the sums.",
      "solution": "7,010.26",
-     "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
+     "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
     },
     {
      "id": "eip-593",
      "problem": "Find the percentage of sums between 1.5 standard deviations below the mean of the sums and one standard deviation above the mean of the sums.",
      "solution": "77.45%",
-     "context": "Use the following information to answer the next five exercises: The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
+     "context": "The distribution of results from a cholesterol test has a mean of 180 and a standard deviation of 20. A sample size of 40 is drawn randomly."
     },
     {
      "id": "exercise11",
      "problem": "Find the probability that the sum of the 100 values is greater than 3,910.",
      "solution": "0.0359",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "exercise12",
      "problem": "Find the probability that the sum of the 100 values is less than 3,900.",
      "solution": "0.4207",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "eip-718",
      "problem": "Find the probability that the sum of the 100 values falls between the numbers you found in the exercise above and the exercise above.",
      "solution": "0.5433",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "eip-750",
      "problem": "Find the sum with a z–score of –2.5.",
      "solution": "3,888.5",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "eip-763",
      "problem": "Find the sum with a z–score of 0.5.",
      "solution": "3,903.5",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "eip-44",
      "problem": "Find the probability that the sums will fall between the z-scores –2 and 1.",
      "solution": "0.8186",
-     "context": "Use the following information to answer the next six exercises: A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
+     "context": "A researcher measures the amount of sugar in several cans of the same soda. The mean is 39.01 with a standard deviation of 0.5. The researcher randomly selects a sample of 100."
     },
     {
      "id": "eip-175",
      "problem": "What is the mean of ΣX?",
      "solution": "300",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
+     "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
     },
     {
      "id": "eip-213",
      "problem": "What is the standard deviation of ΣX?",
      "solution": "5",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
+     "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
     },
     {
      "id": "eip-592",
      "problem": "What is P(Σx = 290)?",
      "solution": "0",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
+     "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
     },
     {
      "id": "eip-710",
      "problem": "What is P(Σx > 290)?",
      "solution": "0.9772",
-     "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
+     "context": "An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest."
     },
     {
      "id": "eip-102",
@@ -371,37 +371,37 @@
      "id": "eip-626",
      "problem": "What is the z-score for Σx = 840?",
      "solution": "26.00",
-     "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
+     "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
     },
     {
      "id": "eip-224",
      "problem": "What is the z-score for Σx = 1,186?",
      "solution": "–1",
-     "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
+     "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
     },
     {
      "id": "eip-616",
      "problem": "What is P(Σx < 1,186)?",
      "solution": "0.1587",
-     "context": "Use the following information to answer the next three exercises. A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
+     "context": "A market researcher analyzes how many electronics devices customers buy in a single purchase. The distribution has a mean of three with a standard deviation of 0.7. They sample 400 customers."
     },
     {
      "id": "eip-956",
      "problem": "What is the mean of ΣX?",
      "solution": "10,000",
-     "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
+     "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
     },
     {
      "id": "eip-368",
      "problem": "What is the standard deviation of ΣX?",
      "solution": "1,000",
-     "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
+     "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
     },
     {
      "id": "eip-899",
      "problem": "What is P(Σx > 9,000)?",
      "solution": "0.8413",
-     "context": "Use the following information to answer the next three exercises: An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
+     "context": "An unknown distribution has a mean of 100, a standard deviation of 100, and a sample size of 100. Let X = one object of interest."
     }
    ],
    "homework": [
@@ -490,91 +490,91 @@
      "id": "exercise4",
      "problem": "[PARTS]\na. What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deivation?\nb. What is the distribution for the mean weight of 100 25-pound lifting weights?\nc. Find the probability that the mean actual weight for the 100 weights is less than 24.9.\n[/PARTS]",
      "solution": "[PARTS]\na. U(24, 26), 25, 0.5774\nb. N(25, 0.0577)\nc. 0.0416\n[/PARTS]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "fs-idm84240544",
      "problem": "Draw the graph from the exercise above",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "exercise6",
      "problem": "Find the probability that the mean actual weight for the 100 weights is greater than 25.2.",
      "solution": "0.0003",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "fs-idm30735600",
      "problem": "Draw the graph from the exercise above",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "exercise8",
      "problem": "Find the 90th percentile for the mean weight for the 100 weights.",
      "solution": "25.07",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "fs-idm167897040",
      "problem": "Draw the graph from the exercise above",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "exercise10",
      "problem": "[PARTS]\na. What is the distribution for the sum of the weights of 100 25-pound lifting weights?\nb. Find P(Σx < 2,450).\n[/PARTS]",
      "solution": "[PARTS]\na. N(2,500, 5.7735)\nb. 0\n[/PARTS]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "exercise11",
      "problem": "Draw the graph from the exercise above",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "exercise12",
      "problem": "Find the 90th percentile for the total weight of the 100 weights.",
      "solution": "2,507.40",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "fs-idm54084400",
      "problem": "Draw the graph from the exercise above",
      "solution": "[FIGURE]",
-     "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
+     "context": "A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken."
     },
     {
      "id": "fs-idm110175696",
      "problem": "[PARTS]\na. What is the standard deviation?\nb. What is the parameter m?\n[/PARTS]",
      "solution": "[PARTS]\na. 10\nb. 1/10\n[/PARTS]",
-     "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
+     "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
     },
     {
      "id": "fs-idm85285856",
      "problem": "What is the distribution for the length of time one battery lasts?",
      "solution": "Exp(1/10)",
-     "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
+     "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
     },
     {
      "id": "fs-idm151129248",
      "problem": "What is the distribution for the mean length of time 64 batteries last?",
      "solution": "N(10, 10/8)",
-     "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
+     "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
     },
     {
      "id": "fs-idm69924752",
      "problem": "What is the distribution for the total length of time 64 batteries last?",
      "solution": "N(640, 80)",
-     "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
+     "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
     },
     {
      "id": "fs-idm1366160",
      "problem": "Find the probability that the sample mean is between seven and 11.",
      "solution": "0.7799",
-     "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
+     "context": "The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken."
     },
     {
      "id": "fs-idm28939008",
@@ -595,37 +595,37 @@
      "id": "fs-idm1612656",
      "problem": "Find P(Σx > 420).",
      "solution": "0.0072",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     },
     {
      "id": "fs-idm48638032",
      "problem": "Find the 90th percentile for the sums.",
      "solution": "410.46",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     },
     {
      "id": "fs-idm53694544",
      "problem": "Find the 15th percentile for the sums.",
      "solution": "391.54",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     },
     {
      "id": "fs-idm16561168",
      "problem": "Find the first quartile for the sums.",
      "solution": "394.49",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     },
     {
      "id": "fs-idp10404400",
      "problem": "Find the third quartile for the sums.",
      "solution": "405.51",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     },
     {
      "id": "fs-idm111220240",
      "problem": "Find the 80th percentile for the sums.",
      "solution": "406.87",
-     "context": "Use the following information to answer the next eight exercises: A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
+     "context": "A uniform distribution has a minimum of six and a maximum of ten. A sample of 50 is taken."
     }
    ],
    "homework": [
@@ -650,7 +650,7 @@
       "N(2,1)"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
+     "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
     },
     {
      "id": "element-407",
@@ -663,7 +663,7 @@
       "four hours."
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
+     "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
     },
     {
      "id": "element-191",
@@ -676,7 +676,7 @@
       "3/8"
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
+     "context": "Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery."
     },
     {
      "id": "element-620",
@@ -689,7 +689,7 @@
       "65.2"
      ],
      "solution": "b",
-     "context": "Use the following information to answer the next two exercises: The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited."
+     "context": "The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited."
     },
     {
      "id": "element-339",
@@ -701,7 +701,7 @@
       "There is not enough information."
      ],
      "solution": "a",
-     "context": "Use the following information to answer the next two exercises: The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited."
+     "context": "The time to wait for a particular rural bus is distributed uniformly from zero to 75 minutes. One hundred riders are randomly sampled to learn how long they waited."
     },
     {
      "id": "element-644",
@@ -714,13 +714,13 @@
       "unknown"
      ],
      "solution": "a",
-     "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations."
+     "context": "The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations."
     },
     {
      "id": "eip-415",
      "problem": "Find the probability that the average price for 30 gas stations is less than $4.55.\n\n[DATA]0.6554, 0.3446, 0.0142, 0.9858, 0[/DATA]",
      "solution": "c",
-     "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations."
+     "context": "The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations."
     },
     {
      "id": "eip-786",

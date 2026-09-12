@@ -11,13 +11,23 @@ export { RichText } from './RichText';
 /** Above this many estimated lines a scenario is collapsed by default. */
 const SCENARIO_LINES = 8;
 const SCENARIO_PX = 208;
+/**
+ * A scenario built around a table gets a much larger budget. Cutting one at 208px left a header
+ * and a single row on screen — worse than no table at all, since the learner has to expand it
+ * before they can read anything. The table scrolls inside its own box (max-height 22rem), so the
+ * scenario cannot run away even without the clamp.
+ */
+const SCENARIO_TABLE_PX = 620;
 /** A question itself is only ever clamped when it is genuinely enormous. */
 const STEM_LINES = 26;
 const STEM_PX = 560;
 
 function Scenario({ text, repeated, measureKey }: { text: string; repeated: boolean; measureKey: string }) {
   const [shown, setShown] = useState(!repeated);
-  const long = estimateLines(parseRich(text)) > SCENARIO_LINES;
+  const blocks = parseRich(text);
+  const hasTable = blocks.some((b) => b.kind === 'table');
+  const maxPx = hasTable ? SCENARIO_TABLE_PX : SCENARIO_PX;
+  const long = !hasTable && estimateLines(blocks) > SCENARIO_LINES;
 
   if (repeated && !shown) {
     return (
@@ -33,7 +43,7 @@ function Scenario({ text, repeated, measureKey }: { text: string; repeated: bool
   return (
     <div className="scenario">
       <p className="eyebrow scenario-label">Scenario</p>
-      <Clamp maxPx={SCENARIO_PX} probablyLong={long} measureKey={measureKey} openLabel="Show all of the scenario">
+      <Clamp maxPx={maxPx} probablyLong={long} measureKey={measureKey} openLabel="Show all of the scenario">
         <RichText text={text} />
       </Clamp>
     </div>
