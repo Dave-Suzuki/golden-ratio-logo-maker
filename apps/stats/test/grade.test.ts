@@ -110,6 +110,9 @@ describe('grading, after end-to-end testing', () => {
     expect(parseNumeric('180.5 cm')).toBe(180.5);
     expect(parseNumeric('36 minutes')).toBe(36);
     expect(parseNumeric('1e5')).toBe(100000);
+    expect(parseNumeric('x = 6.5')).toBe(6.5);
+    expect(parseNumeric('z=-1.5')).toBe(-1.5);
+    expect(parseNumeric('\u22124')).toBe(-4);
     expect(parseNumeric('3/8')).toBe(0.375);
     expect(parseNumeric('cm')).toBeNull();
   });

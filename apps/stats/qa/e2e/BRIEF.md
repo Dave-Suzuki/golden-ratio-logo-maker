@@ -15,6 +15,15 @@ with `node`. Import the helper:
     await page.goto(`${BASE}/#/`, { waitUntil: 'networkidle' });
 
 `errors` collects page errors and console errors as you go — report any that appear.
+
+**A trap worth knowing before you write a driver.** The quiz in progress is saved in
+sessionStorage, so navigating to the SAME quiz URL again resumes that quiz rather than starting it
+over — the answer controls come back disabled, and a `fill()` will hang waiting for an editable
+element. To start the same URL fresh, clear it first:
+
+    await page.evaluate(() => sessionStorage.removeItem('stats-session'));
+
+That behaviour is intentional; do not report it as a defect unless the resume itself is wrong.
 Take a screenshot of every defect: `await page.screenshot({ path: 'qa/e2e/<id>.png', fullPage: true })`.
 Prefer clicking what the learner sees (buttons, links) over typing URLs. Use a URL only when a page
 has no visible way in. Wait for content with `page.waitForSelector` or a short `waitForTimeout`

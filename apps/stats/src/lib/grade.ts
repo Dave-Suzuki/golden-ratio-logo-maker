@@ -5,7 +5,8 @@ import { SYMBOL_GLYPHS, formatNumber } from './format';
 export function parseNumeric(raw: string): number | null {
   let s = raw.trim().toLowerCase();
   if (!s) return null;
-  s = s.replace(/^(≈|~|approx\.?|about|=|x=|p=|z=)\s*/, '').replace(/^\+/, '');
+  // "x = 6.5", "p̂ = 0.4", "≈ 0.25": a learner who restates the variable has still answered
+  s = s.replace(/^(?:[a-z](?:bar|hat)?\s*=|≈|~|approx\.?|about|=)\s*/, '').replace(/^\+/, '');
   s = s.replace(/[$€£]/g, '').replace(/,/g, '').replace(/[−–]/g, '-').replace(/\s+/g, '');
   let pct = false;
   if (s.endsWith('%')) {
