@@ -1,7 +1,7 @@
 'use client';
 
 import { grade } from './grade';
-import { useStats, type CatalogChapter, type ProfileSummary, type Session } from './store';
+import { useStats, type CatalogChapter, type ProfileSummary, type Session, type StorageKind } from './store';
 import { refFor } from './testgen';
 import type { Given, ProfileView, Question, Test, TestSpec } from './types';
 
@@ -58,13 +58,14 @@ async function withBusy<T>(label: string, fn: () => Promise<T>): Promise<T | und
 export async function bootstrap() {
   const s = useStats.getState();
   if (s.catalog.length === 0) {
-    const [{ chapters }, { ai }, { profiles }] = await Promise.all([
+    const [{ chapters }, { ai, storage }, { profiles }] = await Promise.all([
       request<{ chapters: CatalogChapter[] }>('/api/catalog'),
-      request<{ ai: boolean }>('/api/health'),
+      request<{ ai: boolean; storage?: StorageKind }>('/api/health'),
       request<{ profiles: ProfileSummary[] }>('/api/profiles'),
     ]);
     useStats.getState().setCatalog(chapters);
     useStats.getState().setAiEnabled(ai);
+    if (storage) useStats.getState().setStorageKind(storage);
     useStats.getState().setProfiles(profiles);
   }
   if (!useStats.getState().profile) {

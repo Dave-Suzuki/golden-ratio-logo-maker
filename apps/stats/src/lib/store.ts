@@ -9,6 +9,8 @@ export interface ProfileSummary {
   updatedAt: string;
 }
 
+export type StorageKind = 'page' | 'browser' | 'server';
+
 export interface Session {
   id: string;
   test: Test;
@@ -40,6 +42,8 @@ interface StatsState {
   profile: ProfileView | null;
   catalog: CatalogChapter[];
   aiEnabled: boolean;
+  /** where progress lives: this page's own database, this browser only, or a server */
+  storageKind: StorageKind;
   session: Session | null;
   busy: string | null;
   error: string | null;
@@ -48,10 +52,37 @@ interface StatsState {
   setProfile: (p: ProfileView | null) => void;
   setCatalog: (c: CatalogChapter[]) => void;
   setAiEnabled: (v: boolean) => void;
+  setStorageKind: (k: StorageKind) => void;
   setSession: (s: Session | null) => void;
   patchSession: (fn: (s: Session) => Session) => void;
   setBusy: (b: string | null) => void;
   setError: (e: string | null) => void;
+}
+
+const SESSION_KEY = 'stats-session';
+
+/**
+ * The quiz in progress is kept in sessionStorage so a reload resumes it. Without this a reload
+ * rebuilt the same test from question 1 while the answers already graded stayed recorded, so a
+ * ten-question quiz could end with thirteen answers and duplicated mistakes. sessionStorage is
+ * per-tab and cleared when the tab closes, which is the right lifetime for "the quiz I am doing".
+ */
+function readSession(): Session | null {
+  try {
+    const raw = typeof sessionStorage !== 'undefined' ? sessionStorage.getItem(SESSION_KEY) : null;
+    return raw ? (JSON.parse(raw) as Session) : null;
+  } catch {
+    return null;
+  }
+}
+function writeSession(s: Session | null): void {
+  try {
+    if (typeof sessionStorage === 'undefined') return;
+    if (s) sessionStorage.setItem(SESSION_KEY, JSON.stringify(s));
+    else sessionStorage.removeItem(SESSION_KEY);
+  } catch {
+    /* storage unavailable: the session simply will not survive a reload */
+  }
 }
 
 export const useStats = create<StatsState>((set) => ({
@@ -59,15 +90,26 @@ export const useStats = create<StatsState>((set) => ({
   profile: null,
   catalog: [],
   aiEnabled: false,
-  session: null,
+  storageKind: 'browser',
+  session: readSession(),
   busy: null,
   error: null,
   setProfiles: (profiles) => set({ profiles }),
   setProfile: (profile) => set({ profile }),
   setCatalog: (catalog) => set({ catalog }),
   setAiEnabled: (aiEnabled) => set({ aiEnabled }),
-  setSession: (session) => set({ session }),
-  patchSession: (fn) => set((s) => (s.session ? { session: fn(s.session) } : {})),
+  setStorageKind: (storageKind) => set({ storageKind }),
+  setSession: (session) => {
+    writeSession(session);
+    set({ session });
+  },
+  patchSession: (fn) =>
+    set((s) => {
+      if (!s.session) return {};
+      const session = fn(s.session);
+      writeSession(session);
+      return { session };
+    }),
   setBusy: (busy) => set({ busy }),
   setError: (error) => set({ error }),
 }));

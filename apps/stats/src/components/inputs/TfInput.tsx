@@ -22,10 +22,13 @@ export function TfInput({
           disabled={disabled}
           onClick={() => onChange(v)}
           ref={i === 0 ? (inputRef as RefObject<HTMLButtonElement | null> | undefined) : undefined}
+          aria-pressed={value === v}
           className={`flex-1 rounded border px-4 py-2.5 text-sm sm:flex-none ${
-            value === v ? 'border-[var(--accent)] bg-[var(--accent-soft)]' : 'border-[var(--line)] bg-white'
+            value === v ? 'border-[var(--accent)] bg-[var(--accent-soft)] font-semibold' : 'border-[var(--line)] bg-white'
           }`}
         >
+          {/* the tick is the selected cue; the focus ring alone looked like a choice already made */}
+          {value === v ? '✓ ' : ''}
           {v ? 'True' : 'False'}
         </button>
       ))}

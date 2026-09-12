@@ -723,7 +723,7 @@
  {
   "id": "os-m46969-fs-idp131072752",
   "sectionId": "5.3",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "5.3",
   "stem": "Are outcomes equally likely in this distribution? Why or why not?",
   "source": "openstax-practice",
@@ -732,11 +732,9 @@
    "exerciseId": "fs-idp131072752"
   },
   "context": "A customer service representative must spend different amounts of time with each customer to resolve various concerns. The amount of time spent with each customer can be modeled by the following distribution: X ~ Exp(0.2)",
-  "answer": false,
+  "modelSolution": "No, outcomes are not equally likely. In this distribution, more people require a little bit of time, and fewer people require a lot of time, so it is more likely that someone will require less time.",
   "needsFigure": false,
-  "explanation": [
-   "No, outcomes are not equally likely. In this distribution, more people require a little bit of time, and fewer people require a lot of time, so it is more likely that someone will require less time."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46969-fs-idp66812752",

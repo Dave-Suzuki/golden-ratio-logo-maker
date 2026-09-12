@@ -49,6 +49,9 @@ export function QuizRunner() {
   const [open, setOpen] = useState('');
   const [teach, setTeach] = useState<TeachSnippet | null>(null);
   const [finished, setFinished] = useState(false);
+  /** shown when Check is pressed with no answer given */
+  const [nudge, setNudge] = useState<string | null>(null);
+  const nextRef = useRef<HTMLButtonElement>(null);
   const answerRef = useRef<HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement | null>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
 
@@ -77,7 +80,8 @@ export function QuizRunner() {
   const check = useCallback(() => {
     const g = buildGiven();
     if (g) void submitAnswer(g);
-  }, [buildGiven]);
+    else setNudge(q?.kind === 'open' ? 'Write something first, even a guess.' : 'Choose an answer first.');
+  }, [buildGiven, q?.kind]);
 
   // a fresh question: clear the inputs, load its refresher, focus the answer and go back to the top
   useEffect(() => {
@@ -86,6 +90,7 @@ export function QuizRunner() {
     setFill([]);
     setTf(null);
     setOpen('');
+    setNudge(null);
     if (!q) return;
     // a practice-test question is filed under the heading it follows, not the topic it tests
     void loadTeach(refresherSectionFor({ ...q, options: q.kind === 'mc' ? q.options : undefined })).then(setTeach);
@@ -96,7 +101,11 @@ export function QuizRunner() {
   }, [q?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    if (answered) feedbackRef.current?.scrollIntoView({ block: 'nearest', behavior: smooth() });
+    if (!answered) return;
+    feedbackRef.current?.scrollIntoView({ block: 'nearest', behavior: smooth() });
+    // focus was dropped on <body> after a check, leaving a keyboard learner with no hint of what
+    // comes next; the Next button is the one thing to do now
+    nextRef.current?.focus({ preventScroll: true });
   }, [answered]);
 
   useEffect(() => {
@@ -109,8 +118,11 @@ export function QuizRunner() {
   // keyboard: Enter checks, Enter again advances, letters pick an option
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.isComposing || e.metaKey || e.altKey) return;
+      if (e.isComposing || e.altKey) return;
       const el = e.target as HTMLElement | null;
+      // A focused button or link must keep its own Enter: taking it over meant Enter on
+      // "Show me the essentials" advanced the quiz and Enter on "I got it" did nothing at all.
+      if (e.key === 'Enter' && el && (el.tagName === 'BUTTON' || el.tagName === 'A')) return;
       // a focused radio or button is not "typing": the letter shortcuts must still work there
       const inputType = el instanceof HTMLInputElement ? el.type : '';
       const typing =
@@ -118,8 +130,8 @@ export function QuizRunner() {
         Boolean(el?.isContentEditable) ||
         (el?.tagName === 'INPUT' && !['radio', 'checkbox', 'button', 'submit'].includes(inputType));
       if (e.key === 'Enter') {
-        // let a textarea keep its newlines unless Ctrl+Enter is used
-        if (el?.tagName === 'TEXTAREA' && !e.ctrlKey) return;
+        // let a textarea keep its newlines unless Ctrl+Enter (or ⌘+Enter) is used
+        if (el?.tagName === 'TEXTAREA' && !(e.ctrlKey || e.metaKey)) return;
         e.preventDefault();
         if (!locked) check();
         else if (answered) nextQuestion();
@@ -186,13 +198,18 @@ export function QuizRunner() {
             <button onClick={check} className="w-full rounded bg-[var(--accent)] px-4 py-2.5 text-sm text-white sm:w-auto">
               {q.kind === 'open' ? 'Show model answer' : 'Check answer'}
             </button>
+            {nudge && (
+              <p className="text-sm text-[var(--warn)]" role="status">
+                {nudge}
+              </p>
+            )}
             <p className="key-hint hidden sm:block">
               {q.kind === 'mc'
                 ? 'Press a–d to choose, Enter to check'
                 : q.kind === 'tf'
                   ? 'Press t or f, Enter to check'
                   : q.kind === 'open'
-                    ? 'Press Enter to see the model answer'
+                    ? 'Ctrl+Enter (⌘+Enter on Mac) to see the model answer'
                     : 'Press Enter to check'}
             </p>
           </div>
@@ -222,8 +239,9 @@ export function QuizRunner() {
       {answered && given && result && (
         <div ref={feedbackRef} className="space-y-4">
           <FeedbackPanel q={q} given={given} result={result} teach={teach} />
-          <div className="flex justify-end">
-            <button onClick={nextQuestion} className="w-full rounded bg-[var(--accent)] px-4 py-2.5 text-sm text-white sm:w-auto">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-end">
+            <p className="key-hint hidden sm:block">Press Enter for {session.index + 1 < total ? 'the next question' : 'your score'}</p>
+            <button ref={nextRef} onClick={nextQuestion} className="w-full rounded bg-[var(--accent)] px-4 py-2.5 text-sm text-white sm:w-auto">
               {session.index + 1 < total ? 'Next question' : 'Finish'}
             </button>
           </div>

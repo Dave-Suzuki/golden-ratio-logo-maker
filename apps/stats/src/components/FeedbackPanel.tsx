@@ -21,10 +21,10 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
   return (
     <div className={`rounded-lg border p-4 text-sm ${ok ? 'border-[var(--ok)] bg-[var(--ok-soft)]' : 'border-[var(--bad)] bg-[var(--bad-soft)]'}`}>
       <p className="font-semibold">{ok ? 'Correct.' : result.correct === false ? 'Not quite.' : ''}</p>
-      {!ok && (
+      {!ok && q.kind !== 'open' && (
         <p className="mt-1">
           <span className="opacity-70">Correct answer: </span>
-          <span className="font-medium whitespace-pre-line">{q.kind === 'open' ? '' : result.correctDisplay}</span>
+          <span className="font-medium whitespace-pre-line">{result.correctDisplay}</span>
         </p>
       )}
       {q.kind === 'open' && (

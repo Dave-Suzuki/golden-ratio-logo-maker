@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { applyEvent, computeMastery, newProfile, openConcepts } from '@/lib/progress';
+import { conceptKey, applyEvent, computeMastery, newProfile, openConcepts } from '@/lib/progress';
 import type { Given, McQuestion, OpenQuestion, TestSpec } from '@/lib/types';
 
 const spec: TestSpec = { scope: 'section', id: '6.1', count: 3, seed: 1 };
@@ -12,17 +12,18 @@ function answer(p: ReturnType<typeof newProfile>, q: McQuestion | OpenQuestion, 
 
 describe('progress reducer', () => {
   it('wrong → mistake + open concept; 2 correct in a row → understood; a miss resets the streak', () => {
+    // the concept is the question itself: only *this* question answered right twice clears it
     let p = newProfile('p', 'Dave');
     p = answer(p, mc, { kind: 'mc', index: 0 });
     expect(p.mistakes).toHaveLength(1);
-    expect(p.review['z']).toMatchObject({ status: 'open', streak: 0, misses: 1 });
+    expect(p.review[conceptKey(mc)]).toMatchObject({ status: 'open', streak: 0, misses: 1 });
     p = answer(p, mc, { kind: 'mc', index: 1 });
-    expect(p.review['z']).toMatchObject({ status: 'open', streak: 1 });
+    expect(p.review[conceptKey(mc)]).toMatchObject({ status: 'open', streak: 1 });
     p = answer(p, mc, { kind: 'mc', index: 0 });
-    expect(p.review['z']).toMatchObject({ status: 'open', streak: 0, misses: 2 });
+    expect(p.review[conceptKey(mc)]).toMatchObject({ status: 'open', streak: 0, misses: 2 });
     p = answer(p, mc, { kind: 'mc', index: 1 });
     p = answer(p, mc, { kind: 'mc', index: 1 });
-    expect(p.review['z']?.status).toBe('understood');
+    expect(p.review[conceptKey(mc)]?.status).toBe('understood');
     expect(openConcepts(p)).toEqual([]);
     expect(p.sectionStats['6.1']).toMatchObject({ answered: 5, correct: 3 });
   });
@@ -36,7 +37,7 @@ describe('progress reducer', () => {
     expect(p.sectionStats['6.1']).toBeUndefined();
     p = answer(p, open, { kind: 'open', text: 'my answer', selfMark: 'missed' });
     expect(p.mistakes).toHaveLength(1);
-    expect(p.review['w']?.status).toBe('open');
+    expect(p.review[conceptKey(open)]?.status).toBe('open');
   });
   it('finish records an attempt and last score → mastery', () => {
     let p = newProfile('p', 'D');

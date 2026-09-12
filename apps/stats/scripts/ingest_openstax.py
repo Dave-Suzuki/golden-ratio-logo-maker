@@ -758,10 +758,16 @@ def classify(problem, stem, options, solution, context):
         return 'numeric', {'answer': v, 'tolerance': {'abs': abs_tol, 'rel': 0.01 if abs(v) < 1 else 0.005},
                            'unit': '%' if pct else None, 'needsFigure': has_fig}
     ym = YESNO.match(sol)
-    if ym and (problem or '').rstrip().endswith('?'):
+    if ym and (problem or '').rstrip().endswith('?') and not ASKS_FOR_REASON.search(problem or ''):
         return 'tf', {'answer': ym.group(1).lower() in ('yes', 'true'), 'needsFigure': has_fig}
     return 'open', {'modelSolution': sol, 'needsFigure': has_fig}
 
+
+# "Is X ~ N(0, 1) standardized? Why or why not?" has a yes/no answer and a reason. Graded as
+# true/false, the reason — the part the book is really asking for — can never be marked, and a
+# learner who guessed right learns nothing. Any stem that asks for a reason, or asks two things,
+# stays an open question with its model answer.
+ASKS_FOR_REASON = re.compile(r'\b(why|explain|justify|describe|discuss|how do you know)\b|\?.*\?', re.I | re.S)
 
 OPTION_LETTER_RE = re.compile(r'^\s*\(?([a-f])[.)]?\s*', re.I)
 

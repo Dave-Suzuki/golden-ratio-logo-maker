@@ -175,6 +175,8 @@ export interface MistakeEntry {
   given: Given;
   correctDisplay: string;
   context: 'quiz' | 'review';
+  /** the scenario the question was asked under, so the log entry can be checked on its own */
+  scenario?: string | null;
 }
 
 export interface Attempt {

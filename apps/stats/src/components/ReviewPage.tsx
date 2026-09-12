@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { startReview } from '@/lib/actions';
+import { parseRich, plainText } from '@/lib/richtext';
 import { useStats } from '@/lib/store';
 import { QuizRunner } from './QuizRunner';
 
@@ -17,14 +18,19 @@ export function ReviewPage() {
       </p>
     );
   const open = profile.openConcepts;
+  // the most recent miss on this concept names it; a chip that only says "§6.1" could be any of six
+  const label = (tag: string) => {
+    const m = [...profile.mistakes].reverse().find((x) => x.conceptTag === tag);
+    return m ? plainText(parseRich(m.stem), 60) : '';
+  };
   const active = session?.mode === 'review' && session.index < session.test.questions.length;
   return (
     <div className="space-y-5">
       <div>
         <h1 className="text-2xl font-semibold">Review mistakes</h1>
         <p className="mt-1 text-sm opacity-70">
-          Every concept you missed stays open until you answer it correctly twice in a row. Reviews use fresh numbers where a generator exists,
-          otherwise a different problem on the same concept, and finally the problem you missed.
+          Every question you missed stays open until you answer it correctly twice in a row. Generated questions come back with fresh
+          numbers; textbook questions come back as they were.
         </p>
       </div>
       {open.length === 0 && !active ? (
@@ -32,8 +38,9 @@ export function ReviewPage() {
       ) : (
         <ul className="flex flex-wrap gap-2 text-sm">
           {open.map((c) => (
-            <li key={c.conceptTag} className="rounded border border-[var(--line)] bg-white px-3 py-1">
-              §{c.conceptTag}{' '}
+            <li key={c.conceptTag} className="max-w-full rounded border border-[var(--line)] bg-white px-3 py-1">
+              §{c.sectionId ?? '?'}{' '}
+              <span className="opacity-80">{label(c.conceptTag)}</span>{' '}
               <span className="font-mono">
                 {Array.from({ length: c.required }, (_, i) => (i < c.streak ? '●' : '○')).join('')}
               </span>
@@ -43,7 +50,7 @@ export function ReviewPage() {
         </ul>
       )}
       {!active && open.length > 0 && (
-        <button onClick={() => void startReview(Math.min(12, Math.max(4, open.length * 2)))} disabled={!!busy} className="rounded bg-[var(--accent)] px-4 py-2 text-sm text-white disabled:opacity-50">
+        <button onClick={() => void startReview(Math.min(40, open.length))} disabled={!!busy} className="rounded bg-[var(--accent)] px-4 py-2 text-sm text-white disabled:opacity-50">
           {busy === 'review' ? 'Building…' : 'Start review'}
         </button>
       )}

@@ -268,7 +268,7 @@
  {
   "id": "os-m46980-fs-idm126130944",
   "sectionId": "6.1",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "6.1",
   "stem": "Is X ~ N(0, 1) a standardized normal distribution? Why or why not?",
   "source": "openstax-practice",
@@ -276,11 +276,9 @@
    "module": "m46980",
    "exerciseId": "fs-idm126130944"
   },
-  "answer": true,
+  "modelSolution": "Yes because the mean is zero, and the standard deviation is one.",
   "needsFigure": false,
-  "explanation": [
-   "Yes because the mean is zero, and the standard deviation is one."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46980-fs-idm26153296",
@@ -1138,7 +1136,7 @@
  {
   "id": "os-m46973-fs-idp76730048",
   "sectionId": "6.2",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "6.2",
   "stem": "Is P(x < 1) equal to P(x ≤ 1)? Why?",
   "source": "openstax-practice",
@@ -1146,11 +1144,9 @@
    "module": "m46973",
    "exerciseId": "fs-idp76730048"
   },
-  "answer": true,
+  "modelSolution": "Yes, because they are the same in a continuous distribution: P(x = 1) = 0",
   "needsFigure": false,
-  "explanation": [
-   "Yes, because they are the same in a continuous distribution: P(x = 1) = 0"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46973-fs-idp16475344",

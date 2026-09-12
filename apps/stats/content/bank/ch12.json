@@ -414,7 +414,7 @@
  {
   "id": "tryit-m47111-1",
   "sectionId": "12.4",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "12.4",
   "stem": "For a given line of best fit, you compute that r = 0.5204 using n = 9 data points, and the critical value is 0.666. Can the line be used for prediction? Why or why not?",
   "source": "openstax-tryit",
@@ -423,16 +423,14 @@
    "exerciseId": "eip-847",
    "ref": "Try It 12.8"
   },
-  "answer": false,
+  "modelSolution": "No, the line cannot be used for prediction, because r < the positive critical value.",
   "needsFigure": false,
-  "explanation": [
-   "No, the line cannot be used for prediction, because r < the positive critical value."
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m47111-2",
   "sectionId": "12.4",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "12.4",
   "stem": "For a given line of best fit, you compute that r = –0.7204 using n = 8 data points, and the critical value is = 0.707. Can the line be used for prediction? Why or why not?",
   "source": "openstax-tryit",
@@ -441,16 +439,14 @@
    "exerciseId": "eip-610",
    "ref": "Try It 12.9"
   },
-  "answer": true,
+  "modelSolution": "Yes, the line can be used for prediction, because r < the negative critical value.",
   "needsFigure": false,
-  "explanation": [
-   "Yes, the line can be used for prediction, because r < the negative critical value."
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m47111-3",
   "sectionId": "12.4",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "12.4",
   "stem": "For a given line of best fit, you compute that r = 0 using n = 100 data points. Can the line be used for prediction? Why or why not?",
   "source": "openstax-tryit",
@@ -459,11 +455,9 @@
    "exerciseId": "eip-316",
    "ref": "Try It 12.10"
   },
-  "answer": false,
+  "modelSolution": "No, the line cannot be used for prediction no matter what the sample size is.\nSection 5. Prediction",
   "needsFigure": false,
-  "explanation": [
-   "No, the line cannot be used for prediction no matter what the sample size is.\nSection 5. Prediction"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47111-eip-592",

@@ -231,6 +231,16 @@ input[inputmode='decimal'] {
   max-width: 100%;
 }
 .table-scroll .stem-table { margin: 0; border: 0; }
+/* a shadow on the right edge that fades as the learner scrolls to it: the cue that a wide table
+   continues. Without it the column the question asks about sat clipped with nothing to say so. */
+.table-scroll {
+  background:
+    linear-gradient(to right, var(--surface) 30%, transparent) left / 24px 100% no-repeat local,
+    linear-gradient(to left, var(--surface) 30%, transparent) right / 24px 100% no-repeat local,
+    linear-gradient(to right, rgba(0, 0, 0, 0.18), transparent) left / 14px 100% no-repeat scroll,
+    linear-gradient(to left, rgba(0, 0, 0, 0.18), transparent) right / 14px 100% no-repeat scroll;
+}
+.table-scroll .stem-table th, .table-scroll .stem-table td { background: transparent; }
 .table-scroll thead th { position: sticky; top: 0; z-index: 1; }
 .stem-table caption {
   caption-side: top;

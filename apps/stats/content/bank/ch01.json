@@ -630,7 +630,7 @@
  {
   "id": "os-m46885-eip-385",
   "sectionId": "1.2",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "1.2",
   "stem": "Can you tell if one researcher is correct and the other one is incorrect? Why?",
   "source": "openstax-practice",
@@ -639,11 +639,9 @@
    "exerciseId": "eip-385"
   },
   "context": "Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
-  "answer": false,
+  "modelSolution": "No, we do not have enough information to make such a claim.",
   "needsFigure": false,
-  "explanation": [
-   "No, we do not have enough information to make such a claim."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-322",
@@ -913,7 +911,7 @@
  {
   "id": "os-m46885-eip-831",
   "sectionId": "1.2",
-  "kind": "tf",
+  "kind": "open",
   "conceptTag": "1.2",
   "stem": "A question on a survey reads: \"Do you prefer the delicious taste of Brand X or the taste of Brand Y?\" Is this a fair question?",
   "source": "openstax-practice",
@@ -921,11 +919,9 @@
    "module": "m46885",
    "exerciseId": "eip-831"
   },
-  "answer": false,
+  "modelSolution": "No, the question is creating undue influence by adding the word \"delicious\" to describe Brand X. The wording may influence responses.",
   "needsFigure": false,
-  "explanation": [
-   "No, the question is creating undue influence by adding the word \"delicious\" to describe Brand X. The wording may influence responses."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-121",

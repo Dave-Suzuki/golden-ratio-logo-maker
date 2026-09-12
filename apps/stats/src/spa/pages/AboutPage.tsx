@@ -1,7 +1,11 @@
+'use client';
+
 import Link from 'next/link';
 import { extraSets } from '@/lib/server/content';
+import { useStats } from '@/lib/store';
 
 export function AboutPage() {
+  const storageKind = useStats((st) => st.storageKind);
   const extra = extraSets();
   return (
     <div className="max-w-3xl space-y-4 text-sm leading-relaxed">
@@ -13,7 +17,14 @@ export function AboutPage() {
           <li>Each mistake is logged and opens a concept for review. A concept closes after two correct answers in a row.</li>
           <li>A section is <em>mastered</em> when your last quiz there scored 80% or better and no concept from it is open.</li>
           <li>Printed tests are reproducible: the test code (scope:id:seed) always regenerates the same questions and answer key. "New test" changes the seed.</li>
-          <li>Progress is saved with this page under your learner name, so you can come back on another device. No passwords; this is a self-study tool.</li>
+          <li>
+            {storageKind === 'page'
+              ? 'Progress is saved with this page under your learner name, so you can come back on another device.'
+              : storageKind === 'server'
+                ? 'Progress is saved on the server under your learner name.'
+                : 'Progress is saved in this browser only, under your learner name; another browser or device starts fresh.'}{' '}
+            No passwords; this is a self-study tool.
+          </li>
         </ul>
       </section>
       <section>

@@ -1,5 +1,7 @@
 'use client';
 
+import { parseRich, plainText } from '@/lib/richtext';
+
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { retryMistake } from '@/lib/actions';
@@ -76,15 +78,16 @@ export function ProgressPage() {
                 <li key={m.id} className="px-4 py-3">
                   <div className="flex flex-wrap items-center gap-2 text-xs opacity-60">
                     <span>{new Date(m.at).toLocaleString()}</span>
-                    <span>§{m.conceptTag}</span>
-                    <span>{m.context}</span>
+                    {m.sectionId && <span>§{m.sectionId}</span>}
+                    <span>during {m.context}</span>
                     <span className={open ? 'text-[var(--warn)]' : 'text-[var(--ok)]'}>{open ? 'still open' : 'understood'}</span>
                   </div>
-                  <p className="mt-1 line-clamp-3 whitespace-pre-line">{m.stem}</p>
+                  {m.scenario && <p className="mt-1 line-clamp-2 text-xs opacity-70">{plainText(parseRich(m.scenario), 220)}</p>}
+                  <p className="mt-1 line-clamp-3">{plainText(parseRich(m.stem), 300)}</p>
                   <p className="mt-1 text-xs">
                     <span className="opacity-60">your answer: </span>
                     {describe(m.given)} <span className="opacity-60">· correct: </span>
-                    <span className="whitespace-pre-line">{m.correctDisplay.slice(0, 200)}</span>
+                    <span>{plainText(parseRich(m.correctDisplay), 200)}</span>
                   </p>
                   <button
                     onClick={async () => {

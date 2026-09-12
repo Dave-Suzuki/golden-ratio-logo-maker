@@ -1,5 +1,16 @@
 import { grade } from './grade';
-import type { ConceptReview, Mastery, Profile, ProfileView, ProgressEvent, SectionId } from './types';
+import type { ConceptReview, Mastery, Profile, ProfileView, ProgressEvent, SectionId, Question } from './types';
+
+/**
+ * What "a concept" is for the review loop. The bank tags every question with its section, and
+ * treating that as the concept meant two right answers to any two questions in §1.3 marked every
+ * §1.3 mistake understood — including ones never asked again. A concept is now the question
+ * itself: a bank item by id, a generated item by its template (so a retest gets fresh numbers).
+ * Each missed question has to be answered right twice before it is considered understood.
+ */
+export function conceptKey(q: Pick<Question, 'id' | 'source'>): string {
+  return q.source === 'template' ? q.id.split('#')[0] ?? q.id : q.id;
+}
 
 export const REVIEW_STREAK = 2;
 export const MASTER_SCORE = 0.8;
@@ -40,7 +51,7 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
     const result = grade(ev.question, ev.given);
     if (result.correct === null) return profile; // open item without a self-mark yet: nothing to record
     const sid = ev.question.sectionId;
-    const tag = ev.question.conceptTag;
+    const tag = conceptKey(ev.question);
 
     if (sid) {
       const st = { ...(p.sectionStats[sid] ?? { answered: 0, correct: 0 }) };
@@ -81,6 +92,7 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
         given: ev.given,
         correctDisplay: result.correctDisplay,
         context: ev.context,
+        scenario: ev.question.context ?? null,
       });
       const cr: ConceptReview = existing
         ? { ...existing, streak: 0, status: 'open', lastAt: at, misses: existing.misses + 1 }
