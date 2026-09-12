@@ -360,7 +360,7 @@
   "sectionId": "8.1",
   "kind": "numeric",
   "conceptTag": "8.1",
-  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in each tail? α/2 =________",
+  "stem": "How much area is in each tail? α/2 =________",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47002",
@@ -660,7 +660,7 @@
   "sectionId": "8.2",
   "kind": "numeric",
   "conceptTag": "8.2",
-  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in each tail?",
+  "stem": "How much area is in each tail?",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47001",

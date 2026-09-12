@@ -1,0 +1,40 @@
+{"id":"os-m46999-eip-820","verdict":"ok"}
+{"id":"os-m46999-element-193","verdict":"ok"}
+{"id":"os-m46999-element-138","verdict":"broken","issue":"missing-info","note":"No scenario or data; asks for x, n, p' with nothing given. Answer relies on unseen ice-skating class counts."}
+{"id":"os-m46999-element-759","verdict":"broken","issue":"missing-info","note":"No sample data shown; needs x=64 and n=80 from an unseen prior exercise to build the 92% interval."}
+{"id":"os-m46999-element-364","verdict":"broken","issue":"missing-info","note":"No scenario, no confidence level stated; 0.04 tail area is unknowable from the question alone."}
+{"id":"os-m46999-element-846","verdict":"broken","issue":"missing-info","note":"Fill-in-the-blank with no data or scenario; the 92% interval cannot be computed from what is shown."}
+{"id":"os-m46999-element-733","verdict":"broken","issue":"missing-info","note":"No interval or scenario shown; 'the interval' refers to an unseen prior exercise."}
+{"id":"os-m46999-element-478","verdict":"ok"}
+{"id":"os-m46999-eip-77","verdict":"ok"}
+{"id":"os-m46999-exerc4","verdict":"broken","issue":"garbled","note":"Literal [PARTS]/[/PARTS] template markup leaks into question and answer text; also missing space in 'X andP′'."}
+{"id":"os-m46999-exercise3289720","verdict":"ok"}
+{"id":"os-m46999-eeexxxx","verdict":"ok"}
+{"id":"os-m46999-exer12345","verdict":"ok"}
+{"id":"os-m46999-eip-126","verdict":"ok"}
+{"id":"os-m46999-eip-934","verdict":"ok"}
+{"id":"pt3-1","verdict":"ok"}
+{"id":"pt3-3","verdict":"ok"}
+{"id":"pt3-4","verdict":"ok"}
+{"id":"pt3-5","verdict":"broken","issue":"wrong-answer","note":"Answer also asserts Zinterval gives (40.74, 41.26); true interval is (39.57, 42.43). Contradictory, not a rounding difference."}
+{"id":"pt3-6","verdict":"broken","issue":"wrong-answer","note":"Stated calculator interval (40.78, 41.23) is wrong; correct 90% interval is (39.80, 42.20). Answer contradicts itself."}
+{"id":"pt3-7","verdict":"broken","issue":"wrong-answer","note":"Stated calculator interval (40.84, 41.16) is wrong; correct interval is (39.88, 42.12). Answer contradicts itself."}
+{"id":"pt3-8","verdict":"ok"}
+{"id":"pt3-9","verdict":"ok"}
+{"id":"pt3-10","verdict":"ok"}
+{"id":"pt3-11","verdict":"ok"}
+{"id":"pt3-12","verdict":"ok"}
+{"id":"pt3-13","verdict":"ok"}
+{"id":"pt3-14","verdict":"ok"}
+{"id":"pt3-15","verdict":"ok"}
+{"id":"pt3-16","verdict":"broken","issue":"missing-info","note":"'this data' is never shown; answer uses 280/500 from an unseen scenario."}
+{"id":"pt3-17","verdict":"broken","issue":"missing-info","note":"No data or scenario; needs p'=0.56, n=500 from an unseen prior exercise."}
+{"id":"pt3-18","verdict":"broken","issue":"missing-info","note":"No data or scenario; needs p'=0.56, n=500 from an unseen prior exercise."}
+{"id":"pt3-19","verdict":"broken","issue":"missing-info","note":"No data shown; also answer's lower bound 0.5127 is inconsistent with 0.56-0.0573=0.5027."}
+{"id":"pt3-20","verdict":"ok"}
+{"id":"pt3-21","verdict":"ok"}
+{"id":"pt3-22","verdict":"ok"}
+{"id":"fe1-10","verdict":"ok"}
+{"id":"fe1-23","verdict":"ok"}
+{"id":"fe1-24","verdict":"ok"}
+{"id":"fe1-28","verdict":"ok"}

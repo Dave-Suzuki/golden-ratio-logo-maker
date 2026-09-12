@@ -1,0 +1,40 @@
+{"id":"rv8-56","verdict":"ok"}
+{"id":"rv9-85","verdict":"ok"}
+{"id":"rv11-111","verdict":"ok"}
+{"id":"tryit-m46965-0","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the graph; model answer is just 'Figure 16' plus a stray section heading."}
+{"id":"os-m46965-fs-idm170928704","verdict":"ok"}
+{"id":"os-m46965-eip-idm16922624","verdict":"ok"}
+{"id":"tryit-m46972-0","verdict":"ok"}
+{"id":"tryit-m46972-1","verdict":"ok"}
+{"id":"tryit-m46972-2","verdict":"ok"}
+{"id":"tryit-m46972-3","verdict":"ok"}
+{"id":"tryit-m46972-4","verdict":"broken","issue":"answer-mismatch","note":"Part c (graph the distribution) is never answered and the answer ends with a stray 'Section 3' heading."}
+{"id":"os-m46972-fs-idm13169200","verdict":"ok"}
+{"id":"os-m46972-fs-idm8575520","verdict":"ok"}
+{"id":"os-m46972-fs-idp86093264","verdict":"ok"}
+{"id":"os-m46972-fs-idp64873328","verdict":"ok"}
+{"id":"os-m46972-fs-idp67116592","verdict":"ok"}
+{"id":"os-m46972-fs-idp16246272","verdict":"ok"}
+{"id":"os-m46972-fs-idp109888","verdict":"ok"}
+{"id":"os-m46972-fs-idp74722352","verdict":"ok"}
+{"id":"os-m46972-fs-idp54832288","verdict":"ok"}
+{"id":"os-m46972-eip-97","verdict":"ok"}
+{"id":"os-m46972-fs-idp169878048","verdict":"ok"}
+{"id":"os-m46972-eip-106","verdict":"broken","issue":"answer-mismatch","note":"Answer to part c merely repeats the instruction 'Graph the probability distribution'; part i's required statement and picture are unanswered."}
+{"id":"os-m46972-eip-518","verdict":"ok"}
+{"id":"os-m46972-eip-412","verdict":"ok"}
+{"id":"os-m46972-fs-idp96470224","verdict":"ok"}
+{"id":"tryit-m46969-0","verdict":"broken","issue":"ungradable","note":"Requires graphing the distribution; the graph part of the model answer is only the reference 'Figure 17', which is not shown."}
+{"id":"tryit-m46969-1","verdict":"ok"}
+{"id":"tryit-m46969-2","verdict":"ok"}
+{"id":"tryit-m46969-3","verdict":"broken","issue":"answer-mismatch","note":"Question asks for m, but the answer reads 'm = ;' with the value dropped, so one requested quantity is unanswered."}
+{"id":"tryit-m46969-4","verdict":"ok"}
+{"id":"tryit-m46969-5","verdict":"ok"}
+{"id":"tryit-m46969-6","verdict":"broken","issue":"garbled","note":"Model answer has dropped values ('m = = 3') and trails into stray 'Chapter 6 / Section 1' textbook headings."}
+{"id":"os-m46969-fs-idp131072752","verdict":"ok"}
+{"id":"os-m46969-fs-idm6140336","verdict":"ok"}
+{"id":"os-m46969-fs-idp55954320","verdict":"ok"}
+{"id":"os-m46969-fs-idp2772016","verdict":"ok"}
+{"id":"os-m46969-fs-idm14412736","verdict":"ok"}
+{"id":"os-m46969-fs-idp51932320","verdict":"broken","issue":"missing-info","note":"No scenario or distribution given; 'which is larger, mean or median' is unanswerable, though the answer assumes Exp(0.75)."}
+{"id":"os-m46969-fs-idm50791120","verdict":"ok"}

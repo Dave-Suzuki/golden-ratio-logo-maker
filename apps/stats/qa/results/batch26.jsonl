@@ -1,0 +1,40 @@
+{"id":"os-m47044-fs-idp139727500456320","verdict":"ok"}
+{"id":"os-m47044-fs-idp139727500288288","verdict":"ok"}
+{"id":"os-m47044-element-126","verdict":"ok"}
+{"id":"os-m47044-element-877","verdict":"ok"}
+{"id":"os-m47044-element-121","verdict":"ok"}
+{"id":"tryit-m47019-0","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; answer is just 'Figure 19', a figure never shown."}
+{"id":"tryit-m47019-1","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; answer is just 'Figure 20', a figure never shown."}
+{"id":"tryit-m47019-2","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; answer is just 'Figure 21', a figure never shown."}
+{"id":"tryit-m47019-3","verdict":"broken","issue":"ungradable","note":"Requires sketching the graph; model answer supplies only 'Figure 22' for that part, a figure not shown."}
+{"id":"tryit-m47019-4","verdict":"broken","issue":"wrong-answer","note":"p-value is 0.4802 for z=0.0497 (x̄=475.5, σ/√n=10.06), not 0.5044; answer also labels Ha as H_0."}
+{"id":"tryit-m47019-5","verdict":"broken","issue":"wrong-answer","note":"Stated p=0.0082 omits √n; with x̄=2.6, σ=1, n=10, z=-7.59 so p is essentially zero."}
+{"id":"tryit-m47019-6","verdict":"broken","issue":"ungradable","note":"Requires sketching the graph; model answer supplies only 'Figure 23' for that part, a figure not shown."}
+{"id":"tryit-m47019-7","verdict":"ok"}
+{"id":"tryit-m47019-8","verdict":"ok"}
+{"id":"os-m47019-eip-750","verdict":"ok"}
+{"id":"os-m47019-fs-idp45725152","verdict":"ok"}
+{"id":"os-m47019-eip-34","verdict":"ok"}
+{"id":"os-m47019-eip-71","verdict":"ok"}
+{"id":"os-m47019-eip-504","verdict":"ok"}
+{"id":"os-m47019-eip-115","verdict":"ok"}
+{"id":"os-m47019-element-816","verdict":"ok"}
+{"id":"os-m47019-element-635","verdict":"ok"}
+{"id":"os-m47019-element-932a","verdict":"broken","issue":"wrong-answer","note":"With x̄=8.375, s=4.104, t=-1.12, df=7, two-tailed p is 0.2996, not the stated 0.1299 (copied from another exercise)."}
+{"id":"os-m47019-element-321","verdict":"ok"}
+{"id":"os-m47019-element-814","verdict":"broken","issue":"missing-info","note":"Refers to Exercise 9.81 for the brown trout data, which is not shown; answer's decision also contradicts its reason."}
+{"id":"os-m47019-element-658","verdict":"ok"}
+{"id":"os-m47019-element-761","verdict":"broken","issue":"missing-info","note":"Says 'see the table below' but no Lap 4 lap-time data is provided."}
+{"id":"os-m47019-ex1","verdict":"ok"}
+{"id":"os-m47019-exer4","verdict":"ok"}
+{"id":"os-m47019-exer5","verdict":"ok"}
+{"id":"os-m47019-exer7","verdict":"ok"}
+{"id":"os-m47019-exerrr","verdict":"ok"}
+{"id":"os-m47019-element-378","verdict":"ok"}
+{"id":"os-m47019-element-874","verdict":"ok"}
+{"id":"os-m47019-element-408","verdict":"broken","issue":"answer-mismatch","note":"Answer parts a-g are the NYC smoking proportion test, not the nurses' salary t-test; correct t=1.72, p=0.0466."}
+{"id":"os-m47019-exer19","verdict":"ok"}
+{"id":"os-m47019-eip-40","verdict":"ok"}
+{"id":"os-m47019-eip-601","verdict":"ok"}
+{"id":"os-m47019-eip-715","verdict":"ok"}
+{"id":"os-m47019-eip-192","verdict":"ok"}

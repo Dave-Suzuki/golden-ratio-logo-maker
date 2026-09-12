@@ -1,0 +1,40 @@
+{"id":"os-m46973-eip-923","verdict":"broken","issue":"ungradable","note":"Parts b and c require constructing a histogram and drawing a smooth curve; model answer is 'Answers may vary.'"}
+{"id":"os-m46973-eip-24","verdict":"broken","issue":"missing-info","note":"The statements a, b, c that the learner must explain are not shown; only the answers reference them."}
+{"id":"os-m46973-eip-67","verdict":"broken","issue":"ungradable","note":"Parts b and c require constructing a histogram and drawing a smooth curve; answers are 'Answers will vary.'"}
+{"id":"os-m46973-eip-406","verdict":"ok"}
+{"id":"os-m46973-eip-889","verdict":"ok"}
+{"id":"os-m46973-eip-35","verdict":"ok"}
+{"id":"os-m46973-eip-868","verdict":"broken","issue":"missing-info","note":"Question cuts off before parts a-c state the ranges; answers also use mean 48 instead of computed 38."}
+{"id":"os-m46973-eip-291","verdict":"ok"}
+{"id":"pt2-55","verdict":"broken","issue":"garbled","note":"Notation 'X ~ (100, 15)' omits the N, so 'normal distribution' in the answer cannot be derived from what is shown."}
+{"id":"pt2-56","verdict":"ok"}
+{"id":"pt2-57","verdict":"broken","issue":"garbled","note":"Asks for 112 inches while the distribution is in centimeters; answer silently computes z for 112 cm."}
+{"id":"pt2-58","verdict":"ok"}
+{"id":"pt2-59","verdict":"broken","issue":"missing-info","note":"No scenario: mean and standard deviation of the height population are never given, so z cannot be computed."}
+{"id":"pt2-60","verdict":"broken","issue":"missing-info","note":"'This population' is undefined; no mean or standard deviation shown to convert z = 1.5 to a height."}
+{"id":"pt2-61","verdict":"broken","issue":"missing-info","note":"'This distribution' is undefined; without mean and standard deviation the one-sigma range cannot be stated."}
+{"id":"pt2-62","verdict":"broken","issue":"missing-info","note":"'This distribution' is undefined; no mean or standard deviation shown to place 95.5-122.5 cm."}
+{"id":"pt2-63","verdict":"ok"}
+{"id":"pt2-64","verdict":"ok"}
+{"id":"pt2-65","verdict":"ok"}
+{"id":"pt2-66","verdict":"ok"}
+{"id":"fe1-27","verdict":"ok"}
+{"id":"fe1-30","verdict":"ok"}
+{"id":"fe2-12","verdict":"ok"}
+{"id":"fe2-19","verdict":"ok"}
+{"id":"fe2-20","verdict":"ok"}
+{"id":"fe2-21","verdict":"ok"}
+{"id":"rv9-87","verdict":"broken","issue":"missing-info","note":"The statements to match are not shown; answer lists a/b/c for statements the learner never sees."}
+{"id":"rv10-97","verdict":"ok"}
+{"id":"rv10-98","verdict":"ok"}
+{"id":"rv10-99","verdict":"ok"}
+{"id":"rv11-100","verdict":"ok"}
+{"id":"rv11-101","verdict":"ok"}
+{"id":"rv11-102","verdict":"ok"}
+{"id":"tryit-m46994-0","verdict":"ok"}
+{"id":"tryit-m46994-1","verdict":"ok"}
+{"id":"tryit-m46994-2","verdict":"ok"}
+{"id":"tryit-m46994-3","verdict":"broken","issue":"wrong-answer","note":"A 34% chance is not unusual, so results do not suggest overfilling; answer concludes skepticism. Stray section heading appended."}
+{"id":"os-m46994-fs-idm15565424","verdict":"ok"}
+{"id":"os-m46994-fs-idp17869408","verdict":"ok"}
+{"id":"os-m46994-element-475","verdict":"ok"}

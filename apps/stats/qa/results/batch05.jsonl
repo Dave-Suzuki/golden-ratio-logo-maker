@@ -1,0 +1,40 @@
+{"id":"tryit-m46930-4","verdict":"broken","issue":"missing-info","note":"Refers to \"the table below\" but no table or data is shown; third quartile cannot be found."}
+{"id":"tryit-m46930-5","verdict":"broken","issue":"wrong-answer","note":"Only 8 values are below 31, so x=8 gives the 30th percentile; answer uses x=9 and states 33rd."}
+{"id":"tryit-m46930-6","verdict":"ok"}
+{"id":"tryit-m46930-7","verdict":"ok"}
+{"id":"tryit-m46930-8","verdict":"ok"}
+{"id":"tryit-m46930-9","verdict":"ok"}
+{"id":"os-m46930-fs-idm1110784","verdict":"ok"}
+{"id":"os-m46930-fs-idp30887728","verdict":"ok"}
+{"id":"os-m46930-eip-id1168182273864","verdict":"ok"}
+{"id":"os-m46930-eip-id1168183173702","verdict":"ok"}
+{"id":"os-m46930-eip-id1168214876383","verdict":"ok"}
+{"id":"os-m46930-eip-id1168223160542","verdict":"ok"}
+{"id":"os-m46930-exerciseten","verdict":"ok"}
+{"id":"os-m46930-exercisetwelve","verdict":"ok"}
+{"id":"os-m46930-exercisefourteen","verdict":"ok"}
+{"id":"os-m46930-element-927","verdict":"broken","issue":"ungradable","note":"Parts c and e ask the learner to construct a histogram and bar graph; model answer is \"Answers may vary.\""}
+{"id":"tryit-m46920-0","verdict":"broken","issue":"ungradable","note":"Asks learner to construct a box plot on a calculator; answer cites nonexistent \"Figure 9\". IQR 158 is correct."}
+{"id":"tryit-m46920-1","verdict":"broken","issue":"ungradable","note":"Asks learner to construct two calculator box plots; answer cites nonexistent \"Figure 10\". Also says 40 students for 20 values."}
+{"id":"tryit-m46920-2","verdict":"broken","issue":"ungradable","note":"Asks learner to graph a box-and-whisker plot; answer cites nonexistent \"Figure 11\" plus a stray section heading."}
+{"id":"os-m46920-fs-idm39140224","verdict":"ok"}
+{"id":"tryit-m46928-0","verdict":"ok"}
+{"id":"tryit-m46928-1","verdict":"ok"}
+{"id":"tryit-m46928-2","verdict":"ok"}
+{"id":"tryit-m46928-3","verdict":"ok"}
+{"id":"tryit-m46928-4","verdict":"ok"}
+{"id":"os-m46928-eip-17","verdict":"ok"}
+{"id":"os-m46931-fs-idm89697712","verdict":"ok"}
+{"id":"os-m46931-fs-idm65822528","verdict":"ok"}
+{"id":"os-m46931-fs-idm8813456","verdict":"ok"}
+{"id":"os-m46931-fs-idm106262320","verdict":"ok"}
+{"id":"os-m46931-fs-idm1767264","verdict":"ok"}
+{"id":"tryit-m46922-0","verdict":"ok"}
+{"id":"tryit-m46922-1","verdict":"ok"}
+{"id":"tryit-m46922-2","verdict":"broken","issue":"answer-mismatch","note":"Question asks which swimmer was faster relative to her team; answer only lists z-scores, never concludes, plus stray chapter headings."}
+{"id":"os-m46922-fs-idm25484256","verdict":"ok"}
+{"id":"os-m46922-fs-idm9402560","verdict":"ok"}
+{"id":"os-m46922-fs-idm109676912","verdict":"ok"}
+{"id":"os-m46922-exercisetwenty","verdict":"ok"}
+{"id":"os-m46922-exercisetwentytwo","verdict":"ok"}
+{"id":"os-m46922-exercisetwentyfour","verdict":"broken","issue":"answer-mismatch","note":"Two-part question, but numeric answer 919 covers only the IQR value and not what the IQR represents."}

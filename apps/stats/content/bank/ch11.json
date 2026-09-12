@@ -150,7 +150,7 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "An economist is deriving a model to predict outcomes on the stock market. They create a list of expected points on the stock market index for the next two weeks. At the close of each day’s trading, The economist records the actual points on the index. They want to see how well the model matched what actually happened.",
+  "stem": "Determine the appropriate test to be used in the next three exercises.\n\nAn economist is deriving a model to predict outcomes on the stock market. They create a list of expected points on the stock market index for the next two weeks. At the close of each day’s trading, The economist records the actual points on the index. They want to see how well the model matched what actually happened.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47064",
@@ -453,7 +453,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "A pharmaceutical company is interested in the relationship between age and presentation of symptoms for a common viral infection. A random sample is taken of 500 people with the infection across different age groups.",
+  "stem": "Determine the appropriate test to be used in the next three exercises.\n\nA pharmaceutical company is interested in the relationship between age and presentation of symptoms for a common viral infection. A random sample is taken of 500 people with the infection across different age groups.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47077",
@@ -468,7 +468,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "A marathon runner is interested in the relationship between the brand of shoes runners wear and their run times. They take a random sample of 50 runners and records their run times as well as the brand of shoes they were wearing.",
+  "stem": "Determine the appropriate test to be used in the next three exercises.\n\nA marathon runner is interested in the relationship between the brand of shoes runners wear and their run times. They take a random sample of 50 runners and records their run times as well as the brand of shoes they were wearing.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47077",
@@ -623,7 +623,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "α = 0.05\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
+  "stem": "State the decision and conclusion (in a complete sentence) for the following preconceived levels of α.\n\nα = 0.05\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47077",

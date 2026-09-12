@@ -254,10 +254,24 @@ def strip_page_instruction(text):
 # QUESTION, not to the shared scenario; otherwise the stem is left as a bare label like "population".
 # "For the following exercises, identify the type of data…" heads a run of bare noun phrases
 # ("brand of toothpaste"). Without the instruction the learner is shown a label and no question.
-RUN_LEAD_RE = re.compile(r'^\s*for the (?:following|next) (?:\w+ )?(?:exercises?|questions?|problems?)[,:]?\s*', re.I)
-INSTRUCTION_RE = re.compile(
-    r'^\s*(?:for the (?:following|next) (?:\w+ )?(?:exercises?|questions?|problems?)[,:]?\s*)?'
-    r'(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give)\b', re.I)
+_RUN = r'for (?:each of )?the (?:following|next) (?:\w+ )?(?:exercises?|questions?|problems?)[,:]?\s*'
+RUN_LEAD_RE = re.compile(r'^\s*' + _RUN, re.I)
+_VERBS = (r'(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give'
+          r'|draw|compute|explain|describe|use|show|suppose|let|answer)')
+INSTRUCTION_RE = re.compile(r'^\s*(?:' + _RUN + r')?' + _VERBS + r'\b', re.I)
+# A stem that is already a question keeps its own wording; one that is a bare label or a bare
+# scenario sentence ("A fitness center is interested in the mean amount of time...") is the object
+# of the instruction printed above the run, and is meaningless without it.
+IMPERATIVE_RE = re.compile(r'^\s*' + _VERBS + r'\b', re.I)
+
+
+def needs_lead(stem):
+    s = (stem or '').strip()
+    if not s:
+        return True
+    if '?' in s:
+        return False
+    return not IMPERATIVE_RE.match(s)
 
 
 def normalise_lead(t):
@@ -348,7 +362,7 @@ class ContextScope:
         if self.lead:
             key = 'stem' if 'stem' in exercise else 'problem'
             cur = (exercise.get(key) or '').strip()
-            if len(cur) < 60 and not cur.lower().startswith(self.lead[:20].lower()):
+            if needs_lead(cur) and not cur.lower().startswith(self.lead[:20].lower()):
                 exercise[key] = merge_lead(self.lead, cur)
         if self.text is not None and self.remaining > 0:
             self.group.append(exercise)

@@ -1,0 +1,40 @@
+{"id":"rv9-74","verdict":"broken","issue":"missing-info","note":"Refers to 'the IPO data (see the table below)' but no table or data is shown."}
+{"id":"rv9-75","verdict":"broken","issue":"wrong-answer","note":"Cumulative column just repeats relative frequencies; should be 0.3, 0.5, 0.9, 1.0."}
+{"id":"rv9-77","verdict":"broken","issue":"ungradable","note":"Also asks to construct a box plot, which the app cannot mark; answer gives only M, Q1, Q3."}
+{"id":"rv9-79","verdict":"ok"}
+{"id":"rv9-80","verdict":"ok"}
+{"id":"rv9-81","verdict":"ok"}
+{"id":"rv10-90","verdict":"broken","issue":"missing-info","note":"The statements a-d to judge true/false are not shown anywhere; answer lists four verdicts."}
+{"id":"rv10-95","verdict":"ok"}
+{"id":"rv10-96","verdict":"ok"}
+{"id":"rv11-112","verdict":"ok"}
+{"id":"rv11-113","verdict":"ok"}
+{"id":"rv13-129","verdict":"ok"}
+{"id":"rv13-130","verdict":"ok"}
+{"id":"rv13-133","verdict":"ok"}
+{"id":"rv13-134","verdict":"ok"}
+{"id":"rv13-135","verdict":"ok"}
+{"id":"rv13-141","verdict":"broken","issue":"not-a-question","note":"Question is a fragment: 'Are the events of milk and 30+:' with parts a and b never stated."}
+{"id":"rv13-143","verdict":"broken","issue":"garbled","note":"Table totals row broken: 10-19 total shown as 330 instead of 30, so totals contradict the cells."}
+{"id":"tryit-m46963-0","verdict":"ok"}
+{"id":"tryit-m46963-1","verdict":"ok"}
+{"id":"os-m46963-fs-idm11913472","verdict":"ok"}
+{"id":"os-m46963-fs-idp88464496","verdict":"broken","issue":"missing-info","note":"Expected value needs the probability table, which is not in this scenario or question; answer uses it."}
+{"id":"os-m46963-fs-idp18018320","verdict":"ok"}
+{"id":"os-m46963-fs-idm2415264","verdict":"ok"}
+{"id":"os-m46963-fs-idm14204160","verdict":"ok"}
+{"id":"os-m46963-fs-idp60250832","verdict":"ok"}
+{"id":"os-m46963-fs-idp100680048","verdict":"ok"}
+{"id":"os-m46963-fs-idp80631856","verdict":"ok"}
+{"id":"os-m46963-fs-idp105752304","verdict":"ok"}
+{"id":"os-m46963-fs-idm12290976","verdict":"ok"}
+{"id":"os-m46963-fs-idp45989040","verdict":"ok"}
+{"id":"os-m46963-fs-idp99208272","verdict":"ok"}
+{"id":"os-m46963-fs-idm44182368","verdict":"ok"}
+{"id":"os-m46963-fs-idm51474800","verdict":"ok"}
+{"id":"os-m46963-fs-idm38193104","verdict":"ok"}
+{"id":"tryit-m46959-0","verdict":"ok"}
+{"id":"tryit-m46959-1","verdict":"broken","issue":"answer-mismatch","note":"Answer is the fragment '(0) + (1)+ (2)'; never states the expected value, which is 2.32."}
+{"id":"tryit-m46959-2","verdict":"ok"}
+{"id":"tryit-m46959-3","verdict":"broken","issue":"garbled","note":"Question's expected-value table is broken and the answer table lost all P(x) and x*P(x) entries."}
+{"id":"tryit-m46959-4","verdict":"ok"}

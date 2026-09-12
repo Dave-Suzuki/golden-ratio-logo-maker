@@ -1,0 +1,40 @@
+{"id":"os-m47019-eip-551","verdict":"ok"}
+{"id":"pt3-23","verdict":"ok"}
+{"id":"pt3-24","verdict":"ok"}
+{"id":"pt3-25","verdict":"ok"}
+{"id":"pt3-26","verdict":"ok"}
+{"id":"pt3-27","verdict":"ok"}
+{"id":"pt3-28","verdict":"ok"}
+{"id":"pt3-29","verdict":"ok"}
+{"id":"pt3-30","verdict":"ok"}
+{"id":"pt3-31","verdict":"ok"}
+{"id":"pt3-32","verdict":"ok"}
+{"id":"pt3-33","verdict":"ok"}
+{"id":"pt3-34","verdict":"ok"}
+{"id":"pt3-35","verdict":"ok"}
+{"id":"pt3-36","verdict":"ok"}
+{"id":"pt3-37","verdict":"ok"}
+{"id":"pt3-38","verdict":"ok"}
+{"id":"pt3-39","verdict":"broken","issue":"wrong-answer","note":"Question gives sd 1.5% (0.015) but answer uses 0.051; digits transposed, so stated distribution is wrong."}
+{"id":"pt3-40","verdict":"ok"}
+{"id":"pt3-41","verdict":"ok"}
+{"id":"pt3-42","verdict":"ok"}
+{"id":"pt3-43","verdict":"ok"}
+{"id":"pt3-44","verdict":"ok"}
+{"id":"pt3-45","verdict":"ok"}
+{"id":"pt3-46","verdict":"ok"}
+{"id":"pt3-47","verdict":"ok"}
+{"id":"pt3-48","verdict":"ok"}
+{"id":"pt3-49","verdict":"ok"}
+{"id":"pt3-50","verdict":"ok"}
+{"id":"pt3-51","verdict":"ok"}
+{"id":"fe1-12","verdict":"ok"}
+{"id":"fe1-13","verdict":"ok"}
+{"id":"fe1-15","verdict":"ok"}
+{"id":"fe1-16","verdict":"ok"}
+{"id":"fe1-19","verdict":"ok"}
+{"id":"fe1-36","verdict":"ok"}
+{"id":"fe2-25","verdict":"broken","issue":"missing-info","note":"No data, test statistic or p-value given, so nothing determines whether H0 is rejected; options a and d both defensible."}
+{"id":"fe2-27","verdict":"ok"}
+{"id":"fe2-28","verdict":"broken","issue":"wrong-answer","note":"ANOVA gives F(2,27)=9.66, p=0.0007, so p-value is close to zero, not close to one."}
+{"id":"fe2-33","verdict":"broken","issue":"missing-info","note":"No frequency table or data provided; impossible to test whether a distribution is uniform."}

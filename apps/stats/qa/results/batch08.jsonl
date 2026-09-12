@@ -1,0 +1,40 @@
+{"id":"os-m46947-exercise9","verdict":"ok"}
+{"id":"os-m46947-exercise10","verdict":"ok"}
+{"id":"os-m46947-eip-803","verdict":"ok"}
+{"id":"os-m46947-element-555","verdict":"ok"}
+{"id":"os-m46947-element-874","verdict":"ok"}
+{"id":"os-m46947-element-982","verdict":"ok"}
+{"id":"os-m46947-element-134","verdict":"ok"}
+{"id":"os-m46947-fs-idp11038848","verdict":"ok"}
+{"id":"os-m46947-element-652","verdict":"ok"}
+{"id":"os-m46947-fs-idm127904","verdict":"broken","issue":"answer-mismatch","note":"Question asks about Hank Aaron and doubles being independent; answer is about blood type O and Rh-."}
+{"id":"os-m46947-eip-8","verdict":"broken","issue":"wrong-answer","note":"Uses 0.52/0.43/0.15 instead of given 0.38/0.45/0.07; answer should be 0.14 and 0.86, not 0.06 and 0.94."}
+{"id":"os-m46947-eip-913","verdict":"ok"}
+{"id":"tryit-m46935-0","verdict":"ok"}
+{"id":"tryit-m46935-1","verdict":"ok"}
+{"id":"tryit-m46935-2","verdict":"ok"}
+{"id":"tryit-m46935-3","verdict":"ok"}
+{"id":"os-m46935-eip-388","verdict":"ok"}
+{"id":"os-m46935-eip-350","verdict":"ok"}
+{"id":"os-m46935-eip-157","verdict":"broken","issue":"missing-info","note":"No senator table or party data shown; probability of 'Other' affiliation cannot be determined."}
+{"id":"os-m46935-eip-88","verdict":"broken","issue":"missing-info","note":"No senator table given, so Republican and 'Up for reelection in Year B' relationship cannot be assessed."}
+{"id":"os-m46935-tablular-ex","verdict":"ok"}
+{"id":"os-m46935-element-940","verdict":"ok"}
+{"id":"os-m46935-element-738","verdict":"ok"}
+{"id":"os-m46935-eip-892","verdict":"ok"}
+{"id":"os-m46935-exercise-124","verdict":"ok"}
+{"id":"os-m46935-exercise-126","verdict":"ok"}
+{"id":"tryit-m46944-3","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; model answer is only the reference 'Figure 12'."}
+{"id":"tryit-m46944-4","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; model answer is only the reference 'Figure 13'."}
+{"id":"tryit-m46944-5","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; model answer is only the reference 'Figure 14'."}
+{"id":"tryit-m46944-6","verdict":"broken","issue":"ungradable","note":"Parts a and d require drawing a Venn diagram and adding an oval; answer points to missing 'Figure 15'."}
+{"id":"os-m46944-element-950","verdict":"ok"}
+{"id":"os-m46944-element-974","verdict":"ok"}
+{"id":"os-m46944-element-456","verdict":"broken","issue":"wrong-answer","note":"Part d P(twenties AND sedan) should be 1135/4306 = 0.2636, not 0.0673 which is the SUV count."}
+{"id":"os-m46944-element-148s","verdict":"ok"}
+{"id":"pt1-57","verdict":"broken","issue":"wrong-answer","note":"Total marbles is 90, not 80; P(R)=50/90=0.56 and P(Y)=15/90=0.17, not 0.62 and 0.19."}
+{"id":"pt1-58","verdict":"ok"}
+{"id":"pt1-60","verdict":"ok"}
+{"id":"pt1-61","verdict":"ok"}
+{"id":"pt1-62","verdict":"ok"}
+{"id":"pt1-63","verdict":"ok"}

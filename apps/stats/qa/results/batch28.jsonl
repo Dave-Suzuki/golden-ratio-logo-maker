@@ -1,0 +1,40 @@
+{"id":"fe2-28","verdict":"broken","issue":"wrong-answer","note":"One-way ANOVA gives F=9.66 on df 2,27 so p=0.0007; the p-value is close to zero, not one."}
+{"id":"fe2-33","verdict":"broken","issue":"missing-info","note":"No data, table or distribution is shown, so no goodness-of-fit test for uniformity can be conducted."}
+{"id":"rv11-118","verdict":"broken","issue":"answer-mismatch","note":"Eight parts a-h asked; key answers only d, e, f, leaving hypotheses, random variable and error types unanswered."}
+{"id":"rv11-119","verdict":"broken","issue":"answer-mismatch","note":"Question is about hepatitis; model answer refers to the HIV virus, so it answers a different question."}
+{"id":"rv11-120","verdict":"broken","issue":"answer-mismatch","note":"Six parts a-f asked; key answers only c-f, omitting the hypotheses and the random variable definition."}
+{"id":"rv13-138","verdict":"broken","issue":"missing-info","note":"No sample data, sizes, means or standard deviations given, yet answer states p-value 0.0006."}
+{"id":"tryit-m47050-0","verdict":"ok"}
+{"id":"tryit-m47050-1","verdict":"broken","issue":"garbled","note":"Answer dumps two later Try It exercises with their full solutions after the real answer."}
+{"id":"tryit-m47050-2","verdict":"broken","issue":"wrong-answer","note":"Data give means 76.5 vs 74.6, t=0.34, one-tailed p=0.37; key claims p=0.03 and rejects."}
+{"id":"os-m47050-fs-idm22935904","verdict":"ok"}
+{"id":"os-m47050-fs-idm161821520","verdict":"broken","issue":"not-a-question","note":"Only a description of an experiment; no question or instruction, yet answer is a test-type label."}
+{"id":"os-m47050-fs-idp21825264","verdict":"broken","issue":"not-a-question","note":"A bare statement about German vacation time; nothing is asked of the learner."}
+{"id":"os-m47050-fs-idp3576048","verdict":"broken","issue":"not-a-question","note":"Statement plus sample data with no question; answer is the missing classification instruction's label."}
+{"id":"os-m47050-fs-idm36046944","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether the US proportion is greater; answer just says 'two proportions'."}
+{"id":"os-m47050-fs-idm111997184","verdict":"broken","issue":"not-a-question","note":"Describes a sleep study and samples but asks nothing; answer is a test-type classification."}
+{"id":"os-m47050-fs-idm155074576","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether mean tuitions differ; answer only names the test type instead."}
+{"id":"os-m47050-fs-idm152397632","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether athletes' percentage is higher; answer only says 'two proportions'."}
+{"id":"os-m47050-fs-idm213711120","verdict":"ok"}
+{"id":"os-m47050-fs-idp13932064","verdict":"broken","issue":"missing-info","note":"No scenario or hypotheses shown, so the tail of 'this test' cannot be determined."}
+{"id":"os-m47050-fs-idm147822240","verdict":"broken","issue":"missing-info","note":"No context for 'this test'; answer references White vs non-White life spans never mentioned."}
+{"id":"os-m47050-fs-idm120924688","verdict":"broken","issue":"ungradable","note":"Asks for a sketched, shaded graph the app cannot mark, and no situation is even described."}
+{"id":"os-m47050-fs-idm129306608","verdict":"broken","issue":"not-a-question","note":"Truncated fragment 'what is your:' with no parts and no scenario; answer has parts a-c."}
+{"id":"os-m47050-fs-idm8894688","verdict":"broken","issue":"wrong-answer","note":"Decision 'do not reject' (p=0.4019) contradicts stated conclusion that there is sufficient evidence."}
+{"id":"os-m47050-fs-idm122985232","verdict":"ok"}
+{"id":"os-m47050-fs-idm50796704","verdict":"broken","issue":"missing-info","note":"Refers to 'the data from Lap 1' but no lap-time data or table is shown."}
+{"id":"os-m47050-fs-idm170930784","verdict":"broken","issue":"missing-info","note":"Refers to Exercise 10.83 and Lap 1 and 5 data, none of which is shown."}
+{"id":"os-m47050-fs-idm3207760","verdict":"ok"}
+{"id":"os-m47050-fs-idm81478720","verdict":"broken","issue":"garbled","note":"Answer has mangled hypotheses, 'X_1-X_1', s_1^2/n_2, and the p-value value is missing entirely."}
+{"id":"tryit-m47061-0","verdict":"ok"}
+{"id":"tryit-m47061-1","verdict":"broken","issue":"wrong-answer","note":"Right-tailed t=-0.235 gives p about 0.59, not the stated 0.4258; hypotheses also both labelled H_0."}
+{"id":"os-m47061-fs-idm106340640","verdict":"ok"}
+{"id":"os-m47061-fs-idm113366480","verdict":"ok"}
+{"id":"os-m47061-fs-idm126168192","verdict":"ok"}
+{"id":"os-m47061-fs-idm92555424","verdict":"ok"}
+{"id":"os-m47061-fs-idm4478224","verdict":"ok"}
+{"id":"os-m47061-fs-idm100159520","verdict":"ok"}
+{"id":"os-m47061-fs-idm85314992","verdict":"ok"}
+{"id":"os-m47061-exer29","verdict":"ok"}
+{"id":"os-m47061-exer32","verdict":"ok"}
+{"id":"os-m47061-eip-267","verdict":"broken","issue":"wrong-answer","note":"p=0.0479 < 0.05 and decision rejects, but conclusion states there is insufficient evidence; self-contradictory."}

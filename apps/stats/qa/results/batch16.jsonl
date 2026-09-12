@@ -1,0 +1,40 @@
+{"id":"os-m46969-fs-idp35926784","verdict":"broken","issue":"missing-info","note":"No scenario or mean given; nothing shown from which any decay rate could be computed."}
+{"id":"os-m46969-fs-idp127287888","verdict":"ok"}
+{"id":"os-m46969-fs-idp23265056","verdict":"ok"}
+{"id":"os-m46969-fs-idm3440688","verdict":"ok"}
+{"id":"os-m46969-fs-idm6685504","verdict":"broken","issue":"wrong-answer","note":"Part a asks probability of a single no-hitter (0.1494); answer gives 0.0498, the probability of none."}
+{"id":"os-m46969-fs-idp35197296","verdict":"ok"}
+{"id":"os-m46969-fs-idm90634192","verdict":"broken","issue":"wrong-answer","note":"Part c asks arrival within five minutes: 1-e^(-5/7)=0.5105; answer gives complement 0.4895."}
+{"id":"pt2-41","verdict":"ok"}
+{"id":"pt2-42","verdict":"ok"}
+{"id":"pt2-43","verdict":"ok"}
+{"id":"pt2-44","verdict":"ok"}
+{"id":"pt2-45","verdict":"broken","issue":"wrong-answer","note":"Support is 0 to 10, but answer places vertical sides at 0 and 20."}
+{"id":"pt2-46","verdict":"ok"}
+{"id":"pt2-47","verdict":"ok"}
+{"id":"pt2-48","verdict":"broken","issue":"wrong-answer","note":"Uniform on 0 to 30 minutes, so X ~ U(0, 30); answer states U(0, 15)."}
+{"id":"pt2-49","verdict":"ok"}
+{"id":"pt2-50","verdict":"ok"}
+{"id":"pt2-51","verdict":"ok"}
+{"id":"pt2-52","verdict":"ok"}
+{"id":"pt2-53","verdict":"ok"}
+{"id":"pt2-54","verdict":"ok"}
+{"id":"fe2-13","verdict":"broken","issue":"garbled","note":"Unlabeled answer-choice list dumped into the question text of an open item; answer cites nonexistent option 'a'."}
+{"id":"fe2-14","verdict":"ok"}
+{"id":"fe2-15","verdict":"ok"}
+{"id":"rv7-48","verdict":"ok"}
+{"id":"rv7-49","verdict":"ok"}
+{"id":"rv7-52","verdict":"ok"}
+{"id":"rv8-59","verdict":"ok"}
+{"id":"rv8-61","verdict":"ok"}
+{"id":"rv8-63","verdict":"ok"}
+{"id":"rv8-64","verdict":"ok"}
+{"id":"rv8-68","verdict":"ok"}
+{"id":"rv10-92","verdict":"ok"}
+{"id":"rv10-93","verdict":"ok"}
+{"id":"rv12-126","verdict":"ok"}
+{"id":"rv12-127","verdict":"ok"}
+{"id":"rv12-128","verdict":"ok"}
+{"id":"tryit-m46980-0","verdict":"ok"}
+{"id":"tryit-m46980-1","verdict":"ok"}
+{"id":"tryit-m46980-3","verdict":"ok"}

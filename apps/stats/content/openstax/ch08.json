@@ -265,18 +265,18 @@
     },
     {
      "id": "fs-idm67667568",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in both tails (combined)? α =________",
+     "problem": "How much area is in both tails (combined)? α =________",
      "solution": null
     },
     {
      "id": "element-888",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in each tail? α/2 =________",
+     "problem": "How much area is in each tail? α/2 =________",
      "solution": "0.025"
     },
     {
      "id": "element-74",
      "problem": "Identify the following specifications:\n\n[PARTS]\na. lower limit\nb. upper limit\nc. error bound\n[/PARTS]",
-     "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nIdentify the following specifications:",
+     "stem": "Identify the following specifications:",
      "options": [
       "lower limit",
       "upper limit",
@@ -492,18 +492,18 @@
     },
     {
      "id": "element-425",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in both tails (combined)?",
+     "problem": "How much area is in both tails (combined)?",
      "solution": null
     },
     {
      "id": "element-945",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in each tail?",
+     "problem": "How much area is in each tail?",
      "solution": "0.025"
     },
     {
      "id": "element-526",
      "problem": "Calculate the following:\n\n[PARTS]\na. lower limit\nb. upper limit\nc. error bound\n[/PARTS]",
-     "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nCalculate the following:",
+     "stem": "Calculate the following:",
      "options": [
       "lower limit",
       "upper limit",

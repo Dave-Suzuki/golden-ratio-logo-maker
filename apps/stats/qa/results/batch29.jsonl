@@ -1,0 +1,40 @@
+{"id":"tryit-m47060-0","verdict":"ok"}
+{"id":"tryit-m47060-1","verdict":"broken","issue":"wrong-answer","note":"Data give z=0.52, one-tailed p=0.3017 (0.698 in the stated direction), not 0.1023; hypotheses also mislabeled H_0 twice."}
+{"id":"tryit-m47060-2","verdict":"broken","issue":"missing-info","note":"No scenario; sub-part 'a' of an unshown exercise, nothing to classify as means or proportions."}
+{"id":"tryit-m47060-3","verdict":"broken","issue":"missing-info","note":"No scenario; asks which distribution for an unshown test."}
+{"id":"tryit-m47060-4","verdict":"broken","issue":"missing-info","note":"No scenario; random variable of an unshown study. Answer also garbled: P'_2 - P'_2."}
+{"id":"tryit-m47060-5","verdict":"broken","issue":"missing-info","note":"No scenario; hypotheses for an unshown study, answer references Northeast/Southeast never mentioned."}
+{"id":"tryit-m47060-6","verdict":"broken","issue":"missing-info","note":"No scenario or hypotheses shown, so tail direction cannot be determined."}
+{"id":"tryit-m47060-8","verdict":"broken","issue":"missing-info","note":"No scenario, p-value or alpha shown; reject/not-reject decision is unanswerable."}
+{"id":"tryit-m47060-9","verdict":"broken","issue":"missing-info","note":"Fill-in-the-blank conclusion with no scenario, data or significance level shown."}
+{"id":"os-m47060-eip-964","verdict":"ok"}
+{"id":"os-m47060-eip-56","verdict":"broken","issue":"missing-info","note":"No scenario or data; p-value of 0.1018 cannot be computed from what is shown."}
+{"id":"os-m47060-element-385","verdict":"ok"}
+{"id":"os-m47060-element-22","verdict":"ok"}
+{"id":"os-m47060-element-386","verdict":"ok"}
+{"id":"os-m47060-element-464","verdict":"broken","issue":"missing-info","note":"Refers to 'Exercise 10.56', a prior exercise whose chosen distribution is not shown."}
+{"id":"os-m47060-element-723","verdict":"broken","issue":"not-a-question","note":"Dangling stem 'what is your:' — the sub-parts a/b/c the answer addresses are not shown."}
+{"id":"os-m47060-exer18","verdict":"broken","issue":"wrong-answer","note":"Answer self-contradicts: p-value 0.8458 > alpha yet states 'Reject the null hypothesis'; should be do not reject."}
+{"id":"os-m47060-exer24","verdict":"ok"}
+{"id":"os-m47060-element-552","verdict":"ok"}
+{"id":"os-m47060-fs-idm174644848","verdict":"ok"}
+{"id":"os-m47060-fs-idm98770112","verdict":"ok"}
+{"id":"os-m47060-fs-idm104246192","verdict":"broken","issue":"wrong-answer","note":"Data give t=5.16, p=0.0003, not 4.8963/0.0004; answer also ignores the stated claim of more than two hours."}
+{"id":"tryit-m47045-0","verdict":"ok"}
+{"id":"tryit-m47045-2","verdict":"broken","issue":"garbled","note":"Answer has stray leftover text: 'Chapter 11. The Chi-Square Distribution / Section 2. Goodness-of-Fit Test'."}
+{"id":"os-m47045-fs-idm5499280","verdict":"ok"}
+{"id":"os-m47045-fs-idm10056224","verdict":"ok"}
+{"id":"os-m47045-fs-idp92713024","verdict":"ok"}
+{"id":"os-m47045-fs-idp15011664","verdict":"ok"}
+{"id":"os-m47045-fs-idp5612992","verdict":"ok"}
+{"id":"os-m47045-fs-idp69509280","verdict":"ok"}
+{"id":"os-m47045-fs-idm55198624","verdict":"ok"}
+{"id":"os-m47045-fs-idp64398288","verdict":"broken","issue":"wrong-answer","note":"Paired test on shown data gives p=0.1353 (two-tailed 0.271), not 0.1494; answer also says 'medication' not diet."}
+{"id":"os-m47045-element-198","verdict":"ok"}
+{"id":"os-m47045-element-954","verdict":"ok"}
+{"id":"os-m47045-fs-idp144471136","verdict":"broken","issue":"wrong-answer","note":"Same four players measured before and after: matched pairs, so 'a test of a single mean', not two independent means."}
+{"id":"pt3-52","verdict":"ok"}
+{"id":"pt3-53","verdict":"ok"}
+{"id":"pt3-54","verdict":"ok"}
+{"id":"pt3-55","verdict":"ok"}
+{"id":"pt3-56","verdict":"ok"}

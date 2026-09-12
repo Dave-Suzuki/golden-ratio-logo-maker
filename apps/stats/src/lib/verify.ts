@@ -1,4 +1,5 @@
 import type { Question } from './types';
+import suppressed from '../../content/suppressed.json';
 
 /**
  * Quizzability gate.
@@ -11,6 +12,11 @@ import type { Question } from './types';
  * test. The reason is returned for auditing and is never shown to the learner.
  *
  * Keep every rule cheap and pure: this runs over the whole bank on every test build.
+ *
+ * The rules below are structural, and structural rules cannot see the two things that matter most:
+ * whether the question can be answered from what is on screen, and whether the stored answer is
+ * correct. Those are settled by reading every question (see qa/BRIEF.md); the questions that failed
+ * are listed in content/suppressed.json with the reason, and are rejected here before anything else.
  */
 
 /** Shortest stem that can still be a real question ("What is the median?" is 22). */
@@ -62,6 +68,9 @@ export function unquizzableReason(q: Question): string | null {
   const stem = (q.stem ?? '').trim();
   const context = (q.context ?? '').trim();
   const both = `${stem}\n${context}`;
+
+  const audited = (suppressed as Record<string, string>)[q.id];
+  if (audited) return audited;
 
   if (stem.length < MIN_STEM) return 'question is only a fragment';
   if (q.needsFigure || FIGURE.test(both) || NEEDS_PICTURE.test(both)) return 'needs a figure we do not have';

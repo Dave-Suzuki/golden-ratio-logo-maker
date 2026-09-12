@@ -1,0 +1,40 @@
+{"id":"os-m47105-eip-673","verdict":"ok"}
+{"id":"os-m47105-eip-584","verdict":"ok"}
+{"id":"os-m47105-eip-159","verdict":"ok"}
+{"id":"os-m47105-fs-idp60770720","verdict":"broken","issue":"missing-info","note":"No data set, table or variables given; nothing to regress."}
+{"id":"os-m47105-element-578","verdict":"broken","issue":"missing-info","note":"No regression equation or data shown; answer needs the flu-cases model from a prior part."}
+{"id":"os-m47105-fs-idp46020944","verdict":"broken","issue":"missing-info","note":"No data, correlation value or scatter plot shown; answer cites r = 0.4526 from nowhere."}
+{"id":"os-m47105-element-537","verdict":"broken","issue":"missing-info","note":"No data given; 'Write the equation' has no source data and is barely a question."}
+{"id":"os-m47105-element-508","verdict":"broken","issue":"missing-info","note":"No data, line or plot shown; answer discusses flu cases 1993-2002 that never appear."}
+{"id":"os-m47105-element-658","verdict":"broken","issue":"missing-info","note":"No data or correlation value shown; question cannot be answered as displayed."}
+{"id":"os-m47105-element-54","verdict":"broken","issue":"missing-info","note":"Refers to 'your data' and pre-1981 rows, but no table is shown."}
+{"id":"os-m47105-element-401","verdict":"broken","issue":"answer-mismatch","note":"Answer labelled 'e' actually answers f; parts e (predict ages 40, 60) and g (slope) unanswered."}
+{"id":"os-m47105-element-682","verdict":"broken","issue":"answer-mismatch","note":"Answer 'e' gives no page 10/70 estimates; parts f, g, h missing entirely."}
+{"id":"os-m47105-element-512","verdict":"broken","issue":"answer-mismatch","note":"Answer 'f' actually answers g; parts f (1900/1940 estimates), g and h unanswered."}
+{"id":"tryit-m47107-1","verdict":"ok"}
+{"id":"tryit-m47107-2","verdict":"ok"}
+{"id":"os-m47107-eip-930","verdict":"ok"}
+{"id":"os-m47107-fs-idp218993792","verdict":"ok"}
+{"id":"os-m47107-fs-idp2751904","verdict":"broken","issue":"wrong-answer","note":"Part e: residual at (34.72,124) is -18 with predicted 142, not -11.82 and 136; -11.82 belongs to (36.17,128)."}
+{"id":"os-m47107-fs-idm81379472","verdict":"ok"}
+{"id":"os-m47107-element-402","verdict":"broken","issue":"wrong-answer","note":"Table years shown as 1-14, but answers (intercept -266.89, year 13 = 62.82, year 72) require calendar years 1979-1992."}
+{"id":"os-m47107-element-952","verdict":"ok"}
+{"id":"os-m47107-element-911","verdict":"ok"}
+{"id":"os-m47107-element-133","verdict":"broken","issue":"wrong-answer","note":"Part l with Alaska recomputes to y = -82,395 + 7,695.5x, not -87,065.3 + 7,828.532x; part k table also left unchanged."}
+{"id":"pt4-1","verdict":"ok"}
+{"id":"pt4-2","verdict":"ok"}
+{"id":"pt4-3","verdict":"ok"}
+{"id":"pt4-4","verdict":"ok"}
+{"id":"pt4-5","verdict":"ok"}
+{"id":"pt4-6","verdict":"ok"}
+{"id":"pt4-7","verdict":"ok"}
+{"id":"pt4-8","verdict":"ok"}
+{"id":"pt4-9","verdict":"broken","issue":"missing-info","note":"Refers to 'this scatter plot' but no plot or data is shown."}
+{"id":"pt4-10","verdict":"broken","issue":"missing-info","note":"Refers to 'this scatter plot' but no plot or data is shown."}
+{"id":"pt4-11","verdict":"broken","issue":"missing-info","note":"Refers to 'this scatter plot' but no plot or data is shown."}
+{"id":"pt4-12","verdict":"broken","issue":"missing-info","note":"Refers to 'this scatter plot' but no plot or data is shown."}
+{"id":"pt4-13","verdict":"ok"}
+{"id":"pt4-14","verdict":"ok"}
+{"id":"pt4-15","verdict":"ok"}
+{"id":"pt4-16","verdict":"ok"}
+{"id":"pt4-17","verdict":"ok"}

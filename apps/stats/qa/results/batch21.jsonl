@@ -1,0 +1,40 @@
+{"id":"os-m46997-eip-899","verdict":"ok"}
+{"id":"os-m46997-fs-idm54402176","verdict":"ok"}
+{"id":"os-m46997-element-119","verdict":"ok"}
+{"id":"os-m46997-element-797","verdict":"ok"}
+{"id":"os-m46997-element-138","verdict":"broken","issue":"wrong-answer","note":"Part d gives SigmaX ~ N(44,000, 20,554.80); mean of the sum of ten salaries is 440,000."}
+{"id":"tryit-m46992-2","verdict":"broken","issue":"garbled","note":"Part b model answer has duplicated mangled fragment: normalcdf(120,1E99,114.8,)(120,1E99,114.8,13.140); formula unreadable."}
+{"id":"tryit-m46992-3","verdict":"ok"}
+{"id":"os-m46992-exercise4","verdict":"ok"}
+{"id":"os-m46992-exercise6","verdict":"ok"}
+{"id":"os-m46992-exercise8","verdict":"ok"}
+{"id":"os-m46992-exercise10","verdict":"ok"}
+{"id":"os-m46992-exercise12","verdict":"ok"}
+{"id":"os-m46992-fs-idm110175696","verdict":"ok"}
+{"id":"os-m46992-fs-idm85285856","verdict":"ok"}
+{"id":"os-m46992-fs-idm151129248","verdict":"ok"}
+{"id":"os-m46992-fs-idm69924752","verdict":"ok"}
+{"id":"os-m46992-fs-idm1366160","verdict":"ok"}
+{"id":"os-m46992-fs-idm28939008","verdict":"broken","issue":"missing-info","note":"No scenario shown; the battery distribution (exponential, mean ten months) is never given, so 707.3 is uncomputable."}
+{"id":"os-m46992-fs-idm41589104","verdict":"broken","issue":"missing-info","note":"No scenario shown; nothing states the battery lifetime distribution or mean, so the IQR cannot be found."}
+{"id":"os-m46992-fs-idm45108016","verdict":"broken","issue":"missing-info","note":"No scenario shown; battery distribution missing. Answer 205.05 is also only the interval width, not the interval."}
+{"id":"os-m46992-fs-idm48638032","verdict":"ok"}
+{"id":"os-m46992-fs-idm53694544","verdict":"ok"}
+{"id":"os-m46992-fs-idm16561168","verdict":"ok"}
+{"id":"os-m46992-fs-idp10404400","verdict":"ok"}
+{"id":"os-m46992-fs-idm111220240","verdict":"ok"}
+{"id":"os-m46992-element-941","verdict":"broken","issue":"wrong-answer","note":"Part f normal probability is 0.9736, not 0.7579; P(mean<10) with N(8, 8/sqrt(60)) gives z=1.94."}
+{"id":"os-m46992-element-897","verdict":"broken","issue":"ungradable","note":"Requires constructing two histograms and random resampling; model answer is blank for c and 'answers will vary' for e-i."}
+{"id":"os-m46992-element-725","verdict":"ok"}
+{"id":"os-m46992-element-407","verdict":"ok"}
+{"id":"os-m46992-element-191","verdict":"ok"}
+{"id":"os-m46992-element-620","verdict":"ok"}
+{"id":"os-m46992-element-339","verdict":"ok"}
+{"id":"os-m46992-element-644","verdict":"ok"}
+{"id":"os-m46992-eip-786","verdict":"ok"}
+{"id":"os-m46992-eip-140","verdict":"ok"}
+{"id":"os-m46992-element-440","verdict":"broken","issue":"wrong-answer","note":"Part i P(1,400<Sigmax<1,550) with N(1500,45) is 0.8536, not 0.6877; parts also demand unmarkable sketches."}
+{"id":"os-m46992-element-666","verdict":"broken","issue":"answer-mismatch","note":"Answer labels shift after d: e-g hold answers for f, h and j; parts a, g, i, k unanswered."}
+{"id":"os-m46992-element-138","verdict":"ok"}
+{"id":"os-m46992-element-566","verdict":"broken","issue":"answer-mismatch","note":"Answers misaligned after c: d shows SigmaX distribution instead of words; every later label off by one, one part unanswered."}
+{"id":"os-m46992-fs-idm4142208","verdict":"ok"}

@@ -113,17 +113,17 @@
    "practice": [
     {
      "id": "eip-594",
-     "problem": "An archeologist is calculating the distribution of the frequency of the number of artifacts they find in a dig site. Based on previous digs, the archeologist creates an expected distribution broken down by grid sections in the dig site. Once the site has been fully excavated, they compare the actual number of artifacts found in each grid section to see if their expectation was accurate.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nAn archeologist is calculating the distribution of the frequency of the number of artifacts they find in a dig site. Based on previous digs, the archeologist creates an expected distribution broken down by grid sections in the dig site. Once the site has been fully excavated, they compare the actual number of artifacts found in each grid section to see if their expectation was accurate.",
      "solution": null
     },
     {
      "id": "eip-906",
-     "problem": "An economist is deriving a model to predict outcomes on the stock market. They create a list of expected points on the stock market index for the next two weeks. At the close of each day’s trading, The economist records the actual points on the index. They want to see how well the model matched what actually happened.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nAn economist is deriving a model to predict outcomes on the stock market. They create a list of expected points on the stock market index for the next two weeks. At the close of each day’s trading, The economist records the actual points on the index. They want to see how well the model matched what actually happened.",
      "solution": "a goodness-of-fit test"
     },
     {
      "id": "eip-89",
-     "problem": "A personal trainer is putting together a weight-lifting program for their clients. For a 90-day program, they expect each client to lift a specific maximum weight each week. As the program goes along, the trainer records the actual maximum weights their clients lifted. They want to know how well their expectations met with what was observed.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nA personal trainer is putting together a weight-lifting program for their clients. For a 90-day program, they expect each client to lift a specific maximum weight each week. As the program goes along, the trainer records the actual maximum weights their clients lifted. They want to know how well their expectations met with what was observed.",
      "solution": null
     },
     {
@@ -328,17 +328,17 @@
    "practice": [
     {
      "id": "eip-643",
-     "problem": "A pharmaceutical company is interested in the relationship between age and presentation of symptoms for a common viral infection. A random sample is taken of 500 people with the infection across different age groups.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nA pharmaceutical company is interested in the relationship between age and presentation of symptoms for a common viral infection. A random sample is taken of 500 people with the infection across different age groups.",
      "solution": "a test of independence"
     },
     {
      "id": "eip-703",
-     "problem": "The owner of a baseball team is interested in the relationship between player salaries and team winning percentage. They take a random sample of 100 players from different organizations.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nThe owner of a baseball team is interested in the relationship between player salaries and team winning percentage. They take a random sample of 100 players from different organizations.",
      "solution": null
     },
     {
      "id": "eip-46",
-     "problem": "A marathon runner is interested in the relationship between the brand of shoes runners wear and their run times. They take a random sample of 50 runners and records their run times as well as the brand of shoes they were wearing.",
+     "problem": "Determine the appropriate test to be used in the next three exercises.\n\nA marathon runner is interested in the relationship between the brand of shoes runners wear and their run times. They take a random sample of 50 runners and records their run times as well as the brand of shoes they were wearing.",
      "solution": "a test of independence"
     },
     {
@@ -433,12 +433,12 @@
     },
     {
      "id": "element-90",
-     "problem": "α = 0.05\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
+     "problem": "State the decision and conclusion (in a complete sentence) for the following preconceived levels of α.\n\nα = 0.05\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
      "solution": "[PARTS]\na. Reject the null hypothesis.\nb. p-value < alpha\nc. There is sufficient evidence to conclude that smoking level is dependent on ethnic group.\n[/PARTS]"
     },
     {
      "id": "element-56",
-     "problem": "α = 0.01\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
+     "problem": "State the decision and conclusion (in a complete sentence) for the following preconceived levels of α.\n\nα = 0.01\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
      "solution": null
     }
    ],

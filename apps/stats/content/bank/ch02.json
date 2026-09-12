@@ -130,7 +130,7 @@
   "sectionId": "2.1",
   "kind": "open",
   "conceptTag": "2.1",
-  "stem": "In a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in the table below.\n\n[TABLE]\nNumber of times in store | Frequency\n1 | 4\n2 | 10\n3 | 16\n4 | 6\n5 | 4\n[/TABLE]",
+  "stem": "Use the data to construct a line graph.\n\nIn a survey, 40 people were asked how many times they visited a store before making a major purchase. The results are shown in the table below.\n\n[TABLE]\nNumber of times in store | Frequency\n1 | 4\n2 | 10\n3 | 16\n4 | 6\n5 | 4\n[/TABLE]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46934",
@@ -145,7 +145,7 @@
   "sectionId": "2.1",
   "kind": "open",
   "conceptTag": "2.1",
-  "stem": "Several children were asked how many TV shows they watch each day. The results of the survey are shown in the table below.\n\n[TABLE]\nNumber of TV Shows | Frequency\n0 | 12\n1 | 18\n2 | 36\n3 | 7\n4 | 2\n[/TABLE]",
+  "stem": "Use the data to construct a line graph.\n\nSeveral children were asked how many TV shows they watch each day. The results of the survey are shown in the table below.\n\n[TABLE]\nNumber of TV Shows | Frequency\n0 | 12\n1 | 18\n2 | 36\n3 | 7\n4 | 2\n[/TABLE]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46934",
@@ -160,7 +160,7 @@
   "sectionId": "2.1",
   "kind": "open",
   "conceptTag": "2.1",
-  "stem": "Using the data from Ms. Ramirez’s math class supplied in the table below, construct a bar graph showing the percentages.",
+  "stem": "Use the data to construct a line graph.\n\nUsing the data from Ms. Ramirez’s math class supplied in the table below, construct a bar graph showing the percentages.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46934",

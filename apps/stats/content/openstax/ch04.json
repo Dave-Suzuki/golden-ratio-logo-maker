@@ -48,31 +48,31 @@
      "id": "fs-idm11913472",
      "problem": "Complete the table below using the data provided.\n\n[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 |\n5 | 0.10\n6 | 0.05\n[/TABLE]",
      "solution": "[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 | 0.10\n5 | 0.10\n6 | 0.05\n[/TABLE]",
-     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution."
     },
     {
      "id": "fs-idm3556768",
-     "problem": "P(x = 4) = _______",
+     "problem": "Let P(x) = the probability that a new hire will stay with the company x years.\n\nP(x = 4) = _______",
      "solution": "0.10",
-     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution."
     },
     {
      "id": "fs-idp21614176",
-     "problem": "P(x ≥ 5) = _______",
+     "problem": "Let P(x) = the probability that a new hire will stay with the company x years.\n\nP(x ≥ 5) = _______",
      "solution": "0.10 + 0.05 = 0.15",
-     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution."
     },
     {
      "id": "fs-idp88464496",
      "problem": "On average, how long would you expect a new hire to stay with the company?",
      "solution": "0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years",
-     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution."
     },
     {
      "id": "fs-idp18018320",
      "problem": "What does the column “P(x)” sum to?",
      "solution": "1",
-     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years."
+     "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution."
     },
     {
      "id": "fs-idm2415264",
@@ -596,7 +596,7 @@
       "4.43"
      ],
      "solution": "d. 4.43",
-     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games."
     },
     {
      "id": "element-861",
@@ -609,12 +609,12 @@
       "0.8903"
      ],
      "solution": "a",
-     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games."
     },
     {
      "id": "element-408",
      "problem": "What is the probability that the San Jose Sharks win at least five games in that upcoming month\n\n[DATA]0.3694, 0.5266, 0.4734, 0.2305[/DATA]",
-     "stem": "What is the probability that the San Jose Sharks win at least five games in that upcoming month",
+     "stem": "Let X = the number of games won in that upcoming month.\n\nWhat is the probability that the San Jose Sharks win at least five games in that upcoming month",
      "options": [
       "0.3694",
       "0.5266",
@@ -622,7 +622,7 @@
       "0.2305"
      ],
      "solution": "c",
-     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
+     "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games."
     },
     {
      "id": "eip-122",

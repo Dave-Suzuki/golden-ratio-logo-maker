@@ -1,0 +1,40 @@
+{"id":"os-m46959-fs-idm139526544","verdict":"ok"}
+{"id":"os-m46959-fs-idm146513696","verdict":"ok"}
+{"id":"os-m46959-fs-idp39629888","verdict":"ok"}
+{"id":"os-m46959-fs-idm1819872","verdict":"ok"}
+{"id":"os-m46959-fs-idp10316752","verdict":"ok"}
+{"id":"os-m46959-fs-idp57624976","verdict":"ok"}
+{"id":"os-m46959-fs-idp12372960","verdict":"ok"}
+{"id":"os-m46959-fs-idp33661936","verdict":"ok"}
+{"id":"os-m46959-fs-idm517184","verdict":"ok"}
+{"id":"os-m46959-fs-idp96964736","verdict":"ok"}
+{"id":"os-m46959-exerciseone","verdict":"ok"}
+{"id":"os-m46959-exercisefour","verdict":"broken","issue":"missing-info","note":"Scenario promises a probability distribution but no table is shown; answer uses probabilities 0.10-0.30 that appear nowhere."}
+{"id":"os-m46959-exercisefive","verdict":"ok"}
+{"id":"os-m46959-exercisesix","verdict":"broken","issue":"missing-info","note":"No probability table in scenario, so the answer value 4.5 for the sum of xP(x) cannot be obtained."}
+{"id":"os-m46959-fs-idm7617472","verdict":"ok"}
+{"id":"os-m46959-fs-idm132715600","verdict":"ok"}
+{"id":"os-m46959-fs-idp10277168","verdict":"broken","issue":"wrong-answer","note":"With four of 100 tickets P(win)=4/100, so expected value is 150(0.04)-20=-$14, not the stated -$18.50 from 1/100."}
+{"id":"os-m46959-eip-254","verdict":"ok"}
+{"id":"os-m46959-eip-945","verdict":"ok"}
+{"id":"os-m46959-fs-idm153056144","verdict":"ok"}
+{"id":"os-m46959-element-360","verdict":"ok"}
+{"id":"os-m46959-element-725","verdict":"ok"}
+{"id":"os-m46959-fs-idm21991696","verdict":"ok"}
+{"id":"os-m46959-fs-idp33692128","verdict":"ok"}
+{"id":"os-m46959-fs-idp126182336","verdict":"broken","issue":"answer-mismatch","note":"Parts e-h answer names Video To Go and Entertainment Headquarters, stores never mentioned; question uses Game Stop and Games Galore."}
+{"id":"os-m46959-element-134","verdict":"ok"}
+{"id":"os-m46959-fs-idm63057856","verdict":"broken","issue":"wrong-answer","note":"Student chosen at random gives P(x)=30/980, 480/980, 70/980, 400/980 and mean 76.12; answer uses 1/14 weights and mean 70."}
+{"id":"os-m46959-fs-idp29002528","verdict":"ok"}
+{"id":"tryit-m46950-1","verdict":"ok"}
+{"id":"tryit-m46950-2","verdict":"ok"}
+{"id":"tryit-m46950-3","verdict":"ok"}
+{"id":"tryit-m46950-4","verdict":"ok"}
+{"id":"tryit-m46950-5","verdict":"ok"}
+{"id":"tryit-m46950-6","verdict":"ok"}
+{"id":"tryit-m46950-7","verdict":"ok"}
+{"id":"os-m46950-exerciseone","verdict":"ok"}
+{"id":"os-m46950-exercisetwo","verdict":"ok"}
+{"id":"os-m46950-exercisethree","verdict":"ok"}
+{"id":"os-m46950-exercisefour","verdict":"ok"}
+{"id":"os-m46950-exercisefive","verdict":"ok"}

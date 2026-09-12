@@ -1,0 +1,40 @@
+{"id":"rv7-50","verdict":"ok"}
+{"id":"rv8-58","verdict":"ok"}
+{"id":"rv8-69","verdict":"ok"}
+{"id":"rv9-73","verdict":"ok"}
+{"id":"rv10-91","verdict":"ok"}
+{"id":"rv10-94","verdict":"ok"}
+{"id":"tryit-m46942-0","verdict":"broken","issue":"answer-mismatch","note":"All probability values blank (P(A)=, P(A AND B)=, P(A|B)=); part g asks P(A)+P(A'), answer gives P(B)+P(B')."}
+{"id":"tryit-m46942-1","verdict":"broken","issue":"wrong-answer","note":"Part b: 'more than 6' from 1-10 is {7,8,9,10}, P=4/10, not 3/10; parts f,g,h answers inconsistently include/exclude 10."}
+{"id":"tryit-m46942-2","verdict":"ok"}
+{"id":"os-m46942-eip-396","verdict":"ok"}
+{"id":"os-m46942-fs-idm28330400","verdict":"ok"}
+{"id":"os-m46942-fs-idm61066160","verdict":"ok"}
+{"id":"os-m46942-eip-432","verdict":"ok"}
+{"id":"os-m46942-eip-542","verdict":"ok"}
+{"id":"os-m46942-eip-289","verdict":"ok"}
+{"id":"os-m46942-eip-848","verdict":"ok"}
+{"id":"os-m46942-eip-185","verdict":"ok"}
+{"id":"os-m46942-element-858","verdict":"ok"}
+{"id":"tryit-m46948-1","verdict":"broken","issue":"missing-info","note":"Asks which of the following outcomes are possible but no candidate outcomes are listed; answer references items 1, 2, 3."}
+{"id":"tryit-m46948-2","verdict":"ok"}
+{"id":"tryit-m46948-3","verdict":"broken","issue":"answer-mismatch","note":"P(F), P(G), P(H) values are all blank, so parts a, b, c are unanswered; only the two yes/no parts are answered."}
+{"id":"tryit-m46948-4","verdict":"ok"}
+{"id":"tryit-m46948-5","verdict":"ok"}
+{"id":"tryit-m46948-6","verdict":"ok"}
+{"id":"tryit-m46948-7","verdict":"ok"}
+{"id":"tryit-m46948-8","verdict":"ok"}
+{"id":"tryit-m46948-9","verdict":"broken","issue":"answer-mismatch","note":"P(T) and P(T|F) values are blank, so parts a and b are unanswered; stray section heading appended."}
+{"id":"os-m46948-element-867","verdict":"ok"}
+{"id":"os-m46948-element-930","verdict":"ok"}
+{"id":"os-m46948-element-750","verdict":"ok"}
+{"id":"os-m46948-eip-278","verdict":"ok"}
+{"id":"tryit-m46947-0","verdict":"ok"}
+{"id":"tryit-m46947-1","verdict":"ok"}
+{"id":"tryit-m46947-2","verdict":"ok"}
+{"id":"tryit-m46947-3","verdict":"ok"}
+{"id":"tryit-m46947-4","verdict":"ok"}
+{"id":"tryit-m46947-5","verdict":"broken","issue":"wrong-answer","note":"Part e: P(D|B') = 0.10/0.60 = 0.1667, not the stated 0.06."}
+{"id":"os-m46947-exercise4","verdict":"ok"}
+{"id":"os-m46947-exercise6","verdict":"ok"}
+{"id":"os-m46947-exercise7","verdict":"broken","issue":"garbled","note":"Asks about event P, which is never defined; scenario defines only Z and S, and the answer silently uses Z."}

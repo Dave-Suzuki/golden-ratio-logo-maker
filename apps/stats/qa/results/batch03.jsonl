@@ -1,0 +1,40 @@
+{"id":"tryit-m46882-0","verdict":"ok"}
+{"id":"tryit-m46882-1","verdict":"broken","issue":"missing-info","note":"Refers to \"the table below\" but no rainfall table or scenario is shown; frequencies unavailable."}
+{"id":"tryit-m46882-2","verdict":"broken","issue":"missing-info","note":"Refers to \"the table below\" but no rainfall frequency table is shown, so town counts cannot be found."}
+{"id":"os-m46882-eip-167","verdict":"ok"}
+{"id":"os-m46882-eip-idp1177440","verdict":"ok"}
+{"id":"os-m46882-eip-idp3710944","verdict":"ok"}
+{"id":"os-m46882-eip-idp24902672","verdict":"ok"}
+{"id":"os-m46882-element-87","verdict":"ok"}
+{"id":"os-m46882-element-627","verdict":"ok"}
+{"id":"tryit-m46919-0","verdict":"ok"}
+{"id":"tryit-m46919-1","verdict":"ok"}
+{"id":"tryit-m46919-2","verdict":"ok"}
+{"id":"tryit-m46919-3","verdict":"broken","issue":"garbled","note":"Model answer ends with stray scraped headings: \"Chapter 2. Descriptive Statistics / Section 1. Stem-and-Leaf Graphs...\"."}
+{"id":"os-m46919-fs-idm44521824","verdict":"broken","issue":"ungradable","note":"Asks learner to design a whole experiment with no topic given; model answer is only \"Answers will vary.\""}
+{"id":"os-m46919-eip-761","verdict":"ok"}
+{"id":"os-m46919-fs-idm22501296","verdict":"ok"}
+{"id":"pt1-1","verdict":"ok"}
+{"id":"pt1-2","verdict":"ok"}
+{"id":"pt1-3","verdict":"ok"}
+{"id":"pt1-4","verdict":"ok"}
+{"id":"pt1-5","verdict":"ok"}
+{"id":"pt1-6","verdict":"ok"}
+{"id":"pt1-7","verdict":"ok"}
+{"id":"pt1-8","verdict":"ok"}
+{"id":"pt1-9","verdict":"ok"}
+{"id":"pt1-10","verdict":"ok"}
+{"id":"pt1-11","verdict":"ok"}
+{"id":"pt1-12","verdict":"ok"}
+{"id":"pt1-13","verdict":"ok"}
+{"id":"pt1-14","verdict":"ok"}
+{"id":"pt1-15","verdict":"ok"}
+{"id":"pt1-16","verdict":"ok"}
+{"id":"pt1-17","verdict":"ok"}
+{"id":"pt1-18","verdict":"ok"}
+{"id":"pt1-19","verdict":"ok"}
+{"id":"pt1-20","verdict":"ok"}
+{"id":"pt1-21","verdict":"ok"}
+{"id":"pt1-22","verdict":"broken","issue":"missing-info","note":"Says \"Identify the following components\" but the list is missing; answer supplies six unnamed parts a-f."}
+{"id":"pt1-23","verdict":"ok"}
+{"id":"pt1-24","verdict":"ok"}

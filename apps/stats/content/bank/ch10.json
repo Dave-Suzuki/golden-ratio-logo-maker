@@ -326,7 +326,7 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Using the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.",
+  "stem": "Use the information from the table below to answer the next four exercises.\n\nUsing the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47050",
@@ -341,7 +341,7 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Repeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
+  "stem": "Use the information from the table below to answer the next four exercises.\n\nRepeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47050",
@@ -1249,7 +1249,7 @@
    "module": "m47045",
    "exerciseId": "element-198"
   },
-  "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient.",
+  "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.",
   "options": [
    "The method has no effect.",
    "There is sufficient evidence to conclude that the method reduces the proportion of patients who develop heart disease after four years.",
@@ -1589,7 +1589,7 @@
   "sectionId": "10.3",
   "kind": "open",
   "conceptTag": "10.3",
-  "stem": "What are the null and alternative hypotheses for this study",
+  "stem": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.\n\nWhat are the null and alternative hypotheses for this study",
   "source": "openstax-practice-test",
   "sourceRef": {
    "test": "Practice Test 3",

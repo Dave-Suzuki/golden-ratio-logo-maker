@@ -617,61 +617,61 @@
      "id": "exercise1",
      "problem": "Find P(Z).",
      "solution": "Find P(S) : P(S) = 0.87",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise2",
      "problem": "Find P(S).",
      "solution": "Find P(S) : P(S) = 0.32",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise3",
      "problem": "Find P(S|Z).",
      "solution": "Find P(S | Z) : P(S | Z) = 0.55",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise4",
      "problem": "In words, what is S|Z?",
      "solution": "In words, what is S | Z? : S | Z means, given that the customer has ordered pizza, the person also orders a salad.",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise5",
      "problem": "Find P(Z AND S).",
      "solution": "Find P(Z AND S): P(Z AND S)= 0.4785",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise6",
      "problem": "In words, what is Z AND S?",
      "solution": "In words, what is Z AND S? : Z AND S represents the event that a customer orders a pizza and salad.",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise7",
      "problem": "Are P and S independent events? Show why or why not.",
      "solution": "Are P and S independent events? Show why or why not. No, because P(S) does not equal P(S | Z).",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise8",
      "problem": "Find P(Z OR S).",
      "solution": "Find P(Z OR S): P(Z OR S)= 0.7115",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise9",
      "problem": "In words, what is Z OR S?",
      "solution": "In words, what is Z OR S?\nZ OR S represents the event that a customer orders a pizza or salad.",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     },
     {
      "id": "exercise10",
      "problem": "Are Z and S mutually exclusive events? Show why or why not.",
      "solution": "Are Z and S mutually exclusive events? Show why or why not. No, because P(S and Z) does not equal 0.",
-     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected."
+     "context": "A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]"
     }
    ],
    "homework": [

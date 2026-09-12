@@ -1,0 +1,40 @@
+{"id":"pt1-25","verdict":"ok"}
+{"id":"pt1-26","verdict":"ok"}
+{"id":"fe1-11","verdict":"ok"}
+{"id":"fe2-1","verdict":"ok"}
+{"id":"fe2-22","verdict":"ok"}
+{"id":"rv3-1","verdict":"ok"}
+{"id":"rv3-2","verdict":"ok"}
+{"id":"rv3-3","verdict":"ok"}
+{"id":"rv3-4","verdict":"ok"}
+{"id":"rv3-5","verdict":"ok"}
+{"id":"rv3-6","verdict":"ok"}
+{"id":"rv4-11","verdict":"ok"}
+{"id":"rv4-19","verdict":"ok"}
+{"id":"rv4-23","verdict":"ok"}
+{"id":"rv4-24","verdict":"broken","issue":"answer-mismatch","note":"Scenario is about Jhumpa Lahiri, but the model answer names Tom Clancy; it answers a different exercise."}
+{"id":"rv5-25","verdict":"ok"}
+{"id":"rv5-26","verdict":"ok"}
+{"id":"rv5-30","verdict":"ok"}
+{"id":"rv7-55","verdict":"broken","issue":"not-a-question","note":"Text only defines X and stops; nothing is asked, yet the answer states a binomial distribution."}
+{"id":"rv9-82","verdict":"ok"}
+{"id":"rv9-83","verdict":"ok"}
+{"id":"tryit-m46934-0","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a stem plot; the app cannot mark a drawn construction."}
+{"id":"tryit-m46934-1","verdict":"broken","issue":"ungradable","note":"Asks the learner to create a stem plot; the plot construction cannot be marked by the app."}
+{"id":"tryit-m46934-2","verdict":"broken","issue":"ungradable","note":"Asks for a side-by-side stem-and-leaf plot construction; answer is an unmarkable plot and the pasted table is mangled."}
+{"id":"tryit-m46934-3","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a line graph; stated answer is just 'Figure 2', a figure not shown."}
+{"id":"tryit-m46934-4","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a bar graph; stated answer is only 'Figure 3', which is not shown."}
+{"id":"tryit-m46934-5","verdict":"broken","issue":"ungradable","note":"Asks for a bar graph construction; answer is only 'Figure 4' plus a stray section heading."}
+{"id":"os-m46934-exercise8","verdict":"broken","issue":"answer-mismatch","note":"Question asks only to round values to the nearest ten; the stated answer is a stem plot instead."}
+{"id":"tryit-m46924-0","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a histogram, which the app cannot mark; only the bar width part is gradable."}
+{"id":"tryit-m46924-1","verdict":"ok"}
+{"id":"tryit-m46924-2","verdict":"broken","issue":"ungradable","note":"Asks the learner to create a histogram; stated answer is only 'Figure 5', which is not shown."}
+{"id":"tryit-m46924-3","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a frequency polygon; answer relies on 'Figure 6', which is not shown."}
+{"id":"tryit-m46924-5","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a time series graph; answer is only 'Figure 8' plus a stray section heading."}
+{"id":"os-m46924-element-625","verdict":"broken","issue":"missing-info","note":"Refers to 'the table below' but no table is shown, so the sum of 65 cannot be obtained."}
+{"id":"os-m46924-exercisetwo","verdict":"broken","issue":"missing-info","note":"Asks about each data value in 'the table below', but no table is shown to the learner."}
+{"id":"os-m46924-fs-idp13768528","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a bar graph for their own state; answer is 'Answers will vary.'"}
+{"id":"tryit-m46930-0","verdict":"ok"}
+{"id":"tryit-m46930-1","verdict":"ok"}
+{"id":"tryit-m46930-2","verdict":"ok"}
+{"id":"tryit-m46930-3","verdict":"ok"}

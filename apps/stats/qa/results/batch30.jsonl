@@ -1,0 +1,40 @@
+{"id":"pt3-57","verdict":"ok"}
+{"id":"pt3-58","verdict":"broken","issue":"answer-mismatch","note":"Question asks which t-values reject; answer gives no t-value or critical value, only a vague remark about the mean."}
+{"id":"pt3-59","verdict":"ok"}
+{"id":"pt3-60","verdict":"ok"}
+{"id":"pt3-61","verdict":"ok"}
+{"id":"pt3-62","verdict":"broken","issue":"missing-info","note":"No sample means, standard deviations or test statistic shown; the decision at 0.01 needs data from a prior exercise."}
+{"id":"pt3-63","verdict":"ok"}
+{"id":"pt3-64","verdict":"broken","issue":"missing-info","note":"Sample sizes (100 per community) never given, yet the pooled proportion answer divides by 100+100."}
+{"id":"pt3-65","verdict":"ok"}
+{"id":"pt3-66","verdict":"ok"}
+{"id":"pt3-67","verdict":"ok"}
+{"id":"pt3-68","verdict":"ok"}
+{"id":"pt3-69","verdict":"broken","issue":"missing-info","note":"Number of pairs (n = 30) appears nowhere in scenario or question, so df = 29 cannot be derived."}
+{"id":"pt3-70","verdict":"broken","issue":"missing-info","note":"No mean difference, sd, n or test statistic given; the decision requires values from a prior exercise."}
+{"id":"pt3-71","verdict":"broken","issue":"answer-mismatch","note":"Answer explains only what a positive t means; it never states the decision the question also asks for."}
+{"id":"fe1-3","verdict":"ok"}
+{"id":"fe2-24","verdict":"ok"}
+{"id":"rv11-121","verdict":"ok"}
+{"id":"os-m47062-eip-600","verdict":"ok"}
+{"id":"os-m47062-eip-836","verdict":"ok"}
+{"id":"tryit-m47064-0","verdict":"ok"}
+{"id":"tryit-m47064-1","verdict":"broken","issue":"answer-mismatch","note":"Answer gives df and p-value but never names the test type (goodness-of-fit) that the question explicitly asks for."}
+{"id":"tryit-m47064-2","verdict":"ok"}
+{"id":"tryit-m47064-3","verdict":"ok"}
+{"id":"os-m47064-eip-906","verdict":"ok"}
+{"id":"os-m47064-eip-462","verdict":"ok"}
+{"id":"os-m47064-eip-873","verdict":"ok"}
+{"id":"os-m47064-element-502","verdict":"ok"}
+{"id":"os-m47064-element-575","verdict":"ok"}
+{"id":"os-m47064-element-340","verdict":"ok"}
+{"id":"os-m47064-element-849","verdict":"ok"}
+{"id":"os-m47064-eip-152","verdict":"broken","issue":"wrong-answer","note":"Chi-square on the given percentages is 39.81 with p about 5e-8; stated statistic 9.85 and p = 0.0431 are wrong."}
+{"id":"tryit-m47077-0","verdict":"ok"}
+{"id":"tryit-m47077-1","verdict":"ok"}
+{"id":"os-m47077-eip-643","verdict":"ok"}
+{"id":"os-m47077-eip-46","verdict":"ok"}
+{"id":"os-m47077-eip-870","verdict":"ok"}
+{"id":"os-m47077-eip-811","verdict":"ok"}
+{"id":"os-m47077-fs-idm12518016","verdict":"ok"}
+{"id":"os-m47077-fs-idp153986240","verdict":"broken","issue":"garbled","note":"Refers to a table below that is absent and ends with a dangling 'Calculate the following values:' listing nothing."}

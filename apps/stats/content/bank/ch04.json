@@ -42,7 +42,7 @@
    "module": "m46963",
    "exerciseId": "fs-idm11913472"
   },
-  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.",
   "modelSolution": "[TABLE]\nx | P(x)\n0 | 0.12\n1 | 0.18\n2 | 0.30\n3 | 0.15\n4 | 0.10\n5 | 0.10\n6 | 0.05\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -52,13 +52,13 @@
   "sectionId": "4.1",
   "kind": "numeric",
   "conceptTag": "4.1",
-  "stem": "P(x = 4) = _______",
+  "stem": "Let P(x) = the probability that a new hire will stay with the company x years.\n\nP(x = 4) = _______",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46963",
    "exerciseId": "fs-idm3556768"
   },
-  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.",
   "answer": 0.1,
   "tolerance": {
    "abs": 0.006,
@@ -75,13 +75,13 @@
   "sectionId": "4.1",
   "kind": "open",
   "conceptTag": "4.1",
-  "stem": "P(x ≥ 5) = _______",
+  "stem": "Let P(x) = the probability that a new hire will stay with the company x years.\n\nP(x ≥ 5) = _______",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46963",
    "exerciseId": "fs-idp21614176"
   },
-  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.",
   "modelSolution": "0.10 + 0.05 = 0.15",
   "needsFigure": false,
   "explanation": []
@@ -97,7 +97,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp88464496"
   },
-  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.",
   "modelSolution": "0 + 0.18 + 0.60 + 0.45 + 0.40 + 0.50 + 0.30 = 2.43 years",
   "needsFigure": false,
   "explanation": []
@@ -113,7 +113,7 @@
    "module": "m46963",
    "exerciseId": "fs-idp18018320"
   },
-  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.\n\nLet X = the number of years a new hire will stay with the company.\n\nLet P(x) = the probability that a new hire will stay with the company x years.",
+  "context": "A company wants to evaluate its attrition rate, in other words, how long new hires stay with the company. Over the years, they have established the following probability distribution.",
   "answer": 1.0,
   "tolerance": {
    "abs": 0.05,
@@ -1297,7 +1297,7 @@
    "module": "m46950",
    "exerciseId": "eip-514"
   },
-  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.",
   "options": [
    "1.67",
    "12",
@@ -1319,7 +1319,7 @@
    "module": "m46950",
    "exerciseId": "element-861"
   },
-  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.",
   "options": [
    "0.1476",
    "0.2336",
@@ -1335,13 +1335,13 @@
   "sectionId": "4.3",
   "kind": "mc",
   "conceptTag": "4.3",
-  "stem": "What is the probability that the San Jose Sharks win at least five games in that upcoming month",
+  "stem": "Let X = the number of games won in that upcoming month.\n\nWhat is the probability that the San Jose Sharks win at least five games in that upcoming month",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46950",
    "exerciseId": "element-408"
   },
-  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month.",
+  "context": "The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.",
   "options": [
    "0.3694",
    "0.5266",

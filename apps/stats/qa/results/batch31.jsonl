@@ -1,0 +1,40 @@
+{"id":"os-m47077-fs-idm133556096","verdict":"ok"}
+{"id":"os-m47077-element-8d1","verdict":"ok"}
+{"id":"os-m47077-fs-idm153473104","verdict":"ok"}
+{"id":"os-m47077-element-619","verdict":"ok"}
+{"id":"os-m47077-eip-640","verdict":"ok"}
+{"id":"tryit-m47091-0","verdict":"ok"}
+{"id":"tryit-m47091-1","verdict":"broken","issue":"garbled","note":"Answer carries stray calculator keystrokes, an invisible 'Figure 26' reference, and a leftover heading 'Section 6. Test of a Single Variance'; no stated conclusion."}
+{"id":"os-m47091-eip-134","verdict":"ok"}
+{"id":"os-m47091-eip-854","verdict":"ok"}
+{"id":"os-m47091-eip-168","verdict":"ok"}
+{"id":"os-m47091-eip-696","verdict":"ok"}
+{"id":"os-m47091-eip-533","verdict":"ok"}
+{"id":"os-m47091-eip-561","verdict":"ok"}
+{"id":"os-m47091-eip-316","verdict":"broken","issue":"wrong-answer","note":"df is 5 for this 6x2 table, not 4; the stated p-value 0.7395 for chi-square 2.7434 corresponds to df = 5."}
+{"id":"os-m47082-eip-117","verdict":"ok"}
+{"id":"os-m47082-eip-541","verdict":"ok"}
+{"id":"os-m47082-eip-506","verdict":"ok"}
+{"id":"os-m47082-eip-519","verdict":"ok"}
+{"id":"os-m47082-element-728","verdict":"ok"}
+{"id":"tryit-m47085-0","verdict":"ok"}
+{"id":"tryit-m47085-1","verdict":"broken","issue":"garbled","note":"Answer ends with stray calculator keystrokes and leftover next-chapter headings 'Chapter 12. Linear Regression and Correlation / Section 1. Linear Equations'."}
+{"id":"os-m47085-eip-432","verdict":"ok"}
+{"id":"os-m47085-eip-356","verdict":"ok"}
+{"id":"os-m47085-eip-631","verdict":"ok"}
+{"id":"os-m47085-eip-608","verdict":"ok"}
+{"id":"os-m47085-eip-462","verdict":"ok"}
+{"id":"os-m47085-fs-idm21799472","verdict":"ok"}
+{"id":"os-m47085-fs-idm22718256","verdict":"ok"}
+{"id":"os-m47085-fs-idp82699488","verdict":"broken","issue":"ungradable","note":"Asks the learner to graph, label, scale and shade a distribution; model answer is only 'Answers may vary.'"}
+{"id":"os-m47085-eip-572","verdict":"ok"}
+{"id":"os-m47085-eip-512","verdict":"ok"}
+{"id":"os-m47085-element-377ab","verdict":"ok"}
+{"id":"os-m47085-element-691","verdict":"ok"}
+{"id":"os-m47085-element-503","verdict":"ok"}
+{"id":"os-m47085-eip-340","verdict":"ok"}
+{"id":"pt3-72","verdict":"ok"}
+{"id":"pt3-73","verdict":"ok"}
+{"id":"pt3-74","verdict":"ok"}
+{"id":"pt3-75","verdict":"ok"}
+{"id":"pt3-76","verdict":"ok"}

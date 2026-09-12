@@ -148,7 +148,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "A fitness center is interested in the mean amount of time a client exercises in the center each\nweek.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA fitness center is interested in the mean amount of time a client exercises in the center each\nweek.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -163,7 +163,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "Ski resorts are interested in the mean age that children take their first ski and snowboard lessons. They need this information to plan their ski classes optimally.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nSki resorts are interested in the mean age that children take their first ski and snowboard lessons. They need this information to plan their ski classes optimally.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -178,7 +178,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "A cardiologist is interested in the mean recovery period of their patients who have had heart attacks.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA cardiologist is interested in the mean recovery period of their patients who have had heart attacks.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -193,7 +193,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "Insurance companies are interested in the mean health costs each year of their clients, so that they can determine the costs of health insurance.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nInsurance companies are interested in the mean health costs each year of their clients, so that they can determine the costs of health insurance.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -208,7 +208,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "A politician is interested in the proportion of voters in their district who think the politician doing a good job.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA politician is interested in the proportion of voters in their district who think the politician doing a good job.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -223,7 +223,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "A marriage counselor is interested in the proportion of clients they counsel who stay married.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA marriage counselor is interested in the proportion of clients they counsel who stay married.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -238,7 +238,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "Political pollsters may be interested in the proportion of people who will vote for a particular\ncause.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nPolitical pollsters may be interested in the proportion of people who will vote for a particular\ncause.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -253,7 +253,7 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "A marketing company is interested in the proportion of people who will buy a particular product.",
+  "stem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA marketing company is interested in the proportion of people who will buy a particular product.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46909",
@@ -540,7 +540,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A group of test subjects is divided into twelve groups; then four of the groups are chosen at random.",
+  "stem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA group of test subjects is divided into twelve groups; then four of the groups are chosen at random.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -555,7 +555,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A market researcher polls every tenth person who walks into a store.",
+  "stem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA market researcher polls every tenth person who walks into a store.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -570,7 +570,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "The first 50 people who walk into a sporting event are polled on their television preferences.",
+  "stem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nThe first 50 people who walk into a sporting event are polled on their television preferences.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -585,7 +585,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A computer generates 100 random numbers, and 100 people whose names correspond with the numbers on the list are chosen.",
+  "stem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA computer generates 100 random numbers, and 100 people whose names correspond with the numbers on the list are chosen.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",

@@ -89,42 +89,42 @@
    "homework": [
     {
      "id": "element-188",
-     "problem": "A fitness center is interested in the mean amount of time a client exercises in the center each\nweek.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA fitness center is interested in the mean amount of time a client exercises in the center each\nweek.",
      "solution": "[PARTS]\na. The population is all of the clients of the fitness center.\nb. A sample of the clients that use the fitness center for a given week.\nc. The average amount of time that all clients exercise in one week.\nd. The average amount of time that a sample of clients exercises in one week.\ne. The amount of time that a client exercises in one week.\nf. Examples are: 2 hours, 5 hours, and 7.5 hours\n[/PARTS]"
     },
     {
      "id": "element-951",
-     "problem": "Ski resorts are interested in the mean age that children take their first ski and snowboard lessons. They need this information to plan their ski classes optimally.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nSki resorts are interested in the mean age that children take their first ski and snowboard lessons. They need this information to plan their ski classes optimally.",
      "solution": "[PARTS]\na. all children who take ski or snowboard lessons\nb. a group of these children\nc. the population mean age of children who take their first snowboard lesson\nd. the sample mean age of children who take their first snowboard lesson\ne. X = the age of one child who takes their first ski or snowboard lesson\nf. values for X, such as 3, 7, and so on\n[/PARTS]"
     },
     {
      "id": "element-776",
-     "problem": "A cardiologist is interested in the mean recovery period of their patients who have had heart attacks.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA cardiologist is interested in the mean recovery period of their patients who have had heart attacks.",
      "solution": "[PARTS]\na. the cardiologist’s patients\nb. a group of the cardiologist’s patients\nc. the mean recovery period of all of the cardiologist’s patients\nd. the mean recovery period of the group of the cardiologist’s patients\ne. X = the mean recovery period of one patient\nf. values for X, such as 10 days, 14 days, 20 days, and so on\n[/PARTS]"
     },
     {
      "id": "element-54",
-     "problem": "Insurance companies are interested in the mean health costs each year of their clients, so that they can determine the costs of health insurance.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nInsurance companies are interested in the mean health costs each year of their clients, so that they can determine the costs of health insurance.",
      "solution": "[PARTS]\na. the clients of the insurance companies\nb. a group of the clients\nc. the mean health costs of the clients\nd. the mean health costs of the sample\ne. X = the health costs of one client\nf. values for X, such as 34, 9, 82, and so on\n[/PARTS]"
     },
     {
      "id": "element-605",
-     "problem": "A politician is interested in the proportion of voters in their district who think the politician doing a good job.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA politician is interested in the proportion of voters in their district who think the politician doing a good job.",
      "solution": "[PARTS]\na. all voters in the politician’s district\nb. a random selection of voters in the politician’s district\nc. the proportion of voters in this district who think this politician is doing a good job\nd. the proportion of voters in this district who think this politician is doing a good job in the sample\ne. X = the number of voters in the district who think this politician is doing a good job\nf. Yes, he is doing a good job. No, he is not doing a good job.\n[/PARTS]"
     },
     {
      "id": "element-430",
-     "problem": "A marriage counselor is interested in the proportion of clients they counsel who stay married.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA marriage counselor is interested in the proportion of clients they counsel who stay married.",
      "solution": "[PARTS]\na. all the clients of this counselor\nb. a group of clients of this marriage counselor\nc. the proportion of all her clients who stay married\nd. the proportion of the sample of the counselor’s clients who stay married\ne. X = whether a client stayed married\nf. yes, no\n[/PARTS]"
     },
     {
      "id": "element-417",
-     "problem": "Political pollsters may be interested in the proportion of people who will vote for a particular\ncause.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nPolitical pollsters may be interested in the proportion of people who will vote for a particular\ncause.",
      "solution": "[PARTS]\na. all voters (in a certain geographic area)\nb. a random selection of all the voters\nc. the proportion of voters who are interested in this particular cause\nd. the proportion of voters who are interested in this particular cause in the sample\ne. X = the number of voters who are interested in this particular cause\nf. yes, no\n[/PARTS]"
     },
     {
      "id": "element-467",
-     "problem": "A marketing company is interested in the proportion of people who will buy a particular product.",
+     "problem": "Identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.\n\nA marketing company is interested in the proportion of people who will buy a particular product.",
      "solution": "[PARTS]\na. all people (maybe in a certain geographic area, such as the United States)\nb. a group of the people\nc. the proportion of all people who will buy the product\nd. the proportion of the sample who will buy the product\ne. X = whether a person bought the product\nf. buy, not buy\n[/PARTS]"
     },
     {
@@ -337,22 +337,22 @@
     },
     {
      "id": "eip-310",
-     "problem": "A group of test subjects is divided into twelve groups; then four of the groups are chosen at random.",
+     "problem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA group of test subjects is divided into twelve groups; then four of the groups are chosen at random.",
      "solution": "cluster"
     },
     {
      "id": "eip-537",
-     "problem": "A market researcher polls every tenth person who walks into a store.",
+     "problem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA market researcher polls every tenth person who walks into a store.",
      "solution": "systematic"
     },
     {
      "id": "eip-916",
-     "problem": "The first 50 people who walk into a sporting event are polled on their television preferences.",
+     "problem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nThe first 50 people who walk into a sporting event are polled on their television preferences.",
      "solution": "convenience"
     },
     {
      "id": "eip-403",
-     "problem": "A computer generates 100 random numbers, and 100 people whose names correspond with the numbers on the list are chosen.",
+     "problem": "Determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).\n\nA computer generates 100 random numbers, and 100 people whose names correspond with the numbers on the list are chosen.",
      "solution": "simple random"
     },
     {

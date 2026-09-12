@@ -1,0 +1,40 @@
+{"id":"os-m46980-fs-idp76784880","verdict":"ok"}
+{"id":"os-m46980-fs-idp72804864","verdict":"broken","issue":"wrong-answer","note":"Area between 1 and 3 sd both sides is about 31.46%, not 34.46%."}
+{"id":"os-m46980-fs-idm143086848","verdict":"ok"}
+{"id":"os-m46980-fs-idm119601152","verdict":"ok"}
+{"id":"os-m46980-fs-idp12375792","verdict":"ok"}
+{"id":"os-m46980-fs-idp45221936","verdict":"ok"}
+{"id":"os-m46980-fs-idm62385744","verdict":"ok"}
+{"id":"os-m46980-eip-866","verdict":"ok"}
+{"id":"os-m46980-eip-474","verdict":"ok"}
+{"id":"os-m46980-eip-808","verdict":"broken","issue":"garbled","note":"Stray [PARTS]/[/PARTS] template markup shown to learner; part b sits inside the markup block."}
+{"id":"os-m46980-eip-459","verdict":"broken","issue":"missing-info","note":"Question lists no weights; answer key uses 11, 7.9 and 12.2 kg, which never appear."}
+{"id":"os-m46980-eip-802","verdict":"ok"}
+{"id":"tryit-m46973-0","verdict":"ok"}
+{"id":"tryit-m46973-1","verdict":"ok"}
+{"id":"tryit-m46973-2","verdict":"ok"}
+{"id":"tryit-m46973-3","verdict":"broken","issue":"missing-info","note":"No distribution given; answer relies on unshown smartphone-user ages N(36.9, 13.9)."}
+{"id":"tryit-m46973-4","verdict":"ok"}
+{"id":"os-m46973-fs-idp76730048","verdict":"ok"}
+{"id":"os-m46973-fs-idp880816","verdict":"ok"}
+{"id":"os-m46973-fs-idm33682096","verdict":"ok"}
+{"id":"os-m46973-fs-idp83610000","verdict":"ok"}
+{"id":"os-m46973-fs-idp105059184","verdict":"ok"}
+{"id":"os-m46973-fs-idp153118944","verdict":"ok"}
+{"id":"os-m46973-fs-idp49095264","verdict":"ok"}
+{"id":"os-m46973-fs-idp65259648","verdict":"ok"}
+{"id":"os-m46973-fs-idp152542352","verdict":"ok"}
+{"id":"os-m46973-fs-idp153143568","verdict":"ok"}
+{"id":"os-m46973-eip-181","verdict":"ok"}
+{"id":"os-m46973-eip-318","verdict":"ok"}
+{"id":"os-m46973-eip-486","verdict":"ok"}
+{"id":"os-m46973-eip-231","verdict":"ok"}
+{"id":"os-m46973-eip-295","verdict":"ok"}
+{"id":"os-m46973-eip-581","verdict":"ok"}
+{"id":"os-m46973-eip-563","verdict":"ok"}
+{"id":"os-m46973-eip-516","verdict":"ok"}
+{"id":"os-m46973-eip-967","verdict":"ok"}
+{"id":"os-m46973-eip-930","verdict":"ok"}
+{"id":"os-m46973-eip-698","verdict":"broken","issue":"wrong-answer","note":"Part d probability for 1,800-2,000 votes is 0.1380, not 0.3798."}
+{"id":"os-m46973-eip-838","verdict":"ok"}
+{"id":"os-m46973-eip-335","verdict":"broken","issue":"answer-mismatch","note":"Part d answer duplicates part c instead of giving 125.42 s; part e values 124.4/135.02 are the middle 98%, not 80% (126.79/132.63)."}

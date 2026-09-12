@@ -1,0 +1,26 @@
+{"id":"rv11-114","verdict":"ok"}
+{"id":"rv12-125","verdict":"broken","issue":"ungradable","note":"Asks the learner to sketch a graph; model answer is 'Check student's solution', which the app cannot mark."}
+{"id":"rv13-139","verdict":"ok"}
+{"id":"rv13-140","verdict":"broken","issue":"missing-info","note":"Says 'which of the following' but is an open question with no options listed, so nothing to choose from."}
+{"id":"deanza-exam1-spring2015-A1","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A2","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A3","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A6","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A7","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A8","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A14","verdict":"broken","issue":"garbled","note":"Answer must be read from a corrupted frequency table: stray '?' in cells and frequency 110 in a sample of 50."}
+{"id":"deanza-exam1-spring2015-A16","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A17","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A20","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A21","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B3","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B5","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B6","verdict":"broken","issue":"garbled","note":"Answer must be read from a corrupted frequency table: stray '?' in cells and frequency 110 in a sample of 50."}
+{"id":"deanza-exam1-spring2015-B7","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B8","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B9","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B10","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B11","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B12","verdict":"broken","issue":"garbled","note":"Fourth option has stray text appended: 'Male Female Tech Tech Science Science'."}
+{"id":"deanza-exam1-spring2015-B14","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B15","verdict":"broken","issue":"garbled","note":"Correct option '0.6261' has an entire unrelated puppy-litter scenario and table pasted into it."}

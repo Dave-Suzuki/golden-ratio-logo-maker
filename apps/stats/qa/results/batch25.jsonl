@@ -1,0 +1,40 @@
+{"id":"fe2-11","verdict":"ok"}
+{"id":"rv9-86","verdict":"broken","issue":"wrong-answer","note":"Mean 7, s=1.414, EBM=1.484, so CI is (5.52, 8.48); stated lower bound 5.25 is wrong."}
+{"id":"rv11-104","verdict":"ok"}
+{"id":"rv11-105","verdict":"ok"}
+{"id":"rv11-107","verdict":"ok"}
+{"id":"rv11-108","verdict":"ok"}
+{"id":"rv12-123","verdict":"ok"}
+{"id":"rv12-124","verdict":"ok"}
+{"id":"tryit-m47033-0","verdict":"ok"}
+{"id":"tryit-m47033-1","verdict":"ok"}
+{"id":"tryit-m47033-2","verdict":"ok"}
+{"id":"tryit-m47033-3","verdict":"ok"}
+{"id":"os-m47033-eip-350","verdict":"ok"}
+{"id":"os-m47033-eip-629","verdict":"ok"}
+{"id":"os-m47033-eip-334","verdict":"ok"}
+{"id":"os-m47033-eip-75","verdict":"ok"}
+{"id":"os-m47033-element-422","verdict":"broken","issue":"answer-mismatch","note":"Graded answers are bare symbols '=' and '≠'; the blanks after 'H0:' call for full hypotheses like μ = 15."}
+{"id":"os-m47033-element-919","verdict":"ok"}
+{"id":"os-m47033-exer13","verdict":"ok"}
+{"id":"tryit-m47029-0","verdict":"ok"}
+{"id":"tryit-m47029-1","verdict":"ok"}
+{"id":"tryit-m47029-2","verdict":"ok"}
+{"id":"tryit-m47029-3","verdict":"broken","issue":"missing-info","note":"The 'four statements' are never shown; answer is leftover fragments ('Type I error: c') plus a stray section heading."}
+{"id":"os-m47029-eip-308","verdict":"ok"}
+{"id":"os-m47029-eip-655","verdict":"broken","issue":"missing-info","note":"Refers to Exercise 9.12, which is not shown; the sleeping-bag context in the answer appears nowhere in the question."}
+{"id":"os-m47029-eip-861","verdict":"ok"}
+{"id":"os-m47029-eip-404","verdict":"ok"}
+{"id":"os-m47029-eip-967","verdict":"ok"}
+{"id":"os-m47029-element-612","verdict":"ok"}
+{"id":"os-m47029-exer10","verdict":"ok"}
+{"id":"os-m47036-eip-176","verdict":"ok"}
+{"id":"os-m47036-eip-579","verdict":"ok"}
+{"id":"os-m47036-eip-917","verdict":"ok"}
+{"id":"os-m47036-eip-637","verdict":"ok"}
+{"id":"os-m47036-eip-254","verdict":"ok"}
+{"id":"os-m47036-fs-idp17688688","verdict":"ok"}
+{"id":"os-m47036-fs-idm140519760","verdict":"ok"}
+{"id":"tryit-m47044-0","verdict":"broken","issue":"ungradable","note":"Asks the learner to draw a graph of the p-value; answer is just 'p-value = 0.0013, Figure 18', which the app cannot mark."}
+{"id":"tryit-m47044-1","verdict":"ok"}
+{"id":"os-m47044-fs-idp139727506576944","verdict":"ok"}

@@ -1,0 +1,40 @@
+{"id":"tryit-m46964-1","verdict":"ok"}
+{"id":"tryit-m46964-2","verdict":"ok"}
+{"id":"tryit-m46964-3","verdict":"ok"}
+{"id":"os-m46964-exerciseone","verdict":"ok"}
+{"id":"os-m46964-exercisetwo","verdict":"ok"}
+{"id":"os-m46964-exercisethree","verdict":"ok"}
+{"id":"os-m46964-exercisefour","verdict":"broken","issue":"answer-mismatch","note":"Asks for the standard deviation; model answer is an empty x/P(x) table with no value."}
+{"id":"os-m46964-fs-idp74125840","verdict":"ok"}
+{"id":"os-m46964-element-194","verdict":"broken","issue":"wrong-answer","note":"Part b wrong: with only 6 Tae Kwon Do students among 8 picked, X must be 2 to 7, not 0 to 7."}
+{"id":"os-m46964-fs-idm49012784","verdict":"ok"}
+{"id":"os-m46964-fs-idp106306576","verdict":"broken","issue":"wrong-answer","note":"Sampling is without replacement: should be H(8,20,10). Binomial answers e=0.1269, f=0.6873 wrong (0.0772, 0.7160); b caps at 8."}
+{"id":"os-m46964-element-755","verdict":"broken","issue":"wrong-answer","note":"Part b wrong: picking 9 of 12 with only 8 Celtics forces at least 1 Patriot, so X is 1 to 4, not 0 to 4."}
+{"id":"os-m46964-fs-idm55206656","verdict":"ok"}
+{"id":"tryit-m46961-0","verdict":"ok"}
+{"id":"tryit-m46961-1","verdict":"ok"}
+{"id":"tryit-m46961-2","verdict":"ok"}
+{"id":"tryit-m46961-3","verdict":"ok"}
+{"id":"tryit-m46961-4","verdict":"ok"}
+{"id":"tryit-m46961-5","verdict":"ok"}
+{"id":"tryit-m46961-6","verdict":"broken","issue":"garbled","note":"Rate given is for moderate activity but question asks about low activity; answer ends with stray chapter/section headings."}
+{"id":"os-m46961-fs-idm137455952","verdict":"ok"}
+{"id":"os-m46961-fs-idm144498128","verdict":"ok"}
+{"id":"os-m46961-fs-idm120323120","verdict":"ok"}
+{"id":"os-m46961-fs-idp38717104","verdict":"ok"}
+{"id":"os-m46961-fs-idp22578880","verdict":"ok"}
+{"id":"os-m46961-fs-idm69114848","verdict":"ok"}
+{"id":"os-m46961-fs-idm48809408","verdict":"ok"}
+{"id":"os-m46961-exerciseone","verdict":"ok"}
+{"id":"os-m46961-exercisethree","verdict":"ok"}
+{"id":"os-m46961-exercisefour","verdict":"broken","issue":"missing-info","note":"Table of x values to fill in is never shown to the learner; also answer lists P(10)=0.993 instead of 0.0993."}
+{"id":"os-m46961-fs-idm121525168","verdict":"broken","issue":"wrong-answer","note":"Part c: 15.7% is P(x=6), not the chance of more calls than staff can handle, which is 1-0.6860=0.3140."}
+{"id":"os-m46961-fs-idm138910624","verdict":"ok"}
+{"id":"os-m46961-element-625","verdict":"ok"}
+{"id":"os-m46961-eip-241","verdict":"ok"}
+{"id":"os-m46961-element-476","verdict":"ok"}
+{"id":"os-m46961-element-255","verdict":"broken","issue":"answer-mismatch","note":"Part a defines X as the number of women who suffer from anorexia; question is about kids/teens with OCD."}
+{"id":"os-m46961-element-557","verdict":"ok"}
+{"id":"os-m46961-element-427","verdict":"ok"}
+{"id":"os-m46961-element-221","verdict":"ok"}
+{"id":"os-m46961-element-528","verdict":"ok"}

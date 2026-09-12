@@ -249,17 +249,17 @@
     },
     {
      "id": "fs-idm50796704",
-     "problem": "Using the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.",
+     "problem": "Use the information from the table below to answer the next four exercises.\n\nUsing the data from Lap 1 only, conduct a hypothesis test to determine if the mean time for completing a lap in races is the same as it is in practices.",
      "solution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. X̄_1−X̄_2 is the difference between the mean times for completing a lap in races and in practices.\nd. t20.32\ne. test statistic: –4.70\nf. p-value: 0.0001\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]"
     },
     {
      "id": "fs-idm2195248",
-     "problem": "Repeat the test in Exercise 10.83, but use Lap 5 data this time.",
+     "problem": "Use the information from the table below to answer the next four exercises.\n\nRepeat the test in Exercise 10.83, but use Lap 5 data this time.",
      "solution": null
     },
     {
      "id": "fs-idm170930784",
-     "problem": "Repeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
+     "problem": "Use the information from the table below to answer the next four exercises.\n\nRepeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
      "solution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]"
     },
     {
@@ -904,7 +904,7 @@
     {
      "id": "element-719",
      "problem": "The appropriate hypotheses are:\n\n[PARTS]\na. H0:pt <put andHa:pt ≥put\nb. H0:pt ≤put andHa:pt >put\nc. H0:pt =put andHa:pt ≠put\nd. H0:pt =put andHa:pt <put\n[/PARTS]",
-     "stem": "The appropriate hypotheses are:",
+     "stem": "Let the subscript t = treated patient and ut = untreated patient.\n\nThe appropriate hypotheses are:",
      "options": [
       "H0: pt < put and Ha: pt ≥ put",
       "H0: pt ≤ put and Ha: pt > put",
@@ -912,7 +912,7 @@
       "H0: pt = put and Ha: pt < put"
      ],
      "solution": null,
-     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
+     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same."
     },
     {
      "id": "element-198",
@@ -925,7 +925,7 @@
       "There is insufficient evidence to conclude that the method reduces the proportion of patients who develop heart disease after four years."
      ],
      "solution": "b",
-     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient."
+     "context": "A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same."
     },
     {
      "id": "element-38",

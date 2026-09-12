@@ -1,0 +1,40 @@
+{"id":"pt3-77","verdict":"ok"}
+{"id":"pt3-78","verdict":"ok"}
+{"id":"pt3-79","verdict":"ok"}
+{"id":"pt3-80","verdict":"broken","issue":"garbled","note":"Formula reads (O-E)^2/z with z undefined (should be E); answer's third term written ((200-100)^2)/150 yet valued 16.67."}
+{"id":"pt3-81","verdict":"ok"}
+{"id":"pt3-82","verdict":"ok"}
+{"id":"pt3-83","verdict":"ok"}
+{"id":"pt3-84","verdict":"broken","issue":"missing-info","note":"References a poll results table that is not shown; no counts given, so no test can be conducted."}
+{"id":"pt3-85","verdict":"ok"}
+{"id":"pt3-86","verdict":"ok"}
+{"id":"pt3-87","verdict":"ok"}
+{"id":"pt3-88","verdict":"ok"}
+{"id":"fe1-37","verdict":"ok"}
+{"id":"tryit-m47100-2","verdict":"ok"}
+{"id":"tryit-m47100-3","verdict":"ok"}
+{"id":"os-m47100-eip-510","verdict":"ok"}
+{"id":"os-m47100-eip-740","verdict":"ok"}
+{"id":"os-m47100-element-352","verdict":"broken","issue":"garbled","note":"Mangled sentence with unclosed quote; instructs use of table columns that are not shown anywhere."}
+{"id":"os-m47100-eip-188","verdict":"ok"}
+{"id":"os-m47100-eip-160","verdict":"ok"}
+{"id":"os-m47100-eip-761","verdict":"ok"}
+{"id":"os-m47100-element-367","verdict":"ok"}
+{"id":"tryit-m47109-0","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a scatter plot, which the app cannot mark; model answer covers only the conclusion."}
+{"id":"os-m47109-fs-idp128138576","verdict":"broken","issue":"ungradable","note":"Pure drawing task: construct a scatter plot; model answer is just 'Answers may vary.'"}
+{"id":"os-m47109-fs-idp83642048","verdict":"broken","issue":"ungradable","note":"Pure drawing task: construct a scatter plot; model answer is 'Answers may vary.'"}
+{"id":"os-m47109-eip-951","verdict":"ok"}
+{"id":"tryit-m47117-0","verdict":"ok"}
+{"id":"os-m47117-eip-141","verdict":"ok"}
+{"id":"os-m47117-eip-247","verdict":"ok"}
+{"id":"os-m47117-eip-976","verdict":"ok"}
+{"id":"os-m47117-eip-270","verdict":"ok"}
+{"id":"os-m47117-eip-71","verdict":"ok"}
+{"id":"tryit-m47111-0","verdict":"ok"}
+{"id":"tryit-m47111-1","verdict":"ok"}
+{"id":"tryit-m47111-2","verdict":"ok"}
+{"id":"tryit-m47111-3","verdict":"ok"}
+{"id":"os-m47111-eip-592","verdict":"ok"}
+{"id":"tryit-m47105-0","verdict":"ok"}
+{"id":"os-m47105-eip-673","verdict":"ok"}
+{"id":"os-m47105-eip-584","verdict":"ok"}

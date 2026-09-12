@@ -1,0 +1,40 @@
+{"id":"os-m46994-element-51","verdict":"ok"}
+{"id":"os-m46994-element-820","verdict":"ok"}
+{"id":"os-m46994-element-133","verdict":"ok"}
+{"id":"os-m46994-element-848","verdict":"broken","issue":"answer-mismatch","note":"Part f asks for IQR endpoints ('from ___ - ___'); key gives only the width 0.09 minutes, not 2.71 to 2.79."}
+{"id":"os-m46994-element-424","verdict":"ok"}
+{"id":"os-m46994-element-371","verdict":"broken","issue":"missing-info","note":"The statements a, b, c to judge true/false are not shown; only the justifications appear in the answer."}
+{"id":"os-m46994-element-169","verdict":"ok"}
+{"id":"os-m46994-element-795","verdict":"ok"}
+{"id":"os-m46994-element-338","verdict":"ok"}
+{"id":"os-m46994-element-680","verdict":"ok"}
+{"id":"tryit-m46997-0","verdict":"ok"}
+{"id":"tryit-m46997-1","verdict":"ok"}
+{"id":"os-m46997-eip-769","verdict":"ok"}
+{"id":"os-m46997-eip-145","verdict":"ok"}
+{"id":"os-m46997-eip-335","verdict":"ok"}
+{"id":"os-m46997-eip-251","verdict":"ok"}
+{"id":"os-m46997-eip-539","verdict":"ok"}
+{"id":"os-m46997-eip-169","verdict":"ok"}
+{"id":"os-m46997-eip-308","verdict":"ok"}
+{"id":"os-m46997-eip-743","verdict":"ok"}
+{"id":"os-m46997-eip-593","verdict":"ok"}
+{"id":"os-m46997-exercise11","verdict":"ok"}
+{"id":"os-m46997-exercise12","verdict":"ok"}
+{"id":"os-m46997-eip-750","verdict":"ok"}
+{"id":"os-m46997-eip-763","verdict":"ok"}
+{"id":"os-m46997-eip-44","verdict":"ok"}
+{"id":"os-m46997-eip-175","verdict":"ok"}
+{"id":"os-m46997-eip-213","verdict":"ok"}
+{"id":"os-m46997-eip-592","verdict":"ok"}
+{"id":"os-m46997-eip-710","verdict":"ok"}
+{"id":"os-m46997-eip-102","verdict":"ok"}
+{"id":"os-m46997-eip-580","verdict":"ok"}
+{"id":"os-m46997-eip-266","verdict":"ok"}
+{"id":"os-m46997-eip-943","verdict":"ok"}
+{"id":"os-m46997-eip-427","verdict":"ok"}
+{"id":"os-m46997-eip-626","verdict":"broken","issue":"wrong-answer","note":"mean 1200, sd 14, so z=(840-1200)/14=-25.71; key says +26, wrong sign and value."}
+{"id":"os-m46997-eip-224","verdict":"ok"}
+{"id":"os-m46997-eip-616","verdict":"ok"}
+{"id":"os-m46997-eip-956","verdict":"ok"}
+{"id":"os-m46997-eip-368","verdict":"ok"}

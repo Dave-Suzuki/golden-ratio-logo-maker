@@ -1,0 +1,40 @@
+{"id":"pt4-18","verdict":"ok"}
+{"id":"pt4-19","verdict":"ok"}
+{"id":"pt4-20","verdict":"broken","issue":"wrong-answer","note":"Two-tailed p-value is 0.075, not 0.0373; as stated p<0.05 contradicts the answer's own 'do not reject' decision."}
+{"id":"pt4-21","verdict":"ok"}
+{"id":"pt4-22","verdict":"ok"}
+{"id":"pt4-23","verdict":"ok"}
+{"id":"pt4-24","verdict":"ok"}
+{"id":"pt4-25","verdict":"ok"}
+{"id":"pt4-26","verdict":"ok"}
+{"id":"pt4-27","verdict":"ok"}
+{"id":"fe1-31","verdict":"ok"}
+{"id":"fe1-32","verdict":"ok"}
+{"id":"fe1-33","verdict":"ok"}
+{"id":"fe2-30","verdict":"ok"}
+{"id":"os-m47124-eip-555","verdict":"ok"}
+{"id":"os-m47124-eip-194","verdict":"broken","issue":"ambiguous","note":"No ordered list of the five assumptions is shown, so 'a third assumption' could be any of them, not the one stated."}
+{"id":"os-m47124-eip-922","verdict":"broken","issue":"missing-info","note":"'The final assumption' refers to an ordered enumeration never shown; learner cannot know which assumption is last."}
+{"id":"os-m47124-eip-417","verdict":"ok"}
+{"id":"os-m47124-eip-213","verdict":"ok"}
+{"id":"tryit-m47128-0","verdict":"ok"}
+{"id":"os-m47128-eip-317","verdict":"ok"}
+{"id":"os-m47128-eip-617","verdict":"ok"}
+{"id":"os-m47128-eip-297","verdict":"ok"}
+{"id":"os-m47128-eip-485","verdict":"ok"}
+{"id":"os-m47128-eip-332","verdict":"ok"}
+{"id":"os-m47128-eip-23","verdict":"ok"}
+{"id":"os-m47128-fs-idp124948560","verdict":"ok"}
+{"id":"tryit-m47119-0","verdict":"ok"}
+{"id":"tryit-m47119-1","verdict":"ok"}
+{"id":"os-m47119-eip-707","verdict":"ok"}
+{"id":"os-m47119-eip-213","verdict":"ok"}
+{"id":"os-m47119-eip-155","verdict":"ok"}
+{"id":"os-m47119-eip-944","verdict":"ok"}
+{"id":"os-m47119-eip-105","verdict":"ok"}
+{"id":"os-m47119-eip-920","verdict":"ok"}
+{"id":"os-m47119-element-240","verdict":"ok"}
+{"id":"os-m47119-element-219","verdict":"broken","issue":"missing-info","note":"No magazine data, prior test, or magazine types shown; question depends entirely on an unseen earlier exercise."}
+{"id":"os-m47119-eip-1000","verdict":"ok"}
+{"id":"os-m47119-fs-idp113565584","verdict":"ok"}
+{"id":"tryit-m47125-0","verdict":"ok"}

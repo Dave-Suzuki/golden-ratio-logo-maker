@@ -1530,7 +1530,7 @@
    },
    {
     "n": 63,
-    "problem": "What are the null and alternative hypotheses for this study",
+    "problem": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.\n\nWhat are the null and alternative hypotheses for this study",
     "section": "10.3",
     "solution": "H0: pA = pB\n\nHa: pA ≠ pB"
    },
@@ -3781,14 +3781,14 @@
    {
     "n": 88,
     "problem": "Find the probability that the person was a skier or was age 11–20.",
-    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]",
     "section": "Chapter 10",
     "solution": "77/100"
    },
    {
     "n": 89,
     "problem": "Find the probability that the person was a snowboarder given they were age 21–40.",
-    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]",
     "section": "Chapter 10",
     "solution": "12/42"
    },
@@ -3802,7 +3802,7 @@
      "P(Ski AND age 21–40) < P(Ski|age 21–40)",
      "P(Snowboard OR age 0–10) < P(Snowboard|age 0–10)"
     ],
-    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+    "context": "In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]",
     "section": "Chapter 10",
     "solution": "[PARTS]\na. false\nb. false\nc. true\nd. false\n[/PARTS]"
    },

@@ -1,0 +1,40 @@
+{"id":"os-m46992-fs-idm165833488","verdict":"ok"}
+{"id":"os-m46992-fs-idp87424832","verdict":"broken","issue":"wrong-answer","note":"Table holds 99 weights, not 100; sum 84.76 not 85.65; sd of sum 5.18 wrong (≈0.5); part c inconsistent."}
+{"id":"os-m46992-fs-idp89909664","verdict":"ok"}
+{"id":"os-m46992-fs-idm3642992","verdict":"ok"}
+{"id":"os-m46992-fs-idm37303792","verdict":"ok"}
+{"id":"os-m46992-fs-idm31585616","verdict":"ok"}
+{"id":"pt2-67","verdict":"ok"}
+{"id":"pt2-68","verdict":"ok"}
+{"id":"pt2-69","verdict":"ok"}
+{"id":"pt2-70","verdict":"ok"}
+{"id":"pt2-71","verdict":"ok"}
+{"id":"pt2-72","verdict":"ok"}
+{"id":"pt2-73","verdict":"ok"}
+{"id":"pt2-74","verdict":"ok"}
+{"id":"pt2-75","verdict":"ok"}
+{"id":"pt2-76","verdict":"ok"}
+{"id":"pt2-77","verdict":"ok"}
+{"id":"pt2-78","verdict":"ok"}
+{"id":"pt2-79","verdict":"ok"}
+{"id":"pt2-80","verdict":"ok"}
+{"id":"pt2-81","verdict":"ok"}
+{"id":"pt2-82","verdict":"ok"}
+{"id":"pt2-83","verdict":"ok"}
+{"id":"pt2-84","verdict":"ok"}
+{"id":"pt2-85","verdict":"broken","issue":"wrong-answer","note":"Stated interval upper bound 588.6 is wrong; should be 5,088.6 (5,000 + 2(44.3))."}
+{"id":"pt2-86","verdict":"ok"}
+{"id":"pt2-87","verdict":"ok"}
+{"id":"pt2-88","verdict":"ok"}
+{"id":"pt2-89","verdict":"ok"}
+{"id":"pt2-90","verdict":"broken","issue":"missing-info","note":"No scenario defines screw diameters; distribution unknowable, and answer N(0.10,0.20) matches nothing shown."}
+{"id":"pt2-91","verdict":"broken","issue":"missing-info","note":"No population given; answer relies on an unshown uniform 0.10–0.20 screw-diameter scenario."}
+{"id":"pt2-92","verdict":"broken","issue":"missing-info","note":"No population mean or standard deviation shown; answer N(9.0,0.23) comes from a missing scenario."}
+{"id":"rv9-76","verdict":"ok"}
+{"id":"rv11-103","verdict":"ok"}
+{"id":"rv11-106","verdict":"broken","issue":"answer-mismatch","note":"Model answer is just \"Answers will vary.\"; gives learner nothing to check the requested explanation against."}
+{"id":"rv11-109","verdict":"ok"}
+{"id":"rv11-110","verdict":"ok"}
+{"id":"rv13-137","verdict":"broken","issue":"wrong-answer","note":"P(mean < 35) = 0.0206; stated 0.3669 is P(mean < sample mean 39.17), a different question."}
+{"id":"tryit-m47002-0","verdict":"ok"}
+{"id":"tryit-m47002-1","verdict":"broken","issue":"missing-info","note":"No delivery-time data, sample size, mean or standard deviation shown; interval cannot be computed."}

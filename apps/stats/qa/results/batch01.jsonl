@@ -1,0 +1,40 @@
+{"id":"tryit-m46909-0","verdict":"ok"}
+{"id":"tryit-m46909-1","verdict":"ok"}
+{"id":"tryit-m46909-2","verdict":"ok"}
+{"id":"tryit-m46909-3","verdict":"ok"}
+{"id":"os-m46909-exerciseone","verdict":"ok"}
+{"id":"os-m46909-exercisetwo","verdict":"broken","issue":"wrong-answer","note":"Answer says \"AIDS patients\" from both researchers; sample is the 40 respiratory-virus patients followed by Researcher A only."}
+{"id":"os-m46909-exercisethree","verdict":"broken","issue":"wrong-answer","note":"Parameter is mean days until symptoms are alleviated, not months patients \"live after treatment\"; leftover from an AIDS-survival version."}
+{"id":"os-m46909-exercisefour","verdict":"broken","issue":"wrong-answer","note":"Answer cites AIDS patients and months lived after treatment; should be sample mean days until symptoms alleviated."}
+{"id":"os-m46909-exercisefive","verdict":"broken","issue":"wrong-answer","note":"Variable should be X = time in days until symptoms are alleviated, not months patients live after treatment."}
+{"id":"os-m46909-element-188","verdict":"broken","issue":"not-a-question","note":"Bare statement with no question; keyed answer has parts a-f (population, sample, etc.) that are never shown."}
+{"id":"os-m46909-element-951","verdict":"broken","issue":"not-a-question","note":"Statement only, nothing asked; answer is keyed a-f to sub-prompts absent from the question text."}
+{"id":"os-m46909-element-776","verdict":"broken","issue":"not-a-question","note":"Declarative statement with no question; answer lists a-f parts the learner never sees."}
+{"id":"os-m46909-element-54","verdict":"broken","issue":"not-a-question","note":"Statement only, no question posed; answer keyed a-f to missing sub-prompts."}
+{"id":"os-m46909-element-605","verdict":"broken","issue":"not-a-question","note":"Statement only (also missing a verb: \"politician doing a good job\"); answer keyed a-f to absent sub-prompts."}
+{"id":"os-m46909-element-430","verdict":"broken","issue":"not-a-question","note":"Statement with no question; answer keyed a-f to sub-prompts not shown."}
+{"id":"os-m46909-element-417","verdict":"broken","issue":"not-a-question","note":"Statement only, nothing asked; answer keyed a-f to sub-prompts missing from the question."}
+{"id":"os-m46909-element-467","verdict":"broken","issue":"not-a-question","note":"Statement only, no question; answer keyed a-f to sub-prompts that never appear."}
+{"id":"os-m46909-element-230","verdict":"ok"}
+{"id":"os-m46909-element-590","verdict":"ok"}
+{"id":"os-m46909-element-992","verdict":"ok"}
+{"id":"tryit-m46885-0","verdict":"ok"}
+{"id":"tryit-m46885-1","verdict":"ok"}
+{"id":"tryit-m46885-2","verdict":"ok"}
+{"id":"tryit-m46885-3","verdict":"ok"}
+{"id":"tryit-m46885-4","verdict":"ok"}
+{"id":"tryit-m46885-7","verdict":"ok"}
+{"id":"tryit-m46885-8","verdict":"ok"}
+{"id":"os-m46885-fs-idp31767488","verdict":"broken","issue":"missing-info","note":"Part g asks what caused deaths in Year 11 and Year 5, but years are anonymized; no calendar years given."}
+{"id":"os-m46885-eip-537","verdict":"broken","issue":"not-a-question","note":"Bare statement; the instruction to name the sampling method is missing, so answer \"systematic\" is unguessable."}
+{"id":"os-m46885-eip-916","verdict":"broken","issue":"not-a-question","note":"Statement only; no instruction to identify the sampling method that the answer \"convenience\" responds to."}
+{"id":"os-m46885-eip-403","verdict":"broken","issue":"not-a-question","note":"Statement only; missing the instruction to name the sampling type answered by \"simple random\"."}
+{"id":"os-m46885-eip-885","verdict":"ok"}
+{"id":"os-m46885-eip-812","verdict":"ok"}
+{"id":"os-m46885-eip-385","verdict":"ok"}
+{"id":"os-m46885-eip-322","verdict":"broken","issue":"wrong-answer","note":"Answer claims \"the treatment is not the same\", but both researchers study the same drug; difference comes from different patient samples."}
+{"id":"os-m46885-eip-471","verdict":"ok"}
+{"id":"os-m46885-eip-581","verdict":"broken","issue":"wrong-answer","note":"Randomly choosing one state then patients within it is cluster (multi-stage) sampling, not simple random sampling."}
+{"id":"os-m46885-eip-183","verdict":"ok"}
+{"id":"os-m46885-eip-695","verdict":"ok"}
+{"id":"os-m46885-eip-381","verdict":"ok"}

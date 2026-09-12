@@ -1,0 +1,40 @@
+{"id":"os-m47125-eip-941","verdict":"ok"}
+{"id":"os-m47125-eip-416","verdict":"ok"}
+{"id":"os-m47125-eip-464","verdict":"broken","issue":"missing-info","note":"No scenario; \"Is the claim accurate?\" gives no claim, data or test. Answer references drive times never shown."}
+{"id":"os-m47125-eip-932","verdict":"ok"}
+{"id":"os-m47125-eip-792","verdict":"ok"}
+{"id":"os-m47125-eip-366","verdict":"ok"}
+{"id":"os-m47125-element-721","verdict":"ok"}
+{"id":"os-m47125-element-577","verdict":"broken","issue":"missing-info","note":"No table or list of magazine types and lengths shown, so no basis for choosing two types."}
+{"id":"os-m47125-eip-578","verdict":"ok"}
+{"id":"pt4-28","verdict":"ok"}
+{"id":"pt4-29","verdict":"ok"}
+{"id":"pt4-30","verdict":"ok"}
+{"id":"pt4-31","verdict":"ok"}
+{"id":"pt4-32","verdict":"ok"}
+{"id":"pt4-33","verdict":"ok"}
+{"id":"pt4-34","verdict":"ok"}
+{"id":"pt4-35","verdict":"broken","issue":"answer-mismatch","note":"Question asks for k and i; answer instead defines k, n1 and n, never i."}
+{"id":"pt4-36","verdict":"ok"}
+{"id":"pt4-37","verdict":"broken","issue":"missing-info","note":"MS values need SSbetween/SSwithin (246.9, 374.5), which appear only in a prior exercise, not here."}
+{"id":"pt4-38","verdict":"broken","issue":"missing-info","note":"F needs MSbetween=82.3 and MSwithin=3.23 from earlier exercises; no sums of squares given here."}
+{"id":"pt4-39","verdict":"ok"}
+{"id":"pt4-40","verdict":"broken","issue":"missing-info","note":"No list of candidate numbers shown; answer refers to \"choice c, -3.61\" which the learner never sees."}
+{"id":"pt4-41","verdict":"broken","issue":"missing-info","note":"Refers to histograms F1 and F2 \"below\"; no figures are shown to the learner."}
+{"id":"pt4-42","verdict":"ok"}
+{"id":"pt4-43","verdict":"ok"}
+{"id":"pt4-44","verdict":"ok"}
+{"id":"pt4-45","verdict":"ok"}
+{"id":"fe2-34","verdict":"ok"}
+{"id":"fe1-8","verdict":"ok"}
+{"id":"fe1-14","verdict":"broken","issue":"missing-info","note":"No scenario: no data or z-scores for Kia, Alejandra or Iris, so the comparison cannot be made."}
+{"id":"fe1-26","verdict":"ok"}
+{"id":"fe2-23","verdict":"ok"}
+{"id":"fe2-26","verdict":"ok"}
+{"id":"rv4-18","verdict":"broken","issue":"not-a-question","note":"Only the setup and coupon list; no question asked. Answer is bare fragment \"b. No, I expect to come out behind\"."}
+{"id":"rv4-20","verdict":"ok"}
+{"id":"rv4-22","verdict":"ok"}
+{"id":"rv6-46","verdict":"ok"}
+{"id":"rv7-51","verdict":"ok"}
+{"id":"rv7-54","verdict":"ok"}
+{"id":"rv9-84","verdict":"ok"}
