@@ -67,15 +67,39 @@ describe('unquizzableReason', () => {
     ).toMatch(/figure/);
   });
 
-  it('rejects a parts list posing as multiple choice', () => {
-    const sixParts: McQuestion = {
+  it('accepts a fair question whose stem names the candidates', () => {
+    // This shape used to be rejected as "the options are really the parts of the question". It is
+    // not: one of Bart, Cal and Dave is the answer. The rule could not tell the two apart and every
+    // question it caught was fair, so it is gone; the real defect is stopped in the importer.
+    const named: McQuestion = {
       ...base,
-      stem: 'Identify the population, sample, parameter, statistic, variable, and data for this example.',
+      stem: 'Bart, Cal and Dave commute to work. Whose commute today is relatively fastest?',
       kind: 'mc',
-      options: ['population', 'sample', 'parameter', 'statistic', 'variable', 'data'],
-      correctIndex: 0,
+      options: ['Both Bart and Cal', 'Bart', 'Cal', 'Dave'],
+      correctIndex: 3,
     };
-    expect(unquizzableReason(sixParts)).toMatch(/parts of the question/);
+    expect(unquizzableReason(named)).toBeNull();
+    const numeric: McQuestion = {
+      ...base,
+      stem: 'Find the mean and appropriate standard deviation:',
+      kind: 'mc',
+      options: ['mean = 4.82, standard deviation = 1.67', 'mean = 4.82, standard deviation = 1.71', 'mean = 4.83, standard deviation = 2.48'],
+      correctIndex: 1,
+    };
+    expect(unquizzableReason(numeric)).toBeNull();
+  });
+
+  it('never ships a parts list rendered as multiple choice', () => {
+    // "Identify the population, sample, parameter, statistic, variable and data" reached the learner
+    // as six radio buttons with one marked correct. The importer now emits it as one open question.
+    const fake = allQuestions().filter(
+      (q) =>
+        q.kind === 'mc' &&
+        (q.options?.length ?? 0) >= 5 &&
+        (q.options ?? []).every((o) => o.split(/\s+/).length <= 2 && q.stem.toLowerCase().includes(o.toLowerCase())),
+    );
+    expect(fake.map((q) => q.id)).toEqual([]);
+    expect(allQuestions().find((q) => q.id === 'pt1-1')?.kind).toBe('open');
   });
 
   it('rejects broken options and missing answers', () => {

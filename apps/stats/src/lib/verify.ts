@@ -54,21 +54,15 @@ const LOST_CHARACTERS = /\d\?(?=[\d.])|\?\d/;
 const REFERS_TO_SETUP =
   /\bthe (note|example|information|table|graph|data|study|scenario|population|figure|survey|list) above\b|\bthe (previous|above) (example|study|note|section)\b/i;
 
-function words(t: string | null | undefined): Set<string> {
-  return new Set((t ?? '').toLowerCase().match(/[a-z][a-z']{2,}/g) ?? []);
-}
+/*
+ * There is deliberately no "the options are really the parts of the question" rule here.
+ * It was meant to catch "Identify the population, sample, parameter, statistic, variable and data"
+ * rendered as six radio buttons, but it cannot tell that from a fair question whose stem names the
+ * candidates — "Bart, Cal and Dave commute to work... whose commute is relatively fastest?" with
+ * options Bart, Cal, Dave is the same shape. Every question it flagged was a fair one. The real
+ * defect is blocked where it is created instead, by options_are_subparts in the importer.
+ */
 
-/** True when the options merely repeat terms the stem already names — a parts list, not choices. */
-function optionsAreStemTerms(stem: string, options: readonly string[]): boolean {
-  const sw = words(stem);
-  if (sw.size === 0) return false;
-  let named = 0;
-  for (const o of options) {
-    const ow = words(o);
-    if (ow.size > 0 && [...ow].every((w) => sw.has(w))) named++;
-  }
-  return named >= Math.max(2, Math.floor(options.length / 2));
-}
 
 /**
  * Returns null when the question is safe to ask, otherwise a short reason why it is not.
@@ -94,7 +88,6 @@ export function unquizzableReason(q: Question): string | null {
       if (opts.some((o) => o.trim().length < 2)) return 'an option is blank';
       if (new Set(opts.map((o) => o.trim().toLowerCase())).size !== opts.length) return 'duplicate options';
       if (!Number.isInteger(q.correctIndex) || q.correctIndex < 0 || q.correctIndex >= opts.length) return 'no valid correct option';
-      if (optionsAreStemTerms(stem, opts)) return 'options are the parts of the question, not choices';
       return null;
     }
     case 'numeric':

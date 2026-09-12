@@ -34,12 +34,13 @@ again = read(os.path.join(HERE, 'recheck-results', '*.jsonl'))
 final = dict(first)
 final.update(again)
 
+# Deliberately NOT filtered by what the app currently shows. questions.json holds the questions
+# that passed verification, which already includes this list — filtering by it would drop every
+# suppressed id on the next run and un-hide the lot. A verdict stands until an auditor revisits it.
 shown = {q['id'] for q in json.load(open(os.path.join(HERE, 'questions.json'), encoding='utf8'))}
 suppressed, kept = {}, 0
 issues = Counter()
 for qid, d in sorted(final.items()):
-    if qid not in shown:
-        continue
     if d.get('verdict') == 'ok':
         kept += 1
         continue
@@ -55,8 +56,8 @@ recovered = sum(1 for i, d in again.items() if d.get('verdict') == 'ok' and firs
 missed = sum(1 for i, d in again.items() if d.get('verdict') != 'ok' and first.get(i, {}).get('verdict') == 'ok')
 rechecked_ok = sum(1 for i, d in again.items() if first.get(i, {}).get('verdict') == 'ok')
 
-print(f'shown {len(shown)}  judged {len([i for i in final if i in shown])}')
-print(f'kept {kept}   suppressed {len(suppressed)}')
+print(f'judged {len(final)}  (currently shown: {len(shown)})')
+print(f'passed {kept}   suppressed {len(suppressed)}')
 print(f'repairs recovered {recovered} questions that had failed')
 print(f'second opinion on {rechecked_ok} passes found {missed} the first pass let through'
       f' ({missed / rechecked_ok * 100:.1f}%)' if rechecked_ok else '')

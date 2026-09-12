@@ -93,6 +93,8 @@ def rebuild_tables(text):
 OPT_RE = re.compile(r'(?:^|(?<=\s))([A-E])(?:\.\s*|\s{2,}|\s(?=[\d$(]))')
 QNUM_RE = re.compile(r'^\s*(\d{1,2})\.\s+(.*)$')
 CTX_RE = re.compile(r'^\s*Questions?\s+(\d+)\s*-+\s*(\d+)\s+refer to the following', re.I)
+# what the next block on the page starts with, when it bleeds into the last option
+BLEED_RE = re.compile(r'\s*(?:Questions?\s+\d+\s*-+\s*\d*\s*refer to the following|Hint:|Male Female |x\u0d24 s min max )', re.I)
 
 
 def parse_exam_mc(text, meta):
@@ -149,6 +151,10 @@ def parse_exam_mc(text, meta):
             options = []
             for j in range(1, len(parts) - 1, 2):
                 options.append(re.sub(r'\s+', ' ', parts[j + 1]).strip().rstrip(','))
+            if options:
+                # The last option runs to the end of the block, so it picks up whatever the page
+                # puts next: the heading of the following scenario, or a table that belongs to it.
+                options[-1] = BLEED_RE.split(options[-1])[0].strip().rstrip(',')
             letter = keys[form].get(it['n'])
             if not letter or len(options) < 2:
                 continue
@@ -165,6 +171,34 @@ def parse_exam_mc(text, meta):
                               stem, it['context'], letter, meta['source'], {'test': meta['title'], 'form': form, 'n': it['n']})
             q['license'] = meta['license']
             questions.append(q)
+    return questions
+
+
+def apply_overrides(questions):
+    """Apply hand transcriptions from content/sources/extra/overrides.json.
+
+    Tables and graphs do not survive PDF text extraction: a frequency table arrives as loose
+    numbers and a box plot as nothing at all. Where the figure can be read off the page and written
+    down exactly, the transcription lives here rather than in the generated JSON, so re-running the
+    importer keeps it and the correction stays reviewable next to its reason.
+    """
+    path = os.path.join(SRC, 'overrides.json')
+    if not os.path.exists(path):
+        return questions
+    data = json.load(open(path, encoding='utf8'))
+    patches = data.get('questions', {})
+    by_id = {q['id']: q for q in questions}
+    applied = 0
+    for qid, patch in patches.items():
+        q = by_id.get(qid)
+        if q is None:
+            print(f'  override for unknown id {qid}')
+            continue
+        for field in ('context', 'stem', 'options', 'correctIndex', 'needsFigure'):
+            if field in patch:
+                q[field] = patch[field]
+        applied += 1
+    print(f'  applied {applied} overrides')
     return questions
 
 
@@ -311,6 +345,7 @@ def main():
         else:
             print(f'  unknown format {meta["format"]} for {f}')
             continue
+        qs = apply_overrides(qs)
         entry = by_source.setdefault(meta['source'], {'source': meta['source'], 'license': meta['license'], 'sets': []})
         entry['sets'].append({'title': meta['title'], 'url': meta.get('url'), 'chapters': meta.get('chapters'), 'count': len(qs)})
         entry.setdefault('questions', []).extend(qs)

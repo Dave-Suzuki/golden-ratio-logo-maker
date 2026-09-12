@@ -1,0 +1,19 @@
+{"id":"deanza-exam1-spring2015-A1","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A2","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A3","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A6","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A7","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A8","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A9","verdict":"broken","issue":"ambiguous","note":"Female Adult is also left-skewed (median near Q3, Bowley -0.57, stronger than Non-Adult's -0.38); two defensible answers."}
+{"id":"deanza-exam1-spring2015-A10","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A11","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A12","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A13","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A14","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A16","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A17","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A18","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A19","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A20","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A21","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-B3","verdict":"ok"}

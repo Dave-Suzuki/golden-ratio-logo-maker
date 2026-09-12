@@ -1,9 +1,7 @@
 {
- "deanza-exam1-spring2015-A14": "garbled: Frequency table mangled: stray '?' characters and merged digits (9 110, 10 7? ?8, 0?.76) make rows unreadable.",
  "deanza-exam1-spring2015-A16": "garbled: Scenario table mangled: stray question marks in cells (0?.62, 7? ?8, 0.0?8) and frequency 110 for 10.",
- "deanza-exam1-spring2015-B12": "garbled: Fourth option ends with stray text from another exercise: 'Male Female Tech Tech Science Science'.",
- "deanza-exam1-spring2015-B15": "garbled: Correct option 0.6261 has an entire unrelated puppy-litter exercise and table appended to it.",
- "deanza-exam1-spring2015-B6": "garbled: Same mangled frequency table as A14: stray '?' marks and merged digits in the 9, 10, 12, 16 rows.",
+ "deanza-exam1-spring2015-A9": "ambiguous: Female Adult is also left-skewed (median near Q3, Bowley -0.57, stronger than Non-Adult's -0.38); two defensible answers.",
+ "deanza-exam1-spring2015-B20": "bad-options: Female Adult is also left-skewed (median-Q1 5.1 vs Q3-median 1.4), so two options are defensible, not just Non-Adult.",
  "fe1-14": "missing-info: No scenario: Kia, Alejandra and Iris and their schools' running data are never shown.",
  "fe2-25": "missing-info: No data, test statistic or p-value given, so whether to reject H0 cannot be determined.",
  "fe2-28": "wrong-answer: ANOVA gives F about 9.66 with df 2,27, so p is about 0.0007; p-value is close to zero, not one.",

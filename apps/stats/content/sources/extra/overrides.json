@@ -1,0 +1,109 @@
+{
+ "_": [
+  "Hand transcriptions of tables and graphs that PDF text extraction cannot recover.",
+  "Read off the rendered pages of the source PDF; the page each came from is noted below.",
+  "The distance-learning table is printed with corrupted cells in the PDF itself (0?.62, 7?, ?8).",
+  "Its true values are determined by arithmetic and were checked three ways: the frequencies sum",
+  "to 50, every relative frequency equals frequency/50, and the cumulative column is their running",
+  "total. (pages 4 and 7)",
+  "The box plot five-number summaries were taken from the vector coordinates in the PDF rather",
+  "than read by eye, against the axis ticks at 18 and 34. (page 3)",
+  "Form A asks the interval question at 10 and the skew question at 9; Form B swaps them (19 is the interval question, 20 the skew one). (pages 3 and 10)"
+ ],
+ "questions": {
+  "deanza-exam1-spring2015-A14": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-A15": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-A16": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-A17": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-B4": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-B5": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-B6": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-B7": {
+   "context": "A random sample of 50 students enrolled in distance learning classes at a community college were asked the total number of distance learning credit units they had ever taken at the school.\n\n[TABLE]\nNumber of Distance Learning credit units | Frequency | Relative Frequency | Cumulative Relative Frequency\n4 | 6 | 0.12 | 0.12\n5 | 9 | 0.18 | 0.30\n8 | 6 | 0.12 | 0.42\n9 | 10 | 0.20 | 0.62\n10 | 7 | 0.14 | 0.76\n12 | 4 | 0.08 | 0.84\n16 | 6 | 0.12 | 0.96\n20 | 2 | 0.04 | 1.00\n[/TABLE]"
+  },
+  "deanza-exam1-spring2015-A9": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false
+  },
+  "deanza-exam1-spring2015-A10": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false,
+   "stem": "Using the Male Adult finish times: which interval contains the most data?"
+  },
+  "deanza-exam1-spring2015-A11": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false
+  },
+  "deanza-exam1-spring2015-B19": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false,
+   "stem": "Using the Male Adult finish times: which interval contains the most data?"
+  },
+  "deanza-exam1-spring2015-B20": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false
+  },
+  "deanza-exam1-spring2015-B21": {
+   "context": "A charity held a 5K family race as a fundraiser. Racers are divided into 3 categories: Male adult, Female adult, and Non-Adult (under age 18).\n\nBox plots of the finish times, in minutes, gave these five-number summaries:\n\n[TABLE]\nGroup | Minimum | First quartile | Median | Third quartile | Maximum\nMale Adult | 18.0 | 20.0 | 22.0 | 25.0 | 32.0\nFemale Adult | 20.9 | 23.7 | 28.8 | 30.2 | 33.0\nNon-Adult | 19.2 | 26.0 | 29.1 | 30.5 | 33.0\n[/TABLE]",
+   "needsFigure": false
+  },
+  "deanza-exam1-spring2015-A13": {
+   "context": "Bart, Cal and Dave commute to work every day. Each commutes by a different method. This morning they all encountered faster than usual conditions (faster commutes have shorter times). The table shows their commute times today and their mean commute time and the standard deviation.\n\n[TABLE]\nName | Commute Method | Today's Commute Time (minutes) | Mean Commute Time (minutes) | Standard Deviation\nBart | BART | 24 | 30 | 4\nCal | CalTrain | 34 | 40 | 3\nDave | Drive | 15 | 20 | 5\n[/TABLE]",
+   "stem": "Whose commute time today is relatively fastest in comparison to his usual commute time?"
+  },
+  "deanza-exam1-spring2015-B13": {
+   "context": "Bart, Cal and Dave commute to work every day. Each commutes by a different method. This morning they all encountered faster than usual conditions (faster commutes have shorter times). The table shows their commute times today and their mean commute time and the standard deviation.\n\n[TABLE]\nName | Commute Method | Today's Commute Time (minutes) | Mean Commute Time (minutes) | Standard Deviation\nBart | BART | 24 | 30 | 4\nCal | CalTrain | 34 | 40 | 3\nDave | Drive | 15 | 20 | 5\n[/TABLE]",
+   "stem": "Whose commute time today is relatively fastest in comparison to his usual commute time?"
+  },
+  "deanza-exam1-spring2015-A12": {
+   "context": "Assad, Gerardo and Tran compared how many hours they spent on campus each week, for a sample of eight weeks.\n\n[TABLE]\n | x̄ | s | min | max\nAssad | 26 | 2.5 | 20 | 32\nGerardo | 25 | 2.8 | 20 | 30\nTran | 30 | 2.3 | 26 | 34\n[/TABLE]",
+   "stem": "Using the most appropriate measure of variation of data, who had the most variation in the hours per week spent on campus?",
+   "options": [
+    "Assad",
+    "Gerardo",
+    "Tran",
+    "Can not determine because we are not given all the data values"
+   ]
+  },
+  "deanza-exam1-spring2015-B18": {
+   "context": "Assad, Gerardo and Tran compared how many hours they spent on campus each week, for a sample of eight weeks.\n\n[TABLE]\n | x̄ | s | min | max\nAssad | 26 | 2.5 | 20 | 32\nGerardo | 25 | 2.8 | 20 | 30\nTran | 30 | 2.3 | 26 | 34\n[/TABLE]",
+   "stem": "Using the most appropriate measure of variation of data, who had the most variation in the hours per week spent on campus?",
+   "options": [
+    "Assad",
+    "Gerardo",
+    "Tran",
+    "Can not determine because we are not given all the data values"
+   ]
+  },
+  "deanza-exam1-spring2015-A18": {
+   "context": "A researcher was studying the number of puppies in a litter for one particular breed of dog. (A litter is the group of puppies born at the same time to one mother.) The table shows the data for number of puppies born in a litter for a random sample of 22 litters.\n\n[TABLE]\nNumber of Puppies in the Litter | Frequency\n2 | 1\n3 | 3\n4 | 6\n5 | 7\n6 | 3\n9 | 2\n[/TABLE]",
+   "stem": "Find the mean and appropriate standard deviation:"
+  },
+  "deanza-exam1-spring2015-B17": {
+   "context": "A researcher was studying the number of puppies in a litter for one particular breed of dog. (A litter is the group of puppies born at the same time to one mother.) The table shows the data for number of puppies born in a litter for a random sample of 22 litters.\n\n[TABLE]\nNumber of Puppies in the Litter | Frequency\n2 | 1\n3 | 3\n4 | 6\n5 | 7\n6 | 3\n9 | 2\n[/TABLE]",
+   "stem": "Find the mean and appropriate standard deviation:"
+  },
+  "deanza-exam1-spring2015-A19": {
+   "context": "A researcher was studying the number of puppies in a litter for one particular breed of dog. (A litter is the group of puppies born at the same time to one mother.) The table shows the data for number of puppies born in a litter for a random sample of 22 litters.\n\n[TABLE]\nNumber of Puppies in the Litter | Frequency\n2 | 1\n3 | 3\n4 | 6\n5 | 7\n6 | 3\n9 | 2\n[/TABLE]",
+   "stem": "Are any of the litter sizes potential outliers?"
+  },
+  "deanza-exam1-spring2015-B16": {
+   "context": "A researcher was studying the number of puppies in a litter for one particular breed of dog. (A litter is the group of puppies born at the same time to one mother.) The table shows the data for number of puppies born in a litter for a random sample of 22 litters.\n\n[TABLE]\nNumber of Puppies in the Litter | Frequency\n2 | 1\n3 | 3\n4 | 6\n5 | 7\n6 | 3\n9 | 2\n[/TABLE]",
+   "stem": "Are any of the litter sizes potential outliers?"
+  }
+ }
+}
