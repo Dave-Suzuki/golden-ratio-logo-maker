@@ -2032,9 +2032,9 @@
    "test": "Practice Final Exam 2",
    "n": 2
   },
-  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]",
+  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
   "modelSolution": "a.",
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": []
  },
  {

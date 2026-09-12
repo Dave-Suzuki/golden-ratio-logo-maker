@@ -98,7 +98,7 @@
    {
     "n": 9,
     "problem": "Fill in the blanks in the table and round your answers to two decimal places for the Relative Frequency and Cumulative Relative Frequency cells.",
-    "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
+    "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
     "section": "1.2",
     "solution": "[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | 0.25 | 0.25\n5–10 | 30 | 0.30 | 0.55\n> 10 | 45 | 0.45 | 1.00\n[/TABLE]"
    },
@@ -609,7 +609,7 @@
    {
     "n": 13,
     "problem": "If X = the number of applications for a job, use this information to fill in the table below.",
-    "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.",
+    "context": "Use the following information to answer the next five exercises. Three jobs are open in a company: one in the accounting department, one in the human resources department, and one in the sales department. The accounting job receives 30 applicants, the human resources department receives 40 applicants, and the sales department receives 60 applicants.\n\n[TABLE]\nx | P(x) | xP(x)\n| |\n| |\n| |\n[/TABLE]",
     "section": "4.2",
     "solution": "[TABLE]\nx | P(x) | xP(x)\n30 | 30/130 | 6.92\n40 | 40/130 | 12.31\n60 | 60/130 | 27.69\n[/TABLE]"
    },
@@ -1596,14 +1596,14 @@
    {
     "n": 73,
     "problem": "What are the expected numbers of students from your high school graduating class enrolled and not enrolled in higher education?",
-    "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+    "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
     "section": "11.2",
     "solution": "Enrolled = 200(0.66) = 132. Not enrolled = 200(0.34) = 68"
    },
    {
     "n": 74,
     "problem": "Fill out the rest of this table.",
-    "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+    "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
     "section": "11.2",
     "solution": "[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | 132 | 145 – 132 = 13 | 169 | 169/132=1.280\nNot enrolled | 55 | 68 | 55 – 68 = –13 | 169 | 169/68=2.485\n[/TABLE]"
    },
@@ -1636,7 +1636,7 @@
    {
     "n": 79,
     "problem": "Compute the expected values for the cells.",
-    "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.",
+    "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
     "section": "11.3",
     "solution": "[TABLE]\n| Cell = Yes | Cell = No | Total\nFirst-year | (250(300))/500=150 | (250(200))/500=100 | 250\nSenior | (250(300))/500=150 | (250(200))/500=100 | 250\nTotal | 300 | 200 | 500\n[/TABLE]"
    },
@@ -2487,7 +2487,7 @@
    {
     "n": 2,
     "problem": "The box plot for the data is:",
-    "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]",
+    "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
     "section": "Practice Final Exam 2",
     "solution": "a."
    },
@@ -2665,14 +2665,14 @@
      "3/10",
      "7/10"
     ],
-    "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.",
+    "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
     "section": "Practice Final Exam 2",
     "solution": "a. 3/9"
    },
    {
     "n": 17,
     "problem": "Which graph best shows the probability that a randomly chosen fourth grader takes more than six minutes to take out the trash given that they have already taken more than three minutes?",
-    "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.",
+    "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
     "section": "Practice Final Exam 2",
     "solution": "d."
    },

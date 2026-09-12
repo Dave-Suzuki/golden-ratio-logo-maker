@@ -11,6 +11,7 @@ export function SectionPage({ id }: { id: string }) {
   const items = bankFor(id);
   const kinds = { mc: 0, numeric: 0, fill: 0, tf: 0, open: 0 };
   for (const q of items) kinds[q.kind]++;
+  const auto = items.length - kinds.open;
   const generators = templatesFor(id).length;
   return (
     <div className="space-y-5">
@@ -19,7 +20,8 @@ export function SectionPage({ id }: { id: string }) {
           <p className="eyebrow">Section {section.id}</p>
           <h1 className="display text-2xl">{section.title}</h1>
           <p className="mt-1 text-xs opacity-60">
-            {items.length} items ({kinds.mc} multiple choice · {kinds.numeric} numeric · {kinds.tf} true/false · {kinds.fill} fill-in · {kinds.open} worked problems) · {generators} generators
+            {items.length} questions ready · {auto} checked instantly · {kinds.open} worked problems with model answers
+            {generators > 0 ? ' · fresh numbers every time you retake it' : ''}
           </p>
         </div>
         <SectionMastery sectionId={id} />

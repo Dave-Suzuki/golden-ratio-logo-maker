@@ -37,6 +37,58 @@ FALLBACK_META = {
 VT_URL = 'https://pressbooks.lib.vt.edu/significantstatistics/chapter/chapter-{n}-extra-practice/'
 
 
+# ----------------------------------------------------------------------------- table recovery
+# A PDF exam extracts a contingency table as loose lines: the column headings arrive one per line
+# and each body row as "Label 343 101 20 94 558". Rebuilding it as a [TABLE] turns 26 unreadable
+# lines into a real table.
+NUMROW = re.compile(r'^(.*?[A-Za-z)])\s+((?:[\d,]+(?:\.\d+)?\s+){2,}[\d,]+(?:\.\d+)?)\s*$')
+
+
+def rebuild_tables(text):
+    if not text:
+        return text
+    merged = []
+    for line in text.split('\n'):
+        stripped = line.strip()
+        if re.fullmatch(r'\(\w{1,3}\)', stripped) and merged:
+            merged[-1] = merged[-1].rstrip() + ' ' + stripped          # "White" + "(W)"
+        else:
+            merged.append(line)
+
+    out, i = [], 0
+    while i < len(merged):
+        rows, j = [], i
+        while j < len(merged):
+            m = NUMROW.match(merged[j].strip())
+            if not m:
+                break
+            rows.append([m.group(1).strip()] + m.group(2).split())
+            j += 1
+        if len(rows) < 2:
+            out.append(merged[i])
+            i += 1
+            continue
+        cols = max(len(r) for r in rows)
+        head = []
+        while out and len(head) < cols - 1:
+            cand = out[-1].strip()
+            if cand and len(cand) <= 24 and not cand.endswith(('.', ':')) and not NUMROW.match(cand):
+                head.insert(0, out.pop().strip())
+            else:
+                break
+        if len(head) == cols - 1:
+            corner = ''
+            if out and 0 < len(out[-1].strip()) <= 24 and not out[-1].strip().endswith(('.', ':')):
+                corner = out.pop().strip()
+            head = [corner] + head
+        elif len(head) != cols:
+            head = []
+        body = '\n'.join(' | '.join(r + [''] * (cols - len(r))) for r in rows)
+        out.append('[TABLE]\n' + ((' | '.join(head) + '\n') if head else '') + body + '\n[/TABLE]')
+        i = j
+    return '\n'.join(out)
+
+
 # ----------------------------------------------------------------------------- exam-mc (De Anza)
 OPT_RE = re.compile(r'(?:^|(?<=\s))([A-E])(?:\.\s*|\s{2,}|\s(?=[\d$(]))')
 QNUM_RE = re.compile(r'^\s*(\d{1,2})\.\s+(.*)$')
@@ -74,7 +126,7 @@ def parse_exam_mc(text, meta):
                 while i < len(lines) and not QNUM_RE.match(lines[i]):
                     buf.append(lines[i].rstrip())
                     i += 1
-                ctx = '\n'.join(x for x in buf if x.strip()).strip()
+                ctx = rebuild_tables('\n'.join(x for x in buf if x.strip()).strip())
                 continue
             m = QNUM_RE.match(l)
             if m and (cur is None or int(m.group(1)) == cur['n'] + 1):

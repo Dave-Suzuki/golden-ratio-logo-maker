@@ -240,7 +240,21 @@ class ContextScope:
     def __init__(self):
         self.text = None
         self.remaining = 0
-        self.lead = None  # instruction paragraph that belongs to each following stem
+        self.lead = None   # instruction paragraph that belongs to each following stem
+        self.group = []    # exercises awaiting the finished scenario
+
+    def flush(self):
+        """Hand the finished scenario to every exercise in its scope.
+
+        The scenario is only complete once its last block has been read, so assignment is deferred:
+        assigning as we go gave the first exercise of a group a truncated copy, typically missing
+        the very table it needed.
+        """
+        for exercise in self.group:
+            if self.text:
+                exercise['context'] = self.text
+        self.group = []
+        self.text, self.remaining, self.lead = None, 0, None
 
     def add_block(self, t):
         if not t or not t.strip():
@@ -248,6 +262,7 @@ class ContextScope:
         if OPENER_RE.search(t[:90]):
             m = SCOPE_RE.search(t)
             n = NUMBER_WORDS.get(m.group(1).lower()) if m else None
+            self.flush()
             self.text, self.remaining, self.lead = t, (n if n else 2), None
             return
         if self.text is not None and self.remaining > 0:
@@ -268,10 +283,10 @@ class ContextScope:
             if len(cur) < 60 and not cur.lower().startswith(self.lead[:20].lower()):
                 exercise[key] = f'{self.lead.rstrip()} — {cur}' if cur else self.lead.rstrip()
         if self.text is not None and self.remaining > 0:
-            exercise['context'] = self.text
+            self.group.append(exercise)
             self.remaining -= 1
             if self.remaining == 0:
-                self.text, self.lead = None, None
+                self.flush()
 
 
 def options_are_subparts(stem, items):
@@ -358,6 +373,7 @@ def parse_module(mid):
                     out.append(e)
                 elif child.tag == C + 'section':
                     out.extend(parse_exercise(ex) for ex in child.iter(C + 'exercise'))
+            scope.flush()
         return out
 
     d['practice'] = section_exercises('practice')
@@ -399,6 +415,7 @@ def parse_numbered_paras(sec):
             it['stem'], it['options'] = NUM_RE.sub('', stem, count=1), options
         scope.apply(it)
         items.append(it)
+    scope.flush()
     return items
 
 

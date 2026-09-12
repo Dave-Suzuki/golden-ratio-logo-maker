@@ -1377,7 +1377,7 @@
    "test": "Practice Final Exam 2",
    "n": 16
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.",
+  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
   "options": [
    "3/9",
    "7/9",
@@ -1385,7 +1385,7 @@
    "7/10"
   ],
   "correctIndex": 0,
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": [
    "a. 3/9"
   ]
@@ -1401,9 +1401,9 @@
    "test": "Practice Final Exam 2",
    "n": 17
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.",
+  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
   "modelSolution": "d.",
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": []
  },
  {

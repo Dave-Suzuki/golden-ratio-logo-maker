@@ -1296,7 +1296,7 @@
    "test": "Practice Test 3",
    "n": 73
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "Enrolled = 200(0.66) = 132. Not enrolled = 200(0.34) = 68",
   "needsFigure": false,
   "explanation": []
@@ -1312,7 +1312,7 @@
    "test": "Practice Test 3",
    "n": 74
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | 132 | 145 – 132 = 13 | 169 | 169/132=1.280\nNot enrolled | 55 | 68 | 55 – 68 = –13 | 169 | 169/68=2.485\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1390,7 +1390,7 @@
    "test": "Practice Test 3",
    "n": 79
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.",
+  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Cell = Yes | Cell = No | Total\nFirst-year | (250(300))/500=150 | (250(200))/500=100 | 250\nSenior | (250(300))/500=150 | (250(200))/500=100 | 250\nTotal | 300 | 200 | 500\n[/TABLE]",
   "needsFigure": false,
   "explanation": []

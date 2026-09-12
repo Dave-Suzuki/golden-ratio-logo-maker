@@ -1,7 +1,10 @@
+import type { RefObject } from 'react';
 import { HYPOTHESIS_SYMBOLS } from '@/lib/format';
 import type { FillBlank } from '@/lib/types';
 
-export function FillInput({ blanks, symbolSet, values, onChange, disabled }: { blanks: FillBlank[]; symbolSet?: 'hypothesis' | 'notation'; values: string[]; onChange: (v: string[]) => void; disabled?: boolean }) {
+type AnswerRef = RefObject<HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement | null>;
+
+export function FillInput({ blanks, symbolSet, values, onChange, disabled, inputRef }: { blanks: FillBlank[]; symbolSet?: 'hypothesis' | 'notation'; values: string[]; onChange: (v: string[]) => void; disabled?: boolean; inputRef?: AnswerRef }) {
   const set = (i: number, v: string) => onChange(blanks.map((_, j) => (j === i ? v : (values[j] ?? ''))));
   return (
     <div className="space-y-2 text-sm">
@@ -28,7 +31,8 @@ export function FillInput({ blanks, symbolSet, values, onChange, disabled }: { b
             onChange={(e) => set(i, e.target.value)}
             disabled={disabled}
             placeholder={symbolSet === 'hypothesis' ? 'or type >=, <, !=' : 'answer'}
-            className="w-40 rounded border border-[var(--line)] px-2 py-1.5 font-mono"
+            className="w-40 rounded border border-[var(--line)] px-2 py-2 font-mono"
+            ref={i === 0 ? (inputRef as RefObject<HTMLInputElement | null> | undefined) : undefined}
           />
         </div>
       ))}

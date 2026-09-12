@@ -596,7 +596,7 @@
       "4.43"
      ],
      "solution": "d. 4.43",
-     "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games."
+     "context": "Use the following information to answer the next three exercises: The probability that the San Jose Sharks will win any given game is 0.3694 based on a 13-year win history of 382 wins out of 1,034 games played (as of a certain date). An upcoming monthly schedule contains 12 games.\n\nLet X = the number of games won in that upcoming month."
     },
     {
      "id": "element-861",

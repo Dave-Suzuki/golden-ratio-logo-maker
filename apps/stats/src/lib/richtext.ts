@@ -56,9 +56,9 @@ function parseTable(block: string): RichBlock {
     caption = rows[0]?.[0] ?? null;
     rows.shift();
   }
-  // a stem-and-leaf plot has numbers in its first row: it has no header
+  // a header row names things; a stem-and-leaf plot's first row is all digits, so it has none
   const first = rows[0] ?? [];
-  const headerLike = first.length > 0 && !first.every((c) => c === '' || isDataValue(c));
+  const headerLike = first.length > 0 && first.some((c) => /[a-z]/i.test(c));
   const head = headerLike ? rows.shift() ?? null : null;
   const padded = rows.map((r) => Array.from({ length: cols }, (_, c) => r[c] ?? ''));
   return { kind: 'table', caption, head: head ? Array.from({ length: cols }, (_, c) => head[c] ?? '') : null, rows: padded, cols };

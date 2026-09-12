@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import { fetchExplanation } from '@/lib/actions';
 import { useStats } from '@/lib/store';
 import type { GradeResult, Given, Question, TeachSnippet } from '@/lib/types';
-import { RichText } from './QuestionStem';
+import { Clamp } from './Clamp';
+import { RichText } from './RichText';
 import { TeachPanel } from './TeachPanel';
 
 export function FeedbackPanel({ q, given, result, teach }: { q: Question; given: Given; result: GradeResult; teach: TeachSnippet | null }) {
@@ -29,7 +30,11 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
       {q.kind === 'open' && (
         <div className="mt-2">
           <span className="opacity-70">Model solution:</span>
-          <RichText text={q.modelSolution} className="mt-1 rounded bg-white/70 p-2" />
+          <div className="mt-1 rounded bg-white/70 p-2">
+            <Clamp maxPx={320} measureKey={q.id} openLabel="Show the whole answer">
+              <RichText text={q.modelSolution} />
+            </Clamp>
+          </div>
         </div>
       )}
       {result.perBlank && (
@@ -41,7 +46,7 @@ export function FeedbackPanel({ q, given, result, teach }: { q: Question; given:
         <ol className="mt-2 list-decimal space-y-1 pl-5">
           {explanation.map((e, i) => (
             <li key={i}>
-              <RichText text={e} />
+              <RichText text={e} variant="compact" />
             </li>
           ))}
         </ol>

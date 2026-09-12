@@ -6,7 +6,7 @@ import { fetchTest, specToQuery } from '@/lib/actions';
 import { formatAnswer } from '@/lib/grade';
 import { specLabel } from '@/lib/store';
 import type { Test } from '@/lib/types';
-import { RichText } from './QuestionStem';
+import { RichText } from './RichText';
 import { specFromParams } from './QuizPage';
 
 export function PrintPage() {
@@ -55,8 +55,13 @@ export function PrintPage() {
           <li key={q.id} className="print-item flex gap-3">
             <span className="w-6 shrink-0 font-semibold">{i + 1}.</span>
             <div className="grow">
-              {q.context && <RichText text={q.context} className="mb-1 opacity-80" />}
-              <RichText text={q.stem} />
+              {q.context &&
+                (i > 0 && test.questions[i - 1]?.context === q.context ? (
+                  <p className="mb-1 text-[11px] italic opacity-70">Same information as question {i}.</p>
+                ) : (
+                  <RichText text={q.context} variant="print" className="mb-1 opacity-80" />
+                ))}
+              <RichText text={q.stem} variant="print" />
               {q.kind === 'mc' && (
                 <ul className="mt-1 grid gap-x-6 gap-y-0.5 sm:grid-cols-2">
                   {q.options.map((o, j) => (

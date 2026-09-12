@@ -64,6 +64,27 @@ function pickForSection(sectionId: string, quota: number, spec: TestSpec, src: C
   return out.slice(0, quota);
 }
 
+/**
+ * Keep questions that share a scenario adjacent, preserving first-appearance order, so the runner
+ * can collapse the repeat instead of showing the same wall of text again. Deterministic: no RNG.
+ */
+export function groupBySharedContext(questions: readonly Question[]): Question[] {
+  const out: Question[] = [];
+  const taken = new Set<number>();
+  questions.forEach((q, i) => {
+    if (taken.has(i)) return;
+    taken.add(i);
+    out.push(q);
+    if (!q.context) return;
+    questions.forEach((other, j) => {
+      if (j <= i || taken.has(j) || other.context !== q.context) return;
+      taken.add(j);
+      out.push(other);
+    });
+  });
+  return out;
+}
+
 /** Build a deterministic test: same spec (incl. seed) → identical questions, option order and item order. */
 export function buildTest(spec: TestSpec, src: ContentSource): Test {
   const rng = mulberry32(hashString(`${spec.scope}:${spec.id}:${spec.seed}`));
@@ -82,7 +103,7 @@ export function buildTest(spec: TestSpec, src: ContentSource): Test {
       if (extra > 0) extra--;
       questions.push(...pickForSection(s, quota, spec, src, rng));
     }
-    questions = rng.shuffle(questions);
+    questions = groupBySharedContext(rng.shuffle(questions));
   }
 
   questions = questions.map((q) => (q.kind === 'mc' ? shuffleOptions(q, rng) : q));

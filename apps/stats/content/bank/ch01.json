@@ -1950,7 +1950,7 @@
    "test": "Practice Test 1",
    "n": 9
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
+  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "modelSolution": "[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | 0.25 | 0.25\n5–10 | 30 | 0.30 | 0.55\n> 10 | 45 | 0.45 | 1.00\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
