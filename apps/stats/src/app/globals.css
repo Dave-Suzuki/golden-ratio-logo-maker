@@ -9,6 +9,7 @@
   --muted: #5d6a73;
   --muted-soft: #eceeea;
   --surface: #ffffff;
+  --scenario-bg: #eef3f5;
   --ok: #2e7d4f;
   --ok-soft: #e4f3ea;
   --bad: #b3372b;
@@ -103,10 +104,15 @@ body {
 .question-text { font-size: 1.0625rem; line-height: 1.65; font-weight: 500; color: var(--ink); }
 .scenario {
   border-left: 2px solid var(--accent);
-  padding-left: 0.85rem;
-  margin-bottom: 1rem;
-  font-size: 0.9375rem;
-  color: var(--muted);
+  background: var(--scenario-bg);
+  border-radius: 0 6px 6px 0;
+  padding: 0.7rem 0.9rem;
+  margin-bottom: 1.1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  /* full-strength text: the scenario has to be read to answer, so it is never dimmed.
+     The rule, tint and label are what set it apart from the question. */
+  color: var(--ink);
 }
 .scenario-label { margin-bottom: 0.3rem; }
 .scenario-repeated { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem; font-style: italic; }
@@ -121,8 +127,8 @@ body {
   cursor: pointer;
 }
 .fade-bottom {
-  -webkit-mask-image: linear-gradient(#000 62%, transparent);
-  mask-image: linear-gradient(#000 62%, transparent);
+  -webkit-mask-image: linear-gradient(#000 78%, transparent);
+  mask-image: linear-gradient(#000 78%, transparent);
 }
 
 /* quiz chrome */
@@ -145,6 +151,6 @@ body {
   .print-table .stem-table, .table-scroll .stem-table { break-inside: avoid; }
   .fade-bottom { -webkit-mask-image: none; mask-image: none; }
   .clamp-body { max-height: none !important; overflow: visible !important; }
-  .scenario { border-left-color: #999; color: #000; }
+  .scenario { border-left-color: #999; color: #000; background: none; padding-left: 0.8rem; }
   .question-text { font-weight: 500; }
 }
