@@ -229,6 +229,26 @@ INSTRUCTION_RE = re.compile(
     r'^\s*(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give)\b', re.I)
 
 
+def merge_lead(lead, stem):
+    """Join a shared instruction to one sub-part so the result reads as a question.
+
+    The book prints "Determine what the key terms refer to..." once and lists the terms below it
+    as parts a-e. Splitting those into separate questions and gluing them with a dash produced
+    "Determine what the key terms refer to in the example for Researcher A. - population", which
+    tells the learner nothing. A bare term is substituted into the instruction instead; a sub-part
+    that is already a question keeps the instruction above it as a lead-in.
+    """
+    lead, stem = lead.strip(), stem.strip()
+    if not stem:
+        return lead
+    is_question = stem.endswith(('?', '.', ':', '_')) or len(stem.split()) > 3
+    if not is_question:
+        if re.search(r'(?i)\bthe key terms refer\b', lead):
+            return re.sub(r'(?i)\bthe key terms refer\b', f'\u201c{stem}\u201d refers', lead)
+        return f'{lead}\n\nIn this study, identify the {stem}.'
+    return f'{lead}\n\n{stem}'
+
+
 class ContextScope:
     """Tracks which shared scenario (if any) legitimately applies to the next exercise.
 
@@ -281,7 +301,7 @@ class ContextScope:
             key = 'stem' if 'stem' in exercise else 'problem'
             cur = (exercise.get(key) or '').strip()
             if len(cur) < 60 and not cur.lower().startswith(self.lead[:20].lower()):
-                exercise[key] = f'{self.lead.rstrip()} — {cur}' if cur else self.lead.rstrip()
+                exercise[key] = merge_lead(self.lead, cur)
         if self.text is not None and self.remaining > 0:
             self.group.append(exercise)
             self.remaining -= 1

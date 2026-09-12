@@ -265,18 +265,18 @@
     },
     {
      "id": "fs-idm67667568",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — How much area is in both tails (combined)? α =________",
+     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in both tails (combined)? α =________",
      "solution": null
     },
     {
      "id": "element-888",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — How much area is in each tail? α/2 =________",
+     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in each tail? α/2 =________",
      "solution": "0.025"
     },
     {
      "id": "element-74",
      "problem": "Identify the following specifications:\n\n[PARTS]\na. lower limit\nb. upper limit\nc. error bound\n[/PARTS]",
-     "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — Identify the following specifications:",
+     "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nIdentify the following specifications:",
      "options": [
       "lower limit",
       "upper limit",
@@ -286,7 +286,7 @@
     },
     {
      "id": "element-767",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — The 95% confidence interval is:__________________.",
+     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nThe 95% confidence interval is:__________________.",
      "solution": "(24.52,36.28)"
     },
     {
@@ -296,7 +296,7 @@
     },
     {
      "id": "element-158",
-     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — In one complete sentence, explain what the interval means.",
+     "problem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nIn one complete sentence, explain what the interval means.",
      "solution": "We are 95% confident that the true mean age for Winger Foothill College students is between 24.52 and 36.28."
     },
     {
@@ -492,18 +492,18 @@
     },
     {
      "id": "element-425",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — How much area is in both tails (combined)?",
+     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in both tails (combined)?",
      "solution": null
     },
     {
      "id": "element-945",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — How much area is in each tail?",
+     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in each tail?",
      "solution": "0.025"
     },
     {
      "id": "element-526",
      "problem": "Calculate the following:\n\n[PARTS]\na. lower limit\nb. upper limit\nc. error bound\n[/PARTS]",
-     "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — Calculate the following:",
+     "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nCalculate the following:",
      "options": [
       "lower limit",
       "upper limit",
@@ -513,7 +513,7 @@
     },
     {
      "id": "element-363",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — The 95% confidence interval is_____.",
+     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nThe 95% confidence interval is_____.",
      "solution": "(2.93, 3.59)"
     },
     {
@@ -523,7 +523,7 @@
     },
     {
      "id": "element-499",
-     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — In one complete sentence, explain what the interval means.",
+     "problem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nIn one complete sentence, explain what the interval means.",
      "solution": "We are 95% confident that the true mean number of colors for national flags is between 2.93 colors and 3.59 colors."
     },
     {

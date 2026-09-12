@@ -43,3 +43,17 @@ describe('generated content', () => {
     expect(testItems('fe', 1).length).toBeGreaterThan(30);
   });
 });
+
+describe('questions read as questions', () => {
+  it('never glues a shared instruction to a bare label with a dash', () => {
+    // "Determine what the key terms refer to... — population" told the learner nothing
+    const glued = allQuestions().filter((q) => / — \w+$/.test(q.stem) && q.stem.split(' — ')[1]!.split(' ').length <= 2);
+    expect(glued.map((q) => q.id)).toEqual([]);
+  });
+
+  it('asks the key-terms questions by naming the term', () => {
+    const keyTerms = allQuestions().filter((q) => q.stem.includes('refers to in the example'));
+    expect(keyTerms.length).toBeGreaterThan(0);
+    for (const q of keyTerms) expect(q.stem, q.id).toMatch(/Determine what “\w+” refers to/);
+  });
+});

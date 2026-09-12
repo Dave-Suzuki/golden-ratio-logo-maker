@@ -360,7 +360,7 @@
   "sectionId": "8.1",
   "kind": "numeric",
   "conceptTag": "8.1",
-  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — How much area is in each tail? α/2 =________",
+  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nHow much area is in each tail? α/2 =________",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47002",
@@ -382,7 +382,7 @@
   "sectionId": "8.1",
   "kind": "open",
   "conceptTag": "8.1",
-  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — The 95% confidence interval is:__________________.",
+  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nThe 95% confidence interval is:__________________.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47002",
@@ -397,7 +397,7 @@
   "sectionId": "8.1",
   "kind": "open",
   "conceptTag": "8.1",
-  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises. — In one complete sentence, explain what the interval means.",
+  "stem": "Construct a 95% Confidence Interval for the true mean age of Winter Foothill College students by working out then answering the next seven exercises.\n\nIn one complete sentence, explain what the interval means.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47002",
@@ -660,7 +660,7 @@
   "sectionId": "8.2",
   "kind": "numeric",
   "conceptTag": "8.2",
-  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — How much area is in each tail?",
+  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nHow much area is in each tail?",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47001",
@@ -682,7 +682,7 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — The 95% confidence interval is_____.",
+  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nThe 95% confidence interval is_____.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47001",
@@ -697,7 +697,7 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags. — In one complete sentence, explain what the interval means.",
+  "stem": "Construct a 95% confidence interval for the true mean number of colors on national flags.\n\nIn one complete sentence, explain what the interval means.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47001",
