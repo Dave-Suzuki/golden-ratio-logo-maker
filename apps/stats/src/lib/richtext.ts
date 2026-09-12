@@ -26,6 +26,8 @@ const DATA_VALUE = /^(?:and\s+)?[−–-]?\$?\d[\d,]*(?:\.\d+)?\s*%?$/;
 const BULLET = /^[•·]\s*(.*)$/;
 const PART = /^([a-z]|[ivx]{1,4}|\d{1,2})[.)]\s+(.*)$/i;
 const FIGURE_INLINE = /\[FIGURE(?::\s*([^\]]*))?\]/g;
+/** Does this fragment carry any of the importer's block markers? */
+const HAS_MARKER = /\[(TABLE|DATA|LIST|PARTS)\]/;
 
 function stripAnd(v: string): string {
   return v.replace(/^and\s+/i, '').trim();
@@ -110,20 +112,6 @@ function pushParagraphs(text: string, out: RichBlock[]): void {
 }
 
 /** Split the text on a marker block, handing each inner block to `make`. */
-function splitMarker(text: string, name: string, make: (inner: string) => RichBlock | RichBlock[]): (string | RichBlock)[] {
-  const re = new RegExp(`\\[${name}\\]([\\s\\S]*?)\\[\\/${name}\\]`, 'g');
-  const out: (string | RichBlock)[] = [];
-  let last = 0;
-  for (let m = re.exec(text); m; m = re.exec(text)) {
-    if (m.index > last) out.push(text.slice(last, m.index));
-    const made = make(m[1] ?? '');
-    out.push(...(Array.isArray(made) ? made : [made]));
-    last = m.index + m[0].length;
-  }
-  if (last < text.length) out.push(text.slice(last));
-  return out;
-}
-
 function parseDataBlock(inner: string): RichBlock {
   const values = inner
     .split(',')
@@ -132,8 +120,22 @@ function parseDataBlock(inner: string): RichBlock {
   return { kind: 'data', label: null, values };
 }
 
+/**
+ * Remove a marker that has no partner inside this fragment. The importer can emit a doubled
+ * "[/PARTS]", and a closer with nothing to close cannot be rendered — it would print as itself.
+ * Markers that do pair up are left alone, because something nested renders them.
+ */
+function dropUnmatched(text: string): string {
+  return text.replace(/\[\/?(TABLE|DATA|PARTS|LIST)\]/g, (tag, name: string) => {
+    const opens = text.split(`[${name}]`).length - 1;
+    const closes = text.split(`[/${name}]`).length - 1;
+    if (opens === closes) return tag;
+    return tag.startsWith('[/') ? (closes > opens ? '' : tag) : opens > closes ? '' : tag;
+  });
+}
+
 function parseListBlock(inner: string): RichBlock {
-  const items = inner.split('\n').map((l) => l.trim()).filter(Boolean);
+  const items = inner.split('\n').map((l) => dropUnmatched(l.trim())).filter(Boolean);
   return { kind: 'bullets', items };
 }
 
@@ -149,46 +151,87 @@ function parsePartsBlock(inner: string): RichBlock {
       if (last) last.text = `${last.text}\n${line}`;
     } else items.push({ label: '', text: line });
   }
-  return { kind: 'parts', items };
+  // only once each item is whole: a half-built item looks unbalanced while its block is still open
+  return { kind: 'parts', items: items.map((i) => ({ ...i, text: dropUnmatched(i.text) })) };
+}
+
+/**
+ * The importer's block markers, and how to turn each one into a block.
+ *
+ * These nest: a list item can hold a part list, and a part can hold a table. Splitting on one
+ * marker at a time left the other's opener in one fragment and its closer in another, so neither
+ * matched and both printed literally — and a table whose rows were split that way arrived as one
+ * row wider than the page. So the text is walked once, taking whichever block opens first and
+ * finding its own matching close, counting depth so an inner block of the same kind cannot end
+ * the outer one.
+ */
+const BLOCK_MAKERS: Record<string, (inner: string) => RichBlock | RichBlock[]> = {
+  TABLE: parseTable,
+  DATA: parseDataBlock,
+  PARTS: parsePartsBlock,
+  LIST: parseListBlock,
+};
+const OPEN_ANY = /\[(TABLE|DATA|PARTS|LIST)\]/;
+/** A marker with no partner. It cannot be rendered, and must never reach the page as text. */
+const STRAY_MARKER = /\[\/?(TABLE|DATA|PARTS|LIST)\]/g;
+
+interface FoundBlock {
+  name: string;
+  start: number;
+  inner: string;
+  end: number;
+}
+
+/** The first block in `text` whose close can be found, honouring nesting of its own kind. */
+function findBlock(text: string): FoundBlock | null {
+  const m = OPEN_ANY.exec(text);
+  if (!m) return null;
+  const name = m[1] as string;
+  const open = `[${name}]`;
+  const close = `[/${name}]`;
+  let depth = 1;
+  let i = m.index + open.length;
+  const innerStart = i;
+  while (i < text.length) {
+    const nextOpen = text.indexOf(open, i);
+    const nextClose = text.indexOf(close, i);
+    if (nextClose === -1) return null; // unbalanced; handled as plain text below
+    if (nextOpen !== -1 && nextOpen < nextClose) {
+      depth += 1;
+      i = nextOpen + open.length;
+      continue;
+    }
+    depth -= 1;
+    i = nextClose + close.length;
+    if (depth === 0) return { name, start: m.index, inner: text.slice(innerStart, nextClose), end: i };
+  }
+  return null;
+}
+
+/** Text outside any block: paragraphs, bullet runs and figures. */
+function pushPlain(text: string, out: RichBlock[]): void {
+  const cleaned = text.replace(STRAY_MARKER, '');
+  const trimmed = cleaned.trim();
+  if (!trimmed) return;
+  const only = /^\[FIGURE(?::\s*([^\]]*))?\]$/.exec(trimmed);
+  if (only) {
+    out.push({ kind: 'figure', caption: only[1]?.trim() || null });
+    return;
+  }
+  pushParagraphs(cleaned.replace(FIGURE_INLINE, '\u2020figure\u2020'), out);
 }
 
 /** Parse question text into renderable blocks. */
 export function parseRich(text: string): RichBlock[] {
   const out: RichBlock[] = [];
-  // markers are handled outermost-first so a table inside a scenario stays intact
-  const level1 = splitMarker(text ?? '', 'TABLE', parseTable);
-  for (const part1 of level1) {
-    if (typeof part1 !== 'string') {
-      out.push(part1);
-      continue;
-    }
-    for (const part2 of splitMarker(part1, 'DATA', parseDataBlock)) {
-      if (typeof part2 !== 'string') {
-        out.push(part2);
-        continue;
-      }
-      for (const part3 of splitMarker(part2, 'PARTS', parsePartsBlock)) {
-        if (typeof part3 !== 'string') {
-          out.push(part3);
-          continue;
-        }
-        for (const part4 of splitMarker(part3, 'LIST', parseListBlock)) {
-          if (typeof part4 !== 'string') {
-            out.push(part4);
-            continue;
-          }
-          // a paragraph that is nothing but a figure becomes a figure block
-          const trimmed = part4.trim();
-          const only = /^\[FIGURE(?::\s*([^\]]*))?\]$/.exec(trimmed);
-          if (only) {
-            out.push({ kind: 'figure', caption: only[1]?.trim() || null });
-            continue;
-          }
-          pushParagraphs(part4.replace(FIGURE_INLINE, '†figure†'), out);
-        }
-      }
-    }
+  let rest = text ?? '';
+  for (let found = findBlock(rest); found; found = findBlock(rest)) {
+    pushPlain(rest.slice(0, found.start), out);
+    const made = (BLOCK_MAKERS[found.name] as (inner: string) => RichBlock | RichBlock[])(found.inner);
+    out.push(...(Array.isArray(made) ? made : [made]));
+    rest = rest.slice(found.end);
   }
+  pushPlain(rest, out);
   return out;
 }
 
@@ -205,7 +248,8 @@ export function estimateLines(blocks: readonly RichBlock[], cols = 68): number {
         n += b.items.reduce((a, i) => a + wrap(i), 0);
         break;
       case 'parts':
-        n += b.items.reduce((a, i) => a + wrap(i.text), 0);
+        // a part may hold a whole table; count what it renders as, not its markup
+        n += b.items.reduce((a, i) => a + (HAS_MARKER.test(i.text) ? estimateLines(parseRich(i.text), cols) : wrap(i.text)), 0);
         break;
       case 'data':
         n += wrap(b.values.join(', ')) + (b.label ? 1 : 0);
@@ -230,10 +274,10 @@ export function plainText(blocks: readonly RichBlock[], max = 240): string {
         parts.push(b.text.replace(/\n/g, ' '));
         break;
       case 'bullets':
-        parts.push(b.items.join('; '));
+        parts.push(b.items.map((i) => (HAS_MARKER.test(i) ? plainText(parseRich(i), max) : i)).join('; '));
         break;
       case 'parts':
-        parts.push(b.items.map((i) => `${i.label}. ${i.text}`).join('; '));
+        parts.push(b.items.map((i) => `${i.label}. ${plainText(parseRich(i.text), max)}`).join('; '));
         break;
       case 'data':
         parts.push(`${b.label ? `${b.label} ` : ''}${b.values.join(', ')}`);

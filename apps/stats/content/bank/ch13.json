@@ -503,7 +503,7 @@
    "module": "m47119",
    "exerciseId": "element-219"
   },
-  "modelSolution": "[PARTS]\na. Ha:µc =µn =µh\nb. At least any two of the magazines have different mean lengths.\nc. df(num) = 2,df(denom) = 12\nd. F distribtuion\ne. F = 15.28\nf. p-value = 0.0005\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the Null Hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the mean lengths of the magazines are different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. Ha:µc =µn =µh\nb. At least any two of the magazines have different mean lengths.\nc. df(num) = 2,df(denom) = 12\nd. F distribtuion\ne. F = 15.28\nf. p-value = 0.0005\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the Null Hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the mean lengths of the magazines are different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -518,7 +518,7 @@
    "module": "m47119",
    "exerciseId": "eip-1000"
   },
-  "modelSolution": "[PARTS]\na. H0:μo =μh =μf\nb. At least two of the means are different.\nc. df(n) = 2,df(d) = 13\nd. F2,13\ne. 0.64\nf. 0.5437\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: The mean scores of different class delivery are not different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μo =μh =μf\nb. At least two of the means are different.\nc. df(n) = 2,df(d) = 13\nd. F2,13\ne. 0.64\nf. 0.5437\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: The mean scores of different class delivery are not different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -533,7 +533,7 @@
    "module": "m47119",
    "exerciseId": "fs-idp113565584"
   },
-  "modelSolution": "[PARTS]\na. H0:μp =μm =μh\nb. At least any two of the means are different.\nc. df(n) = 2,df(d) = 12\nd. F2,12\ne. 3.13\nf. 0.0807\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is not sufficient evidence to conclude that the mean numbers of daily visitors are different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μp =μm =μh\nb. At least any two of the means are different.\nc. df(n) = 2,df(d) = 12\nd. F2,12\ne. 3.13\nf. 0.0807\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is not sufficient evidence to conclude that the mean numbers of daily visitors are different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -766,7 +766,7 @@
    "module": "m47125",
    "exerciseId": "eip-578"
   },
-  "modelSolution": "[PARTS]\na. H0: =σ_1^2 =σ_2^2\nb. Ha:σ_1^2 ≠σ_1^2\nc. df(n) = 7,df(d) = 6\nd. F7,6\ne. 0.8117\nf. 0.7825\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is not sufficient evidence to conclude that the variances are different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: =σ_1^2 =σ_2^2\nb. Ha:σ_1^2 ≠σ_1^2\nc. df(n) = 7,df(d) = 6\nd. F7,6\ne. 0.8117\nf. 0.7825\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is not sufficient evidence to conclude that the variances are different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

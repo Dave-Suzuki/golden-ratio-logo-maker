@@ -43,7 +43,7 @@
    "exerciseId": "exer-00001",
    "ref": null
   },
-  "modelSolution": "[PARTS]\na. two means\nb. unknown\nc. Student’s t\nd. X_1-X_2\ne. [PARTS] 1. H_0:μ_1=μ_2Null hypothesis: the means of final exam scores are equal for both professors. 2. H_0:μ_2<μ_1 Alternative hypothesis: the mean of final exam scores for class of professor B is less than mean of final exam scores for class of professor A. [/PARTS]\nf. left-tailed\ng. p-value = 0.03\nh. Reject the null hypothesis.\ni. Professor A is correct. The evidence shows that the mean of final exam scores of the class of professor A is more than that of the class of professor B.At the 5% level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of final exam scores of the class of professor A is more than that of the class of professor B.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. two means\nb. unknown\nc. Student’s t\nd. X_1-X_2\ne. [PARTS]\n1. H_0:μ_1=μ_2Null hypothesis: the means of final exam scores are equal for both professors.\n2. H_0:μ_2<μ_1 Alternative hypothesis: the mean of final exam scores for class of professor B is less than mean of final exam scores for class of professor A.\n[/PARTS]\nf. left-tailed\ng. p-value = 0.03\nh. Reject the null hypothesis.\ni. Professor A is correct. The evidence shows that the mean of final exam scores of the class of professor A is more than that of the class of professor B.At the 5% level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of final exam scores of the class of professor A is more than that of the class of professor B.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -302,7 +302,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm8894688"
   },
-  "modelSolution": "Subscripts: 1: two-year colleges; 2: four-year colleges\n\n[PARTS]\na. H0:μ1 ≥μ2\nb. Ha:μ1 <μ2\nc. X̄_1–X̄_2 is the difference between the mean enrollments of the two-year colleges and the four-year colleges.\nd. Student’s-t\ne. test statistic: -0.2480\nf. p-value: 0.4019\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1: two-year colleges; 2: four-year colleges\n\n[PARTS]\na. H0:μ1 ≥μ2\nb. Ha:μ1 <μ2\nc. X̄_1–X̄_2 is the difference between the mean enrollments of the two-year colleges and the four-year colleges.\nd. Student’s-t\ne. test statistic: -0.2480\nf. p-value: 0.4019\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -317,7 +317,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm122985232"
   },
-  "modelSolution": "Subscripts: 1: mechanical engineering; 2: electrical engineering\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. X̄_1−X̄_2 is the difference between the mean entry level salaries of mechanical engineers and electrical engineers.\nd. t108\ne. test statistic: t = –0.82\nf. p-value: 0.2061\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1: mechanical engineering; 2: electrical engineering\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. X̄_1−X̄_2 is the difference between the mean entry level salaries of mechanical engineers and electrical engineers.\nd. t108\ne. test statistic: t = –0.82\nf. p-value: 0.2061\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -332,7 +332,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm50796704"
   },
-  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. X̄_1−X̄_2 is the difference between the mean times for completing a lap in races and in practices.\nd. t20.32\ne. test statistic: –4.70\nf. p-value: 0.0001\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. X̄_1−X̄_2 is the difference between the mean times for completing a lap in races and in practices.\nd. t20.32\ne. test statistic: –4.70\nf. p-value: 0.0001\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -347,7 +347,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm170930784"
   },
-  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -588,7 +588,7 @@
    "module": "m47061",
    "exerciseId": "exer29"
   },
-  "modelSolution": "Subscripts: 1 = boys, 2 = girls\n\n[PARTS]\na. H0:µ1 ≤µ2\nb. Ha:µ1 >µ2\nc. The random variable is the difference in the mean auto insurance costs for boys and girls.\nd. normal\ne. test statistic: z = 2.50\nf. p-value: 0.0062\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean cost of auto insurance for teenage boys is greater than that for girls. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1 = boys, 2 = girls\n\n[PARTS]\na. H0:µ1 ≤µ2\nb. Ha:µ1 >µ2\nc. The random variable is the difference in the mean auto insurance costs for boys and girls.\nd. normal\ne. test statistic: z = 2.50\nf. p-value: 0.0062\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean cost of auto insurance for teenage boys is greater than that for girls.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -603,7 +603,7 @@
    "module": "m47061",
    "exerciseId": "exer32"
   },
-  "modelSolution": "Subscripts: 1 = non-hybrid sedans, 2 = hybrid sedans\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. The random variable is the difference in the mean miles per gallon of non-hybrid sedans and hybrid sedans.\nd. normal\ne. test statistic: 6.36\nf. p-value: 0\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean miles per gallon of non-hybrid sedans is less than that of hybrid sedans. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1 = non-hybrid sedans, 2 = hybrid sedans\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. The random variable is the difference in the mean miles per gallon of non-hybrid sedans and hybrid sedans.\nd. normal\ne. test statistic: 6.36\nf. p-value: 0\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean miles per gallon of non-hybrid sedans is less than that of hybrid sedans.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -618,7 +618,7 @@
    "module": "m47061",
    "exerciseId": "eip-267"
   },
-  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd < 0\nc. The random variable Xd is the average difference between husband’s and wife’s satisfaction level.\nd. t9\ne. test statistic: t = –1.86\nf. p-value: 0.0479\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis, but run another test. iii. Reason for Decision: p-value < alpha iv. Conclusion: This is a weak test because alpha and the p-value are close. However, there is insufficient evidence to conclude that the mean difference is negative. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd < 0\nc. The random variable Xd is the average difference between husband’s and wife’s satisfaction level.\nd. t9\ne. test statistic: t = –1.86\nf. p-value: 0.0479\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis, but run another test.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: This is a weak test because alpha and the p-value are close. However, there is insufficient evidence to conclude that the mean difference is negative.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -927,7 +927,7 @@
    "module": "m47060",
    "exerciseId": "exer18"
   },
-  "modelSolution": "[PARTS]\na. H0:PW =PB\nb. Ha:PW ≠PB\nc. The random variable is the difference in the proportions of White and Black people with conferred degrees in a given year, aged 21 to 24.\nd. normal for two proportions\ne. test statistic: –0.1944\nf. p-value: 0.8458\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black people with conferred physical science degrees, aged 21 to 24, are different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:PW =PB\nb. Ha:PW ≠PB\nc. The random variable is the difference in the proportions of White and Black people with conferred degrees in a given year, aged 21 to 24.\nd. normal for two proportions\ne. test statistic: –0.1944\nf. p-value: 0.8458\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black people with conferred physical science degrees, aged 21 to 24, are different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -942,7 +942,7 @@
    "module": "m47060",
    "exerciseId": "exer24"
   },
-  "modelSolution": "Subscripts: 1 = Cabrillo College, 2 = Lake Tahoe College\n\n[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. The random variable is the difference between the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College.\nd. normal for two proportions\ne. test statistic: 4.29\nf. p-value: 0.00002\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College are different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1 = Cabrillo College, 2 = Lake Tahoe College\n\n[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. The random variable is the difference between the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College.\nd. normal for two proportions\ne. test statistic: 4.29\nf. p-value: 0.00002\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College are different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1009,7 +1009,7 @@
    "module": "m47060",
    "exerciseId": "fs-idm174644848"
   },
-  "modelSolution": "Subscripts: 1: men; 2: women\n\n[PARTS]\na. H0:p1 ≤p2\nb. Ha:p1 >p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women who enjoy shopping for electronic equipment.\nd. normal for two proportions\ne. test statistic: 0.22\nf. p-value: 0.4133\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women. [/PARTS]\n[/PARTS]",
+  "modelSolution": "Subscripts: 1: men; 2: women\n\n[PARTS]\na. H0:p1 ≤p2\nb. Ha:p1 >p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women who enjoy shopping for electronic equipment.\nd. normal for two proportions\ne. test statistic: 0.22\nf. p-value: 0.4133\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1024,7 +1024,7 @@
    "module": "m47060",
    "exerciseId": "fs-idm98770112"
   },
-  "modelSolution": "[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women that have at least one pierced ear.\nd. normal for two proportions\ne. test statistic: –4.82\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportions of men and women with at least one pierced ear is different. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women that have at least one pierced ear.\nd. normal for two proportions\ne. test statistic: –4.82\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportions of men and women with at least one pierced ear is different.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1039,7 +1039,7 @@
    "module": "m47060",
    "exerciseId": "fs-idm104246192"
   },
-  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd > 0\nc. The random variable Xd is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.\nd. t9\ne. test statistic: 4.8963\nf. p-value: 0.0004\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% level of significance, there is sufficient evidence to conclude that the mean difference in work times on days when eating breakfast and on days when not eating breakfast has increased. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd > 0\nc. The random variable Xd is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.\nd. t9\ne. test statistic: 4.8963\nf. p-value: 0.0004\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% level of significance, there is sufficient evidence to conclude that the mean difference in work times on days when eating breakfast and on days when not eating breakfast has increased.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

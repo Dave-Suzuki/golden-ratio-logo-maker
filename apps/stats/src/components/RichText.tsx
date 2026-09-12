@@ -1,6 +1,9 @@
 import { Fragment } from 'react';
 import { parseRich, type RichBlock } from '@/lib/richtext';
 
+/** Does this part carry markup of its own? */
+const HAS_MARKER = /\[(TABLE|DATA|LIST|PARTS)\]/;
+
 /**
  * Renders question text from the importer's markup.
  *
@@ -73,7 +76,8 @@ function Block({ block, variant }: { block: RichBlock; variant: RichVariant }) {
         <ul className="rich-list">
           {block.items.map((it, i) => (
             <li key={i}>
-              <FigureText text={it} />
+              {/* a list item can hold a part list of its own */}
+              {HAS_MARKER.test(it) ? <RichText text={it} variant={variant} /> : <FigureText text={it} />}
             </li>
           ))}
         </ul>
@@ -84,8 +88,9 @@ function Block({ block, variant }: { block: RichBlock; variant: RichVariant }) {
           {block.items.map((it, i) => (
             <li key={i}>
               {it.label && <span className="rich-part-label">{it.label}.</span>}
-              <span>
-                <FigureText text={it.text} />
+              <span className="min-w-0 grow">
+                {/* a part can hold a table or a nested list; render it rather than print its tags */}
+                {HAS_MARKER.test(it.text) ? <RichText text={it.text} variant={variant} /> : <FigureText text={it.text} />}
               </span>
             </li>
           ))}

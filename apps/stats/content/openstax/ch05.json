@@ -329,7 +329,7 @@
     },
     {
      "id": "fs-idp50471968",
-     "problem": "Graph the probability distribution.\n\n[PARTS]\na. Sketch the graph of the probability distribution. [FIGURE]\nb. Identify the following values: [PARTS] i. Lowest value for x̄: _______ ii. Highest value for x̄: _______ iii. Height of the rectangle: _______ iv. Label for x-axis (words): _______ v. Label for y-axis (words): _______ [/PARTS]\n[/PARTS]",
+     "problem": "Graph the probability distribution.\n\n[PARTS]\na. Sketch the graph of the probability distribution. [FIGURE]\nb. Identify the following values: [PARTS]\ni. Lowest value for x̄: _______\nii. Highest value for x̄: _______\niii. Height of the rectangle: _______\niv. Label for x-axis (words): _______\nv. Label for y-axis (words): _______\n[/PARTS]\n[/PARTS]",
      "solution": null,
      "context": "The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years."
     },
@@ -436,7 +436,7 @@
     {
      "id": "fs-idm19928432",
      "problem": "Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.\n\n[PARTS]\na. Find the probability that the value of the stock is more than $19.\nb. Find the probability that the value of the stock is between $19 and $22.\nc. Find the upper quartile - 25% of all days the stock is above what value? Draw the graph.\nd. Given that the stock is greater than $18, find the probability that the stock is more than $21.\n[/PARTS]",
-     "solution": "[PARTS]\na. The probability density function of X is1/25−16=1/9.P(X > 19) = (25 – 19)(1/9) =6/9 =2/3.[FIGURE]\nb. P(19 <X < 22) = (22 – 19)(1/9) =3/9 =1/3.[FIGURE]\nc. The area must be 0.25, and 0.25 = (width)(1/9), so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.\nd. This is a conditional probability question. P(x > 21| x > 18). You can do this two ways: [LIST] Draw the graph where a is now 18 and b is still 25. The height is 1/((25−18)) =1/7So,P(x > 21|x > 18) = (25 – 21)(1/7) = 4/7. Use the formula: P(x > 21|x > 18) =(P(x>21 AND x>18))/(P(x>18))=(P(x>21))/(P(x>18)) =((25−21))/((25−18)) =4/7. [/LIST]\n[/PARTS]"
+     "solution": "[PARTS]\na. The probability density function of X is1/25−16=1/9.P(X > 19) = (25 – 19)(1/9) =6/9 =2/3.[FIGURE]\nb. P(19 <X < 22) = (22 – 19)(1/9) =3/9 =1/3.[FIGURE]\nc. The area must be 0.25, and 0.25 = (width)(1/9), so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.\nd. This is a conditional probability question. P(x > 21| x > 18). You can do this two ways: [LIST]\nDraw the graph where a is now 18 and b is still 25. The height is 1/((25−18)) =1/7So,P(x > 21|x > 18) = (25 – 21)(1/7) = 4/7.\nUse the formula: P(x > 21|x > 18) =(P(x>21 AND x>18))/(P(x>18))=(P(x>21))/(P(x>18)) =((25−21))/((25−18)) =4/7.\n[/LIST]\n[/PARTS]"
     },
     {
      "id": "fs-idp90929648",
@@ -688,7 +688,7 @@
     },
     {
      "id": "fs-idm20022272",
-     "problem": "At one point in time, the percent of persons (ages five and older) in each state who speak a language at home other than English is approximately exponentially distributed with a mean of 9.848. Suppose we randomly pick a state.\n\n[PARTS]\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ ________\nd. μ = ________\ne. σ = ________\nf. Draw a graph of the probability distribution. Label the axes.\ng. Find the probability that the percent is less than 12.\nh. Find the probability that the percent is between eight and 14.\ni. The percent of all individuals living in the United States who speak a language at home other than English is 13.8. [PARTS] i. Why is this number different from 9.848%? ii. What would make this number higher than 9.848%? [/PARTS]\n[/PARTS]",
+     "problem": "At one point in time, the percent of persons (ages five and older) in each state who speak a language at home other than English is approximately exponentially distributed with a mean of 9.848. Suppose we randomly pick a state.\n\n[PARTS]\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ ________\nd. μ = ________\ne. σ = ________\nf. Draw a graph of the probability distribution. Label the axes.\ng. Find the probability that the percent is less than 12.\nh. Find the probability that the percent is between eight and 14.\ni. The percent of all individuals living in the United States who speak a language at home other than English is 13.8. [PARTS]\ni. Why is this number different from 9.848%?\nii. What would make this number higher than 9.848%?\n[/PARTS]\n[/PARTS]",
      "solution": null
     },
     {
@@ -776,7 +776,7 @@
    ],
    "bring_together": [],
    "summary": "If X has an exponential distribution with mean μ, then the decay parameter is m = 1/μ, and we write X ∼ Exp(m) where x ≥ 0 and m > 0 . The probability density function of X is f(x) = me-mx (or equivalently f(x)=1/μe^(−x/μ). The cumulative distribution function of X is P(X ≤ x) = 1 – e–mx.\n\nThe exponential distribution has the memoryless property, which says that future probabilities do not depend on any past information. Mathematically, it says that P(X > x + k|X > x) = P(X > k).\n\nIf T represents the waiting time between events, and if T ∼ Exp(λ), then the number of events X per unit time follows the Poisson distribution with mean λ. The probability density function of X is P(X=k)=(λ^ke^−k)/(k!). This may be computed using a TI-83, 83+, 84, 84+ calculator with the command poissonpdf(λ, k). The cumulative distribution function P(X ≤ k) may be computed using the TI-83, 83+,84, 84+ calculator with the command poissoncdf(λ, k).",
-   "formula_review": "Exponential: X ~ Exp(m) where m = the decay parameter\n\n[LIST]\npdf: f(x) =me(–mx) wherex ≥ 0 andm > 0\ncdf: P(X ≤x) = 1 –e(–mx)\nmean µ =1/m\nstandard deviation σ =µ\npercentile k:k =(ln(1−AreaToTheLeftOfk))/((−m))\nAdditionally [LIST] P(X >x) =e(–mx) P(a <X <b) =e(–ma) –e(–mb) [/LIST]\nMemoryless Property: P(X >x +k|X >x) =P (X >k)\nPoisson probability: P(X=k)=(λ^ke^−λ)/(k!) with meanλ\nk! =k*(k-1)*(k-2)*(k-3)*…3*2*1\n[/LIST]",
+   "formula_review": "Exponential: X ~ Exp(m) where m = the decay parameter\n\n[LIST]\npdf: f(x) =me(–mx) wherex ≥ 0 andm > 0\ncdf: P(X ≤x) = 1 –e(–mx)\nmean µ =1/m\nstandard deviation σ =µ\npercentile k:k =(ln(1−AreaToTheLeftOfk))/((−m))\nAdditionally [LIST]\nP(X >x) =e(–mx)\nP(a <X <b) =e(–ma) –e(–mb)\n[/LIST]\nMemoryless Property: P(X >x +k|X >x) =P (X >k)\nPoisson probability: P(X=k)=(λ^ke^−λ)/(k!) with meanλ\nk! =k*(k-1)*(k-2)*(k-3)*…3*2*1\n[/LIST]",
    "glossary": [
     {
      "term": "decay parameter",

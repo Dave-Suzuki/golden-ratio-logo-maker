@@ -965,7 +965,7 @@
    "module": "m47019",
    "exerciseId": "element-816"
   },
-  "modelSolution": "[PARTS]\na. H0:μ ≥ 50,000\nb. Ha:μ < 50,000\nc. Let X̄ = the average lifespan of a brand of tires.\nd. normal distribution\ne. z = -2.315\nf. p-value = 0.0103\ng. Answers may vary.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: The p-value is less than 0.05. iv. Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles. [/PARTS]\ni. (43,537, 49,463)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ ≥ 50,000\nb. Ha:μ < 50,000\nc. Let X̄ = the average lifespan of a brand of tires.\nd. normal distribution\ne. z = -2.315\nf. p-value = 0.0103\ng. Answers may vary.\nh. [PARTS]\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean lifespan of the tires is less than 50,000 miles.\n[/PARTS]\ni. (43,537, 49,463)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -980,7 +980,7 @@
    "module": "m47019",
    "exerciseId": "element-635"
   },
-  "modelSolution": "[PARTS]\na. H0:μ = $1.00\nb. Ha:μ ≠ $1.00\nc. Let X̄ = the average cost of a daily newspaper.\nd. normal distribution\ne. z = –0.866\nf. p-value = 0.3865\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.01 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.01. iv. Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1. [/PARTS]\ni. ($0.84, $1.06)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ = $1.00\nb. Ha:μ ≠ $1.00\nc. Let X̄ = the average cost of a daily newspaper.\nd. normal distribution\ne. z = –0.866\nf. p-value = 0.3865\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.01\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.01.\niv. Conclusion: There is sufficient evidence to support the claim that the mean cost of daily papers is $1. The mean cost could be $1.\n[/PARTS]\ni. ($0.84, $1.06)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -995,7 +995,7 @@
    "module": "m47019",
    "exerciseId": "element-932a"
   },
-  "modelSolution": "[PARTS]\na. H0:μ = 10\nb. Ha:μ ≠ 10\nc. Let X̄ the mean number of sick days an employee takes per year.\nd. Student’s t-distribution\ne. t = –1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05. iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean number of sick days is not ten. [/PARTS]\ni. (4.9443, 11.806)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ = 10\nb. Ha:μ ≠ 10\nc. Let X̄ the mean number of sick days an employee takes per year.\nd. Student’s t-distribution\ne. t = –1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean number of sick days is not ten.\n[/PARTS]\ni. (4.9443, 11.806)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1010,7 +1010,7 @@
    "module": "m47019",
    "exerciseId": "element-321"
   },
-  "modelSolution": "[PARTS]\na. H0:p ≥ 0.6\nb. Ha:p < 0.6\nc. Let P′ = the proportion of students who feel more enriched as a result of taking Elementary Statistics.\nd. normal for a single proportion\ne. 1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05. iv. Conclusion: There is insufficient evidence to conclude that less than 60 percent of the students feel more enriched. [/PARTS]\ni. Confidence Interval: (0.409, 0.654)The “plus-4s” confidence interval is (0.411, 0.648)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p ≥ 0.6\nb. Ha:p < 0.6\nc. Let P′ = the proportion of students who feel more enriched as a result of taking Elementary Statistics.\nd. normal for a single proportion\ne. 1.13\nf. p-value = 0.1299\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that less than 60 percent of the students feel more enriched.\n[/PARTS]\ni. Confidence Interval: (0.409, 0.654)The “plus-4s” confidence interval is (0.411, 0.648)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1025,7 +1025,7 @@
    "module": "m47019",
    "exerciseId": "element-814"
   },
-  "modelSolution": "[PARTS]\na. H0:μ = 4\nb. Ha:μ ≠ 4\nc. Let X̄ the average I.Q. of a set of brown trout.\nd. two-tailed Student's t-test\ne. t = 1.95\nf. p-value = 0.076\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05 iv. Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four. [/PARTS]\ni. (3.8865,5.9468)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ = 4\nb. Ha:μ ≠ 4\nc. Let X̄ the average I.Q. of a set of brown trout.\nd. two-tailed Student's t-test\ne. t = 1.95\nf. p-value = 0.076\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four.\n[/PARTS]\ni. (3.8865,5.9468)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1040,7 +1040,7 @@
    "module": "m47019",
    "exerciseId": "element-658"
   },
-  "modelSolution": "[PARTS]\na. H0:p ≥ 0.13\nb. Ha:p < 0.13\nc. Let P′ = the proportion of Americans who have seen or sensed angels\nd. normal for a single proportion\ne. –2.688\nf. p-value = 0.0036\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: The p-value is less than 0.05. iv. Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have seen or sensed an angel is less than 13%. [/PARTS]\ni. (0, 0.0623).The“plus-4s” confidence interval is (0.0022, 0.0978)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p ≥ 0.13\nb. Ha:p < 0.13\nc. Let P′ = the proportion of Americans who have seen or sensed angels\nd. normal for a single proportion\ne. –2.688\nf. p-value = 0.0036\ng. Check student’s solution.\nh. [PARTS]\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the percentage of Americans who have seen or sensed an angel is less than 13%.\n[/PARTS]\ni. (0, 0.0623).The“plus-4s” confidence interval is (0.0022, 0.0978)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1055,7 +1055,7 @@
    "module": "m47019",
    "exerciseId": "element-761"
   },
-  "modelSolution": "[PARTS]\na. H0:μ ≥ 129\nb. Ha:μ < 129\nc. Let X̄ = the average time in seconds that Terri finishes Lap 4.\nd. Student's t-distribution\ne. t = 1.209\nf. 0.8792\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05. iv. Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds. [/PARTS]\ni. (128.63, 130.37)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ ≥ 129\nb. Ha:μ < 129\nc. Let X̄ = the average time in seconds that Terri finishes Lap 4.\nd. Student's t-distribution\ne. t = 1.209\nf. 0.8792\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to conclude that Terri’s mean lap time is less than 129 seconds.\n[/PARTS]\ni. (128.63, 130.37)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1070,7 +1070,7 @@
    "module": "m47019",
    "exerciseId": "ex1"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done. [/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
+  "modelSolution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS]\ni. alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done.\n[/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
   "needsFigure": false,
   "explanation": []
  },
@@ -1085,7 +1085,7 @@
    "module": "m47019",
    "exerciseId": "exer4"
   },
-  "modelSolution": "[PARTS]\na. H0:μ ≥ 22\nb. Ha:μ < 22\nc. Let X̄ = the mean number of bubbles per blow.\nd. Student's t-distribution\ne. –2.667\nf. p-value = 0.00486\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: The p-value is less than 0.05. iv. Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22. [/PARTS]\ni. (18.501, 21.499)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ ≥ 22\nb. Ha:μ < 22\nc. Let X̄ = the mean number of bubbles per blow.\nd. Student's t-distribution\ne. –2.667\nf. p-value = 0.00486\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: There is sufficient evidence to conclude that the mean number of bubbles per blow is less than 22.\n[/PARTS]\ni. (18.501, 21.499)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1100,7 +1100,7 @@
    "module": "m47019",
    "exerciseId": "exer5"
   },
-  "modelSolution": "[PARTS]\na. H0:μ ≤ 1\nb. Ha:μ > 1\nc. Let X̄ = the mean cost in dollars of macaroni and cheese in a certain town.\nd. Student's t-distribution\ne. t = 0.340\nf. p-value = 0.36756\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05 iv. Conclusion: The mean cost could be $1, or less. At the 5% significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1. [/PARTS]\ni. (0.8291, 1.241)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:μ ≤ 1\nb. Ha:μ > 1\nc. Let X̄ = the mean cost in dollars of macaroni and cheese in a certain town.\nd. Student's t-distribution\ne. t = 0.340\nf. p-value = 0.36756\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05\niv. Conclusion: The mean cost could be $1, or less. At the 5% significance level, there is insufficient evidence to conclude that the mean price of a box of macaroni and cheese is more than $1.\n[/PARTS]\ni. (0.8291, 1.241)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1115,7 +1115,7 @@
    "module": "m47019",
    "exerciseId": "exer7"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.01\nb. Ha:p > 0.01\nc. Let P′ = the proportion of errors generated\nd. Normal for a single proportion\ne. 2.13\nf. 0.0165\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis iii. Reason for decision: The p-value is less than 0.05. iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01. [/PARTS]\ni. Confidence interval: (0, 0.094).The“plus-4s” confidence interval is (0.004, 0.144).\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.01\nb. Ha:p > 0.01\nc. Let P′ = the proportion of errors generated\nd. Normal for a single proportion\ne. 2.13\nf. 0.0165\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of errors generated is more than 0.01.\n[/PARTS]\ni. Confidence interval: (0, 0.094).The“plus-4s” confidence interval is (0.004, 0.144).\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1130,7 +1130,7 @@
    "module": "m47019",
    "exerciseId": "exerrr"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.50\nb. Ha:p < 0.50\nc. Let P′ = the proportion of friends that has a pierced ear.\nd. normal for a single proportion\ne. –1.70\nf. p-value = 0.0448\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis iii. Reason for decision: The p-value is less than 0.05. (However, they are very close.) iv. Conclusion: There is sufficient evidence to support the claim that less than 50% of his friends have pierced ears. [/PARTS]\ni. Confidence Interval: (0.245, 0.515): The “plus-4s” confidence interval is (0.259, 0.519).\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.50\nb. Ha:p < 0.50\nc. Let P′ = the proportion of friends that has a pierced ear.\nd. normal for a single proportion\ne. –1.70\nf. p-value = 0.0448\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: The p-value is less than 0.05. (However, they are very close.)\niv. Conclusion: There is sufficient evidence to support the claim that less than 50% of his friends have pierced ears.\n[/PARTS]\ni. Confidence Interval: (0.245, 0.515): The “plus-4s” confidence interval is (0.259, 0.519).\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1145,7 +1145,7 @@
    "module": "m47019",
    "exerciseId": "element-378"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.40\nb. Ha:p < 0.40\nc. Let P′ = the proportion of schoolmates who fear public speaking.\nd. normal for a single proportion\ne. –1.01\nf. p-value = 0.1563\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05. iv. Conclusion: There is insufficient evidence to support the claim that less than 40% of students at the school fear public speaking. [/PARTS]\ni. Confidence Interval: (0.3241, 0.4240): The “plus-4s” confidence interval is (0.3257, 0.4250).\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.40\nb. Ha:p < 0.40\nc. Let P′ = the proportion of schoolmates who fear public speaking.\nd. normal for a single proportion\ne. –1.01\nf. p-value = 0.1563\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is greater than 0.05.\niv. Conclusion: There is insufficient evidence to support the claim that less than 40% of students at the school fear public speaking.\n[/PARTS]\ni. Confidence Interval: (0.3241, 0.4240): The “plus-4s” confidence interval is (0.3257, 0.4250).\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1160,7 +1160,7 @@
    "module": "m47019",
    "exerciseId": "element-874"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: The p-value is greater than 0.05. iv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14. [/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS]\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: The p-value is greater than 0.05.\niv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14.\n[/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1175,7 +1175,7 @@
    "module": "m47019",
    "exerciseId": "element-408"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: The p-value is less than 0.05. iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110. [/PARTS]\ni. ($68,757, $73,485)\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS]\ni. alpha 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: The p-value is less than 0.05.\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean salary of California registered nurses exceeds $69,110.\n[/PARTS]\ni. ($68,757, $73,485)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

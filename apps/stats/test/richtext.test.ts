@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { estimateLines, parseRich, plainText, type RichBlock } from '@/lib/richtext';
 import { allQuestions } from '@/lib/server/content';
+import { isQuizzable } from '@/lib/verify';
 
 const kinds = (blocks: RichBlock[]) => blocks.map((b) => b.kind);
 
@@ -76,5 +77,57 @@ describe('the shipped questions as the learner sees them', () => {
       if (estimateLines(parseRich(q.stem)) > 45) tall.push(`${q.id} question`);
     }
     expect(tall).toEqual([]);
+  });
+});
+
+describe('markup nested inside a part', () => {
+  const nested = [
+    '[PARTS]',
+    'a. Complete the table.',
+    '[TABLE]',
+    'Size | Cost | cents/oz',
+    '16 | 3.99 | 24.94',
+    '32 | 4.99 | 15.59',
+    '[/TABLE]',
+    'b. Check the linear trend.',
+    '[/PARTS]',
+  ].join('\n');
+
+  it('keeps the part list whole instead of orphaning its tags', () => {
+    const blocks = parseRich(nested);
+    expect(blocks).toHaveLength(1);
+    expect(blocks[0]?.kind).toBe('parts');
+    // the literal markers must never reach the page
+    expect(JSON.stringify(blocks)).not.toMatch(/\[\/?PARTS\]/);
+  });
+
+  it('parses the table inside the part as a table, not one long row', () => {
+    const parts = parseRich(nested)[0] as Extract<ReturnType<typeof parseRich>[number], { kind: 'parts' }>;
+    const inner = parseRich(parts.items[0]?.text ?? '');
+    const table = inner.find((b) => b.kind === 'table') as Extract<(typeof inner)[number], { kind: 'table' }>;
+    expect(table, 'no table parsed inside part a').toBeDefined();
+    expect(table.cols).toBe(3);
+    expect(table.rows).toHaveLength(2);
+    expect(table.head).toEqual(['Size', 'Cost', 'cents/oz']);
+  });
+
+  it('summarises a nested part without leaking markup', () => {
+    const text = plainText(parseRich(nested), 200);
+    expect(text).not.toMatch(/\[TABLE\]|\[PARTS\]/);
+    expect(text).toMatch(/Complete the table/);
+  });
+});
+
+describe('the shipped bank', () => {
+  it('never leaves a block marker in rendered text', () => {
+    const leaks: string[] = [];
+    for (const q of allQuestions().filter(isQuizzable)) {
+      const sources = [q.stem, q.context ?? '', q.kind === 'open' ? q.modelSolution : ''];
+      for (const src of sources) {
+        if (!src) continue;
+        if (/\[(TABLE|DATA|LIST|PARTS)\]/.test(plainText(parseRich(src), 4000))) leaks.push(q.id);
+      }
+    }
+    expect([...new Set(leaks)]).toEqual([]);
   });
 });

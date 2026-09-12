@@ -427,13 +427,13 @@
   "sectionId": "8.1",
   "kind": "open",
   "conceptTag": "8.1",
-  "stem": "Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95% confidence interval for the mean height of male Swedes. Forty-eight male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 inches.\n\n[PARTS]\na. [PARTS] i. x̄ =________ ii. σ =________ iii. n =________ [/PARTS]\nb. In words, define the random variables X andX̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean height of male Swedes. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\ne. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?\n[/PARTS]",
+  "stem": "Among various ethnic groups, the standard deviation of heights is known to be approximately three inches. We wish to construct a 95% confidence interval for the mean height of male Swedes. Forty-eight male Swedes are surveyed. The sample mean is 71 inches. The sample standard deviation is 2.8 inches.\n\n[PARTS]\na. [PARTS]\ni. x̄ =________\nii. σ =________\niii. n =________\n[/PARTS]\nb. In words, define the random variables X andX̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean height of male Swedes. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\ne. What will happen to the level of confidence obtained if 1,000 male Swedes are surveyed instead of 48? Why?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47002",
    "exerciseId": "exer1"
   },
-  "modelSolution": "[PARTS]\na. [DATA]71, 3, 48[/DATA]\nb. X is the height of a Swiss male, and is the mean height from a sample of 48 Swiss males.\nc. Normal. We know the standard deviation for the population, and the sample size is greater than 30.\nd. [PARTS] i. CI: (70.151, 71.49) ii. [FIGURE] iii. EBM = 0.849 [/PARTS]\ne. The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [DATA]71, 3, 48[/DATA]\nb. X is the height of a Swiss male, and is the mean height from a sample of 48 Swiss males.\nc. Normal. We know the standard deviation for the population, and the sample size is greater than 30.\nd. [PARTS]\ni. CI: (70.151, 71.49)\nii. [FIGURE]\niii. EBM = 0.849\n[/PARTS]\ne. The confidence interval will decrease in size, because the sample size increased. Recall, when all factors remain unchanged, an increase in sample size decreases variability. Thus, we do not need as large an interval to capture the true population mean.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -442,13 +442,13 @@
   "sectionId": "8.1",
   "kind": "open",
   "conceptTag": "8.1",
-  "stem": "Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.\n\n[PARTS]\na. [PARTS] i. x̄ =________ ii. σ =________ iii. n =________ [/PARTS]\nb. In words, define the random variables X andX̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean time to complete the tax forms. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\ne. If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, what changes should it make?\nf. If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?\ng. Suppose that the firm decided that it needed to be at least 96% confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?\n[/PARTS]",
+  "stem": "Suppose that an accounting firm does a study to determine the time needed to complete one person’s tax forms. It randomly surveys 100 people. The sample mean is 23.6 hours. There is a known standard deviation of 7.0 hours. The population distribution is assumed to be normal.\n\n[PARTS]\na. [PARTS]\ni. x̄ =________\nii. σ =________\niii. n =________\n[/PARTS]\nb. In words, define the random variables X andX̄.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean time to complete the tax forms. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\ne. If the firm wished to increase its level of confidence and keep the error bound the same by taking another survey, what changes should it make?\nf. If the firm did another survey, kept the error bound the same, and only surveyed 49 people, what would happen to the level of confidence? Why?\ng. Suppose that the firm decided that it needed to be at least 96% confident of the population mean length of time to within one hour. How would the number of people the firm surveys change? Why?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47002",
    "exerciseId": "exer6"
   },
-  "modelSolution": "[PARTS]\na. [PARTS] i. x̄ = 23.6 ii. σ = 7 iii. n = 100 [/PARTS]\nb. X is the time needed to complete an individual tax form.X̄ is the mean time to complete tax forms from a sample of 100 customers.\nc. N(23.6,7/(√(100))) because we know sigma.\nd. [PARTS] i. (22.228, 24.972) ii. [FIGURE] iii. EBM = 1.372 [/PARTS]\ne. It will need to change the sample size. The firm needs to determine what the confidence level should be, then apply the error bound formula to determine the necessary sample size.\nf. The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.\ng. According to the error bound formula, the firm needs to survey 206 people. Since we increase the confidence level, we need to increase either our error bound or the sample size.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [PARTS]\ni. x̄ = 23.6\nii. σ = 7\niii. n = 100\n[/PARTS]\nb. X is the time needed to complete an individual tax form.X̄ is the mean time to complete tax forms from a sample of 100 customers.\nc. N(23.6,7/(√(100))) because we know sigma.\nd. [PARTS]\ni. (22.228, 24.972)\nii. [FIGURE]\niii. EBM = 1.372\n[/PARTS]\ne. It will need to change the sample size. The firm needs to determine what the confidence level should be, then apply the error bound formula to determine the necessary sample size.\nf. The confidence level would increase as a result of a larger interval. Smaller sample sizes result in more variability. To capture the true population mean, we need to have a larger interval.\ng. According to the error bound formula, the firm needs to survey 206 people. Since we increase the confidence level, we need to increase either our error bound or the sample size.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -457,13 +457,13 @@
   "sectionId": "8.1",
   "kind": "open",
   "conceptTag": "8.1",
-  "stem": "A camp director is interested in the mean number of letters each child sends during their camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9 with a sample standard deviation of 2.8.\n\n[PARTS]\na. [PARTS] i. x̄ =________ ii. σ =________ iii. n =________ [/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean number of letters campers send home. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\ne. What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?\n[/PARTS]",
+  "stem": "A camp director is interested in the mean number of letters each child sends during their camp session. The population standard deviation is known to be 2.5. A survey of 20 campers is taken. The mean from the sample is 7.9 with a sample standard deviation of 2.8.\n\n[PARTS]\na. [PARTS]\ni. x̄ =________\nii. σ =________\niii. n =________\n[/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 90% confidence interval for the population mean number of letters campers send home. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\ne. What will happen to the error bound and confidence interval if 500 campers are surveyed? Why?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47002",
    "exerciseId": "exerci"
   },
-  "modelSolution": "[PARTS]\na. [DATA]7.9, 2.5, 20[/DATA]\nb. X is the number of letters a single camper will send home. X̄ is the mean number of letters sent home from a sample of 20 campers.\nc. N 7.9(2.5/(√(20)))\nd. [PARTS] i. CI: (6.98, 8.82) ii. [FIGURE] iii. EBM: 0.92 [/PARTS]\ne. The error bound and confidence interval will decrease.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [DATA]7.9, 2.5, 20[/DATA]\nb. X is the number of letters a single camper will send home. X̄ is the mean number of letters sent home from a sample of 20 campers.\nc. N 7.9(2.5/(√(20)))\nd. [PARTS]\ni. CI: (6.98, 8.82)\nii. [FIGURE]\niii. EBM: 0.92\n[/PARTS]\ne. The error bound and confidence interval will decrease.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -478,7 +478,7 @@
    "module": "m47002",
    "exerciseId": "eip-217"
   },
-  "modelSolution": "[PARTS]\na. x̄ = $568,873\nb. CL = 0.95α = 1 – 0.95 = 0.05z_(α/2) = 1.96EBM =z_(0.025)σ/(√(n)) = 1.96909200/(√(40)) = $281,764\nc. x̄ −EBM = 568,873 − 281,764 = 287,109x̄ +EBM = 568,873 + 281,764 = 850,637Alternate solution:[PARTS] 1. Press STAT and arrow over toTESTS. 2. Arrow down to 7:ZInterval. 3. Press ENTER. 4. Arrow to Stats and press ENTER. 5. Arrow down and enter the following values: [LIST] σ : 909,200 x̄: 568,873 n: 40 CL: 0.95 [/LIST] 6. Arrow down to Calculate and press ENTER. 7. The confidence interval is ($287,114, $850,632). 8. Notice the small difference between the two solutions–these differences are simply due to rounding error in the hand calculations. [/PARTS]\nd. We estimate with 95% confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. x̄ = $568,873\nb. CL = 0.95α = 1 – 0.95 = 0.05z_(α/2) = 1.96EBM =z_(0.025)σ/(√(n)) = 1.96909200/(√(40)) = $281,764\nc. x̄ −EBM = 568,873 − 281,764 = 287,109x̄ +EBM = 568,873 + 281,764 = 850,637Alternate solution:[PARTS]\n1. Press STAT and arrow over toTESTS.\n2. Arrow down to 7:ZInterval.\n3. Press ENTER.\n4. Arrow to Stats and press ENTER.\n5. Arrow down and enter the following values: [LIST]\nσ : 909,200\nx̄: 568,873\nn: 40\nCL: 0.95\n[/LIST] 6. Arrow down to Calculate and press ENTER. 7. The confidence interval is ($287,114, $850,632). 8. Notice the small difference between the two solutions–these differences are simply due to rounding error in the hand calculations. [/PARTS]\nd. We estimate with 95% confidence that the mean amount of contributions received from all individuals by House candidates is between $287,109 and $850,637.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -727,13 +727,13 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414; 1,550; 2,109; 9,350; 21,828; 4,300; 5,944; 5,722; 2,825; 2,044; 5,481; 5,200; 5,853; 2,750; 10,012; 6,357; 27,000; 9,414; 7,681; 3,200; 17,500; 9,200; 7,380; 18,314; 6,557; 13,713; 17,768; 7,493; 2,771; 2,861; 1,263; 7,285; 28,165; 5,080; 11,622. Assume the underlying population is normal.\n\n[PARTS]\na. [PARTS] i. x̄ = __________ ii. s_x = __________ iii. n = __________ iv. n – 1 = __________ [/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean enrollment at community colleges in the United States. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\ne. What will happen to the error bound and confidence interval if 500 community colleges were surveyed? Why?\n[/PARTS]",
+  "stem": "A random survey of enrollment at 35 community colleges across the United States yielded the following figures: 6,414; 1,550; 2,109; 9,350; 21,828; 4,300; 5,944; 5,722; 2,825; 2,044; 5,481; 5,200; 5,853; 2,750; 10,012; 6,357; 27,000; 9,414; 7,681; 3,200; 17,500; 9,200; 7,380; 18,314; 6,557; 13,713; 17,768; 7,493; 2,771; 2,861; 1,263; 7,285; 28,165; 5,080; 11,622. Assume the underlying population is normal.\n\n[PARTS]\na. [PARTS]\ni. x̄ = __________\nii. s_x = __________\niii. n = __________\niv. n – 1 = __________\n[/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 95% confidence interval for the population mean enrollment at community colleges in the United States. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\ne. What will happen to the error bound and confidence interval if 500 community colleges were surveyed? Why?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47001",
    "exerciseId": "exer3"
   },
-  "modelSolution": "[PARTS]\na. [DATA]8629, 6944, 35, 34[/DATA]\nb. t_34\nc. [PARTS] i. CI: (6244, 11,014) ii. [FIGURE] iii. EB = 2385 [/PARTS]\nd. It will become smaller\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [DATA]8629, 6944, 35, 34[/DATA]\nb. t_34\nc. [PARTS]\ni. CI: (6244, 11,014)\nii. [FIGURE]\niii. EB = 2385\n[/PARTS]\nd. It will become smaller\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -742,13 +742,13 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "A pharmaceutical company makes tranquilizers. It is assumed that the distribution for the length of time they last is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the tranquilizer for each patient (in hours) was as follows: 2.7; 2.8; 3.0; 2.3; 2.3; 2.2; 2.8; 2.1; and 2.4.\n\n[PARTS]\na. [PARTS] i. x̄ = __________ ii. s_x = __________ iii. n = __________ iv. n – 1 = __________ [/PARTS]\nb. Define the random variable X in words.\nc. Define the random variable X̄ in words.\nd. Which distribution should you use for this problem? Explain your choice.\ne. Construct a 95% confidence interval for the population mean length of time. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\nf. What does it mean to be “95% confident” in this problem?\n[/PARTS]",
+  "stem": "A pharmaceutical company makes tranquilizers. It is assumed that the distribution for the length of time they last is approximately normal. Researchers in a hospital used the drug on a random sample of nine patients. The effective period of the tranquilizer for each patient (in hours) was as follows: 2.7; 2.8; 3.0; 2.3; 2.3; 2.2; 2.8; 2.1; and 2.4.\n\n[PARTS]\na. [PARTS]\ni. x̄ = __________\nii. s_x = __________\niii. n = __________\niv. n – 1 = __________\n[/PARTS]\nb. Define the random variable X in words.\nc. Define the random variable X̄ in words.\nd. Which distribution should you use for this problem? Explain your choice.\ne. Construct a 95% confidence interval for the population mean length of time. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\nf. What does it mean to be “95% confident” in this problem?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47001",
    "exerciseId": "exer10"
   },
-  "modelSolution": "[PARTS]\na. [PARTS] i. x̄ = 2.51 ii. s_x = 0.318 iii. n = 9 iv. n - 1 = 8 [/PARTS]\nb. the effective length of time for a tranquilizer\nc. the mean effective length of time of tranquilizers from a sample of nine patients\nd. We need to use a Student’s-t distribution, because we do not know the population standard deviation.\ne. [PARTS] i. CI: (2.27, 2.76) ii. Answers may vary. iii. EBM: 0.25 [/PARTS]\nf. If we were to sample many groups of nine patients, 95% of the samples would contain the true population mean length of time.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [PARTS]\ni. x̄ = 2.51\nii. s_x = 0.318\niii. n = 9\niv. n - 1 = 8\n[/PARTS]\nb. the effective length of time for a tranquilizer\nc. the mean effective length of time of tranquilizers from a sample of nine patients\nd. We need to use a Student’s-t distribution, because we do not know the population standard deviation.\ne. [PARTS]\ni. CI: (2.27, 2.76)\nii. Answers may vary.\niii. EBM: 0.25\n[/PARTS]\nf. If we were to sample many groups of nine patients, 95% of the samples would contain the true population mean length of time.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -772,13 +772,13 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats and the sample standard deviation is 4.1 seats.\n\n[PARTS]\na. [PARTS] i. x̄ = __________ ii. s_x = __________ iii. n = __________ iv. n-1 = __________ [/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 92% confidence interval for the population mean number of unoccupied seats per flight. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\n[/PARTS]",
+  "stem": "Unoccupied seats on flights cause airlines to lose revenue. Suppose a large airline wants to estimate its mean number of unoccupied seats per flight over the past year. To accomplish this, the records of 225 flights are randomly selected and the number of unoccupied seats is noted for each of the sampled flights. The sample mean is 11.6 seats and the sample standard deviation is 4.1 seats.\n\n[PARTS]\na. [PARTS]\ni. x̄ = __________\nii. s_x = __________\niii. n = __________\niv. n-1 = __________\n[/PARTS]\nb. Define the random variables X andX̄ in words.\nc. Which distribution should you use for this problem? Explain your choice.\nd. Construct a 92% confidence interval for the population mean number of unoccupied seats per flight. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47001",
    "exerciseId": "eip-392"
   },
-  "modelSolution": "[PARTS]\na. [PARTS] i. x̄ = 11.6 ii. s_x = 4.1 iii. n = 225 iv. n - 1 = 224 [/PARTS]\nb. X is the number of unoccupied seats on a single flight.X̄ is the mean number of unoccupied seats from a sample of 225 flights.\nc. We will use a Student’s-t distribution, because we do not know the population standard deviation.\nd. [PARTS] i. CI: (11.12 , 12.08) ii. Answers may vary. iii. EBM: 0.48 [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [PARTS]\ni. x̄ = 11.6\nii. s_x = 4.1\niii. n = 225\niv. n - 1 = 224\n[/PARTS]\nb. X is the number of unoccupied seats on a single flight.X̄ is the mean number of unoccupied seats from a sample of 225 flights.\nc. We will use a Student’s-t distribution, because we do not know the population standard deviation.\nd. [PARTS]\ni. CI: (11.12 , 12.08)\nii. Answers may vary.\niii. EBM: 0.48\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -787,13 +787,13 @@
   "sectionId": "8.2",
   "kind": "open",
   "conceptTag": "8.2",
-  "stem": "Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8; 8; 10; 7; 9; 9. Assume the underlying distribution is approximately normal.\n\n[PARTS]\na. Construct a 90% confidence interval for the population mean grams of fat per serving of chocolate chip cookies sold in supermarkets. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\nb. If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?\nc. Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.\nd. Calculate the mean.\ne. Is the mean within the interval you calculated in part a? Did you expect it to be? Why or why not?\n[/PARTS]",
+  "stem": "Six different national brands of chocolate chip cookies were randomly selected at the supermarket. The grams of fat per serving are as follows: 8; 8; 10; 7; 9; 9. Assume the underlying distribution is approximately normal.\n\n[PARTS]\na. Construct a 90% confidence interval for the population mean grams of fat per serving of chocolate chip cookies sold in supermarkets. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\nb. If you wanted a smaller error bound while keeping the same level of confidence, what should have been changed in the study before it was done?\nc. Go to the store and record the grams of fat per serving of six brands of chocolate chip cookies.\nd. Calculate the mean.\ne. Is the mean within the interval you calculated in part a? Did you expect it to be? Why or why not?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47001",
    "exerciseId": "eip-789"
   },
-  "modelSolution": "[PARTS]\na. [PARTS] i. CI: (7.64 , 9.36) ii. [FIGURE] iii. EBM: 0.86 [/PARTS]\nb. The sample should have been increased.\nc. Answers will vary.\nd. Answers will vary.\ne. Answers will vary.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [PARTS]\ni. CI: (7.64 , 9.36)\nii. [FIGURE]\niii. EBM: 0.86\n[/PARTS]\nb. The sample should have been increased.\nc. Answers will vary.\nd. Answers will vary.\ne. Answers will vary.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1175,13 +1175,13 @@
   "sectionId": "8.3",
   "kind": "open",
   "conceptTag": "8.3",
-  "stem": "According to a recent survey of 1,200 people, 61% feel that the president is doing an acceptable job. We are interested in the population proportion of people who feel the president is doing an acceptable job.\n\n[PARTS]\na. Define the random variables X andP′ in words.\nb. Which distribution should you use for this problem? Explain your choice.\nc. Construct a 90% confidence interval for the population proportion of people who feel the president is doing an acceptable job. [PARTS] i. State the confidence interval. ii. Sketch the graph. iii. Calculate the error bound. [/PARTS]\n[/PARTS]",
+  "stem": "According to a recent survey of 1,200 people, 61% feel that the president is doing an acceptable job. We are interested in the population proportion of people who feel the president is doing an acceptable job.\n\n[PARTS]\na. Define the random variables X andP′ in words.\nb. Which distribution should you use for this problem? Explain your choice.\nc. Construct a 90% confidence interval for the population proportion of people who feel the president is doing an acceptable job. [PARTS]\ni. State the confidence interval.\nii. Sketch the graph.\niii. Calculate the error bound.\n[/PARTS]\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46999",
    "exerciseId": "exerc4"
   },
-  "modelSolution": "[PARTS]\na. X = the number of people who feel that the president is doing an acceptable job;P′ = the proportion of people in a sample who feel that the president is doing an acceptable job.\nb. N(0.61,√(((0.61)(0.39))/1200))\nc. [PARTS] i. CI: (0.59, 0.63) ii. Answers may vary. iii. EBM: 0.02 [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. X = the number of people who feel that the president is doing an acceptable job;P′ = the proportion of people in a sample who feel that the president is doing an acceptable job.\nb. N(0.61,√(((0.61)(0.39))/1200))\nc. [PARTS]\ni. CI: (0.59, 0.63)\nii. Answers may vary.\niii. EBM: 0.02\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1190,13 +1190,13 @@
   "sectionId": "8.3",
   "kind": "open",
   "conceptTag": "8.3",
-  "stem": "Refer to the information in the exercise above.\n\n[PARTS]\na. Construct three 95% confidence intervals. [PARTS] i. percent of all Asians who would welcome a White person into their families. ii. percent of all Asians who would welcome a Hispanic/Latino into their families. iii. percent of all Asians who would welcome a Black person into their families. [/PARTS]\nb. Even though the three point estimates are different, do any of the confidence intervals overlap? Which?\nc. For any intervals that do overlap, in words, what does this imply about the significance of the differences in the true proportions?\nd. For any intervals that do not overlap, in words, what does this imply about the significance of the differences in the true proportions?\n[/PARTS]",
+  "stem": "Refer to the information in the exercise above.\n\n[PARTS]\na. Construct three 95% confidence intervals. [PARTS]\ni. percent of all Asians who would welcome a White person into their families.\nii. percent of all Asians who would welcome a Hispanic/Latino into their families.\niii. percent of all Asians who would welcome a Black person into their families.\n[/PARTS]\nb. Even though the three point estimates are different, do any of the confidence intervals overlap? Which?\nc. For any intervals that do overlap, in words, what does this imply about the significance of the differences in the true proportions?\nd. For any intervals that do not overlap, in words, what does this imply about the significance of the differences in the true proportions?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46999",
    "exerciseId": "exe1"
   },
-  "modelSolution": "[PARTS]\na. [PARTS] i. (0.72, 0.82) ii. (0.65, 0.76) iii. (0.60, 0.72) [/PARTS]\nb. Yes, the intervals (0.72, 0.82) and (0.65, 0.76) overlap, and the intervals (0.65, 0.76) and (0.60, 0.72) overlap.\nc. We can say that there does not appear to be a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Hispanic/Latino person into their families.\nd. We can say that there is a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Black person into their families.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [PARTS]\ni. (0.72, 0.82)\nii. (0.65, 0.76)\niii. (0.60, 0.72)\n[/PARTS]\nb. Yes, the intervals (0.72, 0.82) and (0.65, 0.76) overlap, and the intervals (0.65, 0.76) and (0.60, 0.72) overlap.\nc. We can say that there does not appear to be a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Hispanic/Latino person into their families.\nd. We can say that there is a significant difference between the proportion of Asian adults who say that their families would welcome a White person into their families and the proportion of Asian adults who say that their families would welcome a Black person into their families.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

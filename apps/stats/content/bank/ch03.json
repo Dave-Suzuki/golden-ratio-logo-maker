@@ -849,7 +849,7 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "A survey was conducted in a large city to measure the popularity of that city’s mayor. The survey was repeated every year for three years. The survey polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results the poll produced:\n\n[LIST]\nIn Year 1, 60% of the population approved of the mayor’s actions in office.\nIn Year 2, 57% of the population approved of his actions.\nIn Year 3, the percentage of popular approval was measured at 42%.[PARTS] a. What is the sample size for this study? b. What proportion in the poll disapproved of the mayor, according to the results from Year 3? c. How many people polled responded that they approved the mayor based on results from Year 3? d. What is the probability that a person supported the mayor, based on the data collected in Year 2? e. What is the probability that a person supported the mayor, based on the data collected in Year 1? [/PARTS]\n[/LIST]",
+  "stem": "A survey was conducted in a large city to measure the popularity of that city’s mayor. The survey was repeated every year for three years. The survey polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results the poll produced:\n\n[LIST]\nIn Year 1, 60% of the population approved of the mayor’s actions in office.\nIn Year 2, 57% of the population approved of his actions.\nIn Year 3, the percentage of popular approval was measured at 42%.[PARTS]\na. What is the sample size for this study?\nb. What proportion in the poll disapproved of the mayor, according to the results from Year 3?\nc. How many people polled responded that they approved the mayor based on results from Year 3?\nd. What is the probability that a person supported the mayor, based on the data collected in Year 2?\ne. What is the probability that a person supported the mayor, based on the data collected in Year 1?\n[/PARTS]\n[/LIST]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
@@ -880,7 +880,7 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.\n\n[LIST]\nG = card drawn is green\nE = card drawn is even-numbered[PARTS] a. List the sample space. b. P(G) = _____ c. P(G|E) = _____ d. P(G ANDE) = _____ e. P(G ORE) = _____ f. Are G andE mutually exclusive? Justify your answer numerically. [/PARTS]\n[/LIST]",
+  "stem": "Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.\n\n[LIST]\nG = card drawn is green\nE = card drawn is even-numbered[PARTS]\na. List the sample space.\nb. P(G) = _____\nc. P(G|E) = _____\nd. P(G ANDE) = _____\ne. P(G ORE) = _____\nf. Are G andE mutually exclusive? Justify your answer numerically.\n[/PARTS]\n[/LIST]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
@@ -1190,7 +1190,7 @@
    "module": "m46935",
    "exerciseId": "tablular-ex"
   },
-  "modelSolution": "[PARTS]\na. [TABLE] Race and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS White, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395 White, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129 Black, male | 142 | 194 | 384 | 104 | 824 Black, female | 131 | 290 | 486 | 154 | 1,061 All others | | | | 156 | TOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081 [/TABLE]\nb. [TABLE] Race and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS White, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395 White, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129 Black, male | 142 | 194 | 384 | 104 | 824 Black, female | 131 | 290 | 486 | 154 | 1,061 All others | 278 | 517 | 721 | 156 | 1672 TOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081 [/TABLE]\nc. (8,395)/(21,081)≈0.3982\nd. (1,061)/(21,081)≈0.0503\ne. (1,885)/(21,081)≈0.0894\nf. (9,219)/(19,409)≈0.475\ng. (1,595)/(3,500)≈0.456\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [TABLE]\nRace and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129\nBlack, male | 142 | 194 | 384 | 104 | 824\nBlack, female | 131 | 290 | 486 | 154 | 1,061\nAll others | | | | 156 |\nTOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081\n[/TABLE]\nb. [TABLE]\nRace and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129\nBlack, male | 142 | 194 | 384 | 104 | 824\nBlack, female | 131 | 290 | 486 | 154 | 1,061\nAll others | 278 | 517 | 721 | 156 | 1672\nTOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081\n[/TABLE]\nc. (8,395)/(21,081)≈0.3982\nd. (1,061)/(21,081)≈0.0503\ne. (1,885)/(21,081)≈0.0894\nf. (9,219)/(19,409)≈0.475\ng. (1,595)/(3,500)≈0.456\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1456,7 +1456,7 @@
    "exerciseId": "element-950"
   },
   "context": "The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
-  "modelSolution": "[PARTS]\na. [TABLE] | <20 | 20–64 | >64 | Totals Women | 0.0244 | 0.3954 | 0.0661 | 0.486 Men | 0.0259 | 0.4186 | 0.0695 | 0.514 Totals | 0.0503 | 0.8140 | 0.1356 | 1 [/TABLE]\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 andF) =P(F)P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older andP(>64 andF) is the percentage of drivers who are women and 65 or older.\nf. P(>64) =P(>64 andF) +P(>64 andM) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [TABLE]\n| <20 | 20–64 | >64 | Totals\nWomen | 0.0244 | 0.3954 | 0.0661 | 0.486\nMen | 0.0259 | 0.4186 | 0.0695 | 0.514\nTotals | 0.0503 | 0.8140 | 0.1356 | 1\n[/TABLE]\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 andF) =P(F)P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older andP(>64 andF) is the percentage of drivers who are women and 65 or older.\nf. P(>64) =P(>64 andF) +P(>64 andM) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1471,7 +1471,7 @@
    "module": "m46944",
    "exerciseId": "element-974"
   },
-  "modelSolution": "[PARTS]\na. [TABLE] | Car, Truck or Van | Walk | Public Transportation | Other | Totals Alone | 0.7318 | | | | Not Alone | 0.1332 | | | | Totals | 0.8650 | 0.0390 | 0.0530 | 0.0430 | 1 [/TABLE]\nb. If we assume that all walkers are alone and that none from the other two groups travel alone (which is a big assumption) we have: P(Alone) = 0.7318 + 0.0390 = 0.7708.\nc. Make the same assumptions as in (b) we have: (0.7708)(1,000) = 771\nd. (0.1332)(1,000) = 133\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [TABLE]\n| Car, Truck or Van | Walk | Public Transportation | Other | Totals\nAlone | 0.7318 | | | |\nNot Alone | 0.1332 | | | |\nTotals | 0.8650 | 0.0390 | 0.0530 | 0.0430 | 1\n[/TABLE]\nb. If we assume that all walkers are alone and that none from the other two groups travel alone (which is a big assumption) we have: P(Alone) = 0.7318 + 0.0390 = 0.7708.\nc. Make the same assumptions as in (b) we have: (0.7708)(1,000) = 771\nd. (0.1332)(1,000) = 133\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

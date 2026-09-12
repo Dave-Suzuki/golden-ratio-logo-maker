@@ -304,7 +304,7 @@
    "module": "m47064",
    "exerciseId": "element-340"
   },
-  "modelSolution": "[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 | 125.2\nmarried | 56.1 | 224.4\nwidowed | 2.5 | 10\ndivorced/separated | 10.1 | 40.4\n[/TABLE]\n\n[PARTS]\na. The data fits the distribution.\nb. The data does not fit the distribution.\nc. 3\nd. chi-square distribution with df = 3\ne. 19.27\nf. 0.0002\ng. Check student’s solution.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject null iii. Reason for decision: p-value < alpha iv. Conclusion: Data does not fit the distribution. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 | 125.2\nmarried | 56.1 | 224.4\nwidowed | 2.5 | 10\ndivorced/separated | 10.1 | 40.4\n[/TABLE]\n\n[PARTS]\na. The data fits the distribution.\nb. The data does not fit the distribution.\nc. 3\nd. chi-square distribution with df = 3\ne. 19.27\nf. 0.0002\ng. Check student’s solution.\nh. [PARTS]\ni. Alpha = 0.05\nii. Decision: Reject null\niii. Reason for decision: p-value < alpha\niv. Conclusion: Data does not fit the distribution.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -320,7 +320,7 @@
    "exerciseId": "element-849"
   },
   "context": "The columns in the table below contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]",
-  "modelSolution": "[PARTS]\na. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject null when a = 0.05 iii. Reason for Decision: p-value < alpha iv. Conclusion: Local data do not fit the mass transit Distribution. v. Decision: Do not reject null when a = 0.01 vi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh. [PARTS]\ni. Alpha = 0.05\nii. Decision: Reject null when a = 0.05\niii. Reason for Decision: p-value < alpha\niv. Conclusion: Local data do not fit the mass transit Distribution.\nv. Decision: Do not reject null when a = 0.01\nvi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -336,7 +336,7 @@
    "exerciseId": "element-465"
   },
   "context": "UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for the exercise above and the exercise above. The second column in each table does not add to 100% because of rounding.",
-  "modelSolution": "[PARTS]\na. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Do not reject null when a = 0.05 anda = 0.01 iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh. [PARTS]\ni. Alpha = 0.05\nii. Decision: Do not reject null when a = 0.05 anda = 0.01\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -644,7 +644,7 @@
    "module": "m47077",
    "exerciseId": "fs-idm133556096"
   },
-  "modelSolution": "[PARTS]\na. H0: Car size is independent of family size.\nb. Ha: Car size is dependent on family size.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.8284\nf. p-value = 0.0706\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: Car size is independent of family size.\nb. Ha: Car size is dependent on family size.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.8284\nf. p-value = 0.0706\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -659,7 +659,7 @@
    "module": "m47077",
    "exerciseId": "element-8d1"
   },
-  "modelSolution": "[PARTS]\na. H0: Honeymoon locations are independent of bride’s age.\nb. Ha: Honeymoon locations are dependent on bride’s age.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.7027\nf. p-value = 0.0734\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: Honeymoon locations are independent of bride’s age.\nb. Ha: Honeymoon locations are dependent on bride’s age.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.7027\nf. p-value = 0.0734\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -674,7 +674,7 @@
    "module": "m47077",
    "exerciseId": "fs-idm153473104"
   },
-  "modelSolution": "[PARTS]\na. H0: The types of fries sold are independent of the location.\nb. Ha: The types of fries sold are dependent on the location.\nc. df = 6\nd. chi-square distribution with df = 6\ne. test statistic =18.8369\nf. p-value = 0.0044\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The types of fries sold are independent of the location.\nb. Ha: The types of fries sold are dependent on the location.\nc. df = 6\nd. chi-square distribution with df = 6\ne. test statistic =18.8369\nf. p-value = 0.0044\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -734,7 +734,7 @@
    "module": "m47077",
    "exerciseId": "eip-640"
   },
-  "modelSolution": "[PARTS]\na. H0: Age is independent of the youngest online entrepreneurs’ net worth.\nb. Ha: Age is dependent on the net worth of the youngest online entrepreneurs.\nc. df = 2\nd. chi-square distribution with df = 2\ne. test statistic = 1.76\nf. p-value 0.4144\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: Age is independent of the youngest online entrepreneurs’ net worth.\nb. Ha: Age is dependent on the net worth of the youngest online entrepreneurs.\nc. df = 2\nd. chi-square distribution with df = 2\ne. test statistic = 1.76\nf. p-value 0.4144\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -872,7 +872,7 @@
    "module": "m47091",
    "exerciseId": "eip-533"
   },
-  "modelSolution": "[PARTS]\na. H0: The distribution for personality types is the same for both majors\nb. Ha: The distribution for personality types is not the same for both majors\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 3.01\nf. p-value = 0.5568\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The distribution for personality types is the same for both majors\nb. Ha: The distribution for personality types is not the same for both majors\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 3.01\nf. p-value = 0.5568\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -887,7 +887,7 @@
    "module": "m47091",
    "exerciseId": "eip-561"
   },
-  "modelSolution": "[PARTS]\na. H0: The distribution for fish caught is the same in Green Valley Lake and in Echo Lake.\nb. Ha: The distribution for fish caught is not the same in Green Valley Lake and in Echo Lake.\nc. 3\nd. chi-square with df = 3\ne. 11.75\nf. p-value = 0.0083\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo Lake [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The distribution for fish caught is the same in Green Valley Lake and in Echo Lake.\nb. Ha: The distribution for fish caught is not the same in Green Valley Lake and in Echo Lake.\nc. 3\nd. chi-square with df = 3\ne. 11.75\nf. p-value = 0.0083\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo Lake\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -902,7 +902,7 @@
    "module": "m47091",
    "exerciseId": "eip-316"
   },
-  "modelSolution": "[PARTS]\na. H0: The distribution of average energy use in the USA is the same as in Europe between Year 1 and Year 6.\nb. Ha: The distribution of average energy use in the USA is not the same as in Europe between Year 1 and Year 6.\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 2.7434\nf. p-value = 0.7395\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The distribution of average energy use in the USA is the same as in Europe between Year 1 and Year 6.\nb. Ha: The distribution of average energy use in the USA is not the same as in Europe between Year 1 and Year 6.\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 2.7434\nf. p-value = 0.7395\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -962,7 +962,7 @@
    "module": "m47082",
    "exerciseId": "eip-519"
   },
-  "modelSolution": "[PARTS]\na. H0: The distribution for technology use is the same for community college students and university students.\nb. Ha: The distribution for technology use is not the same for community college students and university students.\nc. 2\nd. chi-square with df = 2\ne. 7.05\nf. p-value = 0.0294\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0: The distribution for technology use is the same for community college students and university students.\nb. Ha: The distribution for technology use is not the same for community college students and university students.\nc. 2\nd. chi-square with df = 2\ne. 7.05\nf. p-value = 0.0294\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1221,7 +1221,7 @@
    "module": "m47085",
    "exerciseId": "element-377ab"
   },
-  "modelSolution": "[PARTS]\na. H0:σ = 15\nb. Ha:σ > 15\nc. df = 42\nd. chi-square with df = 42\ne. test statistic = 26.88\nf. p-value = 0.9663\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Do not reject null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:σ = 15\nb. Ha:σ > 15\nc. df = 42\nd. chi-square with df = 42\ne. test statistic = 26.88\nf. p-value = 0.9663\ng. Answers may vary.\nh. [PARTS]\ni. Alpha = 0.05\nii. Decision: Do not reject null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1236,7 +1236,7 @@
    "module": "m47085",
    "exerciseId": "element-691"
   },
-  "modelSolution": "[PARTS]\na. H0:σ ≤ 3\nb. Ha:σ > 3\nc. df = 17\nd. chi-square distribution with df = 17\ne. test statistic = 28.73\nf. p-value = 0.0371\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:σ ≤ 3\nb. Ha:σ > 3\nc. df = 17\nd. chi-square distribution with df = 17\ne. test statistic = 28.73\nf. p-value = 0.0371\ng. Answers may vary.\nh. [PARTS]\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1251,7 +1251,7 @@
    "module": "m47085",
    "exerciseId": "element-503"
   },
-  "modelSolution": "[PARTS]\na. H0:σ = 2\nb. Ha:σ ≠ 2\nc. df = 14\nd. chi-square distiribution with df = 14\ne. chi-square test statistic = 5.2094\nf. p-value = 0.0346\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject the null hypothesis iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2. [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:σ = 2\nb. Ha:σ ≠ 2\nc. df = 14\nd. chi-square distiribution with df = 14\ne. chi-square test statistic = 5.2094\nf. p-value = 0.0346\ng. Answers may vary.\nh. [PARTS]\ni. Alpha = 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2.\n[/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

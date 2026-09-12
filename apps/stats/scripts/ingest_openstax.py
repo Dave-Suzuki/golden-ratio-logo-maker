@@ -113,6 +113,22 @@ ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x']
 SCALAR_RE = re.compile(r'^[−–\-+$]?\d[\d,]*(?:\.\d+)?\s*%?$|^[−–\-+]?\.\d+$')
 
 
+BLOCK_RE = re.compile(r'(\[(?:TABLE|DATA|LIST|PARTS)\][\s\S]*?\[/(?:TABLE|DATA|LIST|PARTS)\])')
+
+
+def collapse_outside_blocks(t):
+    """Squash whitespace in a list item, but not inside a block that needs its line breaks.
+
+    A list item is prose and reads better on one line, so its whitespace is collapsed. When the
+    item contains a table, that collapse also ate the newlines *between the table's rows*, and the
+    whole table arrived as a single row of 19 cells wider than the page.
+    """
+    out = []
+    for i, piece in enumerate(BLOCK_RE.split(t)):
+        out.append(piece if i % 2 else re.sub(r'\s+', ' ', piece))
+    return ''.join(out).strip()
+
+
 def is_scalar(t):
     """True for a data value (a number, optionally signed/%-suffixed, or a very short token)."""
     t = t.strip()
@@ -159,7 +175,7 @@ def text_of(el):
                 if it.text: sub.append(it.text)
                 for k in it:
                     sub.append(text_of(k) if k.tag.startswith(C) or k.tag.startswith(M) else '')
-                texts.append(re.sub(r'\s+', ' ', ''.join(sub)).strip())
+                texts.append(collapse_outside_blocks(''.join(sub)))
             # A list of short scalars is a data set, not prose: emit it on ONE line so 40 values
             # do not become 40 rendered lines. See content/README of the renderer for the markers.
             if len(texts) >= 3 and all(is_scalar(t) for t in texts):

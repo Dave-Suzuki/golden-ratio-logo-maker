@@ -714,7 +714,7 @@
    "module": "m46959",
    "exerciseId": "fs-idp10277168"
   },
-  "modelSolution": "[PARTS]\na. I am interested in the average profit or loss.\nb. Let X = the return from the raffle\nc. Win($150) or Lose ($0)\nd. [TABLE] x | P(x) 150 | 1/100 0 | 99/100 [/TABLE]\ne. 150(1/100)+0(99/100)−20=−$18.50\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. I am interested in the average profit or loss.\nb. Let X = the return from the raffle\nc. Win($150) or Lose ($0)\nd. [TABLE]\nx | P(x)\n150 | 1/100\n0 | 99/100\n[/TABLE]\ne. 150(1/100)+0(99/100)−20=−$18.50\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -774,7 +774,7 @@
    "module": "m46959",
    "exerciseId": "element-360"
   },
-  "modelSolution": "[PARTS]\na. the money won\nb. X = the amount of money won or lost\nc. $5, –$6, $10\nd. [TABLE] Roll | x | P(x) 6 | 10 | 1/6 4 or 5 | 5 | 2/6 1, 2, or 3 | –6 | 3/6 [/TABLE]\ne. Expected Value = (10)1/6 + (5)2/6 – (6)3/6 = 0.33\nf. Yes, the expected value is 33 cents\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. the money won\nb. X = the amount of money won or lost\nc. $5, –$6, $10\nd. [TABLE]\nRoll | x | P(x)\n6 | 10 | 1/6\n4 or 5 | 5 | 2/6\n1, 2, or 3 | –6 | 3/6\n[/TABLE]\ne. Expected Value = (10)1/6 + (5)2/6 – (6)3/6 = 0.33\nf. Yes, the expected value is 33 cents\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -789,7 +789,7 @@
    "module": "m46959",
    "exerciseId": "element-725"
   },
-  "modelSolution": "[PARTS]\na. [TABLE] Software Company x | P(x) 5,000,000 | 0.10 1,000,000 | 0.30 –1,000,000 | 0.60 [/TABLE][TABLE] Hardware Company x | P(x) 3,000,000 | 0.20 1,000,000 | 0.40 –1,000,00 | 0.40 [/TABLE][TABLE] Biotech Firm x | P(x) 6,00,000 | 0.10 0 | 0.70 –1,000,000 | 0.20 [/TABLE]\nb. $200,000; $600,000; $400,000\nc. third investment because it has the lowest probability of loss\nd. first investment because it has the highest probability of loss\ne. second investment\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. [TABLE]\nSoftware Company\nx | P(x)\n5,000,000 | 0.10\n1,000,000 | 0.30\n–1,000,000 | 0.60\n[/TABLE][TABLE]\nHardware Company\nx | P(x)\n3,000,000 | 0.20\n1,000,000 | 0.40\n–1,000,00 | 0.40\n[/TABLE][TABLE]\nBiotech Firm\nx | P(x)\n6,00,000 | 0.10\n0 | 0.70\n–1,000,000 | 0.20\n[/TABLE]\nb. $200,000; $600,000; $400,000\nc. third investment because it has the lowest probability of loss\nd. first investment because it has the highest probability of loss\ne. second investment\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -835,7 +835,7 @@
   "sectionId": "4.2",
   "kind": "open",
   "conceptTag": "4.2",
-  "stem": "People visiting video game rental stores often rent more than one game at a time. The probability distribution for game rentals per customer at Game Stop is given in the following table. There is a five-game limit per customer at this store, so nobody ever rents more than five video games.\n\n[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.50\n2 | 0.24\n3 |\n4 | 0.07\n5 | 0.04\n[/TABLE]\n\n[PARTS]\na. Describe the random variable X in words.\nb. Find the probability that a customer rents three video games.\nc. Find the probability that a customer rents at least four video games.\nd. Find the probability that a customer rents at most two video games. Another shop, Games Galore, also rents video games. The probability distribution for video game rentals per customer at this shop is given as follows. Games Galore also has a five-game limit per customer.[TABLE] x | P(x) 0 | 0.35 1 | 0.25 2 | 0.20 3 | 0.10 4 | 0.05 5 | 0.05 [/TABLE]\ne. At which store is the expected number of video games rented per customer higher?\nf. If Game Stop estimates that they will have 300 customers next week, how many video games do they expect to rent next week? Answer in sentence form.\ng. If Game Stop expects 300 customers next week, and Games Galore projects that they will have 420 customers, for which store is the expected number of video game rentals for next week higher? Explain.\nh. Which of the two stores experiences more variation in the number of video game per customer? How do you know that?\n[/PARTS]",
+  "stem": "People visiting video game rental stores often rent more than one game at a time. The probability distribution for game rentals per customer at Game Stop is given in the following table. There is a five-game limit per customer at this store, so nobody ever rents more than five video games.\n\n[TABLE]\nx | P(x)\n0 | 0.03\n1 | 0.50\n2 | 0.24\n3 |\n4 | 0.07\n5 | 0.04\n[/TABLE]\n\n[PARTS]\na. Describe the random variable X in words.\nb. Find the probability that a customer rents three video games.\nc. Find the probability that a customer rents at least four video games.\nd. Find the probability that a customer rents at most two video games. Another shop, Games Galore, also rents video games. The probability distribution for video game rentals per customer at this shop is given as follows. Games Galore also has a five-game limit per customer.[TABLE]\nx | P(x)\n0 | 0.35\n1 | 0.25\n2 | 0.20\n3 | 0.10\n4 | 0.05\n5 | 0.05\n[/TABLE]\ne. At which store is the expected number of video games rented per customer higher?\nf. If Game Stop estimates that they will have 300 customers next week, how many video games do they expect to rent next week? Answer in sentence form.\ng. If Game Stop expects 300 customers next week, and Games Galore projects that they will have 420 customers, for which store is the expected number of video game rentals for next week higher? Explain.\nh. Which of the two stores experiences more variation in the number of video game per customer? How do you know that?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46959",
@@ -964,7 +964,7 @@
   "sectionId": "4.3",
   "kind": "open",
   "conceptTag": "4.3",
-  "stem": "According to a Gallup poll, 60% of American adults prefer saving over spending. Let X = the number of American adults out of a random sample of 50 who prefer saving to spending.\n\n[PARTS]\na. What is the probability distribution for X?\nb. Use your calculator to find the following probabilities: [PARTS] i. the probability that 25 adults in the sample prefer saving over spending ii. the probability that at most 20 adults prefer saving iii. the probability that more than 30 adults prefer saving [/PARTS]\nc. Using the formulas, calculate the (i) mean and (ii) standard deviation of X.\n[/PARTS]",
+  "stem": "According to a Gallup poll, 60% of American adults prefer saving over spending. Let X = the number of American adults out of a random sample of 50 who prefer saving to spending.\n\n[PARTS]\na. What is the probability distribution for X?\nb. Use your calculator to find the following probabilities: [PARTS]\ni. the probability that 25 adults in the sample prefer saving over spending\nii. the probability that at most 20 adults prefer saving\niii. the probability that more than 30 adults prefer saving\n[/PARTS]\nc. Using the formulas, calculate the (i) mean and (ii) standard deviation of X.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46950",
@@ -1513,7 +1513,7 @@
    "module": "m46950",
    "exerciseId": "fs-idm40828128"
   },
-  "modelSolution": "[PARTS]\na. X ~ B(150,0.09)\nb. [PARTS] i. Mean = np = 150(0.09) = 13.5 ii. Standard Deviation = √(npq) =√(150(0.09)(0.91)) ≈ 3.5050 [/PARTS]\nc. P(x = 15) = binompdf(150, 0.09, 15) = 0.0988\nd. P(x ≤ 10) = binomcdf(150, 0.09, 10) = 0.1987\ne. P(x > 25) = 1 –P(x ≤ 25) = 1 – binomcdf(150, 0.09, 25) = 1 – 0.9991 = 0.0009\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. X ~ B(150,0.09)\nb. [PARTS]\ni. Mean = np = 150(0.09) = 13.5\nii. Standard Deviation = √(npq) =√(150(0.09)(0.91)) ≈ 3.5050\n[/PARTS]\nc. P(x = 15) = binompdf(150, 0.09, 15) = 0.0988\nd. P(x ≤ 10) = binomcdf(150, 0.09, 10) = 0.1987\ne. P(x > 25) = 1 –P(x ≤ 25) = 1 – binomcdf(150, 0.09, 25) = 1 – 0.9991 = 0.0009\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1528,7 +1528,7 @@
    "module": "m46950",
    "exerciseId": "fs-idm104093808"
   },
-  "modelSolution": "[PARTS]\na. X ~B(15, 0.281)[FIGURE]\nb. [PARTS] i. Mean = μ =np = 15(0.281) = 4.215 ii. Standard Deviation = σ =√(npq) =√(15(0.281)(0.719)) = 1.7409 [/PARTS]\nc. P(x > 5) = 1 –P(x ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246P(x = 3) = binompdf(15, 0.281, 3) = 0.1927P(x = 4) = binompdf(15, 0.281, 4) = 0.2259It is more likely that four people are literate that three people are.\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. X ~B(15, 0.281)[FIGURE]\nb. [PARTS]\ni. Mean = μ =np = 15(0.281) = 4.215\nii. Standard Deviation = σ =√(npq) =√(15(0.281)(0.719)) = 1.7409\n[/PARTS]\nc. P(x > 5) = 1 –P(x ≤ 5) = 1 – binomcdf(15, 0.281, 5) = 1 – 0.7754 = 0.2246P(x = 3) = binompdf(15, 0.281, 3) = 0.1927P(x = 4) = binompdf(15, 0.281, 4) = 0.2259It is more likely that four people are literate that three people are.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1808,7 +1808,7 @@
    "module": "m46953",
    "exerciseId": "fs-idm51281904"
   },
-  "modelSolution": "[PARTS]\na. X ~G(0.173)[FIGURE]\nb. P(x = 30) = geometpdf(0.173, 30) = 0.0007\nc. P(x = 10) = geometpdf(0.173, 10) = 0.0313\nd. [PARTS] i. Mean = μ =1/p =1/0.173 ≈ 5.7804 ii. Standard Deviation = σ =√(1−p/(p^2)) =√(1−0.173/(0.173^2)) = 5.2566 [/PARTS]\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. X ~G(0.173)[FIGURE]\nb. P(x = 30) = geometpdf(0.173, 30) = 0.0007\nc. P(x = 10) = geometpdf(0.173, 10) = 0.0313\nd. [PARTS]\ni. Mean = μ =1/p =1/0.173 ≈ 5.7804\nii. Standard Deviation = σ =√(1−p/(p^2)) =√(1−0.173/(0.173^2)) = 5.2566\n[/PARTS]\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1823,7 +1823,7 @@
    "module": "m46953",
    "exerciseId": "fs-idm43916688"
   },
-  "modelSolution": "[PARTS]\na. X ~G(0.25)\nb. [PARTS] i. Mean = μ =1/p =1/0.25 = 4 ii. Standard Deviation = σ = √(1−p/(p^2)) =√(1−0.25/(0.25^2)) ≈ 3.4641 [/PARTS]\nc. P(x = 10) = geometpdf(0.25, 10) = 0.0188\nd. P(x = 20) = geometpdf(0.25, 20) = 0.0011\ne. P(x ≤ 5) = geometcdf(0.25, 5) = 0.7627\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. X ~G(0.25)\nb. [PARTS]\ni. Mean = μ =1/p =1/0.25 = 4\nii. Standard Deviation = σ = √(1−p/(p^2)) =√(1−0.25/(0.25^2)) ≈ 3.4641\n[/PARTS]\nc. P(x = 10) = geometpdf(0.25, 10) = 0.0188\nd. P(x = 20) = geometpdf(0.25, 20) = 0.0011\ne. P(x ≤ 5) = geometcdf(0.25, 5) = 0.7627\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2049,7 +2049,7 @@
    "module": "m46964",
    "exerciseId": "fs-idm55206656"
   },
-  "modelSolution": "[PARTS]\na. Cards that are not hearts\nb. 52 − 13 = 39\nc. Other group = hearts; there are 13 hearts in a deck.\nd. X = the number of cards that are not hearts;x = 0, 1, 2, 3, … , 13\ne. P(x = 13)\nf. (39/52)(38/51)(37/50)(36/49)(35/48)(34/47)(33/46)(32/45)(31/44)(30/43)(29/42)(28/41)(27/40) ≈ 0.0128\ng. [PARTS] i. Mean = μ =nr/(r + b) =((13)(39))/(39 + 13) = 9.75 ii. Standard Deviation = σ =√((rbn(r + b−n))/((r + b)^2(r + b−1))) =√((39(13)13(39 + 13–13))/((39 + 13)^2(39 + 13–1))) ≈ 1.3653 [/PARTS]\n[/PARTS]\n\nAlternate Solution Set Up\n\n[PARTS]\na. Cards that are hearts\nb. 13\nc. Other group = non-hearts; b = 39\nd. X = the number of cards that are hearts;x = 0, 1, 2, 3, … , 13\ne. P(x = 0)\n[/PARTS]\n\nNOTE\n\nIf you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)",
+  "modelSolution": "[PARTS]\na. Cards that are not hearts\nb. 52 − 13 = 39\nc. Other group = hearts; there are 13 hearts in a deck.\nd. X = the number of cards that are not hearts;x = 0, 1, 2, 3, … , 13\ne. P(x = 13)\nf. (39/52)(38/51)(37/50)(36/49)(35/48)(34/47)(33/46)(32/45)(31/44)(30/43)(29/42)(28/41)(27/40) ≈ 0.0128\ng. [PARTS]\ni. Mean = μ =nr/(r + b) =((13)(39))/(39 + 13) = 9.75\nii. Standard Deviation = σ =√((rbn(r + b−n))/((r + b)^2(r + b−1))) =√((39(13)13(39 + 13–13))/((39 + 13)^2(39 + 13–1))) ≈ 1.3653\n[/PARTS]\n[/PARTS]\n\nAlternate Solution Set Up\n\n[PARTS]\na. Cards that are hearts\nb. 13\nc. Other group = non-hearts; b = 39\nd. X = the number of cards that are hearts;x = 0, 1, 2, 3, … , 13\ne. P(x = 0)\n[/PARTS]\n\nNOTE\n\nIf you have access to it, use Microsoft Excel HYPERGEOM.DIST function with the following syntax: = HYPGEOM.DIST(x, sample size, size of group of interest, size of total population, FALSE)",
   "needsFigure": false,
   "explanation": []
  },

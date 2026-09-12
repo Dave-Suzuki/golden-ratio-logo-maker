@@ -26,7 +26,7 @@ export function SectionPage({ id }: { id: string }) {
         </div>
         <SectionMastery sectionId={id} />
       </div>
-      <SectionActions sectionId={id} hasTemplates={generators > 0} />
+      <SectionActions sectionId={id} hasTemplates={generators > 0} autoGraded={auto} />
       {teach ? (
         <details open className="rounded-lg border border-[var(--line)] bg-[var(--surface)] p-5">
           <summary className="cursor-pointer font-semibold">Refresh the essentials</summary>

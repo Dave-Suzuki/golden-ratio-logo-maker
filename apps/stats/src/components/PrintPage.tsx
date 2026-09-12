@@ -4,10 +4,30 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { fetchTest, specToQuery } from '@/lib/actions';
 import { formatAnswer } from '@/lib/grade';
+import { parseRich } from '@/lib/richtext';
 import { specLabel } from '@/lib/store';
 import type { Test } from '@/lib/types';
 import { RichText } from './RichText';
 import { specFromParams } from './QuizPage';
+
+/**
+ * Room to write. A multi-part question used to get one box after the last part, so a learner
+ * answering part a had to write it below part f. Each part gets its own box instead.
+ */
+function OpenAnswerSpace({ stem }: { stem: string }) {
+  const parts = parseRich(stem).flatMap((b) => (b.kind === 'parts' ? b.items : []));
+  if (parts.length < 2) return <div className="mt-2 h-20 rounded border border-dashed border-black/30" />;
+  return (
+    <ul className="mt-2 space-y-1">
+      {parts.map((p, i) => (
+        <li key={i} className="flex items-stretch gap-2">
+          <span className="w-5 shrink-0 pt-1 text-xs font-semibold">{p.label}.</span>
+          <span className="h-12 grow rounded border border-dashed border-black/30" />
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export function PrintPage() {
   const params = useSearchParams();
@@ -47,7 +67,7 @@ export function PrintPage() {
       <header className="border-b border-black/30 pb-2">
         <h1 className="text-xl font-semibold">{title}</h1>
         <p className="text-xs opacity-70">
-          Introductory Statistics · {test.questions.length} questions · test code {spec.scope}:{spec.id}:{spec.seed}
+          Introductory Statistics · {test.questions.length} {test.questions.length === 1 ? 'question' : 'questions'} · test code {spec.scope}:{spec.id}:{spec.seed}
         </p>
         <p className="mt-2 text-xs">Name: ______________________________ &nbsp;&nbsp; Date: ______________ &nbsp;&nbsp; Score: ______ / {test.questions.length}</p>
       </header>
@@ -84,7 +104,7 @@ export function PrintPage() {
                   ))}
                 </p>
               )}
-              {q.kind === 'open' && <div className={`mt-2 rounded border border-dashed border-black/30 ${/\[PARTS\]/.test(q.stem) ? 'h-40' : 'h-20'}`} />}
+              {q.kind === 'open' && <OpenAnswerSpace stem={q.stem} />}
             </div>
           </li>
         ))}
