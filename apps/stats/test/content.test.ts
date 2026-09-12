@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { allQuestions, bankFor, chapters, sections, teachFor, testItems } from '@/lib/server/content';
+import { templatesFor } from '../content/templates';
 import { validateQuestion } from '@/lib/validate';
 
 describe('generated content', () => {
@@ -25,7 +26,7 @@ describe('generated content', () => {
     const thin: string[] = [];
     for (const s of sections()) {
       const items = bankFor(s.id);
-      if (items.length < 5) thin.push(`${s.id}: ${items.length}`);
+      if (items.length + templatesFor(s.id).length * 4 < 10) thin.push(`${s.id}: ${items.length}`);
       const t = teachFor(s.id);
       expect(t, s.id).toBeDefined();
       expect(t?.keyPoints.length ?? 0, s.id).toBeGreaterThanOrEqual(3);

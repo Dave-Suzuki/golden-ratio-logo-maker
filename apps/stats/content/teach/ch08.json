@@ -39,7 +39,7 @@
    },
    {
     "term": "Student's t-Distribution",
-    "meaning": "investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student; the major characteristics of the random variable (RV) are:\n\n• It is continuous and assumes any real values.\n• The pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.\n• It approaches the standard normal distribution as n get larger.\n• There is a \"family\" of t–distributions: each representative of the family is completely defined by the number of degrees of freedom, which is one less than the number of data."
+    "meaning": "investigated and reported by William S. Gossett in 1908 and published under the pseudonym Student; the major characteristics of the random variable (RV) are:\n\n[LIST]\nIt is continuous and assumes any real values.\nThe pdf is symmetrical about its mean of zero. However, it is more spread out and flatter at the apex than the normal distribution.\nIt approaches the standard normal distribution as n get larger.\nThere is a \"family\" of t–distributions: each representative of the family is completely defined by the number of degrees of freedom, which is one less than the number of data.\n[/LIST]"
    }
   ]
  },

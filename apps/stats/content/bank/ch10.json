@@ -4,7 +4,7 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Two samples are shown in . Both have normal distributions. The means for the two populations are thought to be the same. Is there a difference in the means? Test at the 5% level of significance.\n\n[TABLE]\n| Sample Size | Sample Mean | Sample Standard Deviation\nPopulation A | 25 | 5 | 1\nPopulation B | 16 | 4.7 | 1.2\n[/TABLE]",
+  "stem": "Two samples are shown in the table below. Both have normal distributions. The means for the two populations are thought to be the same. Is there a difference in the means? Test at the 5% level of significance.\n\n[TABLE]\n| Sample Size | Sample Mean | Sample Standard Deviation\nPopulation A | 25 | 5 | 1\nPopulation B | 16 | 4.7 | 1.2\n[/TABLE]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47050",
@@ -20,7 +20,7 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is five years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.\n\na. Are the population standard deviations known?\nb. Conduct an appropriate hypothesis test. At the 5% significance level, what is your conclusion?",
+  "stem": "A study is done to determine if Company A retains its workers longer than Company B. Company A samples 15 workers, and their average time with the company is five years with a standard deviation of 1.2. Company B samples 20 workers, and their average time with the company is 4.5 years with a standard deviation of 0.8. The populations are normally distributed.\n\n[PARTS]\na. Are the population standard deviations known?\nb. Conduct an appropriate hypothesis test. At the 5% significance level, what is your conclusion?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47050",
@@ -36,14 +36,14 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Two professors, A and B, teach classes on the same subjects. Scores of 10 students from each class are selected randomly. The final exam scores of the students are as follows:\n\nProfessor A:\n\n[TABLE]\n97 | 62 | 73 | 58 | 84\n74 | 66 | 93 | 73 | 85\n[/TABLE]\n\nProfessor B:\n\n[TABLE]\n85 | 64 | 74 | 55 | 76\n67 | 72 | 84 | 71 | 98\n[/TABLE]\n\nProfessor A says that the mean score of their class is more than the mean of professor B’s class. Is professor A correct? Test at a 5% significance level. Answer the following questions:\n\na. Is this a test of two means or two proportions?\nb. Are the population standard deviations known or unknown?\nc. Which distribution do you use to perform the test?\nd. What is the random variable?\ne. What are the null and alternative hypotheses? Write the null and alternative hypotheses in words and in symbols.\nf. Is this test right-, left-, or two-tailed?\ng. What is the p-value?\nh. Do you reject or not reject the null hypothesis?\ni. At the ___ level of significance, from the sample data, there ___ (is/is not) sufficient evidence to conclude that ___.",
+  "stem": "Two professors, A and B, teach classes on the same subjects. Scores of 10 students from each class are selected randomly. The final exam scores of the students are as follows:\n\nProfessor A:\n\n[TABLE]\n97 | 62 | 73 | 58 | 84\n74 | 66 | 93 | 73 | 85\n[/TABLE]\n\nProfessor B:\n\n[TABLE]\n85 | 64 | 74 | 55 | 76\n67 | 72 | 84 | 71 | 98\n[/TABLE]\n\nProfessor A says that the mean score of their class is more than the mean of professor B’s class. Is professor A correct? Test at a 5% significance level. Answer the following questions:\n\n[PARTS]\na. Is this a test of two means or two proportions?\nb. Are the population standard deviations known or unknown?\nc. Which distribution do you use to perform the test?\nd. What is the random variable?\ne. What are the null and alternative hypotheses? Write the null and alternative hypotheses in words and in symbols.\nf. Is this test right-, left-, or two-tailed?\ng. What is the p-value?\nh. Do you reject or not reject the null hypothesis?\ni. At the ___ level of significance, from the sample data, there ___ (is/is not) sufficient evidence to conclude that ___.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47050",
    "exerciseId": "exer-00001",
    "ref": null
   },
-  "modelSolution": "a. two means\nb. unknown\nc. Student’s t\nd. X_1-X_2\ne.\n1. H_0:μ_1=μ_2Null hypothesis: the means of final exam scores are equal for both professors.\n2. H_0:μ_2<μ_1 Alternative hypothesis: the mean of final exam scores for class of professor B is less than mean of final exam scores for class of professor A.\n\nf. left-tailed\ng. p-value = 0.03\nh. Reject the null hypothesis.\ni. Professor A is correct. The evidence shows that the mean of final exam scores of the class of professor A is more than that of the class of professor B.\nAt the 5% level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of final exam scores of the class of professor A is more than that of the class of professor B.",
+  "modelSolution": "[PARTS]\na. two means\nb. unknown\nc. Student’s t\nd. X_1-X_2\ne. [PARTS] 1. H_0:μ_1=μ_2Null hypothesis: the means of final exam scores are equal for both professors. 2. H_0:μ_2<μ_1 Alternative hypothesis: the mean of final exam scores for class of professor B is less than mean of final exam scores for class of professor A. [/PARTS]\nf. left-tailed\ng. p-value = 0.03\nh. Reject the null hypothesis.\ni. Professor A is correct. The evidence shows that the mean of final exam scores of the class of professor A is more than that of the class of professor B.At the 5% level of significance, from the sample data, there is (is/is not) sufficient evidence to conclude that the mean of final exam scores of the class of professor A is more than that of the class of professor B.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -52,7 +52,7 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Calculate Cohen’s d for . Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.",
+  "stem": "Calculate Cohen’s d for the note above. Is the size of the effect small, medium, or large? Explain what the size of the effect means for this problem.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47050",
@@ -74,7 +74,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm22935904"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\n\n[PARTS]\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "two proportions",
   "needsFigure": false,
   "explanation": []
@@ -90,7 +90,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm161821520"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "matched or paired samples",
   "needsFigure": false,
   "explanation": []
@@ -106,7 +105,6 @@
    "module": "m47050",
    "exerciseId": "fs-idp21825264"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "single mean",
   "needsFigure": false,
   "explanation": []
@@ -122,7 +120,6 @@
    "module": "m47050",
    "exerciseId": "fs-idp3576048"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "independent group means, population standard deviations and/or variances unknown",
   "needsFigure": false,
   "explanation": []
@@ -138,7 +135,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm36046944"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "two proportions",
   "needsFigure": false,
   "explanation": []
@@ -154,7 +150,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm111997184"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "independent group means, population standard deviations and/or variances unknown",
   "needsFigure": false,
   "explanation": []
@@ -170,7 +165,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm155074576"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "independent group means, population standard deviations and/or variances unknown",
   "needsFigure": false,
   "explanation": []
@@ -186,7 +180,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm152397632"
   },
-  "context": "Use the following information to answer the next 15 exercises: Indicate if the hypothesis test is for\na. independent group means, population standard deviations, and/or variances known\nb. independent group means, population standard deviations, and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "modelSolution": "two proportions",
   "needsFigure": false,
   "explanation": []
@@ -234,7 +227,6 @@
    "module": "m47050",
    "exerciseId": "fs-idp13932064"
   },
-  "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.",
   "modelSolution": "two-tailed",
   "needsFigure": false,
   "explanation": []
@@ -250,7 +242,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm147822240"
   },
-  "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.",
   "modelSolution": "the difference between the mean life spans of White and non-White people",
   "needsFigure": false,
   "explanation": []
@@ -260,13 +251,12 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Explain why you chose the distribution you did for .",
+  "stem": "Explain why you chose the distribution you did for the exercise above.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47050",
    "exerciseId": "fs-idm121049024"
   },
-  "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.",
   "modelSolution": "This is a comparison of two population means with unknown population standard deviations.",
   "needsFigure": false,
   "explanation": []
@@ -282,7 +272,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm120924688"
   },
-  "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.",
   "modelSolution": "Answers may vary.",
   "needsFigure": false,
   "explanation": []
@@ -290,7 +279,7 @@
  {
   "id": "os-m47050-fs-idm129306608",
   "sectionId": "10.1",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "10.1",
   "stem": "At a pre-conceived α = 0.05, what is your:",
   "source": "openstax-practice",
@@ -298,17 +287,9 @@
    "module": "m47050",
    "exerciseId": "fs-idm129306608"
   },
-  "context": "Use the following information to answer the next 12 exercises: The U.S. Center for Disease Control reports that the mean life expectancy was 47.6 years for White people born in 1900 and 33.0 years for non-White people. Suppose that you randomly survey death records for people born in 1900 in a certain county. Of the 124 White people, the mean life span was 45.3 years with a standard deviation of 12.7 years. Of the 82 non-White people, the mean life span was 34.1 years with a standard deviation of 15.6 years. Conduct a hypothesis test to see if the mean life spans in the county were the same for White and non-White people.",
-  "options": [
-   "Decision:",
-   "Reason for the decision:",
-   "Conclusion (write out in a complete sentence):"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. Reject the null hypothesis\nb. p-value < 0.05\nc. At the 5% level of significance, the evidence supports the claim that life expectancy in the 1900s was different between White people and non-White people.\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. Reject the null hypothesis\nb. p-value < 0.05\nc. At the 5% level of significance, the evidence supports the claim that life expectancy in the 1900s was different between White people and non-White people."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47050-fs-idm8894688",
@@ -321,8 +302,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm8894688"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in Appendix E. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "Subscripts: 1: two-year colleges; 2: four-year colleges\n\na. H0: μ1 ≥ μ2\nb. Ha: μ1 < μ2\nc. X̄_1–X̄_2 is the difference between the mean enrollments of the two-year colleges and the four-year colleges.\nd. Student’s-t\ne. test statistic: -0.2480\nf. p-value: 0.4019\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges.",
+  "modelSolution": "Subscripts: 1: two-year colleges; 2: four-year colleges\n\n[PARTS]\na. H0:μ1 ≥μ2\nb. Ha:μ1 <μ2\nc. X̄_1–X̄_2 is the difference between the mean enrollments of the two-year colleges and the four-year colleges.\nd. Student’s-t\ne. test statistic: -0.2480\nf. p-value: 0.4019\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean enrollment at four-year colleges is higher than at two-year colleges. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -337,8 +317,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm122985232"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in Appendix E. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "Subscripts: 1: mechanical engineering; 2: electrical engineering\n\na. H0: µ1 ≥ µ2\nb. Ha: µ1 < µ2\nc. X̄_1−X̄_2 is the difference between the mean entry level salaries of mechanical engineers and electrical engineers.\nd. t108\ne. test statistic: t = –0.82\nf. p-value: 0.2061\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers.",
+  "modelSolution": "Subscripts: 1: mechanical engineering; 2: electrical engineering\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. X̄_1−X̄_2 is the difference between the mean entry level salaries of mechanical engineers and electrical engineers.\nd. t108\ne. test statistic: t = –0.82\nf. p-value: 0.2061\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the mean entry-level salaries of mechanical engineers is lower than that of electrical engineers. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -353,8 +332,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm50796704"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in Appendix E. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nUse the information from to answer the next four exercises.",
-  "modelSolution": "a. H0: µ1 = µ2\nb. Ha: µ1 ≠ µ2\nc. X̄_1−X̄_2 is the difference between the mean times for completing a lap in races and in practices.\nd. t20.32\ne. test statistic: –4.70\nf. p-value: 0.0001\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.",
+  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. X̄_1−X̄_2 is the difference between the mean times for completing a lap in races and in practices.\nd. t20.32\ne. test statistic: –4.70\nf. p-value: 0.0001\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -363,14 +341,13 @@
   "sectionId": "10.1",
   "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Repeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
+  "stem": "Repeat the test in the exercise above, but this time combine the data from Laps 1 and 5.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47050",
    "exerciseId": "fs-idm170930784"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in Appendix E. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.\nUse the information from to answer the next four exercises.",
-  "modelSolution": "a. H0: µ1 = µ2\nb. Ha: µ1 ≠ µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices.",
+  "modelSolution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -385,7 +362,7 @@
    "module": "m47050",
    "exerciseId": "fs-idm3207760"
   },
-  "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\nConduct a hypothesis test to answer the next two exercises.",
+  "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\n\nConduct a hypothesis test to answer the next two exercises.",
   "options": [
    "There is sufficient evidence to conclude that the W Division teams score fewer goals, on average, than the E teams",
    "There is insufficient evidence to conclude that the W Division teams score more goals, on average, than the E teams.",
@@ -409,7 +386,6 @@
    "module": "m47050",
    "exerciseId": "fs-idm81478720"
   },
-  "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\nConduct a hypothesis test to answer the next two exercises.",
   "modelSolution": "Test: two independent sample means, population standard deviations unknown.\n\nμ_1 = the the mean price of a sociology text on the selected site.\n\nμ_2 = the mean price of a math/science text on the selected site.\n\nRandom variable: X_1̄-X_1̄ = the difference in the sample mean textbook price between sociology texts and math/science texts.\n\nHypotheses: H_0 : μ_1-μ_2 = 0, H_a : μ_1 - μ_2 < μ_2 which can be expressed as H0s: μ1-μ2, Ha μ1 < μ2.\n\nDistribution for the test: Use t_df; because each sample has more than 30 observations, df=n_1+n_2-2=33+33-2=64.\n\nEstimate the critical value on the t-table using the nearest available degrees of freedom, 60. The critical value, 2.660, is found in the .0005 column.\n\nCalculate the test statistic: t_c=((X̄_1-X̄_2)-0)/(√((s_1^2)/n_2+(s_2^2)/n_2))=((74.64-111.56)-0)/(√((49.36^2)/33+(66.90^2)/33))=-2.55.\n\nUsing a calculator with t_c=-2.55 and df=64, the left-tailed p-value: Decision: Reject H_0. Conclusion: At the 1% level of significance, from the sample data, there is sufficient evidence to conclude that the mean price of sociology textbooks is less than the mean price of textbooks for math/science.",
   "needsFigure": false,
   "explanation": []
@@ -417,33 +393,24 @@
  {
   "id": "os-m47050-eip-17",
   "sectionId": "10.1",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "10.1",
-  "stem": "Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. They take random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The “day” subscript refers to the statistics day students. The “night” subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is:",
+  "stem": "Suppose a statistics instructor believes that there is no significant difference between the mean class scores of statistics day students on Exam 2 and statistics night students on Exam 2. They take random samples from each of the populations. The mean and standard deviation for 35 statistics day students were 75.86 and 16.91, respectively. The mean and standard deviation for 37 statistics night students were 75.41 and 19.73. The “day” subscript refers to the statistics day students. The “night” subscript refers to the statistics night students. An appropriate alternative hypothesis for the hypothesis test is:\n\n[PARTS]\na. μday >μnight\nb. μday <μnight\nc. μday =μnight\nd. μday ≠μnight\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47050",
    "exerciseId": "eip-17"
   },
-  "context": "Use the following information to answer the next two exercises. The Eastern and Western Major League Soccer conferences have a new Reserve Division that allows new players to develop their skills. Data for a randomly picked date showed the following annual goals.\n[TABLE]\nWestern | Eastern\nLos Angeles 9 | D.C. United 9\nFC Dallas 3 | Chicago 8\nChivas USA 4 | Columbus 7\nReal Salt Lake 3 | New England 6\nColorado 4 | MetroStars 5\nSan Jose 4 | Kansas City 3\n[/TABLE]\nConduct a hypothesis test to answer the next two exercises.",
-  "options": [
-   "μday > μnight",
-   "μday < μnight",
-   "μday = μnight",
-   "μday ≠ μnight"
-  ],
-  "correctIndex": 3,
+  "modelSolution": "d",
   "needsFigure": false,
-  "explanation": [
-   "d"
-  ]
+  "explanation": []
  },
  {
   "id": "tryit-m47061-0",
   "sectionId": "10.2",
   "kind": "open",
   "conceptTag": "10.2",
-  "stem": "The means of the number of revolutions per minute of two competing engines are to be compared. Thirty engines of each type are randomly assigned to be tested. Both populations have normal distributions. shows the result. Do the data indicate that Engine 2 has higher RPM than Engine 1? Test at a 5% level of significance.\n\n[TABLE]\nEngine | Sample Mean Number of RPM | Population Standard Deviation\n1 | 1,500 | 50\n2 | 1,600 | 60\n[/TABLE]",
+  "stem": "The means of the number of revolutions per minute of two competing engines are to be compared. Thirty engines of each type are randomly assigned to be tested. Both populations have normal distributions. the table below shows the result. Do the data indicate that Engine 2 has higher RPM than Engine 1? Test at a 5% level of significance.\n\n[TABLE]\nEngine | Sample Mean Number of RPM | Population Standard Deviation\n1 | 1,500 | 50\n2 | 1,600 | 60\n[/TABLE]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47061",
@@ -481,7 +448,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm106340640"
   },
-  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
   "modelSolution": "The difference in mean speeds of the fastball pitches of the two pitchers",
   "needsFigure": false,
   "explanation": []
@@ -497,7 +464,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm113366480"
   },
-  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
   "answer": -2.46,
   "tolerance": {
    "abs": 0.006,
@@ -520,7 +487,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm126168192"
   },
-  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. The mean speeds of fastball pitches from two different baseball pitchers are to be compared. A sample of 14 fastball pitches is measured from each pitcher. The populations have normal distributions. the table below shows the result. Scouters believe that Rodriguez pitches a speedier fastball.\n\n[TABLE]\nPitcher | Sample Mean Speed of Pitches (mph) | Population Standard Deviation\nWesley | 86 | 3\nRodriguez | 91 | 7\n[/TABLE]",
   "modelSolution": "At the 1% significance level, we can reject the null hypothesis. There is sufficient data to conclude that the mean speed of Rodriguez’s fastball is faster than Wesley’s.",
   "needsFigure": false,
   "explanation": []
@@ -536,7 +503,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm92555424"
   },
-  "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]",
   "modelSolution": "Subscripts: 1 = Food, 2 = No Food\n\nH0: μ1 ≤ μ2\n\nHa: μ1 > μ2",
   "needsFigure": false,
   "explanation": []
@@ -552,7 +519,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm112309984"
   },
-  "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A researcher is testing the effects of plant food on plant growth. Nine plants have been given the plant food. Another nine plants have not been given the plant food. The heights of the plants are recorded after eight weeks. The populations have normal distributions. The following table is the result. The researcher thinks the food makes the plants grow taller.\n\n[TABLE]\nPlant Group | Sample Mean Height of Plants (inches) | Population Standard Deviation\nFood | 16 | 2.5\nNo food | 14 | 1.5\n[/TABLE]",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -568,7 +535,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm4478224"
   },
-  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
   "modelSolution": "Subscripts: 1 = Gamma, 2 = Zeta\n\nH0: μ1 = μ2\n\nHa: μ1 ≠ μ2",
   "needsFigure": false,
   "explanation": []
@@ -584,7 +551,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm100159520"
   },
-  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
   "answer": 0.0062,
   "tolerance": {
    "abs": 0.005,
@@ -607,7 +574,7 @@
    "module": "m47061",
    "exerciseId": "fs-idm85314992"
   },
-  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. Two metal alloys are being considered as material for ball bearings. The mean melting point of the two alloys is to be compared. 15 pieces of each metal are being tested. Both populations have normal distributions. The following table is the result. It is believed that Alloy Zeta has a different melting point.\n\n[TABLE]\n| Sample Mean Melting Temperatures (°F) | Population Standard Deviation\nAlloy Gamma | 800 | 95\nAlloy Zeta | 900 | 105\n[/TABLE]",
   "modelSolution": "There is sufficient evidence to reject the null hypothesis. The data support that the melting point for Alloy Zeta is different from the melting point of Alloy Gamma.",
   "needsFigure": false,
   "explanation": []
@@ -623,8 +590,7 @@
    "module": "m47061",
    "exerciseId": "exer29"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "Subscripts: 1 = boys, 2 = girls\n\na. H0: µ1 ≤ µ2\nb. Ha: µ1 > µ2\nc. The random variable is the difference in the mean auto insurance costs for boys and girls.\nd. normal\ne. test statistic: z = 2.50\nf. p-value: 0.0062\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean cost of auto insurance for teenage boys is greater than that for girls.",
+  "modelSolution": "Subscripts: 1 = boys, 2 = girls\n\n[PARTS]\na. H0:µ1 ≤µ2\nb. Ha:µ1 >µ2\nc. The random variable is the difference in the mean auto insurance costs for boys and girls.\nd. normal\ne. test statistic: z = 2.50\nf. p-value: 0.0062\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean cost of auto insurance for teenage boys is greater than that for girls. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -639,8 +605,7 @@
    "module": "m47061",
    "exerciseId": "exer32"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "Subscripts: 1 = non-hybrid sedans, 2 = hybrid sedans\n\na. H0: µ1 ≥ µ2\nb. Ha: µ1 < µ2\nc. The random variable is the difference in the mean miles per gallon of non-hybrid sedans and hybrid sedans.\nd. normal\ne. test statistic: 6.36\nf. p-value: 0\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean miles per gallon of non-hybrid sedans is less than that of hybrid sedans.",
+  "modelSolution": "Subscripts: 1 = non-hybrid sedans, 2 = hybrid sedans\n\n[PARTS]\na. H0:µ1 ≥µ2\nb. Ha:µ1 <µ2\nc. The random variable is the difference in the mean miles per gallon of non-hybrid sedans and hybrid sedans.\nd. normal\ne. test statistic: 6.36\nf. p-value: 0\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean miles per gallon of non-hybrid sedans is less than that of hybrid sedans. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -649,14 +614,13 @@
   "sectionId": "10.2",
   "kind": "open",
   "conceptTag": "10.2",
-  "stem": "One of the questions in a study of marital satisfaction of dual-career couples was to rate the statement “I’m pleased with the way we divide the responsibilities for childcare.” The ratings went from one (strongly agree) to five (strongly disagree). contains ten of the paired responses for husbands and wives. Conduct a hypothesis test to see if the mean difference in the husband’s versus the wife’s satisfaction level is negative (meaning that, within the partnership, the husband is happier than the wife).\n\n[TABLE]\nWife’s Score | 2 | 2 | 3 | 3 | 4 | 2 | 1 | 1 | 2 | 4\nHusband’s Score | 2 | 2 | 1 | 3 | 2 | 1 | 1 | 1 | 2 | 4\n[/TABLE]",
+  "stem": "One of the questions in a study of marital satisfaction of dual-career couples was to rate the statement “I’m pleased with the way we divide the responsibilities for childcare.” The ratings went from one (strongly agree) to five (strongly disagree). the table below contains ten of the paired responses for husbands and wives. Conduct a hypothesis test to see if the mean difference in the husband’s versus the wife’s satisfaction level is negative (meaning that, within the partnership, the husband is happier than the wife).\n\n[TABLE]\nWife’s Score | 2 | 2 | 3 | 3 | 4 | 2 | 1 | 1 | 2 | 4\nHusband’s Score | 2 | 2 | 1 | 3 | 2 | 1 | 1 | 1 | 2 | 4\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47061",
    "exerciseId": "eip-267"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "a. H0: µd = 0\nb. Ha: µd < 0\nc. The random variable Xd is the average difference between husband’s and wife’s satisfaction level.\nd. t9\ne. test statistic: t = –1.86\nf. p-value: 0.0479\ng. Answers may vary.\nh.\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis, but run another test.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: This is a weak test because alpha and the p-value are close. However, there is insufficient evidence to conclude that the mean difference is negative.",
+  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd < 0\nc. The random variable Xd is the average difference between husband’s and wife’s satisfaction level.\nd. t9\ne. test statistic: t = –1.86\nf. p-value: 0.0479\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis, but run another test. iii. Reason for Decision: p-value < alpha iv. Conclusion: This is a weak test because alpha and the p-value are close. However, there is insufficient evidence to conclude that the mean difference is negative. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -847,7 +811,6 @@
    "module": "m47060",
    "exerciseId": "eip-56"
   },
-  "context": "Use the following information for the next five exercises. Two types of phone operating system are being tested to determine if there is a difference in the proportions of system failures (crashes). Fifteen out of a random sample of 150 phones with OS1 had system failures within the first eight hours of operation. Nine out of another random sample of 150 phones with OS2 had system failures within the first eight hours of operation. OS2 is believed to be more stable (have fewer crashes) than OS1.",
   "answer": 0.1018,
   "tolerance": {
    "abs": 0.005,
@@ -912,7 +875,7 @@
   "sectionId": "10.3",
   "kind": "open",
   "conceptTag": "10.3",
-  "stem": "Explain why you chose the distribution you did for the Exercise 10.56.",
+  "stem": "Explain why you chose the distribution you did for the the exercise above.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47060",
@@ -942,7 +905,7 @@
  {
   "id": "os-m47060-element-723",
   "sectionId": "10.3",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "10.3",
   "stem": "At a pre-conceived α = 0.05, what is your:",
   "source": "openstax-practice",
@@ -951,16 +914,9 @@
    "exerciseId": "element-723"
   },
   "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota.",
-  "options": [
-   "Decision:",
-   "Reason for the decision:",
-   "Conclusion (write out in a complete sentence):"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. Reject the null hypothesis.\nb. p-value < alpha\nc. At the 5% significance level, there is sufficient evidence to conclude that the proportion (percent) of the population that is of two or more races in Nevada is statistically higher than that in North Dakota.\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. Reject the null hypothesis.\nb. p-value < alpha\nc. At the 5% significance level, there is sufficient evidence to conclude that the proportion (percent) of the population that is of two or more races in Nevada is statistically higher than that in North Dakota."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m47060-exer18",
@@ -973,8 +929,7 @@
    "module": "m47060",
    "exerciseId": "exer18"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "a. H0: PW = PB\nb. Ha: PW ≠ PB\nc. The random variable is the difference in the proportions of White and Black people with conferred degrees in a given year, aged 21 to 24.\nd. normal for two proportions\ne. test statistic: –0.1944\nf. p-value: 0.8458\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black people with conferred physical science degrees, aged 21 to 24, are different.",
+  "modelSolution": "[PARTS]\na. H0:PW =PB\nb. Ha:PW ≠PB\nc. The random variable is the difference in the proportions of White and Black people with conferred degrees in a given year, aged 21 to 24.\nd. normal for two proportions\ne. test statistic: –0.1944\nf. p-value: 0.8458\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportions of White and Black people with conferred physical science degrees, aged 21 to 24, are different. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -989,8 +944,7 @@
    "module": "m47060",
    "exerciseId": "exer24"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in . Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
-  "modelSolution": "Subscripts: 1 = Cabrillo College, 2 = Lake Tahoe College\n\na. H0: p1 = p2\nb. Ha: p1 ≠ p2\nc. The random variable is the difference between the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College.\nd. normal for two proportions\ne. test statistic: 4.29\nf. p-value: 0.00002\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College are different.",
+  "modelSolution": "Subscripts: 1 = Cabrillo College, 2 = Lake Tahoe College\n\n[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. The random variable is the difference between the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College.\nd. normal for two proportions\ne. test statistic: 4.29\nf. p-value: 0.00002\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the proportions of Hispanic/Latino students at Cabrillo College and Lake Tahoe College are different. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1005,7 +959,7 @@
    "module": "m47060",
    "exerciseId": "element-552"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
+  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n[LIST]\n“2022” subscript: 2022 group.\n“2021” subscript: 2021 group\n[/LIST]",
   "options": [
    "p2022 ≤ p2021",
    "p2022 ≥ p2021",
@@ -1029,7 +983,6 @@
    "module": "m47060",
    "exerciseId": "fs-idp30249712"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
   "modelSolution": "Test: two independent sample proportions.\n\nRandom variable: p′1 - p′2\n\nDistribution:\n\nH0: p1 = p2\n\nHa: p1 ≠ p2\n\nThe proportion of eReader users is different for the 16- to 29-year-old users from that of the 30 and older users.\n\nGraph: two-tailed\n\n[FIGURE]\np-value : 0.0033\n\nDecision: Reject the null hypothesis.\n\nConclusion: At the 5% level of significance, from the sample data, there is sufficient evidence to conclude that the proportion of eReader users 16 to 29 years old is different from the proportion of eReader users 30 and older.",
   "needsFigure": true,
   "explanation": []
@@ -1039,13 +992,12 @@
   "sectionId": "10.3",
   "kind": "open",
   "conceptTag": "10.3",
-  "stem": "Two computer users were discussing tablet computers. A higher proportion of people ages 16 to 29 use tablets than the proportion of people age 30 and older. details the number of tablet owners for each age group. Test at the 1% level of significance.\n\n[TABLE]\n| 16–29 year olds | 30 years old and older\nOwn a Tablet | 69 | 231\nSample Size | 628 | 2,309\n[/TABLE]",
+  "stem": "Two computer users were discussing tablet computers. A higher proportion of people ages 16 to 29 use tablets than the proportion of people age 30 and older. the table below details the number of tablet owners for each age group. Test at the 1% level of significance.\n\n[TABLE]\n| 16–29 year olds | 30 years old and older\nOwn a Tablet | 69 | 231\nSample Size | 628 | 2,309\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47060",
    "exerciseId": "fs-idm16853120"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
   "modelSolution": "Test: two independent sample proportions\n\nRandom variable: p′1 − p′2\n\nDistribution:\n\nH0: p1 = p2\nHa: p1 > p2\n\nA higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.\n\nGraph: right-tailed\n\n[FIGURE]p-value: 0.2354\n\nDecision: Do not reject the H0.\n\nConclusion: At the 1% level of significance, from the sample data, there is not sufficient evidence to conclude that a higher proportion of tablet owners are aged 16 to 29 years old than are 30 years old and older.",
   "needsFigure": true,
   "explanation": []
@@ -1061,8 +1013,7 @@
    "module": "m47060",
    "exerciseId": "fs-idm174644848"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
-  "modelSolution": "Subscripts: 1: men; 2: women\n\na. H0: p1 ≤ p2\nb. Ha: p1 > p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women who enjoy shopping for electronic equipment.\nd. normal for two proportions\ne. test statistic: 0.22\nf. p-value: 0.4133\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for Decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women.",
+  "modelSolution": "Subscripts: 1: men; 2: women\n\n[PARTS]\na. H0:p1 ≤p2\nb. Ha:p1 >p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women who enjoy shopping for electronic equipment.\nd. normal for two proportions\ne. test statistic: 0.22\nf. p-value: 0.4133\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the proportion of men who enjoy shopping for electronic equipment is more than the proportion of women. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1077,8 +1028,7 @@
    "module": "m47060",
    "exerciseId": "fs-idm98770112"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
-  "modelSolution": "a. H0: p1 = p2\nb. Ha: p1 ≠ p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women that have at least one pierced ear.\nd. normal for two proportions\ne. test statistic: –4.82\nf. p-value: zero\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportions of men and women with at least one pierced ear is different.",
+  "modelSolution": "[PARTS]\na. H0:p1 =p2\nb. Ha:p1 ≠p2\nc. P^′_1−P^′_2 is the difference between the proportions of men and women that have at least one pierced ear.\nd. normal for two proportions\ne. test statistic: –4.82\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportions of men and women with at least one pierced ear is different. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1087,14 +1037,13 @@
   "sectionId": "10.3",
   "kind": "open",
   "conceptTag": "10.3",
-  "stem": "\"To Breakfast or Not to Breakfast?\" by Richard Ayore\n\nIn the American society, birthdays are one of those days that everyone looks forward to. People of different ages and peer groups gather to mark the 18th, 20th, …, birthdays. During this time, one looks back to see what they have achieved for the past year and also focuses ahead for more to come.\n\nIf, by any chance, I am invited to one of these parties, my experience is always different. Instead of dancing around with my friends while the music is booming, I get carried away by memories of my family back home in Kenya. I remember the good times I had with my brothers and sister while we did our daily routine.\n\nEvery morning, I remember we went to the shamba (garden) to weed our crops. I remember one day arguing with my brother as to why he always remained behind just to join us an hour later. In his defense, he said that he preferred waiting for breakfast before he came to weed. He said, “This is why I always work more hours than you guys!”\n\nAnd so, to prove him wrong or right, we decided to give it a try. One day we went to work as usual without breakfast, and recorded the time we could work before getting tired and stopping. On the next day, we all ate breakfast before going to work. We recorded how long we worked again before getting tired and stopping. Of interest was our mean increase in work time. Though not sure, my brother insisted that it was more than two hours. Using the data in , solve our problem.\n\n[TABLE]\nWork hours with breakfast | Work hours without breakfast\n8 | 6\n7 | 5\n9 | 5\n5 | 4\n9 | 7\n8 | 7\n10 | 7\n7 | 5\n6 | 6\n9 | 5\n[/TABLE]",
+  "stem": "\"To Breakfast or Not to Breakfast?\" by Richard Ayore\n\nIn the American society, birthdays are one of those days that everyone looks forward to. People of different ages and peer groups gather to mark the 18th, 20th, …, birthdays. During this time, one looks back to see what they have achieved for the past year and also focuses ahead for more to come.\n\nIf, by any chance, I am invited to one of these parties, my experience is always different. Instead of dancing around with my friends while the music is booming, I get carried away by memories of my family back home in Kenya. I remember the good times I had with my brothers and sister while we did our daily routine.\n\nEvery morning, I remember we went to the shamba (garden) to weed our crops. I remember one day arguing with my brother as to why he always remained behind just to join us an hour later. In his defense, he said that he preferred waiting for breakfast before he came to weed. He said, “This is why I always work more hours than you guys!”\n\nAnd so, to prove him wrong or right, we decided to give it a try. One day we went to work as usual without breakfast, and recorded the time we could work before getting tired and stopping. On the next day, we all ate breakfast before going to work. We recorded how long we worked again before getting tired and stopping. Of interest was our mean increase in work time. Though not sure, my brother insisted that it was more than two hours. Using the data in the table below, solve our problem.\n\n[TABLE]\nWork hours with breakfast | Work hours without breakfast\n8 | 6\n7 | 5\n9 | 5\n5 | 4\n9 | 7\n8 | 7\n10 | 7\n7 | 5\n6 | 6\n9 | 5\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47060",
    "exerciseId": "fs-idm104246192"
   },
-  "context": "Use the following information to answer the next three exercises. Some individuals who were exposed to the COVID-19 virus experienced a loss of taste. In a sample of COVID patients during 2022, there were 629 reported cases of loss of taste out of a total of 1,021 reported cases. In 2021, there were 486 reported cases of loss of taste out of a sample of 712 cases. Is the 2022 proportion of loss of taste more than the 2021 proportion? Using a 1% level of significance, conduct an appropriate hypothesis test.\n\n• “2022” subscript: 2022 group.\n• “2021” subscript: 2021 group",
-  "modelSolution": "a. H0: µd = 0\nb. Ha: µd > 0\nc. The random variable Xd is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.\nd. t9\ne. test statistic: 4.8963\nf. p-value: 0.0004\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for Decision: p-value < alpha\niv. Conclusion: At the 5% level of significance, there is sufficient evidence to conclude that the mean difference in work times on days when eating breakfast and on days when not eating breakfast has increased.",
+  "modelSolution": "[PARTS]\na. H0:µd = 0\nb. Ha:µd > 0\nc. The random variable Xd is the mean difference in work times on days when eating breakfast and on days when not eating breakfast.\nd. t9\ne. test statistic: 4.8963\nf. p-value: 0.0004\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% level of significance, there is sufficient evidence to conclude that the mean difference in work times on days when eating breakfast and on days when not eating breakfast has increased. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1119,7 +1068,7 @@
   "sectionId": "10.4",
   "kind": "open",
   "conceptTag": "10.4",
-  "stem": "Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in . Conduct a hypothesis test to determine whether the mean difference in distances between the dominant and off-hand is significant. Test at the 5% level.\n\n[TABLE]\n| Player 1 | Player 2 | Player 3 | Player 4 | Player 5\nDominant Hand | 120 | 111 | 135 | 140 | 125\nOff-hand | 105 | 109 | 98 | 111 | 99\n[/TABLE]",
+  "stem": "Five ball players think they can throw the same distance with their dominant hand (throwing) and off-hand (catching hand). The data were collected and recorded in the table below. Conduct a hypothesis test to determine whether the mean difference in distances between the dominant and off-hand is significant. Test at the 5% level.\n\n[TABLE]\n| Player 1 | Player 2 | Player 3 | Player 4 | Player 5\nDominant Hand | 120 | 111 | 135 | 140 | 125\nOff-hand | 105 | 109 | 98 | 111 | 99\n[/TABLE]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47045",
@@ -1141,7 +1090,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm5499280"
   },
-  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in . The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
   "modelSolution": "the mean difference of the system failures",
   "needsFigure": false,
   "explanation": []
@@ -1157,7 +1106,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm10056224"
   },
-  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in . The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
   "answer": 0.0067,
   "tolerance": {
    "abs": 0.005,
@@ -1180,7 +1129,7 @@
    "module": "m47045",
    "exerciseId": "fs-idp92713024"
   },
-  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in . The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A study was conducted to test the effectiveness of a software patch in reducing system failures over a six-month period. Results for randomly selected installations are shown in the table below. The “before” value is matched to an “after” value, and the differences are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nInstallation | A | B | C | D | E | F | G | H\nBefore | 3 | 6 | 4 | 2 | 5 | 8 | 2 | 6\nAfter | 1 | 5 | 2 | 0 | 1 | 0 | 2 | 2\n[/TABLE]",
   "modelSolution": "With a p-value 0.0067, we can reject the null hypothesis. There is enough evidence to support that the software patch is effective in reducing the number of system failures.",
   "needsFigure": false,
   "explanation": []
@@ -1196,7 +1145,7 @@
    "module": "m47045",
    "exerciseId": "fs-idp15011664"
   },
-  "context": "Use the following information to answer next five exercises. A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]",
+  "context": "Use the following information to answer next five exercises. A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]",
   "answer": 0.0021,
   "tolerance": {
    "abs": 0.005,
@@ -1219,7 +1168,6 @@
    "module": "m47045",
    "exerciseId": "fs-idp9592768"
   },
-  "context": "Use the following information to answer next five exercises. A study was conducted to test the effectiveness of a juggling class. Before the class started, six subjects juggled as many balls as they could at once. After the class, the same six subjects juggled as many balls as they could. The differences in the number of balls are calculated. The differences have a normal distribution. Test at the 1% significance level.\n[TABLE]\nSubject | A | B | C | D | E | F\nBefore | 3 | 4 | 3 | 2 | 4 | 5\nAfter | 4 | 5 | 6 | 4 | 5 | 7\n[/TABLE]",
   "modelSolution": "[FIGURE]",
   "needsFigure": true,
   "explanation": []
@@ -1235,7 +1183,7 @@
    "module": "m47045",
    "exerciseId": "fs-idp5612992"
   },
-  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
   "modelSolution": "H0: μd ≥ 0\n\nHa: μd < 0",
   "needsFigure": false,
   "explanation": []
@@ -1251,7 +1199,7 @@
    "module": "m47045",
    "exerciseId": "fs-idp69509280"
   },
-  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
   "answer": 0.0699,
   "tolerance": {
    "abs": 0.005,
@@ -1274,7 +1222,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm55198624"
   },
-  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises. A doctor wants to know if a blood pressure medication is effective. Six subjects have their blood pressures recorded. After twelve weeks on the medication, the same six subjects have their blood pressure recorded again. For this test, only systolic pressure is of concern. Test at the 1% significance level.\n\n[TABLE]\nPatient | A | B | C | D | E | F\nBefore | 161 | 162 | 165 | 162 | 166 | 171\nAfter | 158 | 159 | 166 | 160 | 167 | 169\n[/TABLE]",
   "modelSolution": "We decline to reject the null hypothesis. There is not sufficient evidence to support that the medication is effective.",
   "needsFigure": false,
   "explanation": []
@@ -1284,13 +1232,12 @@
   "sectionId": "10.4",
   "kind": "open",
   "conceptTag": "10.4",
-  "stem": "Ten individuals went on a low–fat diet for 12 weeks to lower their cholesterol. The data are recorded in . Do you think that their cholesterol levels were significantly lowered?\n\n[TABLE]\nStarting cholesterol level | Ending cholesterol level\n140 | 140\n220 | 230\n110 | 120\n240 | 220\n200 | 190\n180 | 150\n190 | 200\n360 | 300\n280 | 300\n260 | 240\n[/TABLE]",
+  "stem": "Ten individuals went on a low–fat diet for 12 weeks to lower their cholesterol. The data are recorded in the table below. Do you think that their cholesterol levels were significantly lowered?\n\n[TABLE]\nStarting cholesterol level | Ending cholesterol level\n140 | 140\n220 | 230\n110 | 120\n240 | 220\n200 | 190\n180 | 150\n190 | 200\n360 | 300\n280 | 300\n260 | 240\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47045",
    "exerciseId": "fs-idp64398288"
   },
-  "context": "DIRECTIONS: For each of the word problems, use a solution sheet to do the hypothesis test. The solution sheet is found in Appendix E. Please feel free to make copies of the solution sheets. For the online version of the book, it is suggested that you copy the .doc or the .pdf files.",
   "modelSolution": "p-value = 0.1494\n\nAt the 5% significance level, there is insufficient evidence to conclude that the medication lowered cholesterol levels after 12 weeks.",
   "needsFigure": false,
   "explanation": []
@@ -1306,7 +1253,7 @@
    "module": "m47045",
    "exerciseId": "element-198"
   },
-  "context": "Use the following information to answer the next two exercises. A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\nLet the subscript t = treated patient and ut = untreated patient.",
+  "context": "Use the following information to answer the next two exercises. A new heart disease prevention drug was tried on a group of 224 patients. Forty-five patients developed heart disease after four years. In a control group of 224 patients, 68 developed heart disease after four years. We want to test whether the method of treatment reduces the proportion of patients that develop heart disease after four years or if the proportions of the treated group and the untreated group stay the same.\n\nLet the subscript t = treated patient and ut = untreated patient.",
   "options": [
    "The method has no effect.",
    "There is sufficient evidence to conclude that the method reduces the proportion of patients who develop heart disease after four years.",
@@ -1348,13 +1295,12 @@
   "sectionId": "10.4",
   "kind": "open",
   "conceptTag": "10.4",
-  "stem": "A local cancer support group believes that the estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1. The group compared the estimates of new female breast cancer cases by southern state in Year 1 and in Year 2. The results are in .\n\n[TABLE]\nSouthern States | Year 1 | Year 2\nAlabama | 3,450 | 3,720\nArkansas | 2,150 | 2,280\nFlorida | 15,540 | 15,710\nGeorgia | 6,970 | 7,310\nKentucky | 3,160 | 3,300\nLouisiana | 3,320 | 3,630\nMississippi | 1,990 | 2,080\nNorth Carolina | 7,090 | 7,430\nOklahoma | 2,630 | 2,690\nSouth Carolina | 3,570 | 3,580\nTennessee | 4,680 | 5,070\nTexas | 15,050 | 14,980\nVirginia | 6,190 | 6,280\n[/TABLE]",
+  "stem": "A local cancer support group believes that the estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1. The group compared the estimates of new female breast cancer cases by southern state in Year 1 and in Year 2. The results are in the table below.\n\n[TABLE]\nSouthern States | Year 1 | Year 2\nAlabama | 3,450 | 3,720\nArkansas | 2,150 | 2,280\nFlorida | 15,540 | 15,710\nGeorgia | 6,970 | 7,310\nKentucky | 3,160 | 3,300\nLouisiana | 3,320 | 3,630\nMississippi | 1,990 | 2,080\nNorth Carolina | 7,090 | 7,430\nOklahoma | 2,630 | 2,690\nSouth Carolina | 3,570 | 3,580\nTennessee | 4,680 | 5,070\nTexas | 15,050 | 14,980\nVirginia | 6,190 | 6,280\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47045",
    "exerciseId": "fs-idp31663264"
   },
-  "context": "Use the following information to answer the next two exercises. An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training.",
   "modelSolution": "Test: two matched pairs or paired samples (t-test)\n\nRandom variable: X̄_d\n\nDistribution: t12\n\nH0: μd = 0 Ha: μd > 0\n\nThe mean of the differences of new female breast cancer cases in the south between Year 2 and Year 1 is greater than zero. The estimate for new female breast cancer cases in the south is higher in Year 2 than in Year 1.\n\nGraph: right-tailed\n\np-value: 0.0004\n\n[FIGURE]\nDecision: Reject H0\n\nConclusion: At the 5% level of significance, from the sample data, there is sufficient evidence to conclude that there was a higher estimate of new female breast cancer cases in Year 2 than in Year 1.",
   "needsFigure": true,
   "explanation": []
@@ -1364,13 +1310,12 @@
   "sectionId": "10.4",
   "kind": "open",
   "conceptTag": "10.4",
-  "stem": "A politician asked their staff to determine whether the underemployment rate in the northeast decreased year over year. The results are in .\n\n[TABLE]\nNortheastern States | Year 1 | Year 2\nConnecticut | 17.3 | 16.4\nDelaware | 17.4 | 13.7\nMaine | 19.3 | 16.1\nMaryland | 16.0 | 15.5\nMassachusetts | 17.6 | 18.2\nNew Hampshire | 15.4 | 13.5\nNew Jersey | 19.2 | 18.7\nNew York | 18.5 | 18.7\nOhio | 18.2 | 18.8\nPennsylvania | 16.5 | 16.9\nRhode Island | 20.7 | 22.4\nVermont | 14.7 | 12.3\nWest Virginia | 15.5 | 17.3\n[/TABLE]",
+  "stem": "A politician asked their staff to determine whether the underemployment rate in the northeast decreased year over year. The results are in the table below.\n\n[TABLE]\nNortheastern States | Year 1 | Year 2\nConnecticut | 17.3 | 16.4\nDelaware | 17.4 | 13.7\nMaine | 19.3 | 16.1\nMaryland | 16.0 | 15.5\nMassachusetts | 17.6 | 18.2\nNew Hampshire | 15.4 | 13.5\nNew Jersey | 19.2 | 18.7\nNew York | 18.5 | 18.7\nOhio | 18.2 | 18.8\nPennsylvania | 16.5 | 16.9\nRhode Island | 20.7 | 22.4\nVermont | 14.7 | 12.3\nWest Virginia | 15.5 | 17.3\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47045",
    "exerciseId": "fs-idp111440192"
   },
-  "context": "Use the following information to answer the next two exercises. An experiment is conducted to show that blood pressure can be consciously reduced in people trained in a “biofeedback exercise program.” Six subjects were randomly selected and blood pressure measurements were recorded before and after the training. The difference between blood pressures was calculated (after - before) producing the following results: x̄_d = −10.2 sd = 8.4. Using the data, test the hypothesis that the blood pressure has decreased after the training.",
   "modelSolution": "Test: matched or paired samples (t-test)\n\nDifference data: {–0.9, –3.7, –3.2, –0.5, 0.6, –1.9, –0.5, 0.2, 0.6, 0.4, 1.7, –2.4, 1.8}\n\nRandom Variable: X̄_d\n\nDistribution: H0: μd = 0 Ha: μd < 0\n\nThe mean of the differences of the rate of underemployment in the northeastern states between Year 2 and Year 1 is less than zero. The underemployment rate went down from Year 1 to Year 2.\n\nGraph: left-tailed.\n[FIGURE]\n\np-value: 0.1207\n\nDecision: Do not reject H0.\n\nConclusion: At the 5% level of significance, from the sample data, there is not sufficient evidence to conclude that there was a decrease in the underemployment rates of the northeastern states from Year 1 to Year 2.",
   "needsFigure": true,
   "explanation": []
@@ -1386,7 +1331,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm89593504"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "e",
   "needsFigure": false,
   "explanation": []
@@ -1402,7 +1347,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm53146784"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "d",
   "needsFigure": false,
   "explanation": []
@@ -1418,7 +1363,7 @@
    "module": "m47045",
    "exerciseId": "fs-idp12095488"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "f",
   "needsFigure": false,
   "explanation": []
@@ -1434,7 +1379,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm45776544"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "e",
   "needsFigure": false,
   "explanation": []
@@ -1450,7 +1395,7 @@
    "module": "m47045",
    "exerciseId": "fs-idm28383952"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
+  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\n\n[PARTS]\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion\n[/PARTS]",
   "modelSolution": "f",
   "needsFigure": false,
   "explanation": []
@@ -1460,13 +1405,12 @@
   "sectionId": "10.4",
   "kind": "mc",
   "conceptTag": "10.4",
-  "stem": "A golf instructor is interested in determining if a new technique for improving players’ golf scores is effective. The instructor takes four (4) new students and records their 18-hole scores before learning the technique and then after having taken the class. The instructor conducts a hypothesis test. The data are as .\n\n[TABLE]\n| Player 1 | Player 2 | Player 3 | Player 4\nMean score before class | 83 | 78 | 93 | 87\nMean score after class | 80 | 80 | 86 | 86\n[/TABLE]\n\nThis is:",
+  "stem": "A golf instructor is interested in determining if a new technique for improving players’ golf scores is effective. The instructor takes four (4) new students and records their 18-hole scores before learning the technique and then after having taken the class. The instructor conducts a hypothesis test. The data are as the table below.\n\n[TABLE]\n| Player 1 | Player 2 | Player 3 | Player 4\nMean score before class | 83 | 78 | 93 | 87\nMean score after class | 80 | 80 | 86 | 86\n[/TABLE]\n\nThis is:",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m47045",
    "exerciseId": "fs-idp144471136"
   },
-  "context": "Use the following information to answer the next ten exercises. indicate which of the following choices best identifies the hypothesis test.\na. independent group means, population standard deviations and/or variances known\nb. independent group means, population standard deviations and/or variances unknown\nc. matched or paired samples\nd. single mean\ne. two proportions\nf. single proportion",
   "options": [
    "a test of two independent means.",
    "a test of two proportions.",
@@ -1567,7 +1511,6 @@
    "test": "Practice Test 3",
    "n": 57
   },
-  "context": "Use the following information to answer the next two exercises. You are conducting a study of the difference in time at two colleges for undergraduate degree completion. At College A, students take an average of 4.8 years to complete an undergraduate degree, while at College B, they take an average of 4.2 years. The pooled standard deviation for this data is 1.6 years",
   "modelSolution": "p-value < 0.01.",
   "needsFigure": false,
   "explanation": []
@@ -1583,7 +1526,6 @@
    "test": "Practice Test 3",
    "n": 58
   },
-  "context": "Use the following information to answer the next two exercises. You are conducting a study of the difference in time at two colleges for undergraduate degree completion. At College A, students take an average of 4.8 years to complete an undergraduate degree, while at College B, they take an average of 4.2 years. The pooled standard deviation for this data is 1.6 years",
   "modelSolution": "You will only reject the null hypothesis if you get a value significantly below the hypothesized mean of 110.",
   "needsFigure": false,
   "explanation": []
@@ -1663,7 +1605,6 @@
    "test": "Practice Test 3",
    "n": 63
   },
-  "context": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.",
   "modelSolution": "H0: pA = pB\n\nHa: pA ≠ pB",
   "needsFigure": false,
   "explanation": []
@@ -1679,7 +1620,6 @@
    "test": "Practice Test 3",
    "n": 64
   },
-  "context": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.",
   "modelSolution": "p_c=(x_A+x_A)/(n_A+n_A)=(65+78)/(100+100)=0.715",
   "needsFigure": false,
   "explanation": []
@@ -1695,7 +1635,6 @@
    "test": "Practice Test 3",
    "n": 65
   },
-  "context": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.",
   "modelSolution": "Using the calculator function 2-PropZTest, the p-value = 0.0417. Reject the null hypothesis. At the 5% significance level, here is sufficient evidence to conclude that there is a difference between the proportions of households in the two communities that have cable service.",
   "needsFigure": false,
   "explanation": []
@@ -1711,7 +1650,6 @@
    "test": "Practice Test 3",
    "n": 66
   },
-  "context": "Use the information to answer the next six exercises. You want to know if proportion of homes with cable television service differs between Community A and Community B. To test this, you draw a random sample of 100 for each and record whether they have cable service.",
   "modelSolution": "Using the calculator function 2-PropZTest, the p-value = 0.0417. Do not reject the null hypothesis. At the 1% significance level, there is insufficient evidence to conclude that there is a difference between the proportions of households in the two communities that have cable service.",
   "needsFigure": false,
   "explanation": []
@@ -1807,7 +1745,6 @@
    "test": "Practice Final Exam 1",
    "n": 3
   },
-  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n• Let Event A = both dice show an even number.\n• Let Event B = both dice show a number more than eight",
   "options": [
    "Sample sizes are almost never small.",
    "Two measurements are drawn from the same pair of individuals or objects.",
@@ -1831,7 +1768,6 @@
    "test": "Practice Final Exam 2",
    "n": 24
   },
-  "context": "Use the following information to answer the next three exercises: At the beginning of the quarter, the amount of time a student waits in line at the campus cafeteria is normally distributed with a mean of five minutes and a standard deviation of 1.5 minutes.",
   "options": [
    "independent groups.",
    "two proportions.",

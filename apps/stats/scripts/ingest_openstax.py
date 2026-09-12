@@ -110,6 +110,24 @@ def math_to_text(el):
 
 ROMAN = ['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x']
 
+SCALAR_RE = re.compile(r'^[−–\-+$]?\d[\d,]*(?:\.\d+)?\s*%?$|^[−–\-+]?\.\d+$')
+
+
+def is_scalar(t):
+    """True for a data value (a number, optionally signed/%-suffixed, or a very short token)."""
+    t = t.strip()
+    return bool(t) and len(t) <= 14 and bool(SCALAR_RE.match(t))
+
+
+LINK_KINDS = {}
+
+
+def link_phrase(target_id):
+    kind = LINK_KINDS.get(target_id, 'table')
+    return {'table': 'the table below', 'figure': 'the figure below', 'media': 'the figure below',
+            'example': 'the example above', 'exercise': 'the exercise above',
+            'equation': 'the equation above', 'note': 'the note above'}.get(kind, 'the table below')
+
 
 def text_of(el):
     out = []
@@ -122,18 +140,30 @@ def text_of(el):
         tag = e.tag.replace(C, '')
         if tag == 'list':
             style, ltype = e.get('number-style', ''), e.get('list-type', '')
-            out.append('\n')
-            for i, it in enumerate(k for k in e if k.tag == C + 'item'):
+            texts = []
+            for it in (k for k in e if k.tag == C + 'item'):
+                sub = []
+                if it.text: sub.append(it.text)
+                for k in it:
+                    sub.append(text_of(k) if k.tag.startswith(C) or k.tag.startswith(M) else '')
+                texts.append(re.sub(r'\s+', ' ', ''.join(sub)).strip())
+            # A list of short scalars is a data set, not prose: emit it on ONE line so 40 values
+            # do not become 40 rendered lines. See content/README of the renderer for the markers.
+            if len(texts) >= 3 and all(is_scalar(t) for t in texts):
+                out.append('\n[DATA]' + ', '.join(texts) + '[/DATA]\n')
+                if e.tail: out.append(e.tail)
+                return
+            marker = 'PARTS' if ltype == 'enumerated' else 'LIST'
+            out.append('\n[' + marker + ']\n')
+            for i, t in enumerate(texts):
                 if ltype == 'enumerated':
                     lab = {'lower-alpha': chr(97 + i) + '.', 'upper-alpha': chr(65 + i) + '.',
                            'lower-roman': ROMAN[i] + '.' if i < 10 else f'{i+1}.',
                            'upper-roman': ROMAN[i].upper() + '.' if i < 10 else f'{i+1}.'}.get(style, f'{i+1}.')
+                    out.append(f'{lab} {t}\n')
                 else:
-                    lab = '•'
-                out.append(f'{lab} ')
-                if it.text: out.append(it.text)
-                for k in it: walk(k)
-                out.append('\n')
+                    out.append(f'{t}\n')
+            out.append('[/' + marker + ']\n')
             if e.tail: out.append(e.tail)
             return
         if tag == 'table':
@@ -146,6 +176,10 @@ def text_of(el):
         if tag in ('media', 'figure'):
             cap = e.find(C + 'caption')
             out.append('[FIGURE' + (': ' + text_of(cap).strip() if cap is not None else '') + ']')
+            if e.tail: out.append(e.tail)
+            return
+        if tag == 'link':
+            out.append(link_phrase(e.get('target-id')))
             if e.tail: out.append(e.tail)
             return
         if tag == 'newline':
@@ -181,22 +215,103 @@ SUBQ_PREFIXES = ('find ', 'what ', 'in words', 'which ', 'construct ', 'calculat
                  'do ', 'can ', 'would ', 'should ', 'based on', 'let ', 'name ', 'discuss ', 'show ')
 
 
+def content_words(t):
+    return set(re.findall(r"[a-z][a-z']{2,}", (t or '').lower()))
+
+
+NUMBER_WORDS = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 'seven': 7,
+                'eight': 8, 'nine': 9, 'ten': 10, 'eleven': 11, 'twelve': 12}
+SCOPE_RE = re.compile(r'(?:answer|use for|refer to)\D{0,20}?the next (\w+)\s+(?:exercise|question|problem)', re.I)
+OPENER_RE = re.compile(r'^\s*use the following|following information', re.I)
+# An instruction that introduces sub-parts ("Determine what the key terms refer to…") belongs to the
+# QUESTION, not to the shared scenario; otherwise the stem is left as a bare label like "population".
+INSTRUCTION_RE = re.compile(
+    r'^\s*(determine|identify|find|calculate|state|complete|construct|fill in|match|classify|name|list|give)\b', re.I)
+
+
+class ContextScope:
+    """Tracks which shared scenario (if any) legitimately applies to the next exercise.
+
+    OpenStax writes "Use the following information to answer the next three exercises." — the block
+    applies to exactly that many exercises and no further. The previous importer kept it attached
+    until the next such block appeared, which pasted unrelated scenarios onto hundreds of questions.
+    """
+
+    def __init__(self):
+        self.text = None
+        self.remaining = 0
+        self.lead = None  # instruction paragraph that belongs to each following stem
+
+    def add_block(self, t):
+        if not t or not t.strip():
+            return
+        if OPENER_RE.search(t[:90]):
+            m = SCOPE_RE.search(t)
+            n = NUMBER_WORDS.get(m.group(1).lower()) if m else None
+            self.text, self.remaining, self.lead = t, (n if n else 2), None
+            return
+        if self.text is not None and self.remaining > 0:
+            # data, tables and figures that follow the opener are part of the same scenario;
+            # a trailing instruction is a lead-in for the questions instead.
+            if INSTRUCTION_RE.match(t) and len(t) < 300:
+                self.lead = t
+            else:
+                self.text += '\n\n' + t
+            return
+        # a standalone block with no opener: treat an instruction as a lead-in, ignore the rest
+        self.lead = t if (INSTRUCTION_RE.match(t) and len(t) < 300) else None
+
+    def apply(self, exercise):
+        if self.lead:
+            key = 'stem' if 'stem' in exercise else 'problem'
+            cur = (exercise.get(key) or '').strip()
+            if len(cur) < 60 and not cur.lower().startswith(self.lead[:20].lower()):
+                exercise[key] = f'{self.lead.rstrip()} — {cur}' if cur else self.lead.rstrip()
+        if self.text is not None and self.remaining > 0:
+            exercise['context'] = self.text
+            self.remaining -= 1
+            if self.remaining == 0:
+                self.text, self.lead = None, None
+
+
+def options_are_subparts(stem, items):
+    """True when an a./b./c. list is the PARTS of the question rather than answer choices.
+
+    "Identify the population, sample, parameter, statistic, variable, and data" followed by
+    a. population / b. sample / ... is six required answers, not six choices with one winner.
+    """
+    sw = content_words(stem)
+    if not sw:
+        return False
+    named = sum(1 for i in items if content_words(i) and content_words(i) <= sw)
+    if named >= max(2, len(items) // 2):
+        return True
+    # the stem enumerates several things and then asks for all of them
+    if re.search(r'\b(identify|find|state|determine|calculate|complete|construct)\b[^.?]*,[^.?]*,[^.?]*\band\b', stem, re.I):
+        return True
+    return False
+
+
 def parse_options(problem_el):
     """Return (stem_without_list, options) if the problem has an MC-looking lower-alpha list."""
     for l in problem_el.findall('.//' + C + 'list'):
         if l.get('list-type') == 'enumerated' and l.get('number-style', '') in ('lower-alpha', 'upper-alpha'):
             items = [inner_text(i) for i in l if i.tag == C + 'item']
             looks_mc = 2 <= len(items) <= 6 and all(
-                len(i) <= 160 and '\n' not in i and '____' not in i and not i.rstrip().endswith('?')
+                len(i.strip()) >= 2 and len(i) <= 160 and '\n' not in i and '____' not in i and not i.rstrip().endswith('?')
                 and not i.lower().startswith(SUBQ_PREFIXES) for i in items)
-            if looks_mc:
-                clone = ET.fromstring(ET.tostring(problem_el))
-                parent = {c: p for p in clone.iter() for c in p}
-                for ll in list(clone.iter(C + 'list')):
-                    if ll.get('list-type') == 'enumerated' and ll.get('number-style', '') in ('lower-alpha', 'upper-alpha'):
-                        parent[ll].remove(ll)
-                        break
-                return inner_text(clone), items
+            if not looks_mc or len({i.strip().lower() for i in items}) != len(items):
+                continue
+            clone = ET.fromstring(ET.tostring(problem_el))
+            parent = {c: p for p in clone.iter() for c in p}
+            for ll in list(clone.iter(C + 'list')):
+                if ll.get('list-type') == 'enumerated' and ll.get('number-style', '') in ('lower-alpha', 'upper-alpha'):
+                    parent[ll].remove(ll)
+                    break
+            stem = inner_text(clone)
+            if options_are_subparts(stem, items):
+                return None, None
+            return stem, items
     return None, None
 
 
@@ -213,6 +328,10 @@ def parse_exercise(ex):
 def parse_module(mid):
     raw = uncomment_solutions(open(os.path.join(MOD, mid + '.cnxml'), encoding='utf8').read())
     root = ET.fromstring(raw)
+    LINK_KINDS.clear()
+    for el in root.iter():
+        if el.get('id') and el.tag.startswith(C):
+            LINK_KINDS[el.get('id')] = el.tag.replace(C, '')
     title = root.find('.//md:title', NS).text
     content = root.find(C + 'content')
     d = OrderedDict(id=mid, title=title)
@@ -229,17 +348,13 @@ def parse_module(mid):
         for sec in content.iter(C + 'section'):
             if sec.get('class') != cls:
                 continue
-            ctx = None
+            scope = ContextScope()
             for child in sec:
                 if child.tag in (C + 'para', C + 'table', C + 'figure', C + 'list', C + 'media'):
-                    t = inner_text(child)
-                    if t.lower().startswith('use the following') or 'following information' in t.lower()[:80]:
-                        ctx = t
-                    else:
-                        ctx = t if ctx is None else ctx + '\n' + t
+                    scope.add_block(inner_text(child))
                 elif child.tag == C + 'exercise':
                     e = parse_exercise(child)
-                    if ctx: e['context'] = ctx
+                    scope.apply(e)
                     out.append(e)
                 elif child.tag == C + 'section':
                     out.extend(parse_exercise(ex) for ex in child.iter(C + 'exercise'))
@@ -267,22 +382,22 @@ NUM_RE = re.compile(r'^\s*(\d+)\s*\.?\s*')
 
 
 def parse_numbered_paras(sec):
-    items, ctx = [], None
+    items, scope = [], ContextScope()
     for child in sec:
-        if child.tag != C + 'para':
+        if child.tag not in (C + 'para', C + 'table', C + 'figure', C + 'list', C + 'media'):
             continue
-        emph = child.find(C + 'emphasis')
+        emph = child.find(C + 'emphasis') if child.tag == C + 'para' else None
         num = None
         if emph is not None and emph.text and re.fullmatch(r'\d+\.?', emph.text.strip()):
             num = int(emph.text.strip().rstrip('.'))
         if num is None:
-            ctx = inner_text(child)
+            scope.add_block(inner_text(child))
             continue
         stem, options = parse_options(child)
         it = OrderedDict(n=num, problem=NUM_RE.sub('', inner_text(child), count=1))
         if options:
             it['stem'], it['options'] = NUM_RE.sub('', stem, count=1), options
-        if ctx: it['context'] = ctx
+        scope.apply(it)
         items.append(it)
     return items
 

@@ -20,14 +20,14 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "Determine what key terms refer to in the following study.\n\nA survey of athletes in a university was conducted to study the heights of athletes, in meters. Fill in the letter of the phrase that best describes each of the items below.\n\n1. Population ____\n2. Statistics ____\n3. Parameter ____\n4. Sample ____\n5. Variable ____\n6. Data _____\n\na. the average height of athletes in the university\nb. the average height of athletes in the survey\nc. all athletes in the university\nd. all students in the university\ne. the height of one athlete\nf. a group of athletes randomly selected\ng. 1.82, 1.76, 1.69, 1.93",
+  "stem": "Determine what key terms refer to in the following study.\n\nA survey of athletes in a university was conducted to study the heights of athletes, in meters. Fill in the letter of the phrase that best describes each of the items below.\n\n[PARTS]\n1. Population ____\n2. Statistics ____\n3. Parameter ____\n4. Sample ____\n5. Variable ____\n6. Data _____\n[/PARTS]\n\n[PARTS]\na. the average height of athletes in the university\nb. the average height of athletes in the survey\nc. all athletes in the university\nd. all students in the university\ne. the height of one athlete\nf. a group of athletes randomly selected\ng. 1.82, 1.76, 1.69, 1.93\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exer-00001",
    "ref": "Try It 1.2"
   },
-  "modelSolution": "1. c\n2. b\n3. a\n4. f\n5. e\n6. g",
+  "modelSolution": "[PARTS]\n1. c\n2. b\n3. a\n4. f\n5. e\n6. g\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -68,13 +68,13 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "population",
+  "stem": "Determine what the key terms refer to in the example for Researcher A. — population",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exerciseone"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A:\n\n• 3\n• 4\n• 11\n• 15\n• 16\n• 17\n• 22\n• 44\n• 37\n• 16\n• 14\n• 24\n• 25\n• 15\n• 26\n• 27\n• 33\n• 29\n• 35\n• 44\n• 13\n• 21\n• 22\n• 10\n• 12\n• 8\n• 40\n• 32\n• 26\n• 27\n• 31\n• 34\n• 29\n• 17\n• 8\n• 24\n• 18\n• 47\n• 33\n• 34\nResearcher B:\n\n• 3\n• 14\n• 11\n• 5\n• 16\n• 17\n• 28\n• 41\n• 31\n• 18\n• 14\n• 14\n• 26\n• 25\n• 21\n• 22\n• 31\n• 2\n• 35\n• 44\n• 23\n• 21\n• 21\n• 16\n• 12\n• 18\n• 41\n• 22\n• 16\n• 25\n• 33\n• 34\n• 29\n• 13\n• 18\n• 24\n• 23\n• 42\n• 33\n• 29\nDetermine what the key terms refer to in the example for Researcher A.",
+  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "Patients with the virus",
   "needsFigure": false,
   "explanation": []
@@ -84,13 +84,13 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "sample",
+  "stem": "Determine what the key terms refer to in the example for Researcher A. — sample",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exercisetwo"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A:\n\n• 3\n• 4\n• 11\n• 15\n• 16\n• 17\n• 22\n• 44\n• 37\n• 16\n• 14\n• 24\n• 25\n• 15\n• 26\n• 27\n• 33\n• 29\n• 35\n• 44\n• 13\n• 21\n• 22\n• 10\n• 12\n• 8\n• 40\n• 32\n• 26\n• 27\n• 31\n• 34\n• 29\n• 17\n• 8\n• 24\n• 18\n• 47\n• 33\n• 34\nResearcher B:\n\n• 3\n• 14\n• 11\n• 5\n• 16\n• 17\n• 28\n• 41\n• 31\n• 18\n• 14\n• 14\n• 26\n• 25\n• 21\n• 22\n• 31\n• 2\n• 35\n• 44\n• 23\n• 21\n• 21\n• 16\n• 12\n• 18\n• 41\n• 22\n• 16\n• 25\n• 33\n• 34\n• 29\n• 13\n• 18\n• 24\n• 23\n• 42\n• 33\n• 29\nDetermine what the key terms refer to in the example for Researcher A.",
+  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "AIDS patients sampled from researcher A and researcher B.",
   "needsFigure": false,
   "explanation": []
@@ -100,13 +100,13 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "parameter",
+  "stem": "Determine what the key terms refer to in the example for Researcher A. — parameter",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exercisethree"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A:\n\n• 3\n• 4\n• 11\n• 15\n• 16\n• 17\n• 22\n• 44\n• 37\n• 16\n• 14\n• 24\n• 25\n• 15\n• 26\n• 27\n• 33\n• 29\n• 35\n• 44\n• 13\n• 21\n• 22\n• 10\n• 12\n• 8\n• 40\n• 32\n• 26\n• 27\n• 31\n• 34\n• 29\n• 17\n• 8\n• 24\n• 18\n• 47\n• 33\n• 34\nResearcher B:\n\n• 3\n• 14\n• 11\n• 5\n• 16\n• 17\n• 28\n• 41\n• 31\n• 18\n• 14\n• 14\n• 26\n• 25\n• 21\n• 22\n• 31\n• 2\n• 35\n• 44\n• 23\n• 21\n• 21\n• 16\n• 12\n• 18\n• 41\n• 22\n• 16\n• 25\n• 33\n• 34\n• 29\n• 13\n• 18\n• 24\n• 23\n• 42\n• 33\n• 29\nDetermine what the key terms refer to in the example for Researcher A.",
+  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "The average length of time (in months) patients with the virus live after treatment.",
   "needsFigure": false,
   "explanation": []
@@ -116,13 +116,13 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "statistic",
+  "stem": "Determine what the key terms refer to in the example for Researcher A. — statistic",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exercisefour"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A:\n\n• 3\n• 4\n• 11\n• 15\n• 16\n• 17\n• 22\n• 44\n• 37\n• 16\n• 14\n• 24\n• 25\n• 15\n• 26\n• 27\n• 33\n• 29\n• 35\n• 44\n• 13\n• 21\n• 22\n• 10\n• 12\n• 8\n• 40\n• 32\n• 26\n• 27\n• 31\n• 34\n• 29\n• 17\n• 8\n• 24\n• 18\n• 47\n• 33\n• 34\nResearcher B:\n\n• 3\n• 14\n• 11\n• 5\n• 16\n• 17\n• 28\n• 41\n• 31\n• 18\n• 14\n• 14\n• 26\n• 25\n• 21\n• 22\n• 31\n• 2\n• 35\n• 44\n• 23\n• 21\n• 21\n• 16\n• 12\n• 18\n• 41\n• 22\n• 16\n• 25\n• 33\n• 34\n• 29\n• 13\n• 18\n• 24\n• 23\n• 42\n• 33\n• 29\nDetermine what the key terms refer to in the example for Researcher A.",
+  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "The average length of time (in months) AIDS patients from the sample live after treatment.",
   "needsFigure": false,
   "explanation": []
@@ -132,13 +132,13 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "variable",
+  "stem": "Determine what the key terms refer to in the example for Researcher A. — variable",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46909",
    "exerciseId": "exercisefive"
   },
-  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A:\n\n• 3\n• 4\n• 11\n• 15\n• 16\n• 17\n• 22\n• 44\n• 37\n• 16\n• 14\n• 24\n• 25\n• 15\n• 26\n• 27\n• 33\n• 29\n• 35\n• 44\n• 13\n• 21\n• 22\n• 10\n• 12\n• 8\n• 40\n• 32\n• 26\n• 27\n• 31\n• 34\n• 29\n• 17\n• 8\n• 24\n• 18\n• 47\n• 33\n• 34\nResearcher B:\n\n• 3\n• 14\n• 11\n• 5\n• 16\n• 17\n• 28\n• 41\n• 31\n• 18\n• 14\n• 14\n• 26\n• 25\n• 21\n• 22\n• 31\n• 2\n• 35\n• 44\n• 23\n• 21\n• 21\n• 16\n• 12\n• 18\n• 41\n• 22\n• 16\n• 25\n• 33\n• 34\n• 29\n• 13\n• 18\n• 24\n• 23\n• 42\n• 33\n• 29\nDetermine what the key terms refer to in the example for Researcher A.",
+  "context": "Use the following information to answer the next five exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A:\n\n[DATA]3, 4, 11, 15, 16, 17, 22, 44, 37, 16, 14, 24, 25, 15, 26, 27, 33, 29, 35, 44, 13, 21, 22, 10, 12, 8, 40, 32, 26, 27, 31, 34, 29, 17, 8, 24, 18, 47, 33, 34[/DATA]\n\nResearcher B:\n\n[DATA]3, 14, 11, 5, 16, 17, 28, 41, 31, 18, 14, 14, 26, 25, 21, 22, 31, 2, 35, 44, 23, 21, 21, 16, 12, 18, 41, 22, 16, 25, 33, 34, 29, 13, 18, 24, 23, 42, 33, 29[/DATA]",
   "modelSolution": "X = the length of time (in months) patients with the virus live after treatment",
   "needsFigure": false,
   "explanation": []
@@ -154,8 +154,7 @@
    "module": "m46909",
    "exerciseId": "element-188"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. The population is all of the clients of the fitness center.\nb. A sample of the clients that use the fitness center for a given week.\nc. The average amount of time that all clients exercise in one week.\nd. The average amount of time that a sample of clients exercises in one week.\ne. The amount of time that a client exercises in one week.\nf. Examples are: 2 hours, 5 hours, and 7.5 hours",
+  "modelSolution": "[PARTS]\na. The population is all of the clients of the fitness center.\nb. A sample of the clients that use the fitness center for a given week.\nc. The average amount of time that all clients exercise in one week.\nd. The average amount of time that a sample of clients exercises in one week.\ne. The amount of time that a client exercises in one week.\nf. Examples are: 2 hours, 5 hours, and 7.5 hours\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -170,8 +169,7 @@
    "module": "m46909",
    "exerciseId": "element-951"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. all children who take ski or snowboard lessons\nb. a group of these children\nc. the population mean age of children who take their first snowboard lesson\nd. the sample mean age of children who take their first snowboard lesson\ne. X = the age of one child who takes their first ski or snowboard lesson\nf. values for X, such as 3, 7, and so on",
+  "modelSolution": "[PARTS]\na. all children who take ski or snowboard lessons\nb. a group of these children\nc. the population mean age of children who take their first snowboard lesson\nd. the sample mean age of children who take their first snowboard lesson\ne. X = the age of one child who takes their first ski or snowboard lesson\nf. values for X, such as 3, 7, and so on\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -186,8 +184,7 @@
    "module": "m46909",
    "exerciseId": "element-776"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. the cardiologist’s patients\nb. a group of the cardiologist’s patients\nc. the mean recovery period of all of the cardiologist’s patients\nd. the mean recovery period of the group of the cardiologist’s patients\ne. X = the mean recovery period of one patient\nf. values for X, such as 10 days, 14 days, 20 days, and so on",
+  "modelSolution": "[PARTS]\na. the cardiologist’s patients\nb. a group of the cardiologist’s patients\nc. the mean recovery period of all of the cardiologist’s patients\nd. the mean recovery period of the group of the cardiologist’s patients\ne. X = the mean recovery period of one patient\nf. values for X, such as 10 days, 14 days, 20 days, and so on\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -202,8 +199,7 @@
    "module": "m46909",
    "exerciseId": "element-54"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. the clients of the insurance companies\nb. a group of the clients\nc. the mean health costs of the clients\nd. the mean health costs of the sample\ne. X = the health costs of one client\nf. values for X, such as 34, 9, 82, and so on",
+  "modelSolution": "[PARTS]\na. the clients of the insurance companies\nb. a group of the clients\nc. the mean health costs of the clients\nd. the mean health costs of the sample\ne. X = the health costs of one client\nf. values for X, such as 34, 9, 82, and so on\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -218,8 +214,7 @@
    "module": "m46909",
    "exerciseId": "element-605"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. all voters in the politician’s district\nb. a random selection of voters in the politician’s district\nc. the proportion of voters in this district who think this politician is doing a good job\nd. the proportion of voters in this district who think this politician is doing a good job in the sample\ne. X = the number of voters in the district who think this politician is doing a good job\nf. Yes, he is doing a good job. No, he is not doing a good job.",
+  "modelSolution": "[PARTS]\na. all voters in the politician’s district\nb. a random selection of voters in the politician’s district\nc. the proportion of voters in this district who think this politician is doing a good job\nd. the proportion of voters in this district who think this politician is doing a good job in the sample\ne. X = the number of voters in the district who think this politician is doing a good job\nf. Yes, he is doing a good job. No, he is not doing a good job.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -234,8 +229,7 @@
    "module": "m46909",
    "exerciseId": "element-430"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. all the clients of this counselor\nb. a group of clients of this marriage counselor\nc. the proportion of all her clients who stay married\nd. the proportion of the sample of the counselor’s clients who stay married\ne. X = whether a client stayed married\nf. yes, no",
+  "modelSolution": "[PARTS]\na. all the clients of this counselor\nb. a group of clients of this marriage counselor\nc. the proportion of all her clients who stay married\nd. the proportion of the sample of the counselor’s clients who stay married\ne. X = whether a client stayed married\nf. yes, no\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -250,8 +244,7 @@
    "module": "m46909",
    "exerciseId": "element-417"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. all voters (in a certain geographic area)\nb. a random selection of all the voters\nc. the proportion of voters who are interested in this particular cause\nd. the proportion of voters who are interested in this particular cause in the sample\ne. X = the number of voters who are interested in this particular cause\nf. yes, no",
+  "modelSolution": "[PARTS]\na. all voters (in a certain geographic area)\nb. a random selection of all the voters\nc. the proportion of voters who are interested in this particular cause\nd. the proportion of voters who are interested in this particular cause in the sample\ne. X = the number of voters who are interested in this particular cause\nf. yes, no\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -266,8 +259,7 @@
    "module": "m46909",
    "exerciseId": "element-467"
   },
-  "context": "For each of the following eight exercises, identify: a. the population, b. the sample,\nc. the parameter, d. the statistic, e. the variable, and f. the data. Give examples where appropriate.",
-  "modelSolution": "a. all people (maybe in a certain geographic area, such as the United States)\nb. a group of the people\nc. the proportion of all people who will buy the product\nd. the proportion of the sample who will buy the product\ne. X = whether a person bought the product\nf. buy, not buy",
+  "modelSolution": "[PARTS]\na. all people (maybe in a certain geographic area, such as the United States)\nb. a group of the people\nc. the proportion of all people who will buy the product\nd. the proportion of the sample who will buy the product\ne. X = whether a person bought the product\nf. buy, not buy\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -380,14 +372,14 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "The following list of materials was purchased by a purchase manager in a company:\n\n• Two types of nails (2 kg box nails, 3 kg roofing nails)\n• One type of oil (4 L machine oil)\n• Four types of screws (3 kg wood screws, 5 kg machine screws, 1 kg set screws, 2 kg socket screws)\n\nName data sets that are quantitative discrete, quantitative continuous, and qualitative.",
+  "stem": "The following list of materials was purchased by a purchase manager in a company:\n\n[LIST]\nTwo types of nails (2 kg box nails, 3 kg roofing nails)\nOne type of oil (4 L machine oil)\nFour types of screws (3 kg wood screws, 5 kg machine screws, 1 kg set screws, 2 kg socket screws)\n[/LIST]\n\nName data sets that are quantitative discrete, quantitative continuous, and qualitative.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "exer-00001",
    "ref": "Try It 1.7"
   },
-  "modelSolution": "One possible solution:\n\n• The two types of nails, one type of oil, and four types of screws are quantitative discrete data because you count them.\n• The weights of materials are quantitative continuous data because you can measure weight as precisely as possible.\n• Types of nails, oil, and screws are qualitative data because they are categorical.\n\nTry to identify additional data sets in the example.",
+  "modelSolution": "One possible solution:\n\n[LIST]\nThe two types of nails, one type of oil, and four types of screws are quantitative discrete data because you count them.\nThe weights of materials are quantitative continuous data because you can measure weight as precisely as possible.\nTypes of nails, oil, and screws are qualitative data because they are categorical.\n[/LIST]\n\nTry to identify additional data sets in the example.",
   "needsFigure": false,
   "explanation": []
  },
@@ -476,7 +468,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "“Number of times per week” is what type of data?\n\n• a. qualitative (categorical)\n• b. quantitative discrete\n• c. quantitative continuous",
+  "stem": "“Number of times per week” is what type of data?\n\n[LIST]\na. qualitative (categorical)\nb. quantitative discrete\nc. quantitative continuous\n[/LIST]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -491,7 +483,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "The sampling method was\n\n• a. simple random\n• b. systematic\n• c. stratified\n• d. cluster",
+  "stem": "The sampling method was\n\n[LIST]\na. simple random\nb. systematic\nc. stratified\nd. cluster\n[/LIST]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -507,7 +499,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "“Duration (amount of time)” is what type of data?\n\n• a. qualitative (categorical)\n• b. quantitative discrete\n• c. quantitative continuous",
+  "stem": "“Duration (amount of time)” is what type of data?\n\n[LIST]\na. qualitative (categorical)\nb. quantitative discrete\nc. quantitative continuous\n[/LIST]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -523,7 +515,7 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "The colors of the houses around the park are what kind of data?\n\n• a. qualitative (categorical)\n• b. quantitative discrete\n• c. quantitative continuous",
+  "stem": "The colors of the houses around the park are what kind of data?\n\n[LIST]\na. qualitative (categorical)\nb. quantitative discrete\nc. quantitative continuous\n[/LIST]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
@@ -539,14 +531,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "contains the total number of deaths worldwide as a result of earthquakes over a 13-year period.\n\n[TABLE]\nYear | Total Number of Deaths\n1 | 231\n2 | 21,357\n3 | 11,685\n4 | 33,819\n5 | 228,802\n6 | 88,003\n7 | 6,605\n8 | 712\n9 | 88,011\n10 | 1,790\n11 | 320,120\n12 | 21,953\n13 | 768\nTotal | 823,856\n[/TABLE]\n\nUse to answer the following questions.\n\na. What is the proportion of deaths between Year 8 and Year 13?\nb. What percent of deaths occurred before Year 2?\nc. What is the percent of deaths that occurred in Year 4 or after Year 11?\nd. What is the fraction of deaths that happened before Year 13?\ne. What kind of data is the number of deaths?\nf. Earthquakes are quantified according to the amount of energy they produce (examples are 2.1, 5.0, 6.7). What type of data is that?\ng. What contributed to the large number of deaths in Year 11? In Year 5? Explain.",
+  "stem": "the table below contains the total number of deaths worldwide as a result of earthquakes over a 13-year period.\n\n[TABLE]\nYear | Total Number of Deaths\n1 | 231\n2 | 21,357\n3 | 11,685\n4 | 33,819\n5 | 228,802\n6 | 88,003\n7 | 6,605\n8 | 712\n9 | 88,011\n10 | 1,790\n11 | 320,120\n12 | 21,953\n13 | 768\nTotal | 823,856\n[/TABLE]\n\nUse the table below to answer the following questions.\n\n[PARTS]\na. What is the proportion of deaths between Year 8 and Year 13?\nb. What percent of deaths occurred before Year 2?\nc. What is the percent of deaths that occurred in Year 4 or after Year 11?\nd. What is the fraction of deaths that happened before Year 13?\ne. What kind of data is the number of deaths?\nf. Earthquakes are quantified according to the amount of energy they produce (examples are 2.1, 5.0, 6.7). What type of data is that?\ng. What contributed to the large number of deaths in Year 11? In Year 5? Explain.\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "fs-idp31767488"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. 0.5242\nb. 0.03%\nc. 6.86%\nd. (823,088)/(823,856)\ne. quantitative discrete\nf. quantitative continuous\ng. In both years, underwater earthquakes produced massive tsunamis.",
+  "modelSolution": "[PARTS]\na. 0.5242\nb. 0.03%\nc. 6.86%\nd. (823,088)/(823,856)\ne. quantitative discrete\nf. quantitative continuous\ng. In both years, underwater earthquakes produced massive tsunamis.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -561,7 +552,6 @@
    "module": "m46885",
    "exerciseId": "eip-310"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.\nFor the following four exercises, determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).",
   "modelSolution": "cluster",
   "needsFigure": false,
   "explanation": []
@@ -577,7 +567,6 @@
    "module": "m46885",
    "exerciseId": "eip-537"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.\nFor the following four exercises, determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).",
   "modelSolution": "systematic",
   "needsFigure": false,
   "explanation": []
@@ -593,7 +582,6 @@
    "module": "m46885",
    "exerciseId": "eip-916"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.\nFor the following four exercises, determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).",
   "modelSolution": "convenience",
   "needsFigure": false,
   "explanation": []
@@ -609,7 +597,6 @@
    "module": "m46885",
    "exerciseId": "eip-403"
   },
-  "context": "Use the following information to answer the next four exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Antonio, Texas. The first house in the neighborhood around the park was selected randomly, and then the resident of every eighth house in the neighborhood around the park was interviewed.\nFor the following four exercises, determine the type of sampling used (simple random, stratified, systematic, cluster, or convenience).",
   "modelSolution": "simple random",
   "needsFigure": false,
   "explanation": []
@@ -625,7 +612,7 @@
    "module": "m46885",
    "exerciseId": "eip-885"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "values for X, such as 3, 4, 11, and so on",
   "needsFigure": false,
   "explanation": []
@@ -641,7 +628,7 @@
    "module": "m46885",
    "exerciseId": "eip-812"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Answers will vary. Sample answer: One reason may be the average age of the individuals in the two samples. Or, perhaps the drug affects men and women differently. If the ratio of men and women aren't the same in both sample groups, then the data would differ.",
   "needsFigure": false,
   "explanation": []
@@ -657,7 +644,7 @@
    "module": "m46885",
    "exerciseId": "eip-385"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -675,7 +662,7 @@
    "module": "m46885",
    "exerciseId": "eip-322"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Since the treatment is not the same the data might be different unless neither treatment has an effect.",
   "needsFigure": false,
   "explanation": []
@@ -691,7 +678,7 @@
    "module": "m46885",
    "exerciseId": "eip-471"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "Take a simple random sample from each group. One way is by assigning a number to each patient and using a random number generator to randomly select patients.",
   "needsFigure": false,
   "explanation": []
@@ -707,7 +694,7 @@
    "module": "m46885",
    "exerciseId": "eip-581"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
+  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\n\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\n\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "He has used a simple random sample method.",
   "needsFigure": false,
   "explanation": []
@@ -723,7 +710,6 @@
    "module": "m46885",
    "exerciseId": "eip-183"
   },
-  "context": "Use the following information to answer the next seven exercises. Studies are often done by pharmaceutical companies to determine the effectiveness of a treatment program. Suppose that a new drug is currently under study to address a respiratory virus. It is given to patients once the patient exhibits symptoms of the virus. Of interest is the average (mean) length of time in days from the time the patient starts the treatment until the symptoms are alleviated. Two researchers each follow a different set of 40 patients with the respiratory virus from the start of treatment until the symptoms are alleviated. The following data (in days) are collected.\nResearcher A: 3; 4; 11; 15; 16; 17; 22; 44; 37; 16; 14; 24; 25; 15; 26; 27; 33; 29; 35; 44; 13; 21; 22; 10; 12; 8; 40; 32; 26; 27; 31; 34; 29; 17; 8; 24; 18; 47; 33; 34\nResearcher B: 3; 14; 11; 5; 16; 17; 28; 41; 31; 18; 14; 14; 26; 25; 21; 22; 31; 2; 35; 44; 23; 21; 21; 16; 12; 18; 41; 22; 16; 25; 33; 34; 29; 13; 18; 24; 23; 42; 33; 29",
   "modelSolution": "This would be convenience sampling and is not random.",
   "needsFigure": false,
   "explanation": []
@@ -739,7 +725,7 @@
    "module": "m46885",
    "exerciseId": "eip-695"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "The researchers are studying different groups, so there will be some variation in the data.",
   "needsFigure": false,
   "explanation": []
@@ -755,7 +741,7 @@
    "module": "m46885",
    "exerciseId": "eip-381"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -773,7 +759,7 @@
    "module": "m46885",
    "exerciseId": "eip-680"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "There are many school-aged children and young adults in the United States, and the study was done at only one school, so the sample size is not large enough to reflect the population.",
   "needsFigure": false,
   "explanation": []
@@ -789,7 +775,7 @@
    "module": "m46885",
    "exerciseId": "eip-162"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "modelSolution": "Even though the specific data support each researcher’s conclusions, the different results suggest that more data need to be collected before the researchers can reach a conclusion.",
   "needsFigure": false,
   "explanation": []
@@ -805,7 +791,7 @@
    "module": "m46885",
    "exerciseId": "eip-528"
   },
-  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: Two researchers are gathering data on hours of video games played by school-aged children and young adults. They each randomly sample different groups of 150 students from the same school. They collect the following data.\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 26 | 0.17 | 0.17\n2–4 | 30 | 0.20 | 0.37\n4–6 | 49 | 0.33 | 0.70\n6–8 | 25 | 0.17 | 0.87\n8–10 | 12 | 0.08 | 0.95\n10–12 | 8 | 0.05 | 1\n[/TABLE]\n\n[TABLE]\nHours Played per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0–2 | 48 | 0.32 | 0.32\n2–4 | 51 | 0.34 | 0.66\n4–6 | 24 | 0.16 | 0.82\n6–8 | 12 | 0.08 | 0.90\n8–10 | 11 | 0.07 | 0.97\n10–12 | 4 | 0.03 | 1\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -823,7 +809,7 @@
    "module": "m46885",
    "exerciseId": "eip-370"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "There is not enough information given to judge if either one is correct or incorrect.",
   "needsFigure": false,
   "explanation": []
@@ -839,7 +825,7 @@
    "module": "m46885",
    "exerciseId": "eip-78"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "The second study is more reliable, because the company would be interested in showing results that favored a higher rate of improvement from patients using their software. The data may be skewed; however, the American Medical Association is not concerned with the success of the software and so should be objective.",
   "needsFigure": false,
   "explanation": []
@@ -855,7 +841,7 @@
    "module": "m46885",
    "exerciseId": "eip-297"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "modelSolution": "The software program seems to work because the second study shows that more patients improve while using the software than not. Even though the difference is not as large as that in the first study, the results from the second study are likely more reliable and still show improvement.",
   "needsFigure": false,
   "explanation": []
@@ -871,7 +857,7 @@
    "module": "m46885",
    "exerciseId": "eip-242"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -883,13 +869,13 @@
   "sectionId": "1.2",
   "kind": "tf",
   "conceptTag": "1.2",
-  "stem": "Patients who used the software were also a part of an exercise program whereas patients who did not use the software were not. Does this change the validity of the conclusions from ?",
+  "stem": "Patients who used the software were also a part of an exercise program whereas patients who did not use the software were not. Does this change the validity of the conclusions from the exercise above?",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-668"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
+  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in the table below. The second study collected the data in the table below.\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -907,7 +893,6 @@
    "module": "m46885",
    "exerciseId": "eip-908"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -925,7 +910,6 @@
    "module": "m46885",
    "exerciseId": "eip-254"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -943,7 +927,6 @@
    "module": "m46885",
    "exerciseId": "eip-831"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -961,7 +944,6 @@
    "module": "m46885",
    "exerciseId": "eip-121"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -979,7 +961,6 @@
    "module": "m46885",
    "exerciseId": "eip-17"
   },
-  "context": "Use the following data to answer the next five exercises: A pair of studies was performed to measure the effectiveness of a new software program designed to help stroke patients regain their problem-solving skills. Patients were asked to use the software program twice a day, once in the morning and once in the evening. The studies observed 200 stroke patients recovering over a period of several weeks. The first study collected the data in . The second study collected the data in .\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 142 | 43 | 15\nDid not use program | 72 | 110 | 18\n[/TABLE]\n[TABLE]\nGroup | Showed improvement | No improvement | Deterioration\nUsed program | 105 | 74 | 19\nDid not use program | 89 | 99 | 4\n[/TABLE]",
   "answer": true,
   "needsFigure": false,
   "explanation": [
@@ -997,7 +978,6 @@
    "module": "m46885",
    "exerciseId": "element-842"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative discrete, 150",
   "needsFigure": false,
   "explanation": []
@@ -1013,7 +993,6 @@
    "module": "m46885",
    "exerciseId": "eip-869"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative continuous, 19.2%",
   "needsFigure": false,
   "explanation": []
@@ -1029,7 +1008,6 @@
    "module": "m46885",
    "exerciseId": "eip-146"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "qualitative, Oakland A’s",
   "needsFigure": false,
   "explanation": []
@@ -1045,7 +1023,6 @@
    "module": "m46885",
    "exerciseId": "eip-572"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative continuous, 7.2 minutes",
   "needsFigure": false,
   "explanation": []
@@ -1061,7 +1038,6 @@
    "module": "m46885",
    "exerciseId": "eip-601"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative discrete, 11,234 students",
   "needsFigure": false,
   "explanation": []
@@ -1077,7 +1053,6 @@
    "module": "m46885",
    "exerciseId": "eip-22"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "qualitative, Dancing with the Stars",
   "needsFigure": false,
   "explanation": []
@@ -1093,7 +1068,6 @@
    "module": "m46885",
    "exerciseId": "eip-279"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "qualitative, Crest",
   "needsFigure": false,
   "explanation": []
@@ -1109,7 +1083,6 @@
    "module": "m46885",
    "exerciseId": "eip-172"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative continuous, 8.32 miles",
   "needsFigure": false,
   "explanation": []
@@ -1125,7 +1098,6 @@
    "module": "m46885",
    "exerciseId": "eip-418"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative continuous, 47.3 years",
   "needsFigure": false,
   "explanation": []
@@ -1141,7 +1113,6 @@
    "module": "m46885",
    "exerciseId": "eip-865"
   },
-  "context": "For the following exercises, identify the type of data that would be used to describe a response (quantitative discrete, quantitative continuous, or qualitative), and give an example of the data.",
   "modelSolution": "quantitative discrete, three",
   "needsFigure": false,
   "explanation": []
@@ -1195,7 +1166,7 @@
  {
   "id": "os-m46885-eip-772",
   "sectionId": "1.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "1.2",
   "stem": "Airline companies are interested in the consistency of the number of babies on each flight, so that they have adequate safety equipment. Suppose an airline conducts a survey. Over Thanksgiving weekend, it surveys six flights from Boston to Salt Lake City to determine the number of babies on the flights. It determines the amount of safety equipment needed by the result of that study.",
   "source": "openstax-homework",
@@ -1203,16 +1174,9 @@
    "module": "m46885",
    "exerciseId": "eip-772"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "options": [
-   "Using complete sentences, list three things wrong with the way the survey was conducted.",
-   "Using complete sentences, list three ways that you would improve the survey if it were to be repeated."
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. The survey was conducted using six similar flights. The survey would not be a true representation of the entire population of air travelers.Conducting the survey on a holiday weekend will not produce representative results.\nb. Conduct the survey during different times of the year. Conduct the survey using flights to and from various locations.Conduct the survey on different days of the week.\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. The survey was conducted using six similar flights.\n\nThe survey would not be a true representation of the entire population of air travelers.\n\nConducting the survey on a holiday weekend will not produce representative results.\n\nb.\nConduct the survey during different times of the year.\n\nConduct the survey using flights to and from various locations.\n\nConduct the survey on different days of the week."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-700",
@@ -1225,8 +1189,7 @@
    "module": "m46885",
    "exerciseId": "eip-700"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "Answers will vary. Sample Answer: Randomly choose 25 colleges in the state. Use all statistics classes from each of the chosen colleges in the sample. This can be done by listing all the colleges together with a two-digit number starting with 00 then 01, etc. The list of colleges can be found on Wikipedia. http://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_California Use a random number generator to pick 25 colleges.",
+  "modelSolution": "Answers will vary. Sample Answer: Randomly choose 25 colleges in the state. Use all statistics classes from each of the chosen colleges in the sample. This can be done by listing all the colleges together with a two-digit number starting with 00 then 01, etc. The list of colleges can be found on Wikipedia. the table below Use a random number generator to pick 25 colleges.",
   "needsFigure": false,
   "explanation": []
  },
@@ -1241,7 +1204,6 @@
    "module": "m46885",
    "exerciseId": "eip-155"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Answers will vary. Sample Answer: You could use a systematic sampling method. Stop the tenth person as they leave one of the buildings on campus at 9:50 in the morning. Then stop the tenth person as they leave a different building on campus at 1:50 in the afternoon.",
   "needsFigure": false,
   "explanation": []
@@ -1257,7 +1219,6 @@
    "module": "m46885",
    "exerciseId": "eip-255"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Answers will vary. Sample Answer: Not all people have a listed phone number. Many people hang up or do not respond to phone surveys.",
   "needsFigure": false,
   "explanation": []
@@ -1273,7 +1234,6 @@
    "module": "m46885",
    "exerciseId": "eip-738"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Answers will vary. Sample Answer: Many people will not respond to mail surveys. If they do respond to the surveys, you can’t be sure who is responding. In addition, mailing lists can be incomplete.",
   "needsFigure": false,
   "explanation": []
@@ -1289,7 +1249,6 @@
    "module": "m46885",
    "exerciseId": "eip-608"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Ask everyone to include their age then take a random sample from the data. Include in the report how the survey was conducted and why the results may not be accurate.",
   "needsFigure": false,
   "explanation": []
@@ -1305,7 +1264,6 @@
    "module": "m46885",
    "exerciseId": "eip-818"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "options": [
    "cluster sampling",
    "stratified sampling",
@@ -1321,40 +1279,30 @@
  {
   "id": "os-m46885-eip-40",
   "sectionId": "1.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every eighth house in the neighborhood around the park was interviewed. The sampling method was:",
+  "stem": "A study was done to determine the age, number of times per week, and the duration (amount of time) of residents using a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every eighth house in the neighborhood around the park was interviewed. The sampling method was:\n\n[PARTS]\na. simple random\nb. systematic\nc. stratified\nd. cluster\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-40"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "options": [
-   "simple random",
-   "systematic",
-   "stratified",
-   "cluster"
-  ],
-  "correctIndex": 1,
+  "modelSolution": "b",
   "needsFigure": false,
-  "explanation": [
-   "b"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46885-eip-720",
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "Name the sampling method used in each of the following situations:\n\na. A person in the airport is handing out questionnaires to travelers asking them to evaluate the airport’s service. The person does not ask travelers who are hurrying through the airport with their hands full of luggage but instead asks all travelers who are sitting near gates and not taking naps while they wait.\nb. A teacher wants to know if her students are doing homework, so they randomly select rows two and five and then call on all students in row two and all students in row five to present the solutions to homework problems to the class.\nc. The marketing manager for an electronics chain store wants information about the ages of its customers. Over the next two weeks, at each store location, 100 randomly selected customers are given questionnaires to fill out asking for information about age, as well as about other variables of interest.\nd. The librarian at a public library wants to determine what proportion of the library users are children. The librarian has a tally sheet on which they mark whether books are checked out by an adult or a child. The librarian records this data for every fourth patron who checks out books.\ne. A political party wants to know the reaction of voters to a debate between the candidates. The day after the debate, the party’s polling staff calls 1,200 randomly selected phone numbers. If a registered voter answers the phone or is available to come to the phone, that registered voter is asked whom they intend to vote for and whether the debate changed their opinion of the candidates.",
+  "stem": "Name the sampling method used in each of the following situations:\n\n[PARTS]\na. A person in the airport is handing out questionnaires to travelers asking them to evaluate the airport’s service. The person does not ask travelers who are hurrying through the airport with their hands full of luggage but instead asks all travelers who are sitting near gates and not taking naps while they wait.\nb. A teacher wants to know if her students are doing homework, so they randomly select rows two and five and then call on all students in row two and all students in row five to present the solutions to homework problems to the class.\nc. The marketing manager for an electronics chain store wants information about the ages of its customers. Over the next two weeks, at each store location, 100 randomly selected customers are given questionnaires to fill out asking for information about age, as well as about other variables of interest.\nd. The librarian at a public library wants to determine what proportion of the library users are children. The librarian has a tally sheet on which they mark whether books are checked out by an adult or a child. The librarian records this data for every fourth patron who checks out books.\ne. A political party wants to know the reaction of voters to a debate between the candidates. The day after the debate, the party’s polling staff calls 1,200 randomly selected phone numbers. If a registered voter answers the phone or is available to come to the phone, that registered voter is asked whom they intend to vote for and whether the debate changed their opinion of the candidates.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-720"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. convenience\nb. cluster\nc. stratified\nd. systematic\ne. simple random",
+  "modelSolution": "[PARTS]\na. convenience\nb. cluster\nc. stratified\nd. systematic\ne. simple random\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1363,14 +1311,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A “random survey” was conducted of 3,274 people of the “microprocessor generation” (people born\nsince 1971, the year the microprocessor was invented). It was reported that 48% of those individuals surveyed stated that if they had $2,000 to spend, they would use it for computer equipment. Also, 66% of those surveyed considered themselves relatively savvy computer users.\n\na. Do you consider the sample size large enough for a study of this type? Why or why not?\nb. Based on your “gut feeling,” do you believe the percents accurately reflect the U.S. population for those individuals born since 1971? If not, do you think the percents of the population are actually higher or lower than the sample statistics? Why?\nAdditional information: The survey, reported by Intel Corporation, was filled out by individuals who visited the Los Angeles Convention Center to see the Smithsonian Institute's road show called\n“America’s Smithsonian.”\n\nc. With this additional information, do you feel that all demographic and ethnic groups were equally represented at the event? Why or why not?\nd. With the additional information, comment on how accurately you think the sample statistics reflect the population parameters.",
+  "stem": "A “random survey” was conducted of 3,274 people of the “microprocessor generation” (people born\nsince 1971, the year the microprocessor was invented). It was reported that 48% of those individuals surveyed stated that if they had $2,000 to spend, they would use it for computer equipment. Also, 66% of those surveyed considered themselves relatively savvy computer users.\n\n[PARTS]\na. Do you consider the sample size large enough for a study of this type? Why or why not?\nb. Based on your “gut feeling,” do you believe the percents accurately reflect the U.S. population for those individuals born since 1971? If not, do you think the percents of the population are actually higher or lower than the sample statistics? Why? Additional information: The survey, reported by Intel Corporation, was filled out by individuals who visited the Los Angeles Convention Center to see the Smithsonian Institute's road show called “America’s Smithsonian.”\nc. With this additional information, do you feel that all demographic and ethnic groups were equally represented at the event? Why or why not?\nd. With the additional information, comment on how accurately you think the sample statistics reflect the population parameters.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-937"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.\nb. We do not have enough information to decide if this is a random sample from the U.S. population.\nc. No, this is a convenience sample taken from individuals who visited an exhibition in the Angeles Convention Center. This sample is not representative of the U.S. population.\nd. It is possible that the two sample statistics, 48% and 66% are larger than the true parameters in the population at large. In any event, no conclusion about the population proportions can be inferred from this convenience sample.",
+  "modelSolution": "[PARTS]\na. Yes, in polling, samples that are from 1,200 to 1,500 observations are considered large enough and good enough if the survey is random and is well done.\nb. We do not have enough information to decide if this is a random sample from the U.S. population.\nc. No, this is a convenience sample taken from individuals who visited an exhibition in the Angeles Convention Center. This sample is not representative of the U.S. population.\nd. It is possible that the two sample statistics, 48% and 66% are larger than the true parameters in the population at large. In any event, no conclusion about the population proportions can be inferred from this convenience sample.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1379,14 +1326,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "The Well-Being Index is a survey that follows trends of U.S. residents on a regular basis. There are six areas of health and wellness covered in the survey: Life Evaluation, Emotional Health, Physical Health, Healthy Behavior, Work Environment, and Basic Access. Some of the questions used to measure the Index are listed below.\n\nIdentify the type of data obtained from each question used in this survey: qualitative, quantitative discrete, or quantitative continuous.\n\na. Do you have any health problems that prevent you from doing any of the things people your age can normally do?\nb. During the past 30 days, for about how many days did poor health keep you from doing your usual activities?\nc. In the last seven days, on how many days did you exercise for 30 minutes or more?\nd. Do you have health insurance coverage?",
+  "stem": "The Well-Being Index is a survey that follows trends of U.S. residents on a regular basis. There are six areas of health and wellness covered in the survey: Life Evaluation, Emotional Health, Physical Health, Healthy Behavior, Work Environment, and Basic Access. Some of the questions used to measure the Index are listed below.\n\nIdentify the type of data obtained from each question used in this survey: qualitative, quantitative discrete, or quantitative continuous.\n\n[PARTS]\na. Do you have any health problems that prevent you from doing any of the things people your age can normally do?\nb. During the past 30 days, for about how many days did poor health keep you from doing your usual activities?\nc. In the last seven days, on how many days did you exercise for 30 minutes or more?\nd. Do you have health insurance coverage?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-667"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. qualitative\nb. quantitative discrete\nc. quantitative discrete\nd. qualitative",
+  "modelSolution": "[PARTS]\na. qualitative\nb. quantitative discrete\nc. quantitative discrete\nd. qualitative\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1395,14 +1341,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "In advance of the 1936 Presidential Election, a magazine titled Literary Digest released the results of an opinion poll predicting that the republican candidate Alf Landon would win by a large margin. The magazine sent post cards to approximately 10,000,000 prospective voters. These prospective voters were selected from the subscription list of the magazine, from automobile registration lists, from phone lists, and from club membership lists. Approximately 2,300,000 people returned the postcards.\n\na. Think about the state of the United States in 1936. Explain why a sample chosen from magazine subscription lists, automobile registration lists, phone books, and club membership lists was not representative of the population of the United States at that time.\nb. What effect does the low response rate have on the reliability of the sample?\nc. Are these problems examples of sampling error or nonsampling error?\nd. During the same year, George Gallup conducted his own poll of 30,000 prospective voters. These researchers used a method they called \"quota sampling\" to obtain survey answers from specific subsets of the population. Quota sampling is an example of which sampling method described in this module?",
+  "stem": "In advance of the 1936 Presidential Election, a magazine titled Literary Digest released the results of an opinion poll predicting that the republican candidate Alf Landon would win by a large margin. The magazine sent post cards to approximately 10,000,000 prospective voters. These prospective voters were selected from the subscription list of the magazine, from automobile registration lists, from phone lists, and from club membership lists. Approximately 2,300,000 people returned the postcards.\n\n[PARTS]\na. Think about the state of the United States in 1936. Explain why a sample chosen from magazine subscription lists, automobile registration lists, phone books, and club membership lists was not representative of the population of the United States at that time.\nb. What effect does the low response rate have on the reliability of the sample?\nc. Are these problems examples of sampling error or nonsampling error?\nd. During the same year, George Gallup conducted his own poll of 30,000 prospective voters. These researchers used a method they called \"quota sampling\" to obtain survey answers from specific subsets of the population. Quota sampling is an example of which sampling method described in this module?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-428"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. The country was in the middle of the Great Depression and many people could not afford these “luxury” items and therefore not able to be included in the survey.\nb. Samples that are too small can lead to sampling bias.\nc. sampling error\nd. stratified",
+  "modelSolution": "[PARTS]\na. The country was in the middle of the Great Depression and many people could not afford these “luxury” items and therefore not able to be included in the survey.\nb. Samples that are too small can lead to sampling bias.\nc. sampling error\nd. stratified\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1411,13 +1356,12 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "Crime-related and demographic statistics for 47 US states in 1960 were collected from government agencies, including the FBI's Uniform Crime Report. One analysis of this data found a strong connection between education and crime indicating that higher levels of education in a community correspond to higher crime rates.\n\nWhich of the potential problems with samples discussed in could explain this connection?",
+  "stem": "Crime-related and demographic statistics for 47 US states in 1960 were collected from government agencies, including the FBI's Uniform Crime Report. One analysis of this data found a strong connection between education and crime indicating that higher levels of education in a community correspond to higher crime rates.\n\nWhich of the potential problems with samples discussed in the table below could explain this connection?",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-706"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Causality: The fact that two variables are related does not guarantee that one variable is influencing the other. We cannot assume that crime rate impacts education level or that education level impacts crime rate.\n\nConfounding: There are many factors that define a community other than education level and crime rate. Communities with high crime rates and high education levels may have other lurking variables that distinguish them from communities with lower crime rates and lower education levels. Because we cannot isolate these variables of interest, we cannot draw valid conclusions about the connection between education and crime. Possible lurking variables include police expenditures, unemployment levels, region, average age, and size.",
   "needsFigure": false,
   "explanation": []
@@ -1433,7 +1377,6 @@
    "module": "m46885",
    "exerciseId": "eip-24"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
   "modelSolution": "Self-Selected Samples: Only people who are interested in the topic are choosing to respond.\nSample Size Issues: A sample with only 11 participants will not accurately represent the opinions of a nation.\n\nUndue Influence: The question is wording in a specific way to generate a specific response.\nSelf-Funded or Self-Interest Studies: This question was generated to support one person’s claim and it was designed to get the answer that the person desires.",
   "needsFigure": false,
   "explanation": []
@@ -1443,14 +1386,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "A scholarly article about response rates begins with the following quote:\n\n“Declining contact and cooperation rates in random digit dial (RDD) national telephone surveys raise serious concerns about the validity of estimates drawn from such research.”(Scott Keeter et al., “Gauging the Impact of Growing Nonresponse on Estimates from a National RDD Telephone Survey,” Public Opinion Quarterly 70 no. 5 (2006), http://poq.oxfordjournals.org/content/70/5/759.full (accessed May 1, 2013).)\n\nThe Pew Research Center for People and the Press admits:\n\n“The percentage of people we interview – out of all we try to interview – has been declining over the past decade or more.” (Frequently Asked Questions, Pew Research Center for the People & the Press, http://www.people-press.org/methodology/frequently-asked-questions/#dont-you-have-trouble-getting-people-to-answer-your-polls (accessed May 1, 2013).)\n\na. What are some reasons for the decline in response rate over the past decade?\nb. Explain why researchers are concerned with the impact of the declining response rate on public opinion polls.",
+  "stem": "A scholarly article about response rates begins with the following quote:\n\n“Declining contact and cooperation rates in random digit dial (RDD) national telephone surveys raise serious concerns about the validity of estimates drawn from such research.”(Scott Keeter et al., “Gauging the Impact of Growing Nonresponse on Estimates from a National RDD Telephone Survey,” Public Opinion Quarterly 70 no. 5 (2006), http://poq.oxfordjournals.org/content/70/5/759.full (accessed May 1, 2013).)\n\nThe Pew Research Center for People and the Press admits:\n\n“The percentage of people we interview – out of all we try to interview – has been declining over the past decade or more.” (Frequently Asked Questions, Pew Research Center for the People & the Press, http://www.people-press.org/methodology/frequently-asked-questions/#dont-you-have-trouble-getting-people-to-answer-your-polls (accessed May 1, 2013).)\n\n[PARTS]\na. What are some reasons for the decline in response rate over the past decade?\nb. Explain why researchers are concerned with the impact of the declining response rate on public opinion polls.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-943"
   },
-  "context": "Use the following information to answer the next two exercises: A study was done to determine the age, number of times per week, and the duration (amount of time) of resident use of a local park in San Jose. The first house in the neighborhood around the park was selected randomly and then every 8th house in the neighborhood around the park was interviewed.",
-  "modelSolution": "a. Possible reasons: increased use of caller id, decreased use of landlines, increased use of private numbers, voice mail, privacy managers, hectic nature of personal schedules, decreased willingness to be interviewed\nb. When a large number of people refuse to participate, then the sample may not have the same characteristics of the population. Perhaps the majority of people willing to participate are doing so because they feel strongly about the subject of the survey.",
+  "modelSolution": "[PARTS]\na. Possible reasons: increased use of caller id, decreased use of landlines, increased use of private numbers, voice mail, privacy managers, hectic nature of personal schedules, decreased willingness to be interviewed\nb. When a large number of people refuse to participate, then the sample may not have the same characteristics of the population. Perhaps the majority of people willing to participate are doing so because they feel strongly about the subject of the survey.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1459,13 +1401,13 @@
   "sectionId": "1.2",
   "kind": "open",
   "conceptTag": "1.2",
-  "stem": "Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in a specific academic year. Highlights of the summary report are listed in .\n\n[TABLE]\nHave computer at home | 96%\nUnable to come to campus for classes | 65%\nAge 41 or over | 24%\nWould like LBCC to offer more DL courses | 95%\nTook DL classes due to a disability | 17%\nLive at least 16 miles from campus | 13%\nTook DL courses to fulfill transfer requirements | 71%\n[/TABLE]\n\na. What percent of the students surveyed do not have a computer at home?\nb. About how many students in the survey live at least 16 miles from campus?\nc. If the same survey were done at Great Basin College in Elko, Nevada, do you think the\npercentages would be the same? Why?",
+  "stem": "Seven hundred and seventy-one distance learning students at Long Beach City College responded to surveys in a specific academic year. Highlights of the summary report are listed in the table below.\n\n[TABLE]\nHave computer at home | 96%\nUnable to come to campus for classes | 65%\nAge 41 or over | 24%\nWould like LBCC to offer more DL courses | 95%\nTook DL classes due to a disability | 17%\nLive at least 16 miles from campus | 13%\nTook DL courses to fulfill transfer requirements | 71%\n[/TABLE]\n\n[PARTS]\na. What percent of the students surveyed do not have a computer at home?\nb. About how many students in the survey live at least 16 miles from campus?\nc. If the same survey were done at Great Basin College in Elko, Nevada, do you think the percentages would be the same? Why?\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46885",
    "exerciseId": "eip-219"
   },
-  "modelSolution": "a. 4%\nb. 13%\nc. Not necessarily. Long beach City is the seventh largest in California the college has an enrollment of approximately 27,000 students. On the other hand, Great Basin College has its campuses in rural northeastern Nevada, and its enrollment of about 3,500 students.",
+  "modelSolution": "[PARTS]\na. 4%\nb. 13%\nc. Not necessarily. Long beach City is the seventh largest in California the college has an enrollment of approximately 27,000 students. On the other hand, Great Basin College has its campuses in rural northeastern Nevada, and its enrollment of about 3,500 students.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1480,7 +1422,7 @@
    "module": "m46885",
    "exerciseId": "eip-731"
   },
-  "modelSolution": "Answers will vary. Sample answer: The sample is not representative of the population of all college textbooks. Two reasons why it\nis not representative are that he only sampled seven subjects and he only investigated one\ntextbook in each subject. There are several possible sources of bias in the study. The seven\nsubjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and other subject areas, (for example: literature, art, history, psychology, sociology, business) that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results.\n\nHe also looked only at the most popular textbook in each of the subjects he investigated. The\navailability of the most popular textbooks may differ from the availability of other textbooks in one of two ways:\n\n• the most popular textbooks may be more readily available online, because more new\ncopies are printed, and more students nationwide are selling back their used copies OR\n• the most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.\n\nIn reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.\n\nHe could improve this study by:\n\n• expanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and\n• expanding the selection of textbooks he investigates within each subject to include a\nmixed representation of both the most popular and less popular textbooks.",
+  "modelSolution": "Answers will vary. Sample answer: The sample is not representative of the population of all college textbooks. Two reasons why it\nis not representative are that he only sampled seven subjects and he only investigated one\ntextbook in each subject. There are several possible sources of bias in the study. The seven\nsubjects that he investigated are all in mathematics and the sciences; there are many subjects in the humanities, social sciences, and other subject areas, (for example: literature, art, history, psychology, sociology, business) that he did not investigate at all. It may be that different subject areas exhibit different patterns of textbook availability, but his sample would not detect such results.\n\nHe also looked only at the most popular textbook in each of the subjects he investigated. The\navailability of the most popular textbooks may differ from the availability of other textbooks in one of two ways:\n\n[LIST]\nthe most popular textbooks may be more readily available online, because more new copies are printed, and more students nationwide are selling back their used copies OR\nthe most popular textbooks may be harder to find available online, because more student demand exhausts the supply more quickly.\n[/LIST]\n\nIn reality, many college students do not use the most popular textbook in their subject, and this study gives no useful information about the situation for those less popular textbooks.\n\nHe could improve this study by:\n\n[LIST]\nexpanding the selection of subjects he investigates so that it is more representative of all subjects studied by college students, and\nexpanding the selection of textbooks he investigates within each subject to include a mixed representation of both the most popular and less popular textbooks.\n[/LIST]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1489,7 +1431,7 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "shows the amount, in inches, of annual rainfall in a sample of towns.\n\n[TABLE]\nRainfall (Inches) | Frequency | Relative Frequency | Cumulative Relative Frequency\n2.95–4.97 | 6 | 6/50 = 0.12 | 0.12\n4.97–6.99 | 7 | 7/50 = 0.14 | 0.12 + 0.14 = 0.26\n6.99–9.01 | 15 | 15/50 = 0.30 | 0.26 + 0.30 = 0.56\n9.01–11.03 | 8 | 8/50 = 0.16 | 0.56 + 0.16 = 0.72\n11.03–13.05 | 9 | 9/50 = 0.18 | 0.72 + 0.18 = 0.90\n13.05–15.07 | 5 | 5/50 = 0.10 | 0.90 + 0.10 = 1.00\n| Total = 50 | Total = 1.00 |\n[/TABLE]\n\nFrom , find the percentage of rainfall that is less than 9.01 inches.",
+  "stem": "the table below shows the amount, in inches, of annual rainfall in a sample of towns.\n\n[TABLE]\nRainfall (Inches) | Frequency | Relative Frequency | Cumulative Relative Frequency\n2.95–4.97 | 6 | 6/50 = 0.12 | 0.12\n4.97–6.99 | 7 | 7/50 = 0.14 | 0.12 + 0.14 = 0.26\n6.99–9.01 | 15 | 15/50 = 0.30 | 0.26 + 0.30 = 0.56\n9.01–11.03 | 8 | 8/50 = 0.16 | 0.56 + 0.16 = 0.72\n11.03–13.05 | 9 | 9/50 = 0.18 | 0.72 + 0.18 = 0.90\n13.05–15.07 | 5 | 5/50 = 0.10 | 0.90 + 0.10 = 1.00\n| Total = 50 | Total = 1.00 |\n[/TABLE]\n\nFrom the table below, find the percentage of rainfall that is less than 9.01 inches.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46882",
@@ -1505,7 +1447,7 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "From , find the percentage of rainfall that is between 6.99 and 13.05 inches.",
+  "stem": "From the table below, find the percentage of rainfall that is between 6.99 and 13.05 inches.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46882",
@@ -1521,7 +1463,7 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "From , find the number of towns that have rainfall between 2.95 and 9.01 inches.",
+  "stem": "From the table below, find the number of towns that have rainfall between 2.95 and 9.01 inches.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46882",
@@ -1537,7 +1479,7 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?",
+  "stem": "the table below represents the amount, in inches, of annual rainfall in a sample of towns. What fraction of towns surveyed get between 11.03 and 13.05 inches of rainfall each year?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46882",
@@ -1553,13 +1495,13 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "What type of measure scale is being used? Nominal, ordinal, interval or ratio.\n\na. High school soccer players classified by their athletic ability: Superior, Average, Above average\nb. Baking temperatures for various main dishes: 350, 400, 325, 250, 300\nc. The colors of crayons in a 24-crayon box\nd. Social security numbers\ne. Incomes measured in dollars\nf. A satisfaction survey of a social website by number: 1 = very satisfied, 2 = somewhat satisfied, 3 = not satisfied\ng. Political outlook: extreme left, left-of-center, right-of-center, extreme right\nh. Time of day on an analog watch\ni. The distance in miles to the closest grocery store\nj. The dates 1066, 1492, 1644, 1947, and 1944\nk. The heights of 21–65 year-old women\nl. Common letter grades: A, B, C, D, and F",
+  "stem": "What type of measure scale is being used? Nominal, ordinal, interval or ratio.\n\n[PARTS]\na. High school soccer players classified by their athletic ability: Superior, Average, Above average\nb. Baking temperatures for various main dishes: 350, 400, 325, 250, 300\nc. The colors of crayons in a 24-crayon box\nd. Social security numbers\ne. Incomes measured in dollars\nf. A satisfaction survey of a social website by number: 1 = very satisfied, 2 = somewhat satisfied, 3 = not satisfied\ng. Political outlook: extreme left, left-of-center, right-of-center, extreme right\nh. Time of day on an analog watch\ni. The distance in miles to the closest grocery store\nj. The dates 1066, 1492, 1644, 1947, and 1944\nk. The heights of 21–65 year-old women\nl. Common letter grades: A, B, C, D, and F\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46882",
    "exerciseId": "eip-167"
   },
-  "modelSolution": "a. ordinal\nb. interval\nc. nominal\nd. nominal\ne. ratio\nf. ordinal\ng. nominal\nh. interval\ni. ratio\nj. interval\nk. ratio\nl. ordinal",
+  "modelSolution": "[PARTS]\na. ordinal\nb. interval\nc. nominal\nd. nominal\ne. ratio\nf. ordinal\ng. nominal\nh. interval\ni. ratio\nj. interval\nk. ratio\nl. ordinal\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1568,13 +1510,13 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "Fifty part-time students were asked how many courses they were taking this term. The (incomplete) results are shown below:\n\n[TABLE]\n# of Courses | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 30 | 0.6 |\n2 | 15 | |\n3 | | |\n[/TABLE]\n\na. Fill in the blanks in .\nb. What percent of students take exactly two courses?\nc. What percent of students take one or two courses?",
+  "stem": "Fifty part-time students were asked how many courses they were taking this term. The (incomplete) results are shown below:\n\n[TABLE]\n# of Courses | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 30 | 0.6 |\n2 | 15 | |\n3 | | |\n[/TABLE]\n\n[PARTS]\na. Fill in the blanks in the table below.\nb. What percent of students take exactly two courses?\nc. What percent of students take one or two courses?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46882",
    "exerciseId": "eip-idp18600336"
   },
-  "modelSolution": "a.\n[TABLE]\n# of Courses | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 30 | 0.6 | 0.6\n2 | 15 | 0.3 | 0.9\n3 | 5 | 0.1 | 1.0\n[/TABLE]\n\nb. 30%\nc. 90%",
+  "modelSolution": "[PARTS]\na. [TABLE] # of Courses | Frequency | Relative Frequency | Cumulative Relative Frequency 1 | 30 | 0.6 | 0.6 2 | 15 | 0.3 | 0.9 3 | 5 | 0.1 | 1.0 [/TABLE]\nb. 30%\nc. 90%\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1583,13 +1525,13 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "Sixty adults with gum disease were asked the number of times per week they used to floss before their diagnosis. The (incomplete) results are shown in .\n\n[TABLE]\n# Flossing per Week | Frequency | Relative Frequency | Cumulative Relative Freq.\n0 | 27 | 0.4500 |\n1 | 18 | |\n3 | | | 0.9333\n6 | 3 | 0.0500 |\n7 | 1 | 0.0167 |\n[/TABLE]\n\na. Fill in the blanks in .\nb. What percent of adults flossed six times per week?\nc. What percent flossed at most three times per week?",
+  "stem": "Sixty adults with gum disease were asked the number of times per week they used to floss before their diagnosis. The (incomplete) results are shown in the table below.\n\n[TABLE]\n# Flossing per Week | Frequency | Relative Frequency | Cumulative Relative Freq.\n0 | 27 | 0.4500 |\n1 | 18 | |\n3 | | | 0.9333\n6 | 3 | 0.0500 |\n7 | 1 | 0.0167 |\n[/TABLE]\n\n[PARTS]\na. Fill in the blanks in the table below.\nb. What percent of adults flossed six times per week?\nc. What percent flossed at most three times per week?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46882",
    "exerciseId": "eip-idp1177440"
   },
-  "modelSolution": "a.\n\n[TABLE]\n# Flossing per Week | Frequency | Relative Frequency | Cumulative Relative Frequency\n0 | 27 | 0.4500 | 0.4500\n1 | 18 | 0.3000 | 0.7500\n3 | 11 | 0.1833 | 0.9333\n6 | 3 | 0.0500 | 0.9833\n7 | 1 | 0.0167 | 1\n[/TABLE]\n\nb. 5.00%\nc. 93.33%",
+  "modelSolution": "[PARTS]\na. [TABLE] # Flossing per Week | Frequency | Relative Frequency | Cumulative Relative Frequency 0 | 27 | 0.4500 | 0.4500 1 | 18 | 0.3000 | 0.7500 3 | 11 | 0.1833 | 0.9333 6 | 3 | 0.0500 | 0.9833 7 | 1 | 0.0167 | 1 [/TABLE]\nb. 5.00%\nc. 93.33%\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1598,13 +1540,13 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "Nineteen immigrants to the U.S were asked how many years, to the nearest year, they have lived in the U.S. The data are as follows:\n• 2\n• 5\n• 7\n• 2\n• 2\n• 10\n• 20\n• 15\n• 0\n• 7\n• 0\n• 20\n• 5\n• 12\n• 15\n• 12\n• 4\n• 5\n• 10\n.\n\nwas produced.\n\n[TABLE]\nData | Frequency | Relative Frequency | Cumulative Relative Frequency\n0 | 2 | 2/19 | 0.1053\n2 | 3 | 3/19 | 0.2632\n4 | 1 | 1/19 | 0.3158\n5 | 3 | 3/19 | 0.4737\n7 | 2 | 2/19 | 0.5789\n10 | 2 | 2/19 | 0.6842\n12 | 2 | 2/19 | 0.7895\n15 | 1 | 1/19 | 0.8421\n20 | 1 | 1/19 | 1.0000\n[/TABLE]\n\na. Fix the errors in . Also, explain how someone might have arrived at the incorrect number(s).\nb. Explain what is wrong with this statement: “47 percent of the people surveyed have lived in the U.S. for 5 years.”\nc. Fix the statement in b to make it correct.\nd. What fraction of the people surveyed have lived in the U.S. five or seven years?\ne. What fraction of the people surveyed have lived in the U.S. at most 12 years?\nf. What fraction of the people surveyed have lived in the U.S. fewer than 12 years?\ng. What fraction of the people surveyed have lived in the U.S. from five to 20 years, inclusive?",
+  "stem": "Nineteen immigrants to the U.S were asked how many years, to the nearest year, they have lived in the U.S. The data are as follows:\n[DATA]2, 5, 7, 2, 2, 10, 20, 15, 0, 7, 0, 20, 5, 12, 15, 12, 4, 5, 10[/DATA]\n.\n\nthe table below was produced.\n\n[TABLE]\nData | Frequency | Relative Frequency | Cumulative Relative Frequency\n0 | 2 | 2/19 | 0.1053\n2 | 3 | 3/19 | 0.2632\n4 | 1 | 1/19 | 0.3158\n5 | 3 | 3/19 | 0.4737\n7 | 2 | 2/19 | 0.5789\n10 | 2 | 2/19 | 0.6842\n12 | 2 | 2/19 | 0.7895\n15 | 1 | 1/19 | 0.8421\n20 | 1 | 1/19 | 1.0000\n[/TABLE]\n\n[PARTS]\na. Fix the errors in the table below. Also, explain how someone might have arrived at the incorrect number(s).\nb. Explain what is wrong with this statement: “47 percent of the people surveyed have lived in the U.S. for 5 years.”\nc. Fix the statement in b to make it correct.\nd. What fraction of the people surveyed have lived in the U.S. five or seven years?\ne. What fraction of the people surveyed have lived in the U.S. at most 12 years?\nf. What fraction of the people surveyed have lived in the U.S. fewer than 12 years?\ng. What fraction of the people surveyed have lived in the U.S. from five to 20 years, inclusive?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46882",
    "exerciseId": "eip-idp3710944"
   },
-  "modelSolution": "a. The Frequencies for 15 and 20 should both be two and the Relative Frequencies should both be 2/19. The mistake could be due to copying the data down wrong. The Cumulative Relative Frequency for five years should be 0.4737. The mistake is due to calculating the Relative Frequency instead of the Cumulative Relative Frequency. The Cumulative Relative Frequency for 15 years should be 0.8947\nb. The 47% is the Cumulative Relative Frequency, not the Relative Frequency.\nc. 47% of the people surveyed have lived in the U.S. for five years or less.\nd. 5/19\n\ne. 15/19\n\nf. 13/19\n\ng. 13/19",
+  "modelSolution": "[PARTS]\na. The Frequencies for 15 and 20 should both be two and the Relative Frequencies should both be 2/19. The mistake could be due to copying the data down wrong. The Cumulative Relative Frequency for five years should be 0.4737. The mistake is due to calculating the Relative Frequency instead of the Cumulative Relative Frequency. The Cumulative Relative Frequency for 15 years should be 0.8947\nb. The 47% is the Cumulative Relative Frequency, not the Relative Frequency.\nc. 47% of the people surveyed have lived in the U.S. for five years or less.\nd. 5/19\ne. 15/19\nf. 13/19\ng. 13/19\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1613,7 +1555,7 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "How much time does it take to travel to work? shows the mean commute time by state for workers at least 16 years old who are not working at home. Find the mean travel time, and round off the answer properly.\n\n[TABLE]\n24.0 | 24.3 | 25.9 | 18.9 | 27.5 | 17.9 | 21.8 | 20.9 | 16.7 | 27.3\n18.2 | 24.7 | 20.0 | 22.6 | 23.9 | 18.0 | 31.4 | 22.3 | 24.0 | 25.5\n24.7 | 24.6 | 28.1 | 24.9 | 22.6 | 23.6 | 23.4 | 25.7 | 24.8 | 25.5\n21.2 | 25.7 | 23.1 | 23.0 | 23.9 | 26.0 | 16.3 | 23.1 | 21.4 | 21.5\n27.0 | 27.0 | 18.6 | 31.7 | 23.3 | 30.1 | 22.9 | 23.3 | 21.7 | 18.6\n[/TABLE]",
+  "stem": "How much time does it take to travel to work? the table below shows the mean commute time by state for workers at least 16 years old who are not working at home. Find the mean travel time, and round off the answer properly.\n\n[TABLE]\n24.0 | 24.3 | 25.9 | 18.9 | 27.5 | 17.9 | 21.8 | 20.9 | 16.7 | 27.3\n18.2 | 24.7 | 20.0 | 22.6 | 23.9 | 18.0 | 31.4 | 22.3 | 24.0 | 25.5\n24.7 | 24.6 | 28.1 | 24.9 | 22.6 | 23.6 | 23.4 | 25.7 | 24.8 | 25.5\n21.2 | 25.7 | 23.1 | 23.0 | 23.9 | 26.0 | 16.3 | 23.1 | 21.4 | 21.5\n27.0 | 27.0 | 18.6 | 31.7 | 23.3 | 30.1 | 22.9 | 23.3 | 21.7 | 18.6\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46882",
@@ -1628,13 +1570,13 @@
   "sectionId": "1.3",
   "kind": "open",
   "conceptTag": "1.3",
-  "stem": "A leading business magazine publishes data on small businesses (defined as businesses that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion). shows the ages of the chief executive officers for the first 60 ranked small businesses.\n\n[TABLE]\nAge | Frequency | Relative Frequency | Cumulative Relative Frequency\n40–44 | 3 | |\n45–49 | 11 | |\n50–54 | 13 | |\n55–59 | 16 | |\n60–64 | 10 | |\n65–69 | 6 | |\n70–74 | 1 | |\n[/TABLE]\n\na. What is the frequency for CEO ages between 54 and 65?\nb. What percentage of CEOs are 65 years or older?\nc. What is the relative frequency of ages under 50?\nd. What is the cumulative relative frequency for CEOs younger than 55?\ne. Which graph shows the relative frequency and which shows the cumulative relative frequency?\n\n[FIGURE]",
+  "stem": "A leading business magazine publishes data on small businesses (defined as businesses that have been publicly traded for at least a year, have a stock price of at least $5 per share, and have reported annual revenue between $5 million and $1 billion). the table below shows the ages of the chief executive officers for the first 60 ranked small businesses.\n\n[TABLE]\nAge | Frequency | Relative Frequency | Cumulative Relative Frequency\n40–44 | 3 | |\n45–49 | 11 | |\n50–54 | 13 | |\n55–59 | 16 | |\n60–64 | 10 | |\n65–69 | 6 | |\n70–74 | 1 | |\n[/TABLE]\n\n[PARTS]\na. What is the frequency for CEO ages between 54 and 65?\nb. What percentage of CEOs are 65 years or older?\nc. What is the relative frequency of ages under 50?\nd. What is the cumulative relative frequency for CEOs younger than 55?\ne. Which graph shows the relative frequency and which shows the cumulative relative frequency?\n[/PARTS]\n\n[FIGURE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46882",
    "exerciseId": "eip-idm71401488"
   },
-  "modelSolution": "a. 26 (This is the count of CEOs in the 55 to 59 and 60 to 64 categories.)\nb. 12% (number of CEOs age 65 or older ÷ total number of CEOs)\nc. 14/60; 0.23; 23%\nd. 0.45\ne. Graph A represents the cumulative relative frequency, and Graph B shows the relative frequency.",
+  "modelSolution": "[PARTS]\na. 26 (This is the count of CEOs in the 55 to 59 and 60 to 64 categories.)\nb. 12% (number of CEOs age 65 or older ÷ total number of CEOs)\nc. 14/60; 0.23; 23%\nd. 0.45\ne. Graph A represents the cumulative relative frequency, and Graph B shows the relative frequency.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1649,7 +1591,7 @@
    "module": "m46882",
    "exerciseId": "element-87"
   },
-  "context": "Use the following information to answer the next two exercises: contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
+  "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
   "options": [
    "0.0768",
    "0.0659",
@@ -1673,7 +1615,7 @@
    "module": "m46882",
    "exerciseId": "element-627"
   },
-  "context": "Use the following information to answer the next two exercises: contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
+  "context": "Use the following information to answer the next two exercises: the table below contains data on hurricanes that have made direct hits on the U.S. Between 1851 and 2004. A hurricane is given a strength category rating based on the minimum wind speed generated by the storm.\n\n[TABLE]\nCategory | Number of Direct Hits | Relative Frequency | Cumulative Frequency\n1 | 109 | 0.3993 | 0.3993\n2 | 72 | 0.2637 | 0.6630\n3 | 71 | 0.2601 |\n4 | 18 | | 0.9890\n5 | 3 | 0.0110 | 1.0000\n| Total = 273 | |\n[/TABLE]",
   "options": [
    "0.3480",
    "0.9231",
@@ -1707,14 +1649,14 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "The Placebo Research Group conducted a study to find the extent of placebo effects. A group of men randomly selected were asked to take a test before and after taking a pill that induces a mild headache. The pill in half of the randomly selected men was replaced with a similar pill that has no effect. For each trial, researchers recorded the change in time men took to complete the tests before and after taking the pill.\n\na. Describe the explanatory and response variable in this study.\nb. What are the treatments?\nc. Identify any lurking variables that could interfere with this study.\nd. Is it possible to use blinding in this study?",
+  "stem": "The Placebo Research Group conducted a study to find the extent of placebo effects. A group of men randomly selected were asked to take a test before and after taking a pill that induces a mild headache. The pill in half of the randomly selected men was replaced with a similar pill that has no effect. For each trial, researchers recorded the change in time men took to complete the tests before and after taking the pill.\n\n[PARTS]\na. Describe the explanatory and response variable in this study.\nb. What are the treatments?\nc. Identify any lurking variables that could interfere with this study.\nd. Is it possible to use blinding in this study?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46919",
    "exerciseId": "exer-00002",
    "ref": "Try It 1.20"
   },
-  "modelSolution": "a. The explanatory variable is the pill, and the response variable is the change in time taken between the two tests.\nb. There are two treatments: a pill that induces a mild headache and a pill that has no effect.\nc. All subjects have been given pills. The men for kind of pill intake are randomly selected. Random assignment eliminates the problem of lurking variables.\nd. Subjects do not know which pill they are taking, so they are blinded in this study. The researchers know which subject is taking which pill, so they cannot be blinded in this study.",
+  "modelSolution": "[PARTS]\na. The explanatory variable is the pill, and the response variable is the change in time taken between the two tests.\nb. There are two treatments: a pill that induces a mild headache and a pill that has no effect.\nc. All subjects have been given pills. The men for kind of pill intake are randomly selected. Random assignment eliminates the problem of lurking variables.\nd. Subjects do not know which pill they are taking, so they are blinded in this study. The researchers know which subject is taking which pill, so they cannot be blinded in this study.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1723,7 +1665,7 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "You are concerned about the effects of texting on driving performance. Design a study to test the response time of drivers while texting and while driving only. How many seconds does it take for a driver to respond when a leading car hits the brakes?\n\na. Describe the explanatory and response variables in the study.\nb. What are the treatments?\nc. What should you consider when selecting participants?\nd. Your research partner wants to divide participants randomly into two groups: one to drive without distraction and one to text and drive simultaneously. Is this a good idea? Why or why not?\ne. Identify any lurking variables that could interfere with this study.\nf. How can blinding be used in this study?",
+  "stem": "You are concerned about the effects of texting on driving performance. Design a study to test the response time of drivers while texting and while driving only. How many seconds does it take for a driver to respond when a leading car hits the brakes?\n\n[PARTS]\na. Describe the explanatory and response variables in the study.\nb. What are the treatments?\nc. What should you consider when selecting participants?\nd. Your research partner wants to divide participants randomly into two groups: one to drive without distraction and one to text and drive simultaneously. Is this a good idea? Why or why not?\ne. Identify any lurking variables that could interfere with this study.\nf. How can blinding be used in this study?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46919",
@@ -1739,7 +1681,7 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "Describe the unethical behavior, if any, in each example and describe how it could impact the reliability of the resulting data. Explain how the problem should be corrected.\n\nA study is commissioned to determine the favorite brand of fruit juice among teens in California.\n\na. The survey is commissioned by the seller of a popular brand of apple juice.\nb. There are only two types of juice included in the study: apple juice and cranberry juice.\nc. Researchers allow participants to see the brand of juice as samples are poured for a taste test.\nd. Twenty-five percent of participants prefer Brand X, 33% prefer Brand Y and 42% have no preference between the two brands. Brand X references the study in a commercial saying “Most teens like Brand X as much as or more than Brand Y.”",
+  "stem": "Describe the unethical behavior, if any, in each example and describe how it could impact the reliability of the resulting data. Explain how the problem should be corrected.\n\nA study is commissioned to determine the favorite brand of fruit juice among teens in California.\n\n[PARTS]\na. The survey is commissioned by the seller of a popular brand of apple juice.\nb. There are only two types of juice included in the study: apple juice and cranberry juice.\nc. Researchers allow participants to see the brand of juice as samples are poured for a taste test.\nd. Twenty-five percent of participants prefer Brand X, 33% prefer Brand Y and 42% have no preference between the two brands. Brand X references the study in a commercial saying “Most teens like Brand X as much as or more than Brand Y.”\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46919",
@@ -1770,13 +1712,13 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "Discuss potential violations of the rule requiring informed consent.\n\na. People in a correctional facility are offered good behavior credit in return for participation in a study.\nb. A research study is designed to investigate a new children’s allergy medication.\nc. Participants in a study are told that the new medication being tested is highly promising, but they are not told that only a small portion of participants will receive the new medication. Others will receive placebo treatments and traditional treatments.",
+  "stem": "Discuss potential violations of the rule requiring informed consent.\n\n[PARTS]\na. People in a correctional facility are offered good behavior credit in return for participation in a study.\nb. A research study is designed to investigate a new children’s allergy medication.\nc. Participants in a study are told that the new medication being tested is highly promising, but they are not told that only a small portion of participants will receive the new medication. Others will receive placebo treatments and traditional treatments.\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46919",
    "exerciseId": "eip-761"
   },
-  "modelSolution": "a. People who are incarcerated may not feel comfortable refusing participation, or may feel obligated to take advantage of the promised benefits. They may not feel truly free to refuse participation.\nb. Parents can provide consent on behalf of their children, but children are not competent to provide consent for themselves.\nc. All risks and benefits must be clearly outlined. Study participants must be informed of relevant aspects of the study in order to give appropriate consent.",
+  "modelSolution": "[PARTS]\na. People who are incarcerated may not feel comfortable refusing participation, or may feel obligated to take advantage of the promised benefits. They may not feel truly free to refuse participation.\nb. Parents can provide consent on behalf of their children, but children are not competent to provide consent for themselves.\nc. All risks and benefits must be clearly outlined. Study participants must be informed of relevant aspects of the study in order to give appropriate consent.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1800,7 +1742,7 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "An advertisement for Acme Investments displays the two graphs in to show\nthe value of Acme’s product in comparison with the Other Guy’s product. Describe the potentially\nmisleading visual effect of these comparison graphs. How can this be corrected?\n\n[FIGURE: As the graphs show, Acme consistently outperforms the Other Guys!]",
+  "stem": "An advertisement for Acme Investments displays the two graphs in the figure below to show\nthe value of Acme’s product in comparison with the Other Guy’s product. Describe the potentially\nmisleading visual effect of these comparison graphs. How can this be corrected?\n\n[FIGURE: As the graphs show, Acme consistently outperforms the Other Guys!]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46919",
@@ -1815,7 +1757,7 @@
   "sectionId": "1.4",
   "kind": "open",
   "conceptTag": "1.4",
-  "stem": "The graph in shows the number of complaints for six different airlines as reported to the US Department of Transportation in February 2013. Alaska, Pinnacle, and Airtran Airlines have far fewer complaints reported than American, Delta, and United. Can we conclude that American, Delta, and United are the worst airline carriers since they have the most complaints?\n[FIGURE]",
+  "stem": "The graph in the figure below shows the number of complaints for six different airlines as reported to the US Department of Transportation in February 2013. Alaska, Pinnacle, and Airtran Airlines have far fewer complaints reported than American, Delta, and United. Can we conclude that American, Delta, and United are the worst airline carriers since they have the most complaints?\n[FIGURE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46919",
@@ -1828,28 +1770,18 @@
  {
   "id": "pt1-1",
   "sectionId": "1.1",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "1.1",
-  "stem": "Identify the population, sample, parameter, statistic, variable, and data for this example.",
+  "stem": "Identify the population, sample, parameter, statistic, variable, and data for this example.\n[PARTS]\na. population\nb. sample\nc. parameter\nd. statistic\ne. variable\nf. data\n[/PARTS]",
   "source": "openstax-practice-test",
   "sourceRef": {
    "test": "Practice Test 1",
    "n": 1
   },
   "context": "Use the following information to answer the next three exercises. A grocery store is interested in how much money, on average, their customers spend each visit in the produce department. Using their store records, they draw a sample of 1,000 visits and calculate each customer’s average spending on produce.",
-  "options": [
-   "population",
-   "sample",
-   "parameter",
-   "statistic",
-   "variable",
-   "data"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. population: all the shopping visits by all the store’s customers\nb. sample: the 1,000 visits drawn for the study\nc. parameter: the average expenditure on produce per visit by all the store’s customers\nd. statistic: the average expenditure on produce per visit by the sample of 1,000\ne. variable: the expenditure on produce for each visit\nf. data: the dollar amounts spent on produce; for instance, $15.40, $11.53, etc\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. population: all the shopping visits by all the store’s customers\nb. sample: the 1,000 visits drawn for the study\nc. parameter: the average expenditure on produce per visit by all the store’s customers\nd. statistic: the average expenditure on produce per visit by the sample of 1,000\ne. variable: the expenditure on produce for each visit\nf. data: the dollar amounts spent on produce; for instance, $15.40, $11.53, etc"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-2",
@@ -1957,7 +1889,6 @@
    "test": "Practice Test 1",
    "n": 6
   },
-  "context": "Use the following information to answer the next two exercises. A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
   "modelSolution": "Answers will vary.\nSample Answer: Any solution in which you use data from the entire population is acceptable. For instance, a professor might calculate the average exam score for her class: because the scores of all members of the class were used in the calculation, the average is a parameter.",
   "needsFigure": false,
   "explanation": []
@@ -1973,7 +1904,6 @@
    "test": "Practice Test 1",
    "n": 7
   },
-  "context": "Use the following information to answer the next two exercises. A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
   "options": [
    "parameter",
    "statistic",
@@ -1997,7 +1927,6 @@
    "test": "Practice Test 1",
    "n": 8
   },
-  "context": "Use the following information to answer the next two exercises. A health club is interested in knowing how many times a typical member uses the club in a week. They decide to ask every tenth customer on a specified day to complete a short survey including information about how many times they have visited the club in the past week.",
   "options": [
    "parameter",
    "statistic",
@@ -2037,7 +1966,7 @@
    "test": "Practice Test 1",
    "n": 10
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
+  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "answer": 0.75,
   "tolerance": {
    "abs": 0.006,
@@ -2060,7 +1989,7 @@
    "test": "Practice Test 1",
    "n": 11
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
+  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.\n\n[TABLE]\n# of years | Frequency | Relative Frequency | Cumulative Relative Frequency\n< 5 | 25 | |\n5–10 | 30 | |\n> 10 | empty | |\n[/TABLE]",
   "answer": 0.55,
   "tolerance": {
    "abs": 0.006,
@@ -2083,7 +2012,6 @@
    "test": "Practice Test 1",
    "n": 12
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "Answers will vary.\nSample Answer: One possibility is to obtain the class roster and assign each student a number from 1 to 200. Then use a random number generator or table of random number to generate 30 numbers between 1 and 200, and select the students matching the random numbers. It would also be acceptable to write each student’s name on a card, shuffle them in a box, and draw 30 names at random.",
   "needsFigure": false,
   "explanation": []
@@ -2099,7 +2027,6 @@
    "test": "Practice Test 1",
    "n": 13
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "One possibility would be to obtain a roster of students enrolled in the college, including the class standing for each student. Then you would draw a proportionate random sample from within each class (for instance, if 30 percent of the students in the college are first-year students, then 30 percent of your sample would be drawn from the first-year class).",
   "needsFigure": false,
   "explanation": []
@@ -2115,7 +2042,6 @@
    "test": "Practice Test 1",
    "n": 14
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "For the first person picked, the chance of any individual being selected is one in 150. For the second person, it is one in 149, for the third it is one in 148, and so on. For the 30th person selected, the chance of selection is one in 121.",
   "needsFigure": false,
   "explanation": []
@@ -2131,7 +2057,6 @@
    "test": "Practice Test 1",
    "n": 15
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "options": [
    "cluster",
    "stratified",
@@ -2155,7 +2080,6 @@
    "test": "Practice Test 1",
    "n": 16
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -2173,7 +2097,6 @@
    "test": "Practice Test 1",
    "n": 17
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "These results (84 percent in one sample, 86 percent in the other) are probably due to sampling variability. Each researcher drew a different sample of children, and you would not expect them to get exactly the same result, although you would expect the results to be similar, as they are in this case.",
   "needsFigure": false,
   "explanation": []
@@ -2189,7 +2112,6 @@
    "test": "Practice Test 1",
    "n": 18
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "answer": false,
   "needsFigure": false,
   "explanation": [
@@ -2207,7 +2129,6 @@
    "test": "Practice Test 1",
    "n": 19
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "At least two aspects of this poll are troublesome. The first is that it was conducted by a group who would benefit by the result—almond sales are likely to increase if people believe that eating almonds will make them happier. The second is that this poll found that almond consumption and life satisfaction are correlated, but does not establish that eating almonds causes satisfaction. It is equally possible, for instance, that people with higher incomes are more likely to eat almonds, and are also more satisfied with their lives.",
   "needsFigure": false,
   "explanation": []
@@ -2223,7 +2144,6 @@
    "test": "Practice Test 1",
    "n": 20
   },
-  "context": "Use the following information to answer the next three exercises. A survey of a random sample of 100 nurses working at a large hospital asked how many years they had been working in the profession. Their answers are summarized in the following (incomplete) table.",
   "modelSolution": "You want the sample of people who take part in a survey to be representative of the population from which they are drawn. People who refuse to take part in a survey often have different views than those who do participate, and so even a random sample may produce biased results if a large percentage of those selected refuse to participate in a survey.",
   "needsFigure": false,
   "explanation": []
@@ -2253,7 +2173,7 @@
  {
   "id": "pt1-22",
   "sectionId": "1.4",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "1.4",
   "stem": "A psychologist is interested in whether the size of tableware (bowls, plates, etc.) influences how much college students eat. He randomly assigns 100 college students to one of two groups: the first is served a meal using normal-sized tableware, while the second is served the same meal, but using tableware that it 20 percent smaller than normal. He records how much food is consumed by each group. Identify the following components of this study.",
   "source": "openstax-practice-test",
@@ -2261,19 +2181,9 @@
    "test": "Practice Test 1",
    "n": 22
   },
-  "options": [
-   "population",
-   "sample",
-   "experimental units",
-   "explanatory variable",
-   "treatment",
-   "response variable"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. population: all college students\nb. sample: the 100 college students in the study\nc. experimental units: each individual college student who participated\nd. explanatory variable: the size of the tableware\ne. treatment: tableware that is 20 percent smaller than normal\nf. response variable: the amount of food eaten\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. population: all college students\nb. sample: the 100 college students in the study\nc. experimental units: each individual college student who participated\nd. explanatory variable: the size of the tableware\ne. treatment: tableware that is 20 percent smaller than normal\nf. response variable: the amount of food eaten"
-  ]
+  "explanation": []
  },
  {
   "id": "pt1-23",
@@ -2360,54 +2270,6 @@
   ]
  },
  {
-  "id": "fe1-34",
-  "sectionId": "1.3",
-  "kind": "mc",
-  "conceptTag": "1.3",
-  "stem": "The distribution for the test is:",
-  "source": "openstax-final",
-  "sourceRef": {
-   "test": "Practice Final Exam 1",
-   "n": 34
-  },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.",
-  "options": [
-   "Chi^2_8.",
-   "Chi^2_3.",
-   "t_(721).",
-   "N(0,1)."
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. Chi^2_3."
-  ]
- },
- {
-  "id": "fe1-35",
-  "sectionId": "1.3",
-  "kind": "mc",
-  "conceptTag": "1.3",
-  "stem": "The expected number of female who choose finance is:",
-  "source": "openstax-final",
-  "sourceRef": {
-   "test": "Practice Final Exam 1",
-   "n": 35
-  },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.",
-  "options": [
-   "37.",
-   "61.",
-   "60.",
-   "70."
-  ],
-  "correctIndex": 3,
-  "needsFigure": false,
-  "explanation": [
-   "d. 70"
-  ]
- },
- {
   "id": "fe2-1",
   "sectionId": "1.1",
   "kind": "mc",
@@ -2431,28 +2293,42 @@
   ]
  },
  {
-  "id": "fe2-26",
+  "id": "fe2-22",
   "sectionId": "1.2",
   "kind": "mc",
   "conceptTag": "1.2",
-  "stem": "In a survey of 80 males, 45 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. The correct conclusion is that:",
+  "stem": "A sample of 80 software engineers in Silicon Valley is taken and it is found that 20% of them earn approximately $50,000 per year. A point estimate for the true proportion of engineers in Silicon Valley who earn $50,000 per year is:",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 2",
-   "n": 26
+   "n": 22
   },
-  "context": "A math exam was given to all the third grade children attending ABC School. Two random samples of scores were taken.",
   "options": [
-   "there is insufficient information to conclude that the proportion for males is the same as the proportion for females.",
-   "there is insufficient information to conclude that the proportion for males is not the same as the proportion for females.",
-   "there is sufficient evidence to conclude that the proportion for males is higher than the proportion for females.",
-   "not enough information to make a conclusion."
+   "16.",
+   "0.2.",
+   "1.",
+   "0.95."
   ],
-  "correctIndex": 2,
+  "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "c. there is sufficient evidence to conclude that the proportion for males is higher than the proportion for females."
+   "b. 0.2"
   ]
+ },
+ {
+  "id": "fe2-32",
+  "sectionId": "1.2",
+  "kind": "open",
+  "conceptTag": "1.2",
+  "stem": "Suppose that a sample of size ten was collected, with x̄ = 4.4 and s = 1.4. H0: σ2 = 1.6 vs. Ha: σ2 ≠ 1.6. Which graph best describes the results of the test?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 32
+  },
+  "modelSolution": "a.",
+  "needsFigure": false,
+  "explanation": []
  },
  {
   "id": "rv3-1",
@@ -2606,7 +2482,6 @@
    "test": "Chapter 4",
    "n": 11
   },
-  "context": "Use the following information to answer the next two exercises: A recent poll concerning credit cards found that 35 percent of respondents use a credit card that gives them a mile of air travel for every dollar they charge. Thirty percent of the respondents charge more than $2,000 per month. Of those respondents who charge more than $2,000, 80 percent use a credit card that gives them a mile of air travel for every dollar they charge.",
   "options": [
    "all employed adult women",
    "all the members of a local business and professional women’s club",
@@ -2679,14 +2554,14 @@
   "sectionId": "1.1",
   "kind": "open",
   "conceptTag": "1.1",
-  "stem": "a. Find the percent of all mothers in the population that are NOT employed.\nb. Find the percent of mothers in the population that are employed part-time.",
+  "stem": "[PARTS]\na. Find the percent of all mothers in the population that are NOT employed.\nb. Find the percent of mothers in the population that are employed part-time.\n[/PARTS]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 5",
    "n": 25
   },
   "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
-  "modelSolution": "a. 24%\nb. 27%",
+  "modelSolution": "[PARTS]\na. 24%\nb. 27%\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2723,20 +2598,61 @@
   "explanation": []
  },
  {
-  "id": "rv9-75",
-  "sectionId": "1.3",
+  "id": "rv7-55",
+  "sectionId": "1.2",
   "kind": "open",
-  "conceptTag": "1.3",
-  "stem": "Complete the cumulative frequency column.",
+  "conceptTag": "1.2",
+  "stem": "A 2008 report on technology use states that approximately 20% of U.S. households have never sent an e-mail. Suppose that we select a random sample of fourteen U.S. households. Let X = the number of households in a 2008 sample of 14 households that have never sent an email",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 7",
+   "n": 55
+  },
+  "modelSolution": "B(14, 0.20)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv9-82",
+  "sectionId": "1.2",
+  "kind": "mc",
+  "conceptTag": "1.2",
+  "stem": "A sample of convenience is a random sample.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 9",
-   "n": 75
+   "n": 82
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.",
-  "modelSolution": "[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 | 0.3\n2 | 0.2 | 0.2\n4 | 0.4 | 0.4\n5 | 0.1 | 0.1\n[/TABLE]",
+  "options": [
+   "true",
+   "false"
+  ],
+  "correctIndex": 1,
   "needsFigure": false,
-  "explanation": []
+  "explanation": [
+   "b. false"
+  ]
+ },
+ {
+  "id": "rv9-83",
+  "sectionId": "1.1",
+  "kind": "mc",
+  "conceptTag": "1.1",
+  "stem": "A statistic is a number that is a property of the population.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 83
+  },
+  "options": [
+   "true",
+   "false"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. false"
+  ]
  },
  {
   "id": "rv11-116",
@@ -2749,14 +2665,14 @@
    "test": "Chapter 11",
    "n": 116
   },
-  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:",
+  "context": "Use the following information to answer the next two exercises: A random sample of 70 compulsive gamblers were asked the number of days they go to casinos per week. The results are given in the following graph:\n\n[FIGURE]",
   "answer": 14.0,
   "tolerance": {
    "abs": 0.05,
    "rel": 0.005
   },
   "unit": null,
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": [
    "14"
   ]

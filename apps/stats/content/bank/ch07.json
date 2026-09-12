@@ -84,14 +84,14 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Complete the distributions.\n\na. X ~ _____(_____,_____)\nb. X̄ ~ _____(_____,_____)",
+  "stem": "Complete the distributions.\n\n[PARTS]\na. X ~ _____(_____,_____)\nb. X̄ ~ _____(_____,_____)\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "fs-idp17869408"
   },
   "context": "Use the following information to answer the next six exercises: Yoonie is a personnel manager in a large corporation. Each month she must review 16 of the employees. From past experience, she has found that the reviews take her approximately four hours each to do with a population standard deviation of 1.2 hours. Let Χ be the random variable representing the time it takes her to complete one review. Assume Χ is normally distributed. Let x̄ be the random variable representing the mean time to complete the 16 reviews. Assume that the 16 reviews represent a random set of reviews.",
-  "modelSolution": "1. X ~ N(4, 1.2).\n2. X̄ ~ N(4, 1.2/(√(16)))",
+  "modelSolution": "[PARTS]\n1. X ~N(4, 1.2).\n2. X̄ ~N(4, 1.2/(√(16)))\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -100,7 +100,7 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Find the probability that one review will take Yoonie from 3.5 to 4.25 hours. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\na. [FIGURE]\nb. P(________ < x < ________) = _______",
+  "stem": "Find the probability that one review will take Yoonie from 3.5 to 4.25 hours. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\n[PARTS]\na. [FIGURE]\nb. P(________ <x < ________) = _______\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46994",
@@ -116,7 +116,7 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Find the probability that the mean of a month’s reviews will take Yoonie from 3.5 to 4.25 hrs. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\na. [FIGURE]\nb. P(________________) = _______",
+  "stem": "Find the probability that the mean of a month’s reviews will take Yoonie from 3.5 to 4.25 hrs. Sketch the graph, labeling and scaling the horizontal axis. Shade the region corresponding to the probability.\n\n[PARTS]\na. [FIGURE]\nb. P(________________) = _______\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46994",
@@ -132,7 +132,7 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "What causes the probabilities in and to be different?",
+  "stem": "What causes the probabilities in the exercise above and the exercise above to be different?",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46994",
@@ -148,7 +148,7 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Find the 95th percentile for the mean time to complete one month's reviews. Sketch the graph.\n\na. [FIGURE]\nb. The 95th Percentile =____________",
+  "stem": "Find the 95th percentile for the mean time to complete one month's reviews. Sketch the graph.\n\n[PARTS]\na. [FIGURE]\nb. The 95th Percentile =____________\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46994",
@@ -164,13 +164,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Previously, De Anza statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88. Suppose that we randomly pick 25 daytime statistics students.\n\na. In words, Χ = ____________\nb. Χ ~ _____(_____,_____)\nc. In words, X̄ = ____________\nd. x̄ ~ ______ (______, ______)\ne. Find the probability that an individual had between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.\nf. Find the probability that the average of the 25 students was between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.\ng. Explain why there is a difference in part e and part f.",
+  "stem": "Previously, De Anza statistics students estimated that the amount of change daytime statistics students carry is exponentially distributed with a mean of $0.88. Suppose that we randomly pick 25 daytime statistics students.\n\n[PARTS]\na. In words, Χ = ____________\nb. Χ ~ _____(_____,_____)\nc. In words, X̄ = ____________\nd. x̄ ~ ______ (______, ______)\ne. Find the probability that an individual had between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.\nf. Find the probability that the average of the 25 students was between $0.80 and $1.00. Graph the situation, and shade in the area to be determined.\ng. Explain why there is a difference in part e and part f.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-475"
   },
-  "modelSolution": "a. Χ = amount of change a student carries\nb. Exp(1/0.88) or Χ ~ Exp(1.1364)\nc. x̄ = average amount of change carried by a sample of 25 sstudents.\nd. x̄ ~ N(0.88, 0.176)\ne. 0.0819\nf. 0.4276\ng. The distributions are different. Part e asks about the probability for an individual and part f asks about the probability of the mean value for a sample of 25.",
+  "modelSolution": "[PARTS]\na. Χ = amount of change a student carries\nb. Exp(1/0.88) or Χ ~ Exp(1.1364)\nc. x̄ = average amount of change carried by a sample of 25 sstudents.\nd. x̄ ~N(0.88, 0.176)\ne. 0.0819\nf. 0.4276\ng. The distributions are different. Part e asks about the probability for an individual and part f asks about the probability of the mean value for a sample of 25.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -179,13 +179,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.\n\na. If x̄ = average distance in feet for 49 fly balls, then x̄ ~ _______(_______,_______)\nb. What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for x̄. Shade the region corresponding to the probability. Find the probability.\nc. Find the 80th percentile of the distribution of the average of 49 fly balls.",
+  "stem": "Suppose that the distance of fly balls hit to the outfield (in baseball) is normally distributed with a mean of 250 feet and a standard deviation of 50 feet. We randomly sample 49 fly balls.\n\n[PARTS]\na. If x̄ = average distance in feet for 49 fly balls, thenx̄ ~ _______(_______,_______)\nb. What is the probability that the 49 balls traveled an average of less than 240 feet? Sketch the graph. Scale the horizontal axis for x̄. Shade the region corresponding to the probability. Find the probability.\nc. Find the 80th percentile of the distribution of the average of 49 fly balls.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-51"
   },
-  "modelSolution": "a. N(250, 50/(√(49)))\nb. 0.0808\nc. 256.01 feet",
+  "modelSolution": "[PARTS]\na. N(250, 50/(√(49)))\nb. 0.0808\nc. 256.01 feet\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -194,13 +194,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "According to the Internal Revenue Service, the average length of time for an individual to complete (keep records for, learn, prepare, copy, assemble, and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is two hours. Suppose we randomly sample 36 taxpayers.\n\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours? Explain why or why not in complete sentences.\ne. Would you be surprised if one taxpayer finished their Form 1040 in more than 12 hours? In a complete sentence, explain why.",
+  "stem": "According to the Internal Revenue Service, the average length of time for an individual to complete (keep records for, learn, prepare, copy, assemble, and send) IRS Form 1040 is 10.53 hours (without any attached schedules). The distribution is unknown. Let us assume that the standard deviation is two hours. Suppose we randomly sample 36 taxpayers.\n\n[PARTS]\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. Would you be surprised if the 36 taxpayers finished their Form 1040s in an average of more than 12 hours? Explain why or why not in complete sentences.\ne. Would you be surprised if one taxpayer finished their Form 1040 in more than 12 hours? In a complete sentence, explain why.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-820"
   },
-  "modelSolution": "a. length of time for an individual to complete IRS form 1040, in hours.\nb. mean length of time for a sample of 36 taxpayers to complete IRS form 1040, in hours.\nc. N(10.53, 1/3)\nd. Yes. I would be surprised, because the probability is almost 0.\ne. No. I would not be totally surprised because the probability is 0.2312",
+  "modelSolution": "[PARTS]\na. length of time for an individual to complete IRS form 1040, in hours.\nb. mean length of time for a sample of 36 taxpayers to complete IRS form 1040, in hours.\nc. N(10.53, 1/3)\nd. Yes. I would be surprised, because the probability is almost 0.\ne. No. I would not be totally surprised because the probability is 0.2312\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -209,13 +209,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let x̄ the average of the 49 races.\n\na. X̄ ~ _____(_____,_____)\nb. Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.\nc. Find the 80th percentile for the average of these 49 marathons.\nd. Find the median of the average running times.",
+  "stem": "Suppose that a category of world-class runners are known to run a marathon (26 miles) in an average of 145 minutes with a standard deviation of 14 minutes. Consider 49 of the races. Let x̄ the average of the 49 races.\n\n[PARTS]\na. X̄ ~ _____(_____,_____)\nb. Find the probability that the runner will average between 142 and 146 minutes in these 49 marathons.\nc. Find the 80th percentile for the average of these 49 marathons.\nd. Find the median of the average running times.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-133"
   },
-  "modelSolution": "a. N(145, 14/(√(49)))\nb. 0.6247\nc. 146.68\nd. 145 minutes",
+  "modelSolution": "[PARTS]\na. N(145, 14/(√(49)))\nb. 0.6247\nc. 146.68\nd. 145 minutes\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -224,13 +224,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "The length of songs in a collector’s Apple Music album collection is uniformly distributed from two to 3.5 minutes. Suppose we randomly pick five albums from the collection. There are a total of 43 songs on the five albums.\n\na. In words, Χ = _________\nb. Χ ~ _____________\nc. In words, X̄ = _____________\nd. X̄ ~ _____(_____,_____)\ne. Find the first quartile for the average song length, X̄.\nf. The IQR (interquartile range) for the average song length, X̄, is from ___ - ___.",
+  "stem": "The length of songs in a collector’s Apple Music album collection is uniformly distributed from two to 3.5 minutes. Suppose we randomly pick five albums from the collection. There are a total of 43 songs on the five albums.\n\n[PARTS]\na. In words, Χ = _________\nb. Χ ~ _____________\nc. In words, X̄ = _____________\nd. X̄ ~ _____(_____,_____)\ne. Find the first quartile for the average song length, X̄.\nf. The IQR (interquartile range) for the average song length, X̄, is from ___ - ___.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-848"
   },
-  "modelSolution": "a. the length of a song, in minutes, in the collection\nb. U(2, 3.5)\nc. the average length, in minutes, of the songs from a sample of five albums from the collection\nd. N(2.75, 0.0660)\ne. 2.71 minutes\nf. 0.09 minutes",
+  "modelSolution": "[PARTS]\na. the length of a song, in minutes, in the collection\nb. U(2, 3.5)\nc. the average length, in minutes, of the songs from a sample of five albums from the collection\nd. N(2.75, 0.0660)\ne. 2.71 minutes\nf. 0.09 minutes\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -239,20 +239,20 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "In 1940 the average size of a U.S. farm was 174 acres. Let’s say that the standard deviation was 55 acres. Suppose we randomly survey 38 farmers from 1940.\n\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. The IQR for x̄ is from _______ acres to _______ acres.",
+  "stem": "In 1940 the average size of a U.S. farm was 174 acres. Let’s say that the standard deviation was 55 acres. Suppose we randomly survey 38 farmers from 1940.\n\n[PARTS]\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. The IQR for x̄ is from _______ acres to _______ acres.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-424"
   },
-  "modelSolution": "a. the size of a U.S. farm in 1940\nb. the average size of a U.S. farm, in acres\nc. N(174, 55/(√(38)))\nd. 168.0, 180.0",
+  "modelSolution": "[PARTS]\na. the size of a U.S. farm in 1940\nb. the average size of a U.S. farm, in acres\nc. N(174, 55/(√(38)))\nd. 168.0, 180.0\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "os-m46994-element-371",
   "sectionId": "7.1",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "7.1",
   "stem": "Determine which of the following are true and which are false. Then, in complete sentences, justify your answers.",
   "source": "openstax-homework",
@@ -260,29 +260,22 @@
    "module": "m46994",
    "exerciseId": "element-371"
   },
-  "options": [
-   "When the sample size is large, the mean of X̄ is approximately equal to the mean of Χ.",
-   "When the sample size is large, x̄ is approximately normally distributed.",
-   "When the sample size is large, the standard deviation of x̄ is approximately the same as the standard deviation of Χ."
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. True. The mean of a sampling distribution of the means is approximately the mean of the data distribution.\nb. True. According to the Central Limit Theorem, the larger the sample, the closer the sampling distribution of the means becomes normal.\nc. False. The standard deviation of the sample distribution of the means will decrease as the sample size increases; however, the standard deviation of the sample distribution of the means will not equal the standard deviation of X.\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. True. The mean of a sampling distribution of the means is approximately the mean of the data distribution.\nb. True. According to the Central Limit Theorem, the larger the sample, the closer the sampling distribution of the means becomes normal.\nc. False. The standard deviation of the sample distribution of the means will decrease as the sample size increases; however, the standard deviation of the sample distribution of the means will not equal the standard deviation of X."
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46994-element-169",
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let x̄ = average percent of fat calories.\n\na. x̄ ~ ______(______, ______)\nb. For the group of 16, find the probability that the average percent of fat calories consumed is more than five. Graph the situation and shade in the area to be determined.\nc. Find the first quartile for the average percent of fat calories.",
+  "stem": "The percent of fat calories that a person in America consumes each day is normally distributed with a mean of about 36 and a standard deviation of about ten. Suppose that 16 individuals are randomly chosen. Let x̄ = average percent of fat calories.\n\n[PARTS]\na. x̄ ~ ______(______, ______)\nb. For the group of 16, find the probability that the average percent of fat calories consumed is more than five. Graph the situation and shade in the area to be determined.\nc. Find the first quartile for the average percent of fat calories.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-169"
   },
-  "modelSolution": "a. N(36, 10/(√(16)))\nb. 1\nc. 34.31",
+  "modelSolution": "[PARTS]\na. N(36, 10/(√(16)))\nb. 1\nc. 34.31\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -291,13 +284,13 @@
   "sectionId": "7.1",
   "kind": "open",
   "conceptTag": "7.1",
-  "stem": "The distribution of income in some developing countries is considered wedge shaped (many low income people, very few middle income people, and even fewer high income people). Suppose we pick a country with a wedge shaped distribution. Let the average salary be $2,000 per year with a standard deviation of $8,000. We randomly survey 1,000 residents of that country.\n\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. How is it possible for the standard deviation to be greater than the average?\ne. Why is it more likely that the average of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?",
+  "stem": "The distribution of income in some developing countries is considered wedge shaped (many low income people, very few middle income people, and even fewer high income people). Suppose we pick a country with a wedge shaped distribution. Let the average salary be $2,000 per year with a standard deviation of $8,000. We randomly survey 1,000 residents of that country.\n\n[PARTS]\na. In words, Χ = _____________\nb. In words, X̄ = _____________\nc. X̄ ~ _____(_____,_____)\nd. How is it possible for the standard deviation to be greater than the average?\ne. Why is it more likely that the average of the 1,000 residents will be from $2,000 to $2,100 than from $2,100 to $2,200?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46994",
    "exerciseId": "element-795"
   },
-  "modelSolution": "a. X = the yearly income of someone in a developing country\nb. the average salary from samples of 1,000 residents of a developing country\nc. X̄ ∼ N(2000, 8000/(√(1000)))\nd. Very wide differences in data values can have averages smaller than standard deviations.\ne. The distribution of the sample mean will have higher probabilities closer to the population mean.\n\nP(2000 < x̄ < 2100) = 0.1537\n\nP(2100 < x̄ < 2200) = 0.1317",
+  "modelSolution": "[PARTS]\na. X = the yearly income of someone in a developing country\nb. the average salary from samples of 1,000 residents of a developing country\nc. X̄ ∼N(2000, 8000/(√(1000)))\nd. Very wide differences in data values can have averages smaller than standard deviations.\ne. The distribution of the sample mean will have higher probabilities closer to the population mean. P(2000 <x̄ < 2100) = 0.1537P(2100 <x̄ < 2200) = 0.1317\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -375,7 +368,7 @@
   "sectionId": "7.2",
   "kind": "open",
   "conceptTag": "7.2",
-  "stem": "In a recent study, it was reported that the mean age of iPad users is 35 years. Suppose the standard deviation is ten years. The sample size is 39.\n\na. What are the mean and standard deviation for the sum of the ages of iPad users? What is the distribution?\nb. Find the probability that the sum of the ages is between 1,400 and 1,500 years.\nc. Find the 90th percentile for the sum of the 39 ages.",
+  "stem": "In a recent study, it was reported that the mean age of iPad users is 35 years. Suppose the standard deviation is ten years. The sample size is 39.\n\n[PARTS]\na. What are the mean and standard deviation for the sum of the ages of iPad users? What is the distribution?\nb. Find the probability that the sum of the ages is between 1,400 and 1,500 years.\nc. Find the 90th percentile for the sum of the 39 ages.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46997",
@@ -644,7 +637,7 @@
   "sectionId": "7.2",
   "kind": "numeric",
   "conceptTag": "7.2",
-  "stem": "Find the probability that the sum of the 100 values falls between the numbers you found in and .",
+  "stem": "Find the probability that the sum of the 100 values falls between the numbers you found in the exercise above and the exercise above.",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46997",
@@ -834,7 +827,6 @@
    "module": "m46997",
    "exerciseId": "eip-102"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "modelSolution": "False, the sums of any distribution approach a normal distribution as the sample size increases.",
   "needsFigure": false,
   "explanation": []
@@ -850,7 +842,6 @@
    "module": "m46997",
    "exerciseId": "eip-580"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "modelSolution": "The sample size, n, gets larger.",
   "needsFigure": false,
   "explanation": []
@@ -866,7 +857,6 @@
    "module": "m46997",
    "exerciseId": "eip-266"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "modelSolution": "the mean of the distribution, the standard deviation of the distribution, and the sample size",
   "needsFigure": false,
   "explanation": []
@@ -882,7 +872,6 @@
    "module": "m46997",
    "exerciseId": "eip-943"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 49.0,
   "tolerance": {
    "abs": 0.05,
@@ -905,7 +894,6 @@
    "module": "m46997",
    "exerciseId": "eip-427"
   },
-  "context": "Use the following information to answer the next four exercises: An unknown distribution has a mean 12 and a standard deviation of one. A sample size of 25 is taken. Let X = the object of interest.",
   "answer": 800.0,
   "tolerance": {
    "abs": 0.05,
@@ -1083,13 +1071,13 @@
   "sectionId": "7.2",
   "kind": "open",
   "conceptTag": "7.2",
-  "stem": "Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.\n\na. In words, ΣX = ______________\nb. ΣX ~ _____(_____,_____)\nc. Find the probability that the total length of the nine trials is at least 225 days.\nd. Ninety percent of the total of nine of these types of trials will last at least how long?",
+  "stem": "Suppose that the duration of a particular type of criminal trial is known to have a mean of 21 days and a standard deviation of seven days. We randomly sample nine trials.\n\n[PARTS]\na. In words, ΣX = ______________\nb. ΣX ~ _____(_____,_____)\nc. Find the probability that the total length of the nine trials is at least 225 days.\nd. Ninety percent of the total of nine of these types of trials will last at least how long?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46997",
    "exerciseId": "element-119"
   },
-  "modelSolution": "a. the total length of time for nine criminal trials\nb. N(189, 21)\nc. 0.0432\nd. 162.09; ninety percent of the total nine trials of this type will last 162 days or more.",
+  "modelSolution": "[PARTS]\na. the total length of time for nine criminal trials\nb. N(189, 21)\nc. 0.0432\nd. 162.09; ninety percent of the total nine trials of this type will last 162 days or more.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1098,13 +1086,13 @@
   "sectionId": "7.2",
   "kind": "open",
   "conceptTag": "7.2",
-  "stem": "Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.\n\na. In words, X = _____________\nb. The distribution is _______.\nc. In words, ΣX = _______________\nd. ΣX ~ _____(_____,_____)\ne. Find the probability that the total weight of open boxes is less than 250 pounds.\nf. Find the 35th percentile for the total weight of open boxes of cereal.",
+  "stem": "Suppose that the weight of open boxes of cereal in a home with children is uniformly distributed from two to six pounds with a mean of four pounds and standard deviation of 1.1547. We randomly survey 64 homes with children.\n\n[PARTS]\na. In words, X = _____________\nb. The distribution is _______.\nc. In words, ΣX = _______________\nd. ΣX ~ _____(_____,_____)\ne. Find the probability that the total weight of open boxes is less than 250 pounds.\nf. Find the 35th percentile for the total weight of open boxes of cereal.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46997",
    "exerciseId": "element-797"
   },
-  "modelSolution": "a. X = weight of open cereal boxes\nb. The distribution is uniform.\nc. ΣX = the sum of the weights of 64 randomly chosen cereal boxes.\nd. N(256, 9.24)\ne. 0.2581\nf. 252.44 pounds",
+  "modelSolution": "[PARTS]\na. X = weight of open cereal boxes\nb. The distribution is uniform.\nc. ΣX = the sum of the weights of 64 randomly chosen cereal boxes.\nd. N(256, 9.24)\ne. 0.2581\nf. 252.44 pounds\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1113,13 +1101,13 @@
   "sectionId": "7.2",
   "kind": "open",
   "conceptTag": "7.2",
-  "stem": "Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.\n\na. In words, X = ______________\nb. X ~ _____(_____,_____)\nc. In words, ΣX = _____________\nd. ΣX ~ _____(_____,_____)\ne. Find the probability that the teachers earn a total of over $400,000.\nf. Find the 90th percentile for an individual teacher's salary.\ng. Find the 90th percentile for the sum of ten teachers' salary.\nh. If we surveyed 70 teachers instead of ten, graphically, how would that change the distribution in part d?\ni. If each of the 70 teachers received a $3,000 raise, graphically, how would that change the distribution in part b?",
+  "stem": "Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.\n\n[PARTS]\na. In words, X = ______________\nb. X ~ _____(_____,_____)\nc. In words, ΣX = _____________\nd. ΣX ~ _____(_____,_____)\ne. Find the probability that the teachers earn a total of over $400,000.\nf. Find the 90th percentile for an individual teacher's salary.\ng. Find the 90th percentile for the sum of ten teachers' salary.\nh. If we surveyed 70 teachers instead of ten, graphically, how would that change the distribution in part d?\ni. If each of the 70 teachers received a $3,000 raise, graphically, how would that change the distribution in part b?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46997",
    "exerciseId": "element-138"
   },
-  "modelSolution": "a. X = the salary of one elementary school teacher in the district\nb. X ~ N(44,000, 6,500)\nc. ΣX ~ sum of the salaries of ten elementary school teachers in the sample\nd. ΣX ~ N(44000, 20554.80)\ne. 0.9742\nf. $52,330.09\ng. 466,342.04\nh. Sampling 70 teachers instead of ten would cause the distribution to be more spread out. It would be a more symmetrical normal curve.\ni. If every teacher received a $3,000 raise, the distribution of X would shift to the right by $3,000. In other words, it would have a mean of $47,000.",
+  "modelSolution": "[PARTS]\na. X = the salary of one elementary school teacher in the district\nb. X ~N(44,000, 6,500)\nc. ΣX ~ sum of the salaries of ten elementary school teachers in the sample\nd. ΣX ~N(44000, 20554.80)\ne. 0.9742\nf. $52,330.09\ng. 466,342.04\nh. Sampling 70 teachers instead of ten would cause the distribution to be more spread out. It would be a more symmetrical normal curve.\ni. If every teacher received a $3,000 raise, the distribution of X would shift to the right by $3,000. In other words, it would have a mean of $47,000.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1128,7 +1116,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Use the information in , but use a sample size of 55 to answer the following questions.\n\na. Find P(x̄ < 7).\nb. Find P(Σx > 170).\nc. Find the 80th percentile for the mean of 55 scores.\nd. Find the 85th percentile for the sum of 55 scores.",
+  "stem": "Use the information in the example above, but use a sample size of 55 to answer the following questions.\n\n[PARTS]\na. Find P(x̄ < 7).\nb. Find P(Σx > 170).\nc. Find the 80th percentile for the mean of 55 scores.\nd. Find the 85th percentile for the sum of 55 scores.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46992",
@@ -1144,7 +1132,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Use the information in , but change the sample size to 144.\n\na. Find P(20 < x̄ < 30).\nb. Find P(Σx is at least 3,000).\nc. Find the 75th percentile for the sample mean excess time of 144 customers.\nd. Find the 85th percentile for the sum of 144 excess times used by customers.",
+  "stem": "Use the information in the example above, but change the sample size to 144.\n\n[PARTS]\na. Find P(20 <x̄ < 30).\nb. Find P(Σx is at least 3,000).\nc. Find the 75th percentile for the sample mean excess time of 144 customers.\nd. Find the 85th percentile for the sum of 144 excess times used by customers.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46992",
@@ -1160,7 +1148,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Based on data from the National Health Survey, females between the ages of 18 and 24 have an average systolic blood pressures (in mm Hg) of 114.8 with a standard deviation of 13.1. Systolic blood pressure for females between the ages of 18 to 24 follow a normal distribution.\n\na. If one female from this population is randomly selected, find the probability that their systolic blood pressure is greater than 120.\nb. If 40 females from this population are randomly selected, find the probability that their mean systolic blood pressure is greater than 120.\nc. If the sample were four females between the ages of 18 to 24 and we did not know the original distribution, could the central limit theorem be used?",
+  "stem": "Based on data from the National Health Survey, females between the ages of 18 and 24 have an average systolic blood pressures (in mm Hg) of 114.8 with a standard deviation of 13.1. Systolic blood pressure for females between the ages of 18 to 24 follow a normal distribution.\n\n[PARTS]\na. If one female from this population is randomly selected, find the probability that their systolic blood pressure is greater than 120.\nb. If 40 females from this population are randomly selected, find the probability that their mean systolic blood pressure is greater than 120.\nc. If the sample were four females between the ages of 18 to 24 and we did not know the original distribution, could the central limit theorem be used?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46992",
@@ -1176,7 +1164,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "According to Boeing data, the 757 airliner carries 200 passengers and has doors with a height of 72 inches. Assume for a certain population of men we have a mean height of 69.0 inches and a standard deviation of 2.8 inches.\n\na. What doorway height would allow 95% of men to enter the aircraft without bending?\nb. Assume that half of the 200 passengers are men. What mean doorway height satisfies the condition that there is a 0.95 probability that this height is greater than the mean height of 100 men?\nc. For engineers designing the 757, which result is more relevant: the height from part a or part b? Why?",
+  "stem": "According to Boeing data, the 757 airliner carries 200 passengers and has doors with a height of 72 inches. Assume for a certain population of men we have a mean height of 69.0 inches and a standard deviation of 2.8 inches.\n\n[PARTS]\na. What doorway height would allow 95% of men to enter the aircraft without bending?\nb. Assume that half of the 200 passengers are men. What mean doorway height satisfies the condition that there is a 0.95 probability that this height is greater than the mean height of 100 men?\nc. For engineers designing the 757, which result is more relevant: the height from part a or part b? Why?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46992",
@@ -1192,14 +1180,14 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "a. What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deivation?\nb. What is the distribution for the mean weight of 100 25-pound lifting weights?\nc. Find the probability that the mean actual weight for the 100 weights is less than 24.9.",
+  "stem": "[PARTS]\na. What is the distribution for the weights of one 25-pound lifting weight? What is the mean and standard deivation?\nb. What is the distribution for the mean weight of 100 25-pound lifting weights?\nc. Find the probability that the mean actual weight for the 100 weights is less than 24.9.\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "exercise4"
   },
   "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
-  "modelSolution": "a. U(24, 26), 25, 0.5774\nb. N(25, 0.0577)\nc. 0.0416",
+  "modelSolution": "[PARTS]\na. U(24, 26), 25, 0.5774\nb. N(25, 0.0577)\nc. 0.0416\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1208,7 +1196,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Draw the graph from",
+  "stem": "Draw the graph from the exercise above",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
@@ -1247,7 +1235,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Draw the graph from",
+  "stem": "Draw the graph from the exercise above",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
@@ -1286,7 +1274,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Draw the graph from",
+  "stem": "Draw the graph from the exercise above",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
@@ -1302,14 +1290,14 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "a. What is the distribution for the sum of the weights of 100 25-pound lifting weights?\nb. Find P(Σx < 2,450).",
+  "stem": "[PARTS]\na. What is the distribution for the sum of the weights of 100 25-pound lifting weights?\nb. Find P(Σx < 2,450).\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "exercise10"
   },
   "context": "Use the following information to answer the next ten exercises: A manufacturer produces 25-pound lifting weights. The lowest actual weight is 24 pounds, and the highest is 26 pounds. Each weight is equally likely so the distribution of weights is uniform. A sample of 100 weights is taken.",
-  "modelSolution": "a. N(2,500, 5.7735)\nb. 0",
+  "modelSolution": "[PARTS]\na. N(2,500, 5.7735)\nb. 0\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1318,7 +1306,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Draw the graph from",
+  "stem": "Draw the graph from the exercise above",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
@@ -1357,7 +1345,7 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Draw the graph from",
+  "stem": "Draw the graph from the exercise above",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
@@ -1373,14 +1361,14 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "a. What is the standard deviation?\nb. What is the parameter m?",
+  "stem": "[PARTS]\na. What is the standard deviation?\nb. What is the parameter m?\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "fs-idm110175696"
   },
   "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
-  "modelSolution": "a. 10\nb. 1/10",
+  "modelSolution": "[PARTS]\na. 10\nb. 1/10\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1466,7 +1454,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm28939008"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "answer": 707.3,
   "tolerance": {
    "abs": 0.06,
@@ -1489,7 +1476,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm41589104"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "answer": 1.69,
   "tolerance": {
    "abs": 0.006,
@@ -1512,7 +1498,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm45108016"
   },
-  "context": "Use the following information to answer the next five exercises: The length of time a particular smartphone's battery lasts follows an exponential distribution with a mean of ten months. A sample of 64 of these smartphones is taken.",
   "answer": 205.05,
   "tolerance": {
    "abs": 0.006,
@@ -1667,13 +1652,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.\n\na. In words, Χ = _______\nb. Χ ~ _____(_____,_____)\nc. In words, X̄ = ____________\nd. X̄ ~ _____(_____,_____)\ne. Before doing any calculations, which do you think will be higher? Explain why.\n\ni. The probability that an individual attention span is less than ten minutes.\nii. The probability that the average attention span for the 60 children is less than ten minutes?\n\nf. Calculate the probabilities in part e.\ng. Explain why the distribution for X̄ is not exponential.",
+  "stem": "The attention span of a two-year-old is exponentially distributed with a mean of about eight minutes. Suppose we randomly survey 60 two-year-olds.\n\n[PARTS]\na. In words, Χ = _______\nb. Χ ~ _____(_____,_____)\nc. In words, X̄ = ____________\nd. X̄ ~ _____(_____,_____)\ne. Before doing any calculations, which do you think will be higher? Explain why. [PARTS] i. The probability that an individual attention span is less than ten minutes. ii. The probability that the average attention span for the 60 children is less than ten minutes? [/PARTS]\nf. Calculate the probabilities in part e.\ng. Explain why the distribution for X̄ is not exponential.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-941"
   },
-  "modelSolution": "a. X = the attention span of a two-year-old\nb. Χ ~ Exp(1/8)\nc. X̄ = the mean (average) attention span of a two-year-old\nd. X̄ ~ N(8, 8/(√(60)))\ne. The standard deviation is smaller, so there is more area under the normal curve.\nf. Exponential: 0.7135\n\nNormal: 0.7579\ng. By the central limit theorem, as n gets larger, the means tend to follow a normal distribution.",
+  "modelSolution": "[PARTS]\na. X = the attention span of a two-year-old\nb. Χ ~Exp(1/8)\nc. X̄ = the mean (average) attention span of a two-year-old\nd. X̄ ~N(8, 8/(√(60)))\ne. The standard deviation is smaller, so there is more area under the normal curve.\nf. Exponential: 0.7135 Normal: 0.7579\ng. By the central limit theorem, as n gets larger, the means tend to follow a normal distribution.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1682,13 +1667,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows.\n\n• 8.625\n• 30.25\n• 27.625\n• 46.75\n• 32.875\n• 18.25\n• 5\n• 0.125\n• 2.9375\n• 6.875\n• 28.25\n• 24.25\n• 21\n• 1.5\n• 30.25\n• 71\n• 43.5\n• 49.25\n• 2.5625\n• 31\n• 16.5\n• 9.5\n• 18.5\n• 18\n• 9\n• 10.5\n• 16.625\n• 1.25\n• 18\n• 12.87\n• 7\n• 12.875\n• 2.875\n• 60.25\n• 29.25\n\na. In words, Χ = ______________\nb.\ni. x̄ = _____\nii. sx = _____\niii. n = _____\n\nc. Construct a histogram of the distribution of the averages. Start at x = –0.0005. Use bar widths of ten.\nd. In words, describe the distribution of stock prices.\ne. Randomly average five stock prices together. (Use a random number generator.) Continue averaging five pieces together until you have ten averages. List those ten averages.\nf. Use the ten averages from part e to calculate the following.\n\ni. x̄ = _____\nii. sx = _____\n\ng. Construct a histogram of the distribution of the averages. Start at x = -0.0005. Use bar widths of ten.\nh. Does this histogram look like the graph in part c?\ni. In one or two complete sentences, explain why the graphs either look the same or look different?\nj. Based upon the theory of the central limit theorem, X̄ ~ _____(_____,____)",
+  "stem": "The closing stock prices of 35 U.S. semiconductor manufacturers are given as follows.\n\n[DATA]8.625, 30.25, 27.625, 46.75, 32.875, 18.25, 5, 0.125, 2.9375, 6.875, 28.25, 24.25, 21, 1.5, 30.25, 71, 43.5, 49.25, 2.5625, 31, 16.5, 9.5, 18.5, 18, 9, 10.5, 16.625, 1.25, 18, 12.87, 7, 12.875, 2.875, 60.25, 29.25[/DATA]\n\n[PARTS]\na. In words, Χ = ______________\nb. [PARTS] i. x̄ = _____ ii. sx = _____ iii. n = _____ [/PARTS]\nc. Construct a histogram of the distribution of the averages. Start at x = –0.0005. Use bar widths of ten.\nd. In words, describe the distribution of stock prices.\ne. Randomly average five stock prices together. (Use a random number generator.) Continue averaging five pieces together until you have ten averages. List those ten averages.\nf. Use the ten averages from part e to calculate the following. [PARTS] i. x̄ = _____ ii. sx = _____ [/PARTS]\ng. Construct a histogram of the distribution of the averages. Start at x = -0.0005. Use bar widths of ten.\nh. Does this histogram look like the graph in part c?\ni. In one or two complete sentences, explain why the graphs either look the same or look different?\nj. Based upon the theory of the central limit theorem,X̄ ~ _____(_____,____)\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-897"
   },
-  "modelSolution": "a. X = the closing stock prices for U.S. semiconductor manufacturers\nb. i. $20.71; ii. $17.31; iii. 35\nc.\nd. Exponential distribution, Χ ~ Exp(1/20.71)\ne. Answers will vary.\nf. i. $20.71; ii. $11.14\ng. Answers will vary.\nh. Answers will vary.\ni. Answers will vary.\nj. N(20.71, 17.31/(√(5)))",
+  "modelSolution": "[PARTS]\na. X = the closing stock prices for U.S. semiconductor manufacturers\nb. i. $20.71; ii. $17.31; iii. 35\nc.\nd. Exponential distribution, Χ ~ Exp(1/20.71)\ne. Answers will vary.\nf. i. $20.71; ii. $11.14\ng. Answers will vary.\nh. Answers will vary.\ni. Answers will vary.\nj. N(20.71, 17.31/(√(5)))\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1838,41 +1823,31 @@
  {
   "id": "os-m46992-eip-415",
   "sectionId": "7.3",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Find the probability that the average price for 30 gas stations is less than $4.55.",
+  "stem": "Find the probability that the average price for 30 gas stations is less than $4.55.\n\n[DATA]0.6554, 0.3446, 0.0142, 0.9858, 0[/DATA]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "eip-415"
   },
   "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "options": [
-   "0.6554",
-   "0.3446",
-   "0.0142",
-   "0.9858",
-   "0"
-  ],
-  "correctIndex": 2,
+  "modelSolution": "c",
   "needsFigure": false,
-  "explanation": [
-   "c"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46992-eip-786",
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Suppose in a local Kindergarten through 12th grade (K - 12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate following using the normal approximation to the binomial distribtion.\n\na. Find the probability that less than 100 favor a charter school for grades K through 5.\nb. Find the probability that 170 or more favor a charter school for grades K through 5.\nc. Find the probability that no more than 140 favor a charter school for grades K through 5.\nd. Find the probability that there are fewer than 130 that favor a charter school for grades K through 5.\ne. Find the probability that exactly 150 favor a charter school for grades K through 5.\n\nIf you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.",
+  "stem": "Suppose in a local Kindergarten through 12th grade (K - 12) school district, 53 percent of the population favor a charter school for grades K through five. A simple random sample of 300 is surveyed. Calculate following using the normal approximation to the binomial distribtion.\n\n[PARTS]\na. Find the probability that less than 100 favor a charter school for grades K through 5.\nb. Find the probability that 170 or more favor a charter school for grades K through 5.\nc. Find the probability that no more than 140 favor a charter school for grades K through 5.\nd. Find the probability that there are fewer than 130 that favor a charter school for grades K through 5.\ne. Find the probability that exactly 150 favor a charter school for grades K through 5.\n[/PARTS]\n\nIf you have access to an appropriate calculator or computer software, try calculating these probabilities using the technology.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "eip-786"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a. 0\nb. 0.1123\nc. 0.0162\nd. 0.0003\ne. 0.0268",
+  "modelSolution": "[DATA]0, 0.1123, 0.0162, 0.0003, 0.0268[/DATA]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1881,14 +1856,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Four friends, Janice, Barbara, Kathy and Roberta, decided to carpool together to get to school. Each day the driver would be chosen by randomly selecting one of the four names. They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to four decimal places.\n\na. Find the probability that Janice is the driver at most 20 days.\nb. Find the probability that Roberta is the driver more than 16 days.\nc. Find the probability that Barbara drives exactly 24 of those 96 days.",
+  "stem": "Four friends, Janice, Barbara, Kathy and Roberta, decided to carpool together to get to school. Each day the driver would be chosen by randomly selecting one of the four names. They carpool to school for 96 days. Use the normal approximation to the binomial to calculate the following probabilities. Round the standard deviation to four decimal places.\n\n[PARTS]\na. Find the probability that Janice is the driver at most 20 days.\nb. Find the probability that Roberta is the driver more than 16 days.\nc. Find the probability that Barbara drives exactly 24 of those 96 days.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "eip-140"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a. 0.2047\nb. 0.9615\nc. 0.0938",
+  "modelSolution": "[DATA]0.2047, 0.9615, 0.0938[/DATA]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1897,14 +1871,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "X ~ N(60, 9). Suppose that you form random samples of 25 from this distribution. Let X̄ be the random variable of averages. Let ΣX be the random variable of sums. For parts c through f, sketch the graph, shade the region, label and scale the horizontal axis for X̄, and find the probability.\n\na. Sketch the distributions of X and\nX̄ on the same graph.\nb. X̄ ~ _____(_____,_____)\nc. P(x̄ < 60) = _____\nd. Find the 30th percentile for the mean.\ne. P(56 < x̄ < 62) = _____\nf. P(18 < x̄ < 58) = _____\ng. Σx ~ _____(_____,_____)\nh. Find the minimum value for the upper quartile for the sum.\ni. P(1,400 < Σx < 1,550) = _____",
+  "stem": "X ~ N(60, 9). Suppose that you form random samples of 25 from this distribution. Let X̄ be the random variable of averages. Let ΣX be the random variable of sums. For parts c through f, sketch the graph, shade the region, label and scale the horizontal axis for X̄, and find the probability.\n\n[PARTS]\na. Sketch the distributions of X andX̄ on the same graph.\nb. X̄ ~ _____(_____,_____)\nc. P(x̄ < 60) = _____\nd. Find the 30th percentile for the mean.\ne. P(56 <x̄ < 62) = _____\nf. P(18 <x̄ < 58) = _____\ng. Σx ~ _____(_____,_____)\nh. Find the minimum value for the upper quartile for the sum.\ni. P(1,400 <Σx < 1,550) = _____\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-440"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a. Answers may vary.\nb. X̄ ~ N(60, 9/(√(25)))\nc. 0.5000\nd. 59.06\ne. 0.8536\nf. 0.1333\ng. N(1500, 45)\nh. 1530.35\ni. 0.6877",
+  "modelSolution": "[PARTS]\na. Answers may vary.\nb. X̄ ~N(60, 9/(√(25)))\nc. 0.5000\nd. 59.06\ne. 0.8536\nf. 0.1333\ng. N(1500, 45)\nh. 1530.35\ni. 0.6877\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1913,14 +1886,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Suppose that the length of research papers is uniformly distributed from ten to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.\n\na. In words, X = _____________\nb. X ~ _____(_____,_____)\nc. μx = _____\nd. σx = _____\ne. In words, X̄ = ______________\nf. X̄ ~ _____(_____,_____)\ng. In words, ΣX = _____________\nh. ΣX ~ _____(_____,_____)\ni. Without doing any calculations, do you think that it’s likely that the professor will need to read a total of more than 1,050 pages? Why?\nj. Calculate the probability that the professor will need to read a total of more than 1,050 pages.\nk. Why is it so unlikely that the average length of the papers will be less than 12 pages?",
+  "stem": "Suppose that the length of research papers is uniformly distributed from ten to 25 pages. We survey a class in which 55 research papers were turned in to a professor. The 55 research papers are considered a random collection of all papers. We are interested in the average length of the research papers.\n\n[PARTS]\na. In words, X = _____________\nb. X ~ _____(_____,_____)\nc. μx = _____\nd. σx = _____\ne. In words, X̄ = ______________\nf. X̄ ~ _____(_____,_____)\ng. In words, ΣX = _____________\nh. ΣX ~ _____(_____,_____)\ni. Without doing any calculations, do you think that it’s likely that the professor will need to read a total of more than 1,050 pages? Why?\nj. Calculate the probability that the professor will need to read a total of more than 1,050 pages.\nk. Why is it so unlikely that the average length of the papers will be less than 12 pages?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-666"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a.\nb. U(10, 25)\nc. 17.5\nd. √(225/12) = 4.3301\ne. N(17.5, 0.5839)\nf. N(962.5, 32.11)\ng. 0.0032",
+  "modelSolution": "[PARTS]\na.\nb. U(10, 25)\nc. 17.5\nd. √(225/12) = 4.3301\ne. N(17.5, 0.5839)\nf. N(962.5, 32.11)\ng. 0.0032\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1929,14 +1901,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.\n\na. Find the 90th percentile for an individual teacher’s salary.\nb. Find the 90th percentile for the average teacher’s salary.",
+  "stem": "Salaries for teachers in a particular elementary school district are normally distributed with a mean of $44,000 and a standard deviation of $6,500. We randomly survey ten teachers from that district.\n\n[PARTS]\na. Find the 90th percentile for an individual teacher’s salary.\nb. Find the 90th percentile for the average teacher’s salary.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-138"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a. $52,330\nb. $46,634",
+  "modelSolution": "[PARTS]\na. $52,330\nb. $46,634\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1945,14 +1916,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.\n\na. In words, X = _____________\nb. In words, X̄ = ___________________\nc. X̄ ~ _____(_____,_____)\nd. In words, ΣX = _______________\ne. ΣX ~ _____(_____,_____)\nf. Is it likely that an individual stayed more than five days in the hospital? Why or why not?\ng. Is it likely that the average stay for the 80 women was more than five days? Why or why not?\nh. Which is more likely:\n\ni. An individual stayed more than five days.\nii. the average stay of 80 women was more than five days.\n\ni. If we were to sum up the women’s stays, is it likely that, collectively they spent more than a year in the hospital? Why or why not?",
+  "stem": "The average length of a maternity stay in a U.S. hospital is said to be 2.4 days with a standard deviation of 0.9 days. We randomly survey 80 women who recently bore children in a U.S. hospital.\n\n[PARTS]\na. In words, X = _____________\nb. In words, X̄ = ___________________\nc. X̄ ~ _____(_____,_____)\nd. In words, ΣX = _______________\ne. ΣX ~ _____(_____,_____)\nf. Is it likely that an individual stayed more than five days in the hospital? Why or why not?\ng. Is it likely that the average stay for the 80 women was more than five days? Why or why not?\nh. Which is more likely: [PARTS] i. An individual stayed more than five days. ii. the average stay of 80 women was more than five days. [/PARTS]\ni. If we were to sum up the women’s stays, is it likely that, collectively they spent more than a year in the hospital? Why or why not?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "element-566"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.",
-  "modelSolution": "a. the length of a maternity stay in a U.S. hospital, in days\nb. the average length of a maternity stay in a U.S. hospital, in days\nc. N(2.4, 0.9/(√(80)))\nd. N(192, 8.05)\ne. Not likely, but possible. The mean stay is 2.4 days.\nf. No, the probability is 0.\ng. Individual\nh. No, the probability is 0.",
+  "modelSolution": "[PARTS]\na. the length of a maternity stay in a U.S. hospital, in days\nb. the average length of a maternity stay in a U.S. hospital, in days\nc. N(2.4, 0.9/(√(80)))\nd. N(192, 8.05)\ne. Not likely, but possible. The mean stay is 2.4 days.\nf. No, the probability is 0.\ng. Individual\nh. No, the probability is 0.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1967,8 +1937,7 @@
    "module": "m46992",
    "exerciseId": "fs-idm4142208"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
-  "modelSolution": "• We have μ = 17, σ = 0.8, x̄ = 16.7, and n = 30. To calculate the probability, we use normalcdf(lower, upper, μ, σ/(√(n))) = normalcdf(E–99,16.7,17,0.8/(√(30))) = 0.0200.\n• If the process is working properly, then the probability that a sample of 30 batteries would have at most 16.7 lifetime hours is only 2%. Therefore, the class was justified to question the claim.",
+  "modelSolution": "[LIST]\nWe have μ = 17, σ = 0.8,x̄ = 16.7, andn = 30. To calculate the probability, we usenormalcdf(lower, upper,μ,σ/(√(n))) =normalcdf(E–99,16.7,17,0.8/(√(30))) = 0.0200.\nIf the process is working properly, then the probability that a sample of 30 batteries would have at most 16.7 lifetime hours is only 2%. Therefore, the class was justified to question the claim.\n[/LIST]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1977,14 +1946,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "Men have an average weight of 172 pounds with a standard deviation of 29 pounds.\n\na. Find the probability that 20 randomly selected men will have a sum weight greater than 3600 lbs.\nb. If 20 men have a sum weight greater than 3500 lbs, then their total weight exceeds the safety limits for water taxis. Based on (a), is this a safety concern? Explain.",
+  "stem": "Men have an average weight of 172 pounds with a standard deviation of 29 pounds.\n\n[PARTS]\na. Find the probability that 20 randomly selected men will have a sum weight greater than 3600 lbs.\nb. If 20 men have a sum weight greater than 3500 lbs, then their total weight exceeds the safety limits for water taxis. Based on (a), is this a safety concern? Explain.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "fs-idm165833488"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
-  "modelSolution": "a. To calculate the probability, we use normalcdf(3600, E99, 3440, 129.69) = 0.1087\nb. While the probability is not exceptionally large, P(X̄ > 3600) = 0.1087, it could be wise to be concerned. After all, we do have a 1 in 10 chance that a random sample of men could have an averages sum weight that exceeds the safety limit.",
+  "modelSolution": "[PARTS]\na. To calculate the probability, we use normalcdf(3600,E99, 3440, 129.69) = 0.1087\nb. While the probability is not exceptionally large, P(X̄ > 3600) = 0.1087, it could be wise to be concerned. After all, we do have a 1 in 10 chance that a random sample of men could have an averages sum weight that exceeds the safety limit.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1993,14 +1961,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "M&M candies large candy bags have a claimed net weight of 396.9 g. The standard deviation for the weight of the individual candies is 0.017 g. The following table is from a stats experiment conducted by a statistics class.\n\n[TABLE]\nRed | Orange | Yellow | Brown | Blue | Green\n0.751 | 0.735 | 0.883 | 0.696 | 0.881 | 0.925\n0.841 | 0.895 | 0.769 | 0.876 | 0.863 | 0.914\n0.856 | 0.865 | 0.859 | 0.855 | 0.775 | 0.881\n0.799 | 0.864 | 0.784 | 0.806 | 0.854 | 0.865\n0.966 | 0.852 | 0.824 | 0.840 | 0.810 | 0.865\n0.859 | 0.866 | 0.858 | 0.868 | 0.858 | 1.015\n0.857 | 0.859 | 0.848 | 0.859 | 0.818 | 0.876\n0.942 | 0.838 | 0.851 | 0.982 | 0.868 | 0.809\n0.873 | 0.863 | | | 0.803 | 0.865\n0.809 | 0.888 | | | 0.932 | 0.848\n0.890 | 0.925 | | | 0.842 | 0.940\n0.878 | 0.793 | | | 0.832 | 0.833\n0.905 | 0.977 | | | 0.807 | 0.845\n| 0.850 | | | 0.841 | 0.852\n| 0.830 | | | 0.932 | 0.778\n| 0.856 | | | 0.833 | 0.814\n| 0.842 | | | 0.881 | 0.791\n| 0.778 | | | 0.818 | 0.810\n| 0.786 | | | 0.864 | 0.881\n| 0.853 | | | 0.825 |\n| 0.864 | | | 0.855 |\n| 0.873 | | | 0.942 |\n| 0.880 | | | 0.825 |\n| 0.882 | | | 0.869 |\n| 0.931 | | | 0.912 |\n| | | | 0.887 |\n[/TABLE]\n\nThe bag contained 465 candies and he listed weights in the table came from randomly selected candies. Count the weights.\n\na. Find the mean sample weight and the standard deviation of the sample weights of candies in the table.\nb. Find the sum of the sample weights in the table and the standard deviation of the sum of the weights.\nc. If 465 M&Ms are randomly selected, find the probability that their weights sum to at least 396.9.\nd. Is the Mars Company’s M&M labeling accurate?",
+  "stem": "M&M candies large candy bags have a claimed net weight of 396.9 g. The standard deviation for the weight of the individual candies is 0.017 g. The following table is from a stats experiment conducted by a statistics class.\n\n[TABLE]\nRed | Orange | Yellow | Brown | Blue | Green\n0.751 | 0.735 | 0.883 | 0.696 | 0.881 | 0.925\n0.841 | 0.895 | 0.769 | 0.876 | 0.863 | 0.914\n0.856 | 0.865 | 0.859 | 0.855 | 0.775 | 0.881\n0.799 | 0.864 | 0.784 | 0.806 | 0.854 | 0.865\n0.966 | 0.852 | 0.824 | 0.840 | 0.810 | 0.865\n0.859 | 0.866 | 0.858 | 0.868 | 0.858 | 1.015\n0.857 | 0.859 | 0.848 | 0.859 | 0.818 | 0.876\n0.942 | 0.838 | 0.851 | 0.982 | 0.868 | 0.809\n0.873 | 0.863 | | | 0.803 | 0.865\n0.809 | 0.888 | | | 0.932 | 0.848\n0.890 | 0.925 | | | 0.842 | 0.940\n0.878 | 0.793 | | | 0.832 | 0.833\n0.905 | 0.977 | | | 0.807 | 0.845\n| 0.850 | | | 0.841 | 0.852\n| 0.830 | | | 0.932 | 0.778\n| 0.856 | | | 0.833 | 0.814\n| 0.842 | | | 0.881 | 0.791\n| 0.778 | | | 0.818 | 0.810\n| 0.786 | | | 0.864 | 0.881\n| 0.853 | | | 0.825 |\n| 0.864 | | | 0.855 |\n| 0.873 | | | 0.942 |\n| 0.880 | | | 0.825 |\n| 0.882 | | | 0.869 |\n| 0.931 | | | 0.912 |\n| | | | 0.887 |\n[/TABLE]\n\nThe bag contained 465 candies and he listed weights in the table came from randomly selected candies. Count the weights.\n\n[PARTS]\na. Find the mean sample weight and the standard deviation of the sample weights of candies in the table.\nb. Find the sum of the sample weights in the table and the standard deviation of the sum of the weights.\nc. If 465 M&Ms are randomly selected, find the probability that their weights sum to at least 396.9.\nd. Is the Mars Company’s M&M labeling accurate?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "fs-idp87424832"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
-  "modelSolution": "a. For the sample, we have n = 100, x̄ = 0.862, s = 0.05\nb. Σx̄ = 85.65, Σs = 5.18\nc. normalcdf(396.9,E99,(465)(0.8565),(0.05)(√(465))) ≈ 1\nd. Since the probability of a sample of size 465 having at least a mean sum of 396.9 is appproximately 1, we can conclude that Mars is correctly labeling their M&M packages.",
+  "modelSolution": "[PARTS]\na. For the sample, we have n = 100,x̄ = 0.862,s = 0.05\nb. Σx̄ = 85.65,Σs = 5.18\nc. normalcdf(396.9,E99,(465)(0.8565),(0.05)(√(465))) ≈ 1\nd. Since the probability of a sample of size 465 having at least a mean sum of 396.9 is appproximately 1, we can conclude that Mars is correctly labeling their M&M packages.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2009,14 +1976,13 @@
   "sectionId": "7.3",
   "kind": "open",
   "conceptTag": "7.3",
-  "stem": "The Screw Right Company claims their 3/4 inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.\n\n[TABLE]\n0.757 | 0.723 | 0.754 | 0.737 | 0.757 | 0.741 | 0.722 | 0.741 | 0.743 | 0.742\n0.740 | 0.758 | 0.724 | 0.739 | 0.736 | 0.735 | 0.760 | 0.750 | 0.759 | 0.754\n0.744 | 0.758 | 0.765 | 0.756 | 0.738 | 0.742 | 0.758 | 0.757 | 0.724 | 0.757\n0.744 | 0.738 | 0.763 | 0.756 | 0.760 | 0.768 | 0.761 | 0.742 | 0.734 | 0.754\n0.758 | 0.735 | 0.740 | 0.743 | 0.737 | 0.737 | 0.725 | 0.761 | 0.758 | 0.756\n[/TABLE]\n\nThe screws were randomly selected from the local home repair store.\n\na. Find the mean diameter and standard deviation for the sample\nb. Find the probability that 50 randomly selected screws will be within the stated tolerance levels. Is the company’s diameter claim plausible?",
+  "stem": "The Screw Right Company claims their 3/4 inch screws are within ±0.23 of the claimed mean diameter of 0.750 inches with a standard deviation of 0.115 inches. The following data were recorded.\n\n[TABLE]\n0.757 | 0.723 | 0.754 | 0.737 | 0.757 | 0.741 | 0.722 | 0.741 | 0.743 | 0.742\n0.740 | 0.758 | 0.724 | 0.739 | 0.736 | 0.735 | 0.760 | 0.750 | 0.759 | 0.754\n0.744 | 0.758 | 0.765 | 0.756 | 0.738 | 0.742 | 0.758 | 0.757 | 0.724 | 0.757\n0.744 | 0.738 | 0.763 | 0.756 | 0.760 | 0.768 | 0.761 | 0.742 | 0.734 | 0.754\n0.758 | 0.735 | 0.740 | 0.743 | 0.737 | 0.737 | 0.725 | 0.761 | 0.758 | 0.756\n[/TABLE]\n\nThe screws were randomly selected from the local home repair store.\n\n[PARTS]\na. Find the mean diameter and standard deviation for the sample\nb. Find the probability that 50 randomly selected screws will be within the stated tolerance levels. Is the company’s diameter claim plausible?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46992",
    "exerciseId": "fs-idp89909664"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
-  "modelSolution": "a. x̄ = 0.75 and s 0.01\nb. We have normalcdf(0.52,0.98,0.75,0.115/(√(50))) ≈ 1 and we can conclude that the company's diameter claim is justified.",
+  "modelSolution": "[PARTS]\na. x̄ = 0.75 ands 0.01\nb. We have normalcdf(0.52,0.98,0.75,0.115/(√(50))) ≈ 1 and we can conclude that the company's diameter claim is justified.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2031,7 +1997,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm3642992"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
   "modelSolution": "Use normalcdf(E–99,1.1,1,1/(√(70))) = 0.7986. This means that there is an 80% chance that the service time will be less than 1.1 hours. It could be wise to schedule more time since there is an associated 20% chance that the maintenance time will be greater than 1.1 hours.",
   "needsFigure": false,
   "explanation": []
@@ -2047,7 +2012,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm37303792"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
   "modelSolution": "The probability that the sample score is between 85 and 125 points is given by normalcdf(85,125,105,20/(√(20))) = 0.9999. Therefore, it is almost a guarantee that a well selected sample of 20 adults will have an average score between 85 and 125.",
   "needsFigure": false,
   "explanation": []
@@ -2063,7 +2027,6 @@
    "module": "m46992",
    "exerciseId": "fs-idm31585616"
   },
-  "context": "Use the following to answer the next two exercises: The cost of unleaded gasoline in the Bay Area once followed an unknown distribution with a mean of $4.59 and a standard deviation of $0.10. Sixteen gas stations from the Bay Area are randomly chosen. We are interested in the average cost of gasoline for the 16 gas stations.\nFor each problem, wherever possible, provide graphs and use the calculator.",
   "modelSolution": "We assume that the weights of coins are normally distributed in the population. Since we have normalcdf(5.111,5.291,5.201,0.065/(√(280))) ≈ 0.8338, we expect (1 – 0.8338)280 ≈ 47 coins to be rejected.",
   "needsFigure": false,
   "explanation": []
@@ -2436,7 +2399,6 @@
    "test": "Practice Test 2",
    "n": 90
   },
-  "context": "Use this information for the next three questions. A manufacturer makes screws with a mean diameter of 0.15 cm (centimeters) and a range of 0.10 cm to 0.20 cm; within that range, the distribution is uniform.",
   "modelSolution": "X ~ N(0.10, 0.20)",
   "needsFigure": false,
   "explanation": []
@@ -2452,7 +2414,6 @@
    "test": "Practice Test 2",
    "n": 91
   },
-  "context": "Use this information for the next three questions. A manufacturer makes screws with a mean diameter of 0.15 cm (centimeters) and a range of 0.10 cm to 0.20 cm; within that range, the distribution is uniform.",
   "modelSolution": "X̄∼N(μ_x,σ_x/(√(n))) and the standard deviation of a uniform distribution is b−a/(√(12)). In this example, the standard deviation of the distribution is b−a/(√(12))=0.10/(√(12))=0.03\n\nso X̄∼N(0.15,0.003)",
   "needsFigure": false,
   "explanation": []
@@ -2468,7 +2429,6 @@
    "test": "Practice Test 2",
    "n": 92
   },
-  "context": "Use this information for the next three questions. A manufacturer makes screws with a mean diameter of 0.15 cm (centimeters) and a range of 0.10 cm to 0.20 cm; within that range, the distribution is uniform.",
   "modelSolution": "ΣX∼N((n)(μ_x),(√(n))(σ_x)) so ΣX∼N(9.0,0.23)",
   "needsFigure": false,
   "explanation": []
@@ -2484,8 +2444,8 @@
    "test": "Chapter 9",
    "n": 76
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.",
-  "modelSolution": "a. 2.8\nb. 1.48\nc. 90%",
+  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "modelSolution": "[DATA]2.8, 1.48, 90%[/DATA]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2561,22 +2521,6 @@
   "explanation": []
  },
  {
-  "id": "rv11-111",
-  "sectionId": "7.1",
-  "kind": "open",
-  "conceptTag": "7.1",
-  "stem": "On average, a busy emergency room gets a patient with a shotgun wound about once per week. We are interested in the number of patients with a shotgun wound the emergency room gets per 28 days.\na. Define the random variable X.\nb. State the distribution for X.\nc. Find the probability that the emergency room gets no patients with shotgun wounds in the next 28 days.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 11",
-   "n": 111
-  },
-  "context": "Use the following information to answer the next five exercises: We are interested in the checking account balance of twenty-year-old college students. We randomly survey 16 twenty-year-old college students. We obtain a sample mean of $640 and a sample standard deviation of $150. Let X = checking account balance of an individual twenty year old college student.",
-  "modelSolution": "a. X = the number of patients with a shotgun wound the emergency room gets per 28 days\nb. P(4)\nc. 0.0183",
-  "needsFigure": false,
-  "explanation": []
- },
- {
   "id": "rv13-137",
   "sectionId": "7.1",
   "kind": "numeric",
@@ -2587,7 +2531,6 @@
    "test": "Chapter 13",
    "n": 137
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
   "answer": 0.3669,
   "tolerance": {
    "abs": 0.005,

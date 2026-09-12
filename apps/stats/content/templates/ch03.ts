@@ -98,4 +98,70 @@ export const CH03_TEMPLATES: Template[] = [
       };
     },
   },
+  {
+    id: 'tree-two-stage',
+    sectionId: '3.5',
+    conceptTag: '3.5',
+    kind: 'numeric',
+    generate(rng) {
+      const p1 = rng.pick([0.2, 0.3, 0.4, 0.5, 0.6, 0.7]);
+      const hitA = rng.pick([0.1, 0.2, 0.3, 0.4, 0.5]);
+      const hitB = rng.pick([0.5, 0.6, 0.7, 0.8, 0.9]);
+      const ask = rng.pick(['branch', 'total'] as const);
+      const branch = round(p1 * hitA, 4);
+      const total = round(p1 * hitA + (1 - p1) * hitB, 4);
+      return {
+        sectionId: '3.5',
+        conceptTag: '3.5',
+        kind: 'numeric',
+        context: `A factory has two machines. Machine A makes ${round(p1 * 100, 0)}% of the parts and Machine B makes the rest. ${round(hitA * 100, 0)}% of Machine A's parts pass inspection, and ${round(hitB * 100, 0)}% of Machine B's parts pass inspection.`,
+        stem:
+          ask === 'branch'
+            ? "Find the probability that a randomly chosen part came from Machine A AND passed inspection. Round to four decimals."
+            : 'Find the probability that a randomly chosen part passed inspection. Round to four decimals.',
+        answer: ask === 'branch' ? branch : total,
+        tolerance: { abs: 0.0006 },
+        explanation:
+          ask === 'branch'
+            ? ['Multiply along the branch of the tree: P(A AND pass) = P(A)·P(pass | A)', `= ${p1} × ${hitA} = ${branch}`]
+            : [
+                'Add the two branches that end in "pass": P(pass) = P(A)·P(pass|A) + P(B)·P(pass|B)',
+                `= ${p1} × ${hitA} + ${round(1 - p1, 2)} × ${hitB} = ${total}`,
+              ],
+      };
+    },
+  },
+  {
+    id: 'venn-or-count',
+    sectionId: '3.5',
+    conceptTag: '3.5',
+    kind: 'numeric',
+    generate(rng) {
+      const total = rng.pick([50, 60, 80, 100, 120]);
+      const both = rng.int(5, 15);
+      const onlyA = rng.int(10, 25);
+      const onlyB = rng.int(10, 25);
+      const neither = total - both - onlyA - onlyB;
+      const ask = rng.pick(['or', 'neither', 'onlyA'] as const);
+      const ans = { or: round((onlyA + onlyB + both) / total, 4), neither: round(neither / total, 4), onlyA: round(onlyA / total, 4) }[ask];
+      const label = { or: 'plays a sport OR an instrument', neither: 'plays neither', onlyA: 'plays a sport but not an instrument' }[ask];
+      return {
+        sectionId: '3.5',
+        conceptTag: '3.5',
+        kind: 'numeric',
+        context: `Of ${total} students, ${onlyA} play a sport only, ${onlyB} play an instrument only, and ${both} do both.`,
+        stem: `A Venn diagram has one circle for "plays a sport" and one for "plays an instrument". Find the probability that a randomly chosen student ${label}. Round to four decimals.`,
+        answer: ans,
+        tolerance: { abs: 0.0006 },
+        explanation: [
+          `The overlap holds ${both}; the sport circle holds ${onlyA} + ${both} = ${onlyA + both}; the instrument circle holds ${onlyB} + ${both} = ${onlyB + both}; outside both: ${total} − ${onlyA + onlyB + both} = ${neither}.`,
+          ask === 'or'
+            ? `P(sport OR instrument) = (${onlyA} + ${onlyB} + ${both}) / ${total} = ${ans}`
+            : ask === 'neither'
+              ? `P(neither) = ${neither} / ${total} = ${ans}`
+              : `P(sport only) = ${onlyA} / ${total} = ${ans}`,
+        ],
+      };
+    },
+  },
 ];

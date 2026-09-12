@@ -4,7 +4,7 @@
   "sectionId": "3.1",
   "kind": "open",
   "conceptTag": "3.1",
-  "stem": "The sample space S is all the ordered pairs of two whole numbers, the first from one to three and the second from one to four (Example: (1, 4)).\n\na. S = _____________________________\n\nLet event A = the sum is even and event B = the first number is prime.\nb. A = _____________________, B = _____________________\nc. P(A) = _____________, P(B) = ________________\nd. A AND B = ____________________, A OR B = ________________\ne. P(A AND B) = _________, P(A OR B) = _____________\nf. B′ = _____________, P(B′) = _____________\ng. P(A) + P(A′) = ____________\nh. P(A|B) = ___________, P(B|A) = _____________; are the probabilities equal?",
+  "stem": "The sample space S is all the ordered pairs of two whole numbers, the first from one to three and the second from one to four (Example: (1, 4)).\n\n[PARTS]\na. S = _____________________________Let eventA = the sum is even and eventB = the first number is prime.\nb. A = _____________________,B = _____________________\nc. P(A) = _____________,P(B) = ________________\nd. A ANDB = ____________________,A ORB = ________________\ne. P(A ANDB) = _________,P(A ORB) = _____________\nf. B′ = _____________,P(B′) = _____________\ng. P(A) +P(A′) = ____________\nh. P(A|B) = ___________,P(B|A) = _____________; are the probabilities equal?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46942",
@@ -20,14 +20,14 @@
   "sectionId": "3.1",
   "kind": "open",
   "conceptTag": "3.1",
-  "stem": "A number is randomly selected between 1 to 10. Describe the sample space S, identify each of the following events with a subset of S, and compute its probability (an outcome is the number selected).\n\na. Event F = the outcome is 5.\nb. Event A = the number is more than 6.\nc. Event B = the number is odd.\nd. The complement of B.\ne. A GIVEN B.\nf. B GIVEN A.\ng. A OR B.\nh. A’ OR B.\ni. Event P = the outcome is a composite number.\nj. Event M = the number is a multiple of 3.",
+  "stem": "A number is randomly selected between 1 to 10. Describe the sample space S, identify each of the following events with a subset of S, and compute its probability (an outcome is the number selected).\n\n[PARTS]\na. Event F = the outcome is 5.\nb. Event A = the number is more than 6.\nc. Event B = the number is odd.\nd. The complement of B.\ne. A GIVENB.\nf. B GIVENA.\ng. A ORB.\nh. A’ ORB.\ni. Event P = the outcome is a composite number.\nj. Event M = the number is a multiple of 3.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46942",
    "exerciseId": "exer-00001",
    "ref": "Try It 3.2"
   },
-  "modelSolution": "a. F=5,P(F)=1/10\nb. A=(7,8,9),P(A)=3/10\nc. B=(1,3,5,7,9),P(B)=5/10\nd. B'=(2,4,6,8,10),P(B')=5/10\ne. A|B=(7,9),P(A|B)=2/5\nf. B|A=(7,9),P(B|A)=1/2\ng. AORB=(1,3,5,7,8,9,10),P(AORB)=7/10\nh. A'ORB=(1,2,3,4,5,6,7,9),P(A'ORB)=4/5\ni. P=(4,6,8,9,10),P(P)=1/2\nj. M=(3,6,9),P(M)=3/10",
+  "modelSolution": "[PARTS]\na. F=5,P(F)=1/10\nb. A=(7,8,9),P(A)=3/10\nc. B=(1,3,5,7,9),P(B)=5/10\nd. B'=(2,4,6,8,10),P(B')=5/10\ne. A|B=(7,9),P(A|B)=2/5\nf. B|A=(7,9),P(B|A)=1/2\ng. AORB=(1,3,5,7,8,9,10),P(AORB)=7/10\nh. A'ORB=(1,2,3,4,5,6,7,9),P(A'ORB)=4/5\ni. P=(4,6,8,9,10),P(P)=1/2\nj. M=(3,6,9),P(M)=3/10\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -36,14 +36,14 @@
   "sectionId": "3.1",
   "kind": "open",
   "conceptTag": "3.1",
-  "stem": "The table describes the distribution of a random sample S of 100 individuals, organized by gender and whether they like tea or coffee.\n\n[TABLE]\n| Tea | Coffee\nMen | 22 | 26\nWomen | 16 | 36\n[/TABLE]\n\nLet's denote the events M = the subject is a man, W = the subject is a woman, T = the subject likes tea, and C = the subject likes coffee. Compute the following probabilities:\n\na. P(M)\nb. P(W)\nc. P(T)\nd. P(C)\ne. P(M AND T)\nf. P(W and C)\ng. P(M OR W)\nh. P(M OR T)\ni. P(W OR C)\nj. P(M')\nk. P(T|M)\nl. P(W|C)\nm. P(C|W)",
+  "stem": "The table describes the distribution of a random sample S of 100 individuals, organized by gender and whether they like tea or coffee.\n\n[TABLE]\n| Tea | Coffee\nMen | 22 | 26\nWomen | 16 | 36\n[/TABLE]\n\nLet's denote the events M = the subject is a man, W = the subject is a woman, T = the subject likes tea, and C = the subject likes coffee. Compute the following probabilities:\n\n[PARTS]\na. P(M)\nb. P(W)\nc. P(T)\nd. P(C)\ne. P(M ANDT)\nf. P(W andC)\ng. P(M ORW)\nh. P(M ORT)\ni. P(W ORC)\nj. P(M')\nk. P(T|M)\nl. P(W|C)\nm. P(C|W)\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46942",
    "exerciseId": "exer-00002",
    "ref": "Try It 3.3"
   },
-  "modelSolution": "a. P(M) = 0.48\nb. P(W) = 0.52\nc. P(T) = 0.38\nd. P(C) = 0.62\ne. P(M AND T) = 0.22\nf. P(W and C) = 0.36\ng. P(M OR W) = 1\nh. P(M OR T) = 0.64\ni. P(W OR C) = 0.78\nj. P(M') = 0.52\nk. P(T|M) = 0.4583 (rounded to four decimal places)\nl. P(W|C) = 0.5806 (rounded to four decimal places)\nm. P(C|W) = 0.6923 (rounded to four decimal places)",
+  "modelSolution": "[PARTS]\na. P(M) = 0.48\nb. P(W) = 0.52\nc. P(T) = 0.38\nd. P(C) = 0.62\ne. P(M AND T) = 0.22\nf. P(W and C) = 0.36\ng. P(M OR W) = 1\nh. P(M OR T) = 0.64\ni. P(W OR C) = 0.78\nj. P(M') = 0.52\nk. P(T|M) = 0.4583 (rounded to four decimal places)\nl. P(W|C) = 0.5806 (rounded to four decimal places)\nm. P(C|W) = 0.6923 (rounded to four decimal places)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -52,13 +52,13 @@
   "sectionId": "3.1",
   "kind": "open",
   "conceptTag": "3.1",
-  "stem": "In a particular college class, there are men and women students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts a through j. (Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.)\n\n• Let W be the event that a student is a woman.\n• Let M be the event that a student is a man.\n• Let S be the event that a student has short hair.\n• Let L be the event that a student has long hair.\n\na. The probability that a student does not have long hair.\nb. The probability that a student is a man or has short hair.\nc. The probability that a student is a woman and has long hair.\nd. The probability that a student is a man, given that the student has long hair.\ne. The probability that a student has long hair, given that the student is a man.\nf. Of all the women students, the probability that a student has short hair.\ng. Of all students with long hair, the probability that a student is a woman.\nh. The probability that a student is a woman or has long hair.\ni. The probability that a randomly selected student is a man student with short hair.\nj. The probability that a student is a woman.",
+  "stem": "In a particular college class, there are men and women students. Some students have long hair and some students have short hair. Write the symbols for the probabilities of the events for parts a through j. (Note that you cannot find numerical answers here. You were not given enough information to find any probability values yet; concentrate on understanding the symbols.)\n\n[LIST]\nLet W be the event that a student is a woman.\nLet M be the event that a student is a man.\nLet S be the event that a student has short hair.\nLet L be the event that a student has long hair.\n[/LIST]\n\n[PARTS]\na. The probability that a student does not have long hair.\nb. The probability that a student is a man or has short hair.\nc. The probability that a student is a woman and has long hair.\nd. The probability that a student is a man, given that the student has long hair.\ne. The probability that a student has long hair, given that the student is a man.\nf. Of all the women students, the probability that a student has short hair.\ng. Of all students with long hair, the probability that a student is a woman.\nh. The probability that a student is a woman or has long hair.\ni. The probability that a randomly selected student is a man student with short hair.\nj. The probability that a student is a woman.\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46942",
    "exerciseId": "eip-396"
   },
-  "modelSolution": "a. P(L′) = P(S)\nb. P(M OR S)\nc. P(W AND L)\nd. P(M|L)\ne. P(L|M)\nf. P(S|W)\ng. P(W|L)\nh. P(W OR L)\ni. P(M AND S)\nj. P(W)",
+  "modelSolution": "[PARTS]\na. P(L′) =P(S)\nb. P(M ORS)\nc. P(W ANDL)\nd. P(M|L)\ne. P(L|M)\nf. P(S|W)\ng. P(W|L)\nh. P(W ORL)\ni. P(M ANDS)\nj. P(W)\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -201,7 +201,6 @@
    "module": "m46942",
    "exerciseId": "fs-idm28330400"
   },
-  "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
   "modelSolution": "13/52 = 1/4 = 0.25",
   "needsFigure": false,
   "explanation": []
@@ -217,7 +216,6 @@
    "module": "m46942",
    "exerciseId": "fs-idm61066160"
   },
-  "context": "Use the following information to answer the next six exercises. There are 23 countries in North America, 12 countries in South America, 47 countries in Europe, 44 countries in Asia, 54 countries in Africa, and 14 in Oceania (Pacific Ocean region).\n\nLet A = the event that a country is in Asia.\n\nLet E = the event that a country is in Europe.\n\nLet F = the event that a country is in Africa.\n\nLet N = the event that a country is in North America.\n\nLet O = the event that a country is in Oceania.\n\nLet S = the event that a country is in South America.",
   "modelSolution": "3/6 = 1/2 = 0.5",
   "needsFigure": false,
   "explanation": []
@@ -329,7 +327,6 @@
    "module": "m46942",
    "exerciseId": "eip-289"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "modelSolution": "The likelihood that an event will occur given that another event has already occurred.",
   "needsFigure": false,
   "explanation": []
@@ -345,7 +342,6 @@
    "module": "m46942",
    "exerciseId": "eip-848"
   },
-  "context": "Use the following information to answer the next ten exercises. On a baseball team, there are infielders and outfielders. Some players are great hitters, and some players are not great hitters.\n\nLet I = the event that a player in an infielder.\n\nLet O = the event that a player is an outfielder.\n\nLet H = the event that a player is a great hitter.\n\nLet N = the event that a player is not a great hitter.",
   "answer": 1.0,
   "tolerance": {
    "abs": 0.05,
@@ -378,13 +374,13 @@
   "sectionId": "3.1",
   "kind": "open",
   "conceptTag": "3.1",
-  "stem": "Explain what is wrong with the following statements. Use complete sentences.\n\na. If there is a 60% chance of rain on Saturday and a 70% chance of rain on Sunday, then there is a 130% chance of rain over the weekend.\nb. The probability that a baseball player hits a home run is greater than the probability that he gets a successful hit.",
+  "stem": "Explain what is wrong with the following statements. Use complete sentences.\n\n[PARTS]\na. If there is a 60% chance of rain on Saturday and a 70% chance of rain on Sunday, then there is a 130% chance of rain over the weekend.\nb. The probability that a baseball player hits a home run is greater than the probability that he gets a successful hit.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46942",
    "exerciseId": "element-858"
   },
-  "modelSolution": "a. You can't calculate the joint probability knowing the probability of both events occurring, which is not in the information given; the probabilities should be multiplied, not added; and probability is never greater than 100%\nb. A home run by definition is a successful hit, so he has to have at least as many successful hits as home runs.",
+  "modelSolution": "[PARTS]\na. You can't calculate the joint probability knowing the probability of both events occurring, which is not in the information given; the probabilities should be multiplied, not added; and probability is never greater than 100%\nb. A home run by definition is a successful hit, so he has to have at least as many successful hits as home runs.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -425,7 +421,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Find the probability of the following events:\n\na. Let F = the event of getting the white ball twice.\nb. Let G = the event of getting two balls of different colors.\nc. Let H = the event of getting white on the first pick.\nd. Are F and G mutually exclusive?\ne. Are G and H mutually exclusive?",
+  "stem": "A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Find the probability of the following events:\n\n[PARTS]\na. Let F = the event of getting the white ball twice.\nb. Let G = the event of getting two balls of different colors.\nc. Let H = the event of getting white on the first pick.\nd. Are F andG mutually exclusive?\ne. Are G andH mutually exclusive?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -441,7 +437,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "Let event A = learning Spanish. Let event B = learning German. Then A AND B = learning Spanish and German. Suppose P(A) = 0.4 and P(B) = 0.2. P(A AND B) = 0.08. Are events A and B independent? Hint: You must show ONE of the following:\n\n• P(A|B) = P(A)\n• P(B|A) = P(B)\n• P(A AND B) = P(A)P(B)",
+  "stem": "Let event A = learning Spanish. Let event B = learning German. Then A AND B = learning Spanish and German. Suppose P(A) = 0.4 and P(B) = 0.2. P(A AND B) = 0.08. Are events A and B independent? Hint: You must show ONE of the following:\n\n[LIST]\nP(A|B) =P(A)\nP(B|A) =P(B)\nP(A ANDB) =P(A)P(B)\n[/LIST]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -457,7 +453,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "In a bag, there are six red marbles and four green marbles. The red marbles are marked with the numbers 1, 2, 3, 4, 5, and 6. The green marbles are marked with the numbers 1, 2, 3, and 4.\n\n• R = a red marble\n• G = a green marble\n• O = an odd-numbered marble\n• The sample space is S = {R1, R2, R3, R4, R5, R6, G1, G2, G3, G4}.\n\nS has ten outcomes. What is P(G AND O)?",
+  "stem": "In a bag, there are six red marbles and four green marbles. The red marbles are marked with the numbers 1, 2, 3, 4, 5, and 6. The green marbles are marked with the numbers 1, 2, 3, and 4.\n\n[LIST]\nR = a red marble\nG = a green marble\nO = an odd-numbered marble\nThe sample space is S = {R1,R2,R3,R4,R5,R6,G1,G2,G3,G4}.\n[/LIST]\n\nS has ten outcomes. What is P(G AND O)?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -473,7 +469,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(B AND D) = 0.20.\n\na. Find P(B|D).\nb. Find P(D|B).\nc. Are B and D independent?\nd. Are B and D mutually exclusive?",
+  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(B AND D) = 0.20.\n\n[PARTS]\na. Find P(B|D).\nb. Find P(D|B).\nc. Are B andD independent?\nd. Are B andD mutually exclusive?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -489,7 +485,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "In a basketball arena,\n\n• 70% of the fans are rooting for the home team.\n• 25% of the fans are wearing blue.\n• 20% of the fans are wearing blue and are rooting for the away team.\n• Of the fans rooting for the away team, 67% are wearing blue.\n\nLet A be the event that a fan is rooting for the away team.\n\nLet B be the event that a fan is wearing blue.\n\nAre the events of rooting for the away team and wearing blue independent? Are they mutually exclusive?",
+  "stem": "In a basketball arena,\n\n[LIST]\n70% of the fans are rooting for the home team.\n25% of the fans are wearing blue.\n20% of the fans are wearing blue and are rooting for the away team.\nOf the fans rooting for the away team, 67% are wearing blue.\n[/LIST]\n\nLet A be the event that a fan is rooting for the away team.\n\nLet B be the event that a fan is wearing blue.\n\nAre the events of rooting for the away team and wearing blue independent? Are they mutually exclusive?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -505,7 +501,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "Mark is deciding which route to take to work. His choices are I = the Interstate and F = Fifth Street.\n\n• P(I) = 0.44 and P(F) = 0.56\n• P(I AND F) = 0 because Mark will take only one route to work.\n\nWhat is the probability of P(I OR F)?",
+  "stem": "Mark is deciding which route to take to work. His choices are I = the Interstate and F = Fifth Street.\n\n[LIST]\nP(I) = 0.44 andP(F) = 0.56\nP(I ANDF) = 0 because Mark will take only one route to work.\n[/LIST]\n\nWhat is the probability of P(I OR F)?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -521,7 +517,7 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Let T be the event of getting the white ball twice, F the event of picking the white ball first, S the event of picking the white ball in the second drawing.\n\na. Compute P(T).\nb. Compute P(T|F).\nc. Are T and F independent?.\nd. Are F and S mutually exclusive?\ne. Are F and S independent?",
+  "stem": "A box has two balls, one white and one red. We select one ball, put it back in the box, and select a second ball (sampling with replacement). Let T be the event of getting the white ball twice, F the event of picking the white ball first, S the event of picking the white ball in the second drawing.\n\n[PARTS]\na. Compute P(T).\nb. Compute P(T|F).\nc. Are T andF independent?.\nd. Are F andS mutually exclusive?\ne. Are F andS independent?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46948",
@@ -567,13 +563,13 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "The probability that a person develops cancer is 0.4567. The probability that a person has at least one false positive test result (meaning the test comes back for cancer when the person does not have it) is 0.51. Some of the following questions do not have enough information for you to answer them. Write “not enough information” for those answers. Let C = a person develops cancer and P = a person has at least one false positive.\n\na. P(C) = ______\nb. P(P|C) = ______\nc. P(P|C') = ______\nd. If a test comes up positive, based upon numerical values, can you assume that a male has cancer? Justify numerically and explain why or why not.",
+  "stem": "The probability that a person develops cancer is 0.4567. The probability that a person has at least one false positive test result (meaning the test comes back for cancer when the person does not have it) is 0.51. Some of the following questions do not have enough information for you to answer them. Write “not enough information” for those answers. Let C = a person develops cancer and P = a person has at least one false positive.\n\n[PARTS]\na. P(C) = ______\nb. P(P|C) = ______\nc. P(P|C') = ______\nd. If a test comes up positive, based upon numerical values, can you assume that a male has cancer? Justify numerically and explain why or why not.\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46948",
    "exerciseId": "element-750"
   },
-  "modelSolution": "a. P(C) = 0.4567\nb. not enough information\nc. not enough information\nd. No, because over half (0.51) of men have at least one false positive text",
+  "modelSolution": "[PARTS]\na. P(C) = 0.4567\nb. not enough information\nc. not enough information\nd. No, because over half (0.51) of men have at least one false positive text\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -582,13 +578,13 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "Given events J and K: P(J) = 0.18; P(K) = 0.37; P(J OR K) = 0.45\n\na. Find P(J AND K).\nb. Find the probability of the complement of event (J AND K).\nc. Find the probability of the complement of event (J OR K).",
+  "stem": "Given events J and K: P(J) = 0.18; P(K) = 0.37; P(J OR K) = 0.45\n\n[PARTS]\na. Find P(J ANDK).\nb. Find the probability of the complement of event (J ANDK).\nc. Find the probability of the complement of event (J ORK).\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46948",
    "exerciseId": "eip-278"
   },
-  "modelSolution": "a. P(J OR K) = P(J) + P(K) − P(J AND K); 0.45 = 0.18 + 0.37 - P(J AND K); solve to find P(J AND K) = 0.10\nb. P(NOT (J AND K)) = 1 - P(J AND K) = 1 - 0.10 = 0.90\nc. P(NOT (J OR K)) = 1 - P(J OR K) = 1 - 0.45 = 0.55",
+  "modelSolution": "[PARTS]\na. P(J ORK) =P(J) +P(K) −P(J ANDK); 0.45 = 0.18 + 0.37 -P(J ANDK); solve to findP(J ANDK) = 0.10\nb. P(NOT (J ANDK)) = 1 -P(J ANDK) = 1 - 0.10 = 0.90\nc. P(NOT (J ORK)) = 1 -P(J ORK) = 1 - 0.45 = 0.55\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -597,14 +593,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Anna has to buy a new car. She has two choices, car A and car B. Anna can afford only one car. The probability that Anna will buy car A is P(A) = 0.25, and the probability that Anna will buy car B is P(B) = 0.65. Find:\n\n• P(A AND B)\n• P(A OR B)",
+  "stem": "Anna has to buy a new car. She has two choices, car A and car B. Anna can afford only one car. The probability that Anna will buy car A is P(A) = 0.25, and the probability that Anna will buy car B is P(B) = 0.65. Find:\n\n[LIST]\nP(A AND B)\nP(A OR B)\n[/LIST]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "exer-00001",
    "ref": "Try It 3.14"
   },
-  "modelSolution": "• P(A AND B) = 0 because it is given that Anna can afford only one car.\n• Since P(A AND B) = 0, then P(A OR B) = P(A) + P(B) = 0.25 + 0.65 = 0.9. Note that the probability that Anna does not a car must be 0.1.",
+  "modelSolution": "[LIST]\nP(A AND B) = 0 because it is given that Anna can afford only one car.\nSince P(A AND B) = 0, thenP(A OR B) = P(A) + P(B) = 0.25 + 0.65 = 0.9. Note that the probability that Anna does not a car must be 0.1.\n[/LIST]",
   "needsFigure": false,
   "explanation": []
  },
@@ -645,7 +641,7 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(D|B) = 0.5.\n\na. Find P(B AND D).\nb. Find P(B OR D).",
+  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(D|B) = 0.5.\n\n[PARTS]\na. Find P(B ANDD).\nb. Find P(B ORD).\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46947",
@@ -677,7 +673,7 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(D|B) = 0.5.\n\na. Find P(B′).\nb. Find P(D AND B).\nc. Find P(B|D).\nd. Find P(D AND B′).\ne. Find P(D|B′).",
+  "stem": "A student goes to the library. Let events B = the student checks out a book and D = the student checks out a DVD. Suppose that P(B) = 0.40, P(D) = 0.30 and P(D|B) = 0.5.\n\n[PARTS]\na. Find P(B′).\nb. Find P(D ANDB).\nc. Find P(B|D).\nd. Find P(D ANDB′).\ne. Find P(D|B′).\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46947",
@@ -699,7 +695,7 @@
    "module": "m46947",
    "exerciseId": "exercise1"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S) : P(S) = 0.87",
   "needsFigure": false,
   "explanation": []
@@ -715,7 +711,7 @@
    "module": "m46947",
    "exerciseId": "exercise2"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S) : P(S) = 0.32",
   "needsFigure": false,
   "explanation": []
@@ -731,7 +727,7 @@
    "module": "m46947",
    "exerciseId": "exercise3"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(S | Z) : P(S | Z) = 0.55",
   "needsFigure": false,
   "explanation": []
@@ -747,7 +743,7 @@
    "module": "m46947",
    "exerciseId": "exercise4"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is S | Z? : S | Z means, given that the customer has ordered pizza, the person also orders a salad.",
   "needsFigure": false,
   "explanation": []
@@ -763,7 +759,7 @@
    "module": "m46947",
    "exerciseId": "exercise5"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(Z AND S): P(Z AND S)= 0.4785",
   "needsFigure": false,
   "explanation": []
@@ -779,7 +775,7 @@
    "module": "m46947",
    "exerciseId": "exercise6"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is Z AND S? : Z AND S represents the event that a customer orders a pizza and salad.",
   "needsFigure": false,
   "explanation": []
@@ -795,7 +791,7 @@
    "module": "m46947",
    "exerciseId": "exercise7"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Are P and S independent events? Show why or why not. No, because P(S) does not equal P(S | Z).",
   "needsFigure": false,
   "explanation": []
@@ -811,7 +807,7 @@
    "module": "m46947",
    "exerciseId": "exercise8"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Find P(Z OR S): P(Z OR S)= 0.7115",
   "needsFigure": false,
   "explanation": []
@@ -827,7 +823,7 @@
    "module": "m46947",
    "exerciseId": "exercise9"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "In words, what is Z OR S?\nZ OR S represents the event that a customer orders a pizza or salad.",
   "needsFigure": false,
   "explanation": []
@@ -843,7 +839,7 @@
    "module": "m46947",
    "exerciseId": "exercise10"
   },
-  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\nIn this problem, let:\n\n• Z = event that a customer orders a pizza\n• S = event that a customer orders a salad\nSuppose that one customer is randomly selected.",
+  "context": "Use the following information to answer the next ten exercises. A local restaurant knows that the probability that a customer will order a pizza is 87%. The restaurant also knows that the probability that a customer will order a salad is 32%. Of the customers who order pizzas, 55% of them also order a salad.\n\nIn this problem, let:\n\n[LIST]\nZ = event that a customer orders a pizza\nS = event that a customer orders a salad\n[/LIST]\n\nSuppose that one customer is randomly selected.",
   "modelSolution": "Are Z and S mutually exclusive events? Show why or why not. No, because P(S and Z) does not equal 0.",
   "needsFigure": false,
   "explanation": []
@@ -853,13 +849,13 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "A survey was conducted in a large city to measure the popularity of that city’s mayor. The survey was repeated every year for three years. The survey polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results the poll produced:\n\n• In Year 1, 60% of the population approved of the mayor’s actions in office.\n• In Year 2, 57% of the population approved of his actions.\n• In Year 3, the percentage of popular approval was measured at 42%.\na. What is the sample size for this study?\nb. What proportion in the poll disapproved of the mayor, according to the results from Year 3?\nc. How many people polled responded that they approved the mayor based on results from Year 3?\nd. What is the probability that a person supported the mayor, based on the data collected in Year 2?\ne. What is the probability that a person supported the mayor, based on the data collected in Year 1?",
+  "stem": "A survey was conducted in a large city to measure the popularity of that city’s mayor. The survey was repeated every year for three years. The survey polled 1,046 people to measure the mayor’s popularity. Everyone polled expressed either approval or disapproval. These are the results the poll produced:\n\n[LIST]\nIn Year 1, 60% of the population approved of the mayor’s actions in office.\nIn Year 2, 57% of the population approved of his actions.\nIn Year 3, the percentage of popular approval was measured at 42%.[PARTS] a. What is the sample size for this study? b. What proportion in the poll disapproved of the mayor, according to the results from Year 3? c. How many people polled responded that they approved the mayor based on results from Year 3? d. What is the probability that a person supported the mayor, based on the data collected in Year 2? e. What is the probability that a person supported the mayor, based on the data collected in Year 1? [/PARTS]\n[/LIST]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "eip-803"
   },
-  "modelSolution": "a. The Forum Research surveyed 1,046 Torontonians.\nb. 58%\nc. 42% of 1,046 = 439 (rounding to the nearest integer)\nd. 0.57\ne. 0.60.",
+  "modelSolution": "[PARTS]\na. The Forum Research surveyed 1,046 Torontonians.\nb. 58%\nc. 42% of 1,046 = 439 (rounding to the nearest integer)\nd. 0.57\ne. 0.60.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -868,14 +864,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Compute the probability of winning the following types of bets:\n\na. Betting on two lines that touch each other on the table as in 1-2-3-4-5-6\nb. Betting on three numbers in a line, as in 1-2-3\nc. Betting on one number\nd. Betting on four numbers that touch each other to form a square, as in 10-11-13-14\ne. Betting on two numbers that touch each other on the table, as in 10-11 or 10-13\nf. Betting on 0-00-1-2-3\ng. Betting on 0-1-2; or 0-00-2; or 00-2-3",
+  "stem": "Compute the probability of winning the following types of bets:\n\n[PARTS]\na. Betting on two lines that touch each other on the table as in 1-2-3-4-5-6\nb. Betting on three numbers in a line, as in 1-2-3\nc. Betting on one number\nd. Betting on four numbers that touch each other to form a square, as in 10-11-13-14\ne. Betting on two numbers that touch each other on the table, as in 10-11 or 10-13\nf. Betting on 0-00-1-2-3\ng. Betting on 0-1-2; or 0-00-2; or 00-2-3\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "eip-374"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. P(Betting on two line that touch each other on the table) = 6/38\nb. P(Betting on three numbers in a line) = 3/38\n\nc. P(Bettting on one number) = 1/38\n\nd. P(Betting on four number that touch each other to form a square) = 4/38\n\ne. P(Betting on two number that touch each other on the table ) = 2/38\n\nf. P(Betting on 0-00-1-2-3) = 5/38\n\ng. P(Betting on 0-1-2; or 0-00-2; or 00-2-3) = 3/38",
+  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n\n[FIGURE: (credit: film8ker/wikibooks)]",
+  "modelSolution": "[PARTS]\na. P(Betting on two line that touch each other on the table) =6/38\nb. P(Betting on three numbers in a line) =3/38\nc. P(Bettting on one number) =1/38\nd. P(Betting on four number that touch each other to form a square) =4/38\ne. P(Betting on two number that touch each other on the table ) =2/38\nf. P(Betting on 0-00-1-2-3) =5/38\ng. P(Betting on 0-1-2; or 0-00-2; or 00-2-3) =3/38\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -884,15 +880,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.\n\n• G = card drawn is green\n• E = card drawn is even-numbered\n\na. List the sample space.\nb. P(G) = _____\nc. P(G|E) = _____\nd. P(G AND E) = _____\ne. P(G OR E) = _____\nf. Are G and E mutually exclusive? Justify your answer numerically.",
+  "stem": "Suppose that you have eight cards. Five are green and three are yellow. The five green cards are numbered 1, 2, 3, 4, and 5. The three yellow cards are numbered 1, 2, and 3. The cards are well shuffled. You randomly draw one card.\n\n[LIST]\nG = card drawn is green\nE = card drawn is even-numbered[PARTS] a. List the sample space. b. P(G) = _____ c. P(G|E) = _____ d. P(G ANDE) = _____ e. P(G ORE) = _____ f. Are G andE mutually exclusive? Justify your answer numerically. [/PARTS]\n[/LIST]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "element-555"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. {G1, G2, G3, G4, G5, Y1, Y2, Y3}\nb. 5/8\nc. 2/3\nd. 2/8\ne. 6/8\n\nf. No, because P(G AND E) does not equal 0.",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. {G1,G2,G3,G4,G5,Y1,Y2,Y3}\nb. 5/8\nc. 2/3\nd. 2/8\ne. 6/8\nf. No, because P(G ANDE) does not equal 0.\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -900,15 +895,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "A special deck of cards has ten cards. Four are green, three are blue, and three are red. When a card is picked, its color of it is recorded. An experiment consists of first picking a card and then tossing a coin.\n\na. List the sample space.\nb. Let A be the event that a blue card is picked first, followed by landing a head on the coin toss. Find P(A).\nc. Let B be the event that a red or green is picked, followed by landing a head on the coin toss. Are the events A and B mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.\nd. Let C be the event that a red or blue is picked, followed by landing a head on the coin toss. Are the events A and C mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.",
+  "stem": "A special deck of cards has ten cards. Four are green, three are blue, and three are red. When a card is picked, its color of it is recorded. An experiment consists of first picking a card and then tossing a coin.\n\n[PARTS]\na. List the sample space.\nb. Let A be the event that a blue card is picked first, followed by landing a head on the coin toss. FindP(A).\nc. Let B be the event that a red or green is picked, followed by landing a head on the coin toss. Are the eventsA andB mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.\nd. Let C be the event that a red or blue is picked, followed by landing a head on the coin toss. Are the eventsA andC mutually exclusive? Explain your answer in one to three complete sentences, including numerical justification.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "element-874"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "NOTE\n\nThe coin toss is independent of the card picked first.\n\na. {(G,H) (G,T) (B,H) (B,T) (R,H) (R,T)}\nb. P(A) = P(blue)P(head) = (3/10)(1/2)\n= 3/20\n\nc. Yes, A and B are mutually exclusive because they cannot happen at the same time; you cannot pick a card that is both blue and also (red or green). P(A AND B) = 0\nd. No, A and C are not mutually exclusive because they can occur at the same time. In fact, C includes all of the outcomes of A; if the card chosen is blue it is also (red or blue). P(A AND C) = P(A) = 3/20",
-  "needsFigure": true,
+  "modelSolution": "NOTE\n\nThe coin toss is independent of the card picked first.\n\n[PARTS]\na. {(G,H) (G,T) (B,H) (B,T) (R,H) (R,T)}\nb. P(A) =P(blue)P(head) =(3/10)(1/2) =3/20\nc. Yes, A andB are mutually exclusive because they cannot happen at the same time; you cannot pick a card that is both blue and also (red or green).P(A ANDB) = 0\nd. No, A andC are not mutually exclusive because they can occur at the same time. In fact,C includes all of the outcomes ofA; if the card chosen is blue it is also (red or blue).P(A ANDC) =P(A) =3/20\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -916,15 +910,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "An experiment consists of tossing a nickel, a dime, and a quarter. Of interest is the side the coin lands on.\n\na. List the sample space.\nb. Let A be the event that there are at least two tails. Find P(A).\nc. Let B be the event that the first and second tosses land on heads. Are the events A and B mutually exclusive? Explain your answer in one to three complete sentences, including justification.",
+  "stem": "An experiment consists of tossing a nickel, a dime, and a quarter. Of interest is the side the coin lands on.\n\n[PARTS]\na. List the sample space.\nb. Let A be the event that there are at least two tails. FindP(A).\nc. Let B be the event that the first and second tosses land on heads. Are the eventsA andB mutually exclusive? Explain your answer in one to three complete sentences, including justification.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "element-982"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. S = {(HHH), (HHT), (HTH), (HTT), (THH), (THT), (TTH), (TTT)}\nb. 4/8\n\nc. Yes, because if A has occurred, it is impossible to obtain two tails. In other words, P(A AND B) = 0.",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. S = {(HHH), (HHT), (HTH), (HTT), (THH), (THT), (TTH), (TTT)}\nb. 4/8\nc. Yes, because if A has occurred, it is impossible to obtain two tails. In other words,P(A ANDB) = 0.\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -932,15 +925,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Y and Z are independent events.\n\na. Rewrite the basic Addition Rule P(Y OR Z) = P(Y) + P(Z) - P(Y AND Z) using the information that Y and Z are independent events.\nb. Use the rewritten rule to find P(Z) if P(Y OR Z) = 0.71 and P(Y) = 0.42.",
+  "stem": "Y and Z are independent events.\n\n[PARTS]\na. Rewrite the basic Addition Rule P(Y ORZ) =P(Y) +P(Z) -P(Y ANDZ) using the information thatY andZ are independent events.\nb. Use the rewritten rule to find P(Z) ifP(Y ORZ) = 0.71 andP(Y) = 0.42.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "element-134"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. If Y and Z are independent, then P(Y AND Z) = P(Y)P(Z), so P(Y OR Z) = P(Y) + P(Z) - P(Y)P(Z).\nb. 0.5",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. If Y andZ are independent, thenP(Y ANDZ) =P(Y)P(Z), soP(Y ORZ) =P(Y) +P(Z) -P(Y)P(Z).\nb. 0.5\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -954,9 +946,8 @@
    "module": "m46947",
    "exerciseId": "fs-idp11038848"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. iii\nb. i\nc. iv\nd. ii",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. iii\nb. i\nc. iv\nd. ii\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -964,21 +955,20 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "Three professors at George Washington University did an experiment to determine if economists are more selfish than other people. They dropped 64 stamped, addressed envelopes with $10 cash in different classrooms on the George Washington campus. 44% were returned overall. From the economics classes 56% of the envelopes were returned. From the business, psychology, and history classes 31% were returned.\n\nLet: R = money returned; E = economics classes; O = other classes\n\na. Write a probability statement for the overall percent of money returned.\nb. Write a probability statement for the percent of money returned out of the economics classes.\nc. Write a probability statement for the percent of money returned out of the other classes.\nd. Is money being returned independent of the class? Justify your answer numerically and explain it.\ne. Based upon this study, do you think that economists are more selfish than other people? Explain why or why not. Include numbers to justify your answer.",
+  "stem": "Three professors at George Washington University did an experiment to determine if economists are more selfish than other people. They dropped 64 stamped, addressed envelopes with $10 cash in different classrooms on the George Washington campus. 44% were returned overall. From the economics classes 56% of the envelopes were returned. From the business, psychology, and history classes 31% were returned.\n\nLet: R = money returned; E = economics classes; O = other classes\n\n[PARTS]\na. Write a probability statement for the overall percent of money returned.\nb. Write a probability statement for the percent of money returned out of the economics classes.\nc. Write a probability statement for the percent of money returned out of the other classes.\nd. Is money being returned independent of the class? Justify your answer numerically and explain it.\ne. Based upon this study, do you think that economists are more selfish than other people? Explain why or why not. Include numbers to justify your answer.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "element-652"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. P(R) = 0.44\nb. P(R|E) = 0.56\nc. P(R|O) = 0.31\nd. No, whether the money is returned is not independent of which class the money was placed in. There are several ways to justify this mathematically, but one is that the money placed in economics classes is not returned at the same overall rate; P(R|E) ≠ P(R).\ne. No, this study definitely does not support that notion; in fact, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively; P(R|E) > P(R).",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. P(R) = 0.44\nb. P(R|E) = 0.56\nc. P(R|O) = 0.31\nd. No, whether the money is returned is not independent of which class the money was placed in. There are several ways to justify this mathematically, but one is that the money placed in economics classes is not returned at the same overall rate; P(R|E) ≠P(R).\ne. No, this study definitely does not support that notion; in fact, it suggests the opposite. The money placed in the economics classrooms was returned at a higher rate than the money place in all classes collectively;P(R|E) >P(R).\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
   "id": "os-m46947-fs-idm127904",
   "sectionId": "3.3",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.3",
   "stem": "The following table of data obtained from www.baseball-almanac.com shows hit information for four players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nName | Single | Double | Triple | Home Run | Total Hits\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,053 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTotal | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]\n\nAre \"the hit being made by Hank Aaron\" and \"the hit being a double\" independent events?",
   "source": "openstax-homework",
@@ -986,33 +976,23 @@
    "module": "m46947",
    "exerciseId": "fs-idm127904"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "options": [
-   "Yes, because P(hit by Hank Aaron|hit is a double) = P(hit by Hank Aaron)",
-   "No, because P(hit by Hank Aaron|hit is a double) ≠ P(hit is a double)",
-   "No, because P(hit is by Hank Aaron|hit is a double) ≠ P(hit by Hank Aaron)",
-   "Yes, because P(hit is by Hank Aaron|hit is a double) = P(hit is a double)"
-  ],
-  "correctIndex": 0,
-  "needsFigure": true,
-  "explanation": [
-   "a. P(type O OR Rh-) = P(type O) + P(Rh-) – P(type O AND Rh-)\n0.38 = 0.45 + 0.07 – P(type O AND Rh-);\nSolve to find P(type O AND Rh-) = 0.14.\n14% of people have type O, Rh- blood.\nb. P(NOT(type O AND Rh-)) = 1 – P(type O AND Rh-) = 1 – 0.14 = 0.86\n86% of people do not have type O, Rh- blood."
-  ]
+  "modelSolution": "[PARTS]\na. P(type O OR Rh-) =P(type O) +P(Rh-) –P(type O AND Rh-)0.38 = 0.45 + 0.07 –P(type O AND Rh-);Solve to findP(type O AND Rh-) = 0.14.14% of people have type O, Rh- blood.\nb. P(NOT(type O AND Rh-)) = 1 –P(type O AND Rh-) = 1 – 0.14 = 0.8686% of people do not have type O, Rh- blood.\n[/PARTS]",
+  "needsFigure": false,
+  "explanation": []
  },
  {
   "id": "os-m46947-eip-8",
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "According to the American Red Cross, a person with type O blood and a negative Rh factor (Rh-) can donate blood to any person with any blood type. Their data show that 45% of people have type O blood and 7% of people have Rh- factor; 38% of people have type O or Rh- factor.\n\na. Find the probability that a person has both type O blood and the Rh- factor.\nb. Find the probability that a person does NOT have both type O blood and the Rh- factor.",
+  "stem": "According to the American Red Cross, a person with type O blood and a negative Rh factor (Rh-) can donate blood to any person with any blood type. Their data show that 45% of people have type O blood and 7% of people have Rh- factor; 38% of people have type O or Rh- factor.\n\n[PARTS]\na. Find the probability that a person has both type O blood and the Rh- factor.\nb. Find the probability that a person does NOT have both type O blood and the Rh- factor.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "eip-8"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a.\n\nP(type O OR Rh-) = P(type O) + P(Rh-) - P(type O AND Rh-)\n\n0.52 = 0.43 + 0.15 - P(type O AND Rh-); solve to find P(type O AND Rh-) = 0.06\n\n6% of people have type O, Rh- blood\n\nb.\n\nP(NOT(type O AND Rh-)) = 1 - P(type O AND Rh-) = 1 - 0.06 = 0.94\n\n94% of people do not have type O, Rh- blood",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. P(type O OR Rh-) = P(type O) + P(Rh-) - P(type O AND Rh-)0.52 = 0.43 + 0.15 - P(type O AND Rh-); solve to find P(type O AND Rh-) = 0.066% of people have type O, Rh- blood\nb. P(NOT(type O AND Rh-)) = 1 - P(type O AND Rh-) = 1 - 0.06 = 0.9494% of people do not have type O, Rh- blood\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -1020,15 +1000,14 @@
   "sectionId": "3.3",
   "kind": "open",
   "conceptTag": "3.3",
-  "stem": "In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. In the box, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.\n\na. Find the probability that a cookie contains chocolate or nuts (he can't eat it).\nb. Find the probability that a cookie does not contain chocolate or nuts (he can eat it).",
+  "stem": "In a box of assorted cookies, 36% contain chocolate and 12% contain nuts. In the box, 8% contain both chocolate and nuts. Sean is allergic to both chocolate and nuts.\n\n[PARTS]\na. Find the probability that a cookie contains chocolate or nuts (he can't eat it).\nb. Find the probability that a cookie does not contain chocolate or nuts (he can eat it).\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46947",
    "exerciseId": "eip-913"
   },
-  "context": "Use the following information to answer the next three exercises. The casino game, roulette, allows the gambler to bet on the probability of a ball, which spins in the roulette wheel, landing on a particular color, number, or range of numbers. The table used to place bets contains of 38 numbers, and each number is assigned to a color and a range.\n[FIGURE: (credit: film8ker/wikibooks)]",
-  "modelSolution": "a. Let C = be the event that the cookie contains chocolate. Let N = the event that the cookie contains nuts.\nb. P(C OR N) = P(C) + P(N) - P(C AND N) = 0.36 + 0.12 - 0.08 = 0.40\nc. P(NEITHER chocolate NOR nuts) = 1 - P(C OR N) = 1 - 0.40 = 0.60",
-  "needsFigure": true,
+  "modelSolution": "[PARTS]\na. Let C = be the event that the cookie contains chocolate. LetN = the event that the cookie contains nuts.\nb. P(C ORN) =P(C) +P(N) -P(C ANDN) = 0.36 + 0.12 - 0.08 = 0.40\nc. P(NEITHER chocolate NOR nuts) = 1 -P(C ORN) = 1 - 0.40 = 0.60\n[/PARTS]",
+  "needsFigure": false,
   "explanation": []
  },
  {
@@ -1036,7 +1015,7 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "shows the number of athletes who stretch before exercising and how many had injuries within the past year.\n\n[TABLE]\n| Injury in last year | No injury in last year | Total\nStretches | 55 | 295 | 350\nDoes not stretch | 231 | 219 | 450\nTotal | 286 | 514 | 800\n[/TABLE]\n\na. What is P(athlete stretches before exercising)?\nb. What is P(athlete stretches before exercising|no injury in the last year)?",
+  "stem": "the table below shows the number of athletes who stretch before exercising and how many had injuries within the past year.\n\n[TABLE]\n| Injury in last year | No injury in last year | Total\nStretches | 55 | 295 | 350\nDoes not stretch | 231 | 219 | 450\nTotal | 286 | 514 | 800\n[/TABLE]\n\n[PARTS]\na. What is P(athlete stretches before exercising)?\nb. What is P(athlete stretches before exercising|no injury in the last year)?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46935",
@@ -1052,7 +1031,7 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "shows a random sample of 200 cyclists and the routes they prefer. Let O = older and H = hilly path.\n\n[TABLE]\nAge Group | Lake Path | Hilly Path | Wooded Path | Total\nYounger | 45 | 38 | 27 | 110\nOlder | 26 | 52 | 12 | 90\nTotal | 71 | 90 | 39 | 200\n[/TABLE]\n\na. Out of the older group, what is the probability that the cyclist prefers a hilly path?\nb. Are the events “being older” and “preferring the hilly path” independent events?",
+  "stem": "the table below shows a random sample of 200 cyclists and the routes they prefer. Let O = older and H = hilly path.\n\n[TABLE]\nAge Group | Lake Path | Hilly Path | Wooded Path | Total\nYounger | 45 | 38 | 27 | 110\nOlder | 26 | 52 | 12 | 90\nTotal | 71 | 90 | 39 | 200\n[/TABLE]\n\n[PARTS]\na. Out of the older group, what is the probability that the cyclist prefers a hilly path?\nb. Are the events “being older” and “preferring the hilly path” independent events?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46935",
@@ -1068,14 +1047,14 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "Anna has to buy a new car. She has two choices, car A and car B. Anna can afford only one car. The probability that Anna will buy car A is P(A) = 0.25, and the probability that Anna will buy car B is P(B) = 0.65. Find:\n\n• P(A AND B)\n• P(A OR B)",
+  "stem": "Anna has to buy a new car. She has two choices, car A and car B. Anna can afford only one car. The probability that Anna will buy car A is P(A) = 0.25, and the probability that Anna will buy car B is P(B) = 0.65. Find:\n\n[LIST]\nP(A AND B)\nP(A OR B)\n[/LIST]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46935",
    "exerciseId": "exer-00001",
    "ref": null
   },
-  "modelSolution": "• P(A AND B) = 0 because it is given that Anna can afford only one car.\n• Since P(A AND B) = 0, then P(A OR B) = P(A) + P(B) = 0.25 + 0.65 = 0.9. Note that the probability that Anna does not a car must be 0.1.",
+  "modelSolution": "[LIST]\nP(A AND B) = 0 because it is given that Anna can afford only one car.\nSince P(A AND B) = 0, thenP(A OR B) = P(A) + P(B) = 0.25 + 0.65 = 0.9. Note that the probability that Anna does not a car must be 0.1.\n[/LIST]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1084,7 +1063,7 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "relates the weights and heights of a group of individuals participating in an observational study.\n\n[TABLE]\nWeight/Height | Tall | Medium | Short | Totals\nOverweight | 18 | 28 | 14 |\nTypical Weight Range | 20 | 51 | 28 |\nUnderweight | 12 | 25 | 9 |\nTotals | | | |\n[/TABLE]\n\na. Find the total for each row and column\nb. Find the probability that a randomly chosen individual from this group is Tall.\nc. Find the probability that a randomly chosen individual from this group is Overweight and Tall.\nd. Find the probability that a randomly chosen individual from this group is Tall given that the individual is Overweight.\ne. Find the probability that a randomly chosen individual from this group is Overweight given that the individual is Tall.\nf. Find the probability a randomly chosen individual from this group is Tall and Underweight.\ng. Are the events Overweight and Tall independent?",
+  "stem": "the table below relates the weights and heights of a group of individuals participating in an observational study.\n\n[TABLE]\nWeight/Height | Tall | Medium | Short | Totals\nOverweight | 18 | 28 | 14 |\nTypical Weight Range | 20 | 51 | 28 |\nUnderweight | 12 | 25 | 9 |\nTotals | | | |\n[/TABLE]\n\n[PARTS]\na. Find the total for each row and column\nb. Find the probability that a randomly chosen individual from this group is Tall.\nc. Find the probability that a randomly chosen individual from this group is Overweight and Tall.\nd. Find the probability that a randomly chosen individual from this group is Tall given that the individual is Overweight.\ne. Find the probability that a randomly chosen individual from this group is Overweight given that the individual is Tall.\nf. Find the probability a randomly chosen individual from this group is Tall and Underweight.\ng. Are the events Overweight and Tall independent?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46935",
@@ -1106,7 +1085,7 @@
    "module": "m46935",
    "exerciseId": "eip-388"
   },
-  "context": "Use the following information to answer the next four exercises. shows a random sample of musicians and how they learned to play their instruments.\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
+  "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
   "modelSolution": "P(musician is a male AND had private instruction) = 15/130 = 3/26 = 0.12",
   "needsFigure": false,
   "explanation": []
@@ -1122,7 +1101,7 @@
    "module": "m46935",
    "exerciseId": "eip-350"
   },
-  "context": "Use the following information to answer the next four exercises. shows a random sample of musicians and how they learned to play their instruments.\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
+  "context": "Use the following information to answer the next four exercises. the table below shows a random sample of musicians and how they learned to play their instruments.\n\n[TABLE]\nGender | Self-taught | Studied in School | Private Instruction | Total\nWoman | 12 | 38 | 22 | 72\nMan | 19 | 24 | 15 | 58\nTotal | 31 | 62 | 37 | 130\n[/TABLE]",
   "modelSolution": "The events are not mutually exclusive. It is possible to be a woman musician who learned music in school.",
   "needsFigure": false,
   "explanation": []
@@ -1138,7 +1117,6 @@
    "module": "m46935",
    "exerciseId": "eip-157"
   },
-  "context": "Use the information in the to answer the next eight exercises. The table shows the political party affiliation for various members of the U.S. Senate during two separate years when they are up for reelection.\n\n[TABLE]\nUp for reelection: | Democratic Party | Republican Party | Other | Total\nYear A | 20 | 13 | 0 |\nYear B | 10 | 24 | 0 |\nTotal | | | |\n[/TABLE]",
   "answer": 0.0,
   "tolerance": {
    "abs": 0.05,
@@ -1161,7 +1139,6 @@
    "module": "m46935",
    "exerciseId": "eip-381"
   },
-  "context": "Use the information in the to answer the next eight exercises. The table shows the political party affiliation for various members of the U.S. Senate during two separate years when they are up for reelection.\n\n[TABLE]\nUp for reelection: | Democratic Party | Republican Party | Other | Total\nYear A | 20 | 13 | 0 |\nYear B | 10 | 24 | 0 |\nTotal | | | |\n[/TABLE]",
   "modelSolution": "10/67",
   "needsFigure": false,
   "explanation": []
@@ -1177,7 +1154,6 @@
    "module": "m46935",
    "exerciseId": "eip-367"
   },
-  "context": "Use the information in the to answer the next eight exercises. The table shows the political party affiliation for various members of the U.S. Senate during two separate years when they are up for reelection.\n\n[TABLE]\nUp for reelection: | Democratic Party | Republican Party | Other | Total\nYear A | 20 | 13 | 0 |\nYear B | 10 | 24 | 0 |\nTotal | | | |\n[/TABLE]",
   "modelSolution": "10/34",
   "needsFigure": false,
   "explanation": []
@@ -1193,7 +1169,6 @@
    "module": "m46935",
    "exerciseId": "eip-88"
   },
-  "context": "Use the information in the to answer the next eight exercises. The table shows the political party affiliation for various members of the U.S. Senate during two separate years when they are up for reelection.\n\n[TABLE]\nUp for reelection: | Democratic Party | Republican Party | Other | Total\nYear A | 20 | 13 | 0 |\nYear B | 10 | 24 | 0 |\nTotal | | | |\n[/TABLE]",
   "options": [
    "mutually exclusive.",
    "independent.",
@@ -1211,14 +1186,13 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "gives the number of participants in the recent National Health Interview Survey who had been treated for cancer in the previous 12 months. The results are sorted by age, race (Black or White), and sex. We are interested in possible relationships between age, race, and sex.\n\n[TABLE]\nRace and sex | 15–24 | 25–40 | 41–65 | Over 65 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | | 9,129\nBlack, male | 142 | 194 | 384 | | 824\nBlack, female | 131 | 290 | 486 | | 1,061\nAll others | | | | |\nTOTALS | 2,792 | 5,279 | 9,354 | | 21,081\n[/TABLE]\n\nDo not include \"all others\" for parts f and g.\n\na. Fill in the column for cancer treatment for individuals over age 65.\nb. Fill in the row for all other races.\nc. Find the probability that a randomly selected individual was a White male.\nd. Find the probability that a randomly selected individual was a Black female.\ne. Find the probability that a randomly selected individual was Black\nf. Find the probability that a randomly selected individual was male.\ng. Out of the individuals over age 65, find the probability that a randomly selected individual was a Black or White male.",
+  "stem": "the table below gives the number of participants in the recent National Health Interview Survey who had been treated for cancer in the previous 12 months. The results are sorted by age, race (Black or White), and sex. We are interested in possible relationships between age, race, and sex.\n\n[TABLE]\nRace and sex | 15–24 | 25–40 | 41–65 | Over 65 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | | 9,129\nBlack, male | 142 | 194 | 384 | | 824\nBlack, female | 131 | 290 | 486 | | 1,061\nAll others | | | | |\nTOTALS | 2,792 | 5,279 | 9,354 | | 21,081\n[/TABLE]\n\nDo not include \"all others\" for parts f and g.\n\n[PARTS]\na. Fill in the column for cancer treatment for individuals over age 65.\nb. Fill in the row for all other races.\nc. Find the probability that a randomly selected individual was a White male.\nd. Find the probability that a randomly selected individual was a Black female.\ne. Find the probability that a randomly selected individual was Black\nf. Find the probability that a randomly selected individual was male.\ng. Out of the individuals over age 65, find the probability that a randomly selected individual was a Black or White male.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46935",
    "exerciseId": "tablular-ex"
   },
-  "context": "Use the information in the to answer the next eight exercises. The table shows the political party affiliation for various members of the U.S. Senate during two separate years when they are up for reelection.\n\n[TABLE]\nUp for reelection: | Democratic Party | Republican Party | Other | Total\nYear A | 20 | 13 | 0 |\nYear B | 10 | 24 | 0 |\nTotal | | | |\n[/TABLE]",
-  "modelSolution": "a.\n\n[TABLE]\nRace and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129\nBlack, male | 142 | 194 | 384 | 104 | 824\nBlack, female | 131 | 290 | 486 | 154 | 1,061\nAll others | | | | 156 |\nTOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081\n[/TABLE]\n\nb.\n\n[TABLE]\nRace and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS\nWhite, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395\nWhite, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129\nBlack, male | 142 | 194 | 384 | 104 | 824\nBlack, female | 131 | 290 | 486 | 154 | 1,061\nAll others | 278 | 517 | 721 | 156 | 1672\nTOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081\n[/TABLE]\n\nc. (8,395)/(21,081)≈0.3982\nd. (1,061)/(21,081)≈0.0503\ne. (1,885)/(21,081)≈0.0894\nf. (9,219)/(19,409)≈0.475\ng. (1,595)/(3,500)≈0.456",
+  "modelSolution": "[PARTS]\na. [TABLE] Race and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS White, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395 White, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129 Black, male | 142 | 194 | 384 | 104 | 824 Black, female | 131 | 290 | 486 | 154 | 1,061 All others | | | | 156 | TOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081 [/TABLE]\nb. [TABLE] Race and sex | 1–14 | 15–24 | 25–64 | Over 64 | TOTALS White, male | 1,165 | 2,036 | 3,703 | 1,491 | 8,395 White, female | 1,076 | 2,242 | 4,060 | 1,751 | 9,129 Black, male | 142 | 194 | 384 | 104 | 824 Black, female | 131 | 290 | 486 | 154 | 1,061 All others | 278 | 517 | 721 | 156 | 1672 TOTALS | 2,792 | 5,279 | 9,354 | 3,656 | 21,081 [/TABLE]\nc. (8,395)/(21,081)≈0.3982\nd. (1,061)/(21,081)≈0.0503\ne. (1,885)/(21,081)≈0.0894\nf. (9,219)/(19,409)≈0.475\ng. (1,595)/(3,500)≈0.456\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1233,7 +1207,7 @@
    "module": "m46935",
    "exerciseId": "element-940"
   },
-  "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]",
+  "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]",
   "options": [
    "4189/12351",
    "117/1723",
@@ -1251,14 +1225,13 @@
   "sectionId": "3.4",
   "kind": "open",
   "conceptTag": "3.4",
-  "stem": "In a previous year, the weights of the members of the San Francisco 49ers and the Dallas Cowboys were published in the San Jose Mercury News. The factual data were compiled into the following table.\n\n[TABLE]\nShirt# | ≤ 210 | 211–250 | 251–290 | > 290\n1–33 | 21 | 5 | 0 | 0\n34–66 | 6 | 18 | 7 | 4\n66–99 | 6 | 12 | 22 | 5\n[/TABLE]\n\nFor the following, suppose that you randomly select one player from the 49ers or Cowboys.\n\na. Find the probability that his shirt number is from 1 to 33.\nb. Find the probability that he weighs at most 210 pounds.\nc. Find the probability that his shirt number is from 1 to 33 AND he weighs at most 210 pounds.\nd. Find the probability that his shirt number is from 1 to 33 OR he weighs at most 210 pounds.\ne. Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs at most 210 pounds.",
+  "stem": "In a previous year, the weights of the members of the San Francisco 49ers and the Dallas Cowboys were published in the San Jose Mercury News. The factual data were compiled into the following table.\n\n[TABLE]\nShirt# | ≤ 210 | 211–250 | 251–290 | > 290\n1–33 | 21 | 5 | 0 | 0\n34–66 | 6 | 18 | 7 | 4\n66–99 | 6 | 12 | 22 | 5\n[/TABLE]\n\nFor the following, suppose that you randomly select one player from the 49ers or Cowboys.\n\n[PARTS]\na. Find the probability that his shirt number is from 1 to 33.\nb. Find the probability that he weighs at most 210 pounds.\nc. Find the probability that his shirt number is from 1 to 33 AND he weighs at most 210 pounds.\nd. Find the probability that his shirt number is from 1 to 33 OR he weighs at most 210 pounds.\ne. Find the probability that his shirt number is from 1 to 33 GIVEN that he weighs at most 210 pounds.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46935",
    "exerciseId": "element-738"
   },
-  "context": "Use the following information to answer the next two exercises. The table of data obtained from www.baseball-almanac.com shows hit information for four well known baseball players. Suppose that one hit from the table is randomly selected.\n[TABLE]\nNAME | Single | Double | Triple | Home Run | TOTAL HITS\nBabe Ruth | 1,517 | 506 | 136 | 714 | 2,873\nJackie Robinson | 1,054 | 273 | 54 | 137 | 1,518\nTy Cobb | 3,035 | 724 | 295 | 117 | 4,189\nHank Aaron | 2,294 | 624 | 98 | 755 | 3,771\nTOTAL | 7,918 | 2,127 | 583 | 1,723 | 12,351\n[/TABLE]",
-  "modelSolution": "a. 26/106\n\nb. 33/106\nc. 21/106\nd. (26/106) + (33/106) - (21/106) = (38/106)\ne. 21/33",
+  "modelSolution": "[PARTS]\na. 26/106\nb. 33/106\nc. 21/106\nd. (26/106) +(33/106) -(21/106) =(38/106)\ne. 21/33\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1331,7 +1304,7 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "In a standard deck, there are 52 cards. Twelve cards are face cards (F) and 40 cards are not face cards (N). Draw two cards, one at a time, without replacement. The tree diagram is labeled with all possible probabilities.\n\n[FIGURE]\n\na. Find P(FN OR NF).\nb. Find P(N|F).\nc. Find P(at most one face card).\n\nHint: \"At most one face card\" means zero or one face card.\nd. Find P(at least one face card).\n\nHint: \"At least one face card\" means one or two face cards.",
+  "stem": "In a standard deck, there are 52 cards. Twelve cards are face cards (F) and 40 cards are not face cards (N). Draw two cards, one at a time, without replacement. The tree diagram is labeled with all possible probabilities.\n\n[FIGURE]\n\n[PARTS]\na. Find P(FN ORNF).\nb. Find P(N|F).\nc. Find P(at most one face card).Hint: \"At most one face card\" means zero or one face card.\nd. Find P(at least one face card).Hint: \"At least one face card\" means one or two face cards.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46944",
@@ -1411,7 +1384,7 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "In a bookstore, the probability that the customer buys a novel is 0.6, and the probability that the customer buys a non-fiction book is 0.4. Suppose that the probability that the customer buys both is 0.2.\n\na. Draw a Venn diagram representing the situation.\nb. Find the probability that the customer buys either a novel or a non-fiction book.\nc. In the Venn diagram, describe the overlapping area using a complete sentence.\nd. Suppose that some customers buy only compact disks. Draw an oval in your Venn diagram representing this event.",
+  "stem": "In a bookstore, the probability that the customer buys a novel is 0.6, and the probability that the customer buys a non-fiction book is 0.4. Suppose that the probability that the customer buys both is 0.2.\n\n[PARTS]\na. Draw a Venn diagram representing the situation.\nb. Find the probability that the customer buys either a novel or a non-fiction book.\nc. In the Venn diagram, describe the overlapping area using a complete sentence.\nd. Suppose that some customers buy only compact disks. Draw an oval in your Venn diagram representing this event.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46944",
@@ -1448,7 +1421,7 @@
    "module": "m46944",
    "exerciseId": "element-684"
   },
-  "context": "Use the following information to answer the next two exercises. This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n[FIGURE]",
+  "context": "Use the following information to answer the next two exercises. This tree diagram shows the tossing of an unfair coin followed by drawing one bead from a cup containing three red (R), four yellow (Y) and five blue (B) beads. For the coin, P(H) = 2/3 and P(T) = 1/3 where H is heads and T is tails.\n\n[FIGURE]",
   "options": [
    "15/36",
    "10/36",
@@ -1466,14 +1439,14 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "Suppose that you randomly draw two cards, one at a time, with replacement.\n\nLet G1 = first card is green\n\nLet G2 = second card is green\n\na. Draw a tree diagram of the situation.\nb. Find P(G1 AND G2).\nc. Find P(at least one green).\nd. Find P(G2|G1).\ne. Are G2 and G1 independent events? Explain why or why not.",
+  "stem": "Suppose that you randomly draw two cards, one at a time, with replacement.\n\nLet G1 = first card is green\n\nLet G2 = second card is green\n\n[PARTS]\na. Draw a tree diagram of the situation.\nb. Find P(G1 ANDG2).\nc. Find P(at least one green).\nd. Find P(G2|G1).\ne. Are G2 andG1 independent events? Explain why or why not.\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46944",
    "exerciseId": "element-194"
   },
   "context": "Use the following information to answer the next two exercises. Suppose that you have eight cards. Five are green and three are yellow. The cards are well shuffled.",
-  "modelSolution": "a. [FIGURE]\n\nb. P(GG) = (5/8)(5/8) = 25/64\nc. P(at least one green) = P(GG) + P(GY) + P(YG) = 25/64 + 15/64 + 15/64 = 55/64\n\nd. P(G|G) = 5/8\ne. Yes, they are independent because the first card is placed back in the bag before the second card is drawn; the composition of cards in the bag remains the same from draw one to draw two.",
+  "modelSolution": "[PARTS]\na. [FIGURE]\nb. P(GG) =(5/8)(5/8) =25/64\nc. P(at least one green) =P(GG) +P(GY) +P(YG) =25/64 +15/64 +15/64 =55/64\nd. P(G|G) =5/8\ne. Yes, they are independent because the first card is placed back in the bag before the second card is drawn; the composition of cards in the bag remains the same from draw one to draw two.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1482,14 +1455,14 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "Complete the following.\n\na. Construct a table or a tree diagram of the situation.\nb. Find P(driver is a woman).\nc. Find P(driver is age 65 or over|driver is a woman).\nd. Find P(driver is age 65 or over AND a woman).\ne. In words, explain the difference between the probabilities in part c and part d.\nf. Find P(driver is age 65 or over).\ng. Are being age 65 or over and being a woman mutually exclusive events? How do you know?",
+  "stem": "Complete the following.\n\n[PARTS]\na. Construct a table or a tree diagram of the situation.\nb. Find P(driver is a woman).\nc. Find P(driver is age 65 or over|driver is a woman).\nd. Find P(driver is age 65 or over AND a woman).\ne. In words, explain the difference between the probabilities in part c and part d.\nf. Find P(driver is age 65 or over).\ng. Are being age 65 or over and being a woman mutually exclusive events? How do you know?\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46944",
    "exerciseId": "element-950"
   },
   "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
-  "modelSolution": "a.\n\n[TABLE]\n| <20 | 20–64 | >64 | Totals\nWomen | 0.0244 | 0.3954 | 0.0661 | 0.486\nMen | 0.0259 | 0.4186 | 0.0695 | 0.514\nTotals | 0.0503 | 0.8140 | 0.1356 | 1\n[/TABLE]\n\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 and F) = P(F) P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older and P(>64 and F) is the percentage of drivers who are women and 65 or older.\nf. P(>64) = P(>64 and F) + P(>64 and M) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.",
+  "modelSolution": "[PARTS]\na. [TABLE] | <20 | 20–64 | >64 | Totals Women | 0.0244 | 0.3954 | 0.0661 | 0.486 Men | 0.0259 | 0.4186 | 0.0695 | 0.514 Totals | 0.0503 | 0.8140 | 0.1356 | 1 [/TABLE]\nb. P(F) = 0.486\nc. P(>64|F) = 0.1361\nd. P(>64 andF) =P(F)P(>64|F) = (0.486)(0.1361) = 0.0661\ne. P(>64|F) is the percentage of women drivers who are 65 or older andP(>64 andF) is the percentage of drivers who are women and 65 or older.\nf. P(>64) =P(>64 andF) +P(>64 andM) = 0.1356\ng. No, being a woman and 65 or older are not mutually exclusive because they can occur at the same time P(>64 and F) = 0.0661.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1498,14 +1471,13 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "Approximately 86.5% of Americans commute to work by car, truck, or van. Out of that group, 84.6% drive alone and 15.4% drive in a carpool. Approximately 3.9% walk to work and approximately 5.3% take public transportation.\n\na. Construct a table or a tree diagram of the situation. Include a branch for all other modes of transportation to work.\nb. Assuming that the walkers walk alone, what percent of all commuters travel alone to work?\nc. Suppose that 1,000 workers are randomly selected. How many would you expect to travel alone to work?\nd. Suppose that 1,000 workers are randomly selected. How many would you expect to drive in a carpool?",
+  "stem": "Approximately 86.5% of Americans commute to work by car, truck, or van. Out of that group, 84.6% drive alone and 15.4% drive in a carpool. Approximately 3.9% walk to work and approximately 5.3% take public transportation.\n\n[PARTS]\na. Construct a table or a tree diagram of the situation. Include a branch for all other modes of transportation to work.\nb. Assuming that the walkers walk alone, what percent of all commuters travel alone to work?\nc. Suppose that 1,000 workers are randomly selected. How many would you expect to travel alone to work?\nd. Suppose that 1,000 workers are randomly selected. How many would you expect to drive in a carpool?\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46944",
    "exerciseId": "element-974"
   },
-  "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
-  "modelSolution": "a.\n\n[TABLE]\n| Car, Truck or Van | Walk | Public Transportation | Other | Totals\nAlone | 0.7318 | | | |\nNot Alone | 0.1332 | | | |\nTotals | 0.8650 | 0.0390 | 0.0530 | 0.0430 | 1\n[/TABLE]\n\nb. If we assume that all walkers are alone and that none from the other two groups travel alone (which is a big assumption) we have: P(Alone) = 0.7318 + 0.0390 = 0.7708.\nc. Make the same assumptions as in (b) we have: (0.7708)(1,000) = 771\nd. (0.1332)(1,000) = 133",
+  "modelSolution": "[PARTS]\na. [TABLE] | Car, Truck or Van | Walk | Public Transportation | Other | Totals Alone | 0.7318 | | | | Not Alone | 0.1332 | | | | Totals | 0.8650 | 0.0390 | 0.0530 | 0.0430 | 1 [/TABLE]\nb. If we assume that all walkers are alone and that none from the other two groups travel alone (which is a big assumption) we have: P(Alone) = 0.7318 + 0.0390 = 0.7708.\nc. Make the same assumptions as in (b) we have: (0.7708)(1,000) = 771\nd. (0.1332)(1,000) = 133\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1514,14 +1486,13 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "Use the following information to answer the next two exercises. The following data represent the number of new vehicles purchased over a monthly time period in a certain county, within two age groups: people in their twenties and people in their thirties.\n\n[TABLE]\n| Sedan | SUV | Minivan | Other | Totals\nTwenties | 1,135 | 290 | 583 | 158 |\nThirties | 1,246 | 463 | 241 | 190 |\nTotals | | | | |\n[/TABLE]\n\nSuppose a person from this county is randomly selected.\n\na. Find P(Person is in their twenties).\nb. Find P(Person purchases minivan).\nc. Find P(Person is in their twenties OR purchases an SUV).\nd. Find P(Person is in their twenties AND purchases a SEDAN).\ne. Find P(Person is in their thirties AND purchases an SUV).\nf. Find P(Person is in their twenties GIVEN person purchases a minivan).",
+  "stem": "Use the following information to answer the next two exercises. The following data represent the number of new vehicles purchased over a monthly time period in a certain county, within two age groups: people in their twenties and people in their thirties.\n\n[TABLE]\n| Sedan | SUV | Minivan | Other | Totals\nTwenties | 1,135 | 290 | 583 | 158 |\nThirties | 1,246 | 463 | 241 | 190 |\nTotals | | | | |\n[/TABLE]\n\nSuppose a person from this county is randomly selected.\n\n[PARTS]\na. Find P(Person is in their twenties).\nb. Find P(Person purchases minivan).\nc. Find P(Person is in their twenties OR purchases an SUV).\nd. Find P(Person is in their twenties AND purchases a SEDAN).\ne. Find P(Person is in their thirties AND purchases an SUV).\nf. Find P(Person is in their twenties GIVEN person purchases a minivan).\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46944",
    "exerciseId": "element-456"
   },
-  "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
-  "modelSolution": "The completed contingency table is as follows:\n\n[TABLE]\n| Sedan | SUV | Minivan | Other | Totals\nTwenties | 1,135 | 290 | 583 | 158 | 2166\nThirties | 1246 | 463 | 241 | 190 | 2140\nTotals | 2381 | 753 | 824 | 348 | 4306\n[/TABLE]\n\nSuppose a person from this county is randomly selected.\n\na. P(Person is in their twenties) = 0.5030\nb. P(Person purchases minivan) = 0.1914\nc. P(Person is in their twenties OR has purchases an SUV) = 0.6105\nd. P(Person is in their twenties AND purchases a SEDAN) = 0.0673\ne. P(Person is in their thirties AND has purchases an SUV) = 0.1075\nf. P(Person is in their twenties GIVEN person purchases a minivan) = 0.7075",
+  "modelSolution": "The completed contingency table is as follows:\n\n[TABLE]\n| Sedan | SUV | Minivan | Other | Totals\nTwenties | 1,135 | 290 | 583 | 158 | 2166\nThirties | 1246 | 463 | 241 | 190 | 2140\nTotals | 2381 | 753 | 824 | 348 | 4306\n[/TABLE]\n\nSuppose a person from this county is randomly selected.\n\n[PARTS]\na. P(Person is in their twenties) = 0.5030\nb. P(Person purchases minivan) = 0.1914\nc. P(Person is in their twenties OR has purchases an SUV) = 0.6105\nd. P(Person is in their twenties AND purchases a SEDAN) = 0.0673\ne. P(Person is in their thirties AND has purchases an SUV) = 0.1075\nf. P(Person is in their twenties GIVEN person purchases a minivan) = 0.7075\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1530,14 +1501,13 @@
   "sectionId": "3.5",
   "kind": "open",
   "conceptTag": "3.5",
-  "stem": "Answer these questions using probability rules. Do NOT use the contingency table. A total of 6,481 new vehicles were purchased over a monthly time period in a certain county. These purchases will be our population. Of these purchases, 36% were made by people in their twenties, and 42% were purchases of sedans. 20% of purchases were for sedans purchased by people in their twenties.\n\na. Find P(Person is in their twenties).\nb. Find P(Person purchased a sedan).\nc. Find P(Person is in their twenties GIVEN person purchased a sedan)",
+  "stem": "Answer these questions using probability rules. Do NOT use the contingency table. A total of 6,481 new vehicles were purchased over a monthly time period in a certain county. These purchases will be our population. Of these purchases, 36% were made by people in their twenties, and 42% were purchases of sedans. 20% of purchases were for sedans purchased by people in their twenties.\n\n[PARTS]\na. Find P(Person is in their twenties).\nb. Find P(Person purchased a sedan).\nc. Find P(Person is in their twenties GIVEN person purchased a sedan)\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m46944",
    "exerciseId": "element-148s"
   },
-  "context": "Use the following information to answer the next two exercises. The percent of licensed U.S. drivers (from a recent year) that are women is 48.60. Of the women, 5.03% are age 19 and under; 81.36% are age 20–64; 13.61% are age 65 or over. Of the licensed U.S. men drivers, 5.04% are age 19 and under; 81.43% are age 20–64; 13.53% are age 65 or over.",
-  "modelSolution": "a. P(Person is in their twenties) = 0.36.\nb. P(Person purchased a sedan) = 0.42\nc. P(Person is in their twenties a woman GIVEN person purchased a sedan) = 0.4762",
+  "modelSolution": "[PARTS]\na. P(Person is in their twenties) = 0.36.\nb. P(Person purchased a sedan) = 0.42\nc. P(Person is in their twenties a woman GIVEN person purchased a sedan) = 0.4762\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1697,7 +1667,7 @@
    "test": "Practice Test 1",
    "n": 65
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.",
+  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | 482 | 200 | 682\nStudy less than 15 hours/week | 125 | 193 | 318\nTotal | 607 | 393 | 1,000\n[/TABLE]",
   "needsFigure": false,
   "explanation": []
@@ -1713,7 +1683,7 @@
    "test": "Practice Test 1",
    "n": 66
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.",
+  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "P(honor roll|study at least 15 hours per week) = 482/682, or about 0.707",
   "needsFigure": false,
   "explanation": []
@@ -1729,7 +1699,7 @@
    "test": "Practice Test 1",
    "n": 67
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.",
+  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.\n\n[TABLE]\n| Honor roll | No honor roll | Total\nStudy at least 15 hours/week | | 200 |\nStudy less than 15 hours/week | 125 | 193 |\nTotal | | | 1,000\n[/TABLE]",
   "modelSolution": "P(study less than 15 hours per week)=318/1000, or 0.318",
   "needsFigure": false,
   "explanation": []
@@ -1745,7 +1715,6 @@
    "test": "Practice Test 1",
    "n": 68
   },
-  "context": "Use the following information to answer the next three exercises. The following contingency table displays the number of students who report studying at least 15 hours per week, and how many made the honor roll in the past semester.",
   "modelSolution": "Let P(S) = study at least 15 hours per week\nLet P(H) = makes the honor roll\nFrom the table, P(S) = 0.682, P(H) = 0.607, and P(S AND H) =0.482.\nIf P(S) and P(H) were independent, then P(S AND H) would equal (P(S))(P(H)).\nHowever, (P(S))(P(H)) = (0.682)(0.607) = 0.414, while P(S AND H) = 0.482.\nTherefore, P(S) and P(H) are not independent.",
   "needsFigure": false,
   "explanation": []
@@ -1791,7 +1760,7 @@
    "test": "Practice Final Exam 1",
    "n": 1
   },
-  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n• Let Event A = both dice show an even number.\n• Let Event B = both dice show a number more than eight",
+  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
   "options": [
    "mutually exclusive.",
    "independent.",
@@ -1815,7 +1784,7 @@
    "test": "Practice Final Exam 1",
    "n": 2
   },
-  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n• Let Event A = both dice show an even number.\n• Let Event B = both dice show a number more than eight",
+  "context": "Use the following information to answer the next two exercises: An experiment consists of tossing two, 12-sided dice (the numbers 1–12 are printed on the sides of each die).\n[LIST]\nLet Event A = both dice show an even number.\nLet Event B = both dice show a number more than eight\n[/LIST]",
   "options": [
    "2/4",
    "16/144",
@@ -1878,26 +1847,42 @@
  },
  {
   "id": "fe1-6",
-  "sectionId": "3.3",
-  "kind": "mc",
-  "conceptTag": "3.3",
-  "stem": "Find the probability that a teenager is reminded two times.",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Find the probability that a teenager is reminded two times.\n[PARTS]\na. 8\nb. 8/40\nc. 6/40\nd. 2\n[/PARTS]",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 1",
    "n": 6
   },
-  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. shows the results of the survey.",
+  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
+  "modelSolution": "b. 8/40",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "fe1-7",
+  "sectionId": "3.4",
+  "kind": "mc",
+  "conceptTag": "3.4",
+  "stem": "Find the expected number of times a teenager is reminded to do their chores.",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 7
+  },
+  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. the table below shows the results of the survey.\n\n[TABLE]\nx | P (x)\n0 | 2/40\n1 | 5/40\n2 |\n3 | 14/40\n4 | 7/40\n5 | 4/40\n[/TABLE]",
   "options": [
-   "8",
-   "8/40",
-   "6/40",
-   "2"
+   "15",
+   "2.78",
+   "1.0",
+   "3.13"
   ],
   "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "b. 8/40"
+   "b. 2.78"
   ]
  },
  {
@@ -1925,30 +1910,6 @@
   ]
  },
  {
-  "id": "fe1-14",
-  "sectionId": "3.4",
-  "kind": "mc",
-  "conceptTag": "3.4",
-  "stem": "Which student is the BEST when compared to the other runners at her school?",
-  "source": "openstax-final",
-  "sourceRef": {
-   "test": "Practice Final Exam 1",
-   "n": 14
-  },
-  "context": "Kia, Alejandra, and Iris are runners on the track teams at three different schools. Their running times, in minutes, and the statistics for the track teams at their respective schools, for a one mile run, are given in the table below:",
-  "options": [
-   "Kia",
-   "Alejandra",
-   "Iris",
-   "Impossible to determine"
-  ],
-  "correctIndex": 2,
-  "needsFigure": false,
-  "explanation": [
-   "c. Iris"
-  ]
- },
- {
   "id": "fe1-20",
   "sectionId": "3.4",
   "kind": "mc",
@@ -1959,7 +1920,7 @@
    "test": "Practice Final Exam 1",
    "n": 20
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in .\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
   "options": [
    "simple random",
    "systematic",
@@ -1983,7 +1944,7 @@
    "test": "Practice Final Exam 1",
    "n": 21
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in .\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
   "options": [
    "49",
    "25",
@@ -1999,98 +1960,82 @@
  {
   "id": "fe1-22",
   "sectionId": "3.4",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.4",
-  "stem": "What is the 60th percentile for the this data?",
+  "stem": "What is the 60th percentile for the this data?\n[DATA]2, 3, 4, 5[/DATA]",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 1",
    "n": 22
   },
-  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in .\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
-  "options": [
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "correctIndex": 2,
+  "context": "Use the following information to answer the next three exercises: A community college offers classes 6 days a week: Monday through Saturday. Maria conducted a study of the students in her classes to determine how many days per week the students who are in her classes come to campus for classes. In each of her 5 classes she randomly selected 10 students and asked them how many days they come to campus for classes. Each of her classes are the same size. The results of her survey are summarized in the table below.\n[TABLE]\nNumber of Days on Campus | Frequency | Relative Frequency | Cumulative Relative Frequency\n1 | 2 | |\n2 | 12 | .24 |\n3 | 10 | .20 |\n4 | | | .98\n5 | 0 | |\n6 | 1 | .02 | 1.00\n[/TABLE]",
+  "modelSolution": "c. 4",
   "needsFigure": false,
-  "explanation": [
-   "c. 4"
-  ]
+  "explanation": []
  },
  {
-  "id": "fe1-25",
+  "id": "fe1-34",
   "sectionId": "3.4",
   "kind": "mc",
   "conceptTag": "3.4",
-  "stem": "X ~ U(4, 10). Find the 30th percentile.",
+  "stem": "The distribution for the test is:",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 1",
-   "n": 25
+   "n": 34
   },
-  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
   "options": [
-   "0.3000",
-   "3",
-   "5.8",
-   "6.1"
+   "Chi^2_8.",
+   "Chi^2_3.",
+   "t_(721).",
+   "N(0,1)."
   ],
-  "correctIndex": 2,
+  "correctIndex": 1,
   "needsFigure": false,
   "explanation": [
-   "c. 5.8"
+   "b. Chi^2_3."
   ]
  },
  {
-  "id": "fe1-26",
+  "id": "fe1-35",
   "sectionId": "3.4",
   "kind": "mc",
   "conceptTag": "3.4",
-  "stem": "If X ~ Exp(0.8), then P(x < μ) = __________",
+  "stem": "The expected number of female who choose finance is:",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 1",
-   "n": 26
+   "n": 35
   },
-  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
+  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.\n\n[TABLE]\n| Female | Male\nAccounting | 68 | 56\nAdministration | 91 | 40\nEconomics | 5 | 6\nFinance | 61 | 59\n[/TABLE]",
   "options": [
-   "0.3679",
-   "0.4727",
-   "0.6321",
-   "cannot be determined"
+   "37.",
+   "61.",
+   "60.",
+   "70."
   ],
-  "correctIndex": 2,
+  "correctIndex": 3,
   "needsFigure": false,
   "explanation": [
-   "c. 0.6321"
+   "d. 70"
   ]
  },
  {
-  "id": "fe1-29",
+  "id": "fe2-2",
   "sectionId": "3.4",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.4",
-  "stem": "Winning times in 26 mile marathons run by world class runners average 145 minutes with a standard deviation of 14 minutes. A sample of the last ten marathon winning times is collected. Let x = mean winning times for ten marathons. The distribution for x is:",
+  "stem": "The box plot for the data is:",
   "source": "openstax-final",
   "sourceRef": {
-   "test": "Practice Final Exam 1",
-   "n": 29
+   "test": "Practice Final Exam 2",
+   "n": 2
   },
-  "context": "Use the following information to answer the next two exercises: The following data are the results of a random survey of 110 Reservists called to active duty to increase security at California airports.\n[TABLE]\nNumber of Dependents | Frequency\n0 | 11\n1 | 27\n2 | 33\n3 | 20\n4 | 19\n[/TABLE]",
-  "options": [
-   "N(145,14/(√(10)))",
-   "N(145,14)",
-   "t_9",
-   "t_10"
-  ],
-  "correctIndex": 0,
+  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]",
+  "modelSolution": "a.",
   "needsFigure": false,
-  "explanation": [
-   "a. N(14514/(√(10)))"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-3",
@@ -2103,7 +2048,7 @@
    "test": "Practice Final Exam 2",
    "n": 3
   },
-  "context": "Use the following information to answer the next two exercises:",
+  "context": "Use the following information to answer the next two exercises:\n\n[TABLE]\nvalue | frequency\n0 | 1\n1 | 4\n2 | 7\n3 | 9\n6 | 4\n[/TABLE]\n\n[FIGURE]",
   "options": [
    "six",
    "one",
@@ -2111,7 +2056,7 @@
    "eight"
   ],
   "correctIndex": 2,
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": [
    "c. seven"
   ]
@@ -2283,22 +2228,6 @@
   ]
  },
  {
-  "id": "fe2-32",
-  "sectionId": "3.4",
-  "kind": "open",
-  "conceptTag": "3.4",
-  "stem": "Suppose that a sample of size ten was collected, with x̄ = 4.4 and s = 1.4. H0: σ2 = 1.6 vs. Ha: σ2 ≠ 1.6. Which graph best describes the results of the test?",
-  "source": "openstax-final",
-  "sourceRef": {
-   "test": "Practice Final Exam 2",
-   "n": 32
-  },
-  "context": "Use the following information to answer the next three exercises: A corporation has offices in different parts of the country. It has gathered the following information concerning the number of bathrooms and the number of employees at seven sites:\n[TABLE]\nNumber of employees x | 650 | 730 | 810 | 900 | 102 | 107 | 1150\nNumber of bathrooms y | 40 | 50 | 54 | 61 | 82 | 110 | 121\n[/TABLE]",
-  "modelSolution": "a.",
-  "needsFigure": false,
-  "explanation": []
- },
- {
   "id": "rv4-9",
   "sectionId": "3.3",
   "kind": "mc",
@@ -2357,7 +2286,7 @@
    "test": "Chapter 4",
    "n": 12
   },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
+  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
   "answer": 0.5773,
   "tolerance": {
    "abs": 0.005,
@@ -2380,7 +2309,7 @@
    "test": "Chapter 4",
    "n": 13
   },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
+  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.\n\n[TABLE]\nGender/Ethnic group | White | Asian | Hispanic | Black | American Indian\nMale | 400 | 168 | 115 | 35 | 16\nFemale | 440 | 132 | 140 | 40 | 14\n[/TABLE]",
   "answer": 0.0522,
   "tolerance": {
    "abs": 0.005,
@@ -2393,89 +2322,16 @@
   ]
  },
  {
-  "id": "rv4-14",
-  "sectionId": "3.4",
-  "kind": "mc",
-  "conceptTag": "3.4",
-  "stem": "A sample of pounds lost, in a certain month, by individual members of a weight reducing clinic produced the following statistics:\n\n• Mean = 5 lbs.\n• Median = 4.5 lbs.\n• Mode = 4 lbs.\n• Standard deviation = 3.8 lbs.\n• First quartile = 2 lbs.\n• Third quartile = 8.5 lbs.\n\nThe correct statement is:",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 4",
-   "n": 14
-  },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
-  "options": [
-   "One fourth of the members lost exactly two pounds.",
-   "The middle fifty percent of the members lost from two to 8.5 lbs.",
-   "Most people lost 3.5 to 4.5 lbs.",
-   "All of the choices above are correct."
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. The middle fifty percent of the members lost from 2 to 8.5 lbs."
-  ]
- },
- {
-  "id": "rv4-15",
-  "sectionId": "3.4",
-  "kind": "mc",
-  "conceptTag": "3.4",
-  "stem": "What does it mean when a data set has a standard deviation equal to zero?",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 4",
-   "n": 15
-  },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
-  "options": [
-   "All values of the data appear with the same frequency.",
-   "The mean of the data is also zero.",
-   "All of the data have the same value.",
-   "There are no data to begin with."
-  ],
-  "correctIndex": 2,
-  "needsFigure": false,
-  "explanation": [
-   "c. All of the data have the same value."
-  ]
- },
- {
-  "id": "rv4-16",
-  "sectionId": "3.4",
-  "kind": "mc",
-  "conceptTag": "3.4",
-  "stem": "The statement that describe the illustration is:[FIGURE]",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 4",
-   "n": 16
-  },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
-  "options": [
-   "the mean is equal to the median.",
-   "There is no first quartile.",
-   "The lowest data value is the median.",
-   "The median equals (Q_1+Q_3)/2."
-  ],
-  "correctIndex": 2,
-  "needsFigure": true,
-  "explanation": [
-   "c. The lowest data value is the median."
-  ]
- },
- {
   "id": "rv4-17",
-  "sectionId": "3.4",
+  "sectionId": "3.3",
   "kind": "numeric",
-  "conceptTag": "3.4",
+  "conceptTag": "3.3",
   "stem": "According to a recent article in the San Jose Mercury News the average number of babies born with significant hearing loss (deafness) is approximately 2 per 1000 babies in a healthy baby nursery. The number climbs to an average of 30 per 1000 babies in an intensive care nursery. Suppose that 1,000 babies from healthy baby nurseries were randomly surveyed. Find the probability that exactly two babies were born deaf.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 4",
    "n": 17
   },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
   "answer": 0.279,
   "tolerance": {
    "abs": 0.005,
@@ -2486,22 +2342,6 @@
   "explanation": [
    "0.279"
   ]
- },
- {
-  "id": "rv4-18",
-  "sectionId": "3.4",
-  "kind": "open",
-  "conceptTag": "3.4",
-  "stem": "A “friend” offers you the following “deal.” For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.\n\n• Ten of the coupons are for a free gift worth $6.\n• Eighty of the coupons are for a free gift worth $8.\n• Six of the coupons are for a free gift worth $12.\n• Four of the coupons are for a free gift worth $40.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 4",
-   "n": 18
-  },
-  "context": "Use the following information to answer the next two exercises: An article from The San Jose Mercury News was concerned with the racial mix of the 1500 students at Prospect High School in Saratoga, CA. The table summarizes the results. (Male and female values are approximate.) Suppose one Prospect High School student is randomly selected.",
-  "modelSolution": "b. No, I expect to come out behind in money.",
-  "needsFigure": false,
-  "explanation": []
  },
  {
   "id": "rv4-21",
@@ -2577,14 +2417,14 @@
   "sectionId": "3.2",
   "kind": "open",
   "conceptTag": "3.2",
-  "stem": "Being employed and working part-time:\n\na. mutually exclusive events? Why or why not?\nb. independent events? Why or why not?",
+  "stem": "Being employed and working part-time:\n\n[PARTS]\na. mutually exclusive events? Why or why not?\nb. independent events? Why or why not?\n[/PARTS]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 5",
    "n": 29
   },
   "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.",
-  "modelSolution": "a. No\nb. No",
+  "modelSolution": "[PARTS]\na. No\nb. No\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2622,7 +2462,6 @@
    "test": "Chapter 5",
    "n": 33
   },
-  "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
   "answer": 150.0,
   "tolerance": {
    "abs": 0.05,
@@ -2635,17 +2474,32 @@
   ]
  },
  {
+  "id": "rv5-35",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Explain why each statement is either true or false given the box plot in the table below.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 5",
+   "n": 35
+  },
+  "modelSolution": "[PARTS]\na. false\nb. true\nc. false\nd. false\n[/PARTS]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
   "id": "rv5-38",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "numeric",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that the girl has black hair GIVEN that she wears a ponytail.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 5",
    "n": 38
   },
-  "context": "Use the following information to answer the next three exercises: shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.",
+  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "answer": 0.5,
   "tolerance": {
    "abs": 0.06,
@@ -2659,33 +2513,48 @@
  },
  {
   "id": "rv5-39",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that the girl wears her hair plain OR has brown hair.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 5",
    "n": 39
   },
-  "context": "Use the following information to answer the next three exercises: shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.",
+  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "modelSolution": "7/15",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv5-40",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that the girl has blond hair AND that she wears her hair plain.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 5",
    "n": 40
   },
-  "context": "Use the following information to answer the next three exercises: shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.",
+  "context": "Use the following information to answer the next three exercises: the table below shows data gathered from 15 girls on the Snow Leopard soccer team when they were asked how they liked to wear their hair. Supposed one girl from the team is randomly selected.\n\n[TABLE]\nHair Style/Hair Color | Blond | Brown | Black\nPonytail | 3 | 2 | 5\nPlain | 2 | 2 | 1\n[/TABLE]",
   "modelSolution": "2/15",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv6-43",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Which of the following is true for the box plot in the table below?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 6",
+   "n": 43
+  },
+  "modelSolution": "[PARTS]\na. False – 3/4 of the data are at most five.\nb. True – each quartile has 25% of the data.\nc. False – that is unknown.\nd. False – 50% of the data are four or less.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -2700,7 +2569,6 @@
    "test": "Chapter 6",
    "n": 44
   },
-  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
   "options": [
    "G and H are mutually exclusive events.",
    "P(G) = P(H)",
@@ -2716,7 +2584,7 @@
  {
   "id": "rv6-45",
   "sectionId": "3.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.2",
   "stem": "If P(J) = 0.3, P(K) = 0.63, and J and K are independent events, then explain which are correct and which are incorrect.",
   "source": "openstax-review",
@@ -2724,25 +2592,16 @@
    "test": "Chapter 6",
    "n": 45
   },
-  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
-  "options": [
-   "P(J AND K) = 0",
-   "P(J OR K) = 0.9",
-   "P(J OR K) = 0.72",
-   "P(J) ≠ P(J|K)"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "[PARTS]\na. False – J andK are independent so they are not mutually exclusive which would imply dependency (meaningP(J ANDK) is not 0).\nb. False – see answer c.\nc. True – P(J ORK) =P(J) +P(K) –P(J ANDK) =P(J) +P(K) –P(J)P(K) = 0.3 + 0.6 – (0.3)(0.6) = 0.72. Note theP(J ANDK) =P(J)P(K) becauseJ andK are independent.\nd. False – J andK are independent soP(J) =P(J|K)\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. False – J and K are independent so they are not mutually exclusive which would imply dependency (meaning P(J AND K) is not 0).\nb. False – see answer c.\nc. True – P(J OR K) = P(J) + P(K) – P(J AND K) = P(J) + P(K) – P(J)P(K) = 0.3 + 0.6 – (0.3)(0.6) = 0.72. Note the P(J AND K) = P(J)P(K) because J and K are independent.\nd. False – J and K are independent so P(J) = P(J|K)"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-57",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "numeric",
-  "conceptTag": "3.3",
-  "stem": "Find the probability asked for in Question 56.",
+  "conceptTag": "3.4",
+  "stem": "Find the probability asked for in the table below.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
@@ -2758,6 +2617,28 @@
   "needsFigure": false,
   "explanation": [
    "0.9951"
+  ]
+ },
+ {
+  "id": "rv8-62",
+  "sectionId": "3.4",
+  "kind": "numeric",
+  "conceptTag": "3.4",
+  "stem": "Using the information in the table below, find the probability that the total time for all first accidents to occur is more than 43 hours.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 8",
+   "n": 62
+  },
+  "answer": 0.999,
+  "tolerance": {
+   "abs": 0.005,
+   "rel": 0.01
+  },
+  "unit": null,
+  "needsFigure": false,
+  "explanation": [
+   "0.9990"
   ]
  },
  {
@@ -2834,87 +2715,109 @@
  {
   "id": "rv8-70",
   "sectionId": "3.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.2",
-  "stem": "P(A AND B) = ______",
+  "stem": "P(A AND B) = ______\n[DATA]0.5, 0.6, 0, 0.06[/DATA]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
    "n": 70
   },
   "context": "Use the following information to answer the next two exercises: P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
-  "options": [
-   "0.5",
-   "0.6",
-   "0",
-   "0.06"
-  ],
-  "correctIndex": 3,
+  "modelSolution": "d. 0.06",
   "needsFigure": false,
-  "explanation": [
-   "d. 0.06"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-71",
   "sectionId": "3.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.2",
-  "stem": "P(A OR B) = _______",
+  "stem": "P(A OR B) = _______\n[DATA]0.56, 0.5, 0.44, 1[/DATA]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
    "n": 71
   },
   "context": "Use the following information to answer the next two exercises: P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
-  "options": [
-   "0.56",
-   "0.5",
-   "0.44",
-   "1"
-  ],
-  "correctIndex": 2,
+  "modelSolution": "c. 0.44",
   "needsFigure": false,
-  "explanation": [
-   "c. 0.44"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-72",
   "sectionId": "3.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "3.2",
-  "stem": "If H and D are mutually exclusive events, P(H) = 0.25, P(D) = 0.15, then P(H|D).",
+  "stem": "If H and D are mutually exclusive events, P(H) = 0.25, P(D) = 0.15, then P(H|D).\n[DATA]1, 0, 0.40, 0.0375[/DATA]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
    "n": 72
   },
-  "context": "Use the following information to answer the next two exercises: P(A) = 0.2, P(B) = 0.3; A and B are independent events.",
-  "options": [
-   "1",
-   "0",
-   "0.40",
-   "0.0375"
-  ],
-  "correctIndex": 1,
+  "modelSolution": "b. 0",
   "needsFigure": false,
-  "explanation": [
-   "b. 0"
-  ]
+  "explanation": []
+ },
+ {
+  "id": "rv9-74",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Construct a histogram of the IPO data (see the table below).",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 74
+  },
+  "modelSolution": "Answers will vary.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv9-75",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Complete the cumulative frequency column.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 75
+  },
+  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "modelSolution": "[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 | 0.3\n2 | 0.2 | 0.2\n4 | 0.4 | 0.4\n5 | 0.1 | 0.1\n[/TABLE]",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv9-77",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Calculate the median, M, the first quartile, Q1, the third quartile, Q3. Then construct a box plot of the data.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 77
+  },
+  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.\n\n[TABLE]\nx | Relative Frequency | Cumulative Relative Frequency\n1 | 0.3 |\n2 | 0.2 |\n4 | 0.4 |\n5 | 0.1 |\n[/TABLE]",
+  "modelSolution": "M = 3; Q1 = 1; Q3 = 4",
+  "needsFigure": false,
+  "explanation": []
  },
  {
   "id": "rv9-79",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "mc",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that one randomly chosen child is in the 6th grade and prefers fried shrimp.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 9",
    "n": 79
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
   "options": [
    "32/70",
    "8/32",
@@ -2929,40 +2832,32 @@
  },
  {
   "id": "rv9-80",
-  "sectionId": "3.3",
-  "kind": "mc",
-  "conceptTag": "3.3",
-  "stem": "Find the probability that a child does not prefer pizza.",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
+  "stem": "Find the probability that a child does not prefer pizza.\n[PARTS]\na. 30/70\nb. 30/40\nc. 40/70\nd. 1\n[/PARTS]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 9",
    "n": 80
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
-  "options": [
-   "30/70",
-   "30/40",
-   "40/70",
-   "1"
-  ],
-  "correctIndex": 2,
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
+  "modelSolution": "c. 40/70",
   "needsFigure": false,
-  "explanation": [
-   "c. 40/70"
-  ]
+  "explanation": []
  },
  {
   "id": "rv9-81",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "mc",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability a child is in the 5th grade given that the child prefers spaghetti.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 9",
    "n": 81
   },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
+  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.\n\n[TABLE]\n| Pizza | Hamburgers | Spaghetti | Fried shrimp\n5th grader | 15 | 6 | 9 | 0\n6th grader | 15 | 7 | 10 | 8\n[/TABLE]",
   "options": [
    "9/19",
    "9/70",
@@ -2976,126 +2871,52 @@
   ]
  },
  {
-  "id": "rv9-82",
-  "sectionId": "3.1",
-  "kind": "mc",
-  "conceptTag": "3.1",
-  "stem": "A sample of convenience is a random sample.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 9",
-   "n": 82
-  },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
-  "options": [
-   "true",
-   "false"
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. false"
-  ]
- },
- {
-  "id": "rv9-83",
-  "sectionId": "3.1",
-  "kind": "mc",
-  "conceptTag": "3.1",
-  "stem": "A statistic is a number that is a property of the population.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 9",
-   "n": 83
-  },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
-  "options": [
-   "true",
-   "false"
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. false"
-  ]
- },
- {
-  "id": "rv9-84",
-  "sectionId": "3.1",
-  "kind": "mc",
-  "conceptTag": "3.1",
-  "stem": "You should always throw out any data that are outliers.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 9",
-   "n": 84
-  },
-  "context": "Use the following information to answer the next three exercises: Seventy 5th and 6th graders were asked their favorite dinner.",
-  "options": [
-   "true",
-   "false"
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. false"
-  ]
- },
- {
   "id": "rv10-88",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that the person was a skier or was age 11–20.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 10",
    "n": 88
   },
-  "context": "Suppose that one person from was randomly selected.",
+  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
   "modelSolution": "77/100",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv10-89",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Find the probability that the person was a snowboarder given they were age 21–40.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 10",
    "n": 89
   },
-  "context": "Suppose that one person from was randomly selected.",
+  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
   "modelSolution": "12/42",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv10-90",
-  "sectionId": "3.2",
-  "kind": "mc",
-  "conceptTag": "3.2",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
   "stem": "Explain which of the following are true and which are false.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 10",
    "n": 90
   },
-  "context": "Suppose that one person from was randomly selected.",
-  "options": [
-   "Sport and age are independent events.",
-   "Ski and age 11–20 are mutually exclusive events.",
-   "P(Ski AND age 21–40) < P(Ski|age 21–40)",
-   "P(Snowboard OR age 0–10) < P(Snowboard|age 0–10)"
-  ],
-  "correctIndex": 0,
+  "context": "Use the following information to answer the next three exercises: In a survey at Kirkwood Ski Resort the following information was recorded:\n\n[TABLE]\n| 0–10 | 11–20 | 21–40 | 40+\nSki | 10 | 12 | 30 | 8\nSnowboard | 6 | 17 | 12 | 5\n[/TABLE]\n\nSuppose that one person from the table below was randomly selected.",
+  "modelSolution": "[PARTS]\na. false\nb. false\nc. true\nd. false\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. false\nb. false\nc. true\nd. false"
-  ]
+  "explanation": []
  },
  {
   "id": "rv10-95",
@@ -3169,38 +2990,6 @@
   "explanation": []
  },
  {
-  "id": "rv11-114",
-  "sectionId": "3.2",
-  "kind": "open",
-  "conceptTag": "3.2",
-  "stem": "A game is played with the following rules:\n\n• it costs $10 to enter.\n• a fair coin is tossed four times.\n• if you do not get four heads or four tails, you lose your $10.\n• if you get four heads or four tails, you get back your $10, plus $30 more.\n\nOver the long run of playing this game, what are your expected earnings?",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 11",
-   "n": 114
-  },
-  "context": "Use the following information to answer the next two exercises: The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
-  "modelSolution": "You will lose $5.",
-  "needsFigure": false,
-  "explanation": []
- },
- {
-  "id": "rv11-115",
-  "sectionId": "3.2",
-  "kind": "open",
-  "conceptTag": "3.2",
-  "stem": "• The mean grade on a math exam in Rachel’s class was 74, with a standard deviation of five. Rachel earned an 80.\n• The mean grade on a math exam in Becca’s class was 47, with a standard deviation of two. Becca earned a 51.\n• The mean grade on a math exam in Matt’s class was 70, with a standard deviation of eight. Matt earned an 83.\n\nFind whose score was the best, compared to their own class. Justify your answer numerically.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 11",
-   "n": 115
-  },
-  "context": "Use the following information to answer the next two exercises: The probability that a certain slot machine will pay back money when a quarter is inserted is 0.30. Assume that each play of the slot machine is independent from each other. A person puts in 15 quarters for 15 plays.",
-  "modelSolution": "Becca",
-  "needsFigure": false,
-  "explanation": []
- },
- {
   "id": "rv13-129",
   "sectionId": "3.2",
   "kind": "numeric",
@@ -3248,48 +3037,48 @@
  },
  {
   "id": "rv13-131",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Suppose that one individual is randomly chosen. Find the probability that the person’s favorite pie is apple or the person is male.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 131
   },
-  "context": "Use the following information to answer the next three exercises:",
+  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "100/140",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv13-132",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Suppose that one male is randomly chosen. Find the probability his favorite pie is pecan.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 132
   },
-  "context": "Use the following information to answer the next three exercises:",
+  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "10/60",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv13-133",
-  "sectionId": "3.2",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.2",
+  "conceptTag": "3.4",
   "stem": "Conduct a hypothesis test to determine if favorite pie type and gender are independent.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 133
   },
-  "context": "Use the following information to answer the next three exercises:",
+  "context": "Use the following information to answer the next three exercises:\n\n[TABLE]\n| Apple | Pumpkin | Pecan\nFemale | 40 | 10 | 30\nMale | 20 | 30 | 10\n[/TABLE]",
   "modelSolution": "p-value = 0; Reject the null hypothesis; conclude that they are dependent events",
   "needsFigure": false,
   "explanation": []
@@ -3334,87 +3123,49 @@
   "explanation": []
  },
  {
-  "id": "rv13-139",
-  "sectionId": "3.3",
-  "kind": "open",
-  "conceptTag": "3.3",
-  "stem": "In a survey of 80 males, 55 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. Conduct a hypothesis test.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 13",
-   "n": 139
-  },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
-  "modelSolution": "p-value = 0; reject the null hypothesis; conclude that the proportion of males is higher",
-  "needsFigure": false,
-  "explanation": []
- },
- {
-  "id": "rv13-140",
-  "sectionId": "3.3",
-  "kind": "open",
-  "conceptTag": "3.3",
-  "stem": "Which of the following is preferable when designing a hypothesis test?",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 13",
-   "n": 140
-  },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
-  "modelSolution": "Minimize α and β",
-  "needsFigure": false,
-  "explanation": []
- },
- {
   "id": "rv13-141",
-  "sectionId": "3.2",
-  "kind": "mc",
-  "conceptTag": "3.2",
+  "sectionId": "3.4",
+  "kind": "open",
+  "conceptTag": "3.4",
   "stem": "Are the events of milk and 30+:",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 141
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.",
-  "options": [
-   "independent events? Justify your answer.",
-   "mutually exclusive events? Justify your answer."
-  ],
-  "correctIndex": 0,
+  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
+  "modelSolution": "[PARTS]\na. No\nb. Yes, P(M AND 30+) = 0\n[/PARTS]",
   "needsFigure": false,
-  "explanation": [
-   "a. No\nb. Yes, P(M AND 30+) = 0"
-  ]
+  "explanation": []
  },
  {
   "id": "rv13-142",
-  "sectionId": "3.3",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.3",
+  "conceptTag": "3.4",
   "stem": "Suppose that one person is randomly chosen. Find the probability that person is 10–19 given that they prefer juice.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 142
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.",
+  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
   "modelSolution": "12/38",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "rv13-143",
-  "sectionId": "3.2",
+  "sectionId": "3.4",
   "kind": "open",
-  "conceptTag": "3.2",
+  "conceptTag": "3.4",
   "stem": "Are “Preferred Beverage” and “Age” independent events? Conduct a hypothesis test.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 13",
    "n": 143
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.",
+  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.\n\n[TABLE]\nBeverage/Age | 0–9 | 10–19 | 20–29 | 30+ | Totals\nMilk | 14 | 10 | 6 | 0 | 30\nSoda | 3 | 8 | 26 | 15 | 52\nJuice | 7 | 12 | 12 | 7 | 38\nTotals | 24 | 330 | 44 | 22 | 120\n[/TABLE]",
   "modelSolution": "No; p-value = 0",
   "needsFigure": false,
   "explanation": []

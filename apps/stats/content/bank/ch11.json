@@ -62,7 +62,6 @@
    "module": "m47062",
    "exerciseId": "element-612"
   },
-  "context": "Decide whether the following statements are true or false.",
   "modelSolution": "true",
   "needsFigure": false,
   "explanation": []
@@ -78,7 +77,6 @@
    "module": "m47062",
    "exerciseId": "element-389"
   },
-  "context": "Decide whether the following statements are true or false.",
   "modelSolution": "false",
   "needsFigure": false,
   "explanation": []
@@ -88,7 +86,7 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in .\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 6\n201–300 | 7\n301–400 | 8\n401–500 | 10\n[/TABLE]\n\nA random sample was taken to determine the actual number of defects. shows the results of the survey.\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 7\n201–300 | 8\n301–400 | 9\n401–500 | 11\n[/TABLE]\n\nState the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.",
+  "stem": "A factory manager needs to understand how many products are defective versus how many are produced. The number of expected defects is listed in the table below.\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 6\n201–300 | 7\n301–400 | 8\n401–500 | 10\n[/TABLE]\n\nA random sample was taken to determine the actual number of defects. the table below shows the results of the survey.\n\n[TABLE]\nNumber produced | Number defective\n0–100 | 5\n101–200 | 7\n201–300 | 8\n301–400 | 9\n401–500 | 11\n[/TABLE]\n\nState the null and alternative hypotheses needed to conduct a goodness-of-fit test, and state the degrees of freedom.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47064",
@@ -104,7 +102,7 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in .\n\n[TABLE]\n| Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday\nNumber of Students | 11 | 8 | 10 | 7 | 10 | 5 | 5\n[/TABLE]\n\nFrom the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?",
+  "stem": "Teachers want to know which night each week their students are doing most of their homework. Most teachers think that students do homework equally throughout the week. Suppose a random sample of 56 students were asked on which night of the week they did the most homework. The results were distributed as in the table below.\n\n[TABLE]\n| Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday\nNumber of Students | 11 | 8 | 10 | 7 | 10 | 5 | 5\n[/TABLE]\n\nFrom the population of students, do the nights for the highest number of students doing the majority of their homework occur with equal frequencies during a week? What type of hypothesis test should you use?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47064",
@@ -120,7 +118,7 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in .\n\n[TABLE]\nNumber of Pets | Percent\n0 | 18\n1 | 25\n2 | 30\n3 | 18\n4+ | 9\n[/TABLE]\n\nA random sample of 1,000 students from the Eastern United States resulted in the data in .\n\n[TABLE]\nNumber of Pets | Frequency\n0 | 210\n1 | 240\n2 | 320\n3 | 140\n4+ | 90\n[/TABLE]\n\nAt the 1% significance level, does it appear that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole? What is the p-value?",
+  "stem": "The expected percentage of the number of pets students have in their homes is distributed (this is the given distribution for the student population of the United States) as in the table below.\n\n[TABLE]\nNumber of Pets | Percent\n0 | 18\n1 | 25\n2 | 30\n3 | 18\n4+ | 9\n[/TABLE]\n\nA random sample of 1,000 students from the Eastern United States resulted in the data in the table below.\n\n[TABLE]\nNumber of Pets | Frequency\n0 | 210\n1 | 240\n2 | 320\n3 | 140\n4+ | 90\n[/TABLE]\n\nAt the 1% significance level, does it appear that the distribution “number of pets” of students in the Eastern United States is different from the distribution for the United States student population as a whole? What is the p-value?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47064",
@@ -136,7 +134,7 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "Students in a social studies class hypothesize that the literacy rates across the world for every region are 82%. shows the actual literacy rates across the world broken down by region. What are the test statistic and the degrees of freedom?\n\n[TABLE]\nMDG Region | Adult Literacy Rate (%)\nDeveloped Regions | 99.0\nCommonwealth of Independent States | 99.5\nNorthern Africa | 67.3\nSub-Saharan Africa | 62.5\nLatin America and the Caribbean | 91.0\nEastern Asia | 93.8\nSouthern Asia | 61.9\nSouth-Eastern Asia | 91.9\nWestern Asia | 84.5\nOceania | 66.4\n[/TABLE]",
+  "stem": "Students in a social studies class hypothesize that the literacy rates across the world for every region are 82%. the table below shows the actual literacy rates across the world broken down by region. What are the test statistic and the degrees of freedom?\n\n[TABLE]\nMDG Region | Adult Literacy Rate (%)\nDeveloped Regions | 99.0\nCommonwealth of Independent States | 99.5\nNorthern Africa | 67.3\nSub-Saharan Africa | 62.5\nLatin America and the Caribbean | 91.0\nEastern Asia | 93.8\nSouthern Asia | 61.9\nSouth-Eastern Asia | 91.9\nWestern Asia | 84.5\nOceania | 66.4\n[/TABLE]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47064",
@@ -158,7 +156,6 @@
    "module": "m47064",
    "exerciseId": "eip-906"
   },
-  "context": "Determine the appropriate test to be used in the next three exercises.",
   "modelSolution": "a goodness-of-fit test",
   "needsFigure": false,
   "explanation": []
@@ -174,7 +171,7 @@
    "module": "m47064",
    "exerciseId": "eip-760"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -197,7 +194,7 @@
    "module": "m47064",
    "exerciseId": "eip-462"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "answer": 2.04,
   "tolerance": {
    "abs": 0.006,
@@ -220,7 +217,7 @@
    "module": "m47064",
    "exerciseId": "eip-873"
   },
-  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in .\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\nThe actual distribution for a class of 20 is in .\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises: A teacher predicts that the distribution of grades on the final exam will be and they are recorded in the table below.\n\n[TABLE]\nGrade | Proportion\nA | 0.25\nB | 0.30\nC | 0.35\nD | 0.10\n[/TABLE]\n\nThe actual distribution for a class of 20 is in the table below.\n\n[TABLE]\nGrade | Frequency\nA | 7\nB | 7\nC | 5\nD | 1\n[/TABLE]",
   "modelSolution": "We decline to reject the null hypothesis. There is not enough evidence to suggest that the observed test scores are significantly different from the expected test scores.",
   "needsFigure": false,
   "explanation": []
@@ -236,7 +233,7 @@
    "module": "m47064",
    "exerciseId": "element-806"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "H0: the distribution of COVID-19 cases follows the ethnicities of the general population of Santa Clara County.",
   "needsFigure": false,
   "explanation": []
@@ -252,7 +249,7 @@
    "module": "m47064",
    "exerciseId": "element-502"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "right-tailed",
   "needsFigure": false,
   "explanation": []
@@ -268,7 +265,7 @@
    "module": "m47064",
    "exerciseId": "element-575"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "answer": 2016.136,
   "tolerance": {
    "abs": 0.005,
@@ -291,7 +288,7 @@
    "module": "m47064",
    "exerciseId": "fs-idp52863376"
   },
-  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in .\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\nThe percentage of each ethnic group in Santa Clara County is as in .\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
+  "context": "Use the following information to answer the next nine exercises: The cumulative number of COVID-19 related cases reported for Santa Clara County for a certain time period is broken down by ethnicity as in the table below.\n\n[TABLE]\nEthnicity | Number of Cases\nWhite | 2,229\nHispanic/Latino | 1,157\nBlack/African-American | 457\nAsian, Pacific Islander | 232\n| Total = 4,075\n[/TABLE]\n\nThe percentage of each ethnic group in Santa Clara County is as in the table below.\n\n[TABLE]\nEthnicity | Percentage of total county population | Number\nexpected (round to two decimal places)\nWhite | 42.9% | 1748.18\nHispanic/Latino | 26.7% |\nBlack/African-American | 2.6% |\nAsian, Pacific Islander | 27.8% |\n| Total = 100% |\n[/TABLE]",
   "modelSolution": "Graph: Answers may vary.\n\nDecision: Reject the null hypothesis.\n\nReason for the Decision: p-value < alpha\n\nConclusion (write out in complete sentences): The make-up of COVID-19 cases does not fit the ethnicities of the general population of Santa Clara County.",
   "needsFigure": true,
   "explanation": []
@@ -301,14 +298,13 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "The marital status distribution of the population of U.S. men, ages 15 and older, is as shown in .\n\n[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 |\nmarried | 56.1 |\nwidowed | 2.5 |\ndivorced/separated | 10.1 |\n[/TABLE]\n\nSuppose that a random sample of 400 U.S. young adults, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in , rounding to two decimal places.\n\n[TABLE]\nMarital Status | Frequency\nnever married | 140\nmarried | 238\nwidowed | 2\ndivorced/separated | 20\n[/TABLE]",
+  "stem": "The marital status distribution of the population of U.S. men, ages 15 and older, is as shown in the table below.\n\n[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 |\nmarried | 56.1 |\nwidowed | 2.5 |\ndivorced/separated | 10.1 |\n[/TABLE]\n\nSuppose that a random sample of 400 U.S. young adults, 18 to 24 years old, yielded the following frequency distribution. We are interested in whether this age group fits the distribution of the U.S. adult population. Calculate the frequency one would expect when surveying 400 people. Fill in the table below, rounding to two decimal places.\n\n[TABLE]\nMarital Status | Frequency\nnever married | 140\nmarried | 238\nwidowed | 2\ndivorced/separated | 20\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47064",
    "exerciseId": "element-340"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 | 125.2\nmarried | 56.1 | 224.4\nwidowed | 2.5 | 10\ndivorced/separated | 10.1 | 40.4\n[/TABLE]\n\na. The data fits the distribution.\nb. The data does not fit the distribution.\nc. 3\nd. chi-square distribution with df = 3\ne. 19.27\nf. 0.0002\ng. Check student’s solution.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject null\niii. Reason for decision: p-value < alpha\niv. Conclusion: Data does not fit the distribution.",
+  "modelSolution": "[TABLE]\nMarital Status | Percent | Expected Frequency\nnever married | 31.3 | 125.2\nmarried | 56.1 | 224.4\nwidowed | 2.5 | 10\ndivorced/separated | 10.1 | 40.4\n[/TABLE]\n\n[PARTS]\na. The data fits the distribution.\nb. The data does not fit the distribution.\nc. 3\nd. chi-square distribution with df = 3\ne. 19.27\nf. 0.0002\ng. Check student’s solution.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject null iii. Reason for decision: p-value < alpha iv. Conclusion: Data does not fit the distribution. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -323,8 +319,8 @@
    "module": "m47064",
    "exerciseId": "element-849"
   },
-  "context": "Use the following information to answer the next two exercises: The columns in contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]",
-  "modelSolution": "a. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject null when a = 0.05\niii. Reason for Decision: p-value < alpha\niv. Conclusion: Local data do not fit the mass transit Distribution.\nv. Decision: Do not reject null when a = 0.01\nvi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit.",
+  "context": "Use the following information to answer the next two exercises: The columns in the table below contain the Race/Ethnicity of U.S. Public Schools for a recent year, the percentages for students using mass transit to get to school, and the Overall Student Population. Suppose the right column contains the result of a survey of 1,000 local students from that year who used mass transit to get to school.\n\n[TABLE]\nRace/Ethnicity | Percentage Who Use Mass Transit to Get to School | Overall Student Population | Survey Frequency\nAsian, Asian American, or Pacific Islander | 10.2% | 5.4% | 113\nBlack or African-American | 8.2% | 14.5% | 94\nHispanic or Latino | 15.5% | 15.9% | 136\nAmerican Indian or Alaska Native | 0.6% | 1.2% | 10\nWhite | 59.4% | 61.6% | 604\nNot reported/other | 6.1% | 1.4% | 43\n[/TABLE]",
+  "modelSolution": "[PARTS]\na. H0: The local results follow the distribution of the percentage of students who use mass transit to get to school\nb. Ha: The local results do not follow the distribution of the percentage of students who use mass transit to get to school\nc. df = 5\nd. chi-square distribution with df = 5\ne. chi-square test statistic = 13.4\nf. p-value = 0.0199\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject null when a = 0.05 iii. Reason for Decision: p-value < alpha iv. Conclusion: Local data do not fit the mass transit Distribution. v. Decision: Do not reject null when a = 0.01 vi. Conclusion: There is insufficient evidence to conclude that local data do not follow the distribution of the of students who use mass transit. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -339,8 +335,8 @@
    "module": "m47064",
    "exerciseId": "element-465"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.",
-  "modelSolution": "a. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Do not reject null when a = 0.05 and a = 0.01\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors.",
+  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for the exercise above and the exercise above. The second column in each table does not add to 100% because of rounding.",
+  "modelSolution": "[PARTS]\na. H0: The actual college majors of graduating women fit the distribution of their expected majors\nb. Ha: The actual college majors of graduating women do not fit the distribution of their expected majors\nc. df = 10\nd. chi-square distribution with df = 10\ne. test statistic = 11.48\nf. p-value = 0.3211\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Do not reject null when a = 0.05 anda = 0.01 iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the distribution of actual college majors of graduating women do not fit the distribution of their expected majors. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -355,7 +351,6 @@
    "module": "m47064",
    "exerciseId": "element-169"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false.",
   "modelSolution": "true",
   "needsFigure": false,
   "explanation": []
@@ -371,7 +366,6 @@
    "module": "m47064",
    "exerciseId": "element-473"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false.",
   "modelSolution": "true",
   "needsFigure": false,
   "explanation": []
@@ -387,7 +381,6 @@
    "module": "m47064",
    "exerciseId": "element-516"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false.",
   "modelSolution": "false",
   "needsFigure": false,
   "explanation": []
@@ -397,14 +390,13 @@
   "sectionId": "11.2",
   "kind": "open",
   "conceptTag": "11.2",
-  "stem": "contains information from a survey among 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the USA. Perform a hypothesis test at the 5% significance level to determine whether the survey participants are a representative sample of the USA obese population.\n\n[TABLE]\nAge class (years) | Obese (percentage) | Expected USA average (percentage)\n20–30 | 15.0 | 32.6\n31–40 | 26.5 | 32.6\n41–50 | 13.6 | 36.6\n51–60 | 21.9 | 36.6\n61–70 | 21.0 | 39.7\n[/TABLE]",
+  "stem": "the table below contains information from a survey among 499 participants classified according to their age groups. The second column shows the percentage of obese people per age class among the study participants. The last column comes from a different study at the national level that shows the corresponding percentages of obese people in the same age classes in the USA. Perform a hypothesis test at the 5% significance level to determine whether the survey participants are a representative sample of the USA obese population.\n\n[TABLE]\nAge class (years) | Obese (percentage) | Expected USA average (percentage)\n20–30 | 15.0 | 32.6\n31–40 | 26.5 | 32.6\n41–50 | 13.6 | 36.6\n51–60 | 21.9 | 36.6\n61–70 | 21.0 | 39.7\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47064",
    "exerciseId": "eip-152"
   },
-  "context": "Use the following information to answer the next two exercises: UCLA conducted a survey of more than 263,000 first-year students from 385 colleges in fall 2005. The results of students' expected majors by gender were reported in The Chronicle of Higher Education (2/2/2006). Suppose a survey of 5,000 graduating women and 5,000 graduating men was done as a follow-up last year to determine what their actual majors were. The results are shown in the tables for and . The second column in each table does not add to 100% because of rounding.\nRead the statement and decide whether it is true or false.",
-  "modelSolution": "The hypotheses for the goodness-of-fit test are:\n\na. H0: Surveyed obese fit the distribution of expected obese\nb. Ha: Surveyed obese do not fit the distribution of expected obese\n\nUse a chi-square distribution with df = 4 to evaluate the data.\n\nThe test statistic is X2 = 9.85\n\nThe P-value = 0.0431\n\nAt 5% significance level, α = 0.05. For this data, P < α. Reject the null hypothesis.\n\nAt the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.",
+  "modelSolution": "The hypotheses for the goodness-of-fit test are:\n\n[PARTS]\na. H0: Surveyed obese fit the distribution of expected obese\nb. Ha: Surveyed obese do not fit the distribution of expected obese\n[/PARTS]\n\nUse a chi-square distribution with df = 4 to evaluate the data.\n\nThe test statistic is X2 = 9.85\n\nThe P-value = 0.0431\n\nAt 5% significance level, α = 0.05. For this data, P < α. Reject the null hypothesis.\n\nAt the 5% level of significance, from the data, there is sufficient evidence to conclude that the surveyed obese do not fit the distribution of expected obese.",
   "needsFigure": false,
   "explanation": []
  },
@@ -429,7 +421,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. shows the results:\n\n[TABLE]\nIndustry Sector | 2000 | 2010 | 2020 | Total\nNonagriculture wage and salary | 13,243 | 13,044 | 15,018 | 41,305\nGoods-producing, excluding agriculture | 2,457 | 1,771 | 1,950 | 6,178\nServices-providing | 10,786 | 11,273 | 13,068 | 35,127\nAgriculture, forestry, fishing, and hunting | 240 | 214 | 201 | 655\nNonagriculture self-employed and unpaid family worker | 931 | 894 | 972 | 2,797\nSecondary wage and salary jobs in agriculture and private household industries | 14 | 11 | 11 | 36\nSecondary jobs as a self-employed or unpaid family worker | 196 | 144 | 152 | 492\nTotal | 27,867 | 27,351 | 31,372 | 86,590\n[/TABLE]\n\nWe want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.",
+  "stem": "The Bureau of Labor Statistics gathers data about employment in the United States. A sample is taken to calculate the number of U.S. citizens working in one of several industry sectors over time. the table below shows the results:\n\n[TABLE]\nIndustry Sector | 2000 | 2010 | 2020 | Total\nNonagriculture wage and salary | 13,243 | 13,044 | 15,018 | 41,305\nGoods-producing, excluding agriculture | 2,457 | 1,771 | 1,950 | 6,178\nServices-providing | 10,786 | 11,273 | 13,068 | 35,127\nAgriculture, forestry, fishing, and hunting | 240 | 214 | 201 | 655\nNonagriculture self-employed and unpaid family worker | 931 | 894 | 972 | 2,797\nSecondary wage and salary jobs in agriculture and private household industries | 14 | 11 | 11 | 36\nSecondary jobs as a self-employed or unpaid family worker | 196 | 144 | 152 | 492\nTotal | 27,867 | 27,351 | 31,372 | 86,590\n[/TABLE]\n\nWe want to know if the change in the number of jobs is independent of the change in years. State the null and alternative hypotheses and the degrees of freedom.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47077",
@@ -445,7 +437,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "Refer back to the information in . How many service providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?",
+  "stem": "Refer back to the information in the note above. How many service providing jobs are there expected to be in 2020? How many nonagriculture wage and salary jobs are there expected to be in 2020?",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47077",
@@ -467,7 +459,6 @@
    "module": "m47077",
    "exerciseId": "eip-643"
   },
-  "context": "Determine the appropriate test to be used in the next three exercises.",
   "modelSolution": "a test of independence",
   "needsFigure": false,
   "explanation": []
@@ -483,7 +474,6 @@
    "module": "m47077",
    "exerciseId": "eip-46"
   },
-  "context": "Determine the appropriate test to be used in the next three exercises.",
   "modelSolution": "a test of independence",
   "needsFigure": false,
   "explanation": []
@@ -499,7 +489,7 @@
    "module": "m47077",
    "exerciseId": "eip-304"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 8.0,
   "tolerance": {
    "abs": 0.05,
@@ -522,7 +512,7 @@
    "module": "m47077",
    "exerciseId": "eip-870"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 6.6,
   "tolerance": {
    "abs": 0.06,
@@ -545,7 +535,7 @@
    "module": "m47077",
    "exerciseId": "eip-811"
   },
-  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
+  "context": "Use the following information to answer the next seven exercises: Transit Railroads is interested in the relationship between travel distance and the ticket class purchased. A random sample of 200 passengers is taken. the table below shows the results. The railroad wants to know if a passenger’s choice in ticket class is independent of the distance they must travel.\n\n[TABLE]\nTraveling Distance | Third class | Second class | First class | Total\n1–100 miles | 21 | 14 | 6 | 41\n101–200 miles | 18 | 16 | 8 | 42\n201–300 miles | 16 | 17 | 15 | 48\n301–400 miles | 12 | 14 | 21 | 47\n401–500 miles | 6 | 6 | 10 | 22\nTotal | 73 | 67 | 60 | 200\n[/TABLE]",
   "answer": 0.0435,
   "tolerance": {
    "abs": 0.005,
@@ -578,7 +568,7 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "Enter expected values in . Round to two decimal places.\n\nCalculate the following values:",
+  "stem": "Enter expected values in the table below. Round to two decimal places.\n\nCalculate the following values:",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47077",
@@ -633,14 +623,13 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "α = 0.05\n\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________",
+  "stem": "α = 0.05\n\n[PARTS]\na. Decision: ___________________\nb. Reason for the decision: ___________________\nc. Conclusion (write out in a complete sentence): ___________________\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47077",
    "exerciseId": "element-90"
   },
-  "context": "Use the following information to answer the next eight exercises: An article in the New England Journal of Medicine, discussed a study on smokers in California and Hawaii. In one part of the report, the self-reported ethnicity and smoking levels per day were given. Of the people smoking at most ten cigarettes per day, there were 9,886 Black people, 2,745 Native Hawaiian people, 12,831 Hispanic/Latino people, 8,378 Japanese American people and 7,650 White people. Of the people smoking 11 to 20 cigarettes per day, there were 6,514 Black people, 3,062 Native Hawaiian people, 4,932 Hispanic/Latino people, 10,680 Japanese American people, and 9,877 White people. Of the people smoking 21 to 30 cigarettes per day, there were 1,671 Black people, 1,419 Native Hawaiian people, 1,406 Hispanic/Latino people, 4,715 Japanese American people, and 6,062 White people. Of the people smoking at least 31 cigarettes per day, there were 759 Black people, 788 Native Hawaiian people, 800 Latino people, 2,305 Japanese American people, and 3,970 White people.\nState the decision and conclusion (in a complete sentence) for the following preconceived levels of α.",
-  "modelSolution": "a. Reject the null hypothesis.\nb. p-value < alpha\nc. There is sufficient evidence to conclude that smoking level is dependent on ethnic group.",
+  "modelSolution": "[PARTS]\na. Reject the null hypothesis.\nb. p-value < alpha\nc. There is sufficient evidence to conclude that smoking level is dependent on ethnic group.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -649,14 +638,13 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "Car manufacturers are interested in whether there is a relationship between the size of car an individual drives and the number of people in the driver’s family (that is, whether car size and family size are independent). To test this, suppose that 800 car owners were randomly surveyed with the results in . Conduct a test of independence.\n\n[TABLE]\nFamily Size | Sub & Compact | Mid-size | Full-size | Van & Truck\n1 | 20 | 35 | 40 | 35\n2 | 20 | 50 | 70 | 80\n3–4 | 20 | 50 | 100 | 90\n5+ | 20 | 30 | 70 | 70\n[/TABLE]",
+  "stem": "Car manufacturers are interested in whether there is a relationship between the size of car an individual drives and the number of people in the driver’s family (that is, whether car size and family size are independent). To test this, suppose that 800 car owners were randomly surveyed with the results in the table below. Conduct a test of independence.\n\n[TABLE]\nFamily Size | Sub & Compact | Mid-size | Full-size | Van & Truck\n1 | 20 | 35 | 40 | 35\n2 | 20 | 50 | 70 | 80\n3–4 | 20 | 50 | 100 | 90\n5+ | 20 | 30 | 70 | 70\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47077",
    "exerciseId": "fs-idm133556096"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: Car size is independent of family size.\nb. Ha: Car size is dependent on family size.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.8284\nf. p-value = 0.0706\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent.",
+  "modelSolution": "[PARTS]\na. H0: Car size is independent of family size.\nb. Ha: Car size is dependent on family size.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.8284\nf. p-value = 0.0706\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that car size and family size are dependent. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -665,14 +653,13 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "Some travel agents claim that honeymoon hot spots vary according to age of the bride. Suppose that 280 recent brides were interviewed as to where they spent their honeymoons. The information is given in . Conduct a test of independence.\n\n[TABLE]\nLocation | 20–29 | 30–39 | 40–49 | 50 and over\nNiagara Falls | 15 | 25 | 25 | 20\nPoconos | 15 | 25 | 25 | 10\nEurope | 10 | 25 | 15 | 5\nVirgin Islands | 20 | 25 | 15 | 5\n[/TABLE]",
+  "stem": "Some travel agents claim that honeymoon hot spots vary according to age of the bride. Suppose that 280 recent brides were interviewed as to where they spent their honeymoons. The information is given in the table below. Conduct a test of independence.\n\n[TABLE]\nLocation | 20–29 | 30–39 | 40–49 | 50 and over\nNiagara Falls | 15 | 25 | 25 | 20\nPoconos | 15 | 25 | 25 | 10\nEurope | 10 | 25 | 15 | 5\nVirgin Islands | 20 | 25 | 15 | 5\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47077",
    "exerciseId": "element-8d1"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: Honeymoon locations are independent of bride’s age.\nb. Ha: Honeymoon locations are dependent on bride’s age.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.7027\nf. p-value = 0.0734\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent.",
+  "modelSolution": "[PARTS]\na. H0: Honeymoon locations are independent of bride’s age.\nb. Ha: Honeymoon locations are dependent on bride’s age.\nc. df = 9\nd. chi-square distribution with df = 9\ne. test statistic = 15.7027\nf. p-value = 0.0734\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that honeymoon location and bride age are dependent. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -681,14 +668,13 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "A major food manufacturer is concerned that the sales for its skinny french fries have been decreasing. As a part of a feasibility study, the company conducts research into the types of fries sold across the country to determine if the type of fries sold is independent of the area of the country. The results of the study are shown in . Conduct a test of independence.\n\n[TABLE]\nType of Fries | Northeast | South | Central | West\nskinny fries | 70 | 50 | 20 | 25\ncurly fries | 100 | 60 | 15 | 30\nsteak fries | 20 | 40 | 10 | 10\n[/TABLE]",
+  "stem": "A major food manufacturer is concerned that the sales for its skinny french fries have been decreasing. As a part of a feasibility study, the company conducts research into the types of fries sold across the country to determine if the type of fries sold is independent of the area of the country. The results of the study are shown in the table below. Conduct a test of independence.\n\n[TABLE]\nType of Fries | Northeast | South | Central | West\nskinny fries | 70 | 50 | 20 | 25\ncurly fries | 100 | 60 | 15 | 30\nsteak fries | 20 | 40 | 10 | 10\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47077",
    "exerciseId": "fs-idm153473104"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: The types of fries sold are independent of the location.\nb. Ha: The types of fries sold are dependent on the location.\nc. df = 6\nd. chi-square distribution with df = 6\ne. test statistic =18.8369\nf. p-value = 0.0044\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent.",
+  "modelSolution": "[PARTS]\na. H0: The types of fries sold are independent of the location.\nb. Ha: The types of fries sold are dependent on the location.\nc. df = 6\nd. chi-square distribution with df = 6\ne. test statistic =18.8369\nf. p-value = 0.0044\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, There is sufficient evidence that types of fries and location are dependent. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -703,8 +689,7 @@
    "module": "m47077",
    "exerciseId": "element-619"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: Salary is independent of level of education.\nb. Ha: Salary is dependent on level of education.\nc. df = 12\nd. chi-square distribution with df = 12\ne. test statistic = 255.7704\nf. p-value = 0\ng. Answers may vary.\nh.\n\nAlpha: 0.05\n\nDecision: Reject the null hypothesis.\n\nReason for decision: p-value < alpha\n\nConclusion: At the 5% significance level, there is sufficient evidence to conclude that salary and level of education are dependent.",
+  "modelSolution": "[PARTS]\na. H0: Salary is independent of level of education.\nb. Ha: Salary is dependent on level of education.\nc. df = 12\nd. chi-square distribution with df = 12\ne. test statistic = 255.7704\nf. p-value = 0\ng. Answers may vary.\nh. Alpha: 0.05Decision: Reject the null hypothesis.Reason for decision: p-value < alphaConclusion: At the 5% significance level, there is sufficient evidence to conclude that salary and level of education are dependent.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -719,7 +704,6 @@
    "module": "m47077",
    "exerciseId": "element-688"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false.",
   "modelSolution": "true",
   "needsFigure": false,
   "explanation": []
@@ -735,7 +719,6 @@
    "module": "m47077",
    "exerciseId": "element-266"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false.",
   "modelSolution": "true",
   "needsFigure": false,
   "explanation": []
@@ -745,14 +728,13 @@
   "sectionId": "11.3",
   "kind": "open",
   "conceptTag": "11.3",
-  "stem": "provides a recent survey of the youngest online entrepreneurs whose net worth is estimated at one million dollars or more. Their ages range from 17 to 30. Each cell in the table illustrates the number of entrepreneurs who correspond to the specific age group and their net worth. Are the ages and net worth independent? Perform a test of independence at the 5% significance level.\n\n[TABLE]\nAge Group\\ Net Worth Value (in millions of US dollars) | 1–5 | 6–24 | ≥25 | Row Total\n17–25 | 8 | 7 | 5 | 20\n26–30 | 6 | 5 | 9 | 20\nColumn Total | 14 | 12 | 14 | 40\n[/TABLE]",
+  "stem": "the table below provides a recent survey of the youngest online entrepreneurs whose net worth is estimated at one million dollars or more. Their ages range from 17 to 30. Each cell in the table illustrates the number of entrepreneurs who correspond to the specific age group and their net worth. Are the ages and net worth independent? Perform a test of independence at the 5% significance level.\n\n[TABLE]\nAge Group\\ Net Worth Value (in millions of US dollars) | 1–5 | 6–24 | ≥25 | Row Total\n17–25 | 8 | 7 | 5 | 20\n26–30 | 6 | 5 | 9 | 20\nColumn Total | 14 | 12 | 14 | 40\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47077",
    "exerciseId": "eip-640"
   },
-  "context": "For each problem, use a solution sheet to solve the hypothesis test problem. Go to Appendix E for the chi-square solution sheet. Round expected frequency to two decimal places.\nRead the statement and decide whether it is true or false.",
-  "modelSolution": "a. H0: Age is independent of the youngest online entrepreneurs’ net worth.\nb. Ha: Age is dependent on the net worth of the youngest online entrepreneurs.\nc. df = 2\nd. chi-square distribution with df = 2\ne. test statistic = 1.76\nf. p-value 0.4144\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent.",
+  "modelSolution": "[PARTS]\na. H0: Age is independent of the youngest online entrepreneurs’ net worth.\nb. Ha: Age is dependent on the net worth of the youngest online entrepreneurs.\nc. df = 2\nd. chi-square distribution with df = 2\ne. test statistic = 1.76\nf. p-value 0.4144\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that age and net worth for the youngest online entrepreneurs are dependent. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -761,7 +743,7 @@
   "sectionId": "11.4",
   "kind": "open",
   "conceptTag": "11.4",
-  "stem": "Do families and singles have the same distribution of cars? Use a level of significance of 0.05. Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in . Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.\n\n[TABLE]\n| Sport | Sedan | Hatchback | Truck | Van/SUV\nFamily | 5 | 15 | 35 | 17 | 28\nSingle | 45 | 65 | 37 | 46 | 7\n[/TABLE]",
+  "stem": "Do families and singles have the same distribution of cars? Use a level of significance of 0.05. Suppose that 100 randomly selected families and 200 randomly selected singles were asked what type of car they drove: sport, sedan, hatchback, truck, van/SUV. The results are shown in the table below. Do families and singles have the same distribution of cars? Test at a level of significance of 0.05.\n\n[TABLE]\n| Sport | Sedan | Hatchback | Truck | Van/SUV\nFamily | 5 | 15 | 35 | 17 | 28\nSingle | 45 | 65 | 37 | 46 | 7\n[/TABLE]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47091",
@@ -777,7 +759,7 @@
   "sectionId": "11.4",
   "kind": "open",
   "conceptTag": "11.4",
-  "stem": "Ivy League schools receive many applications, but only some can be accepted. At the schools listed in , two types of applications are accepted: regular and early decision.\n\n[TABLE]\nApplication Type Accepted | Brown | Columbia | Cornell | Dartmouth | Penn | Yale\nRegular | 2,115 | 1,792 | 5,306 | 1,734 | 2,685 | 1,245\nEarly Decision | 577 | 627 | 1,228 | 444 | 1,195 | 761\n[/TABLE]\n\nWe want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the p-value, and draw a conclusion about the test of homogeneity.",
+  "stem": "Ivy League schools receive many applications, but only some can be accepted. At the schools listed in the table below, two types of applications are accepted: regular and early decision.\n\n[TABLE]\nApplication Type Accepted | Brown | Columbia | Cornell | Dartmouth | Penn | Yale\nRegular | 2,115 | 1,792 | 5,306 | 1,734 | 2,685 | 1,245\nEarly Decision | 577 | 627 | 1,228 | 444 | 1,195 | 761\n[/TABLE]\n\nWe want to know if the number of regular applications accepted follows the same distribution as the number of early applications accepted. State the null and alternative hypotheses, the degrees of freedom and the test statistic, sketch the graph of the p-value, and draw a conclusion about the test of homogeneity.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47091",
@@ -844,7 +826,7 @@
    "module": "m47091",
    "exerciseId": "eip-735"
   },
-  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
   "answer": 3.0,
   "tolerance": {
    "abs": 0.05,
@@ -867,7 +849,7 @@
    "module": "m47091",
    "exerciseId": "eip-696"
   },
-  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in .\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
+  "context": "Use the following information to answer the next five exercises: Do private practice doctors and hospital doctors have the same distribution of working hours? Suppose that a sample of 100 private practice doctors and 150 hospital doctors are selected at random and asked about the number of hours a week they work. The results are shown in the table below.\n\n[TABLE]\n| 20–30 | 30–40 | 40–50 | 50–60\nPrivate Practice | 16 | 40 | 38 | 6\nHospital | 8 | 44 | 59 | 39\n[/TABLE]",
   "answer": 5e-05,
   "tolerance": {
    "abs": 0.005,
@@ -884,14 +866,13 @@
   "sectionId": "11.4",
   "kind": "open",
   "conceptTag": "11.4",
-  "stem": "A psychologist is interested in testing whether there is a difference in the distribution of personality types for business majors and social science majors. The results of the study are shown in . Conduct a test of homogeneity. Test at a 5% level of significance.\n\n[TABLE]\n| Open | Conscientious | Extrovert | Agreeable | Neurotic\nBusiness | 41 | 52 | 46 | 61 | 58\nSocial Science | 72 | 75 | 63 | 80 | 65\n[/TABLE]",
+  "stem": "A psychologist is interested in testing whether there is a difference in the distribution of personality types for business majors and social science majors. The results of the study are shown in the table below. Conduct a test of homogeneity. Test at a 5% level of significance.\n\n[TABLE]\n| Open | Conscientious | Extrovert | Agreeable | Neurotic\nBusiness | 41 | 52 | 46 | 61 | 58\nSocial Science | 72 | 75 | 63 | 80 | 65\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47091",
    "exerciseId": "eip-533"
   },
-  "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: The distribution for personality types is the same for both majors\nb. Ha: The distribution for personality types is not the same for both majors\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 3.01\nf. p-value = 0.5568\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors.",
+  "modelSolution": "[PARTS]\na. H0: The distribution for personality types is the same for both majors\nb. Ha: The distribution for personality types is not the same for both majors\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 3.01\nf. p-value = 0.5568\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the distribution of personality types is different for business and social science majors. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -906,8 +887,7 @@
    "module": "m47091",
    "exerciseId": "eip-561"
   },
-  "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: The distribution for fish caught is the same in Green Valley Lake and in Echo Lake.\nb. Ha: The distribution for fish caught is not the same in Green Valley Lake and in Echo Lake.\nc. 3\nd. chi-square with df = 3\ne. 11.75\nf. p-value = 0.0083\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo Lake",
+  "modelSolution": "[PARTS]\na. H0: The distribution for fish caught is the same in Green Valley Lake and in Echo Lake.\nb. Ha: The distribution for fish caught is not the same in Green Valley Lake and in Echo Lake.\nc. 3\nd. chi-square with df = 3\ne. 11.75\nf. p-value = 0.0083\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is evidence to conclude that the distribution of fish caught is different in Green Valley Lake and in Echo Lake [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -916,14 +896,13 @@
   "sectionId": "11.4",
   "kind": "open",
   "conceptTag": "11.4",
-  "stem": "When looking at energy consumption, we are often interested in detecting trends over time and how they correlate among different countries. The information in shows the average energy use (in units of kg of oil equivalent per capita) in the USA and the joint European Union countries (EU) for a specific six-year period. Do the energy use values in these two areas come from the same distribution? Perform the analysis at the 5% significance level.\n\n[TABLE]\nYear | European Union | United States | Row Total\n6 | 3,413 | 7,164 | 10,557\n5 | 3,302 | 7,057 | 10,359\n4 | 3,505 | 7,488 | 10,993\n3 | 3,537 | 7,758 | 11,295\n2 | 3,595 | 7,697 | 11,292\n1 | 3,613 | 7,847 | 11,460\nColumn Total | 20,965 | 45,011 | 65,976\n[/TABLE]",
+  "stem": "When looking at energy consumption, we are often interested in detecting trends over time and how they correlate among different countries. The information in the table below shows the average energy use (in units of kg of oil equivalent per capita) in the USA and the joint European Union countries (EU) for a specific six-year period. Do the energy use values in these two areas come from the same distribution? Perform the analysis at the 5% significance level.\n\n[TABLE]\nYear | European Union | United States | Row Total\n6 | 3,413 | 7,164 | 10,557\n5 | 3,302 | 7,057 | 10,359\n4 | 3,505 | 7,488 | 10,993\n3 | 3,537 | 7,758 | 11,295\n2 | 3,595 | 7,697 | 11,292\n1 | 3,613 | 7,847 | 11,460\nColumn Total | 20,965 | 45,011 | 65,976\n[/TABLE]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47091",
    "exerciseId": "eip-316"
   },
-  "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: The distribution of average energy use in the USA is the same as in Europe between Year 1 and Year 6.\nb. Ha: The distribution of average energy use in the USA is not the same as in Europe between Year 1 and Year 6.\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 2.7434\nf. p-value = 0.7395\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Do not reject the null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6.",
+  "modelSolution": "[PARTS]\na. H0: The distribution of average energy use in the USA is the same as in Europe between Year 1 and Year 6.\nb. Ha: The distribution of average energy use in the USA is not the same as in Europe between Year 1 and Year 6.\nc. df = 4\nd. chi-square with df = 4\ne. test statistic = 2.7434\nf. p-value = 0.7395\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: At the 5% significance level, there is insufficient evidence to conclude that the average energy use values in the US and EU are not derived from different distributions for the period from Year 1 to Year 6. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -983,8 +962,7 @@
    "module": "m47082",
    "exerciseId": "eip-519"
   },
-  "context": "For each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: The distribution for technology use is the same for community college students and university students.\nb. Ha: The distribution for technology use is not the same for community college students and university students.\nc. 2\nd. chi-square with df = 2\ne. 7.05\nf. p-value = 0.0294\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities.",
+  "modelSolution": "[PARTS]\na. H0: The distribution for technology use is the same for community college students and university students.\nb. Ha: The distribution for technology use is not the same for community college students and university students.\nc. 2\nd. chi-square with df = 2\ne. 7.05\nf. p-value = 0.0294\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the distribution of technology use for statistics homework is not the same for statistics students at community colleges and at universities. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -993,13 +971,13 @@
   "sectionId": "11.5",
   "kind": "open",
   "conceptTag": "11.5",
-  "stem": "a. Explain why a goodness-of-fit test and a test of independence are generally right-tailed tests.\nb. If you did a left-tailed test, what would you be testing?",
+  "stem": "[PARTS]\na. Explain why a goodness-of-fit test and a test of independence are generally right-tailed tests.\nb. If you did a left-tailed test, what would you be testing?\n[/PARTS]",
   "source": "openstax-bring_together",
   "sourceRef": {
    "module": "m47082",
    "exerciseId": "element-728"
   },
-  "modelSolution": "a. The test statistic is always positive and if the expected and observed values are not close together, the test statistic is large and the null hypothesis will be rejected.\nb. Testing to see if the data fits the distribution “too well” or is too perfect.",
+  "modelSolution": "[PARTS]\na. The test statistic is always positive and if the expected and observed values are not close together, the test statistic is large and the null hypothesis will be rejected.\nb. Testing to see if the data fits the distribution “too well” or is too perfect.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1243,8 +1221,7 @@
    "module": "m47085",
    "exerciseId": "element-377ab"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: σ = 15\nb. Ha: σ > 15\nc. df = 42\nd. chi-square with df = 42\ne. test statistic = 26.88\nf. p-value = 0.9663\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Do not reject null hypothesis.\niii. Reason for decision: p-value > alpha\niv. Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15.",
+  "modelSolution": "[PARTS]\na. H0:σ = 15\nb. Ha:σ > 15\nc. df = 42\nd. chi-square with df = 42\ne. test statistic = 26.88\nf. p-value = 0.9663\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Do not reject null hypothesis. iii. Reason for decision: p-value > alpha iv. Conclusion: There is insufficient evidence to conclude that the standard deviation is greater than 15. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1259,8 +1236,7 @@
    "module": "m47085",
    "exerciseId": "element-691"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: σ ≤ 3\nb. Ha: σ > 3\nc. df = 17\nd. chi-square distribution with df = 17\ne. test statistic = 28.73\nf. p-value = 0.0371\ng. Answers may vary.\nh.\n\ni. Alpha: 0.05\nii. Decision: Reject the null hypothesis.\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three.",
+  "modelSolution": "[PARTS]\na. H0:σ ≤ 3\nb. Ha:σ > 3\nc. df = 17\nd. chi-square distribution with df = 17\ne. test statistic = 28.73\nf. p-value = 0.0371\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the standard deviation is greater than three. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1275,8 +1251,7 @@
    "module": "m47085",
    "exerciseId": "element-503"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
-  "modelSolution": "a. H0: σ = 2\nb. Ha: σ ≠ 2\nc. df = 14\nd. chi-square distiribution with df = 14\ne. chi-square test statistic = 5.2094\nf. p-value = 0.0346\ng. Answers may vary.\nh.\n\ni. Alpha = 0.05\nii. Decision: Reject the null hypothesis\niii. Reason for decision: p-value < alpha\niv. Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2.",
+  "modelSolution": "[PARTS]\na. H0:σ = 2\nb. Ha:σ ≠ 2\nc. df = 14\nd. chi-square distiribution with df = 14\ne. chi-square test statistic = 5.2094\nf. p-value = 0.0346\ng. Answers may vary.\nh. [PARTS] i. Alpha = 0.05 ii. Decision: Reject the null hypothesis iii. Reason for decision: p-value < alpha iv. Conclusion: There is sufficient evidence to conclude that the standard deviation is different than 2. [/PARTS]\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1291,7 +1266,6 @@
    "module": "m47085",
    "exerciseId": "eip-340"
   },
-  "context": "Use the following information to answer the next twelve exercises: Suppose an airline claims that its flights are consistently on time with an average delay of at most 15 minutes. It claims that the average delay is so consistent that the variance is no more than 150 minutes. Doubting the consistency part of the claim, a disgruntled traveler calculates the delays for his next 25 flights. The average delay for those 25 flights is 22 minutes with a standard deviation of 15 minutes.\nFor each word problem, use a solution sheet to solve the hypothesis test problem. Go to for the chi-square solution sheet. Round expected frequency to two decimal places.",
   "modelSolution": "The sample standard deviation is $34.29.\n\nH0 : σ2 = 252\n\nHa : σ2 > 252\n\ndf = n – 1 = 7.\n\ntest statistic: x^2= x_7^2= ((n–1)s^2)/(25^2)= ((8–1)(34.29)^2)/(25^2)=13.169;\n\np-value: P(x_7^2>13.169)=1–P(x_7^2 ≤13.169)=0.0681\n\nAlpha: 0.05\n\nDecision: Do not reject the null hypothesis.\n\nReason for decision: p-value > alpha\n\nConclusion: At the 5% level, there is insufficient evidence to conclude that the variance is more than 625.",
   "needsFigure": false,
   "explanation": []
@@ -1354,7 +1328,7 @@
    "test": "Practice Test 3",
    "n": 75
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "df = n – 1 = 2 – 1 = 1.",
   "needsFigure": false,
   "explanation": []
@@ -1370,7 +1344,7 @@
    "test": "Practice Test 3",
    "n": 76
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
+  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.\n\n[TABLE]\n| Observed (O) | Expected (E) | O – E | (O – E)2 | ((O−E)^2)/z\nEnrolled | 145 | | | |\nNot enrolled | 55 | | | |\n[/TABLE]",
   "modelSolution": "Using the calculator function Chi-square GOF – Test (in STAT TESTS), the test statistic is 3.7656 and the p-value is 0.0523. Do not reject the null hypothesis. At the 5% significance level, there is insufficient evidence to conclude that high school most recent graduating class distribution of enrolled and not enrolled does not fit that of the national distribution.",
   "needsFigure": false,
   "explanation": []
@@ -1386,7 +1360,6 @@
    "test": "Practice Test 3",
    "n": 77
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
   "modelSolution": "approximates the normal",
   "needsFigure": false,
   "explanation": []
@@ -1402,7 +1375,6 @@
    "test": "Practice Test 3",
    "n": 78
   },
-  "context": "Use the following information to answer the next four exercises. Nationally, about 66 percent of high school graduates enroll in higher education. You perform a chi-square goodness of fit test to see if this same proportion applies to your high school’s most recent graduating class of 200. Your null hypothesis is that the national distribution also applies to your high school.",
   "modelSolution": "skewed right",
   "needsFigure": false,
   "explanation": []
@@ -1434,7 +1406,7 @@
    "test": "Practice Test 3",
    "n": 80
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.",
+  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "((100−150)^2)/150=16.67\n\n((150−100)^2)/100=25\n\n((200−100)^2)/150=16.67\n\n((50−100)^2)/100=25",
   "needsFigure": false,
   "explanation": []
@@ -1450,7 +1422,7 @@
    "test": "Practice Test 3",
    "n": 81
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.",
+  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "Chi-square = 16.67 + 25 + 16.67 + 25 = 83.34.\ndf = (r – 1)(c – 1) = 1",
   "needsFigure": false,
   "explanation": []
@@ -1466,7 +1438,7 @@
    "test": "Practice Test 3",
    "n": 82
   },
-  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.",
+  "context": "Use the following information to answer the next four exercises. You are considering conducting a chi-square test of independence for the data in this table, which displays data about cell phone ownership for first-year students and seniors at a high school. Your null hypothesis is that cell phone ownership is independent of class standing.\n\n[TABLE]\n| Cell = Yes | Cell = No\nFirst-year | 100 | 150\nSenior | 200 | 50\n[/TABLE]",
   "modelSolution": "p-value = P(Chi-square, 83.34) = 0\nReject the null hypothesis.\nYou could also use the calculator function STAT TESTS Chi-Square – Test.",
   "needsFigure": false,
   "explanation": []
@@ -1572,7 +1544,6 @@
    "test": "Practice Final Exam 1",
    "n": 37
   },
-  "context": "Use the following information to answer the next three exercises: A study of the career plans of young women and men sent questionnaires to all 722 members of the senior class in the College of Business Administration at the University of Illinois. One question asked which major within the business program the student had chosen. Here are the data from the students who responded.",
   "options": [
    "Chi2 goodness of fit",
    "Chi2 test of independence",
@@ -1596,7 +1567,6 @@
    "test": "Practice Final Exam 2",
    "n": 10
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60. We randomly survey 14 people. Of interest is the number of people who watch the news at least once per week.",
   "options": [
    "chi-square with df = 6",
    "exponential",
@@ -1620,7 +1590,6 @@
    "test": "Chapter 13",
    "n": 136
   },
-  "context": "Use the following information to answer the next two exercises: Let’s say that the probability that an adult watches the news at least once per week is 0.60.",
   "options": [
    "Chi-Square",
    "Geometric",
@@ -1644,7 +1613,6 @@
    "test": "Chapter 13",
    "n": 144
   },
-  "context": "Use the following information to answer the next three exercises: 120 people were surveyed as to their favorite beverage (non-alcoholic). The results are below.",
   "options": [
    "uniform",
    "exponential",

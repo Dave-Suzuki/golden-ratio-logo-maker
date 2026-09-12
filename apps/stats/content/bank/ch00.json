@@ -1,29 +1,5 @@
 [
  {
-  "id": "fe1-7",
-  "sectionId": null,
-  "kind": "mc",
-  "conceptTag": "unassigned",
-  "stem": "Find the expected number of times a teenager is reminded to do their chores.",
-  "source": "openstax-final",
-  "sourceRef": {
-   "test": "Practice Final Exam 1",
-   "n": 7
-  },
-  "context": "Use the following information to answer the next two exercises: We are interested in the number of times a teenager must be reminded to do their chores each week. A survey of 40 parents and guardians was conducted. shows the results of the survey.",
-  "options": [
-   "15",
-   "2.78",
-   "1.0",
-   "3.13"
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. 2.78"
-  ]
- },
- {
   "id": "fe1-8",
   "sectionId": null,
   "kind": "mc",
@@ -46,6 +22,113 @@
   "explanation": [
    "a. 8.25"
   ]
+ },
+ {
+  "id": "fe1-14",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "Which student is the BEST when compared to the other runners at her school?",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 14
+  },
+  "options": [
+   "Kia",
+   "Alejandra",
+   "Iris",
+   "Impossible to determine"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. Iris"
+  ]
+ },
+ {
+  "id": "fe1-26",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "If X ~ Exp(0.8), then P(x < μ) = __________",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 1",
+   "n": 26
+  },
+  "options": [
+   "0.3679",
+   "0.4727",
+   "0.6321",
+   "cannot be determined"
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. 0.6321"
+  ]
+ },
+ {
+  "id": "fe2-23",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "If P(Z < zα) = 0.1587 where Z ~ N(0, 1), then α is equal to:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 23
+  },
+  "options": [
+   "–1.",
+   "0.1587.",
+   "0.8413.",
+   "1."
+  ],
+  "correctIndex": 0,
+  "needsFigure": false,
+  "explanation": [
+   "a. –1."
+  ]
+ },
+ {
+  "id": "fe2-26",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "In a survey of 80 males, 45 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. The correct conclusion is that:",
+  "source": "openstax-final",
+  "sourceRef": {
+   "test": "Practice Final Exam 2",
+   "n": 26
+  },
+  "options": [
+   "there is insufficient information to conclude that the proportion for males is the same as the proportion for females.",
+   "there is insufficient information to conclude that the proportion for males is not the same as the proportion for females.",
+   "there is sufficient evidence to conclude that the proportion for males is higher than the proportion for females.",
+   "not enough information to make a conclusion."
+  ],
+  "correctIndex": 2,
+  "needsFigure": false,
+  "explanation": [
+   "c. there is sufficient evidence to conclude that the proportion for males is higher than the proportion for females."
+  ]
+ },
+ {
+  "id": "rv4-18",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "A “friend” offers you the following “deal.” For a $10 fee, you may pick an envelope from a box containing 100 seemingly identical envelopes. However, each envelope contains a coupon for a free gift.\n\n[LIST]\nTen of the coupons are for a free gift worth $6.\nEighty of the coupons are for a free gift worth $8.\nSix of the coupons are for a free gift worth $12.\nFour of the coupons are for a free gift worth $40.\n[/LIST]",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 4",
+   "n": 18
+  },
+  "modelSolution": "b. No, I expect to come out behind in money.",
+  "needsFigure": false,
+  "explanation": []
  },
  {
   "id": "rv4-20",
@@ -97,14 +180,14 @@
    "test": "Chapter 5",
    "n": 36
   },
-  "context": "Using the following information to answer the next two exercises: 64 faculty members were asked the number of cars they owned (including spouse and children’s cars). The results are given in the following graph:",
+  "context": "Using the following information to answer the next two exercises: 64 faculty members were asked the number of cars they owned (including spouse and children’s cars). The results are given in the following graph:\n\n[FIGURE]",
   "answer": 16.0,
   "tolerance": {
    "abs": 0.05,
    "rel": 0.005
   },
   "unit": null,
-  "needsFigure": false,
+  "needsFigure": true,
   "explanation": [
    "16"
   ]
@@ -120,7 +203,6 @@
    "test": "Chapter 6",
    "n": 46
   },
-  "context": "Use the following information to answer the next two exercises: X ~ U(3, 13)",
   "options": [
    "P(5)",
    "B(500, 5)",
@@ -134,6 +216,36 @@
   ]
  },
  {
+  "id": "rv7-51",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "[LIST]\n40% of full-time students took 4 years to graduate\n30% of full-time students took 5 years to graduate\n20% of full-time students took 6 years to graduate\n10% of full-time students took 7 years to graduate\n[/LIST]\n\nThe expected time for full-time students to graduate is:\n\n[PARTS]\na. 4 years\nb. 4.5 years\nc. 5 years\nd. 5.5 years\n[/PARTS]",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 7",
+   "n": 51
+  },
+  "modelSolution": "c. 5 years",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv7-54",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "Which distribution accurately describes the following situation?\n\nThe chance that a teenage boy regularly gives his mother a kiss goodnight is about 20%. Fourteen teenage boys are randomly surveyed. Let X = the number of teenage boys that regularly give their mother a kiss goodnight.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 7",
+   "n": 54
+  },
+  "modelSolution": "B(14, 0.20)",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
   "id": "rv9-78",
   "sectionId": null,
   "kind": "open",
@@ -144,8 +256,43 @@
    "test": "Chapter 9",
    "n": 78
   },
-  "context": "Use the following information to answer the next three exercises: Ninety homeowners were asked the number of estimates they obtained before having their homes fumigated. Let X = the number of estimates.",
   "modelSolution": "1 and 4",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv9-84",
+  "sectionId": null,
+  "kind": "mc",
+  "conceptTag": "unassigned",
+  "stem": "You should always throw out any data that are outliers.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 9",
+   "n": 84
+  },
+  "options": [
+   "true",
+   "false"
+  ],
+  "correctIndex": 1,
+  "needsFigure": false,
+  "explanation": [
+   "b. false"
+  ]
+ },
+ {
+  "id": "rv11-114",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "A game is played with the following rules:\n\n[LIST]\nit costs $10 to enter.\na fair coin is tossed four times.\nif you do not get four heads or four tails, you lose your $10.\nif you get four heads or four tails, you get back your $10, plus $30 more.\n[/LIST]\n\nOver the long run of playing this game, what are your expected earnings?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 11",
+   "n": 114
+  },
+  "modelSolution": "You will lose $5.",
   "needsFigure": false,
   "explanation": []
  },
@@ -160,8 +307,37 @@
    "test": "Chapter 12",
    "n": 125
   },
-  "context": "Use the following information to answer the next two exercises: A recent survey of U.S. teenage pregnancy was answered by 720 girls, age 12–19. Six percent of the girls surveyed said they have been pregnant. We are interested in the true proportion of U.S. girls, age 12–19, who have been pregnant.",
   "modelSolution": "Check student's solution.",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv13-139",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "In a survey of 80 males, 55 had played an organized sport growing up. Of the 70 females surveyed, 25 had played an organized sport growing up. We are interested in whether the proportion for males is higher than the proportion for females. Conduct a hypothesis test.",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 13",
+   "n": 139
+  },
+  "modelSolution": "p-value = 0; reject the null hypothesis; conclude that the proportion of males is higher",
+  "needsFigure": false,
+  "explanation": []
+ },
+ {
+  "id": "rv13-140",
+  "sectionId": null,
+  "kind": "open",
+  "conceptTag": "unassigned",
+  "stem": "Which of the following is preferable when designing a hypothesis test?",
+  "source": "openstax-review",
+  "sourceRef": {
+   "test": "Chapter 13",
+   "n": 140
+  },
+  "modelSolution": "Minimize α and β",
   "needsFigure": false,
   "explanation": []
  }

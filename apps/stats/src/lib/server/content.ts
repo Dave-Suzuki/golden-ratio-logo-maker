@@ -1,3 +1,4 @@
+import { isQuizzable } from '../verify';
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Chapter, GlossaryEntry, Question, Section, SectionId, TeachSnippet } from '../types';
@@ -94,8 +95,8 @@ export function bankFor(sectionId: SectionId, f: BankFilter = {}): Question[] {
   loadBank();
   return (bankCache!.get(sectionId) ?? []).filter(
     (q) =>
+      isQuizzable(q) &&
       ((f.includeExtra ?? true) || !EXTRA_SOURCES.has(q.source)) &&
-      ((f.includeFigure ?? false) || !q.needsFigure) &&
       (!f.kinds || f.kinds.includes(q.kind)),
   );
 }

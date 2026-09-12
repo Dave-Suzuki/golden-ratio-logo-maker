@@ -134,4 +134,60 @@ export const CH02_TEMPLATES: Template[] = [
       };
     },
   },
+  {
+    id: 'skew-direction',
+    sectionId: '2.6',
+    conceptTag: '2.6',
+    kind: 'mc',
+    generate(rng) {
+      const shape = rng.pick(['right', 'left', 'symmetric'] as const);
+      const median = rng.int(30, 80);
+      const mean = shape === 'right' ? median + rng.int(3, 12) : shape === 'left' ? median - rng.int(3, 12) : median;
+      const what = rng.pick(['house prices in a town', 'salaries at a company', 'exam scores', 'ages of customers', 'waiting times at a clinic']);
+      const options = ['skewed to the right', 'skewed to the left', 'symmetric'];
+      const correct = { right: 0, left: 1, symmetric: 2 }[shape];
+      return {
+        sectionId: '2.6',
+        conceptTag: '2.6',
+        kind: 'mc',
+        stem: `For a data set of ${what}, the mean is ${mean} and the median is ${median}. What is the shape of the distribution?`,
+        options,
+        correctIndex: correct,
+        explanation: [
+          'The mean is pulled toward the long tail; the median is not.',
+          shape === 'right'
+            ? `mean (${mean}) > median (${median}), so the tail is on the right: skewed right.`
+            : shape === 'left'
+              ? `mean (${mean}) < median (${median}), so the tail is on the left: skewed left.`
+              : `mean and median are both ${mean}, so neither tail is longer: symmetric.`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'skew-center-choice',
+    sectionId: '2.6',
+    conceptTag: '2.6',
+    kind: 'mc',
+    generate(rng) {
+      const skewed = rng.next() < 0.6;
+      const what = skewed
+        ? rng.pick(['incomes in a city', 'house prices', 'hospital stay lengths', 'donation amounts'])
+        : rng.pick(['adult heights', 'daily temperatures in June', 'bolt diameters from a machine']);
+      return {
+        sectionId: '2.6',
+        conceptTag: '2.6',
+        kind: 'mc',
+        stem: `A distribution of ${what} is ${skewed ? 'strongly skewed to the right' : 'roughly symmetric with no outliers'}. Which measure of center best describes it?`,
+        options: skewed ? ['the median', 'the mean', 'the mode', 'the range'] : ['the mean', 'the median', 'the mode', 'the range'],
+        correctIndex: 0,
+        explanation: [
+          skewed
+            ? 'A few very large values drag the mean toward the tail, so the mean overstates a typical value.'
+            : 'With no skew or outliers the mean uses every value and is the most efficient summary.',
+          `Use the ${skewed ? 'median' : 'mean'} here. (The range is a measure of spread, not center.)`,
+        ],
+      };
+    },
+  },
 ];

@@ -1,4 +1,5 @@
 /** Browser build of src/lib/server/content.ts: the generated JSON is bundled instead of read from disk. */
+import { isQuizzable } from '../lib/verify';
 import type { Chapter, GlossaryEntry, Question, Section, SectionId, TeachSnippet } from '../lib/types';
 import { keyPointsFor } from '../../content/keypoints';
 import catalogJson from '../../content/catalog.json';
@@ -96,7 +97,7 @@ export interface BankFilter {
 }
 export function bankFor(sectionId: SectionId, f: BankFilter = {}): Question[] {
   return (BY_SECTION.get(sectionId) ?? []).filter(
-    (q) => ((f.includeExtra ?? true) || !EXTRA_SOURCES.has(q.source)) && ((f.includeFigure ?? false) || !q.needsFigure) && (!f.kinds || f.kinds.includes(q.kind)),
+    (q) => isQuizzable(q) && ((f.includeExtra ?? true) || !EXTRA_SOURCES.has(q.source)) && (!f.kinds || f.kinds.includes(q.kind)),
   );
 }
 export function questionById(id: string): Question | undefined {

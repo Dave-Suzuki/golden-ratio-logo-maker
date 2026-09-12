@@ -29,7 +29,7 @@
    },
    {
     "term": "Probability",
-    "meaning": "a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by the following 3 axioms (by A.N. Kolmogorov, 1930’s): Let S denote the sample space and A and B are two events in S. Then:\n\n• 0 ≤ P(A) ≤ 1\n• If A and B are any two mutually exclusive events, then P(A OR B) = P(A) + P(B).\n• P(S) = 1"
+    "meaning": "a number between zero and one, inclusive, that gives the likelihood that a specific event will occur; the foundation of statistics is given by the following 3 axioms (by A.N. Kolmogorov, 1930’s): Let S denote the sample space and A and B are two events in S. Then:\n\n[LIST]\n0 ≤ P(A) ≤ 1\nIf A andB are any two mutually exclusive events, thenP(A ORB) =P(A) +P(B).\nP(S) = 1\n[/LIST]"
    },
    {
     "term": "Sample Space",
@@ -81,7 +81,7 @@
   "glossary": [
    {
     "term": "Independent Events",
-    "meaning": "The occurrence of one event has no effect on the probability of the occurrence of another event. Events A and B are independent if one of the following is true:\n\n1. P(A|B) = P(A)\n2. P(B|A) = P(B)\n3. P(A AND B) = P(A)P(B)"
+    "meaning": "The occurrence of one event has no effect on the probability of the occurrence of another event. Events A and B are independent if one of the following is true:\n\n[PARTS]\n1. P(A|B) =P(A)\n2. P(B|A) =P(B)\n3. P(A ANDB) =P(A)P(B)\n[/PARTS]"
    },
    {
     "term": "Mutually Exclusive",

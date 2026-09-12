@@ -153,7 +153,6 @@
    "module": "m46965",
    "exerciseId": "eip-idm16922624"
   },
-  "context": "For each probability and percentile problem, draw the picture.",
   "modelSolution": "Age is a measurement, regardless of the accuracy used.",
   "needsFigure": false,
   "explanation": []
@@ -195,7 +194,7 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The total duration of baseball games in the major league in a typical season is uniformly distributed between 447 hours and 521 hours inclusive.\n\na. Find a and b and describe what they represent.\nb. Write the distribution.\nc. Find the mean and the standard deviation.\nd. What is the probability that the duration of games for a team for a single season is between 480 and 500 hours?\ne. What is the 65th percentile for the duration of games for a team in a single season?",
+  "stem": "The total duration of baseball games in the major league in a typical season is uniformly distributed between 447 hours and 521 hours inclusive.\n\n[PARTS]\na. Find a andb and describe what they represent.\nb. Write the distribution.\nc. Find the mean and the standard deviation.\nd. What is the probability that the duration of games for a team for a single season is between 480 and 500 hours?\ne. What is the 65th percentile for the duration of games for a team in a single season?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46972",
@@ -227,7 +226,7 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The amount of time a service technician needs to change the oil in a car is uniformly distributed between 11 and 21 minutes. Let X = the time needed to change the oil on a car.\n\na. Write the random variable X in words. X = __________________.\nb. Write the distribution.\nc. Graph the distribution.\nd. Find P (x > 19).\ne. Find the 50th percentile.",
+  "stem": "The amount of time a service technician needs to change the oil in a car is uniformly distributed between 11 and 21 minutes. Let X = the time needed to change the oil on a car.\n\n[PARTS]\na. Write the random variable X in words.X = __________________.\nb. Write the distribution.\nc. Graph the distribution.\nd. Find P (x > 19).\ne. Find the 50th percentile.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46972",
@@ -249,7 +248,7 @@
    "module": "m46972",
    "exerciseId": "fs-idm13169200"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "It means that the value of x is just as likely to be any number between 1.5 and 4.5.",
   "needsFigure": false,
   "explanation": []
@@ -265,7 +264,7 @@
    "module": "m46972",
    "exerciseId": "fs-idm8575520"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "1.5 ≤ x ≤ 4.5",
   "needsFigure": false,
   "explanation": []
@@ -281,7 +280,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp86093264"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "answer": 0.3333,
   "tolerance": {
    "abs": 0.005,
@@ -304,7 +303,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp159814864"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "modelSolution": "zero",
   "needsFigure": false,
   "explanation": []
@@ -320,7 +319,7 @@
    "module": "m46972",
    "exerciseId": "fs-idp64873328"
   },
-  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\nThe distribution can be written as X ~ U(1.5, 4.5).",
+  "context": "Use the following information to answer the next ten questions. The data that follow are the square footage (in 1,000 feet squared) of 28 homes.\n\n[TABLE]\n1.5 | 2.4 | 3.6 | 2.6 | 1.6 | 2.4 | 2.0\n3.5 | 2.5 | 1.8 | 2.4 | 2.5 | 3.5 | 4.0\n2.6 | 1.6 | 2.2 | 1.8 | 3.8 | 2.5 | 1.5\n2.8 | 1.8 | 4.5 | 1.9 | 1.9 | 3.1 | 1.6\n[/TABLE]\n\nThe sample mean = 2.50 and the sample standard deviation = 0.8302.\n\nThe distribution can be written as X ~ U(1.5, 4.5).",
   "answer": 0.6,
   "tolerance": {
    "abs": 0.06,
@@ -479,14 +478,14 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "Considering only the cars less than 7.5 years old, find the probability that a randomly chosen car in the lot was less than four years old.\n\na. Sketch the graph, shade the area of interest.\n[FIGURE]\nb. Find the probability. P(x < 4|x < 7.5) = _______",
+  "stem": "Considering only the cars less than 7.5 years old, find the probability that a randomly chosen car in the lot was less than four years old.\n\n[PARTS]\na. Sketch the graph, shade the area of interest. [FIGURE]\nb. Find the probability. P(x < 4|x < 7.5) = _______\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "eip-709"
   },
   "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
-  "modelSolution": "a. Answers may vary.\nb. 3.5/7",
+  "modelSolution": "[PARTS]\na. Answers may vary.\nb. 3.5/7\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -495,14 +494,13 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "Find the third quartile of ages of cars in the lot. This means you will have to find the value such that 3/4, or 75%, of the cars are at most (less than or equal to) that age.\n\na. Sketch the graph, and shade the area of interest.\n[FIGURE]\nb. Find the value k such that P(x < k) = 0.75.\nc. The third quartile is _______",
+  "stem": "Find the third quartile of ages of cars in the lot. This means you will have to find the value such that 3/4, or 75%, of the cars are at most (less than or equal to) that age.\n\n[PARTS]\na. Sketch the graph, and shade the area of interest. [FIGURE]\nb. Find the value k such thatP(x <k) = 0.75.\nc. The third quartile is _______\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "eip-332"
   },
-  "context": "Use the following information to answer the next eleven exercises. The age of cars in the staff parking lot of a suburban college is uniformly distributed from six months (0.5 years) to 9.5 years.",
-  "modelSolution": "a. Answers may vary.\nb. k = 7.25\nc. 7.25",
+  "modelSolution": "[PARTS]\na. Answers may vary.\nb. k = 7.25\nc. 7.25\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -511,14 +509,13 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "A random number generator picks a number from one to nine in a uniform manner.\n\na. X ~ _________\nb. Graph the probability distribution.\nc. f(x) = _________\nd. μ = _________\ne. σ = _________\nf. P(3.5 < x < 7.25) = _________\ng. P(x > 5.67)\nh. P(x > 5|x > 3) = _________\ni. Find the 90th percentile.",
+  "stem": "A random number generator picks a number from one to nine in a uniform manner.\n\n[PARTS]\na. X ~ _________\nb. Graph the probability distribution.\nc. f(x) = _________\nd. μ = _________\ne. σ = _________\nf. P(3.5 <x < 7.25) = _________\ng. P(x > 5.67)\nh. P(x > 5|x > 3) = _________\ni. Find the 90th percentile.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "fs-idp169878048"
   },
-  "context": "For each probability and percentile problem, draw the picture.",
-  "modelSolution": "a. X ~ U(1, 9)\nb. Answers may vary.\nc. f(x)=1/8 where 1≤x≤9\nd. five\ne. 2.3\nf. 15/32\n\ng. 333/800\n\nh. 2/3\n\ni. 8.2",
+  "modelSolution": "[PARTS]\na. X ~U(1, 9)\nb. Answers may vary.\nc. f(x)=1/8 where1≤x≤9\nd. five\ne. 2.3\nf. 15/32\ng. 333/800\nh. 2/3\ni. 8.2\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -527,14 +524,13 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.\n\na. Define the random variable. X = _______\nb. X ~ _______\nc. Graph the probability distribution.\nd. f(x) = _______\ne. μ = _______\nf. σ = _______\ng. Find the probability that the commuter waits less than one minute.\nh. Find the probability that the commuter waits between three and four minutes.\ni. Sixty percent of commuters wait more than how long for the train? State this in a probability question, similarly to parts g and h, draw the picture, and find the probability.",
+  "stem": "A subway train arrives every eight minutes during rush hour. We are interested in the length of time a commuter must wait for a train to arrive. The time follows a uniform distribution.\n\n[PARTS]\na. Define the random variable. X = _______\nb. X ~ _______\nc. Graph the probability distribution.\nd. f(x) = _______\ne. μ = _______\nf. σ = _______\ng. Find the probability that the commuter waits less than one minute.\nh. Find the probability that the commuter waits between three and four minutes.\ni. Sixty percent of commuters wait more than how long for the train? State this in a probability question, similarly to parts g and h, draw the picture, and find the probability.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "eip-106"
   },
-  "context": "For each probability and percentile problem, draw the picture.",
-  "modelSolution": "a. X represents the length of time a commuter must wait for a train to arrive on the Red Line.\nb. X ~ U(0, 8)\nc. Graph the probability distribution.\nd.\nf(x)=1/8\nwhere\n0 ≤ x ≤ 8\n\ne. four\nf. 2.31\ng.\n1/8\n\nh.\n1/8\n\ni. 3.2",
+  "modelSolution": "[PARTS]\na. X represents the length of time a commuter must wait for a train to arrive on the Red Line.\nb. X ~U(0, 8)\nc. Graph the probability distribution.\nd. f(x)=1/8 where0 ≤ x ≤ 8\ne. four\nf. 2.31\ng. 1/8\nh. 1/8\ni. 3.2\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -591,14 +587,13 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.\n\na. Find the probability that the value of the stock is more than $19.\nb. Find the probability that the value of the stock is between $19 and $22.\nc. Find the upper quartile - 25% of all days the stock is above what value? Draw the graph.\nd. Given that the stock is greater than $18, find the probability that the stock is more than $21.",
+  "stem": "Suppose that the value of a stock varies each day from $16 to $25 with a uniform distribution.\n\n[PARTS]\na. Find the probability that the value of the stock is more than $19.\nb. Find the probability that the value of the stock is between $19 and $22.\nc. Find the upper quartile - 25% of all days the stock is above what value? Draw the graph.\nd. Given that the stock is greater than $18, find the probability that the stock is more than $21.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "fs-idm19928432"
   },
-  "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
-  "modelSolution": "a. The probability density function of X is 1/25−16=1/9.\n\nP(X > 19) = (25 – 19) (1/9)\n= 6/9 = 2/3.\n[FIGURE]\nb. P(19 < X < 22) = (22 – 19) (1/9) = 3/9 = 1/3.\n[FIGURE]\nc. The area must be 0.25, and 0.25 = (width)(1/9), so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.\nd. This is a conditional probability question. P(x > 21| x > 18). You can do this two ways:\n\n• Draw the graph where a is now 18 and b is still 25. The height is 1/((25−18)) = 1/7\nSo, P(x > 21|x > 18) = (25 – 21)(1/7) = 4/7.\n• Use the formula: P(x > 21|x > 18) = (P(x>21 AND x>18))/(P(x>18))\n\n= (P(x>21))/(P(x>18)) = ((25−21))/((25−18)) = 4/7.",
+  "modelSolution": "[PARTS]\na. The probability density function of X is1/25−16=1/9.P(X > 19) = (25 – 19)(1/9) =6/9 =2/3.[FIGURE]\nb. P(19 <X < 22) = (22 – 19)(1/9) =3/9 =1/3.[FIGURE]\nc. The area must be 0.25, and 0.25 = (width)(1/9), so width = (0.25)(9) = 2.25. Thus, the value is 25 – 2.25 = 22.75.\nd. This is a conditional probability question. P(x > 21| x > 18). You can do this two ways: [LIST] Draw the graph where a is now 18 and b is still 25. The height is 1/((25−18)) =1/7So,P(x > 21|x > 18) = (25 – 21)(1/7) = 4/7. Use the formula: P(x > 21|x > 18) =(P(x>21 AND x>18))/(P(x>18))=(P(x>21))/(P(x>18)) =((25−21))/((25−18)) =4/7. [/LIST]\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -607,14 +602,13 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The number of miles driven by a truck driver falls between 300 and 700, and follows a uniform distribution.\n\na. Find the probability that the truck driver goes more than 650 miles in a day.\nb. Find the probability that the truck drivers goes between 400 and 650 miles in a day.\nc. At least how many miles does the truck driver travel on the furthest 10% of days?",
+  "stem": "The number of miles driven by a truck driver falls between 300 and 700, and follows a uniform distribution.\n\n[PARTS]\na. Find the probability that the truck driver goes more than 650 miles in a day.\nb. Find the probability that the truck drivers goes between 400 and 650 miles in a day.\nc. At least how many miles does the truck driver travel on the furthest 10% of days?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46972",
    "exerciseId": "fs-idp96470224"
   },
-  "context": "Use the following information to answer the next three exercises. The Sky Train from the terminal to the rental–car and long–term parking center is supposed to arrive every eight minutes. The waiting times for the train are known to follow a uniform distribution.",
-  "modelSolution": "a. P(X > 650) = 700−650/700−300=50/400=1/8 = 0.125\nb. P(400 < X < 650) = 650−400/700−300=250/400 = 0.625\nc. 0.10 = width/700−300, so width = 400(0.10) = 40. Since 700 – 40 = 660, the drivers travel at least 660 miles on the furthest 10% of days.",
+  "modelSolution": "[PARTS]\na. P(X > 650) =700−650/700−300=50/400=1/8 = 0.125\nb. P(400 <X < 650) =650−400/700−300=250/400 = 0.625\nc. 0.10 = width/700−300, so width = 400(0.10) = 40. Since 700 – 40 = 660, the drivers travel at least 660 miles on the furthest 10% of days.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -687,7 +681,7 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "Suppose that on a certain stretch of highway, cars pass at an average rate of five cars per minute. Assume that the duration of time between successive cars follows the exponential distribution.\n\na. On average, how many seconds elapse between two successive cars?\nb. After a car passes by, how long on average will it take for another seven cars to pass by?\nc. Find the probability that after a car passes by, the next car will pass within the next 20 seconds.\nd. Find the probability that after a car passes by, the next car will not pass for at least another 15 seconds.",
+  "stem": "Suppose that on a certain stretch of highway, cars pass at an average rate of five cars per minute. Assume that the duration of time between successive cars follows the exponential distribution.\n\n[PARTS]\na. On average, how many seconds elapse between two successive cars?\nb. After a car passes by, how long on average will it take for another seven cars to pass by?\nc. Find the probability that after a car passes by, the next car will pass within the next 20 seconds.\nd. Find the probability that after a car passes by, the next car will not pass for at least another 15 seconds.\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46969",
@@ -719,7 +713,7 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "In a small city, the number of automobile accidents occur with a Poisson distribution at an average of three per week.\n\na. Calculate the probability that there are at most 2 accidents occur in any given week.\nb. What is the probability that there is at least two weeks between any 2 accidents?",
+  "stem": "In a small city, the number of automobile accidents occur with a Poisson distribution at an average of three per week.\n\n[PARTS]\na. Calculate the probability that there are at most 2 accidents occur in any given week.\nb. What is the probability that there is at least two weeks between any 2 accidents?\n[/PARTS]",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m46969",
@@ -892,7 +886,6 @@
    "module": "m46969",
    "exerciseId": "fs-idp51932320"
   },
-  "context": "Use the following information to answer the next seven exercises. A distribution is given as X ~ Exp(0.75).",
   "modelSolution": "The mean is larger. The mean is 1/m=1/0.75≈1.33, which is greater than 0.9242.",
   "needsFigure": false,
   "explanation": []
@@ -924,7 +917,6 @@
    "module": "m46969",
    "exerciseId": "fs-idp35926784"
   },
-  "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.",
   "answer": 0.000121,
   "tolerance": {
    "abs": 0.005,
@@ -941,14 +933,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "Find the amount (percent of one gram) of carbon-14 lasting less than 5,730 years. This means, find P(x < 5,730).\n\na. Sketch the graph, and shade the area of interest.\n[FIGURE]\nb. Find the probability. P(x < 5,730) = __________",
+  "stem": "Find the amount (percent of one gram) of carbon-14 lasting less than 5,730 years. This means, find P(x < 5,730).\n\n[PARTS]\na. Sketch the graph, and shade the area of interest. [FIGURE]\nb. Find the probability. P(x < 5,730) = __________\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp21762624"
   },
-  "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.",
-  "modelSolution": "a. Answers may vary.\nb. P(x < 5,730) = 0.5001",
+  "modelSolution": "[PARTS]\na. Answers may vary.\nb. P(x < 5,730) = 0.5001\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -957,14 +948,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "Thirty percent (30%) of carbon-14 will decay within how many years?\n\na. Sketch the graph, and shade the area of interest.\n[FIGURE]\nb. Find the value k such that P(x < k) = 0.30.",
+  "stem": "Thirty percent (30%) of carbon-14 will decay within how many years?\n\n[PARTS]\na. Sketch the graph, and shade the area of interest. [FIGURE]\nb. Find the value k such thatP(x <k) = 0.30.\n[/PARTS]",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp120888672"
   },
-  "context": "Use the following information to answer the next 16 exercises. Carbon-14 is a radioactive element with a half-life of about 5,730 years. Carbon-14 is said to decay exponentially. The decay rate is 0.000121. We start with one gram of carbon-14. We are interested in the time (years) it takes to decay carbon-14.",
-  "modelSolution": "a. Answers may vary.\nb. k = 2947.73",
+  "modelSolution": "[PARTS]\na. Answers may vary.\nb. k = 2947.73\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -973,13 +963,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "Suppose that the useful life of a particular car battery, measured in months, decays with parameter 0.025. We are interested in the life of the battery.\n\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ ________\nd. On average, how long would you expect one car battery to last?\ne. On average, how long would you expect nine car batteries to last, if they are used one after another?\nf. Find the probability that a car battery lasts more than 36 months.\ng. Seventy percent of the batteries last at least how long?",
+  "stem": "Suppose that the useful life of a particular car battery, measured in months, decays with parameter 0.025. We are interested in the life of the battery.\n\n[PARTS]\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ ________\nd. On average, how long would you expect one car battery to last?\ne. On average, how long would you expect nine car batteries to last, if they are used one after another?\nf. Find the probability that a car battery lasts more than 36 months.\ng. Seventy percent of the batteries last at least how long?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp127287888"
   },
-  "modelSolution": "a. X = the useful life of a particular car battery, measured in months.\nb. X is continuous.\nc. X ~ Exp(0.025)\nd. 40 months\ne. 360 months\nf. 0.4066\ng. 14.27",
+  "modelSolution": "[PARTS]\na. X = the useful life of a particular car battery, measured in months.\nb. X is continuous.\nc. X ~Exp(0.025)\nd. 40 months\ne. 360 months\nf. 0.4066\ng. 14.27\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -988,39 +978,31 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "The time (in years) after reaching age 60 that it takes an individual to retire is approximately exponentially distributed with a mean of about five years. Suppose we randomly pick one retired individual. We are interested in the time after age 60 to retirement.\n\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ = ________\nd. μ = ________\ne. σ = ________\nf. Draw a graph of the probability distribution. Label the axes.\ng. Find the probability that the person retired after age 70.\nh. Do more people retire before age 65 or after age 65?\ni. In a room of 1,000 people over age 80, how many do you expect will NOT have retired yet?",
+  "stem": "The time (in years) after reaching age 60 that it takes an individual to retire is approximately exponentially distributed with a mean of about five years. Suppose we randomly pick one retired individual. We are interested in the time after age 60 to retirement.\n\n[PARTS]\na. Define the random variable. X = _________________________________.\nb. Is X continuous or discrete?\nc. X ~ = ________\nd. μ = ________\ne. σ = ________\nf. Draw a graph of the probability distribution. Label the axes.\ng. Find the probability that the person retired after age 70.\nh. Do more people retire before age 65 or after age 65?\ni. In a room of 1,000 people over age 80, how many do you expect will NOT have retired yet?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp23265056"
   },
-  "modelSolution": "a. X = the time (in years) after reaching age 60 that it takes an individual to retire\nb. X is continuous.\nc. X ~ Exp(1/5)\n\nd. five\ne. five\nf. Answers may vary.\ng. 0.1353\nh. before\ni. 18.3",
+  "modelSolution": "[PARTS]\na. X = the time (in years) after reaching age 60 that it takes an individual to retire\nb. X is continuous.\nc. X ~Exp(1/5)\nd. five\ne. five\nf. Answers may vary.\ng. 0.1353\nh. before\ni. 18.3\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
  {
   "id": "os-m46969-fs-idp164419184",
   "sectionId": "5.3",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "5.3",
-  "stem": "The decay rate is:",
+  "stem": "The decay rate is:\n\n[DATA]0.3333, 0.5000, 2, 3[/DATA]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp164419184"
   },
   "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
-  "options": [
-   "0.3333",
-   "0.5000",
-   "2",
-   "3"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "a",
   "needsFigure": false,
-  "explanation": [
-   "a"
-  ]
+  "explanation": []
  },
  {
   "id": "os-m46969-fs-idm3440688",
@@ -1051,14 +1033,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years.\n\na. Find the probability that a light bulb lasts less than one year.\nb. Find the probability that a light bulb lasts between six and ten years.\nc. Seventy percent of all light bulbs last at least how long?\nd. A company decides to offer a warranty to give refunds to light bulbs whose lifetime is among the lowest two percent of all bulbs. To the nearest month, what should be the cutoff lifetime for the warranty to take place?\ne. If a light bulb has lasted seven years, what is the probability that it fails within the 8th year.",
+  "stem": "Suppose that the longevity of a light bulb is exponential with a mean lifetime of eight years.\n\n[PARTS]\na. Find the probability that a light bulb lasts less than one year.\nb. Find the probability that a light bulb lasts between six and ten years.\nc. Seventy percent of all light bulbs last at least how long?\nd. A company decides to offer a warranty to give refunds to light bulbs whose lifetime is among the lowest two percent of all bulbs. To the nearest month, what should be the cutoff lifetime for the warranty to take place?\ne. If a light bulb has lasted seven years, what is the probability that it fails within the 8th year.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idm5013072"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
-  "modelSolution": "Let T = the life time of a light bulb.\n\nThe decay parameter is m = 1/8, and T ∼ Exp(1/8). The cumulative distribution function is P(T<t)=1−e^(−t/8)\n\na. Therefore, P(T < 1) = 1 – e–1/8 ≈ 0.1175.\nb. We want to find P(6 < t < 10).\n\nTo do this, P(6 < t < 10) – P(t < 6)\n\n=(1–e^(–1/8*10))–(1–e^(–1/8*6)) ≈ 0.7135 – 0.5276 = 0.1859\n[FIGURE]\nc. We want to find 0.70 =P(T>t)=1–(1–e^(−t/8))=e^(−t/8).\n\nSolving for t, e–t/8 = 0.70, so –t/8 = ln(0.70), and t = –8ln(0.70) ≈ 2.85 years.\n\nOr use t = (ln(area_to_the_right))/((–m))=(ln(0.70))/(–1/8)≈2.85 years.\n[FIGURE]\nd. We want to find 0.02 = P(T < t) = 1 – e–t/8.\n\nSolving for t, e–t/8 = 0.98, so –t/8 = ln(0.98), and t = –8ln(0.98) ≈ 0.1616 years, or roughly two months.\n\nThe warranty should cover light bulbs that last less than 2 months.\n\nOr use (ln(area_to_the_right))/((–m))=(ln(1–0.2))/(–1/8) = 0.1616.\ne. We must find P(T < 8|T > 7).\n\nNotice that by the rule of complement events, P(T < 8|T > 7) = 1 – P(T > 8|T > 7).\n\nBy the memoryless property (P(X > r + t|X > r) = P(X > t)).\n\nSo P(T > 8|T > 7) = P(T > 1) = 1–(1–e^(–1/8))=e^(–1/8)≈0.8825\n\nTherefore, P(T < 8|T > 7) = 1 – 0.8825 = 0.1175.",
+  "modelSolution": "Let T = the life time of a light bulb.\n\nThe decay parameter is m = 1/8, and T ∼ Exp(1/8). The cumulative distribution function is P(T<t)=1−e^(−t/8)\n\n[PARTS]\na. Therefore, P(T < 1) = 1 – e–1/8 ≈ 0.1175.\nb. We want to find P(6 <t < 10).To do this,P(6 <t < 10) –P(t < 6)=(1–e^(–1/8*10))–(1–e^(–1/8*6)) ≈ 0.7135 – 0.5276 = 0.1859[FIGURE]\nc. We want to find 0.70 =P(T>t)=1–(1–e^(−t/8))=e^(−t/8).Solving fort, e–t/8 = 0.70, so–t/8 =ln(0.70), andt = –8ln(0.70) ≈ 2.85 years.Or uset =(ln(area_to_the_right))/((–m))=(ln(0.70))/(–1/8)≈2.85 years.[FIGURE]\nd. We want to find 0.02 = P(T <t) = 1 –e–t/8.Solving fort,e–t/8 = 0.98, so–t/8 =ln(0.98), and t = –8ln(0.98) ≈ 0.1616 years, or roughly two months.The warranty should cover light bulbs that last less than 2 months.Or use(ln(area_to_the_right))/((–m))=(ln(1–0.2))/(–1/8) = 0.1616.\ne. We must find P(T < 8|T > 7).Notice that by the rule of complement events,P(T < 8|T > 7) = 1 –P(T > 8|T > 7).By the memoryless property (P(X >r +t|X >r) =P(X >t)).SoP(T > 8|T > 7) =P(T > 1) =1–(1–e^(–1/8))=e^(–1/8)≈0.8825Therefore,P(T < 8|T > 7) = 1 – 0.8825 = 0.1175.\n[/PARTS]",
   "needsFigure": true,
   "explanation": []
  },
@@ -1067,14 +1048,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "In major league baseball, a no-hitter is a game in which a pitcher, or pitchers, doesn't give up any hits throughout the game. No-hitters occur at a rate of about three per season. Assume that the duration of time between no-hitters is exponential.\n\na. What is the probability that an entire season elapses with a single no-hitter?\nb. If an entire season elapses without any no-hitters, what is the probability that there are no no-hitters in the following season?\nc. What is the probability that there are more than 3 no-hitters in a single season?",
+  "stem": "In major league baseball, a no-hitter is a game in which a pitcher, or pitchers, doesn't give up any hits throughout the game. No-hitters occur at a rate of about three per season. Assume that the duration of time between no-hitters is exponential.\n\n[PARTS]\na. What is the probability that an entire season elapses with a single no-hitter?\nb. If an entire season elapses without any no-hitters, what is the probability that there are no no-hitters in the following season?\nc. What is the probability that there are more than 3 no-hitters in a single season?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idm6685504"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
-  "modelSolution": "Let X = the number of no-hitters throughout a season. Since the duration of time between no-hitters is exponential, the number of no-hitters per season is Poisson with mean λ = 3.\n\nTherefore, (X = 0) = (3^0e^–3)/(0!) = e–3 ≈ 0.0498\n\nNOTE\n\nYou could let T = duration of time between no-hitters. Since the time is exponential and there are 3 no-hitters per season, then the time between no-hitters is 1/3 season. For the exponential, µ = 1/3.\n\nTherefore, m = 1/μ = 3 and T ∼ Exp(3).\n\na. The desired probability is P(T > 1) = 1 – P(T < 1) = 1 – (1 – e–3) = e–3 ≈ 0.0498.\nb. Let T = duration of time between no-hitters. We find P(T > 2|T > 1), and by the memoryless property this is simply P(T > 1), which we found to be 0.0498 in part a.\nc. Let X = the number of no-hitters is a season. Assume that X is Poisson with mean λ = 3. Then P(X > 3) = 1 – P(X ≤ 3) = 0.3528.",
+  "modelSolution": "Let X = the number of no-hitters throughout a season. Since the duration of time between no-hitters is exponential, the number of no-hitters per season is Poisson with mean λ = 3.\n\nTherefore, (X = 0) = (3^0e^–3)/(0!) = e–3 ≈ 0.0498\n\nNOTE\n\nYou could let T = duration of time between no-hitters. Since the time is exponential and there are 3 no-hitters per season, then the time between no-hitters is 1/3 season. For the exponential, µ = 1/3.\n\nTherefore, m = 1/μ = 3 and T ∼ Exp(3).\n\n[PARTS]\na. The desired probability is P(T > 1) = 1 –P(T < 1) = 1 – (1 – e–3) = e–3 ≈ 0.0498.\nb. Let T = duration of time between no-hitters. We findP(T > 2|T > 1), and by thememoryless property this is simplyP(T > 1), which we found to be 0.0498 in part a.\nc. Let X = thenumber of no-hitters is a season. Assume thatX is Poisson with meanλ = 3. ThenP(X > 3) = 1 –P(X ≤ 3) = 0.3528.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1083,14 +1063,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "According to the American Red Cross, about one out of nine people in the U.S. have Type B positive blood. Suppose the blood types of people arriving at a blood drive are independent. In this case, the number of Type B positive blood types that arrive roughly follows the Poisson distribution.\n\na. If 100 people arrive, how many on average would be expected to have Type B positive blood?\nb. What is the probability that over 10 people out of these 100 have type B positive blood?\nc. What is the probability that more than 20 people arrive before a person with type B positive blood is found?",
+  "stem": "According to the American Red Cross, about one out of nine people in the U.S. have Type B positive blood. Suppose the blood types of people arriving at a blood drive are independent. In this case, the number of Type B positive blood types that arrive roughly follows the Poisson distribution.\n\n[PARTS]\na. If 100 people arrive, how many on average would be expected to have Type B positive blood?\nb. What is the probability that over 10 people out of these 100 have type B positive blood?\nc. What is the probability that more than 20 people arrive before a person with type B positive blood is found?\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idp35197296"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
-  "modelSolution": "a. 100/9 = 11.11\nb. P(X > 10) = 1 – P(X ≤ 10) = 1 – Poissoncdf(11.11, 10) ≈ 0.5532.\nc. The number of people with Type B positive blood encountered roughly follows the Poisson distribution, so the number of people X who arrive between successive Type B positive arrivals is roughly exponential with mean μ = 9 and m = 1/9. The cumulative distribution function of X is P(X<x)=1−e^(−x/9). Thus, P(X > 20) = 1 - P(X ≤ 20) = 1−(1−e^(−20/9))≈0.1084.\n\nNOTE\n\nWe could also deduce that each person arriving has a 8/9 chance of not having Type B positive blood. So the probability that none of the first 20 people arrive have Type B positive blood is (8/9)^20≈0.0948. (The geometric distribution is more appropriate than the exponential because the number of people between Type B positive people is discrete instead of continuous.)",
+  "modelSolution": "[PARTS]\na. 100/9 = 11.11\nb. P(X > 10) = 1 –P(X ≤ 10) = 1 – Poissoncdf(11.11, 10) ≈ 0.5532.\nc. The number of people with Type B positive blood encountered roughly follows the Poisson distribution, so the number of people X who arrive between successive Type B positive arrivals is roughly exponential with meanμ = 9 andm =1/9. The cumulative distribution function ofX isP(X<x)=1−e^(−x/9). Thus,P(X > 20) = 1 -P(X ≤ 20) =1−(1−e^(−20/9))≈0.1084.\n[/PARTS]\n\nNOTE\n\nWe could also deduce that each person arriving has a 8/9 chance of not having Type B positive blood. So the probability that none of the first 20 people arrive have Type B positive blood is (8/9)^20≈0.0948. (The geometric distribution is more appropriate than the exponential because the number of people between Type B positive people is discrete instead of continuous.)",
   "needsFigure": false,
   "explanation": []
  },
@@ -1099,14 +1078,13 @@
   "sectionId": "5.3",
   "kind": "open",
   "conceptTag": "5.3",
-  "stem": "At an urgent care facility, patients arrive at an average rate of one patient every seven minutes. Assume that the duration between arrivals is exponentially distributed.\n\na. Find the probability that the time between two successive visits to the urgent care facility is less than 2 minutes.\nb. Find the probability that the time between two successive visits to the urgent care facility is more than 15 minutes.\nc. If 10 minutes have passed since the last arrival, what is the probability that the next person will arrive within the next five minutes?\nd. Find the probability that more than eight patients arrive during a half-hour period.",
+  "stem": "At an urgent care facility, patients arrive at an average rate of one patient every seven minutes. Assume that the duration between arrivals is exponentially distributed.\n\n[PARTS]\na. Find the probability that the time between two successive visits to the urgent care facility is less than 2 minutes.\nb. Find the probability that the time between two successive visits to the urgent care facility is more than 15 minutes.\nc. If 10 minutes have passed since the last arrival, what is the probability that the next person will arrive within the next five minutes?\nd. Find the probability that more than eight patients arrive during a half-hour period.\n[/PARTS]",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m46969",
    "exerciseId": "fs-idm90634192"
   },
-  "context": "Use the following information to answer the next three exercises. The average lifetime of a certain new smartphone is three years. The manufacturer will replace any smartphone failing within two years of the date of purchase. The lifetime of these smartphones is known to follow an exponential distribution.",
-  "modelSolution": "Let T = duration (in minutes) between successive visits. Since patients arrive at a rate of one patient every seven minutes, μ = 7 and the decay constant is m = 1/7. The cdf is P(T < t) = 1−e^(t/7)\n\na. P(T < 2) = 1 - 1−e^(−2/7) ≈ 0.2485.\nb. P(T > 15) = 1−P(T<15)=1−(1−e^(−15/7))≈e^(−15/7)≈0.1173.\nc. P(T > 15|T > 10) = P(T > 5) = 1−(1−e^(−5/7))=e^(−5/7)≈0.4895.\nd. Let X = # of patients arriving during a half-hour period. Then X has the Poisson distribution with a mean of 30/7, X ∼ Poisson(30/7). Find P(X > 8) = 1 – P(X ≤ 8) ≈ 0.0311.",
+  "modelSolution": "Let T = duration (in minutes) between successive visits. Since patients arrive at a rate of one patient every seven minutes, μ = 7 and the decay constant is m = 1/7. The cdf is P(T < t) = 1−e^(t/7)\n\n[PARTS]\na. P(T < 2) = 1 -1−e^(−2/7) ≈ 0.2485.\nb. P(T > 15) =1−P(T<15)=1−(1−e^(−15/7))≈e^(−15/7)≈0.1173.\nc. P(T > 15|T > 10) =P(T > 5) =1−(1−e^(−5/7))=e^(−5/7)≈0.4895.\nd. Let X = # of patients arriving during a half-hour period. ThenX has the Poisson distribution with a mean of30/7,X ∼ Poisson(30/7). FindP(X > 8) = 1 –P(X ≤ 8) ≈ 0.0311.\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },
@@ -1327,26 +1305,18 @@
  {
   "id": "fe2-13",
   "sectionId": "5.3",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "5.3",
-  "stem": "What is the probability that one customer spends less than $72 in one trip to the supermarket?",
+  "stem": "What is the probability that one customer spends less than $72 in one trip to the supermarket?\n[DATA]0.6321, 0.5000, 0.3714, 1[/DATA]",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 2",
    "n": 13
   },
   "context": "Use the following information to answer the next three exercises. The amount of money a customer spends in one trip to the supermarket is known to have an exponential distribution. Suppose the average amount of money a customer spends in one trip to the supermarket is $72.",
-  "options": [
-   "0.6321",
-   "0.5000",
-   "0.3714",
-   "1"
-  ],
-  "correctIndex": 0,
+  "modelSolution": "a. 0.6321",
   "needsFigure": false,
-  "explanation": [
-   "a. 0.6321"
-  ]
+  "explanation": []
  },
  {
   "id": "fe2-14",
@@ -1439,26 +1409,18 @@
  {
   "id": "fe2-18",
   "sectionId": "5.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "5.2",
-  "stem": "We should expect a fourth grader to take how many minutes to take out the trash?",
+  "stem": "We should expect a fourth grader to take how many minutes to take out the trash?\n[DATA]4.5, 5.5, 5, 10[/DATA]",
   "source": "openstax-final",
   "sourceRef": {
    "test": "Practice Final Exam 2",
    "n": 18
   },
-  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.",
-  "options": [
-   "4.5",
-   "5.5",
-   "5",
-   "10"
-  ],
-  "correctIndex": 1,
-  "needsFigure": false,
-  "explanation": [
-   "b. 5.5"
-  ]
+  "context": "Use the following information to answer the next three exercises: The amount of time it takes a fourth grader to carry out the trash is uniformly distributed in the interval from one to ten minutes.\n\n[FIGURE]",
+  "modelSolution": "b. 5.5",
+  "needsFigure": true,
+  "explanation": []
  },
  {
   "id": "rv7-47",
@@ -1533,46 +1495,6 @@
   ]
  },
  {
-  "id": "rv7-50",
-  "sectionId": "5.2",
-  "kind": "open",
-  "conceptTag": "5.2",
-  "stem": "Given: X ~ Exp(1/3)\na. Find P(x > 1).\nb. Calculate the minimum value for the upper quartile.\nc. Find P(x=1/3)",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 7",
-   "n": 50
-  },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
-  "modelSolution": "a. 0.7165\nb. 4.16\nc. 0",
-  "needsFigure": false,
-  "explanation": []
- },
- {
-  "id": "rv7-51",
-  "sectionId": "5.2",
-  "kind": "mc",
-  "conceptTag": "5.2",
-  "stem": "• 40% of full-time students took 4 years to graduate\n• 30% of full-time students took 5 years to graduate\n• 20% of full-time students took 6 years to graduate\n• 10% of full-time students took 7 years to graduate\n\nThe expected time for full-time students to graduate is:",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 7",
-   "n": 51
-  },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
-  "options": [
-   "4 years",
-   "4.5 years",
-   "5 years",
-   "5.5 years"
-  ],
-  "correctIndex": 2,
-  "needsFigure": false,
-  "explanation": [
-   "c. 5 years"
-  ]
- },
- {
   "id": "rv7-52",
   "sectionId": "5.3",
   "kind": "mc",
@@ -1583,7 +1505,6 @@
    "test": "Chapter 7",
    "n": 52
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "options": [
    "binomial",
    "uniform",
@@ -1607,40 +1528,7 @@
    "test": "Chapter 7",
    "n": 53
   },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
   "modelSolution": "0.63",
-  "needsFigure": false,
-  "explanation": []
- },
- {
-  "id": "rv7-54",
-  "sectionId": "5.2",
-  "kind": "open",
-  "conceptTag": "5.2",
-  "stem": "Which distribution accurately describes the following situation?\n\nThe chance that a teenage boy regularly gives his mother a kiss goodnight is about 20%. Fourteen teenage boys are randomly surveyed. Let X = the number of teenage boys that regularly give their mother a kiss goodnight.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 7",
-   "n": 54
-  },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
-  "modelSolution": "B(14, 0.20)",
-  "needsFigure": false,
-  "explanation": []
- },
- {
-  "id": "rv7-55",
-  "sectionId": "5.2",
-  "kind": "open",
-  "conceptTag": "5.2",
-  "stem": "A 2008 report on technology use states that approximately 20% of U.S. households have never sent an e-mail. Suppose that we select a random sample of fourteen U.S. households. Let X = the number of households in a 2008 sample of 14 households that have never sent an email",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 7",
-   "n": 55
-  },
-  "context": "Use the following information to answer the next three exercises: Richard’s Furniture Company delivers furniture from 10 A.M. to 2 P.M. continuously and uniformly. We are interested in how long (in hours) past the 10 A.M. start time that individuals wait for their delivery.",
-  "modelSolution": "B(14, 0.20)",
   "needsFigure": false,
   "explanation": []
  },
@@ -1671,26 +1559,18 @@
  {
   "id": "rv8-60",
   "sectionId": "5.2",
-  "kind": "mc",
+  "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The 20th percentile occurs after how many hours?",
+  "stem": "The 20th percentile occurs after how many hours?\n[DATA]0.20, 0.60, 0.50, 1[/DATA]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
    "n": 60
   },
   "context": "Using the following information to answer the next three exercises: The time of occurrence of the first accident during rush-hour traffic at a major intersection is uniformly distributed between the three hour interval 4 p.m. to 7 p.m. Let X = the amount of time (hours) it takes for the first accident to occur.",
-  "options": [
-   "0.20",
-   "0.60",
-   "0.50",
-   "1"
-  ],
-  "correctIndex": 1,
+  "modelSolution": "b. 0.60",
   "needsFigure": false,
-  "explanation": [
-   "b. 0.60"
-  ]
+  "explanation": []
  },
  {
   "id": "rv8-61",
@@ -1714,29 +1594,6 @@
   "needsFigure": false,
   "explanation": [
    "c. N(60, 5.477)"
-  ]
- },
- {
-  "id": "rv8-62",
-  "sectionId": "5.2",
-  "kind": "numeric",
-  "conceptTag": "5.2",
-  "stem": "Using the information in Question 61, find the probability that the total time for all first accidents to occur is more than 43 hours.",
-  "source": "openstax-review",
-  "sourceRef": {
-   "test": "Chapter 8",
-   "n": 62
-  },
-  "context": "Using the following information to answer the next three exercises: The time of occurrence of the first accident during rush-hour traffic at a major intersection is uniformly distributed between the three hour interval 4 p.m. to 7 p.m. Let X = the amount of time (hours) it takes for the first accident to occur.",
-  "answer": 0.999,
-  "tolerance": {
-   "abs": 0.005,
-   "rel": 0.01
-  },
-  "unit": null,
-  "needsFigure": false,
-  "explanation": [
-   "0.9990"
   ]
  },
  {
@@ -1816,13 +1673,12 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The distribution for X is uniform. What can we say for certain about the distribution for X̄\nwhen n = 1?\na. The distribution for X̄\nis still uniform with the same mean and standard deviation as the distribution for X.\nb. The distribution for X̄ is normal with the different mean and a different standard deviation as the distribution for X.\nc. The distribution for X̄ is normal with the same mean but a larger standard deviation than the distribution for X.\nd. The distribution for X̄ is normal with the same mean but a smaller standard deviation than the distribution for X.",
+  "stem": "The distribution for X is uniform. What can we say for certain about the distribution for X̄\nwhen n = 1?\n[PARTS]\na. The distribution for X̄ is still uniform with the same mean and standard deviation as the distribution forX.\nb. The distribution for X̄ is normal with the different mean and a different standard deviation as the distribution forX.\nc. The distribution for X̄ is normal with the same mean but a larger standard deviation than the distribution forX.\nd. The distribution for X̄ is normal with the same mean but a smaller standard deviation than the distribution forX.\n[/PARTS]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 10",
    "n": 92
   },
-  "context": "Suppose that one person from was randomly selected.",
   "modelSolution": "a. The distribution for X̄ is still uniform with the same mean and standard deviation as the distribution for X.",
   "needsFigure": false,
   "explanation": []
@@ -1832,13 +1688,12 @@
   "sectionId": "5.2",
   "kind": "open",
   "conceptTag": "5.2",
-  "stem": "The distribution for X is uniform. What can we say for certain about the distribution for ∑X\nwhen n = 50?\na. distribution for ∑X\nis still uniform with the same mean and standard deviation as the distribution for X.\nb. The distribution for ∑X\nis normal with the same mean but a larger standard deviation as the distribution for X.\nc. The distribution for ∑X\nis normal with a larger mean and a larger standard deviation than the distribution for X.\nd. The distribution for ∑X\nis normal with the same mean but a smaller standard deviation than the distribution for X.",
+  "stem": "The distribution for X is uniform. What can we say for certain about the distribution for ∑X\nwhen n = 50?\n[PARTS]\na. distribution for ∑X is still uniform with the same mean and standard deviation as the distribution forX.\nb. The distribution for ∑X is normal with the same mean but a larger standard deviation as the distribution forX.\nc. The distribution for ∑X is normal with a larger mean and a larger standard deviation than the distribution forX.\nd. The distribution for ∑X is normal with the same mean but a smaller standard deviation than the distribution forX.\n[/PARTS]",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 10",
    "n": 93
   },
-  "context": "Suppose that one person from was randomly selected.",
   "modelSolution": "c. The distribution for ∑X is normal with a larger mean and a larger standard deviation than the distribution for X.",
   "needsFigure": false,
   "explanation": []
