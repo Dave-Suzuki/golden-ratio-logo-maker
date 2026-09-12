@@ -1,0 +1,19 @@
+{"id":"tryit-m47019-6","verdict":"ok"}
+{"id":"tryit-m47029-3","verdict":"broken","issue":"missing-info","note":"The four statements to classify are never shown; answer is also a garbled 'Type I error: c / Type I error: a'."}
+{"id":"tryit-m47044-0","verdict":"broken","issue":"ungradable","note":"Only task is to draw a graph; model answer is just 'Figure 18', a figure the learner never sees."}
+{"id":"tryit-m47045-2","verdict":"ok"}
+{"id":"tryit-m47050-1","verdict":"broken","issue":"garbled","note":"Answer correct, then bleeds an entire unrelated exercise ('try it 10.3', 'try it 10.4') plus its full solutions."}
+{"id":"tryit-m47050-2","verdict":"broken","issue":"wrong-answer","note":"Stated p-value 0.03 and 'reject' are wrong; means 76.5 vs 74.6 give t=0.34, one-tailed p about 0.37, do not reject."}
+{"id":"tryit-m47060-1","verdict":"broken","issue":"wrong-answer","note":"Stated p-value 0.1023 is wrong; z=0.52 gives left-tailed p about 0.698. Hypotheses also all mislabeled H_0."}
+{"id":"tryit-m47060-2","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'a.' with no scenario, data or study described; nothing to identify a test from."}
+{"id":"tryit-m47060-3","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'b.' with no scenario or data; the test being referred to is never shown."}
+{"id":"tryit-m47060-4","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'c.' with no scenario; answer refers to a Northeast/Southeast study that appears nowhere."}
+{"id":"tryit-m47060-5","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'd.' with no scenario; answer cites Northeast/Southeast subscripts never introduced."}
+{"id":"tryit-m47060-6","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'e.' with no scenario or hypotheses shown, so tail direction cannot be determined."}
+{"id":"tryit-m47060-8","verdict":"broken","issue":"missing-info","note":"Bare sub-part 'g.' with no data, p-value or significance level shown; decision is unanswerable."}
+{"id":"tryit-m47060-9","verdict":"broken","issue":"missing-info","note":"Bare fill-in-the-blank with no scenario; answer concerns motorcycle helmet use in northeast/southeast regions, shown nowhere."}
+{"id":"tryit-m47061-1","verdict":"broken","issue":"wrong-answer","note":"Stated p-value 0.4258 impossible: t=-0.235 for a right-tailed test gives p about 0.591. Hypotheses also all mislabeled H_0."}
+{"id":"tryit-m47064-1","verdict":"ok"}
+{"id":"tryit-m47085-1","verdict":"ok"}
+{"id":"tryit-m47091-1","verdict":"ok"}
+{"id":"tryit-m47109-0","verdict":"ok"}

@@ -1,0 +1,35 @@
+{"id":"tryit-m46934-1","verdict":"ok"}
+{"id":"tryit-m46934-2","verdict":"ok"}
+{"id":"tryit-m46934-3","verdict":"broken","issue":"ungradable","note":"Asks learner to construct a line graph; answer is only the placeholder \"Figure 2\", so nothing to compare against."}
+{"id":"tryit-m46934-4","verdict":"broken","issue":"ungradable","note":"Asks learner to construct a bar graph; answer is only \"Figure 3\", an image the learner never sees."}
+{"id":"tryit-m46934-5","verdict":"broken","issue":"ungradable","note":"Asks for a bar graph; answer is just \"Figure 4\" plus a stray section heading."}
+{"id":"tryit-m46942-0","verdict":"broken","issue":"answer-mismatch","note":"All probability parts are blank: \"P(A) = , P(B) =\", etc.; part g answered with P(B)+P(B') instead."}
+{"id":"tryit-m46942-1","verdict":"broken","issue":"wrong-answer","note":"Part b omits 10: A should be {7,8,9,10}, P(A)=4/10; parts f and h already assume four elements."}
+{"id":"tryit-m46944-3","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; answer is only \"Figure 12\"."}
+{"id":"tryit-m46944-4","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; answer is only \"Figure 13\"."}
+{"id":"tryit-m46944-5","verdict":"broken","issue":"ungradable","note":"Asks learner to draw a Venn diagram; answer is only \"Figure 14\"."}
+{"id":"tryit-m46944-6","verdict":"broken","issue":"ungradable","note":"Parts a and d require drawing ovals in a Venn diagram; answer points to an invisible \"Figure 15\"."}
+{"id":"tryit-m46947-5","verdict":"broken","issue":"wrong-answer","note":"Part e wrong: P(D|B')=0.10/0.60=0.167, not the stated 0.06."}
+{"id":"tryit-m46948-1","verdict":"broken","issue":"missing-info","note":"The candidate outcomes are never listed, yet the answer judges items 1, 2 and 3."}
+{"id":"tryit-m46948-3","verdict":"broken","issue":"answer-mismatch","note":"Probabilities are blank: \"P(F) =\", \"P(G) =\", \"P(H) =\"; only the two mutually-exclusive parts are answered."}
+{"id":"tryit-m46948-9","verdict":"broken","issue":"answer-mismatch","note":"P(T) and P(T|F) are left blank, so parts a and b have no answer."}
+{"id":"tryit-m46959-1","verdict":"broken","issue":"answer-mismatch","note":"Answer is the truncated fragment \"(0) + (1)+ (2)\"; the expected value 2.32 is never stated."}
+{"id":"tryit-m46959-3","verdict":"broken","issue":"answer-mismatch","note":"Table-completion answer gives only x values; the P(x) and x*P(x) entries it asks for are missing."}
+{"id":"tryit-m46961-6","verdict":"ok"}
+{"id":"tryit-m46965-0","verdict":"broken","issue":"ungradable","note":"Requires drawing the graph of f(x); that half of the answer is only \"Figure 16\"."}
+{"id":"tryit-m46969-0","verdict":"broken","issue":"ungradable","note":"Requires graphing the distribution; answer supplies only \"Figure 17\" for that part."}
+{"id":"tryit-m46969-3","verdict":"broken","issue":"answer-mismatch","note":"Asks for m but the answer leaves it blank: \"m = ; μ = 20; σ = 20\"."}
+{"id":"tryit-m46969-6","verdict":"ok"}
+{"id":"tryit-m46972-4","verdict":"broken","issue":"ungradable","note":"Part c asks to graph the distribution; the answer skips it entirely and cannot be marked."}
+{"id":"tryit-m46973-3","verdict":"broken","issue":"missing-info","note":"No scenario: mean 36.9 and sd 13.9 and the smartphone-user context appear only in the answer."}
+{"id":"tryit-m46980-5","verdict":"ok"}
+{"id":"tryit-m46992-2","verdict":"ok"}
+{"id":"tryit-m46994-3","verdict":"ok"}
+{"id":"tryit-m46999-1","verdict":"broken","issue":"answer-mismatch","note":"Answer appends a long part b about iPod/smartphone ownership that belongs to a different question."}
+{"id":"tryit-m47002-1","verdict":"broken","issue":"missing-info","note":"No data, sample size, mean or standard deviation given, yet a specific interval (34.1347, 37.8653) is expected."}
+{"id":"tryit-m47019-0","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; that part of the answer is only \"Figure 19\"."}
+{"id":"tryit-m47019-1","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; that part of the answer is only \"Figure 20\"."}
+{"id":"tryit-m47019-2","verdict":"broken","issue":"ungradable","note":"Asks learner to draw the p-value picture; that part of the answer is only \"Figure 21\"."}
+{"id":"tryit-m47019-3","verdict":"broken","issue":"ungradable","note":"Explicitly asks the learner to sketch the graph; answer gives only \"Figure 22\" for it."}
+{"id":"tryit-m47019-4","verdict":"broken","issue":"wrong-answer","note":"p-value wrong: z=0.5/(45/√20)=0.05 gives p≈0.4802; a right-tailed p above 0.5 is impossible here."}
+{"id":"tryit-m47019-5","verdict":"broken","issue":"wrong-answer","note":"p-value wrong: x̄=2.6, σ=1, n=10 gives z=-7.59, p≈2e-14, not the stated 0.0082 (√n omitted)."}

@@ -1,0 +1,35 @@
+{"id":"pt2-36","verdict":"ok"}
+{"id":"os-m46980-fs-idm126130944","verdict":"ok"}
+{"id":"os-m46997-exercise12","verdict":"ok"}
+{"id":"os-m46950-element-885","verdict":"ok"}
+{"id":"fe1-21","verdict":"ok"}
+{"id":"tryit-m46885-1","verdict":"ok"}
+{"id":"tryit-m46959-0","verdict":"ok"}
+{"id":"os-m46947-eip-913","verdict":"ok"}
+{"id":"os-m46959-fs-idp33661936","verdict":"ok"}
+{"id":"os-m46922-exercisetwenty","verdict":"ok"}
+{"id":"pt1-52","verdict":"ok"}
+{"id":"deanza-exam1-spring2015-A16","verdict":"broken","issue":"garbled","note":"Scenario table mangled: stray question marks in cells (0?.62, 7? ?8, 0.0?8) and frequency 110 for 10."}
+{"id":"tryit-m46994-0","verdict":"ok"}
+{"id":"os-m47125-element-721","verdict":"ok"}
+{"id":"pt1-11","verdict":"ok"}
+{"id":"rv8-58","verdict":"ok"}
+{"id":"os-m46885-eip-279","verdict":"ok"}
+{"id":"pt1-64","verdict":"ok"}
+{"id":"tryit-m46950-2","verdict":"ok"}
+{"id":"os-m46885-element-842","verdict":"ok"}
+{"id":"os-m46980-fs-idp27962224","verdict":"ok"}
+{"id":"rv12-127","verdict":"ok"}
+{"id":"os-m46997-eip-335","verdict":"ok"}
+{"id":"fe1-17","verdict":"ok"}
+{"id":"tryit-m47029-0","verdict":"ok"}
+{"id":"os-m47125-eip-941","verdict":"broken","issue":"ambiguous","note":"Subscript lost: \"s2\" reads as s-squared (16.9) or as second sample's sd; scenario gives only variances. 4.11 not uniquely defensible."}
+{"id":"os-m46947-element-652","verdict":"ok"}
+{"id":"tryit-m46997-1","verdict":"ok"}
+{"id":"os-m46922-eip-207","verdict":"ok"}
+{"id":"os-m46885-eip-22","verdict":"ok"}
+{"id":"tryit-m46930-8","verdict":"ok"}
+{"id":"rv8-61","verdict":"ok"}
+{"id":"pt3-87","verdict":"ok"}
+{"id":"os-m46980-fs-idm80518368","verdict":"ok"}
+{"id":"os-m46980-eip-802","verdict":"ok"}

@@ -193,3 +193,68 @@ export const CH11_TEMPLATES: Template[] = [
     },
   },
 ];
+
+/**
+ * Homogeneity generators. 11.4 is a short section whose exercises almost all ask for a full test
+ * write-up, and the audit removed the ones whose stored answer only covered part of it. The
+ * mechanics it is actually testing — the degrees of freedom and the expected counts — generate
+ * cleanly.
+ */
+export const CH11_HOMOGENEITY_TEMPLATES: Template[] = [
+  {
+    id: 'chi-homogeneity-df',
+    sectionId: '11.4',
+    conceptTag: '11.4',
+    kind: 'numeric',
+    generate(rng) {
+      const groups = rng.int(2, 5);
+      const categories = rng.int(3, 6);
+      const what = rng.pick(['campuses', 'regions', 'shifts', 'clinics', 'branches']);
+      return {
+        sectionId: '11.4',
+        conceptTag: '11.4',
+        kind: 'numeric',
+        stem: `A test for homogeneity compares ${groups} ${what}, each surveyed separately, across ${categories} response categories. How many degrees of freedom does the test have?`,
+        answer: (groups - 1) * (categories - 1),
+        tolerance: { abs: 0.01 },
+        explanation: [
+          'A test for homogeneity uses the same degrees of freedom as a test of independence.',
+          `df = (rows − 1)(columns − 1) = (${groups} − 1)(${categories} − 1) = ${(groups - 1) * (categories - 1)}`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'chi-homogeneity-expected',
+    sectionId: '11.4',
+    conceptTag: '11.4',
+    kind: 'numeric',
+    generate(rng) {
+      const a = rng.int(15, 60), b = rng.int(15, 60), c = rng.int(15, 60);
+      const d = rng.int(15, 60), e = rng.int(15, 60), f = rng.int(15, 60);
+      const r1 = a + b + c, r2 = d + e + f;
+      const c1 = a + d, c2 = b + e, c3 = c + f;
+      const total = r1 + r2;
+      const row = rng.pick([0, 1] as const);
+      const col = rng.pick([0, 1, 2] as const);
+      const rowTotal = row === 0 ? r1 : r2;
+      const colTotal = [c1, c2, c3][col] as number;
+      const ans = round((rowTotal * colTotal) / total, 3);
+      const rowName = row === 0 ? 'Campus A' : 'Campus B';
+      const colName = ['Never', 'Sometimes', 'Often'][col] as string;
+      return {
+        sectionId: '11.4',
+        conceptTag: '11.4',
+        kind: 'numeric',
+        context: `Two campuses were surveyed separately about how often students use the library.\n[TABLE]\n | Never | Sometimes | Often | Total\nCampus A | ${a} | ${b} | ${c} | ${r1}\nCampus B | ${d} | ${e} | ${f} | ${r2}\nTotal | ${c1} | ${c2} | ${c3} | ${total}\n[/TABLE]`,
+        stem: `Under H0 (the two campuses have the same distribution of responses), find the expected count for ${rowName} / ${colName}. Round to three decimal places.`,
+        answer: ans,
+        tolerance: { abs: 0.01 },
+        explanation: [
+          'Expected count = (row total × column total) ÷ grand total.',
+          `= (${rowTotal} × ${colTotal}) ÷ ${total} = ${ans}`,
+        ],
+      };
+    },
+  },
+];

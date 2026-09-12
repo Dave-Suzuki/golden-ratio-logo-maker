@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import { allQuestions, bankFor, chapters, sections } from '@/lib/server/content';
 import { isQuizzable, rejectionSummary, unquizzableReason } from '@/lib/verify';
 import { templatesFor } from '../content/templates';
+import suppressed from '../content/suppressed.json';
 import type { McQuestion, OpenQuestion, Question } from '@/lib/types';
 
 const base = { id: 'q', sectionId: '1.1', conceptTag: '1.1', stem: 'What is the population in this study?', explanation: [], source: 'test' };
@@ -79,14 +80,26 @@ describe('the shipped question bank', () => {
     }
   });
 
-  it('keeps the large majority of the bank after verification', () => {
+  it('keeps enough of the bank to be worth studying from', () => {
     const all = allQuestions();
     const kept = all.filter(isQuizzable);
-    // a regression in the importer shows up here as a sudden drop
-    expect(kept.length).toBeGreaterThan(1300);
-    expect(kept.length / all.length).toBeGreaterThan(0.8);
-    // surface the reasons when this fails
-    if (kept.length <= 1300) console.log(rejectionSummary(all));
+    // The floor is low on purpose. Reading every question found a fifth of them unanswerable or
+    // wrongly answered, and those are now hidden; a bank that is smaller and right is the goal,
+    // so this only guards against a regression that empties it.
+    expect(kept.length).toBeGreaterThan(1100);
+    expect(kept.length / all.length).toBeGreaterThan(0.6);
+    if (kept.length <= 1100) console.log(rejectionSummary(all));
+  });
+
+  it('hides every question the audit rejected', () => {
+    const failed = Object.keys(suppressed as Record<string, string>);
+    expect(failed.length).toBeGreaterThan(200);
+    const leaked = allQuestions().filter((q) => isQuizzable(q) && failed.includes(q.id));
+    expect(leaked.map((q) => q.id)).toEqual([]);
+    // every entry must carry a reason, so the decision can be argued with
+    for (const [id, reason] of Object.entries(suppressed as Record<string, string>)) {
+      expect(reason.length, id).toBeGreaterThan(3);
+    }
   });
 
   it('never attaches a scenario to more questions than the textbook says it covers', () => {

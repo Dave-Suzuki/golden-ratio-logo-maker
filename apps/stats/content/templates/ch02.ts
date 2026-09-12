@@ -191,3 +191,123 @@ export const CH02_TEMPLATES: Template[] = [
     },
   },
 ];
+
+/**
+ * Display-graph generators. Chapter 2's first two sections are about reading graphs, and almost
+ * every textbook exercise there asks for one to be drawn — which the app cannot mark — so after
+ * the audit removed those, both sections were left too thin to fill a quiz. These ask the
+ * arithmetic behind the picture instead, which is the part a learner actually gets wrong.
+ */
+export const CH02_DISPLAY_TEMPLATES: Template[] = [
+  {
+    id: 'stemplot-leaf-count',
+    sectionId: '2.1',
+    conceptTag: '2.1',
+    kind: 'numeric',
+    generate(rng) {
+      const stem = rng.int(3, 8);
+      const onStem = rng.int(3, 7);
+      const values = [
+        ...Array.from({ length: onStem }, () => stem * 10 + rng.int(0, 9)),
+        ...Array.from({ length: rng.int(6, 10) }, () => rng.pick([stem - 2, stem - 1, stem + 1, stem + 2]) * 10 + rng.int(0, 9)),
+      ];
+      const shuffled = rng.shuffle(values);
+      const count = shuffled.filter((v) => Math.floor(v / 10) === stem).length;
+      return {
+        sectionId: '2.1',
+        conceptTag: '2.1',
+        kind: 'numeric',
+        stem: `A stem-and-leaf plot of the data below uses the tens digit as the stem.\n\n[DATA]${shuffled.join(', ')}[/DATA]\n\nHow many leaves are on the stem ${stem}?`,
+        answer: count,
+        tolerance: { abs: 0.01 },
+        explanation: [
+          `The stem ${stem} holds every value from ${stem * 10} to ${stem * 10 + 9}.`,
+          `Those values are: ${shuffled.filter((v) => Math.floor(v / 10) === stem).sort((a, b) => a - b).join(', ') || 'none'}.`,
+          `That is ${count} leaf${count === 1 ? '' : 'ves'}.`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'bar-relative-frequency',
+    sectionId: '2.1',
+    conceptTag: '2.1',
+    kind: 'numeric',
+    generate(rng) {
+      const labels = rng.shuffle(['walk', 'cycle', 'bus', 'car', 'train']).slice(0, 4);
+      const counts = labels.map(() => rng.int(8, 60));
+      const total = counts.reduce((a, b) => a + b, 0);
+      const i = rng.int(0, labels.length - 1);
+      const pct = round(((counts[i] as number) / total) * 100, 1);
+      return {
+        sectionId: '2.1',
+        conceptTag: '2.1',
+        kind: 'numeric',
+        context: `A bar graph shows how ${total} students travel to college.\n[TABLE]\nMethod | ${labels.join(' | ')}\nStudents | ${counts.join(' | ')}\n[/TABLE]`,
+        stem: `What percentage of the students travel by ${labels[i]}? Round to one decimal place.`,
+        answer: pct,
+        tolerance: { abs: 0.06 },
+        explanation: [
+          `Total = ${counts.join(' + ')} = ${total}`,
+          `Relative frequency = ${counts[i]} / ${total} = ${round((counts[i] as number) / total, 4)}`,
+          `As a percentage: ${pct}%`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'histogram-bar-width',
+    sectionId: '2.2',
+    conceptTag: '2.2',
+    kind: 'numeric',
+    generate(rng) {
+      const bars = rng.pick([4, 5, 6, 8]);
+      const width = rng.pick([2, 2.5, 3, 4, 5]);
+      const min = rng.int(1, 30);
+      const max = round(min + bars * width, 2);
+      const what = rng.pick(['the ages of visitors to a museum', 'the weights of parcels', 'daily rainfall in millimetres', 'the lengths of phone calls in minutes']);
+      return {
+        sectionId: '2.2',
+        conceptTag: '2.2',
+        kind: 'numeric',
+        stem: `A histogram of ${what} is drawn with ${bars} bars of equal width. The smallest value is ${min} and the largest is ${max}. What is the width of each bar?`,
+        answer: width,
+        tolerance: { abs: 0.01 },
+        explanation: [
+          'Bar width = (largest value − smallest value) ÷ number of bars.',
+          `= (${max} − ${min}) ÷ ${bars} = ${round(max - min, 2)} ÷ ${bars} = ${width}`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'histogram-cumulative-relative',
+    sectionId: '2.2',
+    conceptTag: '2.2',
+    kind: 'numeric',
+    generate(rng) {
+      const k = rng.pick([4, 5]);
+      const counts = Array.from({ length: k }, () => rng.int(5, 40));
+      const total = counts.reduce((a, b) => a + b, 0);
+      const upTo = rng.int(1, k - 1);
+      const running = counts.slice(0, upTo + 1).reduce((a, b) => a + b, 0);
+      const ans = round(running / total, 3);
+      const lo = 0;
+      const edges = Array.from({ length: k }, (_, i) => `${lo + i * 5}–${lo + (i + 1) * 5}`);
+      return {
+        sectionId: '2.2',
+        conceptTag: '2.2',
+        kind: 'numeric',
+        context: `A frequency table of hours studied per week by ${total} students.\n[TABLE]\nHours | ${edges.join(' | ')}\nFrequency | ${counts.join(' | ')}\n[/TABLE]`,
+        stem: `What is the cumulative relative frequency for the class ${edges[upTo]}? Round to three decimal places.`,
+        answer: ans,
+        tolerance: { abs: 0.002 },
+        explanation: [
+          'Cumulative relative frequency = (frequency of this class and all classes below it) ÷ total.',
+          `= (${counts.slice(0, upTo + 1).join(' + ')}) ÷ ${total} = ${running} ÷ ${total}`,
+          `= ${ans}`,
+        ],
+      };
+    },
+  },
+];

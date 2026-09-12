@@ -1,0 +1,35 @@
+{"id":"deanza-exam1-spring2015-A14","verdict":"broken","issue":"garbled","note":"Frequency table mangled: stray '?' characters and merged digits (9 110, 10 7? ?8, 0?.76) make rows unreadable."}
+{"id":"deanza-exam1-spring2015-B12","verdict":"broken","issue":"garbled","note":"Fourth option ends with stray text from another exercise: 'Male Female Tech Tech Science Science'."}
+{"id":"deanza-exam1-spring2015-B15","verdict":"broken","issue":"garbled","note":"Correct option 0.6261 has an entire unrelated puppy-litter exercise and table appended to it."}
+{"id":"deanza-exam1-spring2015-B6","verdict":"broken","issue":"garbled","note":"Same mangled frequency table as A14: stray '?' marks and merged digits in the 9, 10, 12, 16 rows."}
+{"id":"fe1-14","verdict":"broken","issue":"missing-info","note":"No scenario: Kia, Alejandra and Iris and their schools' running data are never shown."}
+{"id":"fe2-13","verdict":"ok"}
+{"id":"fe2-25","verdict":"broken","issue":"missing-info","note":"No data, test statistic or p-value given, so whether to reject H0 cannot be determined."}
+{"id":"fe2-28","verdict":"broken","issue":"wrong-answer","note":"ANOVA gives F about 9.66 with df 2,27, so p is about 0.0007; p-value is close to zero, not one."}
+{"id":"fe2-33","verdict":"broken","issue":"missing-info","note":"No observed frequencies, table or distribution shown, so no goodness-of-fit test can be conducted."}
+{"id":"os-m46885-eip-219","verdict":"broken","issue":"wrong-answer","note":"Part b asks how many students live 16+ miles away; answer gives 13% instead of the count, about 100 students."}
+{"id":"os-m46885-eip-322","verdict":"broken","issue":"wrong-answer","note":"Scenario has both researchers using the same drug, but answer claims 'the treatment is not the same'; leftover reasoning."}
+{"id":"os-m46885-eip-403","verdict":"ok"}
+{"id":"os-m46885-eip-537","verdict":"ok"}
+{"id":"os-m46885-eip-581","verdict":"broken","issue":"wrong-answer","note":"Picking one random state then patients within it is cluster sampling, not simple random; patients elsewhere cannot be chosen."}
+{"id":"os-m46885-eip-608","verdict":"broken","issue":"missing-info","note":"Refers to 'these problems' from an unshown prior exercise; nothing identifies which survey problems to overcome."}
+{"id":"os-m46885-eip-706","verdict":"broken","issue":"missing-info","note":"Asks which problems 'in the table below' apply, but no table of sampling problems is shown."}
+{"id":"os-m46885-eip-772","verdict":"broken","issue":"not-a-question","note":"Only a scenario statement; the a/b prompts the answer addresses (what is wrong, how to improve) are absent."}
+{"id":"os-m46885-eip-916","verdict":"ok"}
+{"id":"os-m46885-fs-idp31767488","verdict":"ok"}
+{"id":"os-m46909-element-188","verdict":"ok"}
+{"id":"os-m46909-element-417","verdict":"ok"}
+{"id":"os-m46909-element-430","verdict":"ok"}
+{"id":"os-m46909-element-467","verdict":"ok"}
+{"id":"os-m46909-element-54","verdict":"ok"}
+{"id":"os-m46909-element-605","verdict":"ok"}
+{"id":"os-m46909-element-776","verdict":"ok"}
+{"id":"os-m46909-element-951","verdict":"ok"}
+{"id":"os-m46909-exercisefive","verdict":"broken","issue":"wrong-answer","note":"Variable is days until symptoms are alleviated; answer says months patients 'live after treatment', a leftover quantity."}
+{"id":"os-m46909-exercisefour","verdict":"broken","issue":"wrong-answer","note":"Answer cites AIDS patients and months lived after treatment; scenario is days until respiratory-virus symptoms are alleviated."}
+{"id":"os-m46909-exercisethree","verdict":"broken","issue":"wrong-answer","note":"Parameter is mean days until symptoms are alleviated, not mean months patients 'live after treatment'."}
+{"id":"os-m46909-exercisetwo","verdict":"broken","issue":"wrong-answer","note":"Question asks only about Researcher A; answer names AIDS patients from both researchers A and B."}
+{"id":"os-m46919-fs-idm44521824","verdict":"broken","issue":"ungradable","note":"Asks the learner to design an experiment with no topic given; model answer is 'Answers will vary'."}
+{"id":"os-m46922-eip-746","verdict":"broken","issue":"missing-info","note":"Scenario gives only 29-year parameters; the six-year data needed for the answer (mean 1809.3 etc.) is absent."}
+{"id":"os-m46922-eip-975","verdict":"broken","issue":"missing-info","note":"Six-year table referenced is not shown, and the model answer is only a hint, not a comparison."}
+{"id":"os-m46922-element-891","verdict":"broken","issue":"garbled","note":"Answer leaks importer markup [PARTS]/[/PARTS] and the part-a frequency table is collapsed into one run-together line."}

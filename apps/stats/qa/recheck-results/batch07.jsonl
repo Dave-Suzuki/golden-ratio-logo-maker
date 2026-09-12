@@ -1,0 +1,35 @@
+{"id":"rv13-138","verdict":"broken","issue":"missing-info","note":"No sample data, means, sizes or deviations given; the p-value 0.0006 cannot be obtained from the text shown."}
+{"id":"rv13-140","verdict":"broken","issue":"missing-info","note":"Asks which of the following is preferable but no options or statements are shown to choose among."}
+{"id":"rv13-141","verdict":"broken","issue":"missing-info","note":"Question truncated at colon; the parts a and b answered (mutually exclusive/independent) are not shown. Table total 330 also wrong."}
+{"id":"rv13-143","verdict":"broken","issue":"garbled","note":"Table broken: 10-19 column total shown as 330 instead of 30, inconsistent with the 120 surveyed, corrupting the chi-square computation."}
+{"id":"rv3-7","verdict":"broken","issue":"missing-info","note":"\"Calculate the following values:\" lists nothing; the three quantities answered (mean, sd, quartile/median/mode) are not stated."}
+{"id":"rv3-8","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a histogram and box plot; model answer is only \"Answers will vary.\" Nothing the app can mark."}
+{"id":"rv4-17","verdict":"ok"}
+{"id":"rv4-18","verdict":"broken","issue":"not-a-question","note":"Text only describes the envelope deal and coupon values; nothing is actually asked, and the answer is a bare option \"b.\""}
+{"id":"rv4-24","verdict":"broken","issue":"answer-mismatch","note":"Scenario studies Jhumpa Lahiri's novels but the answer names Tom Clancy; it belongs to a different version of the question."}
+{"id":"rv5-35","verdict":"broken","issue":"missing-info","note":"No box plot and no table, and the four statements a-d to judge true/false are not shown."}
+{"id":"rv6-41","verdict":"broken","issue":"missing-info","note":"Only X ~ U(3, 13) is given; the four statements a-d that the answer marks true/false are not shown."}
+{"id":"rv6-43","verdict":"broken","issue":"missing-info","note":"No box plot or table is shown, and the four options a-d the answer discusses are absent."}
+{"id":"rv6-45","verdict":"broken","issue":"missing-info","note":"The statements a-d to be judged are not shown; answer also computes with P(K)=0.6 rather than the stated 0.63."}
+{"id":"rv7-55","verdict":"broken","issue":"not-a-question","note":"Ends by defining X; no question is asked, so nothing signals that the distribution B(14, 0.20) is wanted."}
+{"id":"rv8-57","verdict":"broken","issue":"missing-info","note":"Refers to \"the probability asked for in Question 56\"; that prior question is not shown, so the target probability is unknown."}
+{"id":"rv8-62","verdict":"broken","issue":"missing-info","note":"Depends on \"the information in Question 61\" (distribution, mean, number of accidents), which is not shown."}
+{"id":"rv9-74","verdict":"broken","issue":"missing-info","note":"Says \"see the table below\" but no IPO data table is shown; also only asks for a drawing the app cannot mark."}
+{"id":"rv9-75","verdict":"broken","issue":"wrong-answer","note":"Cumulative column just repeats the relative frequencies (0.3, 0.2, 0.4, 0.1); correct cumulative values are 0.3, 0.5, 0.9, 1.0."}
+{"id":"rv9-77","verdict":"ok"}
+{"id":"rv9-86","verdict":"broken","issue":"wrong-answer","note":"Mean 7, s=1.414, t*=2.5706 give CI (5.52, 8.48); stated lower bound 5.25 is wrong and not symmetric about 7."}
+{"id":"rv9-87","verdict":"broken","issue":"missing-info","note":"The statements a-c that each distribution must be matched to are not shown, so nothing can be matched."}
+{"id":"tryit-m46882-1","verdict":"broken","issue":"missing-info","note":"Refers to \"the table below\" but no rainfall frequency table is shown; the percentages 0.30, 0.16, 0.18 appear nowhere."}
+{"id":"tryit-m46882-2","verdict":"broken","issue":"missing-info","note":"No rainfall table is shown, so the frequencies 6, 7, 15 needed for the 28-town answer are unavailable."}
+{"id":"tryit-m46919-3","verdict":"ok"}
+{"id":"tryit-m46920-0","verdict":"ok"}
+{"id":"tryit-m46920-1","verdict":"ok"}
+{"id":"tryit-m46920-2","verdict":"broken","issue":"ungradable","note":"Only deliverable is a graphed box-and-whisker plot (answer ends at \"Figure 11\" plus stray section heading); the app cannot mark a drawing."}
+{"id":"tryit-m46922-2","verdict":"broken","issue":"answer-mismatch","note":"Answer never names the faster swimmer, shows broken formulas (\"z = = -1.25\"), and appends leftover chapter/section headings."}
+{"id":"tryit-m46924-0","verdict":"ok"}
+{"id":"tryit-m46924-2","verdict":"broken","issue":"ungradable","note":"Asks only for a histogram to be created; model answer is just \"Figure 5\", so there is nothing markable."}
+{"id":"tryit-m46924-3","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a frequency polygon; answer describes and then points to a missing \"Figure 6\" with no checkable result."}
+{"id":"tryit-m46924-5","verdict":"broken","issue":"ungradable","note":"Asks for a time series graph; answer is only \"Figure 8\" plus a stray section heading, and the year column is 1-7 not real years."}
+{"id":"tryit-m46930-4","verdict":"broken","issue":"missing-info","note":"Refers to \"the the table below\" but no data table is shown, so the third quartile cannot be found."}
+{"id":"tryit-m46930-5","verdict":"broken","issue":"wrong-answer","note":"With eight values below 31 and two equal, (8+0.5*2)/30 = 30th percentile; answer uses x=9 and states 33rd, contradicting its own count."}
+{"id":"tryit-m46934-0","verdict":"ok"}

@@ -112,3 +112,146 @@ export const CH12_TEMPLATES: Template[] = [
     },
   },
 ];
+
+/**
+ * Scatter-plot and outlier generators. Both sections are built around looking at a picture, so
+ * nearly all their exercises ask for one to be drawn. These ask for the numbers the picture is
+ * read from: the correlation coefficient behind "is this linear?", and the residual behind
+ * "is this point an outlier?".
+ */
+function pearson(xs: readonly number[], ys: readonly number[]): number {
+  const n = xs.length;
+  const mx = xs.reduce((a, b) => a + b, 0) / n;
+  const my = ys.reduce((a, b) => a + b, 0) / n;
+  let sxy = 0, sxx = 0, syy = 0;
+  for (let i = 0; i < n; i++) {
+    const dx = (xs[i] as number) - mx;
+    const dy = (ys[i] as number) - my;
+    sxy += dx * dy;
+    sxx += dx * dx;
+    syy += dy * dy;
+  }
+  return sxy / Math.sqrt(sxx * syy);
+}
+
+export const CH12_GRAPH_TEMPLATES: Template[] = [
+  {
+    id: 'scatter-correlation-value',
+    sectionId: '12.2',
+    conceptTag: '12.2',
+    kind: 'numeric',
+    generate(rng) {
+      const n = rng.pick([5, 6]);
+      const slope = rng.pick([-3, -2, -1.5, 1.5, 2, 3]);
+      const intercept = rng.int(5, 40);
+      const xs = Array.from({ length: n }, (_, i) => 2 + i * rng.int(2, 4));
+      const ys = xs.map((x) => round(intercept + slope * x + rng.int(-4, 4), 1));
+      const r = round(pearson(xs, ys), 3);
+      return {
+        sectionId: '12.2',
+        conceptTag: '12.2',
+        kind: 'numeric',
+        context: `[TABLE]\nx | ${xs.join(' | ')}\ny | ${ys.join(' | ')}\n[/TABLE]`,
+        stem: 'Compute the correlation coefficient r for these points. Round to three decimal places.',
+        answer: r,
+        tolerance: { abs: 0.01 },
+        explanation: [
+          'r = Σ(x − x̄)(y − ȳ) / √( Σ(x − x̄)² · Σ(y − ȳ)² )',
+          `x̄ = ${round(xs.reduce((a, b) => a + b, 0) / n, 3)},  ȳ = ${round(ys.reduce((a, b) => a + b, 0) / n, 3)}`,
+          `r = ${r}`,
+          r > 0 ? 'r is positive, so the scatter plot slopes upward.' : 'r is negative, so the scatter plot slopes downward.',
+        ],
+      };
+    },
+  },
+  {
+    id: 'scatter-direction-choice',
+    sectionId: '12.2',
+    conceptTag: '12.2',
+    kind: 'mc',
+    generate(rng) {
+      const n = 6;
+      const kind = rng.pick(['strong-positive', 'strong-negative', 'weak'] as const);
+      const slope = kind === 'strong-positive' ? 2.5 : kind === 'strong-negative' ? -2.5 : 0;
+      const noise = kind === 'weak' ? 25 : 3;
+      const xs = Array.from({ length: n }, (_, i) => 4 + i * 3);
+      const ys = xs.map((x) => round(30 + slope * x + rng.int(-noise, noise), 1));
+      const r = pearson(xs, ys);
+      const options = [
+        'a strong positive linear relationship',
+        'a strong negative linear relationship',
+        'little or no linear relationship',
+      ];
+      const correctIndex = r > 0.7 ? 0 : r < -0.7 ? 1 : 2;
+      return {
+        sectionId: '12.2',
+        conceptTag: '12.2',
+        kind: 'mc',
+        context: `[TABLE]\nx | ${xs.join(' | ')}\ny | ${ys.join(' | ')}\n[/TABLE]`,
+        stem: 'A scatter plot is drawn from these points. What does it show?',
+        options,
+        correctIndex,
+        explanation: [
+          'Work out r, or look at whether y moves consistently up or down as x increases.',
+          `Here r = ${round(r, 3)}.`,
+          correctIndex === 2
+            ? '|r| is well below 0.7, so the points do not line up: little or no linear relationship.'
+            : `|r| is above 0.7 and r is ${r > 0 ? 'positive' : 'negative'}, so the relationship is strong and ${r > 0 ? 'positive' : 'negative'}.`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'outlier-residual',
+    sectionId: '12.6',
+    conceptTag: '12.6',
+    kind: 'numeric',
+    generate(rng) {
+      const a = rng.int(5, 40);
+      const b = rng.pick([1.5, 2, 2.5, 3, -2, -1.5]);
+      const x = rng.int(3, 20);
+      const predicted = round(a + b * x, 2);
+      const observed = round(predicted + rng.pick([-1, 1]) * rng.int(2, 18), 1);
+      const residual = round(observed - predicted, 2);
+      return {
+        sectionId: '12.6',
+        conceptTag: '12.6',
+        kind: 'numeric',
+        stem: `The least-squares line for a data set is ŷ = ${a} + ${b}x. One observed point is (${x}, ${observed}). What is the residual for that point? Round to two decimal places.`,
+        answer: residual,
+        tolerance: { abs: 0.02 },
+        explanation: [
+          'residual = observed y − predicted y.',
+          `Predicted: ŷ = ${a} + ${b}(${x}) = ${predicted}`,
+          `residual = ${observed} − ${predicted} = ${residual}`,
+        ],
+      };
+    },
+  },
+  {
+    id: 'outlier-two-s-rule',
+    sectionId: '12.6',
+    conceptTag: '12.6',
+    kind: 'tf',
+    generate(rng) {
+      const s = rng.pick([2, 2.5, 3, 4, 5]);
+      const isOutlier = rng.next() < 0.5;
+      const magnitude = isOutlier ? round(2 * s + rng.int(1, 6) + rng.next(), 2) : round(rng.next() * 1.8 * s, 2);
+      const residual = round(rng.pick([-1, 1]) * magnitude, 2);
+      return {
+        sectionId: '12.6',
+        conceptTag: '12.6',
+        kind: 'tf',
+        stem: `For a regression the standard deviation of the residuals is s = ${s}. One point has a residual of ${residual}. True or false: that point is an outlier.`,
+        answer: Math.abs(residual) > 2 * s,
+        explanation: [
+          'A point is treated as an outlier when its residual is more than two standard deviations from the line.',
+          `2s = 2 × ${s} = ${2 * s}, and |residual| = ${Math.abs(residual)}.`,
+          Math.abs(residual) > 2 * s
+            ? `${Math.abs(residual)} > ${2 * s}, so the point is an outlier.`
+            : `${Math.abs(residual)} is not greater than ${2 * s}, so the point is not an outlier.`,
+        ],
+      };
+    },
+  },
+];

@@ -1,0 +1,6 @@
+{"id":"os-m46963-fs-idm3556768","verdict":"broken","issue":"missing-info","note":"Scenario refers to a probability distribution table that is not shown, so P(x=4) cannot be found."}
+{"id":"os-m46963-fs-idp21614176","verdict":"broken","issue":"missing-info","note":"The referenced probability distribution table is absent; P(x>=5) cannot be computed from the text given."}
+{"id":"os-m47077-element-607","verdict":"ok"}
+{"id":"os-m47077-element-90","verdict":"broken","issue":"missing-info","note":"No scenario, test, p-value or hypotheses given; answer about smoking and ethnicity comes from an unshown prior exercise."}
+{"id":"os-m47125-eip-119","verdict":"ok"}
+{"id":"os-m47125-eip-801","verdict":"ok"}

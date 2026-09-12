@@ -1,0 +1,35 @@
+{"id":"os-m47105-fs-idp46020944","verdict":"broken","issue":"missing-info","note":"No data, table or scatter plot shown; answer cites r = 0.4526 and a plot the learner never sees."}
+{"id":"os-m47105-fs-idp60770720","verdict":"broken","issue":"missing-info","note":"No data set given, so no regression can be performed; answer is only 'Answers may vary.'"}
+{"id":"os-m47107-element-133","verdict":"broken","issue":"answer-mismatch","note":"Part g answer answers part f; part k's table is unchanged (Hawaii kept, Alaska absent); part l line miscomputed (should be about -82405 + 7698x)."}
+{"id":"os-m47107-element-402","verdict":"broken","issue":"wrong-answer","note":"Table codes years 1-14, but key uses calendar years: line is 60.767 + 0.1656x, not -266.8863 + 0.1656x; estimates wrong."}
+{"id":"os-m47107-fs-idp2751904","verdict":"broken","issue":"wrong-answer","note":"Part e: residual at (34.72, 124) is -17.99 with predicted 141.99, not -11.82 and 136 (that is point 36.17)."}
+{"id":"os-m47109-fs-idp128138576","verdict":"broken","issue":"ungradable","note":"Asks learner to construct a scatter plot; app cannot mark a drawing and answer is 'Answers may vary.'"}
+{"id":"os-m47109-fs-idp83642048","verdict":"broken","issue":"ungradable","note":"Only task is constructing a scatter plot, which the app cannot grade; answer is 'Answers may vary.'"}
+{"id":"os-m47119-element-219","verdict":"broken","issue":"missing-info","note":"No magazine length data, no prior test and no solution sheet shown; answer's F = 15.28 is uncheckable."}
+{"id":"os-m47124-eip-194","verdict":"ok"}
+{"id":"os-m47124-eip-922","verdict":"ok"}
+{"id":"os-m47125-eip-464","verdict":"broken","issue":"missing-info","note":"No claim, data or hypothesis test shown; 'Is the claim accurate?' has no referent for the learner."}
+{"id":"os-m47125-element-577","verdict":"broken","issue":"missing-info","note":"No magazine types or length data shown, so the learner cannot name which two differ in variance."}
+{"id":"pt1-22","verdict":"broken","issue":"missing-info","note":"Says 'identify the following components' but lists none; answer names six components the question never shows."}
+{"id":"pt1-39","verdict":"broken","issue":"wrong-answer","note":"n = 13, median 5, lower half 1;1;2;3;4;4 gives Q1 = 2.5, not 3."}
+{"id":"pt1-54","verdict":"broken","issue":"wrong-answer","note":"Answer's own arithmetic gives 10.7, not 13.7; mean 15, s = 4.34, so 13.7 is about 0.3 sd below."}
+{"id":"pt1-55","verdict":"broken","issue":"missing-info","note":"Attached scenario (10; 11; 15; 15; 17; 22) is never used; question is about an unrelated biology exam distribution."}
+{"id":"pt1-57","verdict":"broken","issue":"wrong-answer","note":"Marbles total 90, not 80: P(R) = 50/90 = 0.56 and P(Y) = 15/90 = 0.17, not 0.62 and 0.19."}
+{"id":"pt1-68","verdict":"broken","issue":"missing-info","note":"Answer reads probabilities 'from the table', but no contingency table or data is shown."}
+{"id":"pt2-10","verdict":"broken","issue":"missing-info","note":"No probability distribution table shown; the 0.05 used in the answer appears nowhere."}
+{"id":"pt2-11","verdict":"broken","issue":"missing-info","note":"Refers to a table that is not shown, so the learner cannot see the other probabilities that would sum to 1.10."}
+{"id":"pt2-12","verdict":"broken","issue":"missing-info","note":"No distribution table shown; answer's probabilities 0.20, 0.45, 0.20, 0.10, 0.05 appear nowhere in the question."}
+{"id":"pt2-16","verdict":"broken","issue":"garbled","note":"Scenario's table is empty pipe rows with no values, so there is no table to extend; answer also lists xP(x) = 46.92 instead of 27.69."}
+{"id":"pt2-32","verdict":"broken","issue":"wrong-answer","note":"Given 27 percent engineering majors, X ~ G(0.27); answer states G(0.24)."}
+{"id":"pt2-45","verdict":"broken","issue":"wrong-answer","note":"Support is 0 to 10, so the rectangle's vertical sides are at 0 and 10, not 0 and 20."}
+{"id":"pt2-48","verdict":"broken","issue":"wrong-answer","note":"Uniform on zero to 30 minutes gives X ~ U(0, 30); answer states U(0, 15)."}
+{"id":"pt2-55","verdict":"broken","issue":"garbled","note":"Notation is missing its distribution letter: 'X ~ (100, 15)' cannot be translated as normal, which the answer assumes."}
+{"id":"pt2-57","verdict":"broken","issue":"garbled","note":"Asks for 112 inches while the distribution is in centimeters; taken literally (284 cm) z is not the stated 0.67."}
+{"id":"pt2-59","verdict":"broken","issue":"missing-info","note":"No distribution given; mean 109 and standard deviation 4.5 used in the answer come from an unseen prior question."}
+{"id":"pt2-60","verdict":"broken","issue":"missing-info","note":"'This population' is never defined; mean 109 and standard deviation 4.5 are not shown to the learner."}
+{"id":"pt2-61","verdict":"broken","issue":"missing-info","note":"'This distribution' has no definition here; answer's 104.5 to 113.5 cm needs unseen mean 109 and sd 4.5."}
+{"id":"pt2-62","verdict":"broken","issue":"missing-info","note":"No distribution shown, so the learner cannot see that 95.5 and 122.5 are three standard deviations from the mean."}
+{"id":"pt2-7","verdict":"broken","issue":"missing-info","note":"'This example' is not shown; nothing indicates the context is library patrons checking out books."}
+{"id":"pt2-85","verdict":"broken","issue":"wrong-answer","note":"Upper bound is 5,000 + 88.6 = 5,088.6, not 588.6 as stated."}
+{"id":"pt2-9","verdict":"broken","issue":"missing-info","note":"No distribution table shown; answer's 0.20 appears nowhere, and it writes P(x >= 0) instead of P(x >= 1)."}
+{"id":"pt2-90","verdict":"broken","issue":"missing-info","note":"No screw-diameter context or parameters shown; answer's N(0.10, 0.20) comes from data the learner never sees."}

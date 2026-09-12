@@ -1,0 +1,35 @@
+{"id":"os-m47045-fs-idp64398288","verdict":"ok"}
+{"id":"os-m47050-fs-idm111997184","verdict":"broken","issue":"not-a-question","note":"Bare scenario with no question; the classification instruction ('identify the hypothesis test') is missing, so 'independent group means' answers nothing asked."}
+{"id":"os-m47050-fs-idm120924688","verdict":"broken","issue":"ungradable","note":"Asks the learner to sketch, label and shade a graph; app cannot mark it, and no situation is even described."}
+{"id":"os-m47050-fs-idm129306608","verdict":"broken","issue":"missing-info","note":"No test, data or scenario shown; answer refers to a life-expectancy study of White versus non-White people that appears nowhere."}
+{"id":"os-m47050-fs-idm147822240","verdict":"broken","issue":"missing-info","note":"'This test' is never described; no scenario or data given, yet answer names mean life spans of White and non-White people."}
+{"id":"os-m47050-fs-idm152397632","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether athletes' driving percent is higher; answer is the bare fragment 'two proportions', naming a test type instead."}
+{"id":"os-m47050-fs-idm155074576","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether mean tuitions differ; answer only names the test type, giving no hypothesis test result or conclusion."}
+{"id":"os-m47050-fs-idm161821520","verdict":"broken","issue":"not-a-question","note":"Describes a windshield experiment but asks nothing; the 'identify the hypothesis test' instruction is missing, so 'matched or paired samples' is unprompted."}
+{"id":"os-m47050-fs-idm170930784","verdict":"broken","issue":"missing-info","note":"Refers to a table that is not shown and to 'the test in Exercise 10.83'; lap times needed are absent."}
+{"id":"os-m47050-fs-idm36046944","verdict":"broken","issue":"answer-mismatch","note":"Question asks whether US conifer proportion exceeds Mexico's; answer is the bare fragment 'two proportions', not a test result."}
+{"id":"os-m47050-fs-idm50796704","verdict":"broken","issue":"missing-info","note":"Says 'use the information from the table below' but no table or lap-time data is shown; test cannot be performed."}
+{"id":"os-m47050-fs-idm81478720","verdict":"broken","issue":"garbled","note":"Answer mangled: 'Ha: mu1-mu2 < mu2', 'X_1-X_1', s2^2/n_2 twice, p-value missing mid-sentence, critical value 2.660 contradicts stated rejection."}
+{"id":"os-m47050-fs-idm8894688","verdict":"broken","issue":"wrong-answer","note":"Answer says do not reject (t=-0.248, p=0.402) yet concludes there is sufficient evidence four-year enrollment is higher; self-contradictory."}
+{"id":"os-m47050-fs-idp13932064","verdict":"broken","issue":"missing-info","note":"No hypotheses, scenario or data given, so 'this test' is undefined and 'two-tailed' cannot be determined."}
+{"id":"os-m47050-fs-idp21825264","verdict":"broken","issue":"not-a-question","note":"A single declarative sentence about German vacation weeks; nothing is asked, so the answer 'single mean' is unprompted."}
+{"id":"os-m47050-fs-idp3576048","verdict":"broken","issue":"not-a-question","note":"Scenario with sample statistics but no question; the instruction to identify the type of hypothesis test is missing."}
+{"id":"os-m47060-eip-56","verdict":"broken","issue":"missing-info","note":"'What is the p-value?' with no data, hypotheses or test statistic shown; 0.1018 is unobtainable."}
+{"id":"os-m47060-element-464","verdict":"ok"}
+{"id":"os-m47060-element-723","verdict":"broken","issue":"not-a-question","note":"Stem is truncated: 'At a pre-conceived alpha = 0.05, what is your:' with the sub-parts (decision, reason, conclusion) dropped."}
+{"id":"os-m47060-exer18","verdict":"broken","issue":"wrong-answer","note":"z=-0.1944, p=0.8458 > 0.05, so the null is not rejected; answer states 'Reject the null hypothesis' while giving p-value > alpha."}
+{"id":"os-m47060-fs-idm104246192","verdict":"ok"}
+{"id":"os-m47061-eip-267","verdict":"ok"}
+{"id":"os-m47064-eip-152","verdict":"broken","issue":"wrong-answer","note":"Shown percentages give chi-square = 39.8, not 9.85; per-class participant counts needed for the stated statistic are absent."}
+{"id":"os-m47077-fs-idp153986240","verdict":"broken","issue":"garbled","note":"Refers to a table that is not shown and ends with a dangling 'Calculate the following values:' whose list was dropped."}
+{"id":"os-m47085-fs-idp82699488","verdict":"broken","issue":"ungradable","note":"Asks the learner to graph, scale, label and shade the p-value; the app cannot mark a hand-drawn construction."}
+{"id":"os-m47091-eip-316","verdict":"broken","issue":"wrong-answer","note":"A 6x2 table gives df = 5, not the stated df = 4; the quoted p-value 0.7395 for chi-square 2.7434 corresponds to df = 5."}
+{"id":"os-m47100-element-352","verdict":"ok"}
+{"id":"os-m47105-element-401","verdict":"broken","issue":"answer-mismatch","note":"Parts e, f, g unanswered: no predictions for ages 40 and 60 and no slope interpretation; labelled part e answers part f instead."}
+{"id":"os-m47105-element-508","verdict":"broken","issue":"missing-info","note":"No data, scatter plot or fitted line shown; answer discusses flu cases from 1993 to 2002 that appear nowhere."}
+{"id":"os-m47105-element-512","verdict":"broken","issue":"answer-mismatch","note":"Parts f, g, h unanswered: no letter estimates for 1900 and 1940 and no page-200-style extrapolation; labelled f answers g."}
+{"id":"os-m47105-element-537","verdict":"broken","issue":"missing-info","note":"Asks for an equation with no data, variables or context shown; the flu-case regression it refers to is absent."}
+{"id":"os-m47105-element-54","verdict":"broken","issue":"missing-info","note":"No data set shown, so pre-1981 rows cannot be identified and the requested regression equation cannot be computed."}
+{"id":"os-m47105-element-578","verdict":"broken","issue":"missing-info","note":"No regression equation or data given, so the predictions for 1985, 1990 and 1970 cannot be computed; answer 'a 25,52' also truncated."}
+{"id":"os-m47105-element-658","verdict":"broken","issue":"missing-info","note":"No correlation coefficient, data or scatter plot shown, so nothing can be inferred about years versus flu cases."}
+{"id":"os-m47105-element-682","verdict":"broken","issue":"answer-mismatch","note":"Parts e, g, h unanswered: no estimates for pages 10, 70 or 200 and no validity discussion; labelled part e answers part f."}

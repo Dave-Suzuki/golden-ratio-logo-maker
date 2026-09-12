@@ -1,0 +1,35 @@
+{"id":"pt2-91","verdict":"broken","issue":"missing-info","note":"No population or distribution given; answer invents a uniform with range 0.10 and mean 0.15."}
+{"id":"pt2-92","verdict":"broken","issue":"missing-info","note":"No population mean or standard deviation shown; answer's N(9.0,0.23) comes from data not present."}
+{"id":"pt3-16","verdict":"broken","issue":"missing-info","note":"\"This data\" is not shown; the 280 of 500 used in the answer appears nowhere."}
+{"id":"pt3-17","verdict":"broken","issue":"missing-info","note":"No sample data, proportion or sample size shown; interval cannot be computed as displayed."}
+{"id":"pt3-18","verdict":"broken","issue":"missing-info","note":"No data shown; answer relies on p'=0.56 and n=500 from an unseen prior exercise."}
+{"id":"pt3-19","verdict":"broken","issue":"missing-info","note":"No data shown; also lower bound should be 0.5027, not 0.5127, given 0.56 ± 0.0573."}
+{"id":"pt3-39","verdict":"broken","issue":"wrong-answer","note":"Standard deviation is 1.5% = 0.015, but answer states 0.051/sqrt(100); digits transposed, so distribution is wrong."}
+{"id":"pt3-5","verdict":"ok"}
+{"id":"pt3-58","verdict":"broken","issue":"answer-mismatch","note":"Question asks which t-values reject; answer gives only a vague statement, never the critical value t < -1.701."}
+{"id":"pt3-6","verdict":"ok"}
+{"id":"pt3-62","verdict":"broken","issue":"missing-info","note":"Scenario gives no spending means, standard deviations, t-statistic or p-value, so no decision can be reached."}
+{"id":"pt3-64","verdict":"broken","issue":"missing-info","note":"Sample sizes are never given; answer silently uses n=100 for each community (and misprints x_A+x_A)."}
+{"id":"pt3-69","verdict":"broken","issue":"missing-info","note":"Number of participants is never stated; answer assumes 30 to get df=29."}
+{"id":"pt3-7","verdict":"ok"}
+{"id":"pt3-70","verdict":"broken","issue":"missing-info","note":"No weight data, mean difference or standard deviation shown; the p-value of 0.00004 cannot be obtained."}
+{"id":"pt3-71","verdict":"broken","issue":"answer-mismatch","note":"Two-part question; answer explains what a positive t means but never states the decision."}
+{"id":"pt3-80","verdict":"broken","issue":"garbled","note":"Formula asks to divide by undefined z rather than E; answer's third term misprints 200-100 for 200-150."}
+{"id":"pt3-84","verdict":"broken","issue":"missing-info","note":"\"Following table\" of ethnic group by response is absent, so no test can be conducted."}
+{"id":"pt4-10","verdict":"broken","issue":"missing-info","note":"No scatter plot is shown, so the pattern cannot be described."}
+{"id":"pt4-11","verdict":"broken","issue":"missing-info","note":"No scatter plot is shown, so the pattern cannot be described."}
+{"id":"pt4-12","verdict":"broken","issue":"missing-info","note":"No scatter plot is shown, so the pattern cannot be described."}
+{"id":"pt4-20","verdict":"broken","issue":"wrong-answer","note":"Two-tailed p is 0.0749, not 0.0373; as stated p < 0.05 contradicts the \"do not reject\" decision. df should be 28."}
+{"id":"pt4-35","verdict":"broken","issue":"answer-mismatch","note":"Question asks for k and i; answer gives k, n1 and n, never defining i."}
+{"id":"pt4-37","verdict":"broken","issue":"missing-info","note":"Sums of squares (246.9, 374.5) are not shown anywhere, so mean squares cannot be computed."}
+{"id":"pt4-38","verdict":"broken","issue":"missing-info","note":"No mean squares or sums of squares shown; F cannot be computed from the scenario."}
+{"id":"pt4-40","verdict":"broken","issue":"missing-info","note":"The list of candidate numbers is absent; answer refers to a \"choice c\" the learner never sees."}
+{"id":"pt4-41","verdict":"broken","issue":"missing-info","note":"Histograms F1 and F2 are not shown, so neither sample can be matched to a population."}
+{"id":"pt4-9","verdict":"broken","issue":"missing-info","note":"No scatter plot is shown, so the pattern cannot be described."}
+{"id":"rv10-90","verdict":"broken","issue":"missing-info","note":"The statements to judge true or false are absent; answer labels items a-d that are never shown."}
+{"id":"rv11-106","verdict":"broken","issue":"answer-mismatch","note":"Model answer is \"Answers will vary\", which gives no reason and does not answer the question asked."}
+{"id":"rv11-118","verdict":"broken","issue":"answer-mismatch","note":"Eight parts asked (a-h); answer covers only d, e and f, omitting hypotheses, random variable and error types."}
+{"id":"rv11-119","verdict":"broken","issue":"wrong-answer","note":"Scenario is hepatitis; answer states the conclusion about the HIV virus, so it is factually wrong here."}
+{"id":"rv11-120","verdict":"broken","issue":"answer-mismatch","note":"Parts a-f asked; answer gives only c-f, omitting the hypotheses and the random variable definition."}
+{"id":"rv12-125","verdict":"broken","issue":"ungradable","note":"Asks the learner to sketch a graph; model answer is \"Check student's solution\", which the app cannot mark."}
+{"id":"rv13-137","verdict":"broken","issue":"wrong-answer","note":"P(mean<35)=0.0206; the stated 0.3669 is P(mean<39.17), the sample mean, not the value asked for."}

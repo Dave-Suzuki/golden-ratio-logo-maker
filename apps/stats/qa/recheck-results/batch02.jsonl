@@ -1,0 +1,35 @@
+{"id":"os-m46922-exercisetwentyfour","verdict":"ok"}
+{"id":"os-m46924-element-625","verdict":"broken","issue":"missing-info","note":"Refers to a frequency table that is not shown; the sum 65 cannot be obtained."}
+{"id":"os-m46924-exercisetwo","verdict":"broken","issue":"missing-info","note":"Asks about each data value in a table that is not shown."}
+{"id":"os-m46924-fs-idp13768528","verdict":"broken","issue":"ungradable","note":"Asks the learner to construct a bar graph; model answer is only 'Answers will vary.'"}
+{"id":"os-m46930-element-927","verdict":"broken","issue":"garbled","note":"Stray [PARTS]/[/PARTS] markup, sub-parts jumbled into part c; answer run-together '30,000 and 40,00080th percentile'."}
+{"id":"os-m46934-exercise8","verdict":"broken","issue":"answer-mismatch","note":"Question only says round to the nearest ten; answer is a stem-and-leaf plot never requested."}
+{"id":"os-m46935-eip-157","verdict":"broken","issue":"missing-info","note":"No senate affiliation table shown, so the probability of 'Other' cannot be found."}
+{"id":"os-m46935-eip-88","verdict":"broken","issue":"missing-info","note":"Refers to a senator/reelection table and 'Year B' that are never shown."}
+{"id":"os-m46944-element-456","verdict":"broken","issue":"wrong-answer","note":"Part d should be 1,135/4,306 = 0.2636; stated 0.0673 is the twenties-and-SUV probability."}
+{"id":"os-m46947-eip-8","verdict":"broken","issue":"wrong-answer","note":"Answer uses 0.52, 0.43, 0.15; with the stated 0.38, 0.45, 0.07 the result is 0.14, not 0.06."}
+{"id":"os-m46947-exercise7","verdict":"broken","issue":"garbled","note":"Scenario defines Z for pizza but question asks about P; model answer repeats the question text verbatim."}
+{"id":"os-m46947-fs-idm127904","verdict":"broken","issue":"answer-mismatch","note":"Baseball hits independence question answered with the type O / Rh- blood solution."}
+{"id":"os-m46953-element-888","verdict":"broken","issue":"answer-mismatch","note":"Answers shifted one part: b gives the distribution, c the mean; six parts asked, five answered."}
+{"id":"os-m46959-exercisefour","verdict":"broken","issue":"missing-info","note":"Probability distribution table is not shown; answer uses probabilities 0.10 through 0.10 nowhere given."}
+{"id":"os-m46959-exercisesix","verdict":"broken","issue":"missing-info","note":"Refers to an x*P(x) column in a distribution table that is not shown."}
+{"id":"os-m46959-fs-idm63057856","verdict":"ok"}
+{"id":"os-m46959-fs-idp10277168","verdict":"broken","issue":"wrong-answer","note":"With four of 100 tickets, expected winnings are 150(0.04)-20 = -$14, not -$18.50; PDF uses 1/100."}
+{"id":"os-m46959-fs-idp126182336","verdict":"broken","issue":"garbled","note":"Stray [PARTS] markup, second store's table crammed into part d, answer names unrelated stores."}
+{"id":"os-m46961-element-255","verdict":"broken","issue":"answer-mismatch","note":"Part a defines X as women suffering from anorexia, a leftover from a different exercise."}
+{"id":"os-m46961-exercisefour","verdict":"broken","issue":"missing-info","note":"No values of X are given to fill in; answer's P(10)=0.993 is also impossible."}
+{"id":"os-m46961-fs-idm121525168","verdict":"broken","issue":"wrong-answer","note":"Part c: 15.7% is P(exactly six calls); probability of more calls than staff can handle is 0.314."}
+{"id":"os-m46963-fs-idp88464496","verdict":"broken","issue":"missing-info","note":"Attrition probability distribution is never shown; answer sums unseen values to 2.43 years."}
+{"id":"os-m46964-element-194","verdict":"ok"}
+{"id":"os-m46964-element-755","verdict":"ok"}
+{"id":"os-m46964-exercisefour","verdict":"broken","issue":"answer-mismatch","note":"Asks for the standard deviation; answer is an empty x / P(x) table with no values."}
+{"id":"os-m46964-fs-idp106306576","verdict":"broken","issue":"wrong-answer","note":"Sampling ten of 28 without replacement is hypergeometric: 0.0772 and 0.7160, not binomial 0.1269 and 0.6873."}
+{"id":"os-m46969-fs-idm6685504","verdict":"ok"}
+{"id":"os-m46969-fs-idm90634192","verdict":"broken","issue":"wrong-answer","note":"Part c asks for arrival within five minutes: 1-e^(-5/7) = 0.5105; answer gives complement 0.4895."}
+{"id":"os-m46969-fs-idp35926784","verdict":"broken","issue":"missing-info","note":"No context, distribution or mean given, so the decay rate 0.000121 cannot be derived."}
+{"id":"os-m46969-fs-idp51932320","verdict":"broken","issue":"missing-info","note":"No distribution given; answer's m = 0.75 and median 0.9242 appear nowhere in the question."}
+{"id":"os-m46972-eip-106","verdict":"ok"}
+{"id":"os-m46973-eip-24","verdict":"broken","issue":"missing-info","note":"The statements to be explained are not shown; answer discusses three unseen claims."}
+{"id":"os-m46973-eip-335","verdict":"broken","issue":"answer-mismatch","note":"Part d repeats part c's sentence instead of the 3rd-percentile time; part e gives middle 98%, not 80%."}
+{"id":"os-m46973-eip-67","verdict":"ok"}
+{"id":"os-m46973-eip-698","verdict":"broken","issue":"wrong-answer","note":"Part d: P(1,800<X<2,000) = 0.138, not the stated 0.3798."}
