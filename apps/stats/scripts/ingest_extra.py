@@ -278,11 +278,20 @@ def load_source(path):
 
 def main():
     if '--pdf' in sys.argv:
+        # pypdf pulls in `cryptography` only for encrypted files, and importing it aborts the
+        # interpreter in this sandbox; blocking the import keeps unencrypted PDFs working.
+        sys.modules.setdefault('cryptography', None)
         import pypdf  # type: ignore
         pdf = sys.argv[sys.argv.index('--pdf') + 1]
         r = pypdf.PdfReader(pdf)
+        # Default extraction, not layout mode. Layout mode keeps a table's columns aligned, which
+        # is what rebuild_tables wants, but the De Anza exam sets prose and tables side by side in
+        # two page columns: with the layout preserved, a sentence and a table row arrive on the
+        # same line separated by spaces, and neither can be recovered. One cell per line at least
+        # keeps the prose readable, and the tables it cannot rebuild are caught by verification.
         txt = '\n\n=====PAGE=====\n\n'.join((p.extract_text() or '') for p in r.pages)
-        dest = os.path.join(SRC, os.path.splitext(os.path.basename(pdf))[0].lower().replace(' ', '-') + '.txt')
+        name = sys.argv[sys.argv.index('--as') + 1] if '--as' in sys.argv else os.path.splitext(os.path.basename(pdf))[0].lower().replace(' ', '-')
+        dest = os.path.join(SRC, name + '.txt')
         open(dest, 'w', encoding='utf8').write(txt)
         print('wrote', dest)
     if '--fetch' in sys.argv:

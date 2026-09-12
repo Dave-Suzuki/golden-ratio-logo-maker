@@ -40,6 +40,21 @@ describe('unquizzableReason', () => {
     expect(unquizzableReason({ ...base, ...sol, stem, context: 'A recent study reported that 76% of the mothers are employed.' })).toBeNull();
   });
 
+  it('rejects a number with a hole where the source lost a character', () => {
+    const sol = { kind: 'open', modelSolution: 'a sentence long enough to pass' } as const;
+    // PDF extraction writes "?" for a glyph it cannot map, so these are digits, not punctuation
+    for (const context of ['9 110 0.20 0?.62', '10 7? ?8 0?.76', 'Relative frequency 0.0?8'])
+      expect(unquizzableReason({ ...base, ...sol, context }), context).toMatch(/lost characters/);
+    // an ordinary question mark after a number is not that
+    for (const stem of ['Is a sample of 500 a reliable measure for a population of 2,500?', 'What is the median of 1; 2; 3?'])
+      expect(unquizzableReason({ ...base, ...sol, stem }), stem).toBeNull();
+  });
+
+  it('asks nothing whose numbers have holes in them', () => {
+    const holes = allQuestions().filter(isQuizzable).filter((q) => /\d\?(?=[\d.])|\?\d/.test(`${q.stem}\n${q.context ?? ''}`));
+    expect(holes.map((q) => q.id)).toEqual([]);
+  });
+
   it('rejects a fragment stem', () => {
     expect(unquizzableReason({ ...base, stem: 'population', kind: 'open', modelSolution: 'all adults' })).toMatch(/fragment/);
   });

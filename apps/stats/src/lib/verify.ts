@@ -26,7 +26,8 @@ const MIN_MODEL_ANSWER = 8;
 
 const FIGURE = /\[FIGURE/;
 /** Phrases that only make sense with a picture we do not have. */
-const NEEDS_PICTURE = /\b(the (graph|figure|histogram|box ?plot|scatter ?plot|chart|diagram|curve) (below|above|shown)|shown below|pictured below|in the graph below)\b/i;
+const NEEDS_PICTURE =
+  /\b(the (graphs?|figures?|histograms?|box ?plots?|boxplots?|scatter ?plots?|charts?|diagrams?|curves?|plots?) (below|above|shown)|shown below|pictured below|in the graph below)\b/i;
 
 /**
  * Points at a neighbouring exercise, or at the answer to one. The textbook prints exercises in a
@@ -42,6 +43,14 @@ const REFERS_TO_SIBLING =
  * question needs are simply absent. This is how "State the distribution for X" came to be asked
  * about a population whose 76% employment rate was never shown.
  */
+/**
+ * A question mark sitting inside a number. PDF text extraction writes "?" where it cannot map a
+ * glyph, so "0?.62" and "0.0?8" are digits the source lost, not punctuation — the learner is being
+ * shown a table with holes in it. An ordinary question mark after a digit ("a population of
+ * 5,000?") is not this: the "?" has to be inside the number.
+ */
+const LOST_CHARACTERS = /\d\?(?=[\d.])|\?\d/;
+
 const REFERS_TO_SETUP =
   /\bthe (note|example|information|table|graph|data|study|scenario|population|figure|survey|list) above\b|\bthe (previous|above) (example|study|note|section)\b/i;
 
@@ -74,6 +83,7 @@ export function unquizzableReason(q: Question): string | null {
 
   if (stem.length < MIN_STEM) return 'question is only a fragment';
   if (q.needsFigure || FIGURE.test(both) || NEEDS_PICTURE.test(both)) return 'needs a figure we do not have';
+  if (LOST_CHARACTERS.test(both)) return 'the source text lost characters, so the numbers have holes in them';
   if (REFERS_TO_SIBLING.test(both)) return 'refers to another exercise the learner cannot see';
   if (!context && REFERS_TO_SETUP.test(stem)) return 'refers to setup that is not shown';
 
