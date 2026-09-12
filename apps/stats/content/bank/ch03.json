@@ -2393,7 +2393,7 @@
    "test": "Chapter 5",
    "n": 31
   },
-  "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+  "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nUse the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
   "answer": 0.933,
   "tolerance": {
    "abs": 0.005,
@@ -2550,10 +2550,10 @@
  },
  {
   "id": "rv8-57",
-  "sectionId": "3.4",
+  "sectionId": "3.3",
   "kind": "numeric",
-  "conceptTag": "3.4",
-  "stem": "Find the probability asked for in the table below.",
+  "conceptTag": "3.3",
+  "stem": "Find the probability asked for in Question 56.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",
@@ -2573,10 +2573,10 @@
  },
  {
   "id": "rv8-62",
-  "sectionId": "3.4",
+  "sectionId": "3.3",
   "kind": "numeric",
-  "conceptTag": "3.4",
-  "stem": "Using the information in the table below, find the probability that the total time for all first accidents to occur is more than 43 hours.",
+  "conceptTag": "3.3",
+  "stem": "Using the information in Question 61, find the probability that the total time for all first accidents to occur is more than 43 hours.",
   "source": "openstax-review",
   "sourceRef": {
    "test": "Chapter 8",

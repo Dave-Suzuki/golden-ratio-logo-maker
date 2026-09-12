@@ -254,12 +254,12 @@
     },
     {
      "id": "fs-idm2195248",
-     "problem": "Repeat the test in the exercise above, but use Lap 5 data this time.",
+     "problem": "Repeat the test in Exercise 10.83, but use Lap 5 data this time.",
      "solution": null
     },
     {
      "id": "fs-idm170930784",
-     "problem": "Repeat the test in the exercise above, but this time combine the data from Laps 1 and 5.",
+     "problem": "Repeat the test in Exercise 10.83, but this time combine the data from Laps 1 and 5.",
      "solution": "[PARTS]\na. H0:µ1 =µ2\nb. Ha:µ1 ≠µ2\nc. is the difference between the mean times for completing a lap in races and in practices.\nd. t40.94\ne. test statistic: –5.08\nf. p-value: zero\ng. Answers may vary.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for Decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the mean time for completing a lap in races is different from that in practices. [/PARTS]\n[/PARTS]"
     },
     {
@@ -625,7 +625,7 @@
     },
     {
      "id": "element-464",
-     "problem": "Explain why you chose the distribution you did for the the exercise above.",
+     "problem": "Explain why you chose the distribution you did for the Exercise 10.56.",
      "solution": "Our sample sizes are much greater than five each, so we use the normal for two proportions distribution for this hypothesis test.",
      "context": "Use the following information to answer the next twelve exercises. In the recent Census, three percent of the U.S. population reported being of two or more races. However, the percent varies tremendously from state to state. Suppose that two random surveys are conducted. In the first random survey, out of 1,000 North Dakotans, only nine people reported being of two or more races. In the second random survey, out of 500 Nevadans, 17 people reported being of two or more races. Conduct a hypothesis test to determine if the population percents are the same for the two states or if the percent for Nevada is statistically higher than for North Dakota."
     },

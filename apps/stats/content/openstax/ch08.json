@@ -57,14 +57,14 @@
     },
     {
      "id": "eip-847",
-     "problem": "Refer back to the pizza-delivery the note above exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95% confidence interval estimate for the true mean pizza delivery time.",
+     "problem": "Refer back to the pizza-delivery Try It exercise. The population standard deviation is six minutes and the sample mean deliver time is 36 minutes. Use a sample size of 20. Find a 95% confidence interval estimate for the true mean pizza delivery time.",
      "solution": null,
      "guideSolution": "(33.37, 38.63)",
      "guideRef": "Try It 8.4"
     },
     {
      "id": "eip-159",
-     "problem": "Refer back to the pizza-delivery the note above exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90% confidence interval estimate for the population mean delivery time.",
+     "problem": "Refer back to the pizza-delivery Try It exercise. The mean delivery time is 36 minutes and the population standard deviation is six minutes. Assume the sample size is changed to 50 restaurants with the same sample mean. Find a 90% confidence interval estimate for the population mean delivery time.",
      "solution": null,
      "guideSolution": "(34.6041, 37.3958)",
      "guideRef": "Try It 8.5"

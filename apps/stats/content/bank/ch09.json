@@ -270,7 +270,7 @@
   "sectionId": "9.2",
   "kind": "open",
   "conceptTag": "9.2",
-  "stem": "For the exercise above, what are α and β in words?",
+  "stem": "For Exercise 9.12, what are α and β in words?",
   "source": "openstax-practice",
   "sourceRef": {
    "module": "m47029",
@@ -1019,7 +1019,7 @@
   "sectionId": "9.5",
   "kind": "open",
   "conceptTag": "9.5",
-  "stem": "Refer to the exercise above. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
+  "stem": "Refer to Exercise 9.81. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
   "source": "openstax-homework",
   "sourceRef": {
    "module": "m47019",
@@ -1070,7 +1070,7 @@
    "module": "m47019",
    "exerciseId": "ex1"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done. [/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see the table below) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
+  "modelSolution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done. [/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course.",
   "needsFigure": false,
   "explanation": []
  },
@@ -1160,7 +1160,7 @@
    "module": "m47019",
    "exerciseId": "element-874"
   },
-  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: The p-value is greater than 0.05. iv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14. [/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see the table below) is (0.0676, 0.2297).\n[/PARTS]",
+  "modelSolution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: The p-value is greater than 0.05. iv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14. [/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).\n[/PARTS]",
   "needsFigure": false,
   "explanation": []
  },

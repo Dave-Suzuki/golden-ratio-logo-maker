@@ -576,7 +576,7 @@
     {
      "id": "eip-700",
      "problem": "Suppose you want to determine the mean number of students per statistics class in your state.\nDescribe a possible sampling method in three to five complete sentences. Make the description\ndetailed.",
-     "solution": "Answers will vary. Sample Answer: Randomly choose 25 colleges in the state. Use all statistics classes from each of the chosen colleges in the sample. This can be done by listing all the colleges together with a two-digit number starting with 00 then 01, etc. The list of colleges can be found on Wikipedia. the table below Use a random number generator to pick 25 colleges."
+     "solution": "Answers will vary. Sample Answer: Randomly choose 25 colleges in the state. Use all statistics classes from each of the chosen colleges in the sample. This can be done by listing all the colleges together with a two-digit number starting with 00 then 01, etc. The list of colleges can be found on Wikipedia. http://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_California Use a random number generator to pick 25 colleges."
     },
     {
      "id": "eip-155",

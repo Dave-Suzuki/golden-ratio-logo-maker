@@ -129,6 +129,19 @@ def link_phrase(target_id):
             'equation': 'the equation above', 'note': 'the note above'}.get(kind, 'the table below')
 
 
+def link_text(e):
+    """What a <link> should read as once the hyperlink is gone.
+
+    Most links are bare references the book renders as the target's name, and dropping them left
+    sentences like "A survey was conducted. shows the results", so those get a phrase naming what
+    they point at. But a link with its own wording is already part of the sentence: replacing
+    "the pizza-delivery <link>Try It</link> exercise" with the synthesised phrase produced
+    "the pizza-delivery the note above exercise". Keep the author's words whenever there are any.
+    """
+    label = ' '.join(''.join(e.itertext()).split())
+    return label if label else link_phrase(e.get('target-id'))
+
+
 def text_of(el):
     out = []
 
@@ -179,7 +192,7 @@ def text_of(el):
             if e.tail: out.append(e.tail)
             return
         if tag == 'link':
-            out.append(link_phrase(e.get('target-id')))
+            out.append(link_text(e))
             if e.tail: out.append(e.tail)
             return
         if tag == 'newline':
@@ -223,6 +236,10 @@ NUMBER_WORDS = {'one': 1, 'two': 2, 'three': 3, 'four': 4, 'five': 5, 'six': 6, 
                 'eight': 8, 'nine': 9, 'ten': 10, 'eleven': 11, 'twelve': 12}
 SCOPE_RE = re.compile(r'(?:answer|use for|refer to)\D{0,20}?the next (\w+)\s+(?:exercise|question|problem)', re.I)
 OPENER_RE = re.compile(r'^\s*use the following|following information', re.I)
+# "Use the following ADDITIONAL information" adds to the scenario already running rather than
+# starting a new one: its own text says "ten mothers from the above population", and the numbers
+# that define that population ("76% of the mothers are employed") are in the earlier block.
+ADDITIONAL_RE = re.compile(r'following (additional|more) information', re.I)
 # An instruction that introduces sub-parts ("Determine what the key terms refer to…") belongs to the
 # QUESTION, not to the shared scenario; otherwise the stem is left as a bare label like "population".
 INSTRUCTION_RE = re.compile(
@@ -262,6 +279,7 @@ class ContextScope:
         self.remaining = 0
         self.lead = None   # instruction paragraph that belongs to each following stem
         self.group = []    # exercises awaiting the finished scenario
+        self.last = None   # the scenario most recently in force, for "additional information"
 
     def flush(self):
         """Hand the finished scenario to every exercise in its scope.
@@ -274,6 +292,8 @@ class ContextScope:
             if self.text:
                 exercise['context'] = self.text
         self.group = []
+        if self.text:
+            self.last = self.text
         self.text, self.remaining, self.lead = None, 0, None
 
     def add_block(self, t):
@@ -282,8 +302,9 @@ class ContextScope:
         if OPENER_RE.search(t[:90]):
             m = SCOPE_RE.search(t)
             n = NUMBER_WORDS.get(m.group(1).lower()) if m else None
+            carry = (self.text or self.last) if ADDITIONAL_RE.search(t[:90]) else None
             self.flush()
-            self.text, self.remaining, self.lead = t, (n if n else 2), None
+            self.text, self.remaining, self.lead = (f'{carry}\n\n{t}' if carry else t), (n if n else 2), None
             return
         if self.text is not None and self.remaining > 0:
             # data, tables and figures that follow the opener are part of the same scenario;

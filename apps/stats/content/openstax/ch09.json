@@ -244,12 +244,12 @@
     },
     {
      "id": "eip-655",
-     "problem": "For the exercise above, what are α and β in words?",
+     "problem": "For Exercise 9.12, what are α and β in words?",
      "solution": "α = the probability that you think the bag cannot withstand -15 degrees F, when in fact it can\n\nβ = the probability that you think the bag can withstand -15 degrees F, when in fact it cannot"
     },
     {
      "id": "eip-106",
-     "problem": "In words, describe 1 – β For the exercise above.",
+     "problem": "In words, describe 1 – β For Exercise 9.12.",
      "solution": null
     },
     {
@@ -291,7 +291,7 @@
     },
     {
      "id": "element-231",
-     "problem": "For statements a-j in the exercise above, answer the following in complete sentences.\n\n[PARTS]\na. State a consequence of committing a Type I error.\nb. State a consequence of committing a Type II error.\n[/PARTS]",
+     "problem": "For statements a-j in Exercise 9.66, answer the following in complete sentences.\n\n[PARTS]\na. State a consequence of committing a Type I error.\nb. State a consequence of committing a Type II error.\n[/PARTS]",
      "solution": null
     },
     {
@@ -805,7 +805,7 @@
     },
     {
      "id": "element-814",
-     "problem": "Refer to the exercise above. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
+     "problem": "Refer to Exercise 9.81. Conduct a hypothesis test to see if your decision and conclusion would change if your belief were that the brown trout’s mean I.Q. is not four.",
      "solution": "[PARTS]\na. H0:μ = 4\nb. Ha:μ ≠ 4\nc. Let X̄ the average I.Q. of a set of brown trout.\nd. two-tailed Student's t-test\ne. t = 1.95\nf. p-value = 0.076\ng. Check student’s solution.\nh. [PARTS] i. Alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: The p-value is greater than 0.05 iv. Conclusion: There is insufficient evidence to conclude that the average IQ of brown trout is not four. [/PARTS]\ni. (3.8865,5.9468)\n[/PARTS]"
     },
     {
@@ -836,7 +836,7 @@
     {
      "id": "ex1",
      "problem": "\"Asian Family Reunion,\" by Chau Nguyen\n\nEvery two years it comes around.\n\nWe all get together from different towns.\n\nIn my honest opinion,\n\nIt's not a typical family reunion.\n\nNot forty, or fifty, or sixty,\n\nBut how about seventy companions!\n\nThe kids would play, scream, and shout\n\nOne minute they're happy, another they'll pout.\n\nThe teenagers would look, stare, and compare\n\nFrom how they look to what they wear.\n\nThe men would chat about their business\n\nThat they make more, but never less.\n\nMoney is always their subject\n\nAnd there's always talk of more new projects.\n\nThe women get tired from all of the chats\n\nThey head to the kitchen to set out the mats.\n\nSome would sit and some would stand\n\nEating and talking with plates in their hands.\n\nThen come the games and the songs\n\nAnd suddenly, everyone gets along!\n\nWith all that laughter, it's sad to say\n\nThat it always ends in the same old way.\n\nThey hug and kiss and say \"good-bye\"\n\nAnd then they all begin to cry!\n\nI say that 60 percent shed their tears\n\nBut my mom counted 35 people this year.\n\nShe said that boys and men will always have their pride,\n\nSo we won't ever see them cry.\n\nI myself don't think she's correct,\n\nSo could you please try this problem to see if you object?",
-     "solution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done. [/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see the table below) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course."
+     "solution": "[PARTS]\na. H0:p = 0.60\nb. Ha:p < 0.60\nc. Let P′ = the proportion of family members who shed tears at a reunion.\nd. normal for a single proportion\ne. –1.71\nf. 0.0438\ng. Check student’s solution.\nh. [PARTS] i. alpha: 0.05 ii. Decision: Reject the null hypothesis. iii. Reason for decision: p-value < alpha iv. Conclusion: At the 5% significance level, there is sufficient evidence to conclude that the proportion of family members who shed tears at a reunion is less than 0.60. However, the test is weak because the p-value and alpha are quite close, so other tests should be done. [/PARTS]\ni. We are 95% confident that between 38.29% and 61.71% of family members will shed tears at a family reunion. (0.3829, 0.6171). The“plus-4s” confidence interval (see Confidence Intervals) is (0.3861, 0.6139)\n[/PARTS]\n\nNote that here the “large-sample” 1 – PropZTest provides the approximate p-value of 0.0438. Whenever a p-value based on a normal approximation is close to the level of significance, the exact p-value based on binomial probabilities should be calculated whenever possible. This is beyond the scope of this course."
     },
     {
      "id": "ex2",
@@ -896,7 +896,7 @@
     {
      "id": "element-874",
      "problem": "According to New York City's Community Health Survey, the most recent adult smoking rate is 12%. Suppose that a survey is conducted to determine this year’s rate. Nine out of 70 randomly chosen N.Y. City residents reply that they smoke. Conduct a hypothesis test to determine if the rate is still 12% or if it has decreased.",
-     "solution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: The p-value is greater than 0.05. iv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14. [/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see the table below) is (0.0676, 0.2297).\n[/PARTS]"
+     "solution": "[PARTS]\na. H0:p = 0.12\nb. Ha:p < 0.12\nc. Let P^' = the proportion of NYC residents that smoke.\nd. Normal for a single proportion\ne. 0.2207\nf. p-value = 0.5873\ng. Answers may vary\nh. [PARTS] i. alpha 0.05 ii. Decision: Do not reject the null hypothesis. iii. Reason for Decision: The p-value is greater than 0.05. iv. At the 5% significance level, there is insufficient evidence to conclude that the proportion of NYC residents who smoke is less than 0.14. [/PARTS]\ni. Confidence interval: Confidence Interval: (0.0502, 0.2070): The “plus-4s” confidence interval (see Confidence Intervals) is (0.0676, 0.2297).\n[/PARTS]"
     },
     {
      "id": "element-767",

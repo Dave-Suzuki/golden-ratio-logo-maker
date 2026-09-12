@@ -3182,14 +3182,14 @@
    {
     "n": 30,
     "problem": "State the distribution for X.",
-    "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+    "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nUse the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
     "section": "Chapter 5",
     "solution": "B(10, 0.76)"
    },
    {
     "n": 31,
     "problem": "Find the probability that at least six are employed.",
-    "context": "Use the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
+    "context": "Use the following information to answer the next seven exercises: A recent study of mothers of junior high school children in Santa Clara County reported that 76% of the mothers are employed in paid positions. Of those mothers who are employed, 64% work full-time (over 35 hours per week), and 36% work part-time. However, out of all of the mothers in the population, 49% work full-time. The population under study is made up of mothers of junior high school children in Santa Clara County. Let E = employed and F = full-time employment.\n\nUse the following additional information to answer the next two exercises: We randomly pick ten mothers from the above population. We are interested in the number of the mothers that are employed. Let X = number of mothers that are employed.",
     "section": "Chapter 5",
     "solution": "0.9330"
    },
@@ -3466,7 +3466,7 @@
    },
    {
     "n": 57,
-    "problem": "Find the probability asked for in the table below.",
+    "problem": "Find the probability asked for in Question 56.",
     "context": "Use the following information to answer the next three exercises: Suppose that a sample of 15 randomly chosen people were put on a special weight loss diet. The amount of weight lost, in pounds, follows an unknown distribution with mean equal to 12 pounds and standard deviation equal to three pounds. Assume that the distribution for the weight loss is normal.",
     "section": "Chapter 8",
     "solution": "0.9951"
@@ -3515,7 +3515,7 @@
    },
    {
     "n": 62,
-    "problem": "Using the information in the table below, find the probability that the total time for all first accidents to occur is more than 43 hours.",
+    "problem": "Using the information in Question 61, find the probability that the total time for all first accidents to occur is more than 43 hours.",
     "section": "Chapter 8",
     "solution": "0.9990"
    },

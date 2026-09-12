@@ -17,6 +17,28 @@ describe('unquizzableReason', () => {
     for (const q of ok) expect(unquizzableReason(q), q.kind).toBeNull();
   });
 
+  it('rejects a question that leans on a neighbouring exercise', () => {
+    const sol = { kind: 'open', modelSolution: 'a sentence long enough to pass' } as const;
+    for (const stem of [
+      'Refer back to the pizza-delivery Try It exercise and find a 95% confidence interval.',
+      'Draw the graph from the exercise above and label the axes.',
+      'Why are X, Y and Z in the previous exercise random variables?',
+      'Find the probability that the sum falls between the numbers you found in the exercise above.',
+    ])
+      expect(unquizzableReason({ ...base, ...sol, stem }), stem).toMatch(/another exercise/);
+    // a scenario cannot rescue it: the sibling exercise is never on screen either way
+    expect(
+      unquizzableReason({ ...base, ...sol, stem: 'State the distribution from the exercise above.', context: 'A study of 100 mothers.' }),
+    ).toMatch(/another exercise/);
+  });
+
+  it('rejects a question whose setup was never shown, and keeps it when it was', () => {
+    const sol = { kind: 'open', modelSolution: 'a sentence long enough to pass' } as const;
+    const stem = 'Use the information in the example above to find the probability.';
+    expect(unquizzableReason({ ...base, ...sol, stem })).toMatch(/setup/);
+    expect(unquizzableReason({ ...base, ...sol, stem, context: 'A recent study reported that 76% of the mothers are employed.' })).toBeNull();
+  });
+
   it('rejects a fragment stem', () => {
     expect(unquizzableReason({ ...base, stem: 'population', kind: 'open', modelSolution: 'all adults' })).toMatch(/fragment/);
   });
@@ -100,6 +122,30 @@ describe('the shipped question bank', () => {
       expect((text.match(/\[TABLE\]/g) ?? []).length, q.id).toBe((text.match(/\[\/TABLE\]/g) ?? []).length);
       expect((text.match(/\[PARTS\]/g) ?? []).length, q.id).toBe((text.match(/\[\/PARTS\]/g) ?? []).length);
     }
+  });
+
+  it('carries the earlier scenario into an "additional information" block', () => {
+    // "We randomly pick ten mothers from the above population" — the population, and the 76%
+    // employment rate the answer B(10, 0.76) depends on, are defined in the preceding block.
+    const q = allQuestions().find((x) => x.id === 'rv5-30');
+    expect(q, 'rv5-30 missing from the bank').toBeDefined();
+    expect(q!.context).toMatch(/76% of the mothers are employed/);
+    expect(q!.context).toMatch(/ten mothers from the above population/);
+  });
+
+  it('keeps the wording of a cross-reference that has its own', () => {
+    // <link>Try It</link> used to be replaced wholesale, dropping a second determiner phrase
+    // inside the noun phrase: "the pizza-delivery the note above exercise".
+    const doubled = /\bthe [\w-]+ the (note|table|figure|example|exercise|equation) (above|below)\b/i;
+    const mangled = allQuestions().filter((q) => doubled.test(`${q.stem}\n${q.context ?? ''}`));
+    expect(mangled.map((q) => q.id)).toEqual([]);
+  });
+
+  it('asks nothing that points at material the learner cannot see', () => {
+    const dangling = allQuestions()
+      .filter(isQuizzable)
+      .filter((q) => /refers? back to|the (exercise|problem|question) above/i.test(`${q.stem}\n${q.context ?? ''}`));
+    expect(dangling.map((q) => q.id)).toEqual([]);
   });
 
   it('leaves every section able to fill a ten-question quiz', () => {

@@ -105,19 +105,19 @@
  },
  "3.3": {
   "mc": 6,
-  "numeric": 8,
+  "numeric": 10,
   "fill": 0,
   "tf": 2,
   "open": 30,
-  "total": 46
+  "total": 48
  },
  "3.4": {
   "mc": 15,
-  "numeric": 6,
+  "numeric": 4,
   "fill": 0,
   "tf": 0,
   "open": 37,
-  "total": 58
+  "total": 56
  },
  "3.5": {
   "mc": 1,

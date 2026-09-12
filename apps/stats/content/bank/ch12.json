@@ -729,7 +729,7 @@
   "sectionId": "12.6",
   "kind": "open",
   "conceptTag": "12.6",
-  "stem": "The data points for the graph from the the table below are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of ŷ when x = 10.",
+  "stem": "The data points for the graph from the third exam/final exam example are as follows: (1, 5), (2, 7), (2, 6), (3, 9), (4, 12), (4, 13), (5, 18), (6, 19), (7, 12), and (7, 21). Remove the outlier and recalculate the line of best fit. Find the value of ŷ when x = 10.",
   "source": "openstax-tryit",
   "sourceRef": {
    "module": "m47107",
