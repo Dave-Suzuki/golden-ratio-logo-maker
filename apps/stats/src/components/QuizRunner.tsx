@@ -52,6 +52,8 @@ export function QuizRunner() {
   /** shown when Check is pressed with no answer given */
   const [nudge, setNudge] = useState<string | null>(null);
   const nextRef = useRef<HTMLButtonElement>(null);
+  /** ids of questions rendered since this page loaded */
+  const shownRef = useRef(new Set<string>());
   const answerRef = useRef<HTMLInputElement | HTMLTextAreaElement | HTMLButtonElement | null>(null);
   const feedbackRef = useRef<HTMLDivElement>(null);
 
@@ -92,6 +94,7 @@ export function QuizRunner() {
     setOpen('');
     setNudge(null);
     if (!q) return;
+    shownRef.current.add(q.id);
     // a practice-test question is filed under the heading it follows, not the topic it tests
     void loadTeach(refresherSectionFor({ ...q, options: q.kind === 'mc' ? q.options : undefined })).then(setTeach);
     // preventScroll matters: without it, focusing an input below a long scenario
@@ -158,7 +161,9 @@ export function QuizRunner() {
 
   const total = session.test.questions.length;
   const previous = session.index > 0 ? session.test.questions[session.index - 1] : undefined;
-  const repeatedContext = Boolean(q.context && previous?.context && previous.context === q.context);
+  // "Same scenario as the previous question" is only true if that question was shown in this page
+  // load; after a reload or a quit-and-return there is no previous question on screen to refer to
+  const repeatedContext = Boolean(q.context && previous?.context && previous.context === q.context && shownRef.current.has(previous.id));
 
   return (
     <div className="mx-auto w-full max-w-3xl space-y-4">

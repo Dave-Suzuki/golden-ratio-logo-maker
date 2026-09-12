@@ -1,5 +1,5 @@
 import { grade } from './grade';
-import type { ConceptReview, Mastery, Profile, ProfileView, ProgressEvent, SectionId, Question } from './types';
+import type { ConceptReview, Given, Mastery, Profile, ProfileView, ProgressEvent, Question, SectionId } from './types';
 
 /**
  * What "a concept" is for the review loop. The bank tags every question with its section, and
@@ -8,6 +8,22 @@ import type { ConceptReview, Mastery, Profile, ProfileView, ProgressEvent, Secti
  * itself: a bank item by id, a generated item by its template (so a retest gets fresh numbers).
  * Each missed question has to be answered right twice before it is considered understood.
  */
+/** The learner's answer as they would say it. Options are shuffled per test, so a letter means nothing later. */
+export function describeGiven(q: Question, g: Given): string {
+  switch (g.kind) {
+    case 'mc':
+      return q.kind === 'mc' ? (q.options[g.index] ?? `option ${g.index + 1}`) : `option ${g.index + 1}`;
+    case 'numeric':
+      return g.raw;
+    case 'tf':
+      return g.value ? 'True' : 'False';
+    case 'fill':
+      return g.values.join(', ');
+    case 'open':
+      return g.selfMark === 'got' ? 'marked as got it' : g.selfMark === 'missed' ? 'marked as missed' : g.text;
+  }
+}
+
 export function conceptKey(q: Pick<Question, 'id' | 'source'>): string {
   return q.source === 'template' ? q.id.split('#')[0] ?? q.id : q.id;
 }
@@ -93,6 +109,7 @@ export function applyEvent(profile: Profile, ev: ProgressEvent): Profile {
         correctDisplay: result.correctDisplay,
         context: ev.context,
         scenario: ev.question.context ?? null,
+        givenDisplay: describeGiven(ev.question, ev.given),
       });
       const cr: ConceptReview = existing
         ? { ...existing, streak: 0, status: 'open', lastAt: at, misses: existing.misses + 1 }

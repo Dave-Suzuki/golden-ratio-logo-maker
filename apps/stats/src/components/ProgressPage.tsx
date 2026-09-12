@@ -86,7 +86,7 @@ export function ProgressPage() {
                   <p className="mt-1 line-clamp-3">{plainText(parseRich(m.stem), 300)}</p>
                   <p className="mt-1 text-xs">
                     <span className="opacity-60">your answer: </span>
-                    {describe(m.given)} <span className="opacity-60">· correct: </span>
+                    {m.givenDisplay ?? describe(m.given)} <span className="opacity-60">· correct: </span>
                     <span>{plainText(parseRich(m.correctDisplay), 200)}</span>
                   </p>
                   <button

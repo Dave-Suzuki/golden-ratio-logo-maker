@@ -177,6 +177,8 @@ export interface MistakeEntry {
   context: 'quiz' | 'review';
   /** the scenario the question was asked under, so the log entry can be checked on its own */
   scenario?: string | null;
+  /** the learner's answer as text: the option they chose, not its letter, which shuffling makes meaningless */
+  givenDisplay?: string;
 }
 
 export interface Attempt {

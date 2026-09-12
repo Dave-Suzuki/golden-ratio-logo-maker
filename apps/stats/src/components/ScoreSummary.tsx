@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { specToQuery, startQuiz } from '@/lib/actions';
+import { specToQuery } from '@/lib/actions';
 import { specLabel, useStats, type Session } from '@/lib/store';
 
 export function ScoreSummary({ session }: { session: Session }) {
@@ -49,9 +49,9 @@ export function ScoreSummary({ session }: { session: Session }) {
         )}
         {spec.scope !== 'review' && (
           <>
-            <button onClick={() => void startQuiz({ ...spec, seed: Math.floor(Math.random() * 1_000_000) })} className="rounded border border-[var(--line)] bg-white px-4 py-2">
+            <Link href={`/quiz?${specToQuery({ ...spec, seed: Math.floor(Math.random() * 1_000_000) })}`} className="rounded border border-[var(--line)] bg-white px-4 py-2">
               Retake with new questions
-            </button>
+            </Link>
             <Link href={`/print?${specToQuery(spec)}`} className="rounded border border-[var(--line)] bg-white px-4 py-2">
               Print this test
             </Link>

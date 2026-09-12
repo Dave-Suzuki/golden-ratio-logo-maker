@@ -54,7 +54,10 @@ function pickForSection(sectionId: string, quota: number, spec: TestSpec, src: C
 
   const autoPicks = rng.sample(auto, Math.max(0, quota - nT - nOpenTarget));
   out.push(...autoPicks);
-  const openPicks = rng.sample(open, Math.max(0, quota - out.length));
+  // A learner who asked for no worked problems gets none, even if that leaves the test short:
+  // the generator loop below tops up with fresh numbers, and a shorter test is honest where
+  // silently serving four open questions was not.
+  const openPicks = openShare > 0 ? rng.sample(open, Math.max(0, quota - out.length)) : [];
   out.push(...openPicks);
   // still short (few auto items)? use more templates with fresh seeds, then more open items
   while (out.length < quota && templates.length) {

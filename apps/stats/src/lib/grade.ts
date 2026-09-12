@@ -5,13 +5,16 @@ import { SYMBOL_GLYPHS, formatNumber } from './format';
 export function parseNumeric(raw: string): number | null {
   let s = raw.trim().toLowerCase();
   if (!s) return null;
-  s = s.replace(/^(≈|~|approx\.?|about|=)\s*/, '');
+  s = s.replace(/^(≈|~|approx\.?|about|=|x=|p=|z=)\s*/, '').replace(/^\+/, '');
   s = s.replace(/[$€£]/g, '').replace(/,/g, '').replace(/[−–]/g, '-').replace(/\s+/g, '');
   let pct = false;
   if (s.endsWith('%')) {
     pct = true;
     s = s.slice(0, -1);
   }
+  // "180.5 cm", "36 minutes", "12°": the unit the question itself used is not a wrong answer.
+  // Only a run of letters at the very end is stripped, so "1e5" and "3/8" are untouched.
+  s = s.replace(/(?<=\d)[a-z°]+\.?$/, '');
   const frac = s.match(/^(-?\d+(?:\.\d+)?)\/(-?\d+(?:\.\d+)?)$/);
   let v: number;
   if (frac) {
@@ -44,7 +47,8 @@ export function formatAnswer(q: Question): string {
       return pct ? `${formatNumber(q.answer)}%` : formatNumber(q.answer);
     }
     case 'fill':
-      return q.blanks.map((b) => `${b.label}: ${b.answer}`).join('; ');
+      // a label like "H0: μ" already carries its colon; "H0: μ: ≤" reads as a typo
+      return q.blanks.map((b) => `${b.label}${b.label.includes(':') ? ' ' : ': '}${b.answer}`).join('; ');
     case 'tf':
       return q.answer ? 'True' : 'False';
     case 'open':
@@ -73,6 +77,10 @@ export function grade(q: Question, given: Given): GradeResult {
       const perBlank = q.blanks.map((b, i) => {
         const v = normalizeSymbol(values[i] ?? '');
         const ok = [b.answer, ...(b.accept ?? [])].map(normalizeSymbol);
+        // OpenStax states a one-sided null as H0: μ ≤ 45 in one exercise and H0: μ = 45 in the
+        // next; both are standard, and the direction of the test lives in Ha. A learner who
+        // writes = for H0 is not wrong.
+        if (/^h_?0/i.test(b.label) && (ok.includes('≤') || ok.includes('≥'))) ok.push('=');
         return v.length > 0 && ok.includes(v);
       });
       return { correct: perBlank.every(Boolean), correctDisplay, perBlank };
